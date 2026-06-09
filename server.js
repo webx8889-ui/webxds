@@ -1,0 +1,2638 @@
+const http = require("http");
+const fs = require("fs");
+const fsp = require("fs/promises");
+const path = require("path");
+const crypto = require("crypto");
+const { URL } = require("url");
+
+const ROOT = __dirname;
+const DATA_DIR = path.join(ROOT, "data");
+const REPLAY_VIDEO_DIR = path.join(DATA_DIR, "replays");
+const STORE_PATH = path.join(DATA_DIR, "store.json");
+const ADMIN_MEDIA_DIR = path.join(ROOT, "assets", "images", "admin-content");
+const PORT = Number(process.env.PORT || 3000);
+const BASE_PATH = normalizeBasePath(process.env.BASE_PATH || "");
+const LIVE_WINDOW_MS = 45000;
+const SESSION_RETENTION_MS = 1000 * 60 * 60 * 24 * 7;
+const EVENT_RETENTION = 500;
+const REPLAY_RETENTION = 120;
+const REPLAY_EVENT_LIMIT = 30000;
+const ADMIN_SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7;
+
+const MIME_TYPES = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "application/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".gif": "image/gif",
+  ".webp": "image/webp",
+  ".ico": "image/x-icon",
+  ".mp4": "video/mp4",
+  ".woff": "font/woff",
+  ".woff2": "font/woff2",
+  ".txt": "text/plain; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8"
+};
+
+function normalizeBasePath(value) {
+  const cleaned = String(value || "").trim().replace(/\/+$/g, "");
+  if (!cleaned || cleaned === "/") return "";
+  return cleaned.startsWith("/") ? cleaned : `/${cleaned}`;
+}
+
+function stripBasePath(pathname) {
+  if (!BASE_PATH) return pathname;
+  if (pathname === BASE_PATH) return "/";
+  if (pathname.startsWith(`${BASE_PATH}/`)) return pathname.slice(BASE_PATH.length) || "/";
+  return null;
+}
+
+function rewriteHtmlForBasePath(html) {
+  if (!BASE_PATH) return html;
+  const prefixScript = `<script>(function(base){window.WEBX_BASE_PATH=base;function p(u){return typeof u==="string"&&u.charAt(0)==="/"&&u.slice(0,2)!=="//"?base+u:u}var f=window.fetch;if(f){window.fetch=function(input,init){if(typeof input==="string"){input=p(input)}return f.call(this,input,init)}}var b=navigator.sendBeacon;if(b){navigator.sendBeacon=function(url,data){return b.call(this,p(url),data)}}var X=window.XMLHttpRequest;if(X){var o=X.prototype.open;X.prototype.open=function(method,url){arguments[1]=p(url);return o.apply(this,arguments)}}var E=window.EventSource;if(E){window.EventSource=function(url,config){return new E(p(url),config)}}})(${JSON.stringify(BASE_PATH)});</script>`;
+  let output = html
+    .replace(/\b(href|src|action)=("|')\/(?!\/|#)/g, `$1=$2${BASE_PATH}/`)
+    .replace(/\bcontent=("|')\/(?!\/|#)/g, `content=$1${BASE_PATH}/`)
+    .replace(/url\((['"]?)\/(?!\/)/g, `url($1${BASE_PATH}/`);
+  if (!output.includes("window.WEBX_BASE_PATH")) {
+    output = output.replace("</head>", `${prefixScript}\n</head>`);
+  }
+  return output;
+}
+
+const sseClients = new Set();
+const adminSessions = new Map();
+
+fs.mkdirSync(REPLAY_VIDEO_DIR, { recursive: true });
+fs.mkdirSync(ADMIN_MEDIA_DIR, { recursive: true });
+
+function nowIso() {
+  return new Date().toISOString();
+}
+
+function readStore() {
+  try {
+    let raw = fs.readFileSync(STORE_PATH, "utf8");
+    if (raw.charCodeAt(0) === 0xfeff) {
+      raw = raw.slice(1);
+    }
+    return JSON.parse(raw);
+  } catch (error) {
+    console.error("Error reading store:", error.message);
+    return { settings: {}, pages: {}, services: [], leads: [], tracking: {} };
+  }
+}
+
+function writeStore(store) {
+  const tempPath = STORE_PATH + '.tmp';
+  const payload = JSON.stringify(store, null, 2);
+  try {
+    fs.writeFileSync(tempPath, payload, "utf8");
+    fs.renameSync(tempPath, STORE_PATH);
+  } catch (error) {
+    if (error && (error.code === "EACCES" || error.code === "EPERM")) {
+      fs.writeFileSync(STORE_PATH, payload, "utf8");
+      return;
+    }
+    throw error;
+  }
+}
+
+function sendJson(res, statusCode, payload) {
+  res.writeHead(statusCode, {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store"
+  });
+  res.end(JSON.stringify(payload));
+}
+
+function parseBody(req) {
+  return new Promise((resolve, reject) => {
+    let body = "";
+    req.on("data", chunk => {
+      body += chunk;
+      if (body.length > 15_000_000) {
+        reject(new Error("Payload too large"));
+        req.destroy();
+      }
+    });
+    req.on("end", () => {
+      if (!body) {
+        resolve({});
+        return;
+      }
+      try {
+        resolve(JSON.parse(body));
+      } catch (error) {
+        reject(error);
+      }
+    });
+    req.on("error", reject);
+  });
+}
+
+function parseBinaryBody(req, maxBytes = 25_000_000) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    let total = 0;
+    req.on("data", chunk => {
+      total += chunk.length;
+      if (total > maxBytes) {
+        reject(new Error("Payload too large"));
+        req.destroy();
+        return;
+      }
+      chunks.push(chunk);
+    });
+    req.on("end", () => resolve(Buffer.concat(chunks)));
+    req.on("error", reject);
+  });
+}
+
+function sanitizeText(value, fallback = "") {
+  return String(value == null ? fallback : value).trim();
+}
+
+function escapeHtml(value) {
+  return String(value == null ? "" : value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, "&#96;");
+}
+
+function escapeUrl(value, fallback = "#") {
+  const text = sanitizeText(value, fallback);
+  if (!text) return fallback;
+  if (/^(https?:|mailto:|tel:|\/|#)/i.test(text)) return text;
+  return fallback;
+}
+
+function saveAdminImageUpload(fileName, dataUrl) {
+  const match = String(dataUrl || "").match(/^data:image\/(png|jpeg|jpg|webp|gif);base64,(.+)$/i);
+  if (!match) throw new Error("Unsupported image format");
+  const extension = match[1].toLowerCase() === "jpeg" ? "jpg" : match[1].toLowerCase();
+  const buffer = Buffer.from(match[2], "base64");
+  if (!buffer.length) throw new Error("Empty image payload");
+  if (buffer.length > 8 * 1024 * 1024) throw new Error("Image too large. Please keep it under 8 MB.");
+  const baseName = sanitizeText(path.parse(String(fileName || "image")).name, "image")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 40) || "image";
+  const outputName = `${Date.now()}-${baseName}.${extension}`;
+  const absolutePath = path.join(ADMIN_MEDIA_DIR, outputName);
+  return fsp.writeFile(absolutePath, buffer).then(() => `/assets/images/admin-content/${outputName}`);
+}
+
+function cloneData(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function safeNumber(value, fallback = 0) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
+}
+
+function slugify(value) {
+  return sanitizeText(value, "item")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function normalizeUsername(value) {
+  return sanitizeText(value).toLowerCase();
+}
+
+function hashPassword(value) {
+  return crypto.createHash("sha256").update(`webx-admin:${sanitizeText(value)}`).digest("hex");
+}
+
+function createId(prefix) {
+  return `${prefix}-${crypto.randomBytes(4).toString("hex")}`;
+}
+
+function createSectionId(type) {
+  return createId(`home-${sanitizeText(type, "section").toLowerCase().replace(/[^a-z0-9]+/g, "-")}`);
+}
+
+function parseCookies(req) {
+  const raw = String(req.headers.cookie || "");
+  return raw.split(";").reduce((acc, entry) => {
+    const [key, ...rest] = entry.trim().split("=");
+    if (!key) return acc;
+    acc[key] = decodeURIComponent(rest.join("=") || "");
+    return acc;
+  }, {});
+}
+
+function serializeAdminUser(user) {
+  return {
+    id: user.id,
+    name: user.name,
+    username: user.username,
+    role: user.role,
+    status: user.status
+  };
+}
+
+function ensureAdminUsers(store) {
+  if (Array.isArray(store.settings.adminUsers) && store.settings.adminUsers.length) return;
+  store.settings.adminUsers = [
+    {
+      id: "admin-piyush",
+      name: "Piyush Gohil",
+      username: "piyush.gohil",
+      role: "Owner Admin",
+      passwordHash: hashPassword("PG@Webx2026!"),
+      status: "active"
+    },
+    {
+      id: "admin-harsh",
+      name: "Harsh Hariyani",
+      username: "harsh.hariyani",
+      role: "Developer Admin",
+      passwordHash: hashPassword("HH@Webx2026!"),
+      status: "active"
+    }
+  ];
+}
+
+function getPageKey(pathname) {
+  if (pathname === "/") return "home";
+  if (pathname.includes("/services")) return "services";
+  if (pathname.includes("/about")) return "about";
+  if (pathname.includes("/contact")) return "contact";
+  if (pathname.includes("/faq")) return "faq";
+  if (pathname.includes("/blog")) return "blogs";
+  return "home";
+}
+
+const GENERIC_PAGE_INCLUDE_PATHS = new Set([
+  "/pages/main/about.html",
+  "/pages/main/contact-page.html",
+  "/pages/main/faq.html",
+  "/pages/main/services.html",
+  "/pages/blogs/blogs.html",
+  "/pages/blogs/blog.html",
+  "/pages/blogs/blog-apple.html",
+  "/pages/blogs/blog-3.html",
+  "/pages/blogs/blog-4.html",
+  "/pages/legal/privacy-policy.html",
+  "/pages/legal/term-condition.html",
+  "/pages/system/service-form.html",
+  "/pages/system/thank-you-page.html"
+]);
+
+const GENERIC_PAGE_EXCLUDE_PATHS = new Set([
+  "/pages/main/work.html",
+  "/pages/system/admin-dashboard.html"
+]);
+
+function isAdminTrackingPath(urlPath) {
+  const normalized = normalizeUrlPath(urlPath).toLowerCase();
+  return normalized === "/pages/system/admin-dashboard.html" ||
+    normalized.startsWith("/admin") ||
+    normalized.includes("admin-dashboard") ||
+    normalized.startsWith("/api/admin");
+}
+
+function isPublicWebsitePath(urlPath) {
+  const normalized = normalizeUrlPath(urlPath).toLowerCase();
+  if (!normalized.endsWith(".html") && normalized !== "/") return false;
+  return !isAdminTrackingPath(normalized);
+}
+
+const EDITABLE_BODY_TAGS = new Set(["header", "footer", "section", "nav", "article", "aside"]);
+const VOID_TAGS = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"]);
+
+function normalizeUrlPath(filePath) {
+  return `/${String(filePath || "").replace(/\\/g, "/").replace(/^\/+/, "")}`;
+}
+
+function isGenericPagePath(urlPath) {
+  const normalized = normalizeUrlPath(urlPath);
+  if (!normalized.endsWith(".html")) return false;
+  if (!GENERIC_PAGE_INCLUDE_PATHS.has(normalized)) return false;
+  if (GENERIC_PAGE_EXCLUDE_PATHS.has(normalized)) return false;
+  return true;
+}
+
+function getGenericPageKey(urlPath) {
+  const normalized = normalizeUrlPath(urlPath);
+  if (normalized === "/pages/main/about.html") return "about";
+  if (normalized === "/pages/main/services.html") return "services";
+  if (normalized === "/pages/main/contact-page.html") return "contact";
+  if (normalized === "/pages/main/faq.html") return "faq";
+  if (normalized === "/pages/blogs/blogs.html") return "blogs";
+  return sanitizeText(path.posix.basename(normalized, ".html"), "page");
+}
+
+function getGenericPageName(urlPath) {
+  const baseName = sanitizeText(path.posix.basename(normalizeUrlPath(urlPath), ".html"), "page");
+  return baseName
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, match => match.toUpperCase());
+}
+
+function getGenericPageSummary(urlPath, sections = []) {
+  const folder = sanitizeText(path.posix.dirname(normalizeUrlPath(urlPath)).split("/").pop(), "website");
+  const sectionCount = sections.length;
+  return `${folder} page • ${sectionCount} editable section${sectionCount === 1 ? "" : "s"}`;
+}
+
+function listGenericPagePaths() {
+  return Array.from(GENERIC_PAGE_INCLUDE_PATHS).sort();
+}
+
+function readTagAt(html, startIndex) {
+  if (html[startIndex] !== "<" || html.startsWith("<!--", startIndex) || html.startsWith("</", startIndex)) return null;
+  let cursor = startIndex + 1;
+  while (cursor < html.length && /\s/.test(html[cursor])) cursor += 1;
+  const match = html.slice(cursor).match(/^([a-zA-Z0-9-]+)/);
+  if (!match) return null;
+  const tagName = match[1].toLowerCase();
+  let index = cursor + match[1].length;
+  let quote = "";
+  while (index < html.length) {
+    const character = html[index];
+    if (quote) {
+      if (character === quote) quote = "";
+    } else if (character === '"' || character === "'") {
+      quote = character;
+    } else if (character === ">") {
+      const raw = html.slice(startIndex, index + 1);
+      return {
+        tagName,
+        raw,
+        endIndex: index + 1,
+        selfClosing: /\/\s*>$/.test(raw) || VOID_TAGS.has(tagName)
+      };
+    }
+    index += 1;
+  }
+  return null;
+}
+
+function findElementEnd(html, startIndex) {
+  const openTag = readTagAt(html, startIndex);
+  if (!openTag) return null;
+  if (openTag.selfClosing) return { ...openTag, closeStart: openTag.endIndex, endIndex: openTag.endIndex };
+  const tagName = openTag.tagName;
+  let depth = 1;
+  let cursor = openTag.endIndex;
+  const lower = html.toLowerCase();
+  while (cursor < html.length) {
+    const nextOpen = lower.indexOf(`<${tagName}`, cursor);
+    const nextClose = lower.indexOf(`</${tagName}`, cursor);
+    if (nextClose === -1) break;
+    if (nextOpen !== -1 && nextOpen < nextClose) {
+      const nestedOpen = readTagAt(html, nextOpen);
+      if (!nestedOpen) {
+        cursor = nextOpen + 1;
+        continue;
+      }
+      cursor = nestedOpen.endIndex;
+      if (!nestedOpen.selfClosing) depth += 1;
+      continue;
+    }
+    const closeEnd = html.indexOf(">", nextClose);
+    if (closeEnd === -1) break;
+    depth -= 1;
+    cursor = closeEnd + 1;
+    if (depth === 0) {
+      return {
+        ...openTag,
+        closeStart: nextClose,
+        endIndex: closeEnd + 1
+      };
+    }
+  }
+  return {
+    ...openTag,
+    closeStart: html.length,
+    endIndex: html.length
+  };
+}
+
+function splitTopLevelBlocks(html) {
+  const blocks = [];
+  let cursor = 0;
+  while (cursor < html.length) {
+    if (html.startsWith("<!--", cursor)) {
+      const commentEnd = html.indexOf("-->", cursor);
+      const endIndex = commentEnd === -1 ? html.length : commentEnd + 3;
+      blocks.push({ type: "static", html: html.slice(cursor, endIndex) });
+      cursor = endIndex;
+      continue;
+    }
+    if (html[cursor] !== "<") {
+      const nextTag = html.indexOf("<", cursor);
+      const endIndex = nextTag === -1 ? html.length : nextTag;
+      blocks.push({ type: "static", html: html.slice(cursor, endIndex) });
+      cursor = endIndex;
+      continue;
+    }
+    const element = findElementEnd(html, cursor);
+    if (!element) {
+      blocks.push({ type: "static", html: html.slice(cursor, cursor + 1) });
+      cursor += 1;
+      continue;
+    }
+    blocks.push({
+      type: "element",
+      tagName: element.tagName,
+      html: html.slice(cursor, element.endIndex),
+      openTag: element.raw,
+      closeTag: element.selfClosing ? "" : html.slice(element.closeStart, element.endIndex),
+      innerHtml: element.selfClosing ? "" : html.slice(cursor + element.raw.length, element.closeStart)
+    });
+    cursor = element.endIndex;
+  }
+  return blocks;
+}
+
+function deriveSectionLabel(rawHtml, fallbackLabel) {
+  const ariaLabel = rawHtml.match(/\saria-label=["']([^"']+)["']/i);
+  if (ariaLabel && ariaLabel[1]) return sanitizeText(ariaLabel[1], fallbackLabel);
+  const heading = rawHtml.match(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/i);
+  if (heading && heading[1]) {
+    const text = sanitizeText(heading[1].replace(/<[^>]+>/g, " "), fallbackLabel);
+    if (text) return text;
+  }
+  const className = rawHtml.match(/\sclass=["']([^"']+)["']/i);
+  if (className && className[1]) {
+    const firstClass = sanitizeText(className[1].split(/\s+/)[0], "");
+    if (firstClass) {
+      return firstClass
+        .replace(/[-_]+/g, " ")
+        .replace(/\b\w/g, match => match.toUpperCase());
+    }
+  }
+  return fallbackLabel;
+}
+
+function normalizeGenericSection(section, index = 0) {
+  return {
+    id: sanitizeText(section?.id, createId("page-section")),
+    label: sanitizeText(section?.label, `Section ${index + 1}`),
+    enabled: section?.enabled !== false,
+    html: String(section?.html || "").trim()
+  };
+}
+
+function parseGenericPageTemplate(html, pageKey) {
+  const bodyMatch = html.match(/<body\b[^>]*>/i);
+  const bodyCloseIndex = html.search(/<\/body>/i);
+  if (!bodyMatch || bodyCloseIndex === -1) {
+    return {
+      templateStart: html,
+      templateEnd: "",
+      bodyLayout: [],
+      sections: []
+    };
+  }
+
+  const bodyStartIndex = bodyMatch.index + bodyMatch[0].length;
+  const bodyInner = html.slice(bodyStartIndex, bodyCloseIndex);
+  const topLevelBlocks = splitTopLevelBlocks(bodyInner);
+  const bodyLayout = [];
+  const sections = [];
+
+  const pushEditableSection = (block, fallbackLabel) => {
+    const section = normalizeGenericSection({
+      id: createId(`${pageKey}-section`),
+      label: deriveSectionLabel(block.html, fallbackLabel),
+      enabled: true,
+      html: block.html
+    }, sections.length);
+    sections.push(section);
+    bodyLayout.push({ type: "section", sectionId: section.id });
+  };
+
+  topLevelBlocks.forEach((block, blockIndex) => {
+    if (block.type !== "element") {
+      bodyLayout.push({ type: "static", html: block.html });
+      return;
+    }
+
+    if (block.tagName === "main") {
+      bodyLayout.push({ type: "static", html: block.openTag });
+      const innerBlocks = splitTopLevelBlocks(block.innerHtml || "");
+      innerBlocks.forEach((innerBlock, innerIndex) => {
+        if (innerBlock.type === "element" && EDITABLE_BODY_TAGS.has(innerBlock.tagName)) {
+          pushEditableSection(innerBlock, `Section ${sections.length + 1}`);
+          return;
+        }
+        bodyLayout.push({ type: "static", html: innerBlock.html });
+      });
+      bodyLayout.push({ type: "static", html: block.closeTag || "</main>" });
+      return;
+    }
+
+    if (EDITABLE_BODY_TAGS.has(block.tagName)) {
+      pushEditableSection(block, `${block.tagName.charAt(0).toUpperCase()}${block.tagName.slice(1)} ${blockIndex + 1}`);
+      return;
+    }
+
+    bodyLayout.push({ type: "static", html: block.html });
+  });
+
+  return {
+    templateStart: html.slice(0, bodyStartIndex),
+    templateEnd: html.slice(bodyCloseIndex),
+    bodyLayout,
+    sections
+  };
+}
+
+function extractTitle(html, fallback = "") {
+  const match = String(html || "").match(/<title>([\s\S]*?)<\/title>/i);
+  return sanitizeText(match ? match[1].replace(/<[^>]+>/g, " ") : "", fallback);
+}
+
+function extractMetaDescription(html, fallback = "") {
+  const match = String(html || "").match(/<meta\s+name=["']description["'][^>]*content=["']([\s\S]*?)["'][^>]*>/i);
+  return sanitizeText(match ? match[1] : "", fallback);
+}
+
+function replaceTitleAndMeta(html, title, meta) {
+  let output = String(html || "");
+  output = output.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);
+  if (/<meta\s+name=["']description["'][^>]*>/i.test(output)) {
+    output = output.replace(/<meta\s+name=["']description["'][^>]*>/i, `<meta name="description" content="${escapeAttr(meta)}" />`);
+  }
+  return output;
+}
+
+function createGenericPageRecord(urlPath, existingPage = null) {
+  const normalizedPath = normalizeUrlPath(urlPath);
+  const absolutePath = resolveProjectFilePath(normalizedPath);
+  const sourceHtml = fs.readFileSync(absolutePath, "utf8");
+  const pageKey = getGenericPageKey(normalizedPath);
+  const parsed = parseGenericPageTemplate(sourceHtml, pageKey);
+  const title = sanitizeText(existingPage?.title, extractTitle(sourceHtml, getGenericPageName(normalizedPath)));
+  const meta = sanitizeText(existingPage?.meta, extractMetaDescription(sourceHtml, ""));
+  const sections = Array.isArray(existingPage?.sections) && existingPage.sections.length
+    ? existingPage.sections.map((section, index) => normalizeGenericSection(section, index))
+    : parsed.sections.map((section, index) => normalizeGenericSection(section, index));
+
+  return {
+    editorType: "generic",
+    path: normalizedPath,
+    title,
+    meta,
+    displayName: sanitizeText(existingPage?.displayName, getGenericPageName(normalizedPath)),
+    summary: sanitizeText(existingPage?.summary, getGenericPageSummary(normalizedPath, sections)),
+    templateStart: String(existingPage?.templateStart || parsed.templateStart || ""),
+    templateEnd: String(existingPage?.templateEnd || parsed.templateEnd || ""),
+    bodyLayout: Array.isArray(existingPage?.bodyLayout) && existingPage.bodyLayout.length ? existingPage.bodyLayout : parsed.bodyLayout,
+    sections,
+    updatedAt: nowIso()
+  };
+}
+
+function ensureGenericPagesStructure(store) {
+  if (!store.pages) store.pages = {};
+  for (const pagePath of listGenericPagePaths()) {
+    const pageKey = getGenericPageKey(pagePath);
+    if (pageKey === "home" || pageKey === "work") continue;
+    store.pages[pageKey] = createGenericPageRecord(pagePath, store.pages[pageKey]);
+  }
+}
+
+function renderGenericPage(page) {
+  const sectionsById = new Map((page.sections || []).map(section => [section.id, section]));
+  const bodyHtml = (page.bodyLayout || []).map(part => {
+    if (part.type === "section") {
+      const section = sectionsById.get(part.sectionId);
+      if (!section || section.enabled === false) return "";
+      return section.html || "";
+    }
+    return String(part.html || "");
+  }).join("");
+  return replaceTitleAndMeta(`${page.templateStart || ""}${bodyHtml}${page.templateEnd || ""}`, page.title, page.meta);
+}
+
+async function writeGenericPageFile(page) {
+  const outputPath = resolveProjectFilePath(page.path);
+  await fsp.mkdir(path.dirname(outputPath), { recursive: true });
+  await fsp.writeFile(outputPath, renderGenericPage(page), "utf8");
+}
+
+function serializeAdminPage(page, pageKey) {
+  if (!page || typeof page !== "object") return page;
+  if (pageKey === "home") return page;
+  if (pageKey === "work") return page;
+  if (page.editorType === "generic") {
+    return {
+      editorType: "generic",
+      path: page.path,
+      title: page.title,
+      meta: page.meta,
+      displayName: page.displayName,
+      summary: page.summary,
+      updatedAt: page.updatedAt,
+      sections: (page.sections || []).map((section, index) => normalizeGenericSection(section, index))
+    };
+  }
+  return page;
+}
+
+function getDefaultHomeSections(store) {
+  return [
+    {
+      id: createSectionId("hero"),
+      type: "hero",
+      enabled: true,
+      title: store.pages?.home?.heroTitle || "DESIGN THAT MOVES PEOPLE",
+      subtitle: store.pages?.home?.heroSubtitle || "A UI/UX Design Studio Creating Thoughtful Digital Experiences for Brands and Products",
+      backgroundVideo: "/videos/home-background.mp4",
+      previewVideo: "/videos/logo-intro-wds.mp4",
+      thumbnailImage: "/assets/images/hero/hero-mockup.jpg",
+      thumbnailAlt: "Webx Design Studio - UI/UX design showreel thumbnail",
+      badgeText: "SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL •"
+    },
+    {
+      id: createSectionId("stats"),
+      type: "stats",
+      enabled: true,
+      items: [
+        { id: createId("stat"), value: "5", label: "Years of Studio Excellence" },
+        { id: createId("stat"), value: "11", label: "Products & Platforms Designed" },
+        { id: createId("stat"), value: "101", label: "Creative Deliverables Crafted" },
+        { id: createId("stat"), value: "10", label: "Industries Served Globally" }
+      ]
+    },
+    {
+      id: createSectionId("services"),
+      type: "services",
+      enabled: true,
+      label: "Core Services",
+      title: "Where Creativity Meets User Experience",
+      ctaText: "EXPLORE ALL EXPERTISE",
+      ctaUrl: "/pages/main/services.html",
+      items: (store.services || []).map(service => ({
+        id: service.id || createId("service"),
+        title: service.name,
+        description: service.shortDescription,
+        icon: service.icon,
+        iconAlt: `${service.name} service icon`,
+        ctaText: "GET INQUIRY",
+        ctaUrl: "/pages/system/service-form.html"
+      }))
+    },
+    {
+      id: createSectionId("work"),
+      type: "work",
+      enabled: true,
+      label: "Work",
+      title: "Creative Projects That Define Us",
+      ctaText: "VIEW ALL",
+      ctaUrl: "/pages/main/work.html",
+      items: [
+        { id: createId("work"), title: "Morphico Wallpapers & Murals", description: "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.", image: "/assets/images/work-card-mockup/morphico-mockup.png", imageAlt: "Morphico Wallpapers and Murals project mockup", url: "/pages/details/morphico-pdp.html" },
+        { id: createId("work"), title: "Arogya Bharat", description: "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.", image: "/assets/images/work-card-mockup/ab-mockup.png", imageAlt: "Arogya Bharat project mockup", url: "/pages/details/ab-pdp.html" },
+        { id: createId("work"), title: "Tictax", description: "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.", image: "/assets/images/work-card-mockup/tictax-mockup.png", imageAlt: "Tictax project mockup", url: "/pages/details/tictax-pdp.html" },
+        { id: createId("work"), title: "Dharmesh Enterprise", description: "Developed a responsive management experience that simplified inventory and billing workflows.", image: "/assets/images/work-card-mockup/de-mockup.png", imageAlt: "Dharmesh Enterprise project mockup", url: "/pages/details/de-pdp.html" },
+        { id: createId("work"), title: "Mecon", description: "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.", image: "/assets/images/work-card-mockup/mecon-logo.png", imageAlt: "Mecon project identity", url: "/pages/details/mecon-pdp.html" },
+        { id: createId("work"), title: "Gurukrupa", description: "Forged a precision-led brand framework that unified a diverse industrial catalog.", image: "/assets/images/work-card-mockup/gurukrupa-mockup.png", imageAlt: "Gurukrupa project mockup", url: "/pages/details/gurukrupa-pdp.html" },
+        { id: createId("work"), title: "Manglam", description: "Modernized financial consultancy through a strategic identity built for stability and growth.", image: "/assets/images/work-card-mockup/mangalam-mockup.png", imageAlt: "Manglam project mockup", url: "/pages/details/manglam-pdp.html" }
+      ]
+    },
+    {
+      id: createSectionId("clients"),
+      type: "clients",
+      enabled: true,
+      label: "Clients",
+      title: "We've Worked With Amazing People",
+      items: [
+        { id: createId("client"), image: "/assets/images/clients/bajaj-logo.png", alt: "Bajaj" },
+        { id: createId("client"), image: "/assets/images/logos/ab-logo.png", alt: "Arogya Bharat" },
+        { id: createId("client"), image: "/assets/images/clients/manglam-logo.png", alt: "Manglam" },
+        { id: createId("client"), image: "/assets/images/clients/de-logo.png", alt: "Dharmesh Enterprise" },
+        { id: createId("client"), image: "/assets/images/clients/morphico-logo.png", alt: "Morphico" },
+        { id: createId("client"), image: "/assets/images/clients/mecon-logo.png", alt: "Mecon" },
+        { id: createId("client"), image: "/assets/images/clients/tictax-logo.png", alt: "Tictax" },
+        { id: createId("client"), image: "/assets/images/clients/gurukrupa-logo.png", alt: "Gurukrupa" }
+      ]
+    },
+    {
+      id: createSectionId("testimonials"),
+      type: "testimonials",
+      enabled: true,
+      label: "The Impact",
+      title: "From vision to real results, a team that delivers consistently",
+      items: [
+        { id: createId("testimonial"), quote: "Webx Design Studio stands out for its ability to combine healthcare expertise with creative thinking. A truly dependable team.", authorName: "Irfan N. Shaikh", authorTitle: "Founder, Arogya Bharat", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Irfan N. Shaikh", brandLogo: "/assets/images/logos/ab-logo-1.png", brandLogoAlt: "Arogya Bharat Logo" },
+        { id: createId("testimonial"), quote: "Working with the team transformed our digital presence completely. The collaboration was smooth, timely, and exceeded expectations.", authorName: "Archit Sankhe", authorTitle: "Founder, Morphico", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Archit Sankhe", brandLogo: "/assets/images/clients/morphico-logo.png", brandLogoAlt: "Morphico Logo" },
+        { id: createId("testimonial"), quote: "Exceptional creativity paired with technical excellence. Their professionalism made this project a success.", authorName: "Ashay Khandhar", authorTitle: "Founder, Tictax", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Ashay Khandhar", brandLogo: "/assets/images/clients/tictax-logo.png", brandLogoAlt: "Tictax Logo" }
+      ]
+    },
+    {
+      id: createSectionId("blogs"),
+      type: "blogs",
+      enabled: true,
+      label: "Today's Blogs",
+      title: "Check out our blog for the latest tips, tricks, and happenings in business and design.",
+      items: [
+        { id: createId("blog"), title: "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026", image: "/assets/images/blogs/blog-img-1.png", imageAlt: "AI-Driven Personalization blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Interfaces can now adapt content, layout, and navigation in real time based on behavior and intent.", url: "/pages/blogs/blog.html", tags: ["ai powered user interfaces", "does ux affect seo", "2026 ux ui design trends"] },
+        { id: createId("blog"), title: "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026", image: "/assets/images/blogs/blog-img-2.png", imageAlt: "Apple Design Study blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Apple continues to set the bar for how digital products should look, feel, and behave.", url: "/pages/blogs/blog-apple.html", tags: ["apple design study", "apple ux case study", "ios design principles"] },
+        { id: createId("blog"), title: "How to Design a High-Converting Landing Page in 2026: UX & CRO Complete Guide", image: "/assets/images/blogs/blog-img-3.png", imageAlt: "Landing page design blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Your landing page is often the final gateway between user interest and real business action.", url: "/pages/blogs/blog-3.html", tags: ["high converting landing page", "landing page ux design", "conversion rate optimization"] },
+        { id: createId("blog"), title: "10 Signs It's Time to Redesign Your Website in 2026: Full Redesign Checklist", image: "/assets/images/blogs/blog-img-4.png", imageAlt: "Website redesign blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Most businesses redesign too late after losing traffic, leads, and revenue quietly over time.", url: "/pages/blogs/blog-4.html", tags: ["website redesign 2026", "when to redesign website", "website redesign checklist"] }
+      ]
+    },
+    {
+      id: createSectionId("faq"),
+      type: "faq",
+      enabled: true,
+      label: "Frequently Asked Questions",
+      title: "Find answers to common questions about our services",
+      items: [
+        { id: createId("faq"), question: "What does a UI/UX design agency actually do?", answer: "We handle user research, wireframes, UX strategy, and final visual design for websites and apps.", open: true },
+        { id: createId("faq"), question: "How does better UI/UX design help my business?", answer: "It improves how users feel and connect with your brand while lifting engagement and conversions." },
+        { id: createId("faq"), question: "Do you work with early-stage startups?", answer: "Yes. We help early ideas turn into refined design systems built for growth." },
+        { id: createId("faq"), question: "What industries do you specialize in?", answer: "We have served healthcare, fintech, e-commerce, and corporate platforms across multiple industries." },
+        { id: createId("faq"), question: "Can you help with custom tools like SaaS dashboards?", answer: "Absolutely. We design dashboards and internal tools built for usability and scale." },
+        { id: createId("faq"), question: "What tools and methods do you use?", answer: "We blend modern design thinking with emerging technology like AI and human-centered workflows." }
+      ]
+    },
+    {
+      id: createSectionId("cta"),
+      type: "cta",
+      enabled: true,
+      title: store.pages?.home?.ctaTitle || "Ready to build something meaningful?",
+      buttonText: "START YOUR PROJECT",
+      buttonUrl: "/pages/main/contact-page.html"
+    }
+  ];
+}
+
+function getDefaultSectionTemplate(type) {
+  const section = getDefaultHomeSections({ pages: { home: {} }, services: [] }).find(item => item.type === sanitizeText(type).toLowerCase());
+  return section ? cloneData(section) : null;
+}
+
+function getHomeServiceItemsFromStore(store) {
+  return (store.services || []).map((service, index) => normalizeHomeItem("services", {
+    id: service.id || createId("service"),
+    title: service.name,
+    description: service.shortDescription,
+    icon: service.icon,
+    iconAlt: service.iconAlt,
+    ctaText: service.ctaText || "GET INQUIRY",
+    ctaUrl: service.ctaUrl || "/pages/system/service-form.html"
+  }, index));
+}
+
+function normalizeHomeItem(type, item, index = 0) {
+  const fallbackId = createId(`${type}-item`);
+  if (type === "stats") return { id: sanitizeText(item.id, fallbackId), value: sanitizeText(item.value || item.number, "0"), label: sanitizeText(item.label, `Stat ${index + 1}`) };
+  if (type === "services") return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title || item.name, `Service ${index + 1}`), description: sanitizeText(item.description || item.shortDescription, ""), icon: escapeUrl(item.icon, "/assets/images/icons/webx-icon.svg"), iconAlt: sanitizeText(item.iconAlt, "Service icon"), ctaText: sanitizeText(item.ctaText, "GET INQUIRY"), ctaUrl: escapeUrl(item.ctaUrl, "/pages/system/service-form.html") };
+  if (type === "work") return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Project ${index + 1}`), description: sanitizeText(item.description, ""), image: escapeUrl(item.image, "/assets/images/others/work.png"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Project")), url: escapeUrl(item.url, "#") };
+  if (type === "clients") return { id: sanitizeText(item.id, fallbackId), image: escapeUrl(item.image, "/assets/images/logos/webx-logo.svg"), alt: sanitizeText(item.alt, `Client ${index + 1}`) };
+  if (type === "testimonials") return { id: sanitizeText(item.id, fallbackId), quote: sanitizeText(item.quote, ""), authorName: sanitizeText(item.authorName, `Client ${index + 1}`), authorTitle: sanitizeText(item.authorTitle, ""), authorImage: escapeUrl(item.authorImage, "/assets/images/blogs/auther-imag-ab.png"), authorImageAlt: sanitizeText(item.authorImageAlt, sanitizeText(item.authorName, "Client")), brandLogo: escapeUrl(item.brandLogo, "/assets/images/logos/webx-logo.svg"), brandLogoAlt: sanitizeText(item.brandLogoAlt, "Brand logo") };
+  if (type === "blogs") {
+    const tags = Array.isArray(item.tags) ? item.tags : String(item.tags || "").split(",").map(entry => entry.trim()).filter(Boolean);
+    return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Blog ${index + 1}`), image: escapeUrl(item.image, "/assets/images/others/home.png"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Blog")), dateLabel: sanitizeText(item.dateLabel, ""), dateValue: sanitizeText(item.dateValue, ""), excerpt: sanitizeText(item.excerpt, ""), url: escapeUrl(item.url, "#"), tags };
+  }
+  if (type === "faq") return { id: sanitizeText(item.id, fallbackId), question: sanitizeText(item.question, `Question ${index + 1}`), answer: sanitizeText(item.answer, ""), open: !!item.open };
+  return { id: sanitizeText(item.id, fallbackId) };
+}
+
+function normalizeHomeSection(section) {
+  const type = sanitizeText(section?.type, "hero").toLowerCase();
+  const normalized = { id: sanitizeText(section?.id, createSectionId(type)), type, enabled: section?.enabled !== false };
+  if (type === "hero") {
+    normalized.title = sanitizeText(section.title, "DESIGN THAT MOVES PEOPLE");
+    normalized.subtitle = sanitizeText(section.subtitle, "");
+    normalized.backgroundVideo = escapeUrl(section.backgroundVideo, "/videos/home-background.mp4");
+    normalized.previewVideo = escapeUrl(section.previewVideo, "/videos/logo-intro-wds.mp4");
+    normalized.thumbnailImage = escapeUrl(section.thumbnailImage, "/assets/images/hero/hero-mockup.jpg");
+    normalized.thumbnailAlt = sanitizeText(section.thumbnailAlt, "Webx Design Studio - UI/UX design showreel thumbnail");
+    normalized.badgeText = sanitizeText(section.badgeText, "SHOWREEL • SHOWREEL • SHOWREEL •");
+    return normalized;
+  }
+  if (type === "cta") {
+    normalized.title = sanitizeText(section.title, "Ready to build something meaningful?");
+    normalized.buttonText = sanitizeText(section.buttonText, "START YOUR PROJECT");
+    normalized.buttonUrl = escapeUrl(section.buttonUrl, "/pages/main/contact-page.html");
+    return normalized;
+  }
+  normalized.label = sanitizeText(section.label, "");
+  normalized.title = sanitizeText(section.title, "");
+  normalized.subtitle = sanitizeText(section.subtitle, "");
+  normalized.ctaText = sanitizeText(section.ctaText, "");
+  normalized.ctaUrl = escapeUrl(section.ctaUrl, "#");
+  normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => normalizeHomeItem(type, item, index));
+  return normalized;
+}
+
+function ensureHomePageStructure(store) {
+  if (!store.pages) store.pages = {};
+  if (!store.pages.home) store.pages.home = {};
+  const home = store.pages.home;
+  home.sections = Array.isArray(home.sections) && home.sections.length
+    ? home.sections.map(section => normalizeHomeSection(section))
+    : getDefaultHomeSections(store);
+  const servicesSection = home.sections.find(section => section.type === "services");
+  if (servicesSection && (!Array.isArray(servicesSection.items) || servicesSection.items.length === 0)) {
+    servicesSection.items = getHomeServiceItemsFromStore(store);
+  }
+  if (!Array.isArray(home.undoStack)) home.undoStack = [];
+}
+
+function pushHomeUndoSnapshot(home) {
+  const snapshot = {
+    title: home.title,
+    meta: home.meta,
+    heroTitle: home.heroTitle,
+    heroSubtitle: home.heroSubtitle,
+    ctaTitle: home.ctaTitle,
+    ctaSubtitle: home.ctaSubtitle,
+    sections: cloneData(home.sections || []),
+    createdAt: nowIso()
+  };
+  home.undoStack = [snapshot, ...(home.undoStack || [])].slice(0, 20);
+}
+
+function getDefaultWorkProjectSections(projectTitle = "New Project") {
+  return [
+    {
+      id: createId("work-section"),
+      type: "hero",
+      enabled: true,
+      title: projectTitle,
+      subtitle: "Describe the product, transformation, and business outcome for this project.",
+      heroImage: "/assets/images/others/work.png",
+      heroImageAlt: `${projectTitle} hero image`
+    },
+    {
+      id: createId("work-section"),
+      type: "about",
+      enabled: true,
+      title: `About ${projectTitle}`,
+      description: "Add project overview, challenge, and design approach here.",
+      industry: "Industry",
+      year: "2026",
+      services: "UI UX Design"
+    },
+    {
+      id: createId("work-section"),
+      type: "challenge-solution",
+      enabled: true,
+      challengeTitle: "The Challenge",
+      solutionTitle: "The Solution",
+      challengeItems: [
+        { id: createId("work-challenge"), title: "Challenge one", description: "Add the first challenge point here." },
+        { id: createId("work-challenge"), title: "Challenge two", description: "Add the second challenge point here." }
+      ],
+      solutionItems: [
+        { id: createId("work-solution"), title: "Solution one", description: "Add the first solution point here." },
+        { id: createId("work-solution"), title: "Solution two", description: "Add the second solution point here." }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "comparison",
+      enabled: true,
+      beforeLabel: "UX",
+      afterLabel: "UI",
+      beforeImage: "/assets/images/others/work.png",
+      beforeImageAlt: `${projectTitle} before image`,
+      afterImage: "/assets/images/others/work.png",
+      afterImageAlt: `${projectTitle} after image`,
+      background: "#1f1f1f"
+    },
+    {
+      id: createId("work-section"),
+      type: "visual-identity",
+      enabled: true,
+      label: "Visual Identity",
+      title: "Build a consistent visual language for the brand",
+      items: [
+        { id: createId("work-vi"), image: "/assets/images/others/work.png", alt: `${projectTitle} visual identity`, title: "Colour Style", description: "Add description here." },
+        { id: createId("work-vi"), image: "/assets/images/others/work.png", alt: `${projectTitle} visual identity`, title: "Typography", description: "Add description here." }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "design-system",
+      enabled: true,
+      label: "Design System",
+      title: "Document the interface system and components",
+      image: "/assets/images/others/work.png",
+      imageAlt: `${projectTitle} design system`
+    },
+    {
+      id: createId("work-section"),
+      type: "web-ui",
+      enabled: true,
+      label: "Web UI",
+      title: "Showcase the web experience",
+      items: [
+        { id: createId("work-webui"), image: "/assets/images/others/work.png", alt: `${projectTitle} web ui` }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "mobile-ui",
+      enabled: true,
+      label: "Mobile UI",
+      title: "Showcase the mobile experience",
+      items: [
+        { id: createId("work-mobileui"), image: "/assets/images/others/work.png", alt: `${projectTitle} mobile ui` }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "impact",
+      enabled: true,
+      label: "Impact & Achievements",
+      title: "From vision to impact - a team that delivers consistently",
+      quote: "Add testimonial or project impact statement here.",
+      author: "Client Name",
+      role: "Role / Company",
+      authorImage: "/assets/images/others/work.png",
+      authorImageAlt: `${projectTitle} author`,
+      brandLogo: "/assets/images/others/work.png",
+      brandLogoAlt: `${projectTitle} logo`
+    },
+    {
+      id: createId("work-section"),
+      type: "stats",
+      enabled: true,
+      title: "Key Outcomes",
+      items: [
+        { id: createId("work-stat"), value: "01", label: "Outcome one" },
+        { id: createId("work-stat"), value: "02", label: "Outcome two" },
+        { id: createId("work-stat"), value: "03", label: "Outcome three" }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "gallery",
+      enabled: true,
+      title: "Project Gallery",
+      items: [
+        { id: createId("work-gallery"), image: "/assets/images/others/work.png", alt: `${projectTitle} gallery image`, caption: "Add caption" }
+      ]
+    },
+    {
+      id: createId("work-section"),
+      type: "cta",
+      enabled: true,
+      title: "Want a case study page like this?",
+      buttonText: "Start Your Project",
+      buttonUrl: "/pages/main/contact-page.html"
+    }
+  ];
+}
+
+function normalizeWorkSection(section) {
+  const type = sanitizeText(section?.type, "about").toLowerCase();
+  const normalized = { id: sanitizeText(section?.id, createId("work-section")), type, enabled: section?.enabled !== false };
+  if (type === "hero") {
+    normalized.title = sanitizeText(section.title, "Project Hero Title");
+    normalized.subtitle = sanitizeText(section.subtitle, "Project hero subtitle");
+    normalized.heroImage = escapeUrl(section.heroImage, "/assets/images/others/work.png");
+    normalized.heroImageAlt = sanitizeText(section.heroImageAlt, normalized.title);
+    return normalized;
+  }
+  if (type === "about" || type === "story") {
+    normalized.type = "about";
+    normalized.title = sanitizeText(section.title, "About Project");
+    normalized.description = sanitizeText(section.description || section.content, "");
+    normalized.industry = sanitizeText(section.industry, "Industry");
+    normalized.year = sanitizeText(section.year, "2026");
+    normalized.services = sanitizeText(section.services, "UI UX Design");
+    return normalized;
+  }
+  if (type === "challenge-solution") {
+    normalized.challengeTitle = sanitizeText(section.challengeTitle, "The Challenge");
+    normalized.solutionTitle = sanitizeText(section.solutionTitle, "The Solution");
+    normalized.challengeItems = (Array.isArray(section.challengeItems) ? section.challengeItems : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-challenge")),
+      title: sanitizeText(item.title, `Challenge ${index + 1}`),
+      description: sanitizeText(item.description, "")
+    }));
+    normalized.solutionItems = (Array.isArray(section.solutionItems) ? section.solutionItems : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-solution")),
+      title: sanitizeText(item.title, `Solution ${index + 1}`),
+      description: sanitizeText(item.description, "")
+    }));
+    return normalized;
+  }
+  if (type === "comparison") {
+    normalized.beforeLabel = sanitizeText(section.beforeLabel, "UX");
+    normalized.afterLabel = sanitizeText(section.afterLabel, "UI");
+    normalized.beforeImage = escapeUrl(section.beforeImage, "/assets/images/others/work.png");
+    normalized.beforeImageAlt = sanitizeText(section.beforeImageAlt, "Before image");
+    normalized.afterImage = escapeUrl(section.afterImage, "/assets/images/others/work.png");
+    normalized.afterImageAlt = sanitizeText(section.afterImageAlt, "After image");
+    normalized.background = sanitizeText(section.background, "#1f1f1f");
+    return normalized;
+  }
+  if (type === "visual-identity") {
+    normalized.label = sanitizeText(section.label, "Visual Identity");
+    normalized.title = sanitizeText(section.title, "Visual Identity");
+    normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-vi")),
+      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      alt: sanitizeText(item.alt, `Visual identity image ${index + 1}`),
+      title: sanitizeText(item.title, `Card ${index + 1}`),
+      description: sanitizeText(item.description, "")
+    }));
+    return normalized;
+  }
+  if (type === "design-system") {
+    normalized.label = sanitizeText(section.label, "Design System");
+    normalized.title = sanitizeText(section.title, "Design System");
+    normalized.image = escapeUrl(section.image, "/assets/images/others/work.png");
+    normalized.imageAlt = sanitizeText(section.imageAlt, normalized.title);
+    return normalized;
+  }
+  if (type === "web-ui" || type === "mobile-ui") {
+    normalized.label = sanitizeText(section.label, type === "web-ui" ? "Web UI" : "Mobile UI");
+    normalized.title = sanitizeText(section.title, normalized.label);
+    normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-ui")),
+      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      alt: sanitizeText(item.alt, `${normalized.label} image ${index + 1}`)
+    }));
+    return normalized;
+  }
+  if (type === "impact") {
+    normalized.label = sanitizeText(section.label, "Impact & Achievements");
+    normalized.title = sanitizeText(section.title, "From vision to impact");
+    normalized.quote = sanitizeText(section.quote, "");
+    normalized.author = sanitizeText(section.author, "");
+    normalized.role = sanitizeText(section.role, "");
+    normalized.authorImage = escapeUrl(section.authorImage, "/assets/images/others/work.png");
+    normalized.authorImageAlt = sanitizeText(section.authorImageAlt, normalized.author || "Author");
+    normalized.brandLogo = escapeUrl(section.brandLogo, "/assets/images/others/work.png");
+    normalized.brandLogoAlt = sanitizeText(section.brandLogoAlt, "Brand logo");
+    return normalized;
+  }
+  if (type === "stats") {
+    normalized.title = sanitizeText(section.title, "Project Outcomes");
+    normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-stat")),
+      value: sanitizeText(item.value, `${index + 1}`),
+      label: sanitizeText(item.label, `Outcome ${index + 1}`)
+    }));
+    return normalized;
+  }
+  if (type === "gallery") {
+    normalized.title = sanitizeText(section.title, "Project Gallery");
+    normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
+      id: sanitizeText(item.id, createId("work-gallery")),
+      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      alt: sanitizeText(item.alt, `Gallery image ${index + 1}`),
+      caption: sanitizeText(item.caption, "")
+    }));
+    return normalized;
+  }
+  if (type === "quote") {
+    normalized.quote = sanitizeText(section.quote, "");
+    normalized.author = sanitizeText(section.author, "");
+    normalized.role = sanitizeText(section.role, "");
+    return normalized;
+  }
+  if (type === "cta") {
+    normalized.title = sanitizeText(section.title, "Ready to start your project?");
+    normalized.buttonText = sanitizeText(section.buttonText, "Contact Us");
+    normalized.buttonUrl = escapeUrl(section.buttonUrl, "/pages/main/contact-page.html");
+    return normalized;
+  }
+  normalized.title = sanitizeText(section.title, "Custom HTML Section");
+  normalized.html = String(section.html || "").trim();
+  return normalized;
+}
+
+function readStaticPdpHtml(urlPath) {
+  try {
+    const relativePath = String(urlPath || "").replace(/^\/+/, "").replace(/\//g, path.sep);
+    return fs.readFileSync(path.join(ROOT, relativePath), "utf8");
+  } catch {
+    return "";
+  }
+}
+
+function getDefaultWorkProjects(store) {
+  const workSection = getDefaultHomeSections(store).find(section => section.type === "work");
+  const items = workSection && Array.isArray(workSection.items) ? workSection.items : [];
+  return items.map((item, index) => {
+    const fileName = path.basename(item.url || `project-${index + 1}.html`, ".html");
+    const rawHtml = readStaticPdpHtml(item.url);
+    return {
+      id: createId("work-project"),
+      slug: sanitizeText(fileName, `project-${index + 1}`),
+      path: sanitizeText(item.url, `/pages/details/${fileName}.html`),
+      status: "live",
+      mode: rawHtml ? "raw" : "builder",
+      cardTitle: sanitizeText(item.title, `Project ${index + 1}`),
+      category: "Case Study",
+      summary: sanitizeText(item.description, ""),
+      thumbnailImage: escapeUrl(item.image, "/assets/images/others/work.png"),
+      thumbnailAlt: sanitizeText(item.imageAlt, item.title || `Project ${index + 1}`),
+      metaTitle: sanitizeText(`${item.title} | Webx Design Studio`, `Project ${index + 1} | Webx Design Studio`),
+      metaDescription: sanitizeText(item.description, ""),
+      rawHtml,
+      sections: getDefaultWorkProjectSections(item.title || `Project ${index + 1}`),
+      createdAt: nowIso(),
+      updatedAt: nowIso()
+    };
+  });
+}
+
+function normalizeWorkProject(project, index = 0) {
+  const safeTitle = sanitizeText(project.cardTitle || project.title, `Project ${index + 1}`);
+  const safeSlug = sanitizeText(project.slug, slugify(safeTitle)).toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "") || `project-${index + 1}`;
+  const normalized = {
+    id: sanitizeText(project.id, createId("work-project")),
+    slug: safeSlug,
+    path: `/pages/details/${safeSlug}.html`,
+    status: sanitizeText(project.status, "live"),
+    mode: sanitizeText(project.mode, project.rawHtml ? "raw" : "builder") === "raw" ? "raw" : "builder",
+    cardTitle: safeTitle,
+    category: sanitizeText(project.category, "Case Study"),
+    summary: sanitizeText(project.summary, ""),
+    thumbnailImage: escapeUrl(project.thumbnailImage, "/assets/images/others/work.png"),
+    thumbnailAlt: sanitizeText(project.thumbnailAlt, safeTitle),
+    metaTitle: sanitizeText(project.metaTitle, `${safeTitle} | Webx Design Studio`),
+    metaDescription: sanitizeText(project.metaDescription, project.summary || ""),
+    rawHtml: String(project.rawHtml || "").trim(),
+    sections: (Array.isArray(project.sections) ? project.sections : []).map(section => normalizeWorkSection(section)),
+    createdAt: sanitizeText(project.createdAt, nowIso()),
+    updatedAt: nowIso()
+  };
+  if (!normalized.sections.length) normalized.sections = getDefaultWorkProjectSections(safeTitle).map(section => normalizeWorkSection(section));
+  return normalized;
+}
+
+function ensureWorkPageStructure(store) {
+  if (!store.pages) store.pages = {};
+  if (!store.pages.work) store.pages.work = {};
+  const work = store.pages.work;
+  work.title = sanitizeText(work.title, "Work - Webx Design Studio");
+  work.meta = sanitizeText(work.meta, "Portfolio of creative projects - Morphico, Arogya Bharat, Tictax and more.");
+  work.projects = Array.isArray(work.projects) && work.projects.length
+    ? work.projects.map((project, index) => normalizeWorkProject(project, index))
+    : getDefaultWorkProjects(store).map((project, index) => normalizeWorkProject(project, index));
+}
+
+function injectDynamicSnippet(content, store, urlPath = "/") {
+  const snippet = isPublicWebsitePath(urlPath) ? buildClaritySnippet(store) : "";
+  if (snippet && !content.includes("https://www.clarity.ms/tag/")) {
+    return content.replace("</head>", `${snippet}\n</head>`);
+  }
+  return content;
+}
+
+function renderWorkProjectSections(project) {
+  return (project.sections || []).filter(section => section.enabled !== false).map(section => {
+    if (section.type === "hero") {
+      return `<section class="work-pdp-hero"><div class="work-pdp-hero-media"><img src="${escapeAttr(section.heroImage)}" alt="${escapeAttr(section.heroImageAlt)}" /></div><div class="work-pdp-shell"><div class="work-pdp-hero-copy"><p class="work-pdp-kicker">Project Detail</p><h1>${escapeHtml(section.title)}</h1><p>${escapeHtml(section.subtitle)}</p></div></div></section>`;
+    }
+    if (section.type === "about") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell work-pdp-block"><h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.description).replace(/\n/g, "<br />")}</p><div class="work-pdp-meta-grid"><div class="work-pdp-meta-card"><strong>Industries</strong><span>${escapeHtml(section.industry)}</span></div><div class="work-pdp-meta-card"><strong>Year</strong><span>${escapeHtml(section.year)}</span></div><div class="work-pdp-meta-card"><strong>Services</strong><span>${escapeHtml(section.services)}</span></div></div></div></section>`;
+    }
+    if (section.type === "challenge-solution") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell work-pdp-columns"><div class="work-pdp-block"><h2>${escapeHtml(section.challengeTitle)}</h2><div class="work-pdp-list">${(section.challengeItems || []).map(item => `<div class="work-pdp-list-item"><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.description)}</p></div>`).join("")}</div></div><div class="work-pdp-block"><h2>${escapeHtml(section.solutionTitle)}</h2><div class="work-pdp-list">${(section.solutionItems || []).map(item => `<div class="work-pdp-list-item"><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.description)}</p></div>`).join("")}</div></div></div></section>`;
+    }
+    if (section.type === "comparison") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><div class="work-pdp-compare-head"><span>${escapeHtml(section.beforeLabel)}</span><span>${escapeHtml(section.afterLabel)}</span></div><div class="work-pdp-compare" style="background:${escapeAttr(section.background)}"><figure><img src="${escapeAttr(section.beforeImage)}" alt="${escapeAttr(section.beforeImageAlt)}" /></figure><figure><img src="${escapeAttr(section.afterImage)}" alt="${escapeAttr(section.afterImageAlt)}" /></figure></div></div></section>`;
+    }
+    if (section.type === "visual-identity") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><p class="work-pdp-kicker">${escapeHtml(section.label)}</p><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-cards">${(section.items || []).map(item => `<article class="work-pdp-card"><img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.alt)}" /><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p></article>`).join("")}</div></div></section>`;
+    }
+    if (section.type === "design-system") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><p class="work-pdp-kicker">${escapeHtml(section.label)}</p><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-block"><img src="${escapeAttr(section.image)}" alt="${escapeAttr(section.imageAlt)}" /></div></div></section>`;
+    }
+    if (section.type === "web-ui" || section.type === "mobile-ui") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><p class="work-pdp-kicker">${escapeHtml(section.label)}</p><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-gallery">${(section.items || []).map(item => `<figure class="work-pdp-gallery-item"><img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.alt)}" /></figure>`).join("")}</div></div></section>`;
+    }
+    if (section.type === "impact") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><p class="work-pdp-kicker">${escapeHtml(section.label)}</p><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-impact"><div class="work-pdp-quote"><p>${escapeHtml(section.quote)}</p><footer>${escapeHtml(section.author)}${section.role ? `<span>${escapeHtml(section.role)}</span>` : ""}</footer></div><div class="work-pdp-impact-meta"><img src="${escapeAttr(section.authorImage)}" alt="${escapeAttr(section.authorImageAlt)}" class="work-pdp-impact-author" /><img src="${escapeAttr(section.brandLogo)}" alt="${escapeAttr(section.brandLogoAlt)}" class="work-pdp-impact-logo" /></div></div></div></section>`;
+    }
+    if (section.type === "stats") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-stats">${(section.items || []).map(item => `<div class="work-pdp-stat"><strong>${escapeHtml(item.value)}</strong><span>${escapeHtml(item.label)}</span></div>`).join("")}</div></div></section>`;
+    }
+    if (section.type === "gallery") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><h2>${escapeHtml(section.title)}</h2><div class="work-pdp-gallery">${(section.items || []).map(item => `<figure class="work-pdp-gallery-item"><img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.alt)}" />${item.caption ? `<figcaption>${escapeHtml(item.caption)}</figcaption>` : ""}</figure>`).join("")}</div></div></section>`;
+    }
+    if (section.type === "quote") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><blockquote class="work-pdp-quote"><p>${escapeHtml(section.quote)}</p><footer>${escapeHtml(section.author)}${section.role ? `<span>${escapeHtml(section.role)}</span>` : ""}</footer></blockquote></div></section>`;
+    }
+    if (section.type === "cta") {
+      return `<section class="work-pdp-section"><div class="work-pdp-shell"><div class="work-pdp-cta"><h2>${escapeHtml(section.title)}</h2><a href="${escapeAttr(section.buttonUrl)}">${escapeHtml(section.buttonText)}</a></div></div></section>`;
+    }
+    return `<section class="work-pdp-section"><div class="work-pdp-shell">${section.html || ""}</div></section>`;
+  }).join("\n");
+}
+
+function renderWorkProjectPage(project, store) {
+  if (project.mode === "raw" && project.rawHtml) {
+    return injectDynamicSnippet(project.rawHtml, store, project.path);
+  }
+  const sections = Array.isArray(project.sections) ? project.sections : [];
+  const pick = type => sections.find(section => section.type === type && section.enabled !== false) || null;
+  const hasSection = type => sections.some(section => section.type === type && section.enabled !== false);
+  const hero = pick("hero") || {};
+  const about = pick("about") || {};
+  const comparison = pick("comparison") || {};
+  const visualIdentity = pick("visual-identity") || {};
+  const designSystem = pick("design-system") || {};
+  const webUi = pick("web-ui") || {};
+  const mobileUi = pick("mobile-ui") || {};
+  const impact = pick("impact") || {};
+  const stats = pick("stats") || {};
+  const gallery = pick("gallery") || {};
+  const cta = pick("cta") || {};
+  const challenge = pick("challenge-solution") || {};
+  const nextProjects = (store.pages?.work?.projects || []).filter(item => item.slug !== project.slug && item.status !== "archived").slice(0, 6);
+  const heroTitle = sanitizeText(hero.title, project.cardTitle);
+  const heroSubtitle = sanitizeText(hero.subtitle, project.summary || "Describe the product, transformation, and business outcome for this project.");
+  const heroImage = escapeUrl(hero.heroImage || project.thumbnailImage, project.thumbnailImage || "/assets/images/others/work.png");
+  const heroImageAlt = sanitizeText(hero.heroImageAlt, `${project.cardTitle} hero image`);
+  const viItems = Array.isArray(visualIdentity.items) ? visualIdentity.items : [];
+  const webUiItems = Array.isArray(webUi.items) ? webUi.items : [];
+  const mobileUiItems = Array.isArray(mobileUi.items) ? mobileUi.items : [];
+  const statItems = Array.isArray(stats.items) ? stats.items : [];
+  const galleryItems = Array.isArray(gallery.items) ? gallery.items : [];
+  const challengeItems = Array.isArray(challenge.challengeItems) ? challenge.challengeItems : [];
+  const solutionItems = Array.isArray(challenge.solutionItems) ? challenge.solutionItems : [];
+
+  let html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>${escapeHtml(project.metaTitle)}</title>
+<meta name="description" content="${escapeAttr(project.metaDescription)}" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Webx Design Studio" />
+<meta name="theme-color" content="#ff6b00" />
+
+<link rel="canonical" href="https://webxds.com${escapeAttr(project.path)}" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="${escapeAttr(project.metaTitle)}" />
+<meta property="og:description" content="${escapeAttr(project.metaDescription)}" />
+<meta property="og:url" content="https://webxds.com${escapeAttr(project.path)}" />
+<meta property="og:image" content="https://webxds.com${escapeAttr(heroImage)}" />
+<meta property="og:site_name" content="Webx Design Studio" />
+<meta property="og:locale" content="en_IN" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${escapeAttr(project.metaTitle)}" />
+<meta name="twitter:description" content="${escapeAttr(project.metaDescription)}" />
+<meta name="twitter:image" content="https://webxds.com${escapeAttr(heroImage)}" />
+
+<link rel="icon" href="/assets/images/icons/favicon.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.png" sizes="180x180" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="preload" href="${escapeAttr(heroImage)}" as="image" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": ${JSON.stringify(project.metaTitle)},
+  "description": ${JSON.stringify(project.metaDescription)},
+  "url": ${JSON.stringify(`https://webxds.com${project.path}`)},
+  "image": ${JSON.stringify(`https://webxds.com${heroImage}`)},
+  "author": {
+    "@type": "Organization",
+    "name": "Webx Design Studio",
+    "url": "https://webxds.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://webxds.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://webxds.com/pages/main/work.html" },
+    { "@type": "ListItem", "position": 3, "name": ${JSON.stringify(project.cardTitle)}, "item": ${JSON.stringify(`https://webxds.com${project.path}`)} }
+  ]
+}
+</script>
+
+${isPublicWebsitePath(project.path) ? buildClaritySnippet(store) : ""}
+</head>
+<body>
+
+<noscript>
+  <div style="padding: 20px; background: #111; color: #fff; text-align: center; font-family: sans-serif;">
+    This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.
+  </div>
+</noscript>
+
+<header>
+  <section class="pdp-hero-section" aria-label="${escapeAttr(project.cardTitle)} case study hero">
+    <div class="hero-bg-morphico" aria-hidden="true">
+      <img src="${escapeAttr(heroImage)}" alt="" class="hero-bg-image-morphico" width="1440" height="800" loading="eager" />
+    </div>
+    <nav class="home-navbar" aria-label="Main navigation">
+      <div class="home-nav-container">
+        <div class="home-logo">
+          <a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage">
+            <img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" width="140" height="40" />
+          </a>
+        </div>
+        <a href="/pages/main/contact-page.html" class="home-contact-btn">
+          <span>CONTACT US</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <div class="page-wrapper">
+      <div class="container">
+        <div class="content">
+          <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+            <a href="/" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator" aria-hidden="true">&#8250;</span>
+            <a href="/pages/main/work.html" class="breadcrumb-link">Work</a>
+            <span class="breadcrumb-separator" aria-hidden="true">&#8250;</span>
+            <span class="breadcrumb-current" aria-current="page">${escapeHtml(project.cardTitle)}</span>
+          </nav>
+          <h1>${escapeHtml(heroTitle)}</h1>
+        </div>
+        <div class="mockup-container">
+          <img src="${escapeAttr(project.thumbnailImage || heroImage)}" alt="${escapeAttr(project.thumbnailAlt || project.cardTitle)}" class="original-mockup" width="700" height="500" loading="eager" />
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<main>
+<section class="about-section" aria-label="About ${escapeAttr(project.cardTitle)}">
+  <div class="about-content">
+    <h2>${escapeHtml(sanitizeText(about.title, `About ${project.cardTitle}`))}</h2>
+    <p class="about-description">${escapeHtml(sanitizeText(about.description, heroSubtitle)).replace(/\n/g, "<br />")}</p>
+    <div class="info-grid">
+      <div class="info-item"><h3>Industries</h3><p>${escapeHtml(sanitizeText(about.industry, project.category || "Industry"))}</p></div>
+      <div class="info-item"><h3>Year</h3><p>${escapeHtml(sanitizeText(about.year, "2026"))}</p></div>
+      <div class="info-item full-width"><h3>Services</h3><p>${escapeHtml(sanitizeText(about.services, "UI UX Design"))}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="challenge-solution-section" aria-label="Challenge and solution">
+  <div class="cs-container">
+    <div class="cs-column">
+      <h2>${escapeHtml(sanitizeText(challenge.challengeTitle, "The Challenge"))}</h2>
+      <ul class="cs-list">
+        ${(challengeItems.length ? challengeItems : [{ title: "Challenge one", description: "Add the first challenge point here." }]).map(item => `<li><div class="cs-list-content"><span><strong>${escapeHtml(sanitizeText(item.title, "Challenge"))}:</strong> ${escapeHtml(sanitizeText(item.description, ""))}</span></div></li>`).join("")}
+      </ul>
+    </div>
+    <div class="cs-column">
+      <h2>${escapeHtml(sanitizeText(challenge.solutionTitle, "The Solution"))}</h2>
+      <ul class="cs-list">
+        ${(solutionItems.length ? solutionItems : [{ title: "Solution one", description: "Add the first solution point here." }]).map(item => `<li><div class="cs-list-content"><span><strong>${escapeHtml(sanitizeText(item.title, "Solution"))}:</strong> ${escapeHtml(sanitizeText(item.description, ""))}</span></div></li>`).join("")}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="comparison-section" aria-label="UX/UI before and after comparison">
+  <div class="comparison-header" aria-hidden="true">
+    <div class="comparison-label">${escapeHtml(sanitizeText(comparison.beforeLabel, "UX"))}</div>
+    <div class="comparison-label">${escapeHtml(sanitizeText(comparison.afterLabel, "UI"))}</div>
+  </div>
+  <div class="comparison-wrapper">
+    <div class="before-after-container" style="background:${escapeAttr(sanitizeText(comparison.background, "#1f1f1f"))};">
+      <div class="before-after-slider" role="group" aria-label="Before and after design comparison slider">
+        <figure class="before-image"><img src="${escapeAttr(escapeUrl(comparison.beforeImage, heroImage))}" alt="${escapeAttr(sanitizeText(comparison.beforeImageAlt, `${project.cardTitle} before image`))}" width="800" height="600" loading="lazy" /></figure>
+        <figure class="after-image"><img src="${escapeAttr(escapeUrl(comparison.afterImage, project.thumbnailImage || heroImage))}" alt="${escapeAttr(sanitizeText(comparison.afterImageAlt, `${project.cardTitle} after image`))}" width="800" height="600" loading="lazy" /></figure>
+        <div class="slider-handle" aria-hidden="true"><div class="handle-circle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="handle-line"></div></div>
+        <input type="range" min="0" max="100" value="50" class="slider-input" id="comparison-slider" aria-label="Drag to compare UX and UI designs" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="visual-identity-section" aria-label="Visual identity design">
+  <div class="vi-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">${escapeHtml(sanitizeText(visualIdentity.label, "Visual Identity"))}</p>
+      <h2 class="section-title">${escapeHtml(sanitizeText(visualIdentity.title, "Design framework built for clarity and consistency"))}</h2>
+    </div>
+    <div class="vi-scroll-wrapper">
+      <div class="vi-grid" id="viGrid">
+        ${(viItems.length ? viItems : [{ image: heroImage, alt: `${project.cardTitle} visual identity`, title: "Colour Style", description: "Add description here." }]).map(item => `<div class="vi-card"><div class="vi-card-image"><img src="${escapeAttr(escapeUrl(item.image, heroImage))}" alt="${escapeAttr(sanitizeText(item.alt, `${project.cardTitle} visual identity`))}" width="400" height="300" loading="lazy" /></div><h3 class="vi-card-title">${escapeHtml(sanitizeText(item.title, "New card"))}</h3><p class="vi-card-description">${escapeHtml(sanitizeText(item.description, "Add description here."))}</p></div>`).join("")}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="design-system-section" aria-label="Design system">
+  <div class="ds-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">${escapeHtml(sanitizeText(designSystem.label, "Design System"))}</p>
+      <h2 class="section-title">${escapeHtml(sanitizeText(designSystem.title, "Document the interface system and components"))}</h2>
+    </div>
+    <div class="ds-image-wrapper">
+      <img src="${escapeAttr(escapeUrl(designSystem.image, heroImage))}" alt="${escapeAttr(sanitizeText(designSystem.imageAlt, `${project.cardTitle} design system`))}" class="ds-image" width="1200" height="700" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<section class="web-ui-section" aria-label="Web UI designs">
+  <div class="web-ui-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">${escapeHtml(sanitizeText(webUi.label, "Web UI"))}</p>
+      <h2 class="section-title">${escapeHtml(sanitizeText(webUi.title, "Showcase the web experience"))}</h2>
+    </div>
+    <div class="web-ui-slider-wrapper"><div class="web-ui-slider-container" id="webUiSliderContainer"><div class="web-ui-slider" id="webUiSlider">${(webUiItems.length ? webUiItems : [{ image: heroImage, alt: `${project.cardTitle} web ui` }]).map(item => `<div class="web-ui-slide"><img src="${escapeAttr(escapeUrl(item.image, heroImage))}" alt="${escapeAttr(sanitizeText(item.alt, `${project.cardTitle} web ui`))}" class="web-ui-image" width="900" height="600" loading="lazy" /></div>`).join("")}</div></div></div>
+  </div>
+</section>
+
+<section class="web-ui-section" aria-label="Mobile UI designs">
+  <div class="web-ui-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">${escapeHtml(sanitizeText(mobileUi.label, "Mobile UI"))}</p>
+      <h2 class="section-title">${escapeHtml(sanitizeText(mobileUi.title, "Showcase the mobile experience"))}</h2>
+    </div>
+    <div class="web-ui-slider-wrapper"><div class="web-ui-slider-container" id="mobileUiSliderContainer"><div class="web-ui-slider" id="mobileUiSlider">${(mobileUiItems.length ? mobileUiItems : [{ image: heroImage, alt: `${project.cardTitle} mobile ui` }]).map(item => `<div class="web-ui-slide"><img src="${escapeAttr(escapeUrl(item.image, heroImage))}" alt="${escapeAttr(sanitizeText(item.alt, `${project.cardTitle} mobile ui`))}" class="web-ui-image" width="400" height="700" loading="lazy" /></div>`).join("")}</div></div></div>
+  </div>
+</section>
+
+<section class="impact-section animate-section" aria-label="Impact and client testimonial">
+  <div class="impact-container">
+    <div class="section-header animate-fade-in">
+      <div class="section-label">Impact &amp; Achievements</div>
+      <h2 class="section-title">${escapeHtml(sanitizeText(impact.title, "From vision to impact - a team that delivers consistently"))}</h2>
+    </div>
+    <div class="impact-slider-wrapper animate-slider">
+      <div class="impact-slider" id="impactSlider">
+        <div class="impact-slide active">
+          <div class="impact-quote-block">
+            <img src="/assets/images/icons/quote-icon.svg" alt="" class="quote-icon" aria-hidden="true" width="32" height="32" loading="lazy" />
+            <p class="quote-text">"${escapeHtml(sanitizeText(impact.quote, "Add testimonial or project impact statement here."))}"</p>
+          </div>
+          <div class="impact-footer">
+            <div class="author-card">
+              <img src="${escapeAttr(escapeUrl(impact.authorImage, "/assets/images/blogs/auther-imag-ab.png"))}" alt="${escapeAttr(sanitizeText(impact.authorImageAlt, impact.author || "Client"))}" class="author-photo" width="56" height="56" loading="lazy" />
+              <div class="author-info"><div class="author-name">${escapeHtml(sanitizeText(impact.author, "Client Name"))}</div><div class="author-title">${escapeHtml(sanitizeText(impact.role, "Role / Company"))}</div></div>
+            </div>
+            <div class="brand-logo"><img src="${escapeAttr(escapeUrl(impact.brandLogo, project.thumbnailImage || heroImage))}" alt="${escapeAttr(sanitizeText(impact.brandLogoAlt, `${project.cardTitle} logo`))}" width="100" height="50" loading="lazy" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section" aria-label="Project outcomes">
+  <div class="about-content">
+    <h2>${escapeHtml(sanitizeText(stats.title, "Key Outcomes"))}</h2>
+    <div class="info-grid">
+      ${(statItems.length ? statItems : [{ value: "01", label: "Outcome one" }, { value: "02", label: "Outcome two" }, { value: "03", label: "Outcome three" }]).map(item => `<div class="info-item"><h3>${escapeHtml(sanitizeText(item.value, "01"))}</h3><p>${escapeHtml(sanitizeText(item.label, "Outcome"))}</p></div>`).join("")}
+    </div>
+  </div>
+</section>
+
+<section class="web-ui-section" aria-label="Project gallery">
+  <div class="web-ui-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">Gallery</p>
+      <h2 class="section-title">${escapeHtml(sanitizeText(gallery.title, "Project Gallery"))}</h2>
+    </div>
+    <div class="web-ui-slider-wrapper"><div class="web-ui-slider-container"><div class="web-ui-slider">${(galleryItems.length ? galleryItems : [{ image: heroImage, alt: `${project.cardTitle} gallery image` }]).map(item => `<div class="web-ui-slide"><img src="${escapeAttr(escapeUrl(item.image, heroImage))}" alt="${escapeAttr(sanitizeText(item.alt, `${project.cardTitle} gallery image`))}" class="web-ui-image" width="900" height="600" loading="lazy" /></div>`).join("")}</div></div></div>
+  </div>
+</section>
+
+${nextProjects.length ? `<section class="next-work-section" aria-label="Explore more case studies"><div class="next-work-container"><h2 class="next-work-heading">EXPLORE MORE WORK</h2><div class="next-work-scroll-wrapper"><div class="next-work-grid" id="nextWorkGrid">${nextProjects.map(item => `<a href="${escapeAttr(item.path)}" class="next-work-card" style="background-image: url('${escapeAttr(item.thumbnailImage || "/assets/images/others/work.png")}');"><div class="card-content"><h3 class="card-title">${escapeHtml(item.cardTitle)}</h3><p class="card-description">${escapeHtml(item.summary)}</p><div class="card-tags"><span class="card-tag">${escapeHtml(item.category || "Case Study")}</span></div></div><div class="card-mockup"><img src="${escapeAttr(item.thumbnailImage || "/assets/images/others/work.png")}" alt="${escapeAttr(item.thumbnailAlt || item.cardTitle)}" class="mockup-image" width="200" height="120" loading="lazy" /></div></a>`).join("")}</div></div></div></section>` : ""}
+
+<section class="cta-banner-section" aria-label="Start your project">
+  <div class="cta-banner-content">
+    <h2 class="cta-banner-title">${escapeHtml(sanitizeText(cta.title, "Ready to build something meaningful?"))}</h2>
+    <a href="${escapeAttr(escapeUrl(cta.buttonUrl, "/pages/main/contact-page.html"))}" class="cta-banner-button">
+      <span>${escapeHtml(sanitizeText(cta.buttonText, "START YOUR PROJECT"))}</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17" /></svg>
+    </a>
+  </div>
+</section>
+</main>
+
+<footer class="footer-section" aria-label="Site footer">
+  <div class="footer-container">
+    <div class="footer-top"><div class="footer-logo"><img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="footer-logo-img" width="140" height="40" loading="lazy" /></div></div>
+    <div class="footer-section-block"><h3 class="footer-heading">Services</h3><div class="footer-links"><a href="/pages/main/services.html">UI/UX Design</a><a href="/pages/main/services.html">Web Design</a><a href="/pages/main/services.html">App Design</a><a href="/pages/main/services.html">Marketing Emailer</a></div></div>
+    <div class="footer-section-block"><h3 class="footer-heading">Company</h3><div class="footer-links"><a href="/pages/main/about.html">About Us</a><a href="/pages/blogs/blogs.html">Blog</a><a href="/pages/main/contact-page.html">Contact</a></div></div>
+    <div class="footer-bottom"><p class="footer-copyright">&copy; 2026 Webx Design Studio. All rights reserved</p></div>
+  </div>
+  <div class="footer-bg-text" aria-hidden="true"><img src="/assets/images/logos/webx-footer-logo-large.svg" alt="" class="footer-bg-image" loading="lazy" /></div>
+</footer>
+
+<div class="more-menu-overlay" id="moreMenu" role="dialog" aria-modal="true" aria-label="Full navigation menu"></div>
+<button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top of page"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http:/www.w3.org/2000/svg" aria-hidden="true"><path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<nav class="bottom-navbar" aria-label="Bottom navigation"><div class="bottom-nav-logo"><a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage"><img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="logo-full" width="100" height="30" loading="lazy" /><img src="/assets/images/icons/webx-icon.svg" alt="Webx" class="logo-icon" width="32" height="32" loading="lazy" /></a></div><div class="bottom-nav-container"><a href="/" class="nav-item"><img src="/assets/images/others/home.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Home</span></a><a href="/pages/main/work.html" class="nav-item active" aria-current="page"><img src="/assets/images/others/work.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Work</span></a><a href="/pages/main/services.html" class="nav-item"><img src="/assets/images/others/services.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Services</span></a><a href="/pages/main/about.html" class="nav-item"><img src="/assets/images/others/about.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">About</span></a><a href="/pages/main/contact-page.html" class="nav-item"><img src="/assets/images/others/contact.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Contact</span></a></div></nav>
+<script src="/js/script.js?v=20260311-2"></script>
+<script>if ('serviceWorker' in navigator) { window.addEventListener('load', function() { navigator.serviceWorker.register('/sw.js').catch(function(err) { console.warn('Service worker registration failed:', err); }); }); }</script>
+</body>
+</html>`;
+
+  const removeRenderedSection = (shouldKeep, pattern) => {
+    if (!shouldKeep) html = html.replace(pattern, "");
+  };
+
+  removeRenderedSection(hasSection("about"), /<section class="about-section" aria-label="About [\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("challenge-solution"), /<section class="challenge-solution-section" aria-label="Challenge and solution">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("comparison"), /<section class="comparison-section" aria-label="UX\/UI before and after comparison">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("visual-identity"), /<section class="visual-identity-section" aria-label="Visual identity design">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("design-system"), /<section class="design-system-section" aria-label="Design system">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("web-ui"), /<section class="web-ui-section" aria-label="Web UI designs">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("mobile-ui"), /<section class="web-ui-section" aria-label="Mobile UI designs">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("impact"), /<section class="impact-section animate-section" aria-label="Impact and client testimonial">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("stats"), /<section class="about-section" aria-label="Project outcomes">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("gallery"), /<section class="web-ui-section" aria-label="Project gallery">[\s\S]*?<\/section>\s*/);
+  removeRenderedSection(hasSection("cta"), /<section class="cta-banner-section" aria-label="Start your project">[\s\S]*?<\/section>\s*/);
+
+  return html;
+}
+
+function renderWorkCardsMarkup(projects) {
+  return projects.map(project => `<div class="work-card">
+                    <div class="work-image"> <a href="${escapeAttr(project.path)}" class="work-image-link"
+                            aria-label="View ${escapeAttr(project.cardTitle)} case study"> <img
+                                src="${escapeAttr(project.thumbnailImage || "/assets/images/others/work.png")}"
+                                alt="${escapeAttr(project.thumbnailAlt || project.cardTitle)}"
+                                width="600" height="400" loading="lazy" /> </a> </div>
+                    <div class="work-content">
+                        <h2 class="blog-card-title">${escapeHtml(project.cardTitle)}</h2>
+                        <p class="work-excerpt">${escapeHtml(project.summary)}</p> <a
+                            href="${escapeAttr(project.path)}" class="blog-read-more"
+                            aria-label="Visit ${escapeAttr(project.cardTitle)} case study"> <span>VISIT</span> <svg
+                                width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg> </a>
+                    </div>
+                </div>`).join("\n                ");
+}
+
+async function writeWorkIndexPage(store) {
+  ensureWorkPageStructure(store);
+  const work = store.pages.work;
+  const filePath = resolveProjectFilePath("/pages/main/work.html");
+  const fallback = await fsp.readFile(filePath, "utf8").catch(() => "");
+  const projects = (work.projects || []).filter(project => project.status !== "archived");
+  const nextCards = renderWorkCardsMarkup(projects);
+  let html = fallback;
+  if (!html.includes("work-cards-container")) return;
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>Our Work | UI/UX Design Portfolio | Webx Design Studio</title>`);
+  html = html.replace(/<meta name="description"[\s\S]*?\/>/i, `<meta name="description"\n        content="Explore Webx Design Studio's portfolio - UI/UX case studies across healthcare, fintech, manufacturing, and business management. Real results, real design." />`);
+  html = html.replace(/<h1 class="work-page-title[^"]*">[\s\S]*?<\/h1>/i, `<h1 class="work-page-title animate-fade-in">${escapeHtml(sanitizeText(work.heroTitle, "Creative Projects That Define Us"))}</h1>`);
+  html = html.replace(/<p class="services-description[^"]*">[\s\S]*?<\/p>/i, `<p class="services-description animate-slide-up"> ${escapeHtml(sanitizeText(work.meta, "Portfolio of creative projects - Morphico, Arogya Bharat, Tictax and more."))} </p>`);
+  html = html.replace(/<div class="work-cards-container animate-cards">[\s\S]*?<\/div>\s*<\/section>/i, `<div class="work-cards-container animate-cards">
+                ${nextCards}
+            </div>
+        </section>`);
+  await fsp.writeFile(filePath, html, "utf8");
+}
+
+function renderWorkIndexPage(store) {
+  ensureWorkPageStructure(store);
+  const work = store.pages.work;
+  const projects = (work.projects || []).filter(project => project.status !== "archived");
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>${escapeHtml(work.title)}</title>
+<meta name="description" content="${escapeAttr(work.meta)}" />
+<link rel="canonical" href="https://webxds.com/pages/main/work.html" />
+${buildClaritySnippet(store)}
+<style>
+body{margin:0;background:#050505;color:#fff;font-family:Segoe UI,Arial,sans-serif}.work-index-shell{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:42px 0 64px}.work-index-head{max-width:760px;margin-bottom:28px}.work-index-kicker{color:#fea800;font-size:12px;letter-spacing:.22em;text-transform:uppercase}.work-index-head h1{font-size:clamp(34px,6vw,64px);line-height:1.02;margin:10px 0 12px;letter-spacing:-.03em}.work-index-head p{color:#c9c9c9;line-height:1.7}.work-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.work-index-card{border:1px solid rgba(255,255,255,.08);background:#0d0d0d;overflow:hidden}.work-index-card img{width:100%;aspect-ratio:1.1/1;object-fit:cover;display:block}.work-index-card-body{padding:18px}.work-index-card h2{margin:0 0 8px;font-size:22px}.work-index-card p{margin:0;color:#c9c9c9;line-height:1.65}.work-index-card span{display:inline-flex;margin-top:16px;color:#fea800;font-weight:700}@media(max-width:960px){.work-index-grid{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<div class="work-index-shell"><div class="work-index-head"><div class="work-index-kicker">Selected Work</div><h1>${escapeHtml(work.title.replace(/\s*-\s*Webx Design Studio/i, ""))}</h1><p>${escapeHtml(work.meta)}</p></div><div class="work-index-grid">${projects.map(project => `<a class="work-index-card" href="${escapeAttr(project.path)}"><img src="${escapeAttr(project.thumbnailImage)}" alt="${escapeAttr(project.thumbnailAlt)}" /><div class="work-index-card-body"><h2>${escapeHtml(project.cardTitle)}</h2><p>${escapeHtml(project.summary)}</p><span>Open Case Study</span></div></a>`).join("")}</div></div>
+</body>
+</html>`;
+}
+
+function syncHomeWorkSectionFromProjects(store) {
+  ensureHomePageStructure(store);
+  ensureWorkPageStructure(store);
+  const homeSections = store.pages.home.sections || [];
+  const workSection = homeSections.find(section => section.type === "work");
+  if (!workSection) return;
+  workSection.items = (store.pages.work.projects || [])
+    .filter(project => project.status !== "archived")
+    .map((project, index) => normalizeHomeItem("work", {
+      id: project.id || createId("work"),
+      title: project.cardTitle || `Project ${index + 1}`,
+      description: project.summary || "",
+      image: project.thumbnailImage || "/assets/images/others/work.png",
+      imageAlt: project.thumbnailAlt || project.cardTitle || `Project ${index + 1}`,
+      url: project.path || `/pages/details/${project.slug || `project-${index + 1}`}.html`
+    }, index));
+}
+
+function resolveProjectFilePath(urlPath) {
+  const relativePath = String(urlPath || "").replace(/^\/+/, "").replace(/\//g, path.sep);
+  return path.join(ROOT, relativePath);
+}
+
+async function writeWorkProjectFiles(store) {
+  ensureWorkPageStructure(store);
+  syncHomeWorkSectionFromProjects(store);
+  await writeWorkIndexPage(store);
+  for (const project of store.pages.work.projects || []) {
+    const projectFilePath = resolveProjectFilePath(project.path);
+    await fsp.mkdir(path.dirname(projectFilePath), { recursive: true });
+    await fsp.writeFile(projectFilePath, renderWorkProjectPage(project, store), "utf8");
+  }
+}
+
+function getPublicBootstrap(store, pathname) {
+  ensureHomePageStructure(store);
+  ensureWorkPageStructure(store);
+  ensureGenericPagesStructure(store);
+  const pageKey = getPageKey(pathname);
+  const page = store.pages[pageKey] || store.pages.home;
+  return {
+    settings: {
+      siteName: store.settings.siteName,
+      contactEmail: store.settings.contactEmail,
+      contactPhone: store.settings.contactPhone,
+      contactWhatsapp: store.settings.contactWhatsapp,
+      headOffice: store.settings.headOffice,
+      branchOffice: store.settings.branchOffice,
+      maintenanceMode: !!store.settings.maintenanceMode,
+      acceptLeads: store.settings.acceptLeads !== false,
+      clarityEnabled: !!store.settings.clarityEnabled,
+      clarityProjectId: sanitizeText(store.settings.clarityProjectId),
+      clarityDashboardUrl: sanitizeText(store.settings.clarityDashboardUrl, "https://clarity.microsoft.com/"),
+      clarityProjectLabel: sanitizeText(store.settings.clarityProjectLabel, "Webx Website")
+    },
+    page: page && page.editorType === "generic" ? serializeAdminPage(page, pageKey) : page,
+    pageKey,
+    services: (store.services || []).filter(service => service.status !== "disabled")
+  };
+}
+
+function buildClaritySnippet(store) {
+  const enabled = !!(store?.settings?.clarityEnabled && sanitizeText(store?.settings?.clarityProjectId));
+  if (!enabled) return "";
+  const projectId = JSON.stringify(sanitizeText(store.settings.clarityProjectId));
+  return `
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", ${projectId});
+</script>`;
+}
+
+function ensureTrackingStore(store) {
+  if (!store.tracking || typeof store.tracking !== "object") store.tracking = {};
+  if (!Array.isArray(store.tracking.sessions)) store.tracking.sessions = [];
+  if (!Array.isArray(store.tracking.events)) store.tracking.events = [];
+  if (!Array.isArray(store.tracking.replays)) store.tracking.replays = [];
+}
+
+function getTruncatedIp(req) {
+  const raw = sanitizeText(
+    req.headers["x-forwarded-for"] || req.socket?.remoteAddress || req.connection?.remoteAddress,
+    "unknown"
+  )
+    .split(",")[0]
+    .trim();
+
+  if (!raw || raw === "unknown") return "unknown";
+  if (raw.includes(":")) {
+    const cleaned = raw.replace("::ffff:", "");
+    if (cleaned.includes(".")) {
+      const parts = cleaned.split(".");
+      return parts.length === 4 ? `${parts[0]}.${parts[1]}.${parts[2]}.x` : "masked";
+    }
+    const parts = cleaned.split(":").filter(Boolean);
+    return parts.length ? `${parts.slice(0, 4).join(":")}::*` : "masked";
+  }
+  const ipv4 = raw.split(".");
+  return ipv4.length === 4 ? `${ipv4[0]}.${ipv4[1]}.${ipv4[2]}.x` : "masked";
+}
+
+function pruneTracking(store) {
+  ensureTrackingStore(store);
+  const cutoff = Date.now() - SESSION_RETENTION_MS;
+  store.tracking.sessions = (store.tracking.sessions || []).filter(session => {
+    return new Date(session.lastSeenAt || session.createdAt || 0).getTime() >= cutoff;
+  });
+  store.tracking.events = (store.tracking.events || []).slice(-EVENT_RETENTION);
+  store.tracking.replays = (store.tracking.replays || [])
+    .filter(replay => new Date(replay.updatedAt || replay.createdAt || 0).getTime() >= cutoff)
+    .slice(0, REPLAY_RETENTION);
+}
+
+function sanitizeFilePart(value, fallback = "part") {
+  const text = sanitizeText(value, fallback).replace(/[^a-zA-Z0-9._-]/g, "-");
+  return text || fallback;
+}
+
+async function removeReplayFiles(replay) {
+  const parts = Array.isArray(replay?.parts) ? replay.parts : [];
+  await Promise.all(parts.map(async part => {
+    const relativePath = sanitizeText(part.file, "");
+    if (!relativePath) return;
+    const absolutePath = path.resolve(ROOT, relativePath);
+    if (!absolutePath.startsWith(path.resolve(REPLAY_VIDEO_DIR))) return;
+    try {
+      await fsp.unlink(absolutePath);
+    } catch {}
+  }));
+}
+
+function addActivity(store, message, type = "info") {
+  const item = {
+    id: createId("act"),
+    type,
+    message,
+    createdAt: nowIso()
+  };
+  store.activity = [item, ...(store.activity || [])].slice(0, 60);
+}
+
+function getAnalytics(store) {
+  ensureHomePageStructure(store);
+  ensureWorkPageStructure(store);
+  ensureGenericPagesStructure(store);
+  ensureTrackingStore(store);
+  const sessions = store.tracking.sessions || [];
+  const leads = store.leads || [];
+  const replays = store.tracking.replays || [];
+  const now = Date.now();
+  const liveSessions = sessions.filter(session => now - new Date(session.lastSeenAt || 0).getTime() <= LIVE_WINDOW_MS);
+  const todayStart = new Date();
+  todayStart.setHours(0, 0, 0, 0);
+  const todayMs = todayStart.getTime();
+  const todaySessions = sessions.filter(session => new Date(session.createdAt || 0).getTime() >= todayMs);
+  const todayLeads = leads.filter(lead => new Date(lead.createdAt || 0).getTime() >= todayMs);
+
+  return {
+    totals: {
+      liveUsers: liveSessions.length,
+      totalSessions: sessions.length,
+      totalLeads: leads.length,
+      todayLeads: todayLeads.length,
+      todayVisitors: todaySessions.length,
+      conversionRate: sessions.length ? Math.round((leads.length / sessions.length) * 100) : 0
+    },
+    liveSessions: liveSessions
+      .sort((a, b) => new Date(b.lastSeenAt) - new Date(a.lastSeenAt))
+      .slice(0, 25),
+    recentEvents: (store.tracking.events || []).slice(-40).reverse(),
+    recentActivity: (store.activity || []).slice(0, 20),
+    replaySessions: replays
+      .slice()
+      .sort((a, b) => new Date(b.updatedAt || b.createdAt) - new Date(a.updatedAt || a.createdAt))
+      .slice(0, 25)
+      .map(replay => ({
+        id: replay.id,
+        sessionId: replay.sessionId,
+        visitorId: replay.visitorId,
+        path: replay.path,
+        page: replay.page,
+        ip: replay.ip,
+        userAgent: replay.userAgent,
+        format: replay.format || "legacy",
+        durationMs: safeNumber(replay.durationMs),
+        eventsCount: safeNumber(replay.eventsCount),
+        partCount: Array.isArray(replay.parts) ? replay.parts.length : 0,
+        batchCount: Array.isArray(replay.batches) ? replay.batches.length : 0,
+        createdAt: replay.createdAt,
+        updatedAt: replay.updatedAt
+      })),
+    leads: leads.slice(0, 100),
+    services: store.services || [],
+    pages: Object.entries(store.pages || {}).reduce((acc, [pageKey, page]) => {
+      acc[pageKey] = serializeAdminPage(page, pageKey);
+      return acc;
+    }, {}),
+    settings: {
+      ...store.settings,
+      adminKey: undefined,
+      adminUsers: undefined
+    }
+  };
+}
+
+async function withStore(mutator) {
+  const store = readStore();
+  ensureHomePageStructure(store);
+  ensureWorkPageStructure(store);
+  ensureGenericPagesStructure(store);
+  pruneTracking(store);
+  const result = await mutator(store);
+  await writeStore(store);
+  broadcast(store);
+  return result;
+}
+
+function pruneAdminSessions() {
+  const cutoff = Date.now() - ADMIN_SESSION_TTL_MS;
+  for (const [token, session] of adminSessions.entries()) {
+    if ((session.lastSeenAt || 0) < cutoff) adminSessions.delete(token);
+  }
+}
+
+function getAuthorizedSession(req, store) {
+  ensureAdminUsers(store);
+  pruneAdminSessions();
+  const requestUrl = new URL(req.url, `http://${req.headers.host}`);
+  const cookies = parseCookies(req);
+  const providedToken = sanitizeText(
+    req.headers["x-admin-token"] ||
+      requestUrl.searchParams.get("token") ||
+      cookies.webx_admin_session
+  );
+  if (!providedToken) return null;
+  const session = adminSessions.get(providedToken);
+  if (!session) return null;
+  const user = (store.settings.adminUsers || []).find(item => {
+    return normalizeUsername(item.username) === normalizeUsername(session.username) && item.status !== "disabled";
+  });
+  if (!user) {
+    adminSessions.delete(providedToken);
+    return null;
+  }
+  session.lastSeenAt = Date.now();
+  return {
+    token: providedToken,
+    session,
+    user: serializeAdminUser(user)
+  };
+}
+
+function broadcast(store) {
+  if (!sseClients.size) return;
+  const data = JSON.stringify({
+    type: "snapshot",
+    payload: getAnalytics(store)
+  });
+  for (const client of sseClients) {
+    client.write(`data: ${data}\n\n`);
+  }
+}
+
+function serveFile(reqPath, res, store) {
+  console.log("Serving file:", reqPath);
+  let normalizedPath = reqPath === "/" ? "/index.html" : reqPath;
+  normalizedPath = decodeURIComponent(normalizedPath.split("?")[0]);
+
+  const filePath = path.join(ROOT, normalizedPath);
+  const resolved = path.resolve(filePath);
+
+  if (!resolved.startsWith(path.resolve(ROOT))) {
+    sendJson(res, 403, { error: "Forbidden" });
+    return;
+  }
+
+  fs.stat(resolved, (error, stats) => {
+    if (error || !stats.isFile()) {
+      sendJson(res, 404, { error: "Not found" });
+      return;
+    }
+    const ext = path.extname(resolved).toLowerCase();
+    if (ext === ".html") {
+      fs.readFile(resolved, "utf8", (readError, content) => {
+        if (readError) {
+          sendJson(res, 500, { error: "Failed to read file" });
+          return;
+        }
+        const snippet = isPublicWebsitePath(normalizedPath) ? buildClaritySnippet(store) : "";
+        const html = snippet && !content.includes("https://www.clarity.ms/tag/")
+          ? content.replace("</head>", `${snippet}\n</head>`)
+          : content;
+        const output = rewriteHtmlForBasePath(html);
+        res.writeHead(200, {
+          "Content-Type": MIME_TYPES[ext] || "application/octet-stream",
+          "Cache-Control": "no-cache"
+        });
+        res.end(output);
+      });
+      return;
+    }
+    res.writeHead(200, {
+      "Content-Type": MIME_TYPES[ext] || "application/octet-stream",
+      "Cache-Control": "public, max-age=300"
+    });
+    fs.createReadStream(resolved).pipe(res);
+  });
+}
+
+async function handleApi(req, res, url) {
+  console.log("Handling API:", url.pathname, req.method);
+  const store = readStore();
+  ensureAdminUsers(store);
+  ensureHomePageStructure(store);
+  ensureWorkPageStructure(store);
+  ensureGenericPagesStructure(store);
+  pruneTracking(store);
+  const pathname = url.pathname;
+
+  if (pathname === "/api/public/bootstrap" && req.method === "GET") {
+    try {
+      sendJson(res, 200, getPublicBootstrap(store, url.searchParams.get("pathname") || "/"));
+    } catch (error) {
+      console.error("Error in bootstrap:", error.message, error.stack);
+      sendJson(res, 500, { error: "Bootstrap failed" });
+    }
+    return;
+  }
+
+  if (pathname === "/api/track/session" && req.method === "POST") {
+    const body = await parseBody(req);
+    if (isAdminTrackingPath(body.path || body.page || "/")) {
+      sendJson(res, 200, { ok: true, ignored: true });
+      return;
+    }
+    const sessionId = sanitizeText(body.sessionId) || createId("sess");
+    const visitorId = sanitizeText(body.visitorId) || `visitor-${crypto.randomBytes(6).toString("hex")}`;
+    const existing = (store.tracking.sessions || []).find(session => session.id === sessionId);
+    const now = nowIso();
+    const nextSession = {
+      id: sessionId,
+      visitorId,
+      createdAt: existing?.createdAt || now,
+      lastSeenAt: now,
+      currentPage: sanitizeText(body.page, "/"),
+      path: sanitizeText(body.path, "/"),
+      referrer: sanitizeText(body.referrer, "Direct"),
+      viewport: sanitizeText(body.viewport, "unknown"),
+      device: sanitizeText(body.device, "desktop"),
+      timezone: sanitizeText(body.timezone, existing?.timezone || ""),
+      language: sanitizeText(body.language, existing?.language || ""),
+      locationLabel: sanitizeText(body.locationLabel, existing?.locationLabel || ""),
+      activeSeconds: Number(body.activeSeconds || existing?.activeSeconds || 0),
+      scrollDepth: Number(body.scrollDepth || existing?.scrollDepth || 0),
+      eventCount: Number(existing?.eventCount || 0),
+      pageViews: Number(existing?.pageViews || 0) + 1,
+      userAgent: sanitizeText(req.headers["user-agent"], "unknown"),
+      ip: existing?.ip || getTruncatedIp(req)
+    };
+
+    const sessions = store.tracking.sessions || [];
+    const index = sessions.findIndex(session => session.id === sessionId);
+    if (index >= 0) {
+      sessions[index] = { ...sessions[index], ...nextSession };
+    } else {
+      sessions.unshift(nextSession);
+    }
+    store.tracking.sessions = sessions.slice(0, 300);
+    addActivity(store, `Visitor opened ${nextSession.currentPage}`, "visitor");
+    await writeStore(store);
+    broadcast(store);
+    sendJson(res, 200, { ok: true, sessionId });
+    return;
+  }
+
+  if (pathname === "/api/track/heartbeat" && req.method === "POST") {
+    const body = await parseBody(req);
+    if (isAdminTrackingPath(body.path || body.page || "/")) {
+      sendJson(res, 200, { ok: true, ignored: true });
+      return;
+    }
+    await withStore(async current => {
+      const session = (current.tracking.sessions || []).find(item => item.id === sanitizeText(body.sessionId));
+      if (!session) return;
+      session.lastSeenAt = nowIso();
+      session.currentPage = sanitizeText(body.page, session.currentPage);
+      session.path = sanitizeText(body.path, session.path);
+      session.timezone = sanitizeText(body.timezone, session.timezone || "");
+      session.language = sanitizeText(body.language, session.language || "");
+      session.locationLabel = sanitizeText(body.locationLabel, session.locationLabel || "");
+      session.activeSeconds = Number(body.activeSeconds || session.activeSeconds || 0);
+      session.scrollDepth = Math.max(Number(body.scrollDepth || 0), Number(session.scrollDepth || 0));
+    });
+    sendJson(res, 200, { ok: true });
+    return;
+  }
+
+  if (pathname === "/api/track/event" && req.method === "POST") {
+    const body = await parseBody(req);
+    if (isAdminTrackingPath(body.path || body.page || "/")) {
+      sendJson(res, 200, { ok: true, ignored: true });
+      return;
+    }
+    await withStore(async current => {
+      const session = (current.tracking.sessions || []).find(item => item.id === sanitizeText(body.sessionId));
+      const event = {
+        id: createId("evt"),
+        sessionId: sanitizeText(body.sessionId),
+        page: sanitizeText(body.page, session?.currentPage || "/"),
+        type: sanitizeText(body.type, "interaction"),
+        target: sanitizeText(body.target, "unknown"),
+        text: sanitizeText(body.text, ""),
+        createdAt: nowIso()
+      };
+      current.tracking.events = [event, ...(current.tracking.events || [])].slice(0, EVENT_RETENTION);
+      if (session) {
+        session.lastSeenAt = event.createdAt;
+        session.eventCount = Number(session.eventCount || 0) + 1;
+      }
+    });
+    sendJson(res, 200, { ok: true });
+    return;
+  }
+
+  if ((pathname === "/api/session" || pathname === "/api/track/replay") && req.method === "POST") {
+    const body = await parseBody(req);
+    if (isAdminTrackingPath(body.path || body.page || "/")) {
+      sendJson(res, 200, { ok: true, ignored: true });
+      return;
+    }
+    const sessionId = sanitizeText(body.session_id || body.sessionId);
+    if (!sessionId) {
+      sendJson(res, 400, { error: "Missing session id" });
+      return;
+    }
+
+    await withStore(async current => {
+      ensureTrackingStore(current);
+      const visitorId = sanitizeText(body.visitor_id || body.visitorId);
+      const format = sanitizeText(body.format, "custom");
+      const incomingEvents = Array.isArray(body.events) ? body.events.slice(0, 1200) : [];
+      const sanitizedEvents = format === "rrweb"
+        ? incomingEvents.map(event => ({
+            type: safeNumber(event.type, 0),
+            timestamp: safeNumber(event.timestamp || Date.now()),
+            data: event && typeof event.data === "object" ? event.data : {}
+          }))
+        : incomingEvents.map(event => ({
+            type: sanitizeText(event.type, "unknown"),
+            timestamp: safeNumber(event.timestamp || Date.now()),
+            x: safeNumber(event.x, null),
+            y: safeNumber(event.y, null),
+            scrollX: safeNumber(event.scrollX, null),
+            scrollY: safeNumber(event.scrollY, null),
+            href: sanitizeText(event.href),
+            path: sanitizeText(event.path),
+            text: sanitizeText(event.text).slice(0, 120),
+            target: sanitizeText(event.target).slice(0, 160),
+            value: sanitizeText(event.value).slice(0, 120),
+            headHtml: sanitizeText(event.headHtml).slice(0, 120000),
+            html: sanitizeText(event.html).slice(0, 250000),
+            width: safeNumber(event.width, null),
+            height: safeNumber(event.height, null),
+            docHeight: safeNumber(event.docHeight, null)
+          }));
+      const durationMs = safeNumber(body.duration_ms || body.durationMs);
+      const eventsCount = safeNumber(body.events_count || body.eventsCount, sanitizedEvents.length);
+      const ip = getTruncatedIp(req);
+      const userAgent = sanitizeText(body.user_agent || req.headers["user-agent"], "unknown");
+      const page = sanitizeText(body.page, "/");
+      const pathValue = sanitizeText(body.path, "/");
+      const now = nowIso();
+
+      let replay = (current.tracking.replays || []).find(item => item.sessionId === sessionId);
+      if (!replay) {
+        replay = {
+          id: createId("replay"),
+          sessionId,
+          visitorId,
+          createdAt: now,
+          updatedAt: now,
+          page,
+          path: pathValue,
+          ip,
+          userAgent,
+          format,
+          durationMs,
+          eventsCount,
+          batches: []
+        };
+        current.tracking.replays.unshift(replay);
+      }
+
+      replay.visitorId = visitorId || replay.visitorId;
+      replay.updatedAt = now;
+      replay.page = page || replay.page;
+      replay.path = pathValue || replay.path;
+      replay.ip = replay.ip || ip;
+      replay.userAgent = userAgent || replay.userAgent;
+      replay.format = format || replay.format || "custom";
+      replay.durationMs = Math.max(durationMs, safeNumber(replay.durationMs));
+      replay.eventsCount = Math.min(REPLAY_EVENT_LIMIT, safeNumber(replay.eventsCount) + eventsCount);
+      replay.batches = [...(replay.batches || []), {
+        id: createId("batch"),
+        createdAt: now,
+        events: sanitizedEvents
+      }];
+
+      let flattenedCount = 0;
+      replay.batches = (replay.batches || []).reverse().filter(batch => {
+        const count = Array.isArray(batch.events) ? batch.events.length : 0;
+        if (flattenedCount >= REPLAY_EVENT_LIMIT) return false;
+        flattenedCount += count;
+        return true;
+      }).reverse();
+
+      const session = (current.tracking.sessions || []).find(item => item.id === sessionId);
+      if (session) {
+        session.visitorId = visitorId || session.visitorId;
+        session.userAgent = userAgent || session.userAgent;
+        session.ip = session.ip || ip;
+        session.lastSeenAt = now;
+        session.currentPage = page || session.currentPage;
+        session.path = pathValue || session.path;
+        session.activeSeconds = Math.max(safeNumber(session.activeSeconds), Math.round(replay.durationMs / 1000));
+        session.eventCount = Math.max(safeNumber(session.eventCount), replay.eventsCount);
+      }
+
+      current.tracking.replays = (current.tracking.replays || []).slice(0, REPLAY_RETENTION);
+    });
+
+    sendJson(res, 200, { ok: true });
+    return;
+  }
+
+  if (pathname === "/api/session/video" && req.method === "POST") {
+    const sessionId = sanitizeText(url.searchParams.get("sessionId"));
+    if (!sessionId) {
+      sendJson(res, 400, { error: "Missing session id" });
+      return;
+    }
+
+    const buffer = await parseBinaryBody(req);
+    if (!buffer.length) {
+      sendJson(res, 400, { error: "Missing video payload" });
+      return;
+    }
+
+    const visitorId = sanitizeText(url.searchParams.get("visitorId"));
+    const page = sanitizeText(url.searchParams.get("page"), "/");
+    const pathValue = sanitizeText(url.searchParams.get("path"), "/");
+    if (isAdminTrackingPath(pathValue || page || "/")) {
+      sendJson(res, 200, { ok: true, ignored: true });
+      return;
+    }
+    const durationMs = safeNumber(url.searchParams.get("durationMs"));
+    const partIndex = safeNumber(url.searchParams.get("part"), 1);
+    const mimeType = sanitizeText(req.headers["content-type"], "video/webm");
+    const extension = mimeType.includes("mp4") ? ".mp4" : ".webm";
+    const now = nowIso();
+    const fileName = `${sanitizeFilePart(sessionId, "session")}__part-${String(partIndex).padStart(3, "0")}${extension}`;
+    const relativeFile = path.posix.join("data", "replays", fileName);
+    const absoluteFile = path.join(REPLAY_VIDEO_DIR, fileName);
+
+    await fsp.writeFile(absoluteFile, buffer);
+
+    await withStore(async current => {
+      ensureTrackingStore(current);
+      const ip = getTruncatedIp(req);
+      const userAgent = sanitizeText(req.headers["user-agent"], "unknown");
+      let replay = (current.tracking.replays || []).find(item => item.sessionId === sessionId);
+
+      if (!replay) {
+        replay = {
+          id: createId("replay"),
+          sessionId,
+          visitorId,
+          createdAt: now,
+          updatedAt: now,
+          page,
+          path: pathValue,
+          ip,
+          userAgent,
+          format: "video",
+          durationMs,
+          eventsCount: 0,
+          parts: []
+        };
+        current.tracking.replays.unshift(replay);
+      }
+
+      replay.format = "video";
+      replay.visitorId = visitorId || replay.visitorId;
+      replay.updatedAt = now;
+      replay.page = page || replay.page;
+      replay.path = pathValue || replay.path;
+      replay.ip = replay.ip || ip;
+      replay.userAgent = userAgent || replay.userAgent;
+      replay.durationMs = Math.max(durationMs, safeNumber(replay.durationMs));
+      replay.parts = (replay.parts || []).filter(part => safeNumber(part.index) !== partIndex);
+      replay.parts.push({
+        id: createId("clip"),
+        index: partIndex,
+        createdAt: now,
+        durationMs,
+        mimeType,
+        bytes: buffer.length,
+        file: relativeFile,
+        url: `/${relativeFile.replace(/\\/g, "/")}`
+      });
+      replay.parts.sort((a, b) => safeNumber(a.index) - safeNumber(b.index));
+
+      const session = (current.tracking.sessions || []).find(item => item.id === sessionId);
+      if (session) {
+        session.visitorId = visitorId || session.visitorId;
+        session.userAgent = userAgent || session.userAgent;
+        session.ip = session.ip || ip;
+        session.lastSeenAt = now;
+        session.currentPage = page || session.currentPage;
+        session.path = pathValue || session.path;
+        session.activeSeconds = Math.max(safeNumber(session.activeSeconds), Math.round(replay.durationMs / 1000));
+      }
+
+      addActivity(current, `Video replay captured for ${page}`, "visitor");
+    });
+
+    sendJson(res, 200, { ok: true });
+    return;
+  }
+
+  if (pathname === "/api/leads" && req.method === "POST") {
+    const body = await parseBody(req);
+    const name = sanitizeText(body.name);
+    const email = sanitizeText(body.email);
+    const phone = sanitizeText(body.phone);
+    const services = Array.isArray(body.services)
+      ? body.services.map(item => sanitizeText(item)).filter(Boolean)
+      : sanitizeText(body.services).split(",").map(item => item.trim()).filter(Boolean);
+    const message = sanitizeText(body.message);
+    const budget = sanitizeText(body.budget, "Not specified");
+
+    if (store.settings.maintenanceMode) {
+      sendJson(res, 503, { error: "Website is in maintenance mode." });
+      return;
+    }
+    if (store.settings.acceptLeads === false) {
+      sendJson(res, 403, { error: "Lead collection is disabled." });
+      return;
+    }
+    if (!name || !email || !phone || !message || !services.length) {
+      sendJson(res, 400, { error: "Missing required lead fields." });
+      return;
+    }
+
+    await withStore(async current => {
+      const lead = {
+        id: createId("lead"),
+        name,
+        email,
+        phone,
+        budget,
+        services,
+        message,
+        status: "new",
+        source: sanitizeText(body.source, "website-form"),
+        sessionId: sanitizeText(body.sessionId),
+        createdAt: nowIso(),
+        updatedAt: nowIso()
+      };
+      current.leads = [lead, ...(current.leads || [])].slice(0, 500);
+      addActivity(current, `New lead received from ${lead.name}`, "lead");
+    });
+    sendJson(res, 201, { ok: true });
+    return;
+  }
+
+  if (pathname === "/api/admin/login" && req.method === "POST") {
+    const body = await parseBody(req);
+    const username = normalizeUsername(body.username);
+    const passwordHash = hashPassword(body.password);
+    const user = (store.settings.adminUsers || []).find(item => {
+      return normalizeUsername(item.username) === username && item.passwordHash === passwordHash && item.status !== "disabled";
+    });
+    if (!user) {
+      sendJson(res, 401, { error: "Invalid username or password" });
+      return;
+    }
+    const token = crypto.randomBytes(24).toString("hex");
+    adminSessions.set(token, {
+      username: user.username,
+      createdAt: Date.now(),
+      lastSeenAt: Date.now()
+    });
+    res.writeHead(200, {
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "no-store",
+      "Set-Cookie": `webx_admin_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${Math.floor(ADMIN_SESSION_TTL_MS / 1000)}`
+    });
+    res.end(JSON.stringify({ ok: true, token, user: serializeAdminUser(user) }));
+    return;
+  }
+
+  if (pathname === "/api/admin/logout" && req.method === "POST") {
+    const auth = getAuthorizedSession(req, store);
+    if (auth) adminSessions.delete(auth.token);
+    res.writeHead(200, {
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "no-store",
+      "Set-Cookie": "webx_admin_session=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0"
+    });
+    res.end(JSON.stringify({ ok: true }));
+    return;
+  }
+
+  if (pathname === "/api/admin/stream" && req.method === "GET") {
+    if (!getAuthorizedSession(req, store)) {
+      sendJson(res, 401, { error: "Unauthorized" });
+      return;
+    }
+    res.writeHead(200, {
+      "Content-Type": "text/event-stream; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      Connection: "keep-alive"
+    });
+    res.write(`data: ${JSON.stringify({ type: "snapshot", payload: getAnalytics(store) })}\n\n`);
+    sseClients.add(res);
+    req.on("close", () => sseClients.delete(res));
+    return;
+  }
+
+  if (pathname.startsWith("/api/admin/")) {
+    const auth = getAuthorizedSession(req, store);
+    if (!auth) {
+      sendJson(res, 401, { error: "Unauthorized" });
+      return;
+    }
+
+    if (pathname === "/api/admin/bootstrap" && req.method === "GET") {
+      sendJson(res, 200, { ...getAnalytics(store), currentUser: auth.user });
+      return;
+    }
+
+    if (pathname === "/api/admin/media/upload-image" && req.method === "POST") {
+      const body = await parseBody(req);
+      try {
+        const url = await saveAdminImageUpload(body.fileName, body.dataUrl);
+        sendJson(res, 200, { ok: true, url });
+      } catch (error) {
+        sendJson(res, 400, { error: error.message || "Image upload failed" });
+      }
+      return;
+    }
+
+    if (pathname === "/api/admin/sessions" && req.method === "GET") {
+      sendJson(res, 200, {
+        sessions: (store.tracking.sessions || [])
+          .slice()
+          .sort((a, b) => new Date(b.lastSeenAt || b.createdAt) - new Date(a.lastSeenAt || a.createdAt))
+          .slice(0, 50)
+      });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/sessions/") && pathname.endsWith("/replay") && req.method === "GET") {
+      const parts = pathname.split("/");
+      const sessionId = decodeURIComponent(parts[parts.length - 2] || "");
+      const replay = (store.tracking.replays || []).find(item => item.sessionId === sessionId);
+      if (!replay) {
+        sendJson(res, 404, { error: "Replay not found" });
+        return;
+      }
+      sendJson(res, 200, { replay });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/sessions/") && req.method === "DELETE") {
+      const sessionId = decodeURIComponent(pathname.split("/").pop() || "");
+      await withStore(async current => {
+        ensureTrackingStore(current);
+        current.tracking.sessions = (current.tracking.sessions || []).filter(item => item.id !== sessionId);
+        current.tracking.events = (current.tracking.events || []).filter(item => item.sessionId !== sessionId);
+        const replayToDelete = (current.tracking.replays || []).find(item => item.sessionId === sessionId);
+        await removeReplayFiles(replayToDelete);
+        current.tracking.replays = (current.tracking.replays || []).filter(item => item.sessionId !== sessionId);
+        addActivity(current, `Replay session ${sessionId} deleted`, "visitor");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname === "/api/admin/settings" && req.method === "PUT") {
+      const body = await parseBody(req);
+      await withStore(async current => {
+        current.settings.siteName = sanitizeText(body.siteName, current.settings.siteName);
+        current.settings.contactEmail = sanitizeText(body.contactEmail, current.settings.contactEmail);
+        current.settings.contactPhone = sanitizeText(body.contactPhone, current.settings.contactPhone);
+        current.settings.contactWhatsapp = sanitizeText(body.contactWhatsapp, current.settings.contactWhatsapp);
+        current.settings.headOffice = sanitizeText(body.headOffice, current.settings.headOffice);
+        current.settings.branchOffice = sanitizeText(body.branchOffice, current.settings.branchOffice);
+        current.settings.maintenanceMode = !!body.maintenanceMode;
+        current.settings.acceptLeads = !!body.acceptLeads;
+        current.settings.clarityEnabled = !!body.clarityEnabled;
+        current.settings.clarityProjectId = sanitizeText(body.clarityProjectId, current.settings.clarityProjectId);
+        current.settings.clarityDashboardUrl = sanitizeText(body.clarityDashboardUrl, current.settings.clarityDashboardUrl || "https://clarity.microsoft.com/");
+        current.settings.clarityProjectLabel = sanitizeText(body.clarityProjectLabel, current.settings.clarityProjectLabel || "Webx Website");
+        addActivity(current, "Settings updated from dashboard", "settings");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/pages/") && req.method === "PUT") {
+      const slug = pathname.split("/").pop();
+      const body = await parseBody(req);
+      await withStore(async current => {
+        if (!current.pages[slug]) current.pages[slug] = {};
+        if (slug === "home") pushHomeUndoSnapshot(current.pages.home);
+        current.pages[slug].title = sanitizeText(body.title, current.pages[slug].title);
+        current.pages[slug].meta = sanitizeText(body.meta, current.pages[slug].meta);
+        current.pages[slug].heroTitle = sanitizeText(body.heroTitle, current.pages[slug].heroTitle);
+        current.pages[slug].heroSubtitle = sanitizeText(body.heroSubtitle, current.pages[slug].heroSubtitle);
+        if (slug === "home") {
+          current.pages[slug].ctaTitle = sanitizeText(body.ctaTitle, current.pages[slug].ctaTitle);
+          current.pages[slug].ctaSubtitle = sanitizeText(body.ctaSubtitle, current.pages[slug].ctaSubtitle);
+          if (Array.isArray(body.sections)) {
+            current.pages[slug].sections = body.sections.map(section => normalizeHomeSection(section));
+          }
+        } else if (slug === "work") {
+          ensureWorkPageStructure(current);
+          if (Array.isArray(body.projects)) {
+            current.pages.work.projects = body.projects.map((project, index) => normalizeWorkProject(project, index));
+          }
+          await writeWorkProjectFiles(current);
+        } else {
+          ensureGenericPagesStructure(current);
+          const existingPage = current.pages[slug];
+          if (!existingPage || existingPage.editorType !== "generic") {
+            throw new Error("Unsupported page editor");
+          }
+          existingPage.title = sanitizeText(body.title, existingPage.title);
+          existingPage.meta = sanitizeText(body.meta, existingPage.meta);
+          if (Array.isArray(body.sections)) {
+            existingPage.sections = body.sections.map((section, index) => normalizeGenericSection(section, index));
+            existingPage.summary = getGenericPageSummary(existingPage.path, existingPage.sections);
+          }
+          existingPage.updatedAt = nowIso();
+          await writeGenericPageFile(existingPage);
+        }
+        addActivity(current, `${slug} page content updated`, "page");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname === "/api/admin/pages/home/undo" && req.method === "POST") {
+      await withStore(async current => {
+        ensureHomePageStructure(current);
+        const home = current.pages.home;
+        const snapshot = (home.undoStack || []).shift();
+        if (!snapshot) throw new Error("No undo snapshot available");
+        home.title = sanitizeText(snapshot.title, home.title);
+        home.meta = sanitizeText(snapshot.meta, home.meta);
+        home.heroTitle = sanitizeText(snapshot.heroTitle, home.heroTitle);
+        home.heroSubtitle = sanitizeText(snapshot.heroSubtitle, home.heroSubtitle);
+        home.ctaTitle = sanitizeText(snapshot.ctaTitle, home.ctaTitle);
+        home.ctaSubtitle = sanitizeText(snapshot.ctaSubtitle, home.ctaSubtitle);
+        home.sections = (snapshot.sections || []).map(section => normalizeHomeSection(section));
+        addActivity(current, "Home page changes undone from dashboard", "page");
+      }).catch(error => {
+        sendJson(res, 400, { error: error.message || "Undo failed" });
+      });
+      if (!res.writableEnded) sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname === "/api/admin/services" && req.method === "POST") {
+      const body = await parseBody(req);
+      await withStore(async current => {
+        current.services.unshift({
+          id: createId("svc"),
+          name: sanitizeText(body.name, "New Service"),
+          shortDescription: sanitizeText(body.shortDescription, ""),
+          details: sanitizeText(body.details, ""),
+          icon: sanitizeText(body.icon, "/assets/images/icons/webx-icon.svg"),
+          status: sanitizeText(body.status, "active")
+        });
+        addActivity(current, "Service added from dashboard", "service");
+      });
+      sendJson(res, 201, { ok: true });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/services/") && req.method === "PUT") {
+      const serviceId = pathname.split("/").pop();
+      const body = await parseBody(req);
+      await withStore(async current => {
+        const service = (current.services || []).find(item => item.id === serviceId);
+        if (!service) return;
+        service.name = sanitizeText(body.name, service.name);
+        service.shortDescription = sanitizeText(body.shortDescription, service.shortDescription);
+        service.details = sanitizeText(body.details, service.details);
+        service.icon = sanitizeText(body.icon, service.icon);
+        service.status = sanitizeText(body.status, service.status);
+        addActivity(current, `${service.name} service updated`, "service");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/services/") && req.method === "DELETE") {
+      const serviceId = pathname.split("/").pop();
+      await withStore(async current => {
+        current.services = (current.services || []).filter(item => item.id !== serviceId);
+        addActivity(current, "Service deleted from dashboard", "service");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/leads/") && req.method === "PATCH") {
+      const leadId = pathname.split("/").pop();
+      const body = await parseBody(req);
+      await withStore(async current => {
+        const lead = (current.leads || []).find(item => item.id === leadId);
+        if (!lead) return;
+        lead.status = sanitizeText(body.status, lead.status);
+        lead.updatedAt = nowIso();
+        addActivity(current, `Lead ${lead.name} marked as ${lead.status}`, "lead");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/leads/") && req.method === "DELETE") {
+      const leadId = pathname.split("/").pop();
+      await withStore(async current => {
+        current.leads = (current.leads || []).filter(item => item.id !== leadId);
+        addActivity(current, "Lead deleted from dashboard", "lead");
+      });
+      sendJson(res, 200, { ok: true });
+      return;
+    }
+  }
+
+  sendJson(res, 404, { error: "API route not found" });
+}
+
+function createServer() {
+  return http.createServer(async (req, res) => {
+    try {
+      const url = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+      const appPath = stripBasePath(url.pathname);
+      if (BASE_PATH && appPath === null) {
+        sendJson(res, 404, { error: "Not found" });
+        return;
+      }
+      url.pathname = appPath || url.pathname;
+      if (url.pathname.startsWith("/api/")) {
+        await handleApi(req, res, url);
+        return;
+      }
+      const store = readStore();
+      ensureAdminUsers(store);
+      serveFile(url.pathname, res, store);
+    } catch (error) {
+      console.error("Internal server error:", error.message, error.stack);
+      sendJson(res, 500, { error: "Internal server error" });
+    }
+  });
+}
+
+function listenOn(port, maxRetries = 10) {
+  const server = createServer();
+  server.on('error', error => {
+    if (error.code === 'EADDRINUSE') {
+      if (port >= 3000 + maxRetries) {
+        console.error(`Port ${port} is in use and maximum retry limit reached.`);
+        process.exit(1);
+        return;
+      }
+      console.warn(`Port ${port} is already in use. Trying port ${port + 1}...`);
+      listenOn(port + 1, maxRetries);
+      return;
+    }
+    console.error('Server error:', error);
+    process.exit(1);
+  });
+
+  server.listen(port, () => {
+    console.log(`Webx server running on http://localhost:${port}`);
+  });
+}
+
+listenOn(PORT);

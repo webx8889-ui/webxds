@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard - Webx Design Studio</title>
+  <meta name="description" content="Admin dashboard for Webx Design Studio to manage leads, projects, performance and content operations." />
+  <link rel="canonical" href="https://webxds.com/pages/system/admin-dashboard.html" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" />
+  <link href="https://fonts.cdnfonts.com/css/atten-new" rel="stylesheet" />
+  <!-- Tabler Icons for PNG-style SVG icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="/css/admin-dashboard.css" />
+  <style>
+    /* ===== WEBX DESIGN STUDIO THEME ===== */
+    :root {
+      --c-bg: #000000;
+      --c-bg-2: #0a0a0a;
+      --c-bg-card: #0f0f0f;
+      --c-bg-card-hover: #141414;
+      --c-border: #1e1e1e;
+      --c-border-active: #2a2a2a;
+      --c-accent: #FEA800;
+      --c-accent-dim: rgba(254,168,0,0.12);
+      --c-accent-hover: rgba(254,168,0,0.08);
+      --c-white: #ffffff;
+      --c-muted: #888888;
+      --c-muted-2: #555555;
+      --c-green: #22c55e;
+      --c-red: #ef4444;
+      --c-blue: #3b82f6;
+      --c-yellow: #FEA800;
+      --sidebar-w: 256px;
+      --header-h: 64px;
+      --radius: 0px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.6);
+      --transition: 0.18s ease;
+      --font: 'Atten New', 'Inter', sans-serif;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body { font-family: var(--font); background: var(--c-bg); color: var(--c-white); min-height: 100vh; overflow-x: hidden; font-size: clamp(15px, 1.4vw, 18px); }
+    a { color: inherit; text-decoration: none; }
+    button { border: none; background: none; cursor: pointer; font-family: inherit; }
+    input, textarea, select { font-family: inherit; outline: none; border: none; background: none; }
+    ul, ol { list-style: none; }
+    img { max-width: 100%; display: block; }
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--c-bg); }
+    ::-webkit-scrollbar-thumb { background: #222; }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      position: fixed; top: 0; left: 0;
+      width: var(--sidebar-w); height: 100vh;
+      background: var(--c-bg-2);
+      border-right: 1px solid var(--c-border);
+      display: flex; flex-direction: column;
+      z-index: 200;
+      transition: transform var(--transition), width var(--transition);
+    }
+    .sidebar.collapsed {
+      transform: translateX(-100%);
+      width: 0;
+      border-right-color: transparent;
+      overflow: hidden;
+    }
+    .main-wrapper.sidebar-collapsed {
+      margin-left: 0;
+    }
+    .topbar {
+      z-index: 300;
+    }
+    .sidebar-logo {
+      padding: 0 22px;
+      height: var(--header-h);
+      display: flex; align-items: center; gap: 12px;
+      border-bottom: 1px solid var(--c-border);
+    }
+    .sidebar-logo-icon {
+      width: 32px; height: 32px;
+      background: var(--c-accent);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 13px; color: #000;
+      letter-spacing: -0.5px; flex-shrink: 0;
+    }
+    .sidebar-logo-text { font-weight: 700; font-size: clamp(15px, 1.3vw, 17px); letter-spacing: 0.01em; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .sidebar-logo-sub { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); margin-top: 2px; letter-spacing: 0.06em; text-transform: uppercase; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .sidebar-section-label {
+      padding: 22px 22px 8px;
+      font-size: clamp(10px, 0.8vw, 12px); font-weight: 700;
+      letter-spacing: 1.6px; color: var(--c-muted-2);
+      text-transform: uppercase;
+      overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+    }
+    .sidebar-nav { flex: 1; overflow-y: auto; padding-bottom: 16px; }
+    .nav-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 11px 22px; margin: 1px 0;
+      color: var(--c-muted);
+      font-size: clamp(14px, 1.2vw, 16px); font-weight: 500;
+      cursor: pointer;
+      transition: all var(--transition);
+      position: relative;
+      border-left: 2px solid transparent;
+      min-width: 0; overflow: hidden;
+    }
+    .nav-item:hover { background: rgba(255,255,255,0.03); color: var(--c-white); }
+    .nav-item.active {
+      background: var(--c-accent-dim);
+      color: var(--c-accent);
+      border-left-color: var(--c-accent);
+    }
+    .nav-icon {
+      width: 20px; height: 20px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+    }
+    .nav-icon img { width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(0.5); }
+    .nav-item.active .nav-icon img { filter: brightness(0) saturate(100%) invert(72%) sepia(89%) saturate(700%) hue-rotate(1deg) brightness(104%) contrast(101%); }
+    .nav-item:hover .nav-icon img { filter: brightness(0) invert(1); }
+    .nav-badge {
+      margin-left: auto; background: var(--c-accent); color: #000;
+      font-size: clamp(10px, 0.8vw, 12px); font-weight: 700;
+      padding: 2px 8px; min-width: 22px; text-align: center;
+    }
+    .nav-badge.green { background: var(--c-green); color: #000; }
+    .sidebar-user {
+      padding: 16px 22px; border-top: 1px solid var(--c-border);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .user-avatar {
+      width: 36px; height: 36px;
+      background: var(--c-accent);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: clamp(12px, 1vw, 14px); color: #000; flex-shrink: 0;
+    }
+    .user-name { font-size: clamp(14px, 1.1vw, 16px); font-weight: 700; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .user-role { font-size: clamp(10px, 0.8vw, 12px); color: var(--c-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .user-status { width: 8px; height: 8px; background: var(--c-green); border-radius: 50%; margin-left: auto; flex-shrink: 0; }
+
+    /* ===== MAIN ===== */
+    .main-wrapper { margin-left: var(--sidebar-w); min-height: 100vh; display: flex; flex-direction: column; transition: margin-left var(--transition); }
+
+    /* ===== TOPBAR ===== */
+    .topbar {
+      position: sticky; top: 0; height: var(--header-h);
+      background: rgba(0,0,0,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--c-border);
+      display: flex; align-items: center;
+      padding: 0 28px; gap: 16px; z-index: 300;
+    }
+    .topbar-title { font-size: clamp(18px, 1.8vw, 22px); font-weight: 700; flex: 1; letter-spacing: -0.01em; }
+    .topbar-title span { color: var(--c-muted); font-weight: 400; font-size: clamp(13px, 1.1vw, 15px); margin-left: 8px; letter-spacing: 0; }
+    .topbar-search {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      padding: 9px 16px; width: 240px;
+      transition: all var(--transition);
+    }
+    .topbar-search:focus-within { border-color: var(--c-accent); width: 280px; }
+    .topbar-search input { flex: 1; color: var(--c-white); font-size: clamp(13px, 1.1vw, 15px); background: transparent; }
+    .topbar-search input::placeholder { color: var(--c-muted-2); }
+    .topbar-search img { width: 18px; height: 18px; filter: brightness(0) invert(0.4); flex-shrink: 0; }
+    .topbar-actions { display: flex; align-items: center; gap: 8px; }
+    .icon-btn {
+      width: 36px; height: 36px;
+      background: var(--c-bg-card);
+      border: 1px solid var(--c-border);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: all var(--transition);
+      color: var(--c-muted); position: relative;
+    }
+    .icon-btn img { width: 18px; height: 18px; filter: brightness(0) invert(0.5); }
+    .icon-btn:hover { border-color: var(--c-accent); }
+    .icon-btn:hover img { filter: brightness(0) saturate(100%) invert(72%) sepia(89%) saturate(700%) hue-rotate(1deg) brightness(104%) contrast(101%); }
+    .notif-dot {
+      position: absolute; top: 5px; right: 5px;
+      width: 7px; height: 7px; background: var(--c-accent);
+      border-radius: 50%; border: 1.5px solid #000;
+    }
+    .topbar-date { font-size: clamp(12px, 1vw, 14px); color: var(--c-muted); letter-spacing: 0.02em; white-space: nowrap; }
+
+    /* ===== CONTENT ===== */
+    .content { padding: clamp(20px, 3vw, 36px); flex: 1; }
+    .page-panel { display: none; }
+    .page-panel.active { display: block; }
+
+    /* ===== SECTION HEADER ===== */
+    .section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: clamp(20px, 3vw, 30px);
+    }
+    .section-title { font-size: clamp(22px, 3vw, 32px); font-weight: 700; letter-spacing: -0.02em; }
+    .section-subtitle { color: var(--c-muted); font-size: clamp(13px, 1.2vw, 16px); margin-top: 4px; line-height: 1.5; }
+
+    /* ===== STAT CARDS ===== */
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      gap: 1px; margin-bottom: 24px;
+      border: 1px solid var(--c-border);
+      background: var(--c-border);
+    }
+    .stat-card {
+      background: var(--c-bg-card);
+      padding: 22px 24px;
+      cursor: default; position: relative; overflow: hidden;
+      transition: background var(--transition);
+    }
+    .stat-card:hover { background: var(--c-bg-card-hover); }
+    .stat-card::after {
+      content: ''; position: absolute;
+      bottom: 0; left: 0; right: 0; height: 2px;
+    }
+    .stat-card:nth-child(1)::after { background: var(--c-accent); }
+    .stat-card:nth-child(2)::after { background: var(--c-green); }
+    .stat-card:nth-child(3)::after { background: var(--c-blue); }
+    .stat-card:nth-child(4)::after { background: var(--c-red); }
+    .stat-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .stat-label { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+    .stat-icon-wrap { width: 38px; height: 38px; background: rgba(255,255,255,0.04); display: flex; align-items: center; justify-content: center; }
+    .stat-icon-wrap img { width: 22px; height: 22px; filter: brightness(0) invert(0.5); }
+    .stat-value { font-size: clamp(28px, 3.5vw, 42px); font-weight: 800; letter-spacing: -1.5px; }
+    .stat-change { margin-top: 10px; font-size: clamp(12px, 1vw, 14px); color: var(--c-green); display: flex; align-items: center; gap: 5px; }
+    .stat-change.down { color: var(--c-red); }
+    .stat-change img { width: 12px; height: 12px; }
+
+    /* ===== GRID ===== */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--c-border); margin-bottom: 1px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--c-border); margin-bottom: 1px; }
+    .grid-6-4 { display: grid; grid-template-columns: 6fr 4fr; gap: 1px; background: var(--c-border); margin-bottom: 1px; }
+
+    /* ===== CARD ===== */
+    .card { background: var(--c-bg-card); border: 1px solid var(--c-border); padding: clamp(18px, 2.5vw, 28px); }
+    .grid-2 .card, .grid-3 .card, .grid-6-4 .card { border: none; }
+    .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .card-title { font-size: clamp(15px, 1.4vw, 18px); font-weight: 700; letter-spacing: -0.01em; }
+    .card-subtitle { font-size: clamp(12px, 1vw, 14px); color: var(--c-muted); margin-top: 3px; }
+    .card-action { font-size: clamp(12px, 1vw, 14px); color: var(--c-accent); font-weight: 600; cursor: pointer; padding: 6px 12px; transition: background var(--transition); }
+    .card-action:hover { background: var(--c-accent-dim); }
+
+    /* ===== TABLE ===== */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left; padding: 11px 16px;
+      font-size: clamp(10px, 0.8vw, 12px); font-weight: 700; color: var(--c-muted-2);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      border-bottom: 1px solid var(--c-border);
+    }
+    td { padding: 14px 16px; font-size: clamp(13px, 1.2vw, 15px); border-bottom: 1px solid var(--c-border); vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(255,255,255,0.02); }
+
+    /* ===== BADGE ===== */
+    .badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 4px 12px; font-size: clamp(10px, 0.85vw, 12px); font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+    }
+    .badge::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+    .badge-green { background: rgba(34,197,94,0.1); color: var(--c-green); }
+    .badge-gold { background: var(--c-accent-dim); color: var(--c-accent); }
+    .badge-red { background: rgba(239,68,68,0.1); color: var(--c-red); }
+    .badge-blue { background: rgba(59,130,246,0.1); color: var(--c-blue); }
+    .badge-gray { background: rgba(136,136,136,0.1); color: var(--c-muted); }
+
+    /* ===== PROGRESS ===== */
+    .progress-bar { height: 4px; background: var(--c-border); overflow: hidden; }
+    .progress-fill { height: 100%; transition: width 0.8s ease; }
+
+    /* ===== ACTIVITY ===== */
+    .activity-item { display: flex; align-items: flex-start; gap: 13px; padding: 13px 0; border-bottom: 1px solid var(--c-border); }
+    .activity-item:last-child { border-bottom: none; }
+    .activity-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+    .activity-text { font-size: clamp(13px, 1.2vw, 15px); line-height: 1.5; }
+    .activity-time { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); margin-top: 3px; }
+
+    /* ===== CLIENT ROW ===== */
+    .client-row { display: flex; align-items: center; gap: 10px; }
+    .client-avatar { width: 32px; height: 32px; background: var(--c-accent); display: flex; align-items: center; justify-content: center; font-size: clamp(10px, 0.85vw, 12px); font-weight: 700; color: #000; flex-shrink: 0; }
+    .client-name { font-weight: 600; font-size: clamp(13px, 1.1vw, 15px); }
+    .client-email { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); }
+
+    /* ===== CHART ===== */
+    .chart-area { height: 180px; display: flex; align-items: flex-end; gap: 8px; padding: 12px 0 0; }
+    .chart-bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .chart-bar { width: 100%; background: rgba(254,168,0,0.3); transition: height 1s ease, background 0.2s; cursor: pointer; min-height: 4px; }
+    .chart-bar:hover { background: var(--c-accent); }
+    .chart-bar.alt { background: rgba(254,168,0,0.12); }
+    .chart-bar.alt:hover { background: var(--c-accent); }
+    .chart-label { font-size: clamp(10px, 0.85vw, 12px); color: var(--c-muted-2); letter-spacing: 0.05em; }
+
+    /* ===== QUICK ACTIONS ===== */
+    .quick-actions { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; }
+    .quick-btn {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; padding: 20px 16px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--c-border);
+      font-size: clamp(12px, 1.1vw, 14px); font-weight: 600;
+      cursor: pointer; transition: all var(--transition);
+      color: var(--c-muted); letter-spacing: 0.02em;
+    }
+    .quick-btn:hover { border-color: var(--c-accent); color: var(--c-accent); background: var(--c-accent-dim); }
+    .quick-btn img { width: 28px; height: 28px; filter: brightness(0) invert(0.5); }
+    .quick-btn:hover img { filter: brightness(0) saturate(100%) invert(72%) sepia(89%) saturate(700%) hue-rotate(1deg) brightness(104%) contrast(101%); }
+
+    /* ===== BTN ===== */
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; font-size: clamp(13px, 1.1vw, 15px); font-weight: 700; cursor: pointer; transition: all var(--transition); border: 1px solid transparent; letter-spacing: 0.03em; }
+    .btn img { width: 17px; height: 17px; }
+    .btn-primary { background: var(--c-accent); color: #000; }
+    .btn-primary:hover { background: #e09600; }
+    .btn-primary img { filter: brightness(0); }
+    .btn-outline { background: transparent; border-color: var(--c-border); color: var(--c-muted); }
+    .btn-outline:hover { border-color: var(--c-accent); color: var(--c-accent); }
+    .btn-danger { background: rgba(239,68,68,0.1); border-color: var(--c-red); color: var(--c-red); }
+
+    /* ===== PAGE CARDS ===== */
+    .content-pages-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--c-border); }
+    .page-card { background: var(--c-bg-card); padding: clamp(18px, 2.5vw, 26px); cursor: pointer; transition: background var(--transition); }
+    .page-card:hover { background: var(--c-bg-card-hover); }
+    .page-card-icon { width: 46px; height: 46px; margin-bottom: 16px; }
+    .page-card-icon img { width: 100%; height: 100%; filter: brightness(0) invert(0.4); }
+    .page-card:hover .page-card-icon img { filter: brightness(0) saturate(100%) invert(72%) sepia(89%) saturate(700%) hue-rotate(1deg) brightness(104%) contrast(101%); }
+    .page-card-name { font-size: clamp(15px, 1.4vw, 18px); font-weight: 700; margin-bottom: 6px; }
+    .page-card-desc { font-size: clamp(12px, 1.1vw, 14px); color: var(--c-muted); line-height: 1.5; }
+    .page-card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--c-border); }
+    .page-card-status { font-size: clamp(11px, 0.9vw, 13px); font-weight: 700; color: var(--c-green); letter-spacing: 0.05em; }
+
+    /* ===== EDITOR ===== */
+    .editor-wrap { display: none; }
+    .editor-wrap.visible { display: block; }
+    .editor-field { margin-bottom: 20px; }
+    .editor-label { font-size: clamp(10px, 0.85vw, 12px); font-weight: 700; color: var(--c-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .editor-input { width: 100%; padding: 12px 16px; background: #050505; border: 1px solid var(--c-border); color: var(--c-white); font-size: clamp(14px, 1.2vw, 16px); transition: border-color var(--transition); font-family: var(--font); line-height: 1.5; }
+    .editor-input:focus { border-color: var(--c-accent); }
+    .editor-textarea { min-height: 130px; resize: vertical; line-height: 1.6; }
+    .editor-actions { display: flex; gap: 10px; margin-top: 8px; }
+
+    /* ===== SERVICES ===== */
+    .service-list-item { display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: var(--c-bg-card); border: 1px solid var(--c-border); border-top: none; transition: all var(--transition); }
+    .service-list-item:first-child { border-top: 1px solid var(--c-border); }
+    .service-list-item:hover { background: var(--c-bg-card-hover); }
+    .service-num { width: 32px; height: 32px; background: var(--c-accent-dim); display: flex; align-items: center; justify-content: center; font-size: clamp(11px, 0.9vw, 13px); font-weight: 700; color: var(--c-accent); flex-shrink: 0; }
+    .service-info { flex: 1; }
+    .service-name { font-weight: 700; font-size: clamp(14px, 1.3vw, 17px); }
+    .service-desc { font-size: clamp(12px, 1.1vw, 14px); color: var(--c-muted); margin-top: 3px; line-height: 1.5; }
+    .service-actions { display: flex; gap: 6px; }
+    .action-btn { padding: 6px 14px; font-size: clamp(11px, 0.9vw, 13px); font-weight: 700; cursor: pointer; transition: all var(--transition); letter-spacing: 0.03em; border: none; font-family: var(--font); }
+    .action-btn.edit { background: var(--c-accent-dim); color: var(--c-accent); }
+    .action-btn.delete { background: rgba(239,68,68,0.1); color: var(--c-red); }
+    .action-btn:hover { opacity: 0.75; }
+
+    /* ===== BLOG ===== */
+    .blog-list-item { display: flex; align-items: center; gap: 16px; padding: 16px; background: var(--c-bg-card); border: 1px solid var(--c-border); border-top: none; }
+    .blog-list-item:first-child { border-top: 1px solid var(--c-border); }
+    .blog-thumb { width: 56px; height: 44px; flex-shrink: 0; background: var(--c-accent); display: flex; align-items: center; justify-content: center; }
+    .blog-thumb img { width: 26px; height: 26px; filter: brightness(0); }
+    .blog-title-text { font-weight: 600; font-size: clamp(13px, 1.2vw, 15px); line-height: 1.4; }
+    .blog-meta-text { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); margin-top: 4px; }
+
+    /* ===== TOAST ===== */
+    .toast-container { position: fixed; bottom: 28px; right: 28px; z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
+    .toast { background: var(--c-bg-card); border: 1px solid var(--c-border); border-left: 3px solid var(--c-accent); padding: 16px 20px; min-width: 300px; max-width: 360px; display: flex; align-items: center; gap: 13px; box-shadow: var(--shadow); animation: slideIn 0.3s ease; }
+    .toast.success { border-left-color: var(--c-green); }
+    .toast.error { border-left-color: var(--c-red); }
+    .toast-icon img { width: 22px; height: 22px; filter: brightness(0) invert(1); flex-shrink: 0; }
+    .toast-text { font-size: clamp(13px, 1.1vw, 15px); font-weight: 600; }
+    @keyframes slideIn { from { transform: translateX(80px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+    /* ===== SETTINGS ===== */
+    .settings-grid { display: grid; grid-template-columns: 250px 1fr; gap: 1px; background: var(--c-border); }
+    .settings-nav { background: var(--c-bg-card); padding: 16px; }
+    .settings-nav-item { padding: 11px 15px; font-size: clamp(13px, 1.2vw, 15px); font-weight: 500; cursor: pointer; margin-bottom: 2px; color: var(--c-muted); transition: all var(--transition); display: flex; align-items: center; gap: 10px; }
+    .settings-nav-item:hover { background: rgba(255,255,255,0.03); color: var(--c-white); }
+    .settings-nav-item.active { background: var(--c-accent-dim); color: var(--c-accent); }
+    .settings-nav-item img { width: 18px; height: 18px; filter: brightness(0) invert(0.5); }
+    .settings-nav-item.active img { filter: brightness(0) saturate(100%) invert(72%) sepia(89%) saturate(700%) hue-rotate(1deg) brightness(104%) contrast(101%); }
+    .toggle-wrap { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid var(--c-border); }
+    .toggle-label { font-size: clamp(13px, 1.2vw, 15px); font-weight: 600; }
+    .toggle-sub { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); margin-top: 3px; }
+    .toggle { width: 44px; height: 23px; background: #1a1a1a; cursor: pointer; position: relative; transition: background 0.2s; flex-shrink: 0; border: 1px solid var(--c-border); }
+    .toggle.on { background: var(--c-accent); border-color: var(--c-accent); }
+    .toggle::after { content: ''; position: absolute; top: 2px; left: 2px; width: 17px; height: 17px; background: var(--c-muted); transition: transform 0.2s; }
+    .toggle.on::after { transform: translateX(21px); background: #000; }
+
+    /* ===== PORTFOLIO ===== */
+    .portfolio-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--c-border); }
+    .portfolio-item { background: var(--c-bg-card); overflow: hidden; transition: background var(--transition); }
+    .portfolio-item:hover { background: var(--c-bg-card-hover); }
+    .portfolio-thumb { height: 120px; display: flex; align-items: center; justify-content: center; }
+    .portfolio-body { padding: 16px; border-top: 1px solid var(--c-border); }
+    .portfolio-name { font-weight: 700; font-size: clamp(14px, 1.3vw, 16px); }
+    .portfolio-type { font-size: clamp(11px, 0.95vw, 13px); color: var(--c-muted); margin-top: 4px; }
+
+    /* ===== LEAD CARD ===== */
+    .lead-card { background: var(--c-bg-card); border: 1px solid var(--c-border); border-top: none; padding: clamp(16px, 2vw, 22px); transition: background var(--transition); }
+    .lead-card:first-child { border-top: 1px solid var(--c-border); }
+    .lead-card:hover { background: var(--c-bg-card-hover); }
+    .lead-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .lead-name { font-weight: 700; font-size: clamp(15px, 1.4vw, 18px); }
+    .lead-service { font-size: clamp(12px, 1.1vw, 14px); color: var(--c-muted); margin-top: 3px; }
+    .lead-details { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+    .lead-detail { font-size: clamp(12px, 1.1vw, 14px); color: var(--c-muted); display: flex; align-items: center; gap: 6px; }
+    .lead-detail img { width: 16px; height: 16px; filter: brightness(0) invert(0.5); }
+    .lead-message { font-size: clamp(13px, 1.2vw, 15px); color: rgba(255,255,255,0.6); margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--c-border); line-height: 1.6; font-style: italic; }
+
+    /* ===== MOBILE ===== */
+    .mobile-topbar-toggle { display: none; }
+    @media (max-width: 1100px) { .stats-grid { grid-template-columns: repeat(2,1fr); } .grid-6-4 { grid-template-columns: 1fr; } }
+    @media (max-width: 900px) { .sidebar { transform: translateX(-100%); } .sidebar.open { transform: translateX(0); } .main-wrapper { margin-left: 0; } .mobile-topbar-toggle { display: flex; } .content-pages-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 640px) { .stats-grid { grid-template-columns: 1fr 1fr; } .grid-2, .grid-3 { grid-template-columns: 1fr; } .content-pages-grid { grid-template-columns: 1fr; } .settings-grid { grid-template-columns: 1fr; } .topbar-search { display: none; } .content { padding: 16px; } }
+    @media (max-width: 420px) { .stats-grid { grid-template-columns: 1fr; } }
+
+    /* ===== OVERLAY + MODAL ===== */
+    .sidebar-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 190; display: none; }
+    .sidebar-overlay.visible { display: block; }
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 500; display: none; align-items: center; justify-content: center; }
+    .modal-backdrop.open { display: flex; }
+    .modal { background: var(--c-bg-2); border: 1px solid var(--c-border); padding: 28px; width: 90%; max-width: 500px; animation: modalIn 0.22s ease; }
+    @keyframes modalIn { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+    .modal-title { font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+    .modal-close { font-size: 20px; color: var(--c-muted); cursor: pointer; line-height: 1; }
+    .modal-close:hover { color: var(--c-red); }
+
+    /* ===== PRODUCTION SPACING POLISH ===== */
+    .content {
+      display: grid;
+      gap: clamp(24px, 3vw, 36px);
+    }
+    .page-panel.active {
+      animation: panelFade 0.18s ease;
+    }
+    @keyframes panelFade {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .section-header {
+      align-items: flex-start;
+      gap: clamp(16px, 2vw, 28px);
+      padding-bottom: clamp(18px, 2.2vw, 26px);
+      border-bottom: 1px solid var(--c-border);
+    }
+    .section-title {
+      line-height: 1.08;
+      max-width: 820px;
+    }
+    .section-subtitle {
+      max-width: 680px;
+      margin-top: 9px;
+    }
+    .stats-grid,
+    .grid-2,
+    .grid-3,
+    .grid-6-4,
+    .content-pages-grid,
+    .portfolio-grid,
+    .settings-grid {
+      gap: 12px;
+      background: transparent;
+      margin-bottom: clamp(18px, 2.5vw, 30px);
+    }
+    .card,
+    .stat-card,
+    .page-card,
+    .portfolio-item,
+    .lead-card,
+    .service-list-item,
+    .blog-list-item,
+    .settings-nav,
+    .modal {
+      border: 1px solid var(--c-border);
+      box-shadow: 0 14px 42px rgba(0,0,0,0.22);
+    }
+    .card {
+      display: grid;
+      gap: 18px;
+    }
+    .card-header {
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 4px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .card-title {
+      line-height: 1.25;
+    }
+    .card-subtitle {
+      margin-top: 7px;
+      line-height: 1.55;
+    }
+    .stat-card {
+      padding: clamp(20px, 2.4vw, 28px);
+    }
+    .stat-top {
+      margin-bottom: 18px;
+    }
+    .stat-value {
+      line-height: 1;
+    }
+    .quick-actions {
+      gap: 12px;
+    }
+    .quick-btn {
+      min-height: 132px;
+      padding: 22px 18px;
+      text-align: center;
+      line-height: 1.35;
+    }
+    .btn,
+    .action-btn,
+    .icon-btn {
+      border-radius: 0;
+      min-height: 38px;
+      white-space: nowrap;
+    }
+    .editor-field {
+      margin-bottom: 24px;
+    }
+    .editor-label {
+      display: block;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+    .editor-input {
+      min-height: 46px;
+      padding: 13px 16px;
+    }
+    textarea.editor-input,
+    .editor-textarea {
+      padding-top: 14px;
+    }
+    .editor-actions {
+      gap: 12px;
+      flex-wrap: wrap;
+      padding-top: 4px;
+    }
+    .content-pages-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .page-card {
+      display: grid;
+      align-content: start;
+      gap: 10px;
+      min-height: 218px;
+      padding: clamp(22px, 2.6vw, 30px);
+    }
+    .page-card-icon {
+      margin-bottom: 8px;
+    }
+    .page-card-name {
+      margin-bottom: 0;
+      line-height: 1.25;
+    }
+    .page-card-desc {
+      min-height: 44px;
+    }
+    .page-card-footer {
+      margin-top: auto;
+    }
+    .service-list-item,
+    .blog-list-item {
+      border-top: 1px solid var(--c-border);
+      margin-bottom: 12px;
+      padding: clamp(18px, 2.2vw, 24px);
+    }
+    .service-info,
+    .blog-list-item > div[style*="flex:1"] {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+    .service-desc,
+    .blog-meta-text,
+    .portfolio-type,
+    .lead-service,
+    .lead-message,
+    .activity-time {
+      line-height: 1.55;
+    }
+    .portfolio-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .portfolio-item {
+      display: grid;
+      min-height: 250px;
+    }
+    .portfolio-body {
+      display: grid;
+      gap: 8px;
+      padding: 20px;
+    }
+    .lead-card {
+      margin-bottom: 12px;
+    }
+    .settings-nav {
+      display: grid;
+      gap: 6px;
+      align-content: start;
+      padding: 18px;
+    }
+    .settings-nav-item {
+      margin-bottom: 0;
+      min-height: 44px;
+    }
+    .toggle-wrap {
+      gap: 18px;
+    }
+    .modal {
+      display: grid;
+      gap: 18px;
+    }
+    .modal-header {
+      margin-bottom: 0;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--c-border);
+    }
+    body .home-cms-shell,
+    body .work-cms-shell {
+      margin-top: 30px;
+      gap: 22px;
+    }
+    body .home-cms-command,
+    body .work-cms-card {
+      padding: clamp(24px, 3vw, 34px);
+    }
+    body .home-cms-command-head,
+    body .work-cms-head {
+      align-items: flex-start;
+      gap: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    body .home-cms-eyebrow,
+    body .work-cms-eyebrow {
+      margin-bottom: 12px;
+      padding: 7px 12px;
+      line-height: 1.2;
+    }
+    body .home-cms-title,
+    body .work-cms-title {
+      line-height: 1.08;
+      margin-bottom: 10px;
+    }
+    body .home-cms-subtitle,
+    body .work-cms-subtitle,
+    body .home-cms-muted,
+    body .work-cms-muted {
+      line-height: 1.65;
+    }
+    body .home-cms-page-grid,
+    body .work-cms-grid {
+      gap: 16px;
+    }
+    body .home-cms-layout,
+    body .work-cms-layout,
+    body .work-cms-split {
+      gap: 22px;
+    }
+    body .home-cms-sidebar,
+    body .home-cms-editor-panel,
+    body .work-cms-sidebar,
+    body .work-cms-panel,
+    body .work-cms-subpanel {
+      padding: clamp(20px, 2.4vw, 28px);
+    }
+    body .home-cms-sidebar-top,
+    body .work-cms-sidebar-top {
+      gap: 14px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    body .home-cms-sidebar-list,
+    body .work-cms-list,
+    body .work-cms-builder-list,
+    body .home-cms-items {
+      gap: 12px;
+    }
+    body .home-cms-nav-item,
+    body .work-cms-btn,
+    body .work-cms-builder-item,
+    body .home-cms-item,
+    body .work-cms-repeat-card,
+    body .work-cms-visual-card {
+      padding: 16px;
+    }
+    body .home-cms-section-head,
+    body .work-cms-project-head,
+    body .work-cms-section-head {
+      align-items: flex-start;
+      gap: 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    body .home-cms-grid,
+    body .work-cms-visual-grid,
+    body .work-cms-grid {
+      gap: 16px;
+    }
+    body .home-cms-input-wrap,
+    body .work-cms-field {
+      gap: 10px;
+    }
+    @media (max-width: 900px) {
+      .section-header,
+      .card-header,
+      .lead-top {
+        flex-direction: column;
+      }
+      .content-pages-grid,
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+      .quick-actions {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== ACCENT LINES ON SECTION SEPARATOR ===== */
+    .accent-line { height: 1px; background: linear-gradient(to right, var(--c-accent), transparent); margin: 28px 0; }
+  </style>
+</head>
+<body>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
+<!-- SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="sidebar-logo-icon">WX</div>
+    <div>
+      <div class="sidebar-logo-text">Webx Design</div>
+      <div class="sidebar-logo-sub">Admin Dashboard</div>
+    </div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="sidebar-section-label">Main</div>
+    <div class="nav-item active" onclick="showPage('dashboard',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/layout-dashboard.svg" alt="" /></span>
+      Dashboard
+    </div>
+    <div class="nav-item" onclick="showPage('analytics',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/chart-bar.svg" alt="" /></span>
+      Analytics
+    </div>
+    <div class="nav-item" onclick="showPage('leads',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/inbox.svg" alt="" /></span>
+      Leads / Inquiries
+      <span class="nav-badge">5</span>
+    </div>
+    <div class="sidebar-section-label">Website Content</div>
+    <div class="nav-item" onclick="showPage('pages',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/file-text.svg" alt="" /></span>
+      Pages
+    </div>
+    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('services', this) : showPage('services',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt="" /></span>
+      Services
+    </div>
+    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', this) : showPage('portfolio',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/photo.svg" alt="" /></span>
+      Portfolio / Work
+    </div>
+    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', this) : showPage('blog',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt="" /></span>
+      Blog
+      <span class="nav-badge green">4</span>
+    </div>
+    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', this) : showPage('clients',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/handshake.svg" alt="" /></span>
+      Testimonials
+    </div>
+    <div class="sidebar-section-label">Manage</div>
+    <div class="nav-item" onclick="showPage('team',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></span>
+      Team
+    </div>
+    <div class="nav-item" onclick="showPage('media',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/folder.svg" alt="" /></span>
+      Media / Assets
+    </div>
+    <div class="nav-item" onclick="showPage('seo',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/search.svg" alt="" /></span>
+      SEO Manager
+    </div>
+    <div class="nav-item" onclick="showPage('settings',this)">
+      <span class="nav-icon"><img src="https://api.iconify.design/tabler/adjustments.svg" alt="" /></span>
+      Settings
+    </div>
+  </nav>
+  <div class="sidebar-user">
+    <div class="user-avatar">PG</div>
+    <div style="flex:1;min-width:0">
+      <div class="user-name">Webx </div>
+      <div class="user-role">Super Admin</div>
+    </div>
+    <div class="user-status" title="Online"></div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<div class="main-wrapper">
+  <header class="topbar">
+    <button class="icon-btn" id="sidebarToggleBtn" onclick="toggleSidebar()" title="Collapse / Expand Sidebar">
+      <img src="https://api.iconify.design/tabler/menu-2.svg" alt="toggle" />
+    </button>
+    <button class="icon-btn mobile-topbar-toggle" onclick="openSidebar()">
+      <img src="https://api.iconify.design/tabler/menu-2.svg" alt="menu" />
+    </button>
+    <div class="topbar-title" id="topbarTitle">Dashboard <span>/ Overview</span></div>
+    <div class="topbar-search">
+      <img src="https://api.iconify.design/tabler/search.svg" alt="" />
+      <input type="text" placeholder="Search anything..." />
+    </div>
+    <div class="topbar-actions">
+      <div class="topbar-date" id="topbarDate"></div>
+      <div class="icon-btn" title="Notifications" onclick="showToast('You have 3 new leads!','inbox')">
+        <img src="https://api.iconify.design/tabler/bell.svg" alt="notifications" />
+        <div class="notif-dot"></div>
+      </div>
+      <div class="icon-btn" title="Visit Website" onclick="window.open('/','_blank')">
+        <img src="https://api.iconify.design/tabler/world.svg" alt="website" />
+      </div>
+      <div class="icon-btn" title="Refresh" onclick="showToast('Data refreshed!','refresh',true)">
+        <img src="https://api.iconify.design/tabler/refresh.svg" alt="refresh" />
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ========== DASHBOARD ========== -->
+    <div class="page-panel active" id="page-dashboard">
+      <div class="section-header">
+        <div>
+          <div class="section-title">Dashboard Overview</div>
+          <div class="section-subtitle">Here's what's happening with your studio today.</div>
+        </div>
+        <button class="btn btn-primary" onclick="showToast('Report exported!','download',true)">
+          <img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export Report
+        </button>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-top">
+            <div class="stat-label">Total Inquiries</div>
+            <div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/inbox.svg" alt="" /></div>
+          </div>
+          <div class="stat-value">47</div>
+          <div class="stat-change">2 this month</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-top">
+            <div class="stat-label">Total Clients</div>
+            <div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></div>
+          </div>
+          <div class="stat-value">12</div>
+          <div class="stat-change down">1 inactive</div>
+        </div>
+      </div>
+
+      <div class="grid-6-4">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Inquiry Trend</div>
+              <div class="card-subtitle">Monthly inquiries - 2025</div>
+            </div>
+          </div>
+          <div class="chart-area" id="barChart"></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Quick Actions</div></div>
+          <div class="quick-actions">
+            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showPage('blog', document.querySelectorAll('.nav-item')[6]); showModal('newBlog')">
+              <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" /> New Blog Post
+            </div>
+            <div class="quick-btn" onclick="showPage('services', document.querySelectorAll('.nav-item')[4]); showModal('newService')">
+              <img src="https://api.iconify.design/tabler/settings-plus.svg" alt="" /> Add Service
+            </div>
+            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showPage('portfolio', document.querySelectorAll('.nav-item')[5])">
+              <img src="https://api.iconify.design/tabler/photo-plus.svg" alt="" /> Add Project
+            </div>
+            <div class="quick-btn" onclick="window.open('/','_blank')">
+              <img src="https://api.iconify.design/tabler/external-link.svg" alt="" /> View Website
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Recent Inquiries</div>
+            <div class="card-action" onclick="showPage('leads', document.querySelectorAll('.nav-item')[2])">View all -></div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Client</th><th>Service</th><th>Status</th><th>Date</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><div class="client-row"><div class="client-avatar">RK</div><div><div class="client-name">Rahul K.</div><div class="client-email">rahul@email.com</div></div></div></td>
+                  <td>UI/UX Design</td><td><span class="badge badge-gold">New</span></td><td>21 Feb</td>
+                </tr>
+                <tr>
+                  <td><div class="client-row"><div class="client-avatar" style="background:#fff;color:#000">PS</div><div><div class="client-name">Priya S.</div><div class="client-email">priya@biz.com</div></div></div></td>
+                  <td>Website Design</td><td><span class="badge badge-green">Replied</span></td><td>20 Feb</td>
+                </tr>
+                <tr>
+                  <td><div class="client-row"><div class="client-avatar" style="background:#222;color:#fff">AM</div><div><div class="client-name">Ankit M.</div><div class="client-email">ankit@co.in</div></div></div></td>
+                  <td>Brand Identity</td><td><span class="badge badge-blue">In Progress</span></td><td>19 Feb</td>
+                </tr>
+                <tr>
+                  <td><div class="client-row"><div class="client-avatar" style="background:#1a1a1a;color:#888">SJ</div><div><div class="client-name">Sneha J.</div><div class="client-email">sneha@store.com</div></div></div></td>
+                  <td>App Design</td><td><span class="badge badge-red">Pending</span></td><td>18 Feb</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Recent Activity</div></div>
+          <div>
+            <div class="activity-item">
+              <div class="activity-dot" style="background:var(--c-accent)"></div>
+              <div><div class="activity-text">New inquiry from <strong>Rahul K.</strong> - UI/UX Design</div><div class="activity-time">2 hours ago</div></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot" style="background:var(--c-green)"></div>
+              <div><div class="activity-text">Blog post <strong>"Landing Page Design Guide 2026"</strong> published</div><div class="activity-time">5 hours ago</div></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot" style="background:var(--c-red)"></div>
+              <div><div class="activity-text">Portfolio project <strong>Tictax</strong> updated</div><div class="activity-time">Yesterday</div></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot" style="background:var(--c-blue)"></div>
+              <div><div class="activity-text">Client <strong>Morphico</strong> testimonial added</div><div class="activity-time">2 days ago</div></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot" style="background:var(--c-accent)"></div>
+              <div><div class="activity-text">SEO meta updated for <strong>About page</strong></div><div class="activity-time">3 days ago</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== ANALYTICS ========== -->
+    <div class="page-panel" id="page-analytics">
+      <div class="section-header">
+        <div><div class="section-title">Analytics</div><div class="section-subtitle">Website performance overview</div></div>
+        <button class="btn btn-outline"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" style="filter:brightness(0) invert(0.6)"/> Last 30 Days</button>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card"><div class="stat-top"><div class="stat-label">Page Views</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/eye.svg" alt="" /></div></div><div class="stat-value">12.4K</div><div class="stat-change">Up 18% vs last month</div></div>
+        <div class="stat-card"><div class="stat-top"><div class="stat-label">Unique Visitors</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/user.svg" alt="" /></div></div><div class="stat-value">3,821</div><div class="stat-change">Up 9%</div></div>
+        <div class="stat-card"><div class="stat-top"><div class="stat-label">Avg. Session</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/clock.svg" alt="" /></div></div><div class="stat-value">3:24</div><div class="stat-change">Up 0:14</div></div>
+        <div class="stat-card"><div class="stat-top"><div class="stat-label">Bounce Rate</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/door-exit.svg" alt="" /></div></div><div class="stat-value">42%</div><div class="stat-change down">Up 3% (worse)</div></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Traffic by Page</div></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Page</th><th>Views</th><th>Share</th><th>Trend</th></tr></thead>
+              <tbody>
+                <tr><td>/ (Home)</td><td>5,200</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:85%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+                <tr><td>/services</td><td>2,800</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:60%;background:#fff"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+                <tr><td>/work</td><td>1,900</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:45%;background:var(--c-blue)"></div></div></td><td style="color:var(--c-muted)">Rising</td></tr>
+                <tr><td>/blog</td><td>1,500</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:35%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+                <tr><td>/contact</td><td>980</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:25%;background:var(--c-muted-2)"></div></div></td><td style="color:var(--c-red)">Dropping</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Traffic Sources</div></div>
+          <div>
+            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Organic Search</span><span style="font-size:12.5px;font-weight:700;color:var(--c-accent)">48%</span></div><div class="progress-bar"><div class="progress-fill" style="width:48%;background:var(--c-accent)"></div></div></div>
+            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Direct</span><span style="font-size:12.5px;font-weight:700">27%</span></div><div class="progress-bar"><div class="progress-fill" style="width:27%;background:#fff"></div></div></div>
+            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Social Media</span><span style="font-size:12.5px;font-weight:700;color:var(--c-green)">15%</span></div><div class="progress-bar"><div class="progress-fill" style="width:15%;background:var(--c-green)"></div></div></div>
+            <div><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Referral</span><span style="font-size:12.5px;font-weight:700;color:var(--c-blue)">10%</span></div><div class="progress-bar"><div class="progress-fill" style="width:10%;background:var(--c-blue)"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== LEADS ========== -->
+    <div class="page-panel" id="page-leads">
+      <div class="section-header">
+        <div><div class="section-title">Leads & Inquiries</div><div class="section-subtitle">All incoming client inquiries</div></div>
+        <div style="display:flex;gap:10px">
+          <button class="btn btn-outline">Filter</button>
+          <button class="btn btn-primary" onclick="showToast('Exported to CSV!','download',true)"><img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export</button>
+        </div>
+      </div>
+      <div id="leadsList">
+        <div class="lead-card">
+          <div class="lead-top">
+            <div><div class="lead-name">Rahul Kulkarni</div><div class="lead-service">Service: UI/UX Design | Budget: Rs 50,000</div></div>
+            <span class="badge badge-gold">New</span>
+          </div>
+          <div class="lead-details">
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> rahul@email.com</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 98765 43210</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 21 Feb 2026</div>
+          </div>
+          <div class="lead-message">"We need a complete redesign of our SaaS platform dashboard with modern UI components and dark mode support."</div>
+          <div style="display:flex;gap:8px;margin-top:14px">
+            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
+            <button class="btn btn-outline" onclick="showToast('Status updated','refresh')" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+          </div>
+        </div>
+        <div class="lead-card">
+          <div class="lead-top">
+            <div><div class="lead-name">Priya Shah</div><div class="lead-service">Service: Website Design | Budget: Rs 30,000</div></div>
+            <span class="badge badge-green">Replied</span>
+          </div>
+          <div class="lead-details">
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> priya@business.com</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 87654 32109</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 20 Feb 2026</div>
+          </div>
+          <div class="lead-message">"Looking for a professional e-commerce website for our clothing brand. Need clean design with mobile-first approach."</div>
+          <div style="display:flex;gap:8px;margin-top:14px">
+            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
+            <button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+          </div>
+        </div>
+        <div class="lead-card">
+          <div class="lead-top">
+            <div><div class="lead-name">Ankit Mehta</div><div class="lead-service">Service: Brand Identity | Budget: Rs 20,000</div></div>
+            <span class="badge badge-blue">In Progress</span>
+          </div>
+          <div class="lead-details">
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> ankit@company.in</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 76543 21098</div>
+            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 19 Feb 2026</div>
+          </div>
+          <div class="lead-message">"Need full brand identity package - logo, colors, typography, and brand guidelines document for our startup."</div>
+          <div style="display:flex;gap:8px;margin-top:14px">
+            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
+            <button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== PAGES ========== -->
+    <div class="page-panel" id="page-pages">
+      <div class="section-header">
+        <div><div class="section-title">Page Manager</div><div class="section-subtitle">Edit content of your website pages</div></div>
+      </div>
+      <div class="content-pages-grid" id="pageCardGrid">
+        <div class="page-card" onclick="openPageEditor('home')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/home.svg" alt="" /></div>
+          <div class="page-card-name">Home Page</div>
+          <div class="page-card-desc">Hero, services, work, testimonials, FAQ sections</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+        <div class="page-card" onclick="openPageEditor('about')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></div>
+          <div class="page-card-name">About Page</div>
+          <div class="page-card-desc">Studio story, process, core values, testimonials</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+        <div class="page-card" onclick="openPageEditor('services')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt="" /></div>
+          <div class="page-card-name">Services Page</div>
+          <div class="page-card-desc">UI/UX, Web, App, Brand, Social, Emailer services</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+        <div class="page-card" onclick="openPageEditor('work')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/layout-grid.svg" alt="" /></div>
+          <div class="page-card-name">Work Page</div>
+          <div class="page-card-desc">Portfolio projects showcase grid</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+        <div class="page-card" onclick="openPageEditor('blog')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt="" /></div>
+          <div class="page-card-name">Blog Page</div>
+          <div class="page-card-desc">Articles, tips and industry insights</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+        <div class="page-card" onclick="openPageEditor('contact')">
+          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /></div>
+          <div class="page-card-name">Contact Page</div>
+          <div class="page-card-desc">Contact form, email, phone, address</div>
+          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+        </div>
+      </div>
+      <div class="editor-wrap" id="pageEditor">
+        <div style="display:flex;align-items:center;gap:12px;margin:24px 0 20px">
+          <button class="btn btn-outline" onclick="closePageEditor()">Back</button>
+          <div class="section-title" id="editorTitle">Editing: Home Page</div>
+        </div>
+        <div class="card" id="pageEditorPrimaryCard">
+          <div class="editor-field"><div class="editor-label">Page Title (SEO)</div><input class="editor-input" id="editPageTitle" type="text" placeholder="Enter page title..." /></div>
+          <div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" id="editPageMeta" placeholder="Enter meta description..."></textarea></div>
+          <div class="editor-field"><div class="editor-label">Hero Heading</div><input class="editor-input" id="editPageHero" type="text" placeholder="Enter hero heading..." /></div>
+          <div class="editor-field"><div class="editor-label">Hero Sub-text</div><textarea class="editor-input" style="min-height:80px" id="editPageSub" placeholder="Enter hero subtext..."></textarea></div>
+          <div class="editor-actions">
+            <button class="btn btn-primary" onclick="savePageContent()"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Changes</button>
+            <button class="btn btn-outline" onclick="showToast('Preview opened','eye')">Preview</button>
+            <button class="btn btn-outline" onclick="closePageEditor()">Cancel</button>
+          </div>
+        </div>
+        <div id="homeCmsMount"></div>
+      </div>
+    </div>
+
+    <!-- ========== SERVICES ========== -->
+    <div class="page-panel" id="page-services">
+      <div class="section-header">
+        <div><div class="section-title">Services Manager</div><div class="section-subtitle">Manage your offered services</div></div>
+        <button class="btn btn-primary" onclick="showModal('newService')">+ Add Service</button>
+      </div>
+      <div id="serviceList">
+        <div class="service-list-item"><div class="service-num">01</div><div class="service-info"><div class="service-name">UI/UX Experience Design</div><div class="service-desc">Research and interaction flows built for clarity and ease</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">02</div><div class="service-info"><div class="service-name">Websites & Digital Spaces</div><div class="service-desc">Responsive platforms built for performance and brand presence</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">03</div><div class="service-info"><div class="service-name">Product & App Interfaces</div><div class="service-desc">Intuitive mobile and web experiences that users love</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">04</div><div class="service-info"><div class="service-name">Visual Brand Creatives</div><div class="service-desc">Identity systems and visuals that bring brands to life</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">05</div><div class="service-info"><div class="service-name">Social Media Creatives</div><div class="service-desc">Scroll-stopping content built to connect and grow communities</div></div><span class="badge badge-gold">Paused</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">06</div><div class="service-info"><div class="service-name">Custom Tools & Systems</div><div class="service-desc">Dashboards and SaaS platforms shaped for usability and scale</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">07</div><div class="service-info"><div class="service-name">Document Design</div><div class="service-desc">Impactful decks and reports built for clear communication</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+        <div class="service-list-item"><div class="service-num">08</div><div class="service-info"><div class="service-name">Marketing Emailer</div><div class="service-desc">Structured emails designed to capture attention and inspire action</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+      </div>
+    </div>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <div class="page-panel" id="page-portfolio">
+      <div class="section-header">
+        <div><div class="section-title">Portfolio / Work</div><div class="section-subtitle">Manage portfolio entries and case study detail pages</div></div>
+        <button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showToast('Project editor ready','photo')">Open PDP Editor</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#ff6b6b)"><img src="https://api.iconify.design/tabler/home.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Morphico Wallpapers</div><div class="portfolio-type">Interior Brand / E-commerce</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#fff,#ddd)"><img src="https://api.iconify.design/tabler/stethoscope.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Arogya Bharat</div><div class="portfolio-type">Healthcare / UI System</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#000)"><img src="https://api.iconify.design/tabler/coins.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Tictax</div><div class="portfolio-type">Fintech / Tax Platform</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#333,#111)"><img src="https://api.iconify.design/tabler/building-factory.svg" alt="" style="width:44px;height:44px;filter:brightness(0) invert(1)" /></div><div class="portfolio-body"><div class="portfolio-name">Dharmesh Enterprise</div><div class="portfolio-type">Business / Inventory App</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#555)"><img src="https://api.iconify.design/tabler/settings-2.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Mecon</div><div class="portfolio-type">Industrial / Brand Identity</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#111,#FEA800)"><img src="https://api.iconify.design/tabler/diamond.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Manglam</div><div class="portfolio-type">Finance / Consultancy</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+      </div>
+    </div>
+
+    <!-- ========== BLOG ========== -->
+    <div class="page-panel" id="page-blog">
+      <div class="section-header">
+        <div><div class="section-title">Blog Manager</div><div class="section-subtitle">Manage your blog posts and articles</div></div>
+        <button class="btn btn-primary" onclick="showModal('newBlog')">+ New Post</button>
+      </div>
+      <div>
+        <div class="blog-list-item"><div class="blog-thumb"><img src="https://api.iconify.design/tabler/robot.svg" alt="" /></div><div style="flex:1"><div class="blog-title-text">AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026</div><div class="blog-meta-text">Published | 18 Feb 2026 | website redesign 2026, redesign checklist</div></div><span class="badge badge-green">Published</span><div style="display:flex;gap:6px;margin-left:12px"><button class="action-btn edit" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showModal('newBlog')">Edit</button><button class="action-btn delete" onclick="this.closest('.blog-list-item').remove();showToast('Post deleted','trash')">Delete</button></div></div>
+      </div>
+    </div>
+
+    <!-- ========== CLIENTS ========== -->
+    <div class="page-panel" id="page-clients">
+      <div class="section-header">
+        <div><div class="section-title">Testimonials</div><div class="section-subtitle">Manage client logos and review quotes</div></div>
+        <button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', document.querySelectorAll('.nav-item')[7]) : showToast('Testimonial editor ready','users')">Open Testimonials Editor</button>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">Active Clients</div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Client</th><th>Project Type</th><th>Testimonial</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Arogya Bharat</strong></td><td>Healthcare UI/UX</td><td><span style="font-size:11.5px;color:var(--c-muted)">"A truly dependable and creative team..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+              <tr><td><strong>Morphico</strong></td><td>E-commerce / Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Transformed our digital presence..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+              <tr><td><strong>Tictax</strong></td><td>Fintech Platform</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Boosted conversion rates by 200%..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+              <tr><td><strong>Mecon</strong></td><td>Industrial Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Clarity they brought made a real difference..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+              <tr><td><strong>Gurukrupa</strong></td><td>Brand / Logo</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Brand visuals improved significantly..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+              <tr><td><strong>Manglam</strong></td><td>Finance Consultancy</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Delivered exactly what we needed..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== TEAM ========== -->
+    <div class="page-panel" id="page-team">
+      <div class="section-header">
+        <div><div class="section-title">Team Management</div><div class="section-subtitle">Studio members and access control</div></div>
+        <button class="btn btn-primary" onclick="showToast('Invite sent!','mail',true)">+ Invite Member</button>
+      </div>
+      <div class="card">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Member</th><th>Role</th><th>Access Level</th><th>Status</th><th>Last Active</th><th>Action</th></tr></thead>
+            <tbody>
+              <tr><td><div class="client-row"><div class="user-avatar">PG</div><div><div class="client-name">Piyush Gohil</div><div class="client-email">piyushgohil8889@gmail.com</div></div></div></td><td>Founder / Designer</td><td><span class="badge badge-gold">Super Admin</span></td><td><span class="badge badge-green">Online</span></td><td>Now</td><td>-</td></tr>
+              <tr><td><div class="client-row"><div class="user-avatar" style="background:#fff;color:#000">DE</div><div><div class="client-name">Dev Editor</div><div class="client-email">webx8889@gmail.com</div></div></div></td><td>Content Manager</td><td><span class="badge badge-gray">Editor</span></td><td><span class="badge badge-gray">Offline</span></td><td>2 days ago</td><td><button class="action-btn delete" onclick="showToast('Access revoked','lock')">Revoke</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== MEDIA ========== -->
+    <div class="page-panel" id="page-media">
+      <div class="section-header">
+        <div><div class="section-title">Media & Assets</div><div class="section-subtitle">Images, videos, SVGs and files</div></div>
+        <button class="btn btn-primary" onclick="showToast('Upload panel ready','upload')">
+          <img src="https://api.iconify.design/tabler/upload.svg" alt="" /> Upload Files
+        </button>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title" style="display:flex;align-items:center;gap:8px">
+              <img src="https://api.iconify.design/tabler/photo.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
+              assets/images/
+            </div>
+          </div>
+          <div style="font-size:12.5px;color:var(--c-muted)">Hero mockups, client logos, blog images, icons</div>
+          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">48 files | 12.4 MB</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title" style="display:flex;align-items:center;gap:8px">
+              <img src="https://api.iconify.design/tabler/video.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
+              videos/
+            </div>
+          </div>
+          <div style="font-size:12.5px;color:var(--c-muted)">Background videos, showreel, intro clips</div>
+          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">3 files | 86.2 MB</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title" style="display:flex;align-items:center;gap:8px">
+              <img src="https://api.iconify.design/tabler/code.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
+              css/ js/
+            </div>
+          </div>
+          <div style="font-size:12.5px;color:var(--c-muted)">Style sheets and JavaScript files</div>
+          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">2 files | 298 KB</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== SEO ========== -->
+    <div class="page-panel" id="page-seo">
+      <div class="section-header">
+        <div><div class="section-title">SEO Manager</div><div class="section-subtitle">Manage meta tags, OG data and keywords</div></div>
+        <button class="btn btn-primary" onclick="showToast('SEO changes saved!','check',true)">
+          <img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save All
+        </button>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">Home Page SEO</div></div>
+        <div class="editor-field"><div class="editor-label">Title Tag</div><input class="editor-input" type="text" value="UI/UX Design Agency for Websites & Apps - Webx Design Studio" /></div>
+        <div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" style="min-height:80px">Webx Design Studio is a UI/UX design agency helping startups and businesses build high-converting websites, apps, and digital experiences.</textarea></div>
+        <div class="editor-field"><div class="editor-label">Focus Keywords</div><input class="editor-input" type="text" value="UI UX design agency, web design studio, app design, brand identity" /></div>
+        <div class="editor-field"><div class="editor-label">OG Image URL</div><input class="editor-input" type="text" value="/assets/images/og-image.png" /></div>
+        <div class="editor-actions">
+          <button class="btn btn-primary" onclick="showToast('SEO saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save</button>
+          <button class="btn btn-outline">Preview SERP</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== SETTINGS ========== -->
+    <div class="page-panel" id="page-settings">
+      <div class="section-header">
+        <div><div class="section-title">Settings</div><div class="section-subtitle">Website and dashboard preferences</div></div>
+      </div>
+      <div class="settings-grid">
+        <div class="settings-nav">
+          <div class="settings-nav-item active" onclick="activateSettingsNav(this)">
+            <img src="https://api.iconify.design/tabler/settings.svg" alt="" /> General
+          </div>
+          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
+            <img src="https://api.iconify.design/tabler/mail.svg" alt="" /> Email / EmailJS
+          </div>
+          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
+            <img src="https://api.iconify.design/tabler/lock.svg" alt="" /> Security
+          </div>
+          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
+            <img src="https://api.iconify.design/tabler/world.svg" alt="" /> Social Links
+          </div>
+          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
+            <img src="https://api.iconify.design/tabler/palette.svg" alt="" /> Appearance
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title" style="margin-bottom:20px;font-size:15px">General Settings</div>
+          <div class="editor-field"><div class="editor-label">Studio Name</div><input class="editor-input" type="text" value="Webx Design Studio" /></div>
+          <div class="editor-field"><div class="editor-label">Contact Email</div><input class="editor-input" type="email" value="hello@webxdesign.com" /></div>
+          <div class="editor-field"><div class="editor-label">Phone</div><input class="editor-input" type="text" value="+91 XXXXX XXXXX" /></div>
+          <div class="toggle-wrap">
+            <div><div class="toggle-label">Maintenance Mode</div><div class="toggle-sub">Put site in maintenance mode</div></div>
+            <div class="toggle" onclick="this.classList.toggle('on');showToast(this.classList.contains('on')?'Maintenance ON':'Maintenance OFF','settings')"></div>
+          </div>
+          <div class="toggle-wrap">
+            <div><div class="toggle-label">Contact Form</div><div class="toggle-sub">Accept new inquiries</div></div>
+            <div class="toggle on" onclick="this.classList.toggle('on')"></div>
+          </div>
+          <div class="toggle-wrap">
+            <div><div class="toggle-label">Blog Comments</div><div class="toggle-sub">Allow comments on blog posts</div></div>
+            <div class="toggle" onclick="this.classList.toggle('on')"></div>
+          </div>
+          <div class="editor-actions" style="margin-top:20px">
+            <button class="btn btn-primary" onclick="showToast('Settings saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Settings</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- MODALS -->
+<div class="modal-backdrop" id="modal-newBlog">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" style="display:flex;align-items:center;gap:10px">
+        <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)" /> New Blog Post
+      </div>
+      <span class="modal-close" onclick="closeModal('newBlog')">x</span>
+    </div>
+    <div class="editor-field"><div class="editor-label">Post Title</div><input class="editor-input" type="text" placeholder="Enter blog title..." /></div>
+    <div class="editor-field"><div class="editor-label">SEO Tags (comma separated)</div><input class="editor-input" type="text" placeholder="ui ux design, 2026 trends..." /></div>
+    <div class="editor-field"><div class="editor-label">Content</div><textarea class="editor-input editor-textarea">Write your blog post here...</textarea></div>
+    <div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Draft</option><option>Published</option></select></div>
+    <div class="editor-actions">
+      <button class="btn btn-primary" onclick="closeModal('newBlog');showToast('Blog post saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Post</button>
+      <button class="btn btn-outline" onclick="closeModal('newBlog')">Cancel</button>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop" id="modal-newService">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" style="display:flex;align-items:center;gap:10px">
+        <img src="https://api.iconify.design/tabler/settings-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)" /> Add New Service
+      </div>
+      <span class="modal-close" onclick="closeModal('newService')">x</span>
+    </div>
+    <div class="editor-field"><div class="editor-label">Service Name</div><input class="editor-input" type="text" placeholder="e.g. Motion Design" /></div>
+    <div class="editor-field"><div class="editor-label">Short Description</div><input class="editor-input" type="text" placeholder="Brief description..." /></div>
+    <div class="editor-field"><div class="editor-label">Icon Name (Tabler)</div><input class="editor-input" type="text" placeholder="video" /></div>
+    <div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Active</option><option>Paused</option></select></div>
+    <div class="editor-actions">
+      <button class="btn btn-primary" onclick="closeModal('newService');showToast('Service added!','check',true)">+ Add Service</button>
+      <button class="btn btn-outline" onclick="closeModal('newService')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+  function showPage(id, el) {
+    document.querySelectorAll('.page-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    const panel = document.getElementById('page-' + id);
+    if (panel) panel.classList.add('active');
+    if (el) el.classList.add('active');
+    const titles = {
+      dashboard:'Dashboard / Overview', analytics:'Analytics / Performance',
+      leads:'Leads / Inquiries', pages:'Content / Pages', services:'Content / Services',
+      portfolio:'Content / Portfolio', blog:'Content / Blog', clients:'Content / Clients',
+      team:'Manage / Team', media:'Manage / Media', seo:'Manage / SEO', settings:'Settings'
+    };
+    const t = document.getElementById('topbarTitle');
+    const parts = (titles[id]||id).split('/');
+    t.innerHTML = parts[0] + (parts[1] ? ` <span>/${parts[1]}</span>` : '');
+    if (window.innerWidth <= 900) closeSidebar();
+    window.scrollTo(0,0);
+  }
+  function openSidebar() {
+    document.getElementById('sidebar').classList.add('open');
+    document.getElementById('sidebarOverlay').classList.add('visible');
+  }
+  function closeSidebar() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('visible');
+  }
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const main = document.querySelector('.main-wrapper');
+    const isCollapsed = sidebar.classList.toggle('collapsed');
+    if (main) main.classList.toggle('sidebar-collapsed', isCollapsed);
+    localStorage.setItem('webx-sidebar-collapsed', isCollapsed ? '1' : '0');
+  }
+  function showModal(id) { const m = document.getElementById('modal-'+id); if(m) m.classList.add('open'); }
+  function closeModal(id) { const m = document.getElementById('modal-'+id); if(m) m.classList.remove('open'); }
+
+  const iconMap = { inbox:'tabler/inbox', check:'tabler/check', download:'tabler/download', upload:'tabler/upload', mail:'tabler/mail', pencil:'tabler/pencil', trash:'tabler/trash', refresh:'tabler/refresh', photo:'tabler/photo', eye:'tabler/eye', users:'tabler/users', settings:'tabler/settings', lock:'tabler/lock', rocket:'tabler/rocket' };
+
+  function showToast(msg, iconKey = 'check', success = false) {
+    const container = document.getElementById('toastContainer');
+    const toast = document.createElement('div');
+    toast.className = 'toast' + (success?' success':'');
+    const iconSrc = `https://api.iconify.design/${iconMap[iconKey]||'tabler/info-circle'}.svg`;
+    toast.innerHTML = `<span class="toast-icon"><img src="${iconSrc}" alt="" /></span><span class="toast-text">${msg}</span>`;
+    container.appendChild(toast);
+    setTimeout(() => toast.remove(), 3200);
+  }
+
+  const pageDefaults = {
+    home:{title:'UI/UX Design Agency for Websites & Apps - Webx Design Studio', meta:'Webx Design Studio is a UI/UX design agency helping startups and businesses build high-converting websites, apps, and digital experiences.', hero:'DESIGN THAT MOVES PEOPLE', sub:'A UI/UX Design Studio Creating Thoughtful Digital Experiences for Brands and Products'},
+    about:{title:'About Us - Webx Design Studio', meta:'At Webx Design Studio, design is more than how things look; it is how they feel, flow, and connect.', hero:'Beyond Interfaces. Into Experiences.', sub:'We cultivate a space where new ideas and unique viewpoints are encouraged to shape digital experiences.'},
+    services:{title:'Services - Webx Design Studio', meta:'UI/UX, Web Design, App Design, Brand Identity, Social Media and more.', hero:'Where Creativity Meets User Experience', sub:'Research and interaction flows built for clarity and ease.'},
+    work:{title:'Work - Webx Design Studio', meta:'Portfolio of creative projects - Morphico, Arogya Bharat, Tictax and more.', hero:'Creative Projects That Define Us', sub:'Transformed brands through strategic design and digital experiences.'},
+    blog:{title:'Blog - Webx Design Studio', meta:'Latest tips, tricks, and happenings in business and design.', hero:"Check out our blog for the latest tips, tricks, and happenings in business and design.", sub:''},
+    contact:{title:'Contact - Webx Design Studio', meta:'Get in touch with Webx Design Studio to start your project.', hero:"Ready to build something meaningful?", sub:"Let's take your vision and turn it into a high-performing digital reality."}
+  };
+
+  function openPageEditor(page) {
+    const d = pageDefaults[page] || {};
+    document.getElementById('pageCardGrid').style.display = 'none';
+    document.getElementById('pageEditor').classList.add('visible');
+    document.getElementById('editorTitle').textContent = 'Editing: ' + page.charAt(0).toUpperCase() + page.slice(1) + ' Page';
+    document.getElementById('editPageTitle').value = d.title || '';
+    document.getElementById('editPageMeta').value = d.meta || '';
+    document.getElementById('editPageHero').value = d.hero || '';
+    document.getElementById('editPageSub').value = d.sub || '';
+  }
+  function closePageEditor() {
+    document.getElementById('pageCardGrid').style.display = 'grid';
+    document.getElementById('pageEditor').classList.remove('visible');
+  }
+  function savePageContent() { showToast('Page content saved!','check',true); closePageEditor(); }
+
+  function activateSettingsNav(el) {
+    el.closest('.settings-nav').querySelectorAll('.settings-nav-item').forEach(x=>x.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  function buildChart() {
+    const data = [4,7,5,9,6,11,8,14,10,16,12,17];
+    const months = ['J','F','M','A','M','J','J','A','S','O','N','D'];
+    const chart = document.getElementById('barChart');
+    if(!chart) return;
+    chart.innerHTML = '';
+    const max = Math.max(...data);
+    data.forEach((v,i) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'chart-bar-wrap';
+      const bar = document.createElement('div');
+      bar.className = 'chart-bar' + (i%3===0?' alt':'');
+      bar.style.height = '4px';
+      bar.title = months[i] + ': ' + v + ' inquiries';
+      wrap.appendChild(bar);
+      const lbl = document.createElement('div');
+      lbl.className = 'chart-label';
+      lbl.textContent = months[i];
+      wrap.appendChild(lbl);
+      chart.appendChild(wrap);
+      setTimeout(() => { bar.style.height = Math.round((v/max)*160)+'px'; }, 80 + i*50);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const sidebar = document.getElementById('sidebar');
+    const main = document.querySelector('.main-wrapper');
+    if (sidebar && main) {
+      const collapsed = localStorage.getItem('webx-sidebar-collapsed') === '1';
+      sidebar.classList.toggle('collapsed', collapsed);
+      main.classList.toggle('sidebar-collapsed', collapsed);
+    }
+    const now = new Date();
+    document.getElementById('topbarDate').textContent = now.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+    buildChart();
+    setTimeout(() => showToast('Dashboard ready','rocket', true), 600);
+  });
+</script>
+<script src="/js/admin-dashboard.js"></script>
+<script src="/js/admin-work-editor.js"></script>
+</body>
+</html>

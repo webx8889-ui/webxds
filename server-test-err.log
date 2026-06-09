@@ -1,0 +1,7 @@
+Internal server error: EPERM: operation not permitted, open 'D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\data\store.json.tmp' Error: EPERM: operation not permitted, open 'D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\data\store.json.tmp'
+    at Object.writeFileSync (node:fs:2412:20)
+    at writeStore (D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\server.js:65:6)
+    at withStore (D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\server.js:1807:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async handleApi (D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\server.js:2228:5)
+    at async Server.<anonymous> (D:\WDS Backup system - 27-12-25\web project\WDS Maintainance\server.js:2526:9)

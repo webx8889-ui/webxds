@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /pages\system\admin-dashboard.html
+Sitemap: https://webxds.com/sitemap.xml
+
