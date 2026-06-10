@@ -1188,6 +1188,8 @@ function ensureWorkPageStructure(store) {
   const work = store.pages.work;
   work.title = sanitizeText(work.title, "Work - Webx Design Studio");
   work.meta = sanitizeText(work.meta, "Portfolio of creative projects - Morphico, Arogya Bharat, Tictax and more.");
+  work.heroTitle = sanitizeText(work.heroTitle, "Creative Projects That Define Us");
+  work.heroDescription = sanitizeText(work.heroDescription, "We are a UI UX design studio that turns technology into transformation. Our team of designers and strategists uses human insight to build digital products that are simple, scalable, and meaningful.");
   work.projects = Array.isArray(work.projects) && work.projects.length
     ? work.projects.map((project, index) => normalizeWorkProject(project, index))
     : getDefaultWorkProjects(store).map((project, index) => normalizeWorkProject(project, index));
@@ -1606,10 +1608,10 @@ async function writeWorkIndexPage(store) {
   const nextCards = renderWorkCardsMarkup(projects);
   let html = fallback;
   if (!html.includes("work-cards-container")) return;
-  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>Our Work | UI/UX Design Portfolio | Webx Design Studio</title>`);
-  html = html.replace(/<meta name="description"[\s\S]*?\/>/i, `<meta name="description"\n        content="Explore Webx Design Studio's portfolio - UI/UX case studies across healthcare, fintech, manufacturing, and business management. Real results, real design." />`);
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(sanitizeText(work.title, "Our Work | UI/UX Design Portfolio | Webx Design Studio"))}</title>`);
+  html = html.replace(/<meta name="description"[\s\S]*?\/>/i, `<meta name="description"\n        content="${escapeAttr(sanitizeText(work.meta, "Explore Webx Design Studio's portfolio - UI/UX case studies across healthcare, fintech, manufacturing, and business management. Real results, real design."))}" />`);
   html = html.replace(/<h1 class="work-page-title[^"]*">[\s\S]*?<\/h1>/i, `<h1 class="work-page-title animate-fade-in">${escapeHtml(sanitizeText(work.heroTitle, "Creative Projects That Define Us"))}</h1>`);
-  html = html.replace(/<p class="services-description[^"]*">[\s\S]*?<\/p>/i, `<p class="services-description animate-slide-up"> ${escapeHtml(sanitizeText(work.meta, "Portfolio of creative projects - Morphico, Arogya Bharat, Tictax and more."))} </p>`);
+  html = html.replace(/<p class="services-description[^"]*">[\s\S]*?<\/p>/i, `<p class="services-description animate-slide-up">${escapeHtml(sanitizeText(work.heroDescription, "We are a UI UX design studio that turns technology into transformation. Our team of designers and strategists uses human insight to build digital products that are simple, scalable, and meaningful."))}</p>`);
   html = html.replace(/<div class="work-cards-container animate-cards">[\s\S]*?<\/div>\s*<\/section>/i, `<div class="work-cards-container animate-cards">
                 ${nextCards}
             </div>
@@ -2471,6 +2473,8 @@ async function handleApi(req, res, url) {
           }
         } else if (slug === "work") {
           ensureWorkPageStructure(current);
+          current.pages.work.heroTitle = sanitizeText(body.heroTitle, current.pages.work.heroTitle);
+          current.pages.work.heroDescription = sanitizeText(body.heroDescription, current.pages.work.heroDescription);
           if (Array.isArray(body.projects)) {
             current.pages.work.projects = body.projects.map((project, index) => normalizeWorkProject(project, index));
           }

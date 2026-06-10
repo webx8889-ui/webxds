@@ -964,14 +964,27 @@
               <button type="button" class="btn btn-primary" id="workSaveBtn">Save All</button>
             </div>
           </div>
-          <div class="work-cms-grid" style="margin-top:18px">
+          <div class="work-cms-grid" style="margin-top:18px;grid-template-columns:repeat(2,minmax(0,1fr))">
+            <div class="work-cms-field work-cms-full" style="background:rgba(254,168,0,.05);border:1px solid rgba(254,168,0,.15);padding:14px;border-radius:2px">
+              <div style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#f8c86d;margin-bottom:10px">&#9733; Work Page Intro (Visible on Work Page)</div>
+              <div class="work-cms-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
+                <label class="work-cms-field">
+                  <div class="editor-label">Page Hero Title <span style="color:#f8c86d">&#x2014; h1 heading</span></div>
+                  <input class="editor-input js-work-hero-title" placeholder="Creative Projects That Define Us" value="${esc(state._workHeroTitle !== undefined ? state._workHeroTitle : ((document.getElementById('editPageHero') || {}).value || ''))}" />
+                </label>
+                <label class="work-cms-field">
+                  <div class="editor-label">Page Hero Description <span style="color:#f8c86d">&#x2014; intro paragraph</span></div>
+                  <textarea class="editor-input js-work-hero-desc" style="min-height:92px" placeholder="We are a UI UX design studio...">${esc(state._workHeroDesc !== undefined ? state._workHeroDesc : ((document.getElementById('editPageSub') || {}).value || ''))}</textarea>
+                </label>
+              </div>
+            </div>
             <label class="work-cms-field">
-              <div class="editor-label">Work Page Title</div>
-              <input class="editor-input js-work-page-title" value="${esc((document.getElementById("editPageTitle") || {}).value || "")}" />
+              <div class="editor-label">SEO Title <span style="color:var(--c-muted)">&mdash; browser tab</span></div>
+              <input class="editor-input js-work-page-title" value="${esc(state._workPageTitle !== undefined ? state._workPageTitle : ((document.getElementById('editPageTitle') || {}).value || ''))}" />
             </label>
             <label class="work-cms-field">
-              <div class="editor-label">Work Page Meta Description</div>
-              <textarea class="editor-input js-work-page-meta" style="min-height:92px">${esc((document.getElementById("editPageMeta") || {}).value || "")}</textarea>
+              <div class="editor-label">SEO Meta Description <span style="color:var(--c-muted)">&mdash; search engines</span></div>
+              <textarea class="editor-input js-work-page-meta" style="min-height:92px">${esc(state._workPageMeta !== undefined ? state._workPageMeta : ((document.getElementById('editPageMeta') || {}).value || ''))}</textarea>
             </label>
           </div>
         </div>
@@ -1182,16 +1195,23 @@
     }
     const titleInput = document.getElementById("editPageTitle");
     const metaInput = document.getElementById("editPageMeta");
+    const heroInput = document.getElementById("editPageHero");
+    const subInput = document.getElementById("editPageSub");
     const pageTitleUi = document.querySelector(".js-work-page-title");
     const pageMetaUi = document.querySelector(".js-work-page-meta");
+    const heroTitleUi = document.querySelector(".js-work-hero-title");
+    const heroDescUi = document.querySelector(".js-work-hero-desc");
     if (titleInput && pageTitleUi) titleInput.value = pageTitleUi.value;
     if (metaInput && pageMetaUi) metaInput.value = pageMetaUi.value;
+    if (heroInput && heroTitleUi) heroInput.value = heroTitleUi.value;
+    if (subInput && heroDescUi) subInput.value = heroDescUi.value;
     await api("/api/admin/pages/work", {
       method: "PUT",
       body: JSON.stringify({
         title: titleInput ? titleInput.value : "",
         meta: metaInput ? metaInput.value : "",
-        heroTitle: "",
+        heroTitle: heroTitleUi ? heroTitleUi.value : (heroInput ? heroInput.value : ""),
+        heroDescription: heroDescUi ? heroDescUi.value : (subInput ? subInput.value : ""),
         heroSubtitle: "",
         projects: state.projects
       })
@@ -1393,6 +1413,18 @@
       if (metaInput) metaInput.value = event.target.value;
     }
 
+    if (event.target.closest(".js-work-hero-title")) {
+      state._workHeroTitle = event.target.value;
+      const heroInput = document.getElementById("editPageHero");
+      if (heroInput) heroInput.value = event.target.value;
+    }
+
+    if (event.target.closest(".js-work-hero-desc")) {
+      state._workHeroDesc = event.target.value;
+      const subInput = document.getElementById("editPageSub");
+      if (subInput) subInput.value = event.target.value;
+    }
+
     const projectField = event.target.closest(".js-work-field");
     if (projectField) {
       project[projectField.dataset.field] = projectField.value;
@@ -1502,6 +1534,20 @@
     state.selectedProjectId = state.projects[0] ? state.projects[0].id : "";
     state.selectedRawSectionId = "";
     state.selectedBuilderSectionId = "";
+    // Seed page fields from server data (loaded from store.pages.work)
+    state._workPageTitle = String((data && data.title) || "");
+    state._workPageMeta = String((data && data.meta) || "");
+    state._workHeroTitle = String((data && data.heroTitle) || "");
+    state._workHeroDesc = String((data && data.heroDescription) || "");
+    // Also sync the hidden dashboard inputs so they match
+    const titleInput = document.getElementById("editPageTitle");
+    const metaInput = document.getElementById("editPageMeta");
+    const heroInput = document.getElementById("editPageHero");
+    const subInput = document.getElementById("editPageSub");
+    if (titleInput) titleInput.value = state._workPageTitle;
+    if (metaInput) metaInput.value = state._workPageMeta;
+    if (heroInput) heroInput.value = state._workHeroTitle;
+    if (subInput) subInput.value = state._workHeroDesc;
     await ensureRawHtml(getSelectedProject());
     render();
   };

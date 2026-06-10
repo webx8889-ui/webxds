@@ -167,7 +167,7 @@
           "ctaUrl": "/pages/main/work.html",
           "items": [
             {
-              "id": "work-3f86155e",
+              "id": "work-project-54b34af5",
               "title": "Morphico Wallpapers & Murals",
               "description": "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.",
               "image": "/assets/images/work-card-mockup/morphico-mockup.png",
@@ -175,7 +175,7 @@
               "url": "/pages/details/morphico-pdp.html"
             },
             {
-              "id": "work-e4d93285",
+              "id": "work-project-19a42fbe",
               "title": "Arogya Bharat",
               "description": "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.",
               "image": "/assets/images/work-card-mockup/ab-mockup.png",
@@ -183,7 +183,7 @@
               "url": "/pages/details/ab-pdp.html"
             },
             {
-              "id": "work-65d0765e",
+              "id": "work-project-0658f34b",
               "title": "Tictax",
               "description": "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.",
               "image": "/assets/images/work-card-mockup/tictax-mockup.png",
@@ -191,7 +191,7 @@
               "url": "/pages/details/tictax-pdp.html"
             },
             {
-              "id": "work-05aeefe8",
+              "id": "work-project-a2bf1483",
               "title": "Dharmesh Enterprise",
               "description": "Developed a responsive management experience that simplified inventory and billing workflows.",
               "image": "/assets/images/work-card-mockup/de-mockup.png",
@@ -199,7 +199,7 @@
               "url": "/pages/details/de-pdp.html"
             },
             {
-              "id": "work-ea961741",
+              "id": "work-project-1ec2a1fb",
               "title": "Mecon",
               "description": "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.",
               "image": "/assets/images/work-card-mockup/mecon-logo.png",
@@ -207,7 +207,7 @@
               "url": "/pages/details/mecon-pdp.html"
             },
             {
-              "id": "work-7c25326e",
+              "id": "work-project-8b4bdb47",
               "title": "Gurukrupa",
               "description": "Forged a precision-led brand framework that unified a diverse industrial catalog.",
               "image": "/assets/images/work-card-mockup/gurukrupa-mockup.png",
@@ -215,7 +215,7 @@
               "url": "/pages/details/gurukrupa-pdp.html"
             },
             {
-              "id": "work-316933c7",
+              "id": "work-project-ce17ba98",
               "title": "Manglam",
               "description": "Modernized financial consultancy through a strategic identity built for stability and growth.",
               "image": "/assets/images/work-card-mockup/mangalam-mockup.png",
@@ -650,8 +650,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-19a42fbe",
@@ -850,8 +850,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-0658f34b",
@@ -1050,8 +1050,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-a2bf1483",
@@ -1250,8 +1250,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-1ec2a1fb",
@@ -1450,8 +1450,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-8b4bdb47",
@@ -1650,8 +1650,8 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.515Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         },
         {
           "id": "work-project-ce17ba98",
@@ -1850,10 +1850,13 @@
               "buttonUrl": "/pages/main/contact-page.html"
             }
           ],
-          "createdAt": "2026-05-09T04:33:50.439Z",
-          "updatedAt": "2026-06-09T13:50:24.680Z"
+          "createdAt": "2026-06-10T09:04:59.516Z",
+          "updatedAt": "2026-06-10T09:09:30.598Z"
         }
-      ]
+      ],
+      "heroTitle": "Creative Projects That Define Us",
+      "heroDescription": "We are a UI UX design studio that turns technology into transformation. Our team of designers and strategists uses human insight to build digital products that are simple, scalable, and meaningful.",
+      "heroSubtitle": ""
     },
     "blog-3": {
       "editorType": "generic",
@@ -2098,7 +2101,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <!-- MORE button -->\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.681Z"
+      "updatedAt": "2026-06-10T09:09:30.600Z"
     },
     "blog-4": {
       "editorType": "generic",
@@ -2343,7 +2346,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.681Z"
+      "updatedAt": "2026-06-10T09:09:30.602Z"
     },
     "blog-apple": {
       "editorType": "generic",
@@ -2588,7 +2591,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.682Z"
+      "updatedAt": "2026-06-10T09:09:30.602Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2833,7 +2836,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.683Z"
+      "updatedAt": "2026-06-10T09:09:30.603Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -2964,7 +2967,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n    <div class=\"bottom-nav-logo\">\n      <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n      </a>\n    </div>\n    <div class=\"bottom-nav-container\">\n      <a href=\"/\" class=\"nav-item\">\n        <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Home</span>\n      </a>\n      <a href=\"/pages/main/work.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Work</span>\n      </a>\n      <a href=\"/pages/main/services.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Services</span>\n      </a>\n      <a href=\"/pages/main/about.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">About</span>\n      </a>\n      <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Contact</span>\n      </a>\n      <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n        <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n          <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n          <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n          <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n        </svg>\n        <span class=\"nav-label\">More</span>\n      </button>\n    </div>\n  </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.683Z"
+      "updatedAt": "2026-06-10T09:09:30.603Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3143,7 +3146,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.684Z"
+      "updatedAt": "2026-06-10T09:09:30.604Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3322,7 +3325,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.684Z"
+      "updatedAt": "2026-06-10T09:09:30.604Z"
     },
     "about": {
       "editorType": "generic",
@@ -3559,7 +3562,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img\r\n                    src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">About</span> </a> <a\r\n                href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.png\"\r\n                    alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\"\r\n                aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg\r\n                    class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.684Z"
+      "updatedAt": "2026-06-10T09:09:30.604Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3706,7 +3709,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span>\r\n            </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\"\r\n                aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\"\r\n                    aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.685Z"
+      "updatedAt": "2026-06-10T09:09:30.605Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3885,7 +3888,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.685Z"
+      "updatedAt": "2026-06-10T09:09:30.605Z"
     },
     "services": {
       "editorType": "generic",
@@ -4082,7 +4085,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.685Z"
+      "updatedAt": "2026-06-10T09:09:30.605Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4251,7 +4254,7 @@
           "html": "<footer class=\"footer-section-form\">\r\n    <div class=\"footer-container-form\">\r\n      <!-- Copyright -->\r\n      <div class=\"footer-bottom-form\">\r\n        <p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\r\n      </div>\r\n\r\n    </div>\r\n  </footer>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.686Z"
+      "updatedAt": "2026-06-10T09:09:30.605Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4428,7 +4431,7 @@
           "html": "<footer class=\"footer-section animate-section\">\r\n    <div class=\"footer-container\">\r\n\r\n        <!-- Footer Top Content -->\r\n        <div class=\"footer-top animate-fade-in\">\r\n\r\n            <!-- Logo -->\r\n            <div class=\"footer-logo\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\r\n            </div>\r\n\r\n            <!-- Social Links -->\r\n            <div class=\"footer-social\">\r\n                <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\r\n                    <img src=\"/assets/images/icons/linkedin-icon.png\" alt=\"LinkedIn\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\r\n                    <img src=\"/assets/images/icons/dribbble-icon.png\" alt=\"Dribbble\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\r\n                    <img src=\"/assets/images/icons/behance-icon.png\" alt=\"Behance\" class=\"social-icon-img\">\r\n                </a>\r\n            </div>\r\n\r\n        </div>\r\n\r\n        <!-- Services Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Services\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Services\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/services.html\">UI/UX Design</a>\r\n                <a href=\"/pages/main/services.html\">Web Design</a>\r\n                <a href=\"/pages/main/services.html\">App Design</a>\r\n                <a href=\"/pages/main/services.html\">Marketing Emailer</a>\r\n                <a href=\"/pages/main/services.html\">Social Media</a>\r\n                <a href=\"/pages/main/services.html\">Logo Design</a>\r\n                <a href=\"/pages/main/services.html\">Graphics Design</a>\r\n                <a href=\"/pages/main/services.html\">Tool Design</a>\r\n                <a href=\"/pages/main/services.html\">Document Design</a>\r\n                <a href=\"/pages/main/services.html\">ETC Design</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Company Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Company\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Company\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/about.html\">About Us</a>\r\n                <a href=\"/pages/blogs/blogs.html\">Blog</a>\r\n                \r\n                <a href=\"/pages/main/contact-page.html\">Contact</a>\r\n                <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\r\n                <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Copyright -->\r\n        <div class=\"footer-bottom animate-fade-in\">\r\n            <p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <!-- Large Background Text with Image - OUTSIDE container -->\r\n    <div class=\"footer-bg-text\">\r\n        <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\r\n    </div>\r\n\r\n</footer>"
         }
       ],
-      "updatedAt": "2026-06-09T13:50:24.686Z"
+      "updatedAt": "2026-06-10T09:09:30.605Z"
     }
   },
   "services": [
@@ -4542,10 +4545,330 @@
   "tracking": {
     "sessions": [
       {
+        "id": "sess-73b7b714aa51219eb0c737d3",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:05:06.538Z",
+        "lastSeenAt": "2026-06-10T09:09:30.605Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 180,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4a3d8ec6c9d8119eb0c732f4",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:05:05.285Z",
+        "lastSeenAt": "2026-06-10T09:05:05.285Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0c56e5d81abd5819eb0c72ca3",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:05:03.673Z",
+        "lastSeenAt": "2026-06-10T09:05:03.673Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b18e46e15bbcb819eb0c5eae3",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:03:41.301Z",
+        "lastSeenAt": "2026-06-10T09:05:03.639Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 75,
+        "scrollDepth": 34,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-244d779d59993819eb0c5d88e",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:03:36.609Z",
+        "lastSeenAt": "2026-06-10T09:03:41.225Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f6a7583a2197e19eb0c5d2a4",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:03:35.120Z",
+        "lastSeenAt": "2026-06-10T09:03:36.517Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-19fed2ecf91d1819eb0c5ce1e",
+        "visitorId": "1a43da20-dfb7-4a0b-a899-01a55e7ff34e",
+        "createdAt": "2026-06-10T09:03:33.966Z",
+        "lastSeenAt": "2026-06-10T09:03:33.966Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6083384ca3d8c19eb0c40852",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:37.759Z",
+        "lastSeenAt": "2026-06-10T09:01:52.792Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1e56b4c4046c8819eb0c3f089",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:31.670Z",
+        "lastSeenAt": "2026-06-10T09:01:37.712Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ffbc66c5ca5cf19eb0c3ee22",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:31.065Z",
+        "lastSeenAt": "2026-06-10T09:01:31.065Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f0838712bed7819eb0c3e661",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:29.091Z",
+        "lastSeenAt": "2026-06-10T09:01:29.091Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-478068fe1d6c719eb0c3e346",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:28.278Z",
+        "lastSeenAt": "2026-06-10T09:01:28.278Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6156d66df6bee19eb0c3d8a8",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-10T09:01:25.572Z",
+        "lastSeenAt": "2026-06-10T09:01:25.572Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1266x725",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.123.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-75652bda084f6819eaceb1a53",
+        "visitorId": "34d2e3ef-2f6c-4950-b294-5e43b143d7e0",
+        "createdAt": "2026-06-09T15:05:49.412Z",
+        "lastSeenAt": "2026-06-09T15:08:32.732Z",
+        "currentPage": "service-form.html",
+        "path": "/pages/system/service-form.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 71,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-31ae2b14f4d3a19eaceb1094",
+        "visitorId": "34d2e3ef-2f6c-4950-b294-5e43b143d7e0",
+        "createdAt": "2026-06-09T15:05:46.936Z",
+        "lastSeenAt": "2026-06-09T15:05:49.356Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-563741f38a6b0819eaccc68e2",
+        "visitorId": "885073ab-428c-4c73-a223-ebfd6e32485e",
+        "createdAt": "2026-06-09T14:32:17.974Z",
+        "lastSeenAt": "2026-06-09T15:07:32.726Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1912x956",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 750,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+        "ip": "1::*"
+      },
+      {
         "id": "sess-53f090d50bf78819eaca4e7fe",
         "visitorId": "34d2e3ef-2f6c-4950-b294-5e43b143d7e0",
         "createdAt": "2026-06-09T13:49:09.046Z",
-        "lastSeenAt": "2026-06-09T13:50:24.686Z",
+        "lastSeenAt": "2026-06-09T15:05:46.814Z",
         "currentPage": "home",
         "path": "/",
         "referrer": "http://localhost:3000/pages/system/thank-you-page.html",
@@ -4554,9 +4877,9 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 75,
-        "scrollDepth": 0,
-        "eventCount": 0,
+        "activeSeconds": 1515,
+        "scrollDepth": 6,
+        "eventCount": 2,
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
         "ip": "1::*"
@@ -4783,6 +5106,69 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-e839dcff",
+        "sessionId": "sess-b18e46e15bbcb819eb0c5eae3",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-06-10T09:05:03.639Z"
+      },
+      {
+        "id": "evt-28e5a703",
+        "sessionId": "sess-244d779d59993819eb0c5d88e",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-06-10T09:03:41.225Z"
+      },
+      {
+        "id": "evt-99889b66",
+        "sessionId": "sess-f6a7583a2197e19eb0c5d2a4",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-06-10T09:03:36.517Z"
+      },
+      {
+        "id": "evt-8cc9171c",
+        "sessionId": "sess-1e56b4c4046c8819eb0c3f089",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-06-10T09:01:37.712Z"
+      },
+      {
+        "id": "evt-7df99dbb",
+        "sessionId": "sess-31ae2b14f4d3a19eaceb1094",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.accordion-cta-button",
+        "text": "GET ESTIMATE",
+        "createdAt": "2026-06-09T15:05:49.356Z"
+      },
+      {
+        "id": "evt-6229f220",
+        "sessionId": "sess-53f090d50bf78819eaca4e7fe",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-06-09T15:05:46.814Z"
+      },
+      {
+        "id": "evt-3d06aa4b",
+        "sessionId": "sess-53f090d50bf78819eaca4e7fe",
+        "page": "home",
+        "type": "click",
+        "target": "button",
+        "text": "Decline",
+        "createdAt": "2026-06-09T15:03:19.749Z"
+      },
       {
         "id": "evt-89d985c2",
         "sessionId": "sess-463c2e945cf1d819eac9b1dec",
@@ -8312,9 +8698,156 @@
         "createdAt": "2026-05-09T04:34:50.971Z"
       }
     ],
-    "replays": []
+    "replays": [
+      {
+        "id": "replay-b0adc2b6",
+        "sessionId": "sess-563741f38a6b0819eaccc68e2",
+        "visitorId": "885073ab-428c-4c73-a223-ebfd6e32485e",
+        "createdAt": "2026-06-09T14:32:18.896Z",
+        "updatedAt": "2026-06-09T14:32:18.896Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+        "format": "video",
+        "durationMs": 982,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-6580d924",
+            "index": 1,
+            "createdAt": "2026-06-09T14:32:18.896Z",
+            "durationMs": 982,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-563741f38a6b0819eaccc68e2__part-001.webm",
+            "url": "/data/replays/sess-563741f38a6b0819eaccc68e2__part-001.webm"
+          }
+        ]
+      }
+    ]
   },
   "activity": [
+    {
+      "id": "act-bff3512f",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-10T09:05:06.538Z"
+    },
+    {
+      "id": "act-c0d5c749",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-10T09:05:05.285Z"
+    },
+    {
+      "id": "act-43dc181f",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-10T09:05:03.673Z"
+    },
+    {
+      "id": "act-b10ea6ec",
+      "type": "page",
+      "message": "work page content updated",
+      "createdAt": "2026-06-10T09:04:59.524Z"
+    },
+    {
+      "id": "act-e1f2a98b",
+      "type": "page",
+      "message": "work page content updated",
+      "createdAt": "2026-06-10T09:04:57.644Z"
+    },
+    {
+      "id": "act-34333651",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-06-10T09:03:41.301Z"
+    },
+    {
+      "id": "act-2807de7b",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-10T09:03:36.609Z"
+    },
+    {
+      "id": "act-f049c16f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:03:35.120Z"
+    },
+    {
+      "id": "act-7338313f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:03:33.966Z"
+    },
+    {
+      "id": "act-5a210d31",
+      "type": "page",
+      "message": "work page content updated",
+      "createdAt": "2026-06-10T09:03:13.694Z"
+    },
+    {
+      "id": "act-12cfc762",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-10T09:01:37.759Z"
+    },
+    {
+      "id": "act-4705cc5a",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:01:31.670Z"
+    },
+    {
+      "id": "act-1f1a85aa",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:01:31.065Z"
+    },
+    {
+      "id": "act-5be7bebc",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:01:29.091Z"
+    },
+    {
+      "id": "act-9ca9c446",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:01:28.278Z"
+    },
+    {
+      "id": "act-e0abc161",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-10T09:01:25.572Z"
+    },
+    {
+      "id": "act-87893c3c",
+      "type": "visitor",
+      "message": "Visitor opened service-form.html",
+      "createdAt": "2026-06-09T15:05:49.412Z"
+    },
+    {
+      "id": "act-0f43910e",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-06-09T15:05:46.937Z"
+    },
+    {
+      "id": "act-386d0749",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-06-09T14:32:18.922Z"
+    },
+    {
+      "id": "act-af7a27c5",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-09T14:32:17.975Z"
+    },
     {
       "id": "act-f9b3bd55",
       "type": "visitor",
@@ -8554,126 +9087,6 @@
       "type": "visitor",
       "message": "Video replay captured for home",
       "createdAt": "2026-05-25T13:46:26.068Z"
-    },
-    {
-      "id": "act-40ddf33e",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T13:46:24.495Z"
-    },
-    {
-      "id": "act-ff5fe549",
-      "type": "visitor",
-      "message": "Video replay captured for services.html",
-      "createdAt": "2026-05-25T13:19:49.508Z"
-    },
-    {
-      "id": "act-f919f9c1",
-      "type": "visitor",
-      "message": "Visitor opened services.html",
-      "createdAt": "2026-05-25T13:19:46.428Z"
-    },
-    {
-      "id": "act-f8c4ab68",
-      "type": "visitor",
-      "message": "Visitor opened contact-page.html",
-      "createdAt": "2026-05-25T12:46:25.173Z"
-    },
-    {
-      "id": "act-1c8116a6",
-      "type": "visitor",
-      "message": "Video replay captured for about.html",
-      "createdAt": "2026-05-25T12:46:25.120Z"
-    },
-    {
-      "id": "act-e1e0d809",
-      "type": "visitor",
-      "message": "Visitor opened about.html",
-      "createdAt": "2026-05-25T12:46:24.158Z"
-    },
-    {
-      "id": "act-b43f1bfa",
-      "type": "visitor",
-      "message": "Visitor opened services.html",
-      "createdAt": "2026-05-25T12:46:18.594Z"
-    },
-    {
-      "id": "act-65c9b740",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-05-25T12:46:18.565Z"
-    },
-    {
-      "id": "act-ccda6ace",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-05-25T12:46:17.586Z"
-    },
-    {
-      "id": "act-605dda71",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-05-25T12:46:17.548Z"
-    },
-    {
-      "id": "act-18751e3c",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T12:46:15.890Z"
-    },
-    {
-      "id": "act-c083a2d7",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T12:46:15.432Z"
-    },
-    {
-      "id": "act-c29e6a0e",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T12:46:15.037Z"
-    },
-    {
-      "id": "act-b37cb87b",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-05-25T12:46:14.829Z"
-    },
-    {
-      "id": "act-016922af",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T12:46:12.815Z"
-    },
-    {
-      "id": "act-c26dd07f",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-05-25T12:46:12.591Z"
-    },
-    {
-      "id": "act-b8c9b385",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T12:46:10.464Z"
-    },
-    {
-      "id": "act-22ee3d83",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T11:16:29.574Z"
-    },
-    {
-      "id": "act-d83d37f8",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-05-25T11:16:27.947Z"
-    },
-    {
-      "id": "act-bca51b4e",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-05-25T11:16:26.304Z"
     }
   ]
 }
