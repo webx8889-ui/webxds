@@ -177,6 +177,19 @@ function escapeUrl(value, fallback = "#") {
   return fallback;
 }
 
+function formatBlogDateLabel(value) {
+  const date = value ? new Date(value) : new Date();
+  if (Number.isNaN(date.getTime())) return formatBlogDateLabel(nowIso());
+  return `Date: ${date.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "2-digit" }).replace(/ /g, " ")}`;
+}
+
+function normalizeBlogTags(value) {
+  return (Array.isArray(value) ? value : String(value || "").split(","))
+    .map(entry => sanitizeText(entry))
+    .filter(Boolean)
+    .slice(0, 8);
+}
+
 function saveAdminImageUpload(fileName, dataUrl) {
   const match = String(dataUrl || "").match(/^data:image\/(png|jpeg|jpg|webp|gif);base64,(.+)$/i);
   if (!match) throw new Error("Unsupported image format");
@@ -605,10 +618,45 @@ function createGenericPageRecord(urlPath, existingPage = null) {
 
 function ensureGenericPagesStructure(store) {
   if (!store.pages) store.pages = {};
+  // Register hardcoded static pages
   for (const pagePath of listGenericPagePaths()) {
     const pageKey = getGenericPageKey(pagePath);
     if (pageKey === "home" || pageKey === "work") continue;
-    store.pages[pageKey] = createGenericPageRecord(pagePath, store.pages[pageKey]);
+    try {
+      store.pages[pageKey] = createGenericPageRecord(pagePath, store.pages[pageKey]);
+    } catch (e) {
+      // Skip if file doesn't exist on disk
+    }
+  }
+  // Register all blog posts (including newly created ones) as generic pages
+  for (const post of (store.blogs || [])) {
+    if (!post || !post.url) continue;
+    const normalizedBlogPath = normalizeUrlPath(post.url);
+    const blogPageKey = getGenericPageKey(normalizedBlogPath);
+    if (!blogPageKey || blogPageKey === "home" || blogPageKey === "work" || blogPageKey === "blogs") continue;
+    // Check if the blog HTML file actually exists on disk
+    let blogFileExists = false;
+    try {
+      const blogAbsPath = resolveProjectFilePath(normalizedBlogPath);
+      fs.accessSync(blogAbsPath);
+      blogFileExists = true;
+    } catch (e) {
+      blogFileExists = false;
+    }
+    if (!blogFileExists) continue;
+    try {
+      const existingPage = store.pages[blogPageKey];
+      // Preserve an existing generic page record; recreate if missing or stale
+      if (!existingPage || existingPage.editorType !== "generic") {
+        store.pages[blogPageKey] = createGenericPageRecord(normalizedBlogPath, existingPage);
+      }
+      // Always keep displayName, summary, and path up-to-date with blog metadata
+      store.pages[blogPageKey].displayName = sanitizeText(post.title, store.pages[blogPageKey].displayName);
+      store.pages[blogPageKey].summary = `blog post • ${post.status || "published"}`;
+      store.pages[blogPageKey].path = normalizedBlogPath;
+    } catch (e) {
+      // Skip blogs whose file cannot be parsed
+    }
   }
 }
 
@@ -1675,6 +1723,481 @@ async function writeWorkProjectFiles(store) {
   }
 }
 
+function normalizeBlogPost(post, index = 0) {
+  const title = sanitizeText(post.title, `Blog Post ${index + 1}`);
+  const slug = slugify(post.slug || title);
+  const dateValue = sanitizeText(post.dateValue || post.date || nowIso().slice(0, 10)).slice(0, 10);
+  const tags = normalizeBlogTags(post.tags);
+  const keywords = (Array.isArray(post.keywords) ? post.keywords : String(post.keywords || "").split(",")).map(item => sanitizeText(item.trim())).filter(Boolean);
+  const sections = (Array.isArray(post.sections) ? post.sections : []).map((section, sectionIndex) => ({
+    id: sanitizeText(section.id, createId("blog-section")),
+    heading: sanitizeText(section.heading, `Section ${sectionIndex + 1}`),
+    details: sanitizeText(section.details || section.body || ""),
+    bullets: (Array.isArray(section.bullets) ? section.bullets : String(section.bullets || "").split("\n"))
+      .map(entry => sanitizeText(entry))
+      .filter(Boolean)
+  })).filter(section => section.heading || section.details || section.bullets.length);
+  return {
+    id: sanitizeText(post.id, createId("blog")),
+    title,
+    slug,
+    articleSection: sanitizeText(post.articleSection, ""),
+    metaTitle: sanitizeText(post.metaTitle, `${title} | Webx Design Studio`),
+    metaDescription: sanitizeText(post.metaDescription || post.excerpt, ""),
+    image: escapeUrl(post.image, "/assets/images/blogs/blog-img-1.png"),
+    imageAlt: sanitizeText(post.imageAlt, `${title} featured image`),
+    dateValue,
+    dateLabel: sanitizeText(post.dateLabel, formatBlogDateLabel(dateValue)),
+    excerpt: sanitizeText(post.excerpt, ""),
+    intro: sanitizeText(post.intro, ""),
+    author: sanitizeText(post.author, "Webx Design Studio"),
+    tags,
+    keywords,
+    status: sanitizeText(post.status, "published").toLowerCase() === "draft" ? "draft" : "published",
+    url: escapeUrl(post.url, `/pages/blogs/${slug}.html`),
+    sections
+  };
+}
+
+function getHomeBlogSection(store) {
+  ensureHomePageStructure(store);
+  let section = (store.pages.home.sections || []).find(item => item.type === "blogs");
+  if (!section) {
+    section = getDefaultSectionTemplate("blogs");
+    store.pages.home.sections.push(section);
+  }
+  if (!Array.isArray(section.items)) section.items = [];
+  return section;
+}
+
+function syncBlogPostToHome(store, post) {
+  const section = getHomeBlogSection(store);
+  if (post.status !== "published") {
+    section.items = (section.items || []).filter(existing => existing.id !== post.id);
+    return;
+  }
+  const item = normalizeHomeItem("blogs", {
+    id: post.id,
+    title: post.title,
+    image: post.image,
+    imageAlt: post.imageAlt,
+    dateLabel: post.dateLabel,
+    dateValue: post.dateValue,
+    excerpt: post.excerpt || post.intro,
+    url: post.url,
+    tags: post.tags
+  });
+  section.items = [item, ...(section.items || []).filter(existing => existing.id !== item.id && existing.url !== item.url)];
+}
+
+function renderBlogArticlePage(post, store) {
+  const sectionMarkup = post.sections.map((section, index) => `
+      <section class="blog-page-section" aria-labelledby="section-heading-${index + 1}">
+        <h2 class="section-heading" id="section-heading-${index + 1}">${escapeHtml(section.heading)}</h2>
+        ${section.details ? `<p class="section-text">${escapeHtml(section.details).replace(/\n\n+/g, "</p><p class=\"section-text\">").replace(/\n/g, "<br>")}</p>` : ""}
+        ${section.bullets.length ? `<ul class="section-list">${section.bullets.map(point => `<li>${escapeHtml(point)}</li>`).join("")}</ul>` : ""}
+      </section>`).join("\n");
+  const metaKeywords = post.keywords.length ? post.keywords.join(", ") : post.tags.join(", ");
+  const tags = [...(post.articleSection ? [post.articleSection] : []), ...post.tags];
+  const tagMarkup = tags.map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n          ");
+  const recommendedPosts = (store.blogs || [])
+    .filter(item => item && item.status !== "draft" && item.url !== post.url)
+    .map((item, index) => normalizeBlogPost(item, index))
+    .sort((a, b) => (b.dateValue || "").localeCompare(a.dateValue || ""))
+    .slice(0, 3);
+  const recommendedPostsHtml = recommendedPosts.length ? renderBlogSliderCards(recommendedPosts) : "";
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>${escapeHtml(post.metaTitle)}</title>
+<meta name="description" content="${escapeAttr(post.metaDescription || post.excerpt || post.intro)}" />
+<meta name="robots" content="${post.status === "published" ? "index, follow" : "noindex, nofollow"}" />
+<meta name="author" content="${escapeAttr(post.author)}" />
+<meta name="theme-color" content="#ff6b00" />
+<meta name="keywords" content="${escapeAttr(metaKeywords)}" />
+<link rel="canonical" href="https://webxds.com${escapeAttr(post.url)}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="${escapeAttr(post.title)}" />
+<meta property="og:description" content="${escapeAttr(post.metaDescription || post.excerpt || post.intro)}" />
+<meta property="og:url" content="https://webxds.com${escapeAttr(post.url)}" />
+<meta property="og:image" content="https://webxds.com${escapeAttr(post.image)}" />
+<meta property="og:image:alt" content="${escapeAttr(post.imageAlt)}" />
+<meta property="og:site_name" content="Webx Design Studio" />
+<meta property="og:locale" content="en_IN" />
+<meta property="article:published_time" content="${escapeAttr(post.dateValue)}" />
+<meta property="article:author" content="${escapeAttr(post.author)}" />
+${post.tags.map(tag => `<meta property="article:tag" content="${escapeAttr(tag)}" />`).join("\n")}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${escapeAttr(post.title)}" />
+<meta name="twitter:description" content="${escapeAttr(post.metaDescription || post.excerpt || post.intro)}" />
+<meta name="twitter:image" content="https://webxds.com${escapeAttr(post.image)}" />
+<link rel="icon" href="/assets/images/icons/favicon.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.png" sizes="180x180" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css" />
+${buildClaritySnippet(store)}
+</head>
+<body>
+<noscript><div style="padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif;">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>
+<header>
+  <section class="blog-hero-section" aria-label="Blog page header">
+    <nav class="home-navbar" aria-label="Main navigation">
+      <div class="home-nav-container">
+        <div class="home-logo"><a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage"><img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" width="140" height="40" loading="eager" /></a></div>
+        <a href="/pages/main/contact-page.html" class="home-contact-btn"><span>CONTACT US</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </nav>
+  </section>
+</header>
+<main>
+<section class="breadcrumb-section" aria-label="Breadcrumb">
+  <div class="breadcrumb-container"><nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="/" class="breadcrumb-link">Home</a><span class="breadcrumb-separator" aria-hidden="true">&#8250;</span><a href="/pages/blogs/blogs.html" class="breadcrumb-link">Blog</a><span class="breadcrumb-separator" aria-hidden="true">&#8250;</span><span class="breadcrumb-current" aria-current="page">${escapeHtml(post.title)}</span></nav></div>
+</section>
+<section class="blog-detail-hero" aria-label="Blog article featured image">
+  <div class="blog-hero-image-container"><img src="${escapeAttr(post.image)}" alt="${escapeAttr(post.imageAlt)}" class="blog-hero-image" width="1200" height="630" loading="eager" /><div class="squiggle squiggle-1" aria-hidden="true"></div><div class="squiggle squiggle-2" aria-hidden="true"></div><div class="squiggle squiggle-3" aria-hidden="true"></div></div>
+</section>
+<section class="blog-detail-content" aria-label="Blog article content">
+  <div class="blog-content-container">
+    <header class="blog-header">
+      <h1 class="blog-title">${escapeHtml(post.title)}</h1>
+      ${post.articleSection ? `<p class="blog-category-label" style="margin:0 0 0.75rem;color:#ff6b00;font-weight:600;letter-spacing:.03em;text-transform:uppercase">${escapeHtml(post.articleSection)}</p>` : ""}
+      <div class="blog-tags-date-row"><div class="blog-tags" aria-label="Article tags">${tagMarkup}</div><time class="blog-date" datetime="${escapeAttr(post.dateValue)}">${escapeHtml(post.dateLabel)}</time></div>
+      ${post.keywords.length ? `<p class="blog-keywords" style="margin:0.75rem 0 0;color:#6d7280;font-size:0.95rem">Keywords: ${escapeHtml(post.keywords.join(", "))}</p>` : ""}
+    </header>
+    <article class="blog-article" itemscope itemtype="https://schema.org/BlogPosting">
+      <meta itemprop="headline" content="${escapeAttr(post.title)}" />
+      <meta itemprop="datePublished" content="${escapeAttr(post.dateValue)}" />
+      ${post.intro ? `<p class="blog-intro">${escapeHtml(post.intro).replace(/\n\n+/g, "</p><p class=\"blog-intro\">").replace(/\n/g, "<br>")}</p>` : ""}
+      ${sectionMarkup}
+    </article>
+  </div>
+</section>
+${recommendedPostsHtml ? `
+<section class="blog-section animate-section" aria-label="More blog posts">
+  <div class="blog-container">
+    <div class="section-header animate-fade-in">
+      <p class="section-label">Today's Blogs</p>
+      <h2 class="section-title">Read more posts from Webx Design Studio</h2>
+    </div>
+    <div class="blog-slider-wrapper">
+      <div class="blog-slider animate-cards" role="list">
+        ${recommendedPostsHtml}
+      </div>
+    </div>
+    <div class="blog-slider-controls">
+      <div class="blog-progress-bar" role="progressbar" aria-label="Blog slider progress">
+        <div class="blog-progress-bg"></div>
+        <div class="blog-progress-fill"></div>
+      </div>
+      <div class="blog-navigation">
+        <button class="blog-arrow blog-prev" aria-label="Previous blog post">←</button>
+        <button class="blog-arrow blog-next" aria-label="Next blog post">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+` : ""}
+</main>
+<footer class="footer-section" aria-label="Site footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="footer-logo-img" width="140" height="40" loading="lazy" />
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/piyushgohil8889/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on LinkedIn">
+          <img src="/assets/images/icons/linkedin-icon.png" alt="LinkedIn" class="social-icon-img" width="24" height="24" loading="lazy" />
+        </a>
+        <a href="https://dribbble.com/desinger8889" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on Dribbble">
+          <img src="/assets/images/icons/dribbble-icon.png" alt="Dribbble" class="social-icon-img" width="24" height="24" loading="lazy" />
+        </a>
+        <a href="https://www.behance.net/Piyushgohil8889" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on Behance">
+          <img src="/assets/images/icons/behance-icon.png" alt="Behance" class="social-icon-img" width="24" height="24" loading="lazy" />
+        </a>
+      </div>
+    </div>
+    <div class="footer-section-block">
+      <h3 class="footer-heading">
+        Services
+        <button class="footer-toggle" aria-label="Toggle Services menu" aria-expanded="false">
+          <span class="accordion-arrow-circle">
+            <svg class="arrow-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </button>
+      </h3>
+      <div class="footer-links">
+        <a href="/pages/main/services.html">UI/UX Design</a>
+        <a href="/pages/main/services.html">Web Design</a>
+        <a href="/pages/main/services.html">App Design</a>
+        <a href="/pages/main/services.html">Marketing Emailer</a>
+        <a href="/pages/main/services.html">Social Media</a>
+        <a href="/pages/main/services.html">Logo Design</a>
+        <a href="/pages/main/services.html">Graphics Design</a>
+        <a href="/pages/main/services.html">Tool Design</a>
+        <a href="/pages/main/services.html">Document Design</a>
+        <a href="/pages/main/services.html">ETC Design</a>
+      </div>
+    </div>
+    <div class="footer-section-block">
+      <h3 class="footer-heading">
+        Company
+        <button class="footer-toggle" aria-label="Toggle Company menu" aria-expanded="false">
+          <span class="accordion-arrow-circle">
+            <svg class="arrow-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </button>
+      </h3>
+      <div class="footer-links">
+        <a href="/pages/main/about.html">About Us</a>
+        <a href="/pages/blogs/blogs.html">Blog</a>
+        <a href="/pages/main/contact-page.html">Contact</a>
+        <a href="/pages/legal/privacy-policy.html">Privacy Policy</a>
+        <a href="/pages/legal/term-condition.html">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2026 Webx Design Studio. All rights reserved</p>
+    </div>
+  </div>
+  <div class="footer-bg-text" aria-hidden="true">
+    <img src="/assets/images/logos/webx-footer-logo-large.svg" alt="" class="footer-bg-image" width="600" height="200" loading="lazy" />
+  </div>
+</footer>
+
+<div class="more-menu-overlay" id="moreMenu" role="dialog" aria-modal="true" aria-label="Full navigation menu">
+  <div class="more-menu-inner">
+    <div class="more-menu-left">
+      <div class="more-menu-column">
+        <a href="/" class="more-link"><span class="more-link-label">Home</span></a>
+        <a href="/pages/main/work.html" class="more-link"><span class="more-link-label">Work</span></a>
+        <a href="/pages/main/services.html" class="more-link"><span class="more-link-label">Services</span></a>
+        <a href="/pages/main/faq.html" class="more-link"><span class="more-link-label">FAQ</span></a>
+      </div>
+      <div class="more-menu-column">
+        <a href="/pages/main/about.html" class="more-link"><span class="more-link-label">About</span></a>
+        <a href="/pages/blogs/blogs.html" class="more-link" aria-current="page"><span class="more-link-label">Blog</span></a>
+        <a href="/pages/main/contact-page.html" class="more-link"><span class="more-link-label">Contact</span></a>
+        <a href="/pages/legal/term-condition.html" class="more-link"><span class="more-link-label">Term &amp; Conditions</span></a>
+        <a href="/pages/legal/privacy-policy.html" class="more-link"><span class="more-link-label">Privacy Policy</span></a>
+      </div>
+    </div>
+    <aside class="more-menu-right">
+      <div class="more-cta-content">
+        <h2 class="more-cta-title">Let's create<br>experiences<br>together.</h2>
+        <p class="more-cta-sub">We value our connection and want to create lasting memories.</p>
+        <a href="/pages/main/contact-page.html" class="more-cta-button">
+          <span>CONTACT US</span>
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top of page">
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+<nav class="bottom-navbar" aria-label="Bottom navigation">
+  <div class="bottom-nav-logo">
+    <a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage">
+      <img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="logo-full" width="100" height="30" loading="lazy" />
+      <img src="/assets/images/icons/webx-icon.svg" alt="Webx" class="logo-icon" width="32" height="32" loading="lazy" />
+    </a>
+  </div>
+  <div class="bottom-nav-container">
+    <a href="/" class="nav-item">
+      <img src="/assets/images/others/home.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <span class="nav-label">Home</span>
+    </a>
+    <a href="/pages/main/work.html" class="nav-item">
+      <img src="/assets/images/others/work.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <span class="nav-label">Work</span>
+    </a>
+    <a href="/pages/main/services.html" class="nav-item">
+      <img src="/assets/images/others/services.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <span class="nav-label">Services</span>
+    </a>
+    <a href="/pages/main/about.html" class="nav-item">
+      <img src="/assets/images/others/about.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <span class="nav-label">About</span>
+    </a>
+    <a href="/pages/main/contact-page.html" class="nav-item">
+      <img src="/assets/images/others/contact.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <span class="nav-label">Contact</span>
+    </a>
+    <button class="nav-item more-toggle" type="button" aria-label="Open full navigation menu" aria-expanded="false" aria-controls="moreMenu">
+      <svg class="more-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor"/>
+      </svg>
+      <span class="nav-label">Menu</span>
+    </button>
+  </div>
+</nav>
+<script src="/js/script.js?v=20260311-2"></script>
+</body>
+</html>
+`;
+}
+
+function renderBlogCard(post) {
+  return `<article class="blog-card">
+            <div class="blog-image">
+              <img src="${escapeAttr(post.image)}" alt="${escapeAttr(post.imageAlt)}" width="400" height="240" loading="lazy" />
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-card-title">${escapeHtml(post.title)}</h2>
+              <div class="blog-meta">
+                <div class="blog-tags">
+                  ${post.tags.slice(0, 3).map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n                  ")}
+                </div>
+                <span class="blog-date"><time datetime="${escapeAttr(post.dateValue)}">${escapeHtml(post.dateLabel)}</time></span>
+              </div>
+              <p class="blog-excerpt">${escapeHtml(post.excerpt || post.intro)}</p>
+              <a href="${escapeAttr(post.url)}" class="blog-read-more" aria-label="Read ${escapeAttr(post.title)}">
+                <span>READ MORE</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </article>`;
+}
+
+function renderBlogSliderCards(allPublishedBlogs) {
+  return allPublishedBlogs.slice(0, 4).map((blogItem, idx) => `
+            <!-- Blog Card ${idx + 1} -->
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="${escapeAttr(blogItem.image)}" alt="${escapeAttr(blogItem.imageAlt)}" width="400" height="240" loading="lazy" />
+              </div>
+              <div class="blog-content">
+                <h3 class="blog-card-title">${escapeHtml(blogItem.title)}</h3>
+                <div class="blog-meta">
+                  <div class="blog-tags">
+                    ${blogItem.tags.slice(0, 3).map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n                    ")}
+                  </div>
+                  <span class="blog-date"><time datetime="${escapeAttr(blogItem.dateValue)}">${escapeHtml(blogItem.dateLabel)}</time></span>
+                </div>
+                <p class="blog-excerpt">${escapeHtml(blogItem.excerpt || blogItem.intro)}</p>
+                <a href="${escapeAttr(blogItem.url)}" class="blog-read-more" aria-label="Read more about ${escapeAttr(blogItem.title)}">
+                  <span>READ MORE</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>`).join("\n");
+}
+
+async function collectHtmlFiles(dirPath) {
+  const entries = await fsp.readdir(dirPath, { withFileTypes: true });
+  let files = [];
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      if (entry.name === "node_modules" || entry.name === ".git") continue;
+      files = files.concat(await collectHtmlFiles(path.join(dirPath, entry.name)));
+    } else if (entry.isFile() && entry.name.endsWith(".html")) {
+      files.push(path.join(dirPath, entry.name));
+    }
+  }
+  return files;
+}
+
+async function updateAllBlogSliderPages(allPublishedBlogs) {
+  const sliderHtml = renderBlogSliderCards(allPublishedBlogs);
+  const htmlFiles = await collectHtmlFiles(ROOT);
+  await Promise.all(htmlFiles.map(async filePath => {
+    const html = await fsp.readFile(filePath, "utf8").catch(() => "");
+    if (!html || !html.includes("blog-slider animate-cards")) return;
+    const nextHtml = html.replace(/<div class="blog-slider animate-cards">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<div class="blog-slider-controls">/gi, `<div class="blog-slider animate-cards">${sliderHtml}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-slider-controls">`);
+    if (nextHtml !== html) await fsp.writeFile(filePath, nextHtml, "utf8");
+  }));
+}
+
+async function rebuildBlogIndexFiles(store) {
+  const allPublishedBlogs = (store.blogs || [])
+    .filter(b => b && b.status !== "draft")
+    .map((item, index) => normalizeBlogPost(item, index))
+    .sort((a, b) => (b.dateValue || "").localeCompare(a.dateValue || ""));
+
+  const blogsIndexPath = resolveProjectFilePath("/pages/blogs/blogs.html");
+  const blogsIndexHtml = await fsp.readFile(blogsIndexPath, "utf8").catch(() => "");
+  if (blogsIndexHtml.includes("blogs-grid")) {
+    const blogsCards = allPublishedBlogs.map(renderBlogCard).join("\n\n          ");
+    const nextBlogsHtml = blogsIndexHtml.replace(/<div class="blogs-grid">[\s\S]*?<\/div>\s*<\/div>\s*<\/section>/i, `<div class="blogs-grid">
+          ${blogsCards}
+        </div>
+      </div>
+    </section>`);
+    await fsp.writeFile(blogsIndexPath, nextBlogsHtml, "utf8");
+  }
+
+  const homePath = resolveProjectFilePath("/index.html");
+  const homeHtml = await fsp.readFile(homePath, "utf8").catch(() => "");
+  if (homeHtml.includes("blog-slider animate-cards")) {
+    const homeCards = allPublishedBlogs.slice(0, 4).map((blogItem, idx) => `
+            <!-- Blog Card ${idx + 1} -->
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="${escapeAttr(blogItem.image)}" alt="${escapeAttr(blogItem.imageAlt)}" width="400" height="240" loading="lazy" />
+              </div>
+              <div class="blog-content">
+                <h3 class="blog-card-title">${escapeHtml(blogItem.title)}</h3>
+                <div class="blog-meta">
+                  <div class="blog-tags">
+                    ${blogItem.tags.slice(0, 3).map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n                    ")}
+                  </div>
+                  <span class="blog-date"><time datetime="${escapeAttr(blogItem.dateValue)}">${escapeHtml(blogItem.dateLabel)}</time></span>
+                </div>
+                <p class="blog-excerpt">${escapeHtml(blogItem.excerpt || blogItem.intro)}</p>
+                <a href="${escapeAttr(blogItem.url)}" class="blog-read-more" aria-label="Read more about ${escapeAttr(blogItem.title)}">
+                  <span>READ MORE</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>`).join("\n");
+    const nextHomeHtml = homeHtml.replace(/<div class="blog-slider animate-cards">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<div class="blog-slider-controls">/i, `<div class="blog-slider animate-cards">${homeCards}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-slider-controls">`);
+    await fsp.writeFile(homePath, nextHomeHtml, "utf8");
+  }
+
+  await updateAllBlogSliderPages(allPublishedBlogs);
+}
+
+async function writeBlogFiles(store, post) {
+  const filePath = resolveProjectFilePath(post.url);
+  await fsp.mkdir(path.dirname(filePath), { recursive: true });
+  await fsp.writeFile(filePath, renderBlogArticlePage(post, store), "utf8");
+  await rebuildBlogIndexFiles(store);
+}
+
 function getPublicBootstrap(store, pathname) {
   ensureHomePageStructure(store);
   ensureWorkPageStructure(store);
@@ -1836,6 +2359,7 @@ function getAnalytics(store) {
         updatedAt: replay.updatedAt
       })),
     leads: leads.slice(0, 100),
+    blogs: store.blogs || [],
     services: store.services || [],
     pages: Object.entries(store.pages || {}).reduce((acc, [pageKey, page]) => {
       acc[pageKey] = serializeAdminPage(page, pageKey);
@@ -2455,10 +2979,105 @@ async function handleApi(req, res, url) {
       return;
     }
 
+    if (pathname === "/api/admin/blogs" && req.method === "GET") {
+      const blogs = (store.blogs || []).map((item, index) => normalizeBlogPost(item, index));
+      sendJson(res, 200, { blogs });
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/blogs/") && req.method === "PUT") {
+      const id = pathname.split("/").pop();
+      const body = await parseBody(req);
+      let updatedPost = null;
+      try {
+        await withStore(async current => {
+          if (!Array.isArray(current.blogs)) current.blogs = [];
+          const existingIndex = current.blogs.findIndex(item => item.id === id);
+          if (existingIndex === -1) throw new Error("Blog not found");
+          const normalized = normalizeBlogPost(body, existingIndex);
+          normalized.id = current.blogs[existingIndex].id;
+          if (current.blogs.some((item, index) => index !== existingIndex && item.url === normalized.url)) {
+            throw new Error("A blog with this slug already exists");
+          }
+          current.blogs[existingIndex] = normalized;
+          syncBlogPostToHome(current, normalized);
+          await writeBlogFiles(current, normalized);
+          addActivity(current, `Blog post updated: ${normalized.title}`, "blog");
+          updatedPost = normalized;
+        });
+        sendJson(res, 200, { ok: true, post: updatedPost });
+      } catch (error) {
+        sendJson(res, 400, { error: error.message || "Blog update failed" });
+      }
+      return;
+    }
+
+    if (pathname === "/api/admin/blogs" && req.method === "POST") {
+      const body = await parseBody(req);
+      let savedPost = null;
+      try {
+        await withStore(async current => {
+          if (!Array.isArray(current.blogs)) current.blogs = [];
+          const post = normalizeBlogPost(body, current.blogs.length);
+          if (!post.title) throw new Error("Blog title is required");
+          if (!post.intro && !post.sections.length) throw new Error("Add intro or at least one content section");
+          const existing = current.blogs.find(item => item.url === post.url || item.slug === post.slug);
+          if (existing) throw new Error("A blog with this slug already exists");
+          if (fs.existsSync(resolveProjectFilePath(post.url))) throw new Error("A blog file with this slug already exists");
+          current.blogs.unshift(post);
+          if (post.status === "published") syncBlogPostToHome(current, post);
+          await writeBlogFiles(current, post);
+          addActivity(current, `Blog post created: ${post.title}`, "blog");
+          savedPost = post;
+        });
+        sendJson(res, 201, { ok: true, post: savedPost });
+      } catch (error) {
+        sendJson(res, 400, { error: error.message || "Blog creation failed" });
+      }
+      return;
+    }
+
+    if (pathname.startsWith("/api/admin/blogs/") && req.method === "DELETE") {
+      const id = pathname.split("/").pop();
+      try {
+        await withStore(async current => {
+          if (!Array.isArray(current.blogs)) current.blogs = [];
+          const post = current.blogs.find(item => item.id === id);
+          if (!post) throw new Error("Blog not found");
+          // Remove from blogs array
+          current.blogs = current.blogs.filter(item => item.id !== id);
+          // Remove from home blog section items
+          const homeBlogSection = (current.pages?.home?.sections || []).find(s => s.type === "blogs");
+          if (homeBlogSection && Array.isArray(homeBlogSection.items)) {
+            homeBlogSection.items = homeBlogSection.items.filter(item => item.id !== id && item.url !== post.url);
+          }
+          // Remove page entry from store.pages
+          const blogPageKey = getGenericPageKey(normalizeUrlPath(post.url));
+          if (blogPageKey && current.pages && current.pages[blogPageKey]) {
+            delete current.pages[blogPageKey];
+          }
+          // Delete the blog HTML file from disk
+          try {
+            const blogFilePath = resolveProjectFilePath(post.url);
+            await fsp.unlink(blogFilePath);
+          } catch (e) { /* file may not exist */ }
+          // Rebuild index.html and blogs.html without the deleted blog
+          await rebuildBlogIndexFiles(current);
+          addActivity(current, `Blog post deleted: ${post.title}`, "blog");
+        });
+        sendJson(res, 200, { ok: true });
+      } catch (error) {
+        sendJson(res, 400, { error: error.message || "Blog delete failed" });
+      }
+      return;
+    }
+
+
     if (pathname.startsWith("/api/admin/pages/") && req.method === "PUT") {
       const slug = pathname.split("/").pop();
       const body = await parseBody(req);
       await withStore(async current => {
+
         if (!current.pages[slug]) current.pages[slug] = {};
         if (slug === "home") pushHomeUndoSnapshot(current.pages.home);
         current.pages[slug].title = sanitizeText(body.title, current.pages[slug].title);

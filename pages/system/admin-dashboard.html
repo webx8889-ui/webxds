@@ -340,6 +340,46 @@
     .editor-input:focus { border-color: var(--c-accent); }
     .editor-textarea { min-height: 130px; resize: vertical; line-height: 1.6; }
     .editor-actions { display: flex; gap: 10px; margin-top: 8px; }
+    .editor-wrap,
+    .home-cms-shell,
+    .work-cms-shell,
+    .blog-editor-shell {
+      --editor-surface: linear-gradient(180deg, rgba(14,14,14,0.98), rgba(7,7,7,0.98));
+      --editor-soft: rgba(255,255,255,0.02);
+      --editor-line: rgba(255,255,255,0.08);
+    }
+    .editor-wrap .card,
+    .home-cms-command,
+    .home-cms-sidebar,
+    .home-cms-editor-panel,
+    .work-cms-card,
+    .work-cms-sidebar,
+    .work-cms-panel,
+    .work-cms-subpanel,
+    .blog-editor-panel,
+    .blog-editor-preview,
+    .blog-editor-section {
+      border: 1px solid var(--editor-line, rgba(255,255,255,0.08));
+      background: var(--editor-surface, var(--c-bg-card));
+      box-shadow: 0 18px 48px rgba(0,0,0,0.24);
+    }
+    .home-cms-input-wrap,
+    .work-cms-field,
+    .blog-editor-field {
+      min-width: 0;
+    }
+    .home-cms-grid,
+    .work-cms-grid,
+    .work-cms-visual-grid,
+    .blog-editor-row {
+      align-items: start;
+    }
+    .home-cms-icon-btn,
+    .work-cms-icon-btn,
+    .work-cms-mini-btn,
+    .blog-editor-mini {
+      min-height: 38px;
+    }
 
     /* ===== SERVICES ===== */
     .service-list-item { display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: var(--c-bg-card); border: 1px solid var(--c-border); border-top: none; transition: all var(--transition); }
@@ -356,12 +396,19 @@
     .action-btn:hover { opacity: 0.75; }
 
     /* ===== BLOG ===== */
-    .blog-list-item { display: flex; align-items: center; gap: 16px; padding: 16px; background: var(--c-bg-card); border: 1px solid var(--c-border); border-top: none; }
-    .blog-list-item:first-child { border-top: 1px solid var(--c-border); }
-    .blog-thumb { width: 56px; height: 44px; flex-shrink: 0; background: var(--c-accent); display: flex; align-items: center; justify-content: center; }
-    .blog-thumb img { width: 26px; height: 26px; filter: brightness(0); }
-    .blog-title-text { font-weight: 600; font-size: clamp(13px, 1.2vw, 15px); line-height: 1.4; }
-    .blog-meta-text { font-size: clamp(11px, 0.9vw, 13px); color: var(--c-muted); margin-top: 4px; }
+    #blogPostList { display:grid; gap:16px; }
+    .blog-list-item { display:grid; grid-template-columns: 120px minmax(0,1fr) auto; gap: 16px; padding: 18px; background: var(--c-bg-card); border: 1px solid var(--c-border); border-radius: 18px; cursor: pointer; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
+    .blog-list-item:hover { transform: translateY(-1px); border-color: rgba(254,168,0,.35); background: rgba(255,255,255,.04); }
+    .blog-list-item:first-child { border-top: none; }
+    .blog-thumb { width: 120px; height: 96px; min-width: 120px; border-radius: 14px; overflow: hidden; background: #111; display: flex; align-items: center; justify-content: center; }
+    .blog-thumb img { width: 100%; height: 100%; object-fit: cover; filter: none; }
+    .blog-list-content { display:grid; gap: 8px; }
+    .blog-title-text { font-weight: 700; font-size: clamp(15px, 1.4vw, 18px); line-height: 1.3; }
+    .blog-meta-text { font-size: clamp(12px, 1vw, 14px); color: var(--c-muted); }
+    .blog-excerpt { font-size: clamp(12px, 1vw, 13px); color: var(--c-muted); line-height: 1.6; max-height: 3.6em; overflow: hidden; text-overflow: ellipsis; }
+    .blog-item-actions { display:flex; align-items:center; justify-content:flex-end; gap:8px; }
+    .blog-item-actions .action-btn { padding: 8px 16px; }
+    .blog-list-empty { padding: 24px 18px; color: var(--c-muted); border: 1px solid var(--c-border); border-radius: 14px; background: rgba(255,255,255,0.03); }
 
     /* ===== TOAST ===== */
     .toast-container { position: fixed; bottom: 28px; right: 28px; z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
@@ -419,14 +466,14 @@
     /* ===== OVERLAY + MODAL ===== */
     .sidebar-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 190; display: none; }
     .sidebar-overlay.visible { display: block; }
-    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 500; display: none; align-items: center; justify-content: center; }
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.88); z-index: 500; display: none; align-items: flex-start; justify-content: center; overflow-y: auto; padding: 24px; }
     .modal-backdrop.open { display: flex; }
-    .modal { background: var(--c-bg-2); border: 1px solid var(--c-border); padding: 28px; width: 90%; max-width: 500px; animation: modalIn 0.22s ease; }
-    @keyframes modalIn { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-    .modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
-    .modal-title { font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
-    .modal-close { font-size: 20px; color: var(--c-muted); cursor: pointer; line-height: 1; }
-    .modal-close:hover { color: var(--c-red); }
+    .modal { background: linear-gradient(180deg, rgba(10,10,10,0.98), rgba(18,18,18,0.98)); border: 1px solid rgba(255,255,255,0.08); border-radius: 28px; padding: 28px; width: min(1240px, calc(100vw - 48px)); max-width: 1240px; box-shadow: 0 40px 80px rgba(0,0,0,0.4); animation: modalIn 0.24s ease; }
+    @keyframes modalIn { from { transform: translateY(-24px) scale(0.98); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+    .modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; gap: 18px; }
+    .modal-title { font-size: clamp(18px, 1.8vw, 24px); font-weight: 800; letter-spacing: -0.02em; }
+    .modal-close { font-size: 22px; color: var(--c-muted); cursor: pointer; line-height: 1; padding: 6px 8px; border-radius: 999px; transition: background var(--transition), color var(--transition); }
+    .modal-close:hover { color: #fff; background: rgba(255,255,255,0.06); }
 
     /* ===== PRODUCTION SPACING POLISH ===== */
     .content {
@@ -842,9 +889,14 @@
           <div class="section-title">Dashboard Overview</div>
           <div class="section-subtitle">Here's what's happening with your studio today.</div>
         </div>
-        <button class="btn btn-primary" onclick="showToast('Report exported!','download',true)">
-          <img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export Report
-        </button>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
+            <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" /> New Blog Post
+          </button>
+          <button class="btn btn-outline" onclick="showToast('Report exported!','download',true)">
+            <img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export Report
+          </button>
+        </div>
       </div>
 
       <div class="stats-grid">
@@ -879,7 +931,7 @@
         <div class="card">
           <div class="card-header"><div class="card-title">Quick Actions</div></div>
           <div class="quick-actions">
-            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showPage('blog', document.querySelectorAll('.nav-item')[6]); showModal('newBlog')">
+            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showPage('blog', document.querySelectorAll('.nav-item')[6]); window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
               <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" /> New Blog Post
             </div>
             <div class="quick-btn" onclick="showPage('services', document.querySelectorAll('.nav-item')[4]); showModal('newService')">
@@ -1158,11 +1210,9 @@
     <div class="page-panel" id="page-blog">
       <div class="section-header">
         <div><div class="section-title">Blog Manager</div><div class="section-subtitle">Manage your blog posts and articles</div></div>
-        <button class="btn btn-primary" onclick="showModal('newBlog')">+ New Post</button>
+        <button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">+ New Post</button>
       </div>
-      <div>
-        <div class="blog-list-item"><div class="blog-thumb"><img src="https://api.iconify.design/tabler/robot.svg" alt="" /></div><div style="flex:1"><div class="blog-title-text">AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026</div><div class="blog-meta-text">Published | 18 Feb 2026 | website redesign 2026, redesign checklist</div></div><span class="badge badge-green">Published</span><div style="display:flex;gap:6px;margin-left:12px"><button class="action-btn edit" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showModal('newBlog')">Edit</button><button class="action-btn delete" onclick="this.closest('.blog-list-item').remove();showToast('Post deleted','trash')">Delete</button></div></div>
-      </div>
+      <div id="blogPostList"><div class="blog-list-empty">Loading blog posts…</div></div>
     </div>
 
     <!-- ========== CLIENTS ========== -->
@@ -1395,7 +1445,7 @@
     if (main) main.classList.toggle('sidebar-collapsed', isCollapsed);
     localStorage.setItem('webx-sidebar-collapsed', isCollapsed ? '1' : '0');
   }
-  function showModal(id) { const m = document.getElementById('modal-'+id); if(m) m.classList.add('open'); }
+  function showModal(id) { const m = document.getElementById('modal-'+id); if (m) { if (id === 'newBlog' && typeof window.resetBlogEditor === 'function') window.resetBlogEditor(); m.classList.add('open'); } }
   function closeModal(id) { const m = document.getElementById('modal-'+id); if(m) m.classList.remove('open'); }
 
   const iconMap = { inbox:'tabler/inbox', check:'tabler/check', download:'tabler/download', upload:'tabler/upload', mail:'tabler/mail', pencil:'tabler/pencil', trash:'tabler/trash', refresh:'tabler/refresh', photo:'tabler/photo', eye:'tabler/eye', users:'tabler/users', settings:'tabler/settings', lock:'tabler/lock', rocket:'tabler/rocket' };
@@ -1480,5 +1530,6 @@
 </script>
 <script src="/js/admin-dashboard.js"></script>
 <script src="/js/admin-work-editor.js"></script>
+<script src="/js/admin-blog-editor.js"></script>
 </body>
 </html>

@@ -51,6 +51,10 @@
       .replace(/'/g, "&#39;");
   }
 
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/`/g, "&#96;");
+  }
+
   function cloneData(value) {
     return JSON.parse(JSON.stringify(value));
   }
@@ -1320,10 +1324,16 @@
       "service-form": "clipboard-text",
       "thank-you-page": "circle-check"
     };
+    // Detect any dynamically created blog post page by its path or summary
+    const isBlogPost = !!(page && (
+      (page.path && String(page.path).includes("/pages/blogs/") && page.path !== "/pages/blogs/blogs.html") ||
+      (page.summary && String(page.summary).startsWith("blog post"))
+    ));
     return {
-      icon: iconMap[pageKey] || "file-text",
+      icon: isBlogPost ? "pencil" : (iconMap[pageKey] || "file-text"),
       name: page.displayName || pageKey.replace(/[-_]+/g, " ").replace(/\b\w/g, ch => ch.toUpperCase()),
-      description: page.summary || `${((page.sections || []).length || 0)} editable sections`
+      description: page.summary || `${((page.sections || []).length || 0)} editable sections`,
+      isBlogPost
     };
   }
 
@@ -1331,14 +1341,26 @@
     const grid = document.getElementById("pageCardGrid");
     if (!grid) return;
     const entries = getPageEntries(snapshot);
+    const blogs = (snapshot && snapshot.blogs) || [];
     grid.innerHTML = entries.map(([pageKey, page]) => {
       const meta = getPageCardMeta(pageKey, page);
+      // For blog posts: find the matching blog object by url to get its id for the editor
+      let blogId = null;
+      if (meta.isBlogPost && page.path) {
+        const matchedBlog = blogs.find(b => b.url === page.path || b.url === (page.path));
+        if (matchedBlog) blogId = matchedBlog.id;
+      }
+      const statusLabel = meta.isBlogPost ? "Blog Post" : "Live";
+      const statusClass = meta.isBlogPost ? "badge-blue" : "";
+      const editBtn = blogId
+        ? `<span class="btn btn-outline js-page-card-blog-edit" data-blog-id="${escapeHtml(blogId)}" style="font-size:11px;padding:4px 12px">Edit Blog</span>`
+        : `<span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span>`;
       return `
         <div class="page-card" data-page-key="${escapeHtml(pageKey)}">
           <div class="page-card-icon"><img src="https://api.iconify.design/tabler/${escapeHtml(meta.icon)}.svg" alt="" /></div>
           <div class="page-card-name">${escapeHtml(meta.name)}</div>
           <div class="page-card-desc">${escapeHtml(meta.description)}</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+          <div class="page-card-footer"><span class="page-card-status ${escapeHtml(statusClass)}">${escapeHtml(statusLabel)}</span>${editBtn}</div>
         </div>
       `;
     }).join("");
@@ -1347,6 +1369,48 @@
   function parseGenericSectionDocument(html) {
     const parser = new DOMParser();
     return parser.parseFromString(`<body>${html || ""}</body>`, "text/html");
+  }
+
+  function buildAdminBlogCard(post) {
+    const blogId = escapeAttr(post.id || post.slug || post.url || "");
+    return `
+          <article class="blog-card" data-blog-id="${blogId}">
+            <div class="blog-image">
+              <img src="${escapeAttr(post.image || '/assets/images/blogs/blog-img-1.png')}" alt="${escapeAttr(post.imageAlt || post.title || '')}" width="400" height="240" loading="lazy" />
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-card-title">${escapeHtml(post.title || 'Untitled')}</h2>
+              <div class="blog-meta">
+                <div class="blog-tags">
+                  ${(post.tags || []).slice(0,3).map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n                  ")}
+                </div>
+                <span class="blog-date"><time datetime="${escapeAttr(post.dateValue || '')}">${escapeHtml(post.dateLabel || post.dateValue || '')}</time></span>
+              </div>
+              <p class="blog-excerpt">${escapeHtml(post.excerpt || post.intro || '')}</p>
+              <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+                <a href="${escapeAttr(post.url || '#')}" class="blog-read-more" aria-label="Read ${escapeAttr(post.title || '')}">
+                  <span>READ MORE</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <button type="button" class="btn btn-outline home-cms-mini" data-open-blog-id="${blogId}">Edit</button>
+                <button type="button" class="btn btn-danger home-cms-mini js-delete-blog-post" data-blog-id="${blogId}" ${blogId ? '' : 'disabled'}>Delete</button>
+              </div>
+            </div>
+          </article>`;
+  }
+
+  function generateBlogsGridHtmlFromSnapshot() {
+    try {
+      const store = state.snapshot || {};
+      const blogs = Array.isArray(store.blogs) ? store.blogs : [];
+      const items = blogs.length ? blogs : ((store.pages || {}).home || {}).sections?.find(s => s.type === 'blogs')?.items || [];
+      if (!items || !items.length) return "";
+      return items.map(item => buildAdminBlogCard(item)).join("\n\n          ");
+    } catch (e) {
+      return "";
+    }
   }
 
   function getNodeLabel(node, fallback) {
@@ -1610,6 +1674,14 @@
     const sections = state.genericEditor.sections || [];
     const selectedSection = getGenericSelectedSection();
     const structuredFields = selectedSection ? analyzeGenericSection(selectedSection) : [];
+    // If editing the blogs page, inject live blogs grid into the section preview
+    if (pageKey === 'blogs' && selectedSection && String(selectedSection.html || '').includes('blogs-grid')) {
+      const cardsHtml = generateBlogsGridHtmlFromSnapshot();
+      if (cardsHtml) {
+        // replace existing grid contents
+        selectedSection.html = String(selectedSection.html || '').replace(/<div class="blogs-grid">[\s\S]*?<\/div>\s*<\/div>\s*<\/section>/i, `<div class="blogs-grid">\n          ${cardsHtml}\n        </div>\n      </div>\n    </section>`);
+      }
+    }
     const hiddenCount = sections.filter(section => section.enabled === false).length;
     mount.innerHTML = `
       <div class="home-cms-shell">
@@ -2002,6 +2074,35 @@
         await savePageData();
       }
 
+      // Open blog editor from CMS preview
+      const openBlogBtn = event.target.closest("[data-open-blog-id]");
+      if (openBlogBtn) {
+        const bid = openBlogBtn.dataset.openBlogId || openBlogBtn.closest('[data-blog-id]')?.dataset.blogId;
+        if (bid && typeof window.openBlogEditor === 'function') {
+          window.openBlogEditor(bid);
+        } else {
+          toast('Blog editor not available yet', 'lock');
+        }
+        return;
+      }
+
+      const deleteBlogBtn = event.target.closest(".js-delete-blog-post");
+      if (deleteBlogBtn) {
+        const blogId = deleteBlogBtn.dataset.blogId;
+        if (!blogId) return;
+        if (!window.confirm('Are you sure you want to delete this blog post?')) return;
+        try {
+          await api(`/api/admin/blogs/${encodeURIComponent(blogId)}`, { method: 'DELETE' });
+          await loadDashboard();
+          if (state.currentPageKey === 'blogs') openPageDataEditor('blogs');
+          toast('Blog deleted successfully', 'trash', true);
+        } catch (error) {
+          if (error.message === 'Unauthorized') return logout(false);
+          toast(error.message || 'Failed to delete blog', 'lock');
+        }
+        return;
+      }
+
       const sectionSelect = event.target.closest("[data-home-section-select]");
       if (sectionSelect) {
         state.homeEditor.selectedSectionId = sectionSelect.dataset.homeSectionSelect || "";
@@ -2181,6 +2282,17 @@
       const serviceItem = event.target.closest("[data-service-id]");
 
       if (event.target.closest(".page-card")) {
+        // If clicking the "Edit Blog" button on a blog post card, open the blog editor
+        const blogEditBtn = event.target.closest(".js-page-card-blog-edit");
+        if (blogEditBtn) {
+          const blogId = blogEditBtn.dataset.blogId || "";
+          if (blogId && typeof window.openBlogEditor === "function") {
+            window.openBlogEditor(blogId);
+          } else if (blogId) {
+            toast("Blog editor not available yet", "lock");
+          }
+          return;
+        }
         const pageCard = event.target.closest(".page-card");
         const pageKey = pageCard.dataset.pageKey;
         if (pageKey && ((state.snapshot || {}).pages || {})[pageKey]) {
