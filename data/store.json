@@ -329,83 +329,13 @@
           "ctaUrl": "#",
           "items": [
             {
-              "id": "blog-35ea7e5b",
-              "title": "sdfsfsdfsdf",
-              "image": "/assets/images/admin-content/1781327094660-rubik-1.jpg",
-              "imageAlt": "sdfsfsdfsdf featured image",
-              "dateLabel": "Date: 13 Jun 26",
-              "dateValue": "2026-06-13",
-              "excerpt": "sfsfsdfs",
-              "url": "/pages/blogs/dsfsdf.html",
-              "tags": [
-                "dfsfsf"
-              ]
-            },
-            {
-              "id": "blog-3a08edc3",
-              "title": "sdds",
-              "image": "/assets/images/blogs/blog-img-1.png",
-              "imageAlt": "sdds featured image",
-              "dateLabel": "Date: 12 Jun 26",
-              "dateValue": "2026-06-12",
-              "excerpt": "sd",
-              "url": "/pages/blogs/ssd.html",
-              "tags": [
-                "sdsd",
-                "hfgh",
-                "hgf",
-                "gfgfgfdfdfdfd"
-              ]
-            },
-            {
-              "id": "blog-a7cb4128",
-              "title": "hello world blog",
-              "image": "/assets/images/admin-content/1781240893981-grok-image-858657c8-9614-4e62-aa43-de8cc.jpg",
-              "imageAlt": "hello world blog featured image",
-              "dateLabel": "Date: 12 Jun 26",
-              "dateValue": "2026-06-12",
-              "excerpt": "dfdfdfdfdfdfd dfdfdff dfdfsdfd dsd dfdfdsdss df",
-              "url": "/pages/blogs/d.html",
-              "tags": []
-            },
-            {
-              "id": "blog-f0037156",
-              "title": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026",
-              "image": "/assets/images/blogs/blog-img-1.png",
-              "imageAlt": "AI-Driven Personalization blog image",
-              "dateLabel": "Date: 16 Apr 25",
-              "dateValue": "2025-04-16",
-              "excerpt": "Interfaces can now adapt content, layout, and navigation in real time based on behavior and intent.",
-              "url": "/pages/blogs/blog.html",
-              "tags": [
-                "ai powered user interfaces",
-                "does ux affect seo",
-                "2026 ux ui design trends"
-              ]
-            },
-            {
-              "id": "blog-686d9485",
-              "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026",
-              "image": "/assets/images/blogs/blog-img-2.png",
-              "imageAlt": "Apple Design Study blog image",
-              "dateLabel": "Date: 16 Apr 25",
-              "dateValue": "2025-04-16",
-              "excerpt": "Apple continues to set the bar for how digital products should look, feel, and behave.",
-              "url": "/pages/blogs/blog-apple.html",
-              "tags": [
-                "apple design study",
-                "apple ux case study",
-                "ios design principles"
-              ]
-            },
-            {
-              "id": "blog-7d3b0ddf",
-              "title": "How to Design a High-Converting Landing Page in 2026: UX & CRO Complete Guide",
-              "image": "/assets/images/blogs/blog-img-3.png",
-              "imageAlt": "Landing page design blog image",
+              "id": "blog-how-to-design-a-high-converting-landing-page-in-2026-ux-cro-complete-guide-webx-design-studio",
+              "title": "How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio",
+              "image": "https://webxds.com/assets/images/blogs/blog-img-3.png",
+              "imageAlt": "High-Converting Landing Page UX Design Guide 2026 - Webx Design Studio",
               "dateLabel": "Date: 18 Feb 26",
               "dateValue": "2026-02-18",
-              "excerpt": "Your landing page is often the final gateway between user interest and real business action.",
+              "excerpt": "Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.",
               "url": "/pages/blogs/blog-3.html",
               "tags": [
                 "high converting landing page",
@@ -414,18 +344,50 @@
               ]
             },
             {
-              "id": "blog-79965851",
-              "title": "10 Signs It's Time to Redesign Your Website in 2026: Full Redesign Checklist",
-              "image": "/assets/images/blogs/blog-img-4.png",
-              "imageAlt": "Website redesign blog image",
+              "id": "blog-10-signs-it-s-time-to-redesign-your-website-in-2026-full-redesign-checklist-webx-design-studio",
+              "title": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
+              "image": "https://webxds.com/assets/images/blogs/blog-img-4.png",
+              "imageAlt": "10 Signs Website Redesign Needed in 2026 - Webx Design Studio",
               "dateLabel": "Date: 18 Feb 26",
               "dateValue": "2026-02-18",
-              "excerpt": "Most businesses redesign too late after losing traffic, leads, and revenue quietly over time.",
+              "excerpt": "Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.",
               "url": "/pages/blogs/blog-4.html",
               "tags": [
                 "website redesign 2026",
                 "when to redesign website",
                 "website redesign checklist"
+              ]
+            },
+            {
+              "id": "blog-apple-design-study-10-ux-lessons-you-can-apply-to-your-products-in-2026-webx-design-studio",
+              "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
+              "image": "https://webxds.com/assets/images/blogs/blog-img-2.png",
+              "imageAlt": "Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio",
+              "dateLabel": "Date: 07 Feb 26",
+              "dateValue": "2026-02-07",
+              "excerpt": "Learn 10 practical UX lessons from Apple",
+              "url": "/pages/blogs/blog-apple.html",
+              "tags": [
+                "apple design study",
+                "apple ux case study",
+                "ios design principles"
+              ]
+            },
+            {
+              "id": "blog-ai-driven-personalization-the-ux-ui-design-trend-your-business-cannot-ignore-in-2026-webx-design-studio",
+              "title": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio",
+              "image": "https://webxds.com/assets/images/blogs/blog-img-1.png",
+              "imageAlt": "AI-Driven Personalization in UX/UI Design 2026 - Webx Design Studio",
+              "dateLabel": "Date: 07 Feb 26",
+              "dateValue": "2026-02-07",
+              "excerpt": "Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.",
+              "url": "/pages/blogs/blog.html",
+              "tags": [
+                "AI personalization UX design",
+                "AI in UX UI design",
+                "personalized user experience 2026",
+                "UX UI design trends",
+                "AI driven design"
               ]
             }
           ]
@@ -691,7 +653,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-19a42fbe",
@@ -891,7 +853,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-0658f34b",
@@ -1091,7 +1053,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-a2bf1483",
@@ -1291,7 +1253,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-1ec2a1fb",
@@ -1491,7 +1453,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-8b4bdb47",
@@ -1691,7 +1653,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         },
         {
           "id": "work-project-ce17ba98",
@@ -1891,7 +1853,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.516Z",
-          "updatedAt": "2026-06-13T05:38:26.991Z"
+          "updatedAt": "2026-06-13T11:03:57.850Z"
         }
       ],
       "heroTitle": "Creative Projects That Define Us",
@@ -1903,8 +1865,8 @@
       "path": "/pages/blogs/blog-3.html",
       "title": "How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio",
       "meta": "Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.",
-      "displayName": "Blog 3",
-      "summary": "blogs page • 7 editable sections",
+      "displayName": "How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio",
+      "summary": "blog post • published",
       "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\r\n<title>How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio</title>\r\n<meta name=\"description\" content=\"Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.\" />\r\n<meta name=\"robots\" content=\"index, follow\" />\r\n<meta name=\"author\" content=\"Webx Design Studio\" />\r\n<meta name=\"theme-color\" content=\"#ff6b00\" />\r\n<meta name=\"keywords\" content=\"high converting landing page, landing page ux design, conversion rate optimization\" />\r\n\r\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog-3.html\" />\r\n\r\n<meta property=\"og:type\" content=\"article\" />\r\n<meta property=\"og:title\" content=\"How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide)\" />\r\n<meta property=\"og:description\" content=\"Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.\" />\r\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog-3.html\" />\r\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-3.png\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"High-Converting Landing Page UX Design Guide 2026 - Webx Design Studio\" />\r\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\r\n<meta property=\"og:locale\" content=\"en_IN\" />\r\n<meta property=\"article:published_time\" content=\"2026-02-18\" />\r\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\r\n<meta property=\"article:section\" content=\"UX/UI Design\" />\r\n<meta property=\"article:tag\" content=\"high converting landing page\" />\r\n<meta property=\"article:tag\" content=\"landing page ux design\" />\r\n<meta property=\"article:tag\" content=\"conversion rate optimization\" />\r\n\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide)\" />\r\n<meta name=\"twitter:description\" content=\"Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.\" />\r\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-3.png\" />\r\n<meta name=\"twitter:image:alt\" content=\"High-Converting Landing Page UX Design Guide 2026 - Webx Design Studio\" />\r\n\r\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\r\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\r\n<link rel=\"manifest\" href=\"/manifest.json\" />\r\n\r\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\r\n\r\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\r\n<link rel=\"preload\" href=\"/assets/images/hero/hero-mockup.jpg\" as=\"image\" />\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BlogPosting\",\r\n  \"headline\": \"How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide)\",\r\n  \"description\": \"Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.\",\r\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-3.png\",\r\n  \"url\": \"https://webxds.com/pages/blogs/blog-3.html\",\r\n  \"datePublished\": \"2026-02-18\",\r\n  \"dateModified\": \"2026-02-18\",\r\n  \"author\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\"\r\n  },\r\n  \"publisher\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\",\r\n    \"logo\": {\r\n      \"@type\": \"ImageObject\",\r\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\r\n    }\r\n  },\r\n  \"keywords\": [\"high converting landing page\", \"landing page ux design\", \"conversion rate optimization\"],\r\n  \"articleSection\": \"UX/UI Design\",\r\n  \"mainEntityOfPage\": {\r\n    \"@type\": \"WebPage\",\r\n    \"@id\": \"https://webxds.com/pages/blogs/blog-3.html\"\r\n  }\r\n}\r\n</script>\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BreadcrumbList\",\r\n  \"itemListElement\": [\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 1,\r\n      \"name\": \"Home\",\r\n      \"item\": \"https://webxds.com/\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 2,\r\n      \"name\": \"Blog\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog.html\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 3,\r\n      \"name\": \"How to Design a High-Converting Landing Page in 2026\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog-3.html\"\r\n    }\r\n  ]\r\n}\r\n</script>\r\n</head>\r\n\r\n<body>",
       "templateEnd": "</body>\r\n</html>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
       "bodyLayout": [
@@ -2141,15 +2103,15 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <!-- MORE button -->\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.992Z"
+      "updatedAt": "2026-06-13T11:03:57.853Z"
     },
     "blog-4": {
       "editorType": "generic",
       "path": "/pages/blogs/blog-4.html",
       "title": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
       "meta": "Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.",
-      "displayName": "Blog 4",
-      "summary": "blogs page • 7 editable sections",
+      "displayName": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
+      "summary": "blog post • published",
       "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\r\n<title>10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio</title>\r\n<meta name=\"description\" content=\"Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.\" />\r\n<meta name=\"robots\" content=\"index, follow\" />\r\n<meta name=\"author\" content=\"Webx Design Studio\" />\r\n<meta name=\"theme-color\" content=\"#ff6b00\" />\r\n<meta name=\"keywords\" content=\"website redesign 2026, when to redesign website, website redesign checklist\" />\r\n\r\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog-4.html\" />\r\n\r\n<meta property=\"og:type\" content=\"article\" />\r\n<meta property=\"og:title\" content=\"10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist)\" />\r\n<meta property=\"og:description\" content=\"Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.\" />\r\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog-4.html\" />\r\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-4.png\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"10 Signs Website Redesign Needed in 2026 - Webx Design Studio\" />\r\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\r\n<meta property=\"og:locale\" content=\"en_IN\" />\r\n<meta property=\"article:published_time\" content=\"2026-02-18\" />\r\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\r\n<meta property=\"article:section\" content=\"UX/UI Design\" />\r\n<meta property=\"article:tag\" content=\"website redesign 2026\" />\r\n<meta property=\"article:tag\" content=\"when to redesign website\" />\r\n<meta property=\"article:tag\" content=\"website redesign checklist\" />\r\n\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist)\" />\r\n<meta name=\"twitter:description\" content=\"Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.\" />\r\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-4.png\" />\r\n<meta name=\"twitter:image:alt\" content=\"10 Signs Website Redesign Needed in 2026 - Webx Design Studio\" />\r\n\r\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\r\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\r\n<link rel=\"manifest\" href=\"/manifest.json\" />\r\n\r\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\r\n\r\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\r\n<link rel=\"preload\" href=\"/assets/images/hero/hero-mockup.jpg\" as=\"image\" />\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BlogPosting\",\r\n  \"headline\": \"10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist)\",\r\n  \"description\": \"Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.\",\r\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-4.png\",\r\n  \"url\": \"https://webxds.com/pages/blogs/blog-4.html\",\r\n  \"datePublished\": \"2026-02-18\",\r\n  \"dateModified\": \"2026-02-18\",\r\n  \"author\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\"\r\n  },\r\n  \"publisher\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\",\r\n    \"logo\": {\r\n      \"@type\": \"ImageObject\",\r\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\r\n    }\r\n  },\r\n  \"keywords\": [\"website redesign 2026\", \"when to redesign website\", \"website redesign checklist\"],\r\n  \"articleSection\": \"UX/UI Design\",\r\n  \"mainEntityOfPage\": {\r\n    \"@type\": \"WebPage\",\r\n    \"@id\": \"https://webxds.com/pages/blogs/blog-4.html\"\r\n  }\r\n}\r\n</script>\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BreadcrumbList\",\r\n  \"itemListElement\": [\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 1,\r\n      \"name\": \"Home\",\r\n      \"item\": \"https://webxds.com/\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 2,\r\n      \"name\": \"Blog\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog.html\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 3,\r\n      \"name\": \"10 Signs It's Time to Redesign Your Website in 2026\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog-4.html\"\r\n    }\r\n  ]\r\n}\r\n</script>\r\n</head>\r\n\r\n<body>",
       "templateEnd": "</body>\r\n</html>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
       "bodyLayout": [
@@ -2386,15 +2348,15 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.993Z"
+      "updatedAt": "2026-06-13T11:03:57.855Z"
     },
     "blog-apple": {
       "editorType": "generic",
       "path": "/pages/blogs/blog-apple.html",
       "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
       "meta": "Learn 10 practical UX lessons from Apple",
-      "displayName": "Blog Apple",
-      "summary": "blogs page • 7 editable sections",
+      "displayName": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
+      "summary": "blog post • published",
       "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\r\n<title>Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio</title>\r\n<meta name=\"description\" content=\"Learn 10 practical UX lessons from Apple's design language, including clarity, hierarchy, motion, mobile ergonomics, and product simplification strategies.\" />\r\n<meta name=\"robots\" content=\"index, follow\" />\r\n<meta name=\"author\" content=\"Webx Design Studio\" />\r\n<meta name=\"theme-color\" content=\"#ff6b00\" />\r\n<meta name=\"keywords\" content=\"apple design study, apple ux case study, ios design principles\" />\r\n\r\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog-apple.html\" />\r\n\r\n<meta property=\"og:type\" content=\"article\" />\r\n<meta property=\"og:title\" content=\"Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026\" />\r\n<meta property=\"og:description\" content=\"Learn 10 practical UX lessons from Apple's design language, including clarity, hierarchy, motion, mobile ergonomics, and product simplification strategies.\" />\r\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog-apple.html\" />\r\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-2.png\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio\" />\r\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\r\n<meta property=\"og:locale\" content=\"en_IN\" />\r\n<meta property=\"article:published_time\" content=\"2026-02-07\" />\r\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\r\n<meta property=\"article:section\" content=\"UX/UI Design\" />\r\n<meta property=\"article:tag\" content=\"apple design study\" />\r\n<meta property=\"article:tag\" content=\"apple ux case study\" />\r\n<meta property=\"article:tag\" content=\"ios design principles\" />\r\n\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026\" />\r\n<meta name=\"twitter:description\" content=\"Learn 10 practical UX lessons from Apple's design language, including clarity, hierarchy, motion, mobile ergonomics, and product simplification strategies.\" />\r\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-2.png\" />\r\n<meta name=\"twitter:image:alt\" content=\"Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio\" />\r\n\r\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\r\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\r\n<link rel=\"manifest\" href=\"/manifest.json\" />\r\n\r\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\r\n\r\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\r\n<link rel=\"preload\" href=\"/assets/images/hero/hero-mockup.jpg\" as=\"image\" />\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BlogPosting\",\r\n  \"headline\": \"Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026\",\r\n  \"description\": \"Learn 10 practical UX lessons from Apple's design language, including clarity, hierarchy, motion, mobile ergonomics, and product simplification strategies.\",\r\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-2.png\",\r\n  \"url\": \"https://webxds.com/pages/blogs/blog-apple.html\",\r\n  \"datePublished\": \"2026-02-07\",\r\n  \"dateModified\": \"2026-02-07\",\r\n  \"author\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\"\r\n  },\r\n  \"publisher\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\",\r\n    \"logo\": {\r\n      \"@type\": \"ImageObject\",\r\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\r\n    }\r\n  },\r\n  \"keywords\": [\"apple design study\", \"apple ux case study\", \"ios design principles\"],\r\n  \"articleSection\": \"UX/UI Design\",\r\n  \"mainEntityOfPage\": {\r\n    \"@type\": \"WebPage\",\r\n    \"@id\": \"https://webxds.com/pages/blogs/blog-apple.html\"\r\n  }\r\n}\r\n</script>\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BreadcrumbList\",\r\n  \"itemListElement\": [\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 1,\r\n      \"name\": \"Home\",\r\n      \"item\": \"https://webxds.com/\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 2,\r\n      \"name\": \"Blog\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog.html\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 3,\r\n      \"name\": \"Apple Design Study: 10 UX Lessons\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog-apple.html\"\r\n    }\r\n  ]\r\n}\r\n</script>\r\n</head>\r\n\r\n<body>",
       "templateEnd": "</body>\r\n</html>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
       "bodyLayout": [
@@ -2631,15 +2593,15 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.994Z"
+      "updatedAt": "2026-06-13T11:03:57.856Z"
     },
     "blog": {
       "editorType": "generic",
       "path": "/pages/blogs/blog.html",
       "title": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio",
       "meta": "Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.",
-      "displayName": "Blog",
-      "summary": "blogs page • 7 editable sections",
+      "displayName": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio",
+      "summary": "blog post • published",
       "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\n<title>AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio</title>\n<meta name=\"description\" content=\"Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.\" />\n<meta name=\"robots\" content=\"index, follow\" />\n<meta name=\"author\" content=\"Webx Design Studio\" />\n<meta name=\"theme-color\" content=\"#ff6b00\" />\n<meta name=\"keywords\" content=\"AI personalization UX design, AI in UX UI design, personalized user experience 2026, UX UI design trends, AI driven design\" />\n\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog.html\" />\n\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026\" />\n<meta property=\"og:description\" content=\"Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started.\" />\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog.html\" />\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-1.png\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"AI-Driven Personalization in UX/UI Design 2026 - Webx Design Studio\" />\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n<meta property=\"og:locale\" content=\"en_IN\" />\n<meta property=\"article:published_time\" content=\"2026-02-07\" />\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\n<meta property=\"article:section\" content=\"UX/UI Design\" />\n<meta property=\"article:tag\" content=\"ai personalization ux design\" />\n<meta property=\"article:tag\" content=\"ai in ux ui design\" />\n<meta property=\"article:tag\" content=\"personalized user experience\" />\n\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026\" />\n<meta name=\"twitter:description\" content=\"Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started.\" />\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-1.png\" />\n<meta name=\"twitter:image:alt\" content=\"AI-Driven Personalization in UX/UI Design 2026 - Webx Design Studio\" />\n\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\n<link rel=\"manifest\" href=\"/manifest.json\" />\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\n\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\n\n<link rel=\"preload\" href=\"/assets/images/hero/hero-mockup.jpg\" as=\"image\" />\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026\",\n  \"description\": \"Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.\",\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-1.png\",\n  \"url\": \"https://webxds.com/pages/blogs/blog.html\",\n  \"datePublished\": \"2026-02-07\",\n  \"dateModified\": \"2026-02-07\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Webx Design Studio\",\n    \"url\": \"https://webxds.com\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Webx Design Studio\",\n    \"url\": \"https://webxds.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\n    }\n  },\n  \"keywords\": [\"AI personalization UX design\", \"AI in UX UI design\", \"personalized user experience\", \"UX UI design trends 2026\"],\n  \"articleSection\": \"UX/UI Design\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://webxds.com/pages/blogs/blog.html\"\n  }\n}\n</script>\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://webxds.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://webxds.com/pages/blogs/blog.html\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026\",\n      \"item\": \"https://webxds.com/pages/blogs/blog.html\"\n    }\n  ]\n}\n</script>\n\n</head>\n<body>",
       "templateEnd": "</body>\n</html>\n\n\n\n\n\n\n",
       "bodyLayout": [
@@ -2876,7 +2838,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.995Z"
+      "updatedAt": "2026-06-13T11:03:57.858Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -3007,7 +2969,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n    <div class=\"bottom-nav-logo\">\n      <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n      </a>\n    </div>\n    <div class=\"bottom-nav-container\">\n      <a href=\"/\" class=\"nav-item\">\n        <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Home</span>\n      </a>\n      <a href=\"/pages/main/work.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Work</span>\n      </a>\n      <a href=\"/pages/main/services.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Services</span>\n      </a>\n      <a href=\"/pages/main/about.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">About</span>\n      </a>\n      <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Contact</span>\n      </a>\n      <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n        <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n          <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n          <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n          <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n        </svg>\n        <span class=\"nav-label\">More</span>\n      </button>\n    </div>\n  </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.995Z"
+      "updatedAt": "2026-06-13T11:03:57.858Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3186,7 +3148,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.995Z"
+      "updatedAt": "2026-06-13T11:03:57.859Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3365,7 +3327,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.996Z"
+      "updatedAt": "2026-06-13T11:03:57.860Z"
     },
     "about": {
       "editorType": "generic",
@@ -3602,7 +3564,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img\r\n                    src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">About</span> </a> <a\r\n                href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.png\"\r\n                    alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\"\r\n                aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg\r\n                    class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.996Z"
+      "updatedAt": "2026-06-13T11:03:57.861Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3749,7 +3711,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span>\r\n            </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\"\r\n                aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\"\r\n                    aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.996Z"
+      "updatedAt": "2026-06-13T11:03:57.862Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3928,7 +3890,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.996Z"
+      "updatedAt": "2026-06-13T11:03:57.862Z"
     },
     "services": {
       "editorType": "generic",
@@ -4125,7 +4087,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.png\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.997Z"
+      "updatedAt": "2026-06-13T11:03:57.863Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4294,7 +4256,7 @@
           "html": "<footer class=\"footer-section-form\">\r\n    <div class=\"footer-container-form\">\r\n      <!-- Copyright -->\r\n      <div class=\"footer-bottom-form\">\r\n        <p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\r\n      </div>\r\n\r\n    </div>\r\n  </footer>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.997Z"
+      "updatedAt": "2026-06-13T11:03:57.863Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4471,7 +4433,7 @@
           "html": "<footer class=\"footer-section animate-section\">\r\n    <div class=\"footer-container\">\r\n\r\n        <!-- Footer Top Content -->\r\n        <div class=\"footer-top animate-fade-in\">\r\n\r\n            <!-- Logo -->\r\n            <div class=\"footer-logo\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\r\n            </div>\r\n\r\n            <!-- Social Links -->\r\n            <div class=\"footer-social\">\r\n                <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\r\n                    <img src=\"/assets/images/icons/linkedin-icon.png\" alt=\"LinkedIn\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\r\n                    <img src=\"/assets/images/icons/dribbble-icon.png\" alt=\"Dribbble\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\r\n                    <img src=\"/assets/images/icons/behance-icon.png\" alt=\"Behance\" class=\"social-icon-img\">\r\n                </a>\r\n            </div>\r\n\r\n        </div>\r\n\r\n        <!-- Services Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Services\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Services\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/services.html\">UI/UX Design</a>\r\n                <a href=\"/pages/main/services.html\">Web Design</a>\r\n                <a href=\"/pages/main/services.html\">App Design</a>\r\n                <a href=\"/pages/main/services.html\">Marketing Emailer</a>\r\n                <a href=\"/pages/main/services.html\">Social Media</a>\r\n                <a href=\"/pages/main/services.html\">Logo Design</a>\r\n                <a href=\"/pages/main/services.html\">Graphics Design</a>\r\n                <a href=\"/pages/main/services.html\">Tool Design</a>\r\n                <a href=\"/pages/main/services.html\">Document Design</a>\r\n                <a href=\"/pages/main/services.html\">ETC Design</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Company Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Company\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Company\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/about.html\">About Us</a>\r\n                <a href=\"/pages/blogs/blogs.html\">Blog</a>\r\n                \r\n                <a href=\"/pages/main/contact-page.html\">Contact</a>\r\n                <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\r\n                <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Copyright -->\r\n        <div class=\"footer-bottom animate-fade-in\">\r\n            <p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <!-- Large Background Text with Image - OUTSIDE container -->\r\n    <div class=\"footer-bg-text\">\r\n        <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\r\n    </div>\r\n\r\n</footer>"
         }
       ],
-      "updatedAt": "2026-06-13T05:38:26.997Z"
+      "updatedAt": "2026-06-13T11:03:57.864Z"
     },
     "ssd": {
       "editorType": "generic",
@@ -4906,6 +4868,171 @@
       "updatedAt": "2026-06-13T05:20:30.129Z",
       "heroTitle": "",
       "heroSubtitle": ""
+    },
+    "dojjodf": {
+      "editorType": "generic",
+      "path": "/pages/blogs/dojjodf.html",
+      "title": "d | Webx Designsdf Studio",
+      "meta": "sdf",
+      "displayName": "dfdf",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>d | Webx Designsdf Studio</title>\n<meta name=\"description\" content=\"sdf\" />\n<meta name=\"robots\" content=\"index, follow\" />\n<meta name=\"author\" content=\"Webx Design Studiosdf\" />\n<meta name=\"theme-color\" content=\"#ff6b00\" />\n<meta name=\"keywords\" content=\"dsf\" />\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/dojjodf.html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"dfdf\" />\n<meta property=\"og:description\" content=\"sdf\" />\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/dojjodf.html\" />\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/admin-content/1781333732958-1-2dwoeop5gyy3czepfgek3g.webp\" />\n<meta property=\"og:image:alt\" content=\"sdf\" />\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n<meta property=\"og:locale\" content=\"en_IN\" />\n<meta property=\"article:published_time\" content=\"2026-06-13\" />\n<meta property=\"article:author\" content=\"Webx Design Studiosdf\" />\n<meta property=\"article:tag\" content=\"ssdfsdf\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"dfdf\" />\n<meta name=\"twitter:description\" content=\"sdf\" />\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/admin-content/1781333732958-1-2dwoeop5gyy3czepfgek3g.webp\" />\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\n<link rel=\"manifest\" href=\"/manifest.json\" />\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\n\n<script type=\"text/javascript\">\n    (function(c,l,a,r,i,t,y){\n        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\n        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n    })(window, document, \"clarity\", \"script\", \"w2scyt23ol\");\n</script>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif;\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-fc644cee"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-d4d1b4cb"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-057d98a9"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-287fd982"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-68600d9c"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-3b9fc22b"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\">\n  <div class=\"more-menu-inner\">\n    <div class=\"more-menu-left\">\n      <div class=\"more-menu-column\">\n        <a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a>\n        <a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a>\n        <a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a>\n        <a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a>\n      </div>\n      <div class=\"more-menu-column\">\n        <a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a>\n        <a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a>\n        <a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a>\n        <a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a>\n        <a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a>\n      </div>\n    </div>\n    <aside class=\"more-menu-right\">\n      <div class=\"more-cta-content\">\n        <h2 class=\"more-cta-title\">Let's create<br>experiences<br>together.</h2>\n        <p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p>\n        <a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\">\n          <span>CONTACT US</span>\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n            <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n          </svg>\n        </a>\n      </div>\n    </aside>\n  </div>\n</div>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\">\n  <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n    <path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n</button>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dojjodf-section-36ce5cb8"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260311-2\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "dojjodf-section-fc644cee",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n  <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n    <nav class=\"home-navbar\" aria-label=\"Main navigation\">\n      <div class=\"home-nav-container\">\n        <div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div>\n        <a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>\n      </div>\n    </nav>\n  </section>\n</header>"
+        },
+        {
+          "id": "dojjodf-section-d4d1b4cb",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\">\n  <div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">dfdf</span></nav></div>\n</section>"
+        },
+        {
+          "id": "dojjodf-section-057d98a9",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\">\n  <div class=\"blog-hero-image-container\"><img src=\"/assets/images/admin-content/1781333732958-1-2dwoeop5gyy3czepfgek3g.webp\" alt=\"sdf\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div>\n</section>"
+        },
+        {
+          "id": "dojjodf-section-287fd982",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\">\n  <div class=\"blog-content-container\">\n    <header class=\"blog-header\">\n      <h1 class=\"blog-title\">dfdf</h1>\n      \n      <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">ssdfsdf</span></div><time class=\"blog-date\" datetime=\"2026-06-13\">Date: 13 Jun 26</time></div>\n      <p class=\"blog-keywords\" style=\"margin:0.75rem 0 0;color:#6d7280;font-size:0.95rem\">Keywords: dsf</p>\n    </header>\n    <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"dfdf\" />\n      <meta itemprop=\"datePublished\" content=\"2026-06-13\" />\n      <p class=\"blog-intro\">fsf</p>\n      \n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-1\">\n        <h2 class=\"section-heading\" id=\"section-heading-1\">dsfsf</h2>\n        <p class=\"section-text\">dfsf</p>\n        <ul class=\"section-list\"><li>sdfsdf</li></ul>\n      </section>\n    </article>\n  </div>\n</section>"
+        },
+        {
+          "id": "dojjodf-section-68600d9c",
+          "label": "More blog posts",
+          "enabled": true,
+          "html": "<section class=\"blog-section animate-section\" aria-label=\"More blog posts\">\n  <div class=\"blog-container\">\n    <div class=\"section-header animate-fade-in\">\n      <p class=\"section-label\">Today's Blogs</p>\n      <h2 class=\"section-title\">Read more posts from Webx Design Studio</h2>\n    </div>\n    <div class=\"blog-slider-wrapper\">\n      <div class=\"blog-slider animate-cards\" role=\"list\">\n        \n            <!-- Blog Card 1 -->\n            <div class=\"blog-card\">\n              <div class=\"blog-image\">\n                <img src=\"/assets/images/admin-content/1781327094660-rubik-1.jpg\" alt=\"sdfsfsdfsdf featured image\" width=\"400\" height=\"240\" loading=\"lazy\" />\n              </div>\n              <div class=\"blog-content\">\n                <h3 class=\"blog-card-title\">sdfsfsdfsdf</h3>\n                <div class=\"blog-meta\">\n                  <div class=\"blog-tags\">\n                    <span class=\"blog-tag\">dfsfsf</span>\n                  </div>\n                  <span class=\"blog-date\"><time datetime=\"2026-06-13\">Date: 13 Jun 26</time></span>\n                </div>\n                <p class=\"blog-excerpt\">sfsfsdfs</p>\n                <a href=\"/pages/blogs/dsfsdf.html\" class=\"blog-read-more\" aria-label=\"Read more about sdfsfsdfsdf\">\n                  <span>READ MORE</span>\n                  <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                    <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n                  </svg>\n                </a>\n              </div>\n            </div>\n\n            <!-- Blog Card 2 -->\n            <div class=\"blog-card\">\n              <div class=\"blog-image\">\n                <img src=\"/assets/images/blogs/blog-img-1.png\" alt=\"sdds featured image\" width=\"400\" height=\"240\" loading=\"lazy\" />\n              </div>\n              <div class=\"blog-content\">\n                <h3 class=\"blog-card-title\">sdds</h3>\n                <div class=\"blog-meta\">\n                  <div class=\"blog-tags\">\n                    <span class=\"blog-tag\">sdsd</span>\n                    <span class=\"blog-tag\">hfgh</span>\n                    <span class=\"blog-tag\">hgf</span>\n                  </div>\n                  <span class=\"blog-date\"><time datetime=\"2026-06-12\">Date: 12 Jun 26</time></span>\n                </div>\n                <p class=\"blog-excerpt\">sd</p>\n                <a href=\"/pages/blogs/ssd.html\" class=\"blog-read-more\" aria-label=\"Read more about sdds\">\n                  <span>READ MORE</span>\n                  <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                    <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n                  </svg>\n                </a>\n              </div>\n            </div>\n\n            <!-- Blog Card 3 -->\n            <div class=\"blog-card\">\n              <div class=\"blog-image\">\n                <img src=\"/assets/images/admin-content/1781240893981-grok-image-858657c8-9614-4e62-aa43-de8cc.jpg\" alt=\"hello world blog featured image\" width=\"400\" height=\"240\" loading=\"lazy\" />\n              </div>\n              <div class=\"blog-content\">\n                <h3 class=\"blog-card-title\">hello world blog</h3>\n                <div class=\"blog-meta\">\n                  <div class=\"blog-tags\">\n                    \n                  </div>\n                  <span class=\"blog-date\"><time datetime=\"2026-06-12\">Date: 12 Jun 26</time></span>\n                </div>\n                <p class=\"blog-excerpt\">dfdfdfdfdfdfd dfdfdff dfdfsdfd dsd dfdfdsdss df</p>\n                <a href=\"/pages/blogs/d.html\" class=\"blog-read-more\" aria-label=\"Read more about hello world blog\">\n                  <span>READ MORE</span>\n                  <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                    <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n                  </svg>\n                </a>\n              </div>\n            </div>\n      </div>\n    </div>\n    <div class=\"blog-slider-controls\">\n      <div class=\"blog-progress-bar\" role=\"progressbar\" aria-label=\"Blog slider progress\">\n        <div class=\"blog-progress-bg\"></div>\n        <div class=\"blog-progress-fill\"></div>\n      </div>\n      <div class=\"blog-navigation\">\n        <button class=\"blog-arrow blog-prev\" aria-label=\"Previous blog post\">←</button>\n        <button class=\"blog-arrow blog-next\" aria-label=\"Next blog post\">→</button>\n      </div>\n    </div>\n  </div>\n</section>"
+        },
+        {
+          "id": "dojjodf-section-3b9fc22b",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\">\n  <div class=\"footer-container\">\n    <div class=\"footer-top\">\n      <div class=\"footer-logo\">\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" />\n      </div>\n      <div class=\"footer-social\">\n        <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\">\n          <img src=\"/assets/images/icons/linkedin-icon.png\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\">\n          <img src=\"/assets/images/icons/dribbble-icon.png\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\">\n          <img src=\"/assets/images/icons/behance-icon.png\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n      </div>\n    </div>\n    <div class=\"footer-section-block\">\n      <h3 class=\"footer-heading\">\n        Services\n        <button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\">\n          <span class=\"accordion-arrow-circle\">\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </span>\n        </button>\n      </h3>\n      <div class=\"footer-links\">\n        <a href=\"/pages/main/services.html\">UI/UX Design</a>\n        <a href=\"/pages/main/services.html\">Web Design</a>\n        <a href=\"/pages/main/services.html\">App Design</a>\n        <a href=\"/pages/main/services.html\">Marketing Emailer</a>\n        <a href=\"/pages/main/services.html\">Social Media</a>\n        <a href=\"/pages/main/services.html\">Logo Design</a>\n        <a href=\"/pages/main/services.html\">Graphics Design</a>\n        <a href=\"/pages/main/services.html\">Tool Design</a>\n        <a href=\"/pages/main/services.html\">Document Design</a>\n        <a href=\"/pages/main/services.html\">ETC Design</a>\n      </div>\n    </div>\n    <div class=\"footer-section-block\">\n      <h3 class=\"footer-heading\">\n        Company\n        <button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\">\n          <span class=\"accordion-arrow-circle\">\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </span>\n        </button>\n      </h3>\n      <div class=\"footer-links\">\n        <a href=\"/pages/main/about.html\">About Us</a>\n        <a href=\"/pages/blogs/blogs.html\">Blog</a>\n        <a href=\"/pages/main/contact-page.html\">Contact</a>\n        <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n        <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n      </div>\n    </div>\n    <div class=\"footer-bottom\">\n      <p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p>\n    </div>\n  </div>\n  <div class=\"footer-bg-text\" aria-hidden=\"true\">\n    <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" width=\"600\" height=\"200\" loading=\"lazy\" />\n  </div>\n</footer>"
+        },
+        {
+          "id": "dojjodf-section-36ce5cb8",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M12 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" fill=\"currentColor\"/>\n      </svg>\n      <span class=\"nav-label\">Menu</span>\n    </button>\n  </div>\n</nav>"
+        }
+      ],
+      "updatedAt": "2026-06-13T06:56:36.039Z"
     }
   },
   "services": [
@@ -5018,6 +5145,826 @@
   ],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-2c37219312d4819ec0a5b9f2",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-13T11:02:27.089Z",
+        "lastSeenAt": "2026-06-13T11:03:57.864Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1204x579",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 77,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-53ec1e6e7aee19ec0a5a7cb",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-13T11:02:22.429Z",
+        "lastSeenAt": "2026-06-13T11:02:26.996Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1204x579",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-115381819fbd2819ec0a54391",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-13T11:01:56.779Z",
+        "lastSeenAt": "2026-06-13T11:02:11.787Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1204x579",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 64,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f23b070c31b6b819ec0a4ea48",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-13T11:01:33.919Z",
+        "lastSeenAt": "2026-06-13T11:01:33.919Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1204x579",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-363f10928a10919ec0a1f5bd",
+        "visitorId": "53aedd25-3fea-43b5-b465-fc03cc6f26c9",
+        "createdAt": "2026-06-13T10:58:20.263Z",
+        "lastSeenAt": "2026-06-13T10:58:20.263Z",
+        "currentPage": "blog-3.html",
+        "path": "/pages/blogs/blog-3.html",
+        "referrer": "Direct",
+        "viewport": "1204x429",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-20dd8ed89fced819ec0a1e260",
+        "visitorId": "53aedd25-3fea-43b5-b465-fc03cc6f26c9",
+        "createdAt": "2026-06-13T10:58:15.350Z",
+        "lastSeenAt": "2026-06-13T10:58:15.350Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1204x429",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f066bb9901f519ec0a1b9b9",
+        "visitorId": "53aedd25-3fea-43b5-b465-fc03cc6f26c9",
+        "createdAt": "2026-06-13T10:58:04.904Z",
+        "lastSeenAt": "2026-06-13T10:58:04.904Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "Direct",
+        "viewport": "1204x601",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dd8b2a85771cb19ec09d258b",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:53:04.874Z",
+        "lastSeenAt": "2026-06-13T10:54:11.671Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 61,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cdf5f9183597b19ec09d1d70",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:53:02.743Z",
+        "lastSeenAt": "2026-06-13T10:53:02.743Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5abfced74e8c5819ec09d14ae",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:53:00.492Z",
+        "lastSeenAt": "2026-06-13T10:53:02.443Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-94747507cea72819ec092cf9a",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:47.444Z",
+        "lastSeenAt": "2026-06-13T10:53:00.386Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 255,
+        "scrollDepth": 74,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8ec73c3b35ea619ec092cc84",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:46.649Z",
+        "lastSeenAt": "2026-06-13T10:41:47.250Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-71eff4900d83f19ec092ca26",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:46.044Z",
+        "lastSeenAt": "2026-06-13T10:41:46.357Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4f514155b6802819ec092c826",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:45.532Z",
+        "lastSeenAt": "2026-06-13T10:41:45.833Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-371c1e2639df719ec092c5db",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:44.950Z",
+        "lastSeenAt": "2026-06-13T10:41:45.354Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2731476acf2e8819ec092bf4e",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:43.272Z",
+        "lastSeenAt": "2026-06-13T10:41:43.272Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dfd06b5fba7ee19ec092bd63",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:42.778Z",
+        "lastSeenAt": "2026-06-13T10:41:42.778Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c6f6d4dd87a1a819ec092bc62",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:42.522Z",
+        "lastSeenAt": "2026-06-13T10:41:42.522Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-59891994e15e5819ec092bb54",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:42.255Z",
+        "lastSeenAt": "2026-06-13T10:41:42.255Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-72fa841a8c4a5819ec092ba16",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:41.933Z",
+        "lastSeenAt": "2026-06-13T10:41:41.933Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-459f629fba36d19ec092b88b",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:41.544Z",
+        "lastSeenAt": "2026-06-13T10:41:41.544Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ae5b16c65777d19ec092b645",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:40.960Z",
+        "lastSeenAt": "2026-06-13T10:41:41.344Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4d011a44d27bb819ec092b2e5",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:40.097Z",
+        "lastSeenAt": "2026-06-13T10:41:40.097Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a1edcb49affca19ec092af95",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:39.246Z",
+        "lastSeenAt": "2026-06-13T10:41:39.909Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d8b117180d767819ec092a8fe",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:37.566Z",
+        "lastSeenAt": "2026-06-13T10:41:39.192Z",
+        "currentPage": "contact-page.html",
+        "path": "/pages/main/contact-page.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8c64d3910867319ec092a292",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:35.983Z",
+        "lastSeenAt": "2026-06-13T10:41:37.787Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c7aa0e296b6c2819ec0929e71",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:34.888Z",
+        "lastSeenAt": "2026-06-13T10:41:35.669Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7edb7a4b2c03b19ec090351c",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:56.821Z",
+        "lastSeenAt": "2026-06-13T10:38:58.431Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-213fc82c0615619ec0903388",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:56.417Z",
+        "lastSeenAt": "2026-06-13T10:38:56.417Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cf00447fbbe1d819ec09031db",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:55.987Z",
+        "lastSeenAt": "2026-06-13T10:38:55.987Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dcdc2fc7e9006819ec0902b71",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:54.344Z",
+        "lastSeenAt": "2026-06-13T10:38:54.344Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a23e02cf7683b819ec0902623",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:52.983Z",
+        "lastSeenAt": "2026-06-13T10:38:52.983Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-649e29822cea0819ec08fd540",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T10:38:32.348Z",
+        "lastSeenAt": "2026-06-13T10:38:52.910Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 74,
+        "eventCount": 9,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-aed3316f81a7c19ec0308901",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T08:54:26.842Z",
+        "lastSeenAt": "2026-06-13T08:54:57.856Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 74,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a0e31cc76ca90819ec03087cb",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T08:54:26.530Z",
+        "lastSeenAt": "2026-06-13T08:54:26.530Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3176d19176c18819ec0308433",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T08:54:25.613Z",
+        "lastSeenAt": "2026-06-13T08:54:25.613Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-83684b162e52b819ec0307dea",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T08:54:24.004Z",
+        "lastSeenAt": "2026-06-13T08:54:24.004Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8a4e0d8fdb3de19ec01ebc5e",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T08:35:00.346Z",
+        "lastSeenAt": "2026-06-13T08:54:21.030Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 510,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f05eac6443c37819ebfc4e3ca",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T06:56:52.224Z",
+        "lastSeenAt": "2026-06-13T08:35:00.249Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 65,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6f7127188b10519ebfc4bf05",
+        "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
+        "createdAt": "2026-06-13T06:56:42.785Z",
+        "lastSeenAt": "2026-06-13T06:56:52.052Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3daa0748a535219ebfae01c7",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-06-13T06:31:52.539Z",
+        "lastSeenAt": "2026-06-13T11:01:42.605Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "Direct",
+        "viewport": "1566x429",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2850,
+        "scrollDepth": 82,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.124.2 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-f31dd83d6f1bf819ebf7bf080",
         "visitorId": "6b16aebc-f344-4501-a362-1c3be9b28426",
@@ -7820,6 +8767,195 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-c5905ec9",
+        "sessionId": "sess-53ec1e6e7aee19ec0a5a7cb",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-06-13T11:02:26.996Z"
+      },
+      {
+        "id": "evt-1e2cb085",
+        "sessionId": "sess-53ec1e6e7aee19ec0a5a7cb",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-06-13T11:02:25.892Z"
+      },
+      {
+        "id": "evt-f44c2ad5",
+        "sessionId": "sess-53ec1e6e7aee19ec0a5a7cb",
+        "page": "home",
+        "type": "click",
+        "target": "button",
+        "text": "Decline",
+        "createdAt": "2026-06-13T11:02:25.148Z"
+      },
+      {
+        "id": "evt-1e1852fe",
+        "sessionId": "sess-dd8b2a85771cb19ec09d258b",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-06-13T10:54:11.671Z"
+      },
+      {
+        "id": "evt-981ca40a",
+        "sessionId": "sess-94747507cea72819ec092cf9a",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-06-13T10:53:00.386Z"
+      },
+      {
+        "id": "evt-edc845ff",
+        "sessionId": "sess-d8b117180d767819ec092a8fe",
+        "page": "contact-page.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-06-13T10:41:39.157Z"
+      },
+      {
+        "id": "evt-9debafea",
+        "sessionId": "sess-d8b117180d767819ec092a8fe",
+        "page": "contact-page.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-06-13T10:41:38.012Z"
+      },
+      {
+        "id": "evt-7a8e5f00",
+        "sessionId": "sess-8c64d3910867319ec092a292",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Contact",
+        "createdAt": "2026-06-13T10:41:37.493Z"
+      },
+      {
+        "id": "evt-21c064ff",
+        "sessionId": "sess-7edb7a4b2c03b19ec090351c",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-06-13T10:38:58.431Z"
+      },
+      {
+        "id": "evt-6ba16d57",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-06-13T10:38:52.910Z"
+      },
+      {
+        "id": "evt-7b9c67a4",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-06-13T10:38:51.376Z"
+      },
+      {
+        "id": "evt-e727f41d",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:49.894Z"
+      },
+      {
+        "id": "evt-34a3044a",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:49.663Z"
+      },
+      {
+        "id": "evt-39b1ef68",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:49.393Z"
+      },
+      {
+        "id": "evt-84281433",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:48.955Z"
+      },
+      {
+        "id": "evt-d07da41c",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:46.544Z"
+      },
+      {
+        "id": "evt-447ddabb",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-06-13T10:38:45.956Z"
+      },
+      {
+        "id": "evt-4485148d",
+        "sessionId": "sess-649e29822cea0819ec08fd540",
+        "page": "home",
+        "type": "click",
+        "target": "button",
+        "text": "Decline",
+        "createdAt": "2026-06-13T10:38:34.970Z"
+      },
+      {
+        "id": "evt-a3a5ce2d",
+        "sessionId": "sess-f05eac6443c37819ebfc4e3ca",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-06-13T08:35:00.249Z"
+      },
+      {
+        "id": "evt-9f1d9c36",
+        "sessionId": "sess-f05eac6443c37819ebfc4e3ca",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-06-13T08:34:58.610Z"
+      },
+      {
+        "id": "evt-d55da474",
+        "sessionId": "sess-6f7127188b10519ebfc4bf05",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-06-13T06:56:52.052Z"
+      },
       {
         "id": "evt-2051e7d8",
         "sessionId": "sess-9cbd8ebcf7e5119ebf7baada",
@@ -12130,144 +13266,321 @@
         "target": "a.nav-item",
         "text": "Work",
         "createdAt": "2026-05-09T04:40:33.581Z"
-      },
-      {
-        "id": "evt-8225c320",
-        "sessionId": "sess-b3075428b0ceb19e0b04d1df",
-        "page": "about.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Home",
-        "createdAt": "2026-05-09T04:40:32.801Z"
-      },
-      {
-        "id": "evt-907c6445",
-        "sessionId": "sess-b3075428b0ceb19e0b04d1df",
-        "page": "about.html",
-        "type": "click",
-        "target": "button.track-record-tab",
-        "text": "2023",
-        "createdAt": "2026-05-09T04:35:41.848Z"
-      },
-      {
-        "id": "evt-447d965c",
-        "sessionId": "sess-b3075428b0ceb19e0b04d1df",
-        "page": "about.html",
-        "type": "click",
-        "target": "button.track-record-tab",
-        "text": "2024",
-        "createdAt": "2026-05-09T04:35:40.995Z"
-      },
-      {
-        "id": "evt-706b6046",
-        "sessionId": "sess-ff17a7aac3dee819e0b04ccd9",
-        "page": "services.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "About",
-        "createdAt": "2026-05-09T04:35:25.800Z"
-      },
-      {
-        "id": "evt-dbfe322c",
-        "sessionId": "sess-40b2c9c610e2219e0b04c83e",
-        "page": "about.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Services",
-        "createdAt": "2026-05-09T04:35:24.511Z"
-      },
-      {
-        "id": "evt-91c7a983",
-        "sessionId": "sess-78e74ff81615d819e0b04b1fa",
-        "page": "services.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "About",
-        "createdAt": "2026-05-09T04:35:23.316Z"
-      },
-      {
-        "id": "evt-22565054",
-        "sessionId": "sess-b47c189fc4ba4819e0b04ad8b",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Services",
-        "createdAt": "2026-05-09T04:35:17.629Z"
-      },
-      {
-        "id": "evt-8fe4e128",
-        "sessionId": "sess-13f3fd0c557aa819e0b04a31e",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.logo-link",
-        "text": "",
-        "createdAt": "2026-05-09T04:35:16.408Z"
-      },
-      {
-        "id": "evt-1e27b09c",
-        "sessionId": "sess-ca596fa05a1f719e0b049f79",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-05-09T04:35:13.812Z"
-      },
-      {
-        "id": "evt-5676b439",
-        "sessionId": "sess-2f37fc83c1f41819e0b048c5c",
-        "page": "contact-page.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Home",
-        "createdAt": "2026-05-09T04:35:12.784Z"
-      },
-      {
-        "id": "evt-4d2977b5",
-        "sessionId": "sess-526376c9cd9d719e0b046280",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-05-09T04:34:58.775Z"
-      },
-      {
-        "id": "evt-a3f4e4ed",
-        "sessionId": "sess-526376c9cd9d719e0b046280",
-        "page": "home",
-        "type": "click",
-        "target": "button",
-        "text": "Decline",
-        "createdAt": "2026-05-09T04:34:57.821Z"
-      },
-      {
-        "id": "evt-3247fdb1",
-        "sessionId": "sess-52cefec5e13a819e0b04508c",
-        "page": "home",
-        "type": "click",
-        "target": "button",
-        "text": "Decline",
-        "createdAt": "2026-05-09T04:34:55.221Z"
-      },
-      {
-        "id": "evt-c140ac50",
-        "sessionId": "sess-bf4a5cbcd548f19e0b04414b",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.logo-link",
-        "text": "",
-        "createdAt": "2026-05-09T04:34:52.608Z"
-      },
-      {
-        "id": "evt-adaeec1e",
-        "sessionId": "sess-bf4a5cbcd548f19e0b04414b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button",
-        "text": "Decline",
-        "createdAt": "2026-05-09T04:34:50.971Z"
       }
     ],
     "replays": [
+      {
+        "id": "replay-202582a9",
+        "sessionId": "sess-dd8b2a85771cb19ec09d258b",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:53:25.432Z",
+        "updatedAt": "2026-06-13T10:53:25.432Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 20629,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-eef00584",
+            "index": 1,
+            "createdAt": "2026-06-13T10:53:25.432Z",
+            "durationMs": 20629,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 44482,
+            "file": "data/replays/sess-dd8b2a85771cb19ec09d258b__part-001.webm",
+            "url": "/data/replays/sess-dd8b2a85771cb19ec09d258b__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-3f90e0a8",
+        "sessionId": "sess-5abfced74e8c5819ec09d14ae",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:53:02.443Z",
+        "updatedAt": "2026-06-13T10:53:02.443Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1963,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-9fe1b22b",
+            "index": 1,
+            "createdAt": "2026-06-13T10:53:02.443Z",
+            "durationMs": 1963,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 3096,
+            "file": "data/replays/sess-5abfced74e8c5819ec09d14ae__part-001.webm",
+            "url": "/data/replays/sess-5abfced74e8c5819ec09d14ae__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-8f7ebc16",
+        "sessionId": "sess-94747507cea72819ec092cf9a",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:52.334Z",
+        "updatedAt": "2026-06-13T10:41:52.334Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 4904,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-8093aa56",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:52.334Z",
+            "durationMs": 4904,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 60656,
+            "file": "data/replays/sess-94747507cea72819ec092cf9a__part-001.webm",
+            "url": "/data/replays/sess-94747507cea72819ec092cf9a__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-fa1be4e7",
+        "sessionId": "sess-8ec73c3b35ea619ec092cc84",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:47.250Z",
+        "updatedAt": "2026-06-13T10:41:47.250Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 597,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-73a3ebf2",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:47.250Z",
+            "durationMs": 597,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 16897,
+            "file": "data/replays/sess-8ec73c3b35ea619ec092cc84__part-001.webm",
+            "url": "/data/replays/sess-8ec73c3b35ea619ec092cc84__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-c205c63e",
+        "sessionId": "sess-71eff4900d83f19ec092ca26",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:46.357Z",
+        "updatedAt": "2026-06-13T10:41:46.357Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 234,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-cfc597d3",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:46.357Z",
+            "durationMs": 234,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-71eff4900d83f19ec092ca26__part-001.webm",
+            "url": "/data/replays/sess-71eff4900d83f19ec092ca26__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-604a07cf",
+        "sessionId": "sess-4f514155b6802819ec092c826",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:45.833Z",
+        "updatedAt": "2026-06-13T10:41:45.833Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 278,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-7eb9c958",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:45.833Z",
+            "durationMs": 278,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-4f514155b6802819ec092c826__part-001.webm",
+            "url": "/data/replays/sess-4f514155b6802819ec092c826__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-28ff8137",
+        "sessionId": "sess-371c1e2639df719ec092c5db",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:45.354Z",
+        "updatedAt": "2026-06-13T10:41:45.354Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 398,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-3fd112a1",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:45.354Z",
+            "durationMs": 398,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-371c1e2639df719ec092c5db__part-001.webm",
+            "url": "/data/replays/sess-371c1e2639df719ec092c5db__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-b815837f",
+        "sessionId": "sess-ae5b16c65777d19ec092b645",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:41.344Z",
+        "updatedAt": "2026-06-13T10:41:41.344Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 389,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-a2db5e2f",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:41.344Z",
+            "durationMs": 389,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-ae5b16c65777d19ec092b645__part-001.webm",
+            "url": "/data/replays/sess-ae5b16c65777d19ec092b645__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-1ddc5d18",
+        "sessionId": "sess-a1edcb49affca19ec092af95",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:39.909Z",
+        "updatedAt": "2026-06-13T10:41:39.909Z",
+        "page": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 655,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-bd1329e1",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:39.909Z",
+            "durationMs": 655,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 17194,
+            "file": "data/replays/sess-a1edcb49affca19ec092af95__part-001.webm",
+            "url": "/data/replays/sess-a1edcb49affca19ec092af95__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-fa0b2827",
+        "sessionId": "sess-d8b117180d767819ec092a8fe",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:39.192Z",
+        "updatedAt": "2026-06-13T10:41:39.192Z",
+        "page": "contact-page.html",
+        "path": "/pages/main/contact-page.html",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1601,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-76bbcad5",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:39.192Z",
+            "durationMs": 1601,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 23835,
+            "file": "data/replays/sess-d8b117180d767819ec092a8fe__part-001.webm",
+            "url": "/data/replays/sess-d8b117180d767819ec092a8fe__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-ae0bc2b8",
+        "sessionId": "sess-8c64d3910867319ec092a292",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:37.787Z",
+        "updatedAt": "2026-06-13T10:41:37.787Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1563,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-06622756",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:37.787Z",
+            "durationMs": 1563,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-8c64d3910867319ec092a292__part-001.webm",
+            "url": "/data/replays/sess-8c64d3910867319ec092a292__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-09cdaafd",
+        "sessionId": "sess-c7aa0e296b6c2819ec0929e71",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-06-13T10:41:35.669Z",
+        "updatedAt": "2026-06-13T10:41:35.669Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 811,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-58f41365",
+            "index": 1,
+            "createdAt": "2026-06-13T10:41:35.669Z",
+            "durationMs": 811,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-c7aa0e296b6c2819ec0929e71__part-001.webm",
+            "url": "/data/replays/sess-c7aa0e296b6c2819ec0929e71__part-001.webm"
+          }
+        ]
+      },
       {
         "id": "replay-23a6e13c",
         "sessionId": "sess-81078af5dd7d619ebbb6ff15",
@@ -12428,6 +13741,330 @@
   },
   "activity": [
     {
+      "id": "act-7d6ae7c2",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T11:02:27.089Z"
+    },
+    {
+      "id": "act-f1b6bf02",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T11:02:22.429Z"
+    },
+    {
+      "id": "act-9de06934",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T11:01:56.779Z"
+    },
+    {
+      "id": "act-ac73d57e",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T11:01:33.919Z"
+    },
+    {
+      "id": "act-4dd769ca",
+      "type": "visitor",
+      "message": "Visitor opened blog-3.html",
+      "createdAt": "2026-06-13T10:58:20.263Z"
+    },
+    {
+      "id": "act-2c698121",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:58:15.350Z"
+    },
+    {
+      "id": "act-287f7334",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:58:04.904Z"
+    },
+    {
+      "id": "act-395c27d2",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-06-13T10:53:25.461Z"
+    },
+    {
+      "id": "act-3d71a65b",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:53:04.874Z"
+    },
+    {
+      "id": "act-81563a90",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:53:02.743Z"
+    },
+    {
+      "id": "act-6791088d",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-06-13T10:53:02.458Z"
+    },
+    {
+      "id": "act-654d6776",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:53:00.492Z"
+    },
+    {
+      "id": "act-b6ae4694",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:52.345Z"
+    },
+    {
+      "id": "act-493bd88f",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:47.444Z"
+    },
+    {
+      "id": "act-16ca8aba",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:47.270Z"
+    },
+    {
+      "id": "act-14cdc8c2",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:46.649Z"
+    },
+    {
+      "id": "act-2d101792",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:46.401Z"
+    },
+    {
+      "id": "act-d0c6b78d",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:46.044Z"
+    },
+    {
+      "id": "act-5d134c69",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:45.865Z"
+    },
+    {
+      "id": "act-006ce40d",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:45.532Z"
+    },
+    {
+      "id": "act-82af56f1",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:45.397Z"
+    },
+    {
+      "id": "act-ae0c2ebc",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:44.950Z"
+    },
+    {
+      "id": "act-22bb66f9",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:43.272Z"
+    },
+    {
+      "id": "act-ce38e8aa",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:42.778Z"
+    },
+    {
+      "id": "act-37b04deb",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:42.522Z"
+    },
+    {
+      "id": "act-39e9e9c3",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:42.255Z"
+    },
+    {
+      "id": "act-eef64e5e",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:41.933Z"
+    },
+    {
+      "id": "act-5e9de308",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:41.544Z"
+    },
+    {
+      "id": "act-e190bde1",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:41.371Z"
+    },
+    {
+      "id": "act-6b833a47",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:40.960Z"
+    },
+    {
+      "id": "act-de2469e4",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:40.097Z"
+    },
+    {
+      "id": "act-ab955827",
+      "type": "visitor",
+      "message": "Video replay captured for blogs.html",
+      "createdAt": "2026-06-13T10:41:39.928Z"
+    },
+    {
+      "id": "act-62ea0ed9",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:41:39.246Z"
+    },
+    {
+      "id": "act-ae6dfc12",
+      "type": "visitor",
+      "message": "Video replay captured for contact-page.html",
+      "createdAt": "2026-06-13T10:41:39.213Z"
+    },
+    {
+      "id": "act-f57f90de",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-06-13T10:41:37.807Z"
+    },
+    {
+      "id": "act-986a269d",
+      "type": "visitor",
+      "message": "Visitor opened contact-page.html",
+      "createdAt": "2026-06-13T10:41:37.566Z"
+    },
+    {
+      "id": "act-0bbd4bf6",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:41:35.983Z"
+    },
+    {
+      "id": "act-6de892c8",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-06-13T10:41:35.727Z"
+    },
+    {
+      "id": "act-e34dbc2d",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:41:34.888Z"
+    },
+    {
+      "id": "act-fa80808c",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:38:56.821Z"
+    },
+    {
+      "id": "act-e23041ce",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:38:56.417Z"
+    },
+    {
+      "id": "act-40fd5110",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:38:55.987Z"
+    },
+    {
+      "id": "act-35dfeae4",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:38:54.344Z"
+    },
+    {
+      "id": "act-c4136e16",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T10:38:52.984Z"
+    },
+    {
+      "id": "act-d1b9495f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T10:38:32.349Z"
+    },
+    {
+      "id": "act-d41c0fb7",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T08:54:26.843Z"
+    },
+    {
+      "id": "act-a12e416f",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T08:54:26.530Z"
+    },
+    {
+      "id": "act-5274ed7c",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T08:54:25.613Z"
+    },
+    {
+      "id": "act-909ad62f",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T08:54:24.004Z"
+    },
+    {
+      "id": "act-4836d69c",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T08:35:00.346Z"
+    },
+    {
+      "id": "act-fd71c371",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-13T06:56:52.224Z"
+    },
+    {
+      "id": "act-69c69117",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-06-13T06:56:42.785Z"
+    },
+    {
+      "id": "act-b3b522d1",
+      "type": "blog",
+      "message": "Blog post created: dfdf",
+      "createdAt": "2026-06-13T06:55:46.462Z"
+    },
+    {
+      "id": "act-35e60964",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-13T06:31:52.540Z"
+    },
+    {
       "id": "act-c5215d9a",
       "type": "visitor",
       "message": "Visitor opened blogs.html",
@@ -12462,503 +14099,102 @@
       "type": "visitor",
       "message": "Visitor opened blogs.html",
       "createdAt": "2026-06-13T05:36:43.610Z"
-    },
-    {
-      "id": "act-e4c938bb",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:36:41.906Z"
-    },
-    {
-      "id": "act-84153460",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:36:39.204Z"
-    },
-    {
-      "id": "act-93bf91b7",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:36:38.924Z"
-    },
-    {
-      "id": "act-b79b295f",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:36:33.054Z"
-    },
-    {
-      "id": "act-e1cee335",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:36:29.858Z"
-    },
-    {
-      "id": "act-ea730567",
-      "type": "page",
-      "message": "d page content updated",
-      "createdAt": "2026-06-13T05:36:26.810Z"
-    },
-    {
-      "id": "act-d8cd6674",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:35:48.153Z"
-    },
-    {
-      "id": "act-57b70aad",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:22:37.293Z"
-    },
-    {
-      "id": "act-85457868",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:20:45.970Z"
-    },
-    {
-      "id": "act-48d64758",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:20:45.762Z"
-    },
-    {
-      "id": "act-6168318e",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:20:45.495Z"
-    },
-    {
-      "id": "act-b53bc393",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:20:39.110Z"
-    },
-    {
-      "id": "act-0fc5bcb8",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:20:37.909Z"
-    },
-    {
-      "id": "act-1f9c56a5",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:20:30.130Z"
-    },
-    {
-      "id": "act-a05b43dd",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:20:29.389Z"
-    },
-    {
-      "id": "act-8f075ab4",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:20:26.712Z"
-    },
-    {
-      "id": "act-2cd4642d",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:20:26.151Z"
-    },
-    {
-      "id": "act-fe6bb9b0",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:20:25.053Z"
-    },
-    {
-      "id": "act-2d6f744a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:19:16.532Z"
-    },
-    {
-      "id": "act-e11c467e",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:19:15.432Z"
-    },
-    {
-      "id": "act-c4440677",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:19:15.233Z"
-    },
-    {
-      "id": "act-6eceaa0a",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:19:15.026Z"
-    },
-    {
-      "id": "act-b81a3ced",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:19:14.821Z"
-    },
-    {
-      "id": "act-ae020f25",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:19:09.585Z"
-    },
-    {
-      "id": "act-b0295d79",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:07:16.031Z"
-    },
-    {
-      "id": "act-7d204e76",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:07:07.613Z"
-    },
-    {
-      "id": "act-a7f287c9",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-06-13T05:07:05.942Z"
-    },
-    {
-      "id": "act-ffc16a6a",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-06-13T05:07:04.016Z"
-    },
-    {
-      "id": "act-e105ea00",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:07:01.100Z"
-    },
-    {
-      "id": "act-c35b10e1",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:06:59.351Z"
-    },
-    {
-      "id": "act-2fd4504a",
-      "type": "visitor",
-      "message": "Visitor opened dsfsdf.html",
-      "createdAt": "2026-06-13T05:06:46.286Z"
-    },
-    {
-      "id": "act-754a200b",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:06:43.636Z"
-    },
-    {
-      "id": "act-9c22d578",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:06:39.649Z"
-    },
-    {
-      "id": "act-2406a11d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:06:37.254Z"
-    },
-    {
-      "id": "act-0351da54",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:06:32.905Z"
-    },
-    {
-      "id": "act-e3701ec3",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:06:31.609Z"
-    },
-    {
-      "id": "act-1a4d7056",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:06:30.498Z"
-    },
-    {
-      "id": "act-f58706f5",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:06:16.007Z"
-    },
-    {
-      "id": "act-a66a77b4",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:06:11.420Z"
-    },
-    {
-      "id": "act-7aa287ad",
-      "type": "page",
-      "message": "dsfsdf page content updated",
-      "createdAt": "2026-06-13T05:06:08.450Z"
-    },
-    {
-      "id": "act-6b257ea0",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:05:41.760Z"
-    },
-    {
-      "id": "act-03fffa12",
-      "type": "blog",
-      "message": "Blog post created: sdfsfsdfsdf",
-      "createdAt": "2026-06-13T05:05:31.595Z"
-    },
-    {
-      "id": "act-116df4cb",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T05:04:17.429Z"
-    },
-    {
-      "id": "act-6c3d7e8b",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:04:14.553Z"
-    },
-    {
-      "id": "act-2d1f0840",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T05:03:51.711Z"
-    },
-    {
-      "id": "act-03e2ae3b",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:56:20.406Z"
-    },
-    {
-      "id": "act-9f934b86",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:56:19.773Z"
-    },
-    {
-      "id": "act-86e318b9",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:56:17.858Z"
-    },
-    {
-      "id": "act-54998ccd",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T04:56:12.989Z"
-    },
-    {
-      "id": "act-17514bd0",
-      "type": "page",
-      "message": "hello-im-new-blog page content updated",
-      "createdAt": "2026-06-13T04:56:07.539Z"
-    },
-    {
-      "id": "act-7639a55a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-13T04:47:03.750Z"
-    },
-    {
-      "id": "act-dcff8484",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:46:51.211Z"
-    },
-    {
-      "id": "act-c96598a9",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:46:50.812Z"
-    },
-    {
-      "id": "act-f7441403",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-06-13T04:46:50.318Z"
     }
   ],
   "blogs": [
     {
-      "id": "blog-35ea7e5b",
-      "title": "sdfsfsdfsdf",
-      "slug": "dsfsdf",
-      "articleSection": "sfsdffsf",
-      "metaTitle": "sfsf",
-      "metaDescription": "sdfsfsdf",
-      "image": "/assets/images/admin-content/1781327094660-rubik-1.jpg",
-      "imageAlt": "sdfsfsdfsdf featured image",
-      "dateValue": "2026-06-13",
-      "dateLabel": "Date: 13 Jun 26",
-      "excerpt": "sfsfsdfs",
-      "intro": "dfsf",
-      "author": "Webx Desisfgn Studio",
-      "tags": [
-        "dfsfsf"
-      ],
-      "keywords": [
-        "fsdfs"
-      ],
-      "status": "published",
-      "url": "/pages/blogs/dsfsdf.html",
-      "sections": [
-        {
-          "id": "blog-section-3f894db0",
-          "heading": "dfdf",
-          "details": "fsd",
-          "bullets": [
-            "dfsdf",
-            "f",
-            "dfdfsd"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "blog-28cbbb72",
-      "title": "hello im new blog",
-      "slug": "hello-im-new-blog",
-      "articleSection": "ux ui design",
-      "metaTitle": "h | Webx Design Studio",
-      "metaDescription": "fdf",
-      "image": "/assets/images/admin-content/1781325901626-rubik-1.jpg",
-      "imageAlt": "hello im new blog featured image",
-      "dateValue": "2026-06-13",
-      "dateLabel": "Date: 13 Jun 26",
-      "excerpt": "dfdfdfdfdfddfdfdfdddf",
-      "intro": "fdfdfdfddfddfdddfdfdfddfdffdfdfdfddfdddfdfdfdfd",
+      "id": "blog-how-to-design-a-high-converting-landing-page-in-2026-ux-cro-complete-guide-webx-design-studio",
+      "title": "How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio",
+      "slug": "blog-3",
+      "metaTitle": "How to Design a High-Converting Landing Page in 2026 (UX + CRO Complete Guide) | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.",
+      "image": "https://webxds.com/assets/images/blogs/blog-img-3.png",
+      "imageAlt": "High-Converting Landing Page UX Design Guide 2026 - Webx Design Studio",
+      "dateValue": "2026-02-18",
+      "dateLabel": "Date: 18 Feb 26",
+      "excerpt": "Learn the anatomy of a high-converting landing page in 2026: CTA strategy, trust signals, mobile UX, Core Web Vitals, CRO checklist, and actionable optimization tips.",
+      "intro": "",
       "author": "Webx Design Studio",
       "tags": [
-        "ux",
-        "uii",
-        "hello",
-        "im",
-        "tag"
+        "high converting landing page",
+        "landing page ux design",
+        "conversion rate optimization"
       ],
-      "keywords": [
-        "dfd",
-        "fdf",
-        "d fd",
-        "f",
-        "d"
-      ],
-      "status": "draft",
-      "url": "/pages/blogs/hello-im-new-blog.html",
-      "sections": [
-        {
-          "id": "blog-section-6092ae57",
-          "heading": "fdfdffdffd",
-          "details": "fdfdffdf",
-          "bullets": [
-            "fdfdfdfdfd",
-            "fdfdfdfdfdfdf"
-          ]
-        },
-        {
-          "id": "blog-section-880c497e",
-          "heading": "dfsfdfadf",
-          "details": "dfsdfsdfsadfsfsfsfsdfsfsdfsdfsdfsdfsfsdfdfdfd",
-          "bullets": [
-            "dfdfd",
-            "dfdf",
-            "dfd",
-            "dfdfdfdfdf"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "blog-3a08edc3",
-      "title": "sdds",
-      "slug": "ssd",
-      "articleSection": "",
-      "metaTitle": "s | Webx Ddesign Studio",
-      "metaDescription": "sd",
-      "image": "/assets/images/blogs/blog-img-1.png",
-      "imageAlt": "sdds featured image",
-      "dateValue": "2026-06-12",
-      "dateLabel": "Date: 12 Jun 26",
-      "excerpt": "sd",
-      "intro": "sds",
-      "author": "sWebx Dedssign Studio",
-      "tags": [
-        "sdsd",
-        "hfgh",
-        "hgf",
-        "gfgfgfdfdfdfd"
-      ],
-      "keywords": [
-        "ss",
-        "gfg"
-      ],
+      "keywords": [],
       "status": "published",
-      "url": "/pages/blogs/ssd.html",
-      "sections": [
-        {
-          "id": "blog-section-bf8803bc",
-          "heading": "sds",
-          "details": "sdsss",
-          "bullets": []
-        },
-        {
-          "id": "blog-section-e4a4efa6",
-          "heading": "sd",
-          "details": "sd",
-          "bullets": [
-            "ssd"
-          ]
-        },
-        {
-          "id": "blog-section-493a8d2b",
-          "heading": "",
-          "details": "s",
-          "bullets": [
-            "ds",
-            "dsd",
-            "s"
-          ]
-        }
-      ]
+      "url": "/pages/blogs/blog-3.html",
+      "sections": []
     },
     {
-      "id": "blog-a7cb4128",
-      "title": "hello world blog",
-      "slug": "d",
-      "metaTitle": "d | Webx Design Studio",
-      "metaDescription": "dfdfdfdfdf",
-      "image": "/assets/images/admin-content/1781240893981-grok-image-858657c8-9614-4e62-aa43-de8cc.jpg",
-      "imageAlt": "hello world blog featured image",
-      "dateValue": "2026-06-12",
-      "dateLabel": "Date: 12 Jun 26",
-      "excerpt": "dfdfdfdfdfdfd dfdfdff dfdfsdfd dsd dfdfdsdss df",
-      "intro": "dddgfgffgf",
+      "id": "blog-10-signs-it-s-time-to-redesign-your-website-in-2026-full-redesign-checklist-webx-design-studio",
+      "title": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
+      "slug": "blog-4",
+      "metaTitle": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.",
+      "image": "https://webxds.com/assets/images/blogs/blog-img-4.png",
+      "imageAlt": "10 Signs Website Redesign Needed in 2026 - Webx Design Studio",
+      "dateValue": "2026-02-18",
+      "dateLabel": "Date: 18 Feb 26",
+      "excerpt": "Discover 10 clear signs your website needs a redesign in 2026, with a practical checklist covering UX, SEO, performance, and conversion optimization.",
+      "intro": "",
       "author": "Webx Design Studio",
-      "tags": [],
+      "tags": [
+        "website redesign 2026",
+        "when to redesign website",
+        "website redesign checklist"
+      ],
+      "keywords": [],
       "status": "published",
-      "url": "/pages/blogs/d.html",
-      "sections": [
-        {
-          "id": "blog-section-6ffc71ab",
-          "heading": "gffgfg",
-          "details": "fgfgfgfgfgffgfg",
-          "bullets": [
-            "fgfgf",
-            "gffg",
-            "gf",
-            "fgfgff"
-          ]
-        }
-      ]
+      "url": "/pages/blogs/blog-4.html",
+      "sections": []
+    },
+    {
+      "id": "blog-apple-design-study-10-ux-lessons-you-can-apply-to-your-products-in-2026-webx-design-studio",
+      "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
+      "slug": "blog-apple",
+      "metaTitle": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn 10 practical UX lessons from Apple",
+      "image": "https://webxds.com/assets/images/blogs/blog-img-2.png",
+      "imageAlt": "Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio",
+      "dateValue": "2026-02-07",
+      "dateLabel": "Date: 07 Feb 26",
+      "excerpt": "Learn 10 practical UX lessons from Apple",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "apple design study",
+        "apple ux case study",
+        "ios design principles"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/blog-apple.html",
+      "sections": []
+    },
+    {
+      "id": "blog-ai-driven-personalization-the-ux-ui-design-trend-your-business-cannot-ignore-in-2026-webx-design-studio",
+      "title": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio",
+      "slug": "blog",
+      "metaTitle": "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026 | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.",
+      "image": "https://webxds.com/assets/images/blogs/blog-img-1.png",
+      "imageAlt": "AI-Driven Personalization in UX/UI Design 2026 - Webx Design Studio",
+      "dateValue": "2026-02-07",
+      "dateLabel": "Date: 07 Feb 26",
+      "excerpt": "Discover how AI-driven personalization in UX/UI design is reshaping digital experiences in 2026. Learn practical strategies, SEO impact, and how to get started with your UX/UI agency.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "AI personalization UX design",
+        "AI in UX UI design",
+        "personalized user experience 2026",
+        "UX UI design trends",
+        "AI driven design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/blog.html",
+      "sections": []
     }
   ]
 }

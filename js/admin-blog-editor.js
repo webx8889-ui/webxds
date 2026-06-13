@@ -29,8 +29,15 @@
     return localStorage.getItem("webx-admin-token") || "";
   }
 
+  function resolveApiUrl(url) {
+    if (typeof url !== "string") return url;
+    if (/^(https?:)?\/\//.test(url)) return url;
+    const basePath = typeof window !== "undefined" && typeof window.WEBX_BASE_PATH === "string" ? window.WEBX_BASE_PATH : "";
+    return url.startsWith("/") ? `${basePath}${url}` : url;
+  }
+
   async function api(url, options = {}) {
-    const response = await fetch(url, {
+    const response = await fetch(resolveApiUrl(url), {
       ...options,
       credentials: "same-origin",
       headers: {

@@ -256,8 +256,15 @@
     return true;
   }
 
+  function resolveApiUrl(url) {
+    if (typeof url !== "string") return url;
+    if (/^(https?:)?\/\//.test(url)) return url;
+    const basePath = typeof window !== "undefined" && typeof window.WEBX_BASE_PATH === "string" ? window.WEBX_BASE_PATH : "";
+    return url.startsWith("/") ? `${basePath}${url}` : url;
+  }
+
   function api(path, options = {}) {
-    return fetch(path, {
+    return fetch(resolveApiUrl(path), {
       method: options.method || "GET",
       credentials: "same-origin",
       headers: {

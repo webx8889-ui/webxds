@@ -1759,6 +1759,114 @@ function normalizeBlogPost(post, index = 0) {
   };
 }
 
+function extractMetaContent(html, metaKey) {
+  const regex = new RegExp(`<meta\\s+(?:property|name)=["']${metaKey}["'][^>]*content=["']([^"']*)["'][^>]*>`, "i");
+  const match = String(html || "").match(regex);
+  return match ? match[1].trim() : "";
+}
+
+function extractPublishedDateValue(html) {
+  let dateValue = extractMetaContent(html, "article:published_time");
+  if (dateValue) {
+    const parsed = new Date(dateValue.trim());
+    if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
+  }
+  const timeMatch = String(html || "").match(/<time[^>]*datetime=["']([^"']+)["'][^>]*>/i);
+  if (timeMatch) {
+    const parsed = new Date(timeMatch[1].trim());
+    if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
+  }
+  return "";
+}
+
+function extractBlogTags(html) {
+  const tags = [];
+  const tagRegex = /<meta\\s+(?:property|name)=["']article:tag["'][^>]*content=["']([^"']+)["'][^>]*>/gi;
+  let match;
+  while ((match = tagRegex.exec(String(html || "")))) {
+    const tag = sanitizeText(match[1], "").trim();
+    if (tag) tags.push(tag);
+  }
+  if (!tags.length) {
+    const keywordString = extractMetaContent(html, "keywords");
+    if (keywordString) {
+      tags.push(...keywordString.split(",").map(tag => sanitizeText(tag, "").trim()).filter(Boolean));
+    }
+  }
+  return tags;
+}
+
+function extractFirstParagraph(html) {
+  const match = String(html || "").match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+  if (!match) return "";
+  return sanitizeText(match[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(), "");
+}
+
+async function parseStaticBlogPage(urlPath) {
+  try {
+    const normalizedUrl = normalizeUrlPath(urlPath);
+    const html = await fsp.readFile(resolveProjectFilePath(normalizedUrl), "utf8");
+    const title = sanitizeText(extractTitle(html, path.posix.basename(normalizedUrl, ".html")));
+    const dateValue = extractPublishedDateValue(html) || nowIso().slice(0, 10);
+    const image = escapeUrl(extractMetaContent(html, "og:image"), "/assets/images/blogs/blog-img-1.png");
+    const imageAlt = sanitizeText(extractMetaContent(html, "og:image:alt"), `${title} featured image`);
+    const excerpt = sanitizeText(extractMetaContent(html, "description") || extractFirstParagraph(html), "");
+    return {
+      id: `blog-${slugify(title || path.posix.basename(normalizedUrl, ".html"))}`,
+      title,
+      slug: sanitizeText(path.posix.basename(normalizedUrl, ".html"), "blog-post"),
+      metaTitle: title ? `${title} | Webx Design Studio` : "Webx Design Studio Blog",
+      metaDescription: excerpt,
+      image,
+      imageAlt,
+      dateValue,
+      dateLabel: formatBlogDateLabel(dateValue),
+      excerpt,
+      intro: "",
+      author: "Webx Design Studio",
+      tags: extractBlogTags(html),
+      keywords: [],
+      status: "published",
+      url: normalizedUrl,
+      sections: []
+    };
+  } catch (error) {
+    return null;
+  }
+}
+
+async function collectPublishedStaticBlogs() {
+  const blogFolder = resolveProjectFilePath("/pages/blogs");
+  const entries = await fsp.readdir(blogFolder, { withFileTypes: true }).catch(() => []);
+  const posts = [];
+  for (const entry of entries) {
+    if (!entry.isFile() || !entry.name.endsWith(".html") || entry.name === "blogs.html") continue;
+    const post = await parseStaticBlogPage(`/pages/blogs/${entry.name}`);
+    if (post) posts.push(post);
+  }
+  return posts;
+}
+
+async function syncStoreBlogsWithFileSystem(store) {
+  const staticBlogs = await collectPublishedStaticBlogs();
+  store.blogs = staticBlogs;
+  const blogSection = (store.pages?.home?.sections || []).find(s => s.type === "blogs");
+  if (blogSection) {
+    blogSection.items = staticBlogs.map((blog, idx) => normalizeHomeItem("blogs", {
+      id: blog.id,
+      title: blog.title,
+      image: blog.image,
+      imageAlt: blog.imageAlt,
+      dateLabel: blog.dateLabel,
+      dateValue: blog.dateValue,
+      excerpt: blog.excerpt || blog.intro,
+      url: blog.url,
+      tags: blog.tags
+    }, idx));
+  }
+  return store;
+}
+
 function getHomeBlogSection(store) {
   ensureHomePageStructure(store);
   let section = (store.pages.home.sections || []).find(item => item.type === "blogs");
@@ -1790,7 +1898,7 @@ function syncBlogPostToHome(store, post) {
   section.items = [item, ...(section.items || []).filter(existing => existing.id !== item.id && existing.url !== item.url)];
 }
 
-function renderBlogArticlePage(post, store) {
+function renderBlogArticlePage(post, store, allPublishedBlogs = null) {
   const sectionMarkup = post.sections.map((section, index) => `
       <section class="blog-page-section" aria-labelledby="section-heading-${index + 1}">
         <h2 class="section-heading" id="section-heading-${index + 1}">${escapeHtml(section.heading)}</h2>
@@ -1800,9 +1908,11 @@ function renderBlogArticlePage(post, store) {
   const metaKeywords = post.keywords.length ? post.keywords.join(", ") : post.tags.join(", ");
   const tags = [...(post.articleSection ? [post.articleSection] : []), ...post.tags];
   const tagMarkup = tags.map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join("\n          ");
-  const recommendedPosts = (store.blogs || [])
-    .filter(item => item && item.status !== "draft" && item.url !== post.url)
-    .map((item, index) => normalizeBlogPost(item, index))
+  const recommendedPostsSource = Array.isArray(allPublishedBlogs)
+    ? allPublishedBlogs
+    : (store.blogs || []).map((item, index) => normalizeBlogPost(item, index));
+  const recommendedPosts = recommendedPostsSource
+    .filter(item => item && item.url !== post.url)
     .sort((a, b) => (b.dateValue || "").localeCompare(a.dateValue || ""))
     .slice(0, 3);
   const recommendedPostsHtml = recommendedPosts.length ? renderBlogSliderCards(recommendedPosts) : "";
@@ -2135,10 +2245,8 @@ async function updateAllBlogSliderPages(allPublishedBlogs) {
 }
 
 async function rebuildBlogIndexFiles(store) {
-  const allPublishedBlogs = (store.blogs || [])
-    .filter(b => b && b.status !== "draft")
-    .map((item, index) => normalizeBlogPost(item, index))
-    .sort((a, b) => (b.dateValue || "").localeCompare(a.dateValue || ""));
+  const allPublishedBlogs = await collectPublishedStaticBlogs();
+  allPublishedBlogs.sort((a, b) => (b.dateValue || "").localeCompare(a.dateValue || ""));
 
   const blogsIndexPath = resolveProjectFilePath("/pages/blogs/blogs.html");
   const blogsIndexHtml = await fsp.readFile(blogsIndexPath, "utf8").catch(() => "");
@@ -2194,7 +2302,8 @@ async function rebuildBlogIndexFiles(store) {
 async function writeBlogFiles(store, post) {
   const filePath = resolveProjectFilePath(post.url);
   await fsp.mkdir(path.dirname(filePath), { recursive: true });
-  await fsp.writeFile(filePath, renderBlogArticlePage(post, store), "utf8");
+  const allPublishedBlogs = await collectPublishedStaticBlogs();
+  await fsp.writeFile(filePath, renderBlogArticlePage(post, store, allPublishedBlogs), "utf8");
   await rebuildBlogIndexFiles(store);
 }
 
@@ -2980,7 +3089,8 @@ async function handleApi(req, res, url) {
     }
 
     if (pathname === "/api/admin/blogs" && req.method === "GET") {
-      const blogs = (store.blogs || []).map((item, index) => normalizeBlogPost(item, index));
+      const staticBlogs = await collectPublishedStaticBlogs();
+      const blogs = staticBlogs.map((item, index) => normalizeBlogPost(item, index));
       sendJson(res, 200, { blogs });
       return;
     }
@@ -2991,17 +3101,17 @@ async function handleApi(req, res, url) {
       let updatedPost = null;
       try {
         await withStore(async current => {
-          if (!Array.isArray(current.blogs)) current.blogs = [];
-          const existingIndex = current.blogs.findIndex(item => item.id === id);
-          if (existingIndex === -1) throw new Error("Blog not found");
-          const normalized = normalizeBlogPost(body, existingIndex);
-          normalized.id = current.blogs[existingIndex].id;
-          if (current.blogs.some((item, index) => index !== existingIndex && item.url === normalized.url)) {
+          const staticBlogs = await collectPublishedStaticBlogs();
+          const existingPost = staticBlogs.find(item => item.id === id);
+          if (!existingPost) throw new Error("Blog not found");
+          const normalized = normalizeBlogPost(body, 0);
+          normalized.id = existingPost.id;
+          if (staticBlogs.some(item => item.id !== id && item.url === normalized.url)) {
             throw new Error("A blog with this slug already exists");
           }
-          current.blogs[existingIndex] = normalized;
           syncBlogPostToHome(current, normalized);
           await writeBlogFiles(current, normalized);
+          await syncStoreBlogsWithFileSystem(current);
           addActivity(current, `Blog post updated: ${normalized.title}`, "blog");
           updatedPost = normalized;
         });
@@ -3017,16 +3127,16 @@ async function handleApi(req, res, url) {
       let savedPost = null;
       try {
         await withStore(async current => {
-          if (!Array.isArray(current.blogs)) current.blogs = [];
-          const post = normalizeBlogPost(body, current.blogs.length);
+          const staticBlogs = await collectPublishedStaticBlogs();
+          const post = normalizeBlogPost(body, staticBlogs.length);
           if (!post.title) throw new Error("Blog title is required");
           if (!post.intro && !post.sections.length) throw new Error("Add intro or at least one content section");
-          const existing = current.blogs.find(item => item.url === post.url || item.slug === post.slug);
+          const existing = staticBlogs.find(item => item.url === post.url || item.slug === post.slug);
           if (existing) throw new Error("A blog with this slug already exists");
           if (fs.existsSync(resolveProjectFilePath(post.url))) throw new Error("A blog file with this slug already exists");
-          current.blogs.unshift(post);
           if (post.status === "published") syncBlogPostToHome(current, post);
           await writeBlogFiles(current, post);
+          await syncStoreBlogsWithFileSystem(current);
           addActivity(current, `Blog post created: ${post.title}`, "blog");
           savedPost = post;
         });
@@ -3041,11 +3151,9 @@ async function handleApi(req, res, url) {
       const id = pathname.split("/").pop();
       try {
         await withStore(async current => {
-          if (!Array.isArray(current.blogs)) current.blogs = [];
-          const post = current.blogs.find(item => item.id === id);
+          const staticBlogs = await collectPublishedStaticBlogs();
+          const post = staticBlogs.find(item => item.id === id);
           if (!post) throw new Error("Blog not found");
-          // Remove from blogs array
-          current.blogs = current.blogs.filter(item => item.id !== id);
           // Remove from home blog section items
           const homeBlogSection = (current.pages?.home?.sections || []).find(s => s.type === "blogs");
           if (homeBlogSection && Array.isArray(homeBlogSection.items)) {
@@ -3061,7 +3169,8 @@ async function handleApi(req, res, url) {
             const blogFilePath = resolveProjectFilePath(post.url);
             await fsp.unlink(blogFilePath);
           } catch (e) { /* file may not exist */ }
-          // Rebuild index.html and blogs.html without the deleted blog
+          // Sync and rebuild
+          await syncStoreBlogsWithFileSystem(current);
           await rebuildBlogIndexFiles(current);
           addActivity(current, `Blog post deleted: ${post.title}`, "blog");
         });
@@ -3258,4 +3367,16 @@ function listenOn(port, maxRetries = 10) {
   });
 }
 
-listenOn(PORT);
+async function startServer() {
+  try {
+    const store = readStore();
+    await syncStoreBlogsWithFileSystem(store);
+    writeStore(store);
+    await rebuildBlogIndexFiles(store);
+  } catch (error) {
+    console.error("Blog initialization failed on startup:", error);
+  }
+  listenOn(PORT);
+}
+
+startServer();
