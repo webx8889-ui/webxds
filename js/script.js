@@ -2313,7 +2313,7 @@ document.addEventListener('DOMContentLoaded', function() {
             logos: '2 Logos',
             tools: '1 Tool',
             graphics: '350+ Graphics',
-            gif: '/gif/gif-2023.gif'
+            gif: '/gif/gif-2023.webp'
         },
         '2024': {
             website: '3+ Website',
@@ -2322,7 +2322,7 @@ document.addEventListener('DOMContentLoaded', function() {
             logos: '4 Logos',
             tools: '2 Tools',
             graphics: '700+ Graphics',
-            gif: '/gif/gif-2024.gif'
+            gif: '/gif/gif-2024.webp'
         },
         '2025': {
             website: '5+ Website',
@@ -2331,7 +2331,7 @@ document.addEventListener('DOMContentLoaded', function() {
             logos: '5 Logos',
             tools: '3 Tools',
             graphics: '1k+ Graphics',
-            gif: '/gif/gif-2025.gif'
+            gif: '/gif/gif-2025.webp'
         }
     };
 
@@ -3248,7 +3248,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="home-hero-content">
         <div class="home-hero-text animate-hero-text"><h1 class="home-hero-title"><span class="hero-line">${heroText}</span></h1></div>
         <div class="home-hero-mockup animate-mockup" id="heroMockup">
-          <img id="heroThumbnail" src="${attr(section.thumbnailImage, '/assets/images/hero/hero-mockup.jpg')}" alt="${attr(section.thumbnailAlt, 'Webx Design Studio - UI/UX design showreel thumbnail')}" width="800" height="600" loading="eager" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; transition: opacity 0.3s ease;" />
+          <img id="heroThumbnail" src="${attr(section.thumbnailImage, '/assets/images/hero/hero-mockup.webp')}" alt="${attr(section.thumbnailAlt, 'Webx Design Studio - UI/UX design showreel thumbnail')}" width="800" height="600" loading="eager" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; transition: opacity 0.3s ease;" />
           <video id="homeShowreelVideo" class="home-mockup-video" src="${attr(section.previewVideo, '/videos/logo-intro-wds.mp4')}" muted preload="metadata" playsinline loop aria-label="Webx Design Studio showreel preview" style="width: 100%; height: auto; position: relative; z-index: 0;">Your browser does not support the video tag.</video>
           <div class="home-circular-badge animate-badge" id="homeShowreelPlay">
             <svg viewBox="0 0 200 200" class="home-circular-text" aria-hidden="true">
@@ -3317,7 +3317,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const items = (section.items || []).map(function(item) {
                 return `
             <div class="work-card">
-              <div class="work-image"><a href="${attr(item.url, '#')}" class="work-image-link" aria-label="View ${attr(item.title, 'project')} case study"><img src="${attr(item.image, '/assets/images/others/work.png')}" alt="${attr(item.imageAlt, item.title || 'Project')}" width="600" height="400" loading="lazy" /></a></div>
+              <div class="work-image"><a href="${attr(item.url, '#')}" class="work-image-link" aria-label="View ${attr(item.title, 'project')} case study"><img src="${attr(item.image, '/assets/images/others/work.webp')}" alt="${attr(item.imageAlt, item.title || 'Project')}" width="600" height="400" loading="lazy" /></a></div>
               <div class="work-content"><h3 class="blog-card-title">${esc(item.title)}</h3><p class="work-excerpt">${esc(item.description)}</p><a href="${attr(item.url, '#')}" class="blog-read-more" aria-label="Visit ${attr(item.title, 'project')} case study"><span>VISIT</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></a></div>
             </div>`;
             }).join('');
@@ -3352,7 +3352,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return `
             <div class="impact-slide${index === 0 ? ' active' : ''}" role="listitem">
               <div class="impact-quote-block"><img src="/assets/images/icons/quote-icon.svg" alt="" class="quote-icon" aria-hidden="true" width="32" height="32" loading="lazy" /><p class="quote-text">"${esc(item.quote)}"</p></div>
-              <div class="impact-footer"><div class="author-card"><img src="${attr(item.authorImage, '/assets/images/blogs/auther-imag-ab.png')}" alt="${attr(item.authorImageAlt, item.authorName || 'Client')}" class="author-photo" width="56" height="56" loading="lazy" /><div class="author-info"><div class="author-name">${esc(item.authorName)}</div><div class="author-title">${esc(item.authorTitle)}</div></div></div><div class="brand-logo"><img src="${attr(item.brandLogo, '/assets/images/logos/webx-logo.svg')}" alt="${attr(item.brandLogoAlt, 'Brand logo')}" width="100" height="50" loading="lazy" /></div></div>
+              <div class="impact-footer"><div class="author-card"><img src="${attr(item.authorImage, '/assets/images/blogs/auther-imag-ab.webp')}" alt="${attr(item.authorImageAlt, item.authorName || 'Client')}" class="author-photo" width="56" height="56" loading="lazy" /><div class="author-info"><div class="author-name">${esc(item.authorName)}</div><div class="author-title">${esc(item.authorTitle)}</div></div></div><div class="brand-logo"><img src="${attr(item.brandLogo, '/assets/images/logos/webx-logo.svg')}" alt="${attr(item.brandLogoAlt, 'Brand logo')}" width="100" height="50" loading="lazy" /></div></div>
             </div>`;
             }).join('');
             return `
@@ -3370,7 +3370,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const tags = (item.tags || []).map(function(tag) { return `<span class="blog-tag">${esc(tag)}</span>`; }).join('');
                 return `
             <div class="blog-card">
-              <div class="blog-image"><img src="${attr(item.image, '/assets/images/others/home.png')}" alt="${attr(item.imageAlt, item.title || 'Blog')}" width="400" height="240" loading="lazy" /></div>
+              <div class="blog-image"><img src="${attr(item.image, '/assets/images/others/home.webp')}" alt="${attr(item.imageAlt, item.title || 'Blog')}" width="400" height="240" loading="lazy" /></div>
               <div class="blog-content"><h3 class="blog-card-title">${esc(item.title)}</h3><div class="blog-meta"><div class="blog-tags">${tags}</div><span class="blog-date"><time datetime="${attr(item.dateValue, '')}">${esc(item.dateLabel)}</time></span></div><p class="blog-excerpt">${esc(item.excerpt)}</p><a href="${attr(item.url, '#')}" class="blog-read-more" aria-label="Read more about ${attr(item.title, 'blog')}"><span>READ MORE</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></a></div>
             </div>`;
             }).join('');

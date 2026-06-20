@@ -214,7 +214,7 @@
         <span class="badge ${post.status === "draft" ? "badge-gray" : "badge-green"}">${esc(post.status || "published")}</span>
       </div>
       <div class="blog-preview-card">
-        <img src="${esc(post.image || "/assets/images/blogs/blog-img-1.png")}" alt="${esc(post.imageAlt)}" />
+        <img src="${esc(post.image || "/assets/images/blogs/blog-img-1.webp")}" alt="${esc(post.imageAlt)}" />
         <div class="blog-preview-body">
           <div class="blog-preview-title">${esc(post.title || "New blog title")}</div>
           <div class="blog-editor-muted">${esc(post.dateValue)} | ${esc(post.author)}</div>
@@ -265,7 +265,7 @@
                 <div class="blog-editor-field blog-editor-full">
                   <div class="editor-label">Featured Image</div>
                   <div class="blog-editor-upload" id="blogImageDrop">
-                    <img id="blogImagePreview" src="/assets/images/blogs/blog-img-1.png" alt="" />
+                    <img id="blogImagePreview" src="/assets/images/blogs/blog-img-1.webp" alt="" />
                     <div class="blog-editor-muted">Click or drop an image here. PNG, JPG, WEBP, GIF supported.</div>
                     <input type="file" accept="image/*" id="blogImageInput" hidden />
                   </div>
@@ -308,7 +308,7 @@
   function createBlogListItem(post) {
     const tags = (post.tags || []).slice(0, 3);
     return `<div class="blog-list-item" data-blog-id="${esc(post.id)}">
-      <div class="blog-thumb"><img src="${esc(post.image || '/assets/images/blogs/blog-img-1.png')}" alt="${esc(post.title)}" /></div>
+      <div class="blog-thumb"><img src="${esc(post.image || '/assets/images/blogs/blog-img-1.webp')}" alt="${esc(post.title)}" /></div>
       <div class="blog-list-content">
         <div class="blog-title-text">${esc(post.title)}</div>
         <div class="blog-meta-text">${esc(post.status)} • ${esc(post.dateLabel || post.dateValue)} • ${esc(tags.join(', '))}</div>
@@ -395,7 +395,7 @@
     setFormValue("status", post.status || "published");
     setFormValue("articleSection", post.articleSection || "");
     const preview = document.getElementById("blogImagePreview");
-    if (preview) preview.src = post.image || "/assets/images/blogs/blog-img-1.png";
+    if (preview) preview.src = post.image || "/assets/images/blogs/blog-img-1.webp";
     renderSections();
     renderPreview();
     const saveButton = document.getElementById("blogPublishBtn");

@@ -169,7 +169,7 @@ This folder contains website media/design resources:
 Important:
 
 - `assets/images/icons/` includes favicon/app icons
-- `assets/images/others/webx-og-image.png` is used for social sharing preview
+- `assets/images/others/webx-og-image.webp` is used for social sharing preview
 
 ---
 

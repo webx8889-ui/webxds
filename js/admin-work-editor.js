@@ -1,12 +1,12 @@
 (function () {
   const FALLBACK_PROJECTS = [
-    { slug: "morphico-pdp", path: "/pages/details/morphico-pdp.html", cardTitle: "Morphico Wallpapers & Murals", category: "Interior Brand / E-commerce", summary: "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.", thumbnailImage: "/assets/images/work-card-mockup/morphico-mockup.png", thumbnailAlt: "Morphico Wallpapers and Murals project mockup" },
-    { slug: "ab-pdp", path: "/pages/details/ab-pdp.html", cardTitle: "Arogya Bharat", category: "Healthcare / UI System", summary: "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.", thumbnailImage: "/assets/images/work-card-mockup/ab-mockup.png", thumbnailAlt: "Arogya Bharat project mockup" },
-    { slug: "tictax-pdp", path: "/pages/details/tictax-pdp.html", cardTitle: "Tictax", category: "Fintech / Tax Platform", summary: "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.", thumbnailImage: "/assets/images/work-card-mockup/tictax-mockup.png", thumbnailAlt: "Tictax project mockup" },
-    { slug: "de-pdp", path: "/pages/details/de-pdp.html", cardTitle: "Dharmesh Enterprise", category: "Business / Inventory App", summary: "Developed a responsive management experience that simplified inventory and billing workflows.", thumbnailImage: "/assets/images/work-card-mockup/de-mockup.png", thumbnailAlt: "Dharmesh Enterprise project mockup" },
-    { slug: "mecon-pdp", path: "/pages/details/mecon-pdp.html", cardTitle: "Mecon", category: "Industrial / Brand Identity", summary: "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.", thumbnailImage: "/assets/images/work-card-mockup/mecon-logo.png", thumbnailAlt: "Mecon project identity" },
-    { slug: "gurukrupa-pdp", path: "/pages/details/gurukrupa-pdp.html", cardTitle: "Gurukrupa", category: "Industrial / Brand", summary: "Forged a precision-led brand framework that unified a diverse industrial catalog.", thumbnailImage: "/assets/images/work-card-mockup/gurukrupa-mockup.png", thumbnailAlt: "Gurukrupa project mockup" },
-    { slug: "manglam-pdp", path: "/pages/details/manglam-pdp.html", cardTitle: "Manglam", category: "Finance / Consultancy", summary: "Modernized financial consultancy through a strategic identity built for stability and growth.", thumbnailImage: "/assets/images/work-card-mockup/mangalam-mockup.png", thumbnailAlt: "Manglam project mockup" }
+    { slug: "morphico-pdp", path: "/pages/details/morphico-pdp.html", cardTitle: "Morphico Wallpapers & Murals", category: "Interior Brand / E-commerce", summary: "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.", thumbnailImage: "/assets/images/work-card-mockup/morphico-mockup.webp", thumbnailAlt: "Morphico Wallpapers and Murals project mockup" },
+    { slug: "ab-pdp", path: "/pages/details/ab-pdp.html", cardTitle: "Arogya Bharat", category: "Healthcare / UI System", summary: "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.", thumbnailImage: "/assets/images/work-card-mockup/ab-mockup.webp", thumbnailAlt: "Arogya Bharat project mockup" },
+    { slug: "tictax-pdp", path: "/pages/details/tictax-pdp.html", cardTitle: "Tictax", category: "Fintech / Tax Platform", summary: "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.", thumbnailImage: "/assets/images/work-card-mockup/tictax-mockup.webp", thumbnailAlt: "Tictax project mockup" },
+    { slug: "de-pdp", path: "/pages/details/de-pdp.html", cardTitle: "Dharmesh Enterprise", category: "Business / Inventory App", summary: "Developed a responsive management experience that simplified inventory and billing workflows.", thumbnailImage: "/assets/images/work-card-mockup/de-mockup.webp", thumbnailAlt: "Dharmesh Enterprise project mockup" },
+    { slug: "mecon-pdp", path: "/pages/details/mecon-pdp.html", cardTitle: "Mecon", category: "Industrial / Brand Identity", summary: "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.", thumbnailImage: "/assets/images/work-card-mockup/mecon-logo.webp", thumbnailAlt: "Mecon project identity" },
+    { slug: "gurukrupa-pdp", path: "/pages/details/gurukrupa-pdp.html", cardTitle: "Gurukrupa", category: "Industrial / Brand", summary: "Forged a precision-led brand framework that unified a diverse industrial catalog.", thumbnailImage: "/assets/images/work-card-mockup/gurukrupa-mockup.webp", thumbnailAlt: "Gurukrupa project mockup" },
+    { slug: "manglam-pdp", path: "/pages/details/manglam-pdp.html", cardTitle: "Manglam", category: "Finance / Consultancy", summary: "Modernized financial consultancy through a strategic identity built for stability and growth.", thumbnailImage: "/assets/images/work-card-mockup/mangalam-mockup.webp", thumbnailAlt: "Manglam project mockup" }
   ];
 
   const state = {
@@ -56,7 +56,7 @@
         enabled: true,
         title,
         subtitle: "Describe the product, transformation, and business outcome for this project.",
-        heroImage: "/assets/images/others/work.png",
+        heroImage: "/assets/images/others/work.webp",
         heroImageAlt: `${title} hero image`
       },
       about: {
@@ -87,9 +87,9 @@
         enabled: true,
         beforeLabel: "UX",
         afterLabel: "UI",
-        beforeImage: "/assets/images/others/work.png",
+        beforeImage: "/assets/images/others/work.webp",
         beforeImageAlt: `${title} before image`,
-        afterImage: "/assets/images/others/work.png",
+        afterImage: "/assets/images/others/work.webp",
         afterImageAlt: `${title} after image`,
         background: "#1f1f1f"
       },
@@ -99,8 +99,8 @@
         label: "Visual Identity",
         title: "Build a consistent visual language for the brand",
         items: [
-          { id: createLocalId("work-vi"), image: "/assets/images/others/work.png", alt: `${title} visual identity`, title: "Colour Style", description: "Add description here." },
-          { id: createLocalId("work-vi"), image: "/assets/images/others/work.png", alt: `${title} visual identity`, title: "Typography", description: "Add description here." }
+          { id: createLocalId("work-vi"), image: "/assets/images/others/work.webp", alt: `${title} visual identity`, title: "Colour Style", description: "Add description here." },
+          { id: createLocalId("work-vi"), image: "/assets/images/others/work.webp", alt: `${title} visual identity`, title: "Typography", description: "Add description here." }
         ]
       },
       "design-system": {
@@ -108,7 +108,7 @@
         enabled: true,
         label: "Design System",
         title: "Document the interface system and components",
-        image: "/assets/images/others/work.png",
+        image: "/assets/images/others/work.webp",
         imageAlt: `${title} design system`
       },
       "web-ui": {
@@ -117,7 +117,7 @@
         label: "Web UI",
         title: "Showcase the web experience",
         items: [
-          { id: createLocalId("work-webui"), image: "/assets/images/others/work.png", alt: `${title} web ui` }
+          { id: createLocalId("work-webui"), image: "/assets/images/others/work.webp", alt: `${title} web ui` }
         ]
       },
       "mobile-ui": {
@@ -126,7 +126,7 @@
         label: "Mobile UI",
         title: "Showcase the mobile experience",
         items: [
-          { id: createLocalId("work-mobileui"), image: "/assets/images/others/work.png", alt: `${title} mobile ui` }
+          { id: createLocalId("work-mobileui"), image: "/assets/images/others/work.webp", alt: `${title} mobile ui` }
         ]
       },
       impact: {
@@ -137,9 +137,9 @@
         quote: "Add testimonial or project impact statement here.",
         author: "Client Name",
         role: "Role / Company",
-        authorImage: "/assets/images/others/work.png",
+        authorImage: "/assets/images/others/work.webp",
         authorImageAlt: `${title} author`,
-        brandLogo: "/assets/images/others/work.png",
+        brandLogo: "/assets/images/others/work.webp",
         brandLogoAlt: `${title} logo`
       },
       stats: {
@@ -157,7 +157,7 @@
         enabled: true,
         title: "Project Gallery",
         items: [
-          { id: createLocalId("work-gallery"), image: "/assets/images/others/work.png", alt: `${title} gallery image`, caption: "Add caption" }
+          { id: createLocalId("work-gallery"), image: "/assets/images/others/work.webp", alt: `${title} gallery image`, caption: "Add caption" }
         ]
       },
       cta: {
@@ -389,7 +389,7 @@
       cardTitle: title,
       category: project.category || "Case Study",
       summary: project.summary || "",
-      thumbnailImage: project.thumbnailImage || "/assets/images/others/work.png",
+      thumbnailImage: project.thumbnailImage || "/assets/images/others/work.webp",
       thumbnailAlt: project.thumbnailAlt || title,
       metaTitle: project.metaTitle || `${title} | Webx Design Studio`,
       metaDescription: project.metaDescription || project.summary || "",
@@ -625,7 +625,7 @@
                 <div class="editor-label">${esc(field.label)}</div>
                 <div class="work-cms-image-editor">
                   <div class="work-cms-upload js-work-raw-upload" data-section-id="${esc(section.id)}" data-field-type="imageSrc" data-field-index="${field.index}">
-                    <img src="${esc(field.preview || "/assets/images/others/work.png")}" alt="${esc(field.alt || "Project image")}" />
+                    <img src="${esc(field.preview || "/assets/images/others/work.webp")}" alt="${esc(field.alt || "Project image")}" />
                     <div class="work-cms-muted">Click to replace this image.</div>
                     <input type="file" accept="image/*" class="js-work-raw-image-input" data-section-id="${esc(section.id)}" data-field-type="imageSrc" data-field-index="${field.index}" hidden />
                   </div>
@@ -669,7 +669,7 @@
         <div class="editor-label">${esc(label)}</div>
         <div class="work-cms-image-editor">
           <div class="work-cms-upload js-work-builder-upload" data-section-id="${esc(sectionId)}" data-field="${esc(field)}">
-            <img src="${esc(value || "/assets/images/others/work.png")}" alt="${esc(altValue || label)}" />
+            <img src="${esc(value || "/assets/images/others/work.webp")}" alt="${esc(altValue || label)}" />
             <div class="work-cms-muted">Click to upload or replace this image.</div>
             <input type="file" accept="image/*" class="js-work-builder-image-input" data-section-id="${esc(sectionId)}" data-field="${esc(field)}" hidden />
           </div>
@@ -754,7 +754,7 @@
               <div class="work-cms-builder-card">
                 <div class="work-cms-image-editor">
                   <div class="work-cms-upload js-work-builder-item-upload" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image">
-                    <img src="${esc(item.image || "/assets/images/others/work.png")}" alt="${esc(item.alt || "Identity image")}" />
+                    <img src="${esc(item.image || "/assets/images/others/work.webp")}" alt="${esc(item.alt || "Identity image")}" />
                     <div class="work-cms-muted">Click to replace identity image.</div>
                     <input type="file" accept="image/*" class="js-work-builder-item-image-input" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image" hidden />
                   </div>
@@ -783,7 +783,7 @@
               </div>
               <div class="work-cms-image-editor">
                 <div class="work-cms-upload js-work-builder-item-upload" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image">
-                  <img src="${esc(item.image || "/assets/images/others/work.png")}" alt="${esc(item.alt || "UI image")}" />
+                  <img src="${esc(item.image || "/assets/images/others/work.webp")}" alt="${esc(item.alt || "UI image")}" />
                   <div class="work-cms-muted">Click to replace UI image.</div>
                   <input type="file" accept="image/*" class="js-work-builder-item-image-input" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image" hidden />
                 </div>
@@ -809,7 +809,7 @@
             <div class="work-cms-builder-card">
               <div class="work-cms-image-editor">
                 <div class="work-cms-upload js-work-builder-item-upload" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image">
-                  <img src="${esc(item.image || "/assets/images/others/work.png")}" alt="${esc(item.alt || "Gallery image")}" />
+                  <img src="${esc(item.image || "/assets/images/others/work.webp")}" alt="${esc(item.alt || "Gallery image")}" />
                   <div class="work-cms-muted">Click to replace gallery image.</div>
                   <input type="file" accept="image/*" class="js-work-builder-item-image-input" data-section-id="${esc(section.id)}" data-list-key="${esc(listKey)}" data-item-id="${esc(item.id)}" data-field="image" hidden />
                 </div>
@@ -1044,7 +1044,7 @@
                   <div class="editor-label">Thumbnail Image</div>
                   <div class="work-cms-grid">
                     <div class="work-cms-upload js-work-thumb-drop">
-                      <img src="${esc(project.thumbnailImage || "/assets/images/others/work.png")}" alt="${esc(project.thumbnailAlt || project.cardTitle)}" />
+                      <img src="${esc(project.thumbnailImage || "/assets/images/others/work.webp")}" alt="${esc(project.thumbnailAlt || project.cardTitle)}" />
                       <div class="work-cms-muted">Click to upload a new thumbnail image.</div>
                       <input type="file" accept="image/*" id="workThumbInput" hidden />
                     </div>
@@ -1163,7 +1163,7 @@
       cardTitle,
       category: "Case Study",
       summary: "Add project summary",
-      thumbnailImage: "/assets/images/others/work.png",
+      thumbnailImage: "/assets/images/others/work.webp",
       thumbnailAlt: "New project thumbnail",
       metaTitle: `${cardTitle} | Webx Design Studio`,
       metaDescription: "Add project meta description",
@@ -1341,11 +1341,11 @@
       } else if (builderItemAdd.dataset.itemType === "solution") {
         section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-solution"), title: "New solution", description: "Add description here." });
       } else if (builderItemAdd.dataset.itemType === "visual-identity") {
-        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-vi"), image: "/assets/images/others/work.png", alt: `${project.cardTitle} visual identity`, title: "New card", description: "Add description here." });
+        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-vi"), image: "/assets/images/others/work.webp", alt: `${project.cardTitle} visual identity`, title: "New card", description: "Add description here." });
       } else if (builderItemAdd.dataset.itemType === "ui-gallery") {
-        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-ui"), image: "/assets/images/others/work.png", alt: `${project.cardTitle} ui image` });
+        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-ui"), image: "/assets/images/others/work.webp", alt: `${project.cardTitle} ui image` });
       } else {
-        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-gallery"), image: "/assets/images/others/work.png", alt: `${project.cardTitle} gallery image`, caption: "Add caption" });
+        section[builderItemAdd.dataset.listKey].push({ id: createLocalId("work-gallery"), image: "/assets/images/others/work.webp", alt: `${project.cardTitle} gallery image`, caption: "Add caption" });
       }
       state.selectedBuilderSectionId = section.id;
       render();

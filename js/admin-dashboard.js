@@ -854,7 +854,7 @@
   const HOME_SECTION_LIBRARY = {
     hero: {
       label: "Hero",
-      create: () => ({ id: `home-hero-${Date.now()}`, type: "hero", enabled: true, title: "DESIGN THAT MOVES PEOPLE", subtitle: "A UI/UX Design Studio Creating Thoughtful Digital Experiences for Brands and Products", backgroundVideo: "/videos/home-background.mp4", previewVideo: "/videos/logo-intro-wds.mp4", thumbnailImage: "/assets/images/hero/hero-mockup.jpg", thumbnailAlt: "Hero thumbnail", badgeText: "SHOWREEL - SHOWREEL - SHOWREEL -" })
+      create: () => ({ id: `home-hero-${Date.now()}`, type: "hero", enabled: true, title: "DESIGN THAT MOVES PEOPLE", subtitle: "A UI/UX Design Studio Creating Thoughtful Digital Experiences for Brands and Products", backgroundVideo: "/videos/home-background.mp4", previewVideo: "/videos/logo-intro-wds.mp4", thumbnailImage: "/assets/images/hero/hero-mockup.webp", thumbnailAlt: "Hero thumbnail", badgeText: "SHOWREEL - SHOWREEL - SHOWREEL -" })
     },
     stats: {
       label: "Stats",
@@ -866,7 +866,7 @@
     },
     work: {
       label: "Work",
-      create: () => ({ id: `home-work-${Date.now()}`, type: "work", enabled: true, label: "Work", title: "Creative Projects That Define Us", ctaText: "VIEW ALL", ctaUrl: "/pages/main/work.html", items: [{ id: `work-${Date.now()}`, title: "New project", description: "Project description", image: "/assets/images/others/work.png", imageAlt: "Project image", url: "/pages/main/work.html" }] })
+      create: () => ({ id: `home-work-${Date.now()}`, type: "work", enabled: true, label: "Work", title: "Creative Projects That Define Us", ctaText: "VIEW ALL", ctaUrl: "/pages/main/work.html", items: [{ id: `work-${Date.now()}`, title: "New project", description: "Project description", image: "/assets/images/others/work.webp", imageAlt: "Project image", url: "/pages/main/work.html" }] })
     },
     clients: {
       label: "Clients",
@@ -874,11 +874,11 @@
     },
     testimonials: {
       label: "Testimonials",
-      create: () => ({ id: `home-testimonials-${Date.now()}`, type: "testimonials", enabled: true, label: "The Impact", title: "From vision to real results, a team that delivers consistently", items: [{ id: `testimonial-${Date.now()}`, quote: "Client quote", authorName: "Client name", authorTitle: "Founder", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Client image", brandLogo: "/assets/images/logos/webx-logo.svg", brandLogoAlt: "Brand logo" }] })
+      create: () => ({ id: `home-testimonials-${Date.now()}`, type: "testimonials", enabled: true, label: "The Impact", title: "From vision to real results, a team that delivers consistently", items: [{ id: `testimonial-${Date.now()}`, quote: "Client quote", authorName: "Client name", authorTitle: "Founder", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Client image", brandLogo: "/assets/images/logos/webx-logo.svg", brandLogoAlt: "Brand logo" }] })
     },
     blogs: {
       label: "Blogs",
-      create: () => ({ id: `home-blogs-${Date.now()}`, type: "blogs", enabled: true, label: "Today's Blogs", title: "Check out our blog for the latest tips, tricks, and happenings in business and design.", items: [{ id: `blog-${Date.now()}`, title: "New blog", image: "/assets/images/others/home.png", imageAlt: "Blog image", dateLabel: "Date: 30 Mar 26", dateValue: "2026-03-30", excerpt: "Blog excerpt", url: "/pages/blogs/blogs.html", tags: ["tag one", "tag two"] }] })
+      create: () => ({ id: `home-blogs-${Date.now()}`, type: "blogs", enabled: true, label: "Today's Blogs", title: "Check out our blog for the latest tips, tricks, and happenings in business and design.", items: [{ id: `blog-${Date.now()}`, title: "New blog", image: "/assets/images/others/home.webp", imageAlt: "Blog image", dateLabel: "Date: 30 Mar 26", dateValue: "2026-03-30", excerpt: "Blog excerpt", url: "/pages/blogs/blogs.html", tags: ["tag one", "tag two"] }] })
     },
     faq: {
       label: "FAQ",
@@ -1113,7 +1113,7 @@
           <div class="editor-label">${formatFieldLabel(field)}</div>
           <div class="home-cms-upload-grid">
             <div class="home-cms-upload js-home-image-drop" data-section-id="${escapeHtml(sectionId)}" ${itemId ? `data-item-id="${escapeHtml(itemId)}"` : ""} data-field="${escapeHtml(field)}">
-              <img class="home-cms-upload-preview" src="${escapeHtml(value || "/assets/images/others/home.png")}" alt="${escapeHtml(formatFieldLabel(field))}" />
+              <img class="home-cms-upload-preview" src="${escapeHtml(value || "/assets/images/others/home.webp")}" alt="${escapeHtml(formatFieldLabel(field))}" />
               <div class="home-cms-upload-title">Upload Image</div>
               <div class="home-cms-upload-copy">Click to upload or drop a new image here.</div>
               <div class="home-cms-upload-note">PNG, JPG, WEBP, GIF supported</div>
@@ -1383,7 +1383,7 @@
     return `
           <article class="blog-card" data-blog-id="${blogId}">
             <div class="blog-image">
-              <img src="${escapeAttr(post.image || '/assets/images/blogs/blog-img-1.png')}" alt="${escapeAttr(post.imageAlt || post.title || '')}" width="400" height="240" loading="lazy" />
+              <img src="${escapeAttr(post.image || '/assets/images/blogs/blog-img-1.webp')}" alt="${escapeAttr(post.imageAlt || post.title || '')}" width="400" height="240" loading="lazy" />
             </div>
             <div class="blog-content">
               <h2 class="blog-card-title">${escapeHtml(post.title || 'Untitled')}</h2>
@@ -1581,7 +1581,7 @@
           <div class="editor-label">${escapeHtml(field.label)}</div>
           <div class="home-cms-upload-grid">
             <div class="home-cms-upload js-generic-image-drop" data-section-id="${escapeHtml(section.id)}" data-field-id="${escapeHtml(field.id)}">
-              <img class="home-cms-upload-preview" src="${escapeHtml(field.src || "/assets/images/others/home.png")}" alt="${escapeHtml(field.alt || field.label || "Image preview")}" />
+              <img class="home-cms-upload-preview" src="${escapeHtml(field.src || "/assets/images/others/home.webp")}" alt="${escapeHtml(field.alt || field.label || "Image preview")}" />
               <div class="home-cms-upload-title">Change Image</div>
               <div class="home-cms-upload-copy">Click to upload or drop a new image here.</div>
               <div class="home-cms-upload-note">PNG, JPG, WEBP, GIF supported</div>

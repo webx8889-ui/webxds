@@ -708,7 +708,7 @@ function getDefaultHomeSections(store) {
       subtitle: store.pages?.home?.heroSubtitle || "A UI/UX Design Studio Creating Thoughtful Digital Experiences for Brands and Products",
       backgroundVideo: "/videos/home-background.mp4",
       previewVideo: "/videos/logo-intro-wds.mp4",
-      thumbnailImage: "/assets/images/hero/hero-mockup.jpg",
+      thumbnailImage: "/assets/images/hero/hero-mockup.webp",
       thumbnailAlt: "Webx Design Studio - UI/UX design showreel thumbnail",
       badgeText: "SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL •"
     },
@@ -750,13 +750,13 @@ function getDefaultHomeSections(store) {
       ctaText: "VIEW ALL",
       ctaUrl: "/pages/main/work.html",
       items: [
-        { id: createId("work"), title: "Morphico Wallpapers & Murals", description: "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.", image: "/assets/images/work-card-mockup/morphico-mockup.png", imageAlt: "Morphico Wallpapers and Murals project mockup", url: "/pages/details/morphico-pdp.html" },
-        { id: createId("work"), title: "Arogya Bharat", description: "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.", image: "/assets/images/work-card-mockup/ab-mockup.png", imageAlt: "Arogya Bharat project mockup", url: "/pages/details/ab-pdp.html" },
-        { id: createId("work"), title: "Tictax", description: "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.", image: "/assets/images/work-card-mockup/tictax-mockup.png", imageAlt: "Tictax project mockup", url: "/pages/details/tictax-pdp.html" },
-        { id: createId("work"), title: "Dharmesh Enterprise", description: "Developed a responsive management experience that simplified inventory and billing workflows.", image: "/assets/images/work-card-mockup/de-mockup.png", imageAlt: "Dharmesh Enterprise project mockup", url: "/pages/details/de-pdp.html" },
-        { id: createId("work"), title: "Mecon", description: "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.", image: "/assets/images/work-card-mockup/mecon-logo.png", imageAlt: "Mecon project identity", url: "/pages/details/mecon-pdp.html" },
-        { id: createId("work"), title: "Gurukrupa", description: "Forged a precision-led brand framework that unified a diverse industrial catalog.", image: "/assets/images/work-card-mockup/gurukrupa-mockup.png", imageAlt: "Gurukrupa project mockup", url: "/pages/details/gurukrupa-pdp.html" },
-        { id: createId("work"), title: "Manglam", description: "Modernized financial consultancy through a strategic identity built for stability and growth.", image: "/assets/images/work-card-mockup/mangalam-mockup.png", imageAlt: "Manglam project mockup", url: "/pages/details/manglam-pdp.html" }
+        { id: createId("work"), title: "Morphico Wallpapers & Murals", description: "Transformed luxury interiors by designing an immersive digital gallery that brings wallpaper artistry to life.", image: "/assets/images/work-card-mockup/morphico-mockup.webp", imageAlt: "Morphico Wallpapers and Murals project mockup", url: "/pages/details/morphico-pdp.html" },
+        { id: createId("work"), title: "Arogya Bharat", description: "Architected a clinical UI/UX system that resolved navigation friction in the healthcare procurement journey.", image: "/assets/images/work-card-mockup/ab-mockup.webp", imageAlt: "Arogya Bharat project mockup", url: "/pages/details/ab-pdp.html" },
+        { id: createId("work"), title: "Tictax", description: "Engineered frictionless fintech interfaces that turned complex tax saving into a premium digital experience.", image: "/assets/images/work-card-mockup/tictax-mockup.webp", imageAlt: "Tictax project mockup", url: "/pages/details/tictax-pdp.html" },
+        { id: createId("work"), title: "Dharmesh Enterprise", description: "Developed a responsive management experience that simplified inventory and billing workflows.", image: "/assets/images/work-card-mockup/de-mockup.webp", imageAlt: "Dharmesh Enterprise project mockup", url: "/pages/details/de-pdp.html" },
+        { id: createId("work"), title: "Mecon", description: "Crafted a modern industrial identity that positioned the legacy manufacturer with fresh authority.", image: "/assets/images/work-card-mockup/mecon-logo.webp", imageAlt: "Mecon project identity", url: "/pages/details/mecon-pdp.html" },
+        { id: createId("work"), title: "Gurukrupa", description: "Forged a precision-led brand framework that unified a diverse industrial catalog.", image: "/assets/images/work-card-mockup/gurukrupa-mockup.webp", imageAlt: "Gurukrupa project mockup", url: "/pages/details/gurukrupa-pdp.html" },
+        { id: createId("work"), title: "Manglam", description: "Modernized financial consultancy through a strategic identity built for stability and growth.", image: "/assets/images/work-card-mockup/mangalam-mockup.webp", imageAlt: "Manglam project mockup", url: "/pages/details/manglam-pdp.html" }
       ]
     },
     {
@@ -766,14 +766,14 @@ function getDefaultHomeSections(store) {
       label: "Clients",
       title: "We've Worked With Amazing People",
       items: [
-        { id: createId("client"), image: "/assets/images/clients/bajaj-logo.png", alt: "Bajaj" },
-        { id: createId("client"), image: "/assets/images/logos/ab-logo.png", alt: "Arogya Bharat" },
-        { id: createId("client"), image: "/assets/images/clients/manglam-logo.png", alt: "Manglam" },
-        { id: createId("client"), image: "/assets/images/clients/de-logo.png", alt: "Dharmesh Enterprise" },
-        { id: createId("client"), image: "/assets/images/clients/morphico-logo.png", alt: "Morphico" },
-        { id: createId("client"), image: "/assets/images/clients/mecon-logo.png", alt: "Mecon" },
-        { id: createId("client"), image: "/assets/images/clients/tictax-logo.png", alt: "Tictax" },
-        { id: createId("client"), image: "/assets/images/clients/gurukrupa-logo.png", alt: "Gurukrupa" }
+        { id: createId("client"), image: "/assets/images/clients/bajaj-logo.webp", alt: "Bajaj" },
+        { id: createId("client"), image: "/assets/images/logos/ab-logo.webp", alt: "Arogya Bharat" },
+        { id: createId("client"), image: "/assets/images/clients/manglam-logo.webp", alt: "Manglam" },
+        { id: createId("client"), image: "/assets/images/clients/de-logo.webp", alt: "Dharmesh Enterprise" },
+        { id: createId("client"), image: "/assets/images/clients/morphico-logo.webp", alt: "Morphico" },
+        { id: createId("client"), image: "/assets/images/clients/mecon-logo.webp", alt: "Mecon" },
+        { id: createId("client"), image: "/assets/images/clients/tictax-logo.webp", alt: "Tictax" },
+        { id: createId("client"), image: "/assets/images/clients/gurukrupa-logo.webp", alt: "Gurukrupa" }
       ]
     },
     {
@@ -783,9 +783,13 @@ function getDefaultHomeSections(store) {
       label: "The Impact",
       title: "From vision to real results, a team that delivers consistently",
       items: [
-        { id: createId("testimonial"), quote: "Webx Design Studio stands out for its ability to combine healthcare expertise with creative thinking. A truly dependable team.", authorName: "Irfan N. Shaikh", authorTitle: "Founder, Arogya Bharat", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Irfan N. Shaikh", brandLogo: "/assets/images/logos/ab-logo-1.png", brandLogoAlt: "Arogya Bharat Logo" },
-        { id: createId("testimonial"), quote: "Working with the team transformed our digital presence completely. The collaboration was smooth, timely, and exceeded expectations.", authorName: "Archit Sankhe", authorTitle: "Founder, Morphico", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Archit Sankhe", brandLogo: "/assets/images/clients/morphico-logo.png", brandLogoAlt: "Morphico Logo" },
-        { id: createId("testimonial"), quote: "Exceptional creativity paired with technical excellence. Their professionalism made this project a success.", authorName: "Ashay Khandhar", authorTitle: "Founder, Tictax", authorImage: "/assets/images/blogs/auther-imag-ab.png", authorImageAlt: "Ashay Khandhar", brandLogo: "/assets/images/clients/tictax-logo.png", brandLogoAlt: "Tictax Logo" }
+        { id: createId("testimonial"), quote: "Webx Design Studio stands out for its ability to combine healthcare expertise with creative thinking. Their collaborative mindset, strong workflow, and professional approach resulted in solutions that exceeded expectations. A truly dependable team.", authorName: "Irfan N. Shaikh", authorTitle: "Founder, Arogya Bharat", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Irfan N. Shaikh", brandLogo: "/assets/images/logos/ab-logo-1.webp", brandLogoAlt: "Arogya Bharat Logo" },
+        { id: createId("testimonial"), quote: "Working with the team transformed our digital presence completely. Their strategic approach and attention to detail resulted in a product our users truly appreciate. The collaboration was smooth, timely, and exceeded expectations.", authorName: "Archit Sankhe", authorTitle: "Founder, Morphico", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Archit Sankhe", brandLogo: "/assets/images/clients/morphico-logo.webp", brandLogoAlt: "Morphico Logo" },
+        { id: createId("testimonial"), quote: "Exceptional creativity paired with technical excellence. The team delivered a seamless product flow that helped boost our conversion rates by over 200%. Their professionalism made this project a success.", authorName: "Ashay Khandhar", authorTitle: "Founder, Tictax", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Ashay Khandhar", brandLogo: "/assets/images/clients/tictax-logo.webp", brandLogoAlt: "Tictax Logo" },
+        { id: createId("testimonial"), quote: "The clarity they brought to our platform made a real difference. Everything feels structured, modern, and easy to navigate.", authorName: "Ajay Kanjariya", authorTitle: "Founder, Mecon", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Ajay Kanjariya", brandLogo: "/assets/images/clients/mecon-logo.webp", brandLogoAlt: "Mecon Logo" },
+        { id: createId("testimonial"), quote: "Our brand visuals and online presence improved significantly after working with Webx Design Studio.", authorName: "Punit Bhatti", authorTitle: "Founder, Gurukrupa", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Punit Bhatti", brandLogo: "/assets/images/clients/gurukrupa-logo.webp", brandLogoAlt: "Gurukrupa Logo" },
+        { id: createId("testimonial"), quote: "The team understood our goals quickly and delivered exactly what we needed, on time and with great quality.", authorName: "Dhaval Vora", authorTitle: "Founder, Manglam", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Dhaval Vora", brandLogo: "/assets/images/clients/manglam-logo.webp", brandLogoAlt: "Manglam Logo" },
+        { id: createId("testimonial"), quote: "Exceptional design paired with technical excellence. The team delivered a seamless user experience that boosted our conversion rates by 200%. Their professionalism and dedication made this project a huge success.", authorName: "Dharmesh Enterprise", authorTitle: "Founder", authorImage: "/assets/images/blogs/auther-imag-ab.webp", authorImageAlt: "Dharmesh Enterprise founder", brandLogo: "/assets/images/clients/de-logo-1.webp", brandLogoAlt: "Dharmesh Enterprise Logo" }
       ]
     },
     {
@@ -795,10 +799,10 @@ function getDefaultHomeSections(store) {
       label: "Today's Blogs",
       title: "Check out our blog for the latest tips, tricks, and happenings in business and design.",
       items: [
-        { id: createId("blog"), title: "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026", image: "/assets/images/blogs/blog-img-1.png", imageAlt: "AI-Driven Personalization blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Interfaces can now adapt content, layout, and navigation in real time based on behavior and intent.", url: "/pages/blogs/blog.html", tags: ["ai powered user interfaces", "does ux affect seo", "2026 ux ui design trends"] },
-        { id: createId("blog"), title: "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026", image: "/assets/images/blogs/blog-img-2.png", imageAlt: "Apple Design Study blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Apple continues to set the bar for how digital products should look, feel, and behave.", url: "/pages/blogs/blog-apple.html", tags: ["apple design study", "apple ux case study", "ios design principles"] },
-        { id: createId("blog"), title: "How to Design a High-Converting Landing Page in 2026: UX & CRO Complete Guide", image: "/assets/images/blogs/blog-img-3.png", imageAlt: "Landing page design blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Your landing page is often the final gateway between user interest and real business action.", url: "/pages/blogs/blog-3.html", tags: ["high converting landing page", "landing page ux design", "conversion rate optimization"] },
-        { id: createId("blog"), title: "10 Signs It's Time to Redesign Your Website in 2026: Full Redesign Checklist", image: "/assets/images/blogs/blog-img-4.png", imageAlt: "Website redesign blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Most businesses redesign too late after losing traffic, leads, and revenue quietly over time.", url: "/pages/blogs/blog-4.html", tags: ["website redesign 2026", "when to redesign website", "website redesign checklist"] }
+        { id: createId("blog"), title: "AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026", image: "/assets/images/blogs/blog-img-1.webp", imageAlt: "AI-Driven Personalization blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Interfaces can now adapt content, layout, and navigation in real time based on behavior and intent.", url: "/pages/blogs/blog.html", tags: ["ai powered user interfaces", "does ux affect seo", "2026 ux ui design trends"] },
+        { id: createId("blog"), title: "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026", image: "/assets/images/blogs/blog-img-2.webp", imageAlt: "Apple Design Study blog image", dateLabel: "Date: 16 Apr 25", dateValue: "2025-04-16", excerpt: "Apple continues to set the bar for how digital products should look, feel, and behave.", url: "/pages/blogs/blog-apple.html", tags: ["apple design study", "apple ux case study", "ios design principles"] },
+        { id: createId("blog"), title: "How to Design a High-Converting Landing Page in 2026: UX & CRO Complete Guide", image: "/assets/images/blogs/blog-img-3.webp", imageAlt: "Landing page design blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Your landing page is often the final gateway between user interest and real business action.", url: "/pages/blogs/blog-3.html", tags: ["high converting landing page", "landing page ux design", "conversion rate optimization"] },
+        { id: createId("blog"), title: "10 Signs It's Time to Redesign Your Website in 2026: Full Redesign Checklist", image: "/assets/images/blogs/blog-img-4.webp", imageAlt: "Website redesign blog image", dateLabel: "Date: 18 Feb 26", dateValue: "2026-02-18", excerpt: "Most businesses redesign too late after losing traffic, leads, and revenue quietly over time.", url: "/pages/blogs/blog-4.html", tags: ["website redesign 2026", "when to redesign website", "website redesign checklist"] }
       ]
     },
     {
@@ -848,12 +852,12 @@ function normalizeHomeItem(type, item, index = 0) {
   const fallbackId = createId(`${type}-item`);
   if (type === "stats") return { id: sanitizeText(item.id, fallbackId), value: sanitizeText(item.value || item.number, "0"), label: sanitizeText(item.label, `Stat ${index + 1}`) };
   if (type === "services") return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title || item.name, `Service ${index + 1}`), description: sanitizeText(item.description || item.shortDescription, ""), icon: escapeUrl(item.icon, "/assets/images/icons/webx-icon.svg"), iconAlt: sanitizeText(item.iconAlt, "Service icon"), ctaText: sanitizeText(item.ctaText, "GET INQUIRY"), ctaUrl: escapeUrl(item.ctaUrl, "/pages/system/service-form.html") };
-  if (type === "work") return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Project ${index + 1}`), description: sanitizeText(item.description, ""), image: escapeUrl(item.image, "/assets/images/others/work.png"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Project")), url: escapeUrl(item.url, "#") };
+  if (type === "work") return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Project ${index + 1}`), description: sanitizeText(item.description, ""), image: escapeUrl(item.image, "/assets/images/others/work.webp"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Project")), url: escapeUrl(item.url, "#") };
   if (type === "clients") return { id: sanitizeText(item.id, fallbackId), image: escapeUrl(item.image, "/assets/images/logos/webx-logo.svg"), alt: sanitizeText(item.alt, `Client ${index + 1}`) };
-  if (type === "testimonials") return { id: sanitizeText(item.id, fallbackId), quote: sanitizeText(item.quote, ""), authorName: sanitizeText(item.authorName, `Client ${index + 1}`), authorTitle: sanitizeText(item.authorTitle, ""), authorImage: escapeUrl(item.authorImage, "/assets/images/blogs/auther-imag-ab.png"), authorImageAlt: sanitizeText(item.authorImageAlt, sanitizeText(item.authorName, "Client")), brandLogo: escapeUrl(item.brandLogo, "/assets/images/logos/webx-logo.svg"), brandLogoAlt: sanitizeText(item.brandLogoAlt, "Brand logo") };
+  if (type === "testimonials") return { id: sanitizeText(item.id, fallbackId), quote: sanitizeText(item.quote, ""), authorName: sanitizeText(item.authorName, `Client ${index + 1}`), authorTitle: sanitizeText(item.authorTitle, ""), authorImage: escapeUrl(item.authorImage, "/assets/images/blogs/auther-imag-ab.webp"), authorImageAlt: sanitizeText(item.authorImageAlt, sanitizeText(item.authorName, "Client")), brandLogo: escapeUrl(item.brandLogo, "/assets/images/logos/webx-logo.svg"), brandLogoAlt: sanitizeText(item.brandLogoAlt, "Brand logo") };
   if (type === "blogs") {
     const tags = Array.isArray(item.tags) ? item.tags : String(item.tags || "").split(",").map(entry => entry.trim()).filter(Boolean);
-    return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Blog ${index + 1}`), image: escapeUrl(item.image, "/assets/images/others/home.png"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Blog")), dateLabel: sanitizeText(item.dateLabel, ""), dateValue: sanitizeText(item.dateValue, ""), excerpt: sanitizeText(item.excerpt, ""), url: escapeUrl(item.url, "#"), tags };
+    return { id: sanitizeText(item.id, fallbackId), title: sanitizeText(item.title, `Blog ${index + 1}`), image: escapeUrl(item.image, "/assets/images/others/home.webp"), imageAlt: sanitizeText(item.imageAlt, sanitizeText(item.title, "Blog")), dateLabel: sanitizeText(item.dateLabel, ""), dateValue: sanitizeText(item.dateValue, ""), excerpt: sanitizeText(item.excerpt, ""), url: escapeUrl(item.url, "#"), tags };
   }
   if (type === "faq") return { id: sanitizeText(item.id, fallbackId), question: sanitizeText(item.question, `Question ${index + 1}`), answer: sanitizeText(item.answer, ""), open: !!item.open };
   return { id: sanitizeText(item.id, fallbackId) };
@@ -867,7 +871,7 @@ function normalizeHomeSection(section) {
     normalized.subtitle = sanitizeText(section.subtitle, "");
     normalized.backgroundVideo = escapeUrl(section.backgroundVideo, "/videos/home-background.mp4");
     normalized.previewVideo = escapeUrl(section.previewVideo, "/videos/logo-intro-wds.mp4");
-    normalized.thumbnailImage = escapeUrl(section.thumbnailImage, "/assets/images/hero/hero-mockup.jpg");
+    normalized.thumbnailImage = escapeUrl(section.thumbnailImage, "/assets/images/hero/hero-mockup.webp");
     normalized.thumbnailAlt = sanitizeText(section.thumbnailAlt, "Webx Design Studio - UI/UX design showreel thumbnail");
     normalized.badgeText = sanitizeText(section.badgeText, "SHOWREEL • SHOWREEL • SHOWREEL •");
     return normalized;
@@ -923,7 +927,7 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       enabled: true,
       title: projectTitle,
       subtitle: "Describe the product, transformation, and business outcome for this project.",
-      heroImage: "/assets/images/others/work.png",
+      heroImage: "/assets/images/others/work.webp",
       heroImageAlt: `${projectTitle} hero image`
     },
     {
@@ -957,9 +961,9 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       enabled: true,
       beforeLabel: "UX",
       afterLabel: "UI",
-      beforeImage: "/assets/images/others/work.png",
+      beforeImage: "/assets/images/others/work.webp",
       beforeImageAlt: `${projectTitle} before image`,
-      afterImage: "/assets/images/others/work.png",
+      afterImage: "/assets/images/others/work.webp",
       afterImageAlt: `${projectTitle} after image`,
       background: "#1f1f1f"
     },
@@ -970,8 +974,8 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       label: "Visual Identity",
       title: "Build a consistent visual language for the brand",
       items: [
-        { id: createId("work-vi"), image: "/assets/images/others/work.png", alt: `${projectTitle} visual identity`, title: "Colour Style", description: "Add description here." },
-        { id: createId("work-vi"), image: "/assets/images/others/work.png", alt: `${projectTitle} visual identity`, title: "Typography", description: "Add description here." }
+        { id: createId("work-vi"), image: "/assets/images/others/work.webp", alt: `${projectTitle} visual identity`, title: "Colour Style", description: "Add description here." },
+        { id: createId("work-vi"), image: "/assets/images/others/work.webp", alt: `${projectTitle} visual identity`, title: "Typography", description: "Add description here." }
       ]
     },
     {
@@ -980,7 +984,7 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       enabled: true,
       label: "Design System",
       title: "Document the interface system and components",
-      image: "/assets/images/others/work.png",
+      image: "/assets/images/others/work.webp",
       imageAlt: `${projectTitle} design system`
     },
     {
@@ -990,7 +994,7 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       label: "Web UI",
       title: "Showcase the web experience",
       items: [
-        { id: createId("work-webui"), image: "/assets/images/others/work.png", alt: `${projectTitle} web ui` }
+        { id: createId("work-webui"), image: "/assets/images/others/work.webp", alt: `${projectTitle} web ui` }
       ]
     },
     {
@@ -1000,7 +1004,7 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       label: "Mobile UI",
       title: "Showcase the mobile experience",
       items: [
-        { id: createId("work-mobileui"), image: "/assets/images/others/work.png", alt: `${projectTitle} mobile ui` }
+        { id: createId("work-mobileui"), image: "/assets/images/others/work.webp", alt: `${projectTitle} mobile ui` }
       ]
     },
     {
@@ -1012,9 +1016,9 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       quote: "Add testimonial or project impact statement here.",
       author: "Client Name",
       role: "Role / Company",
-      authorImage: "/assets/images/others/work.png",
+      authorImage: "/assets/images/others/work.webp",
       authorImageAlt: `${projectTitle} author`,
-      brandLogo: "/assets/images/others/work.png",
+      brandLogo: "/assets/images/others/work.webp",
       brandLogoAlt: `${projectTitle} logo`
     },
     {
@@ -1034,7 +1038,7 @@ function getDefaultWorkProjectSections(projectTitle = "New Project") {
       enabled: true,
       title: "Project Gallery",
       items: [
-        { id: createId("work-gallery"), image: "/assets/images/others/work.png", alt: `${projectTitle} gallery image`, caption: "Add caption" }
+        { id: createId("work-gallery"), image: "/assets/images/others/work.webp", alt: `${projectTitle} gallery image`, caption: "Add caption" }
       ]
     },
     {
@@ -1054,7 +1058,7 @@ function normalizeWorkSection(section) {
   if (type === "hero") {
     normalized.title = sanitizeText(section.title, "Project Hero Title");
     normalized.subtitle = sanitizeText(section.subtitle, "Project hero subtitle");
-    normalized.heroImage = escapeUrl(section.heroImage, "/assets/images/others/work.png");
+    normalized.heroImage = escapeUrl(section.heroImage, "/assets/images/others/work.webp");
     normalized.heroImageAlt = sanitizeText(section.heroImageAlt, normalized.title);
     return normalized;
   }
@@ -1085,9 +1089,9 @@ function normalizeWorkSection(section) {
   if (type === "comparison") {
     normalized.beforeLabel = sanitizeText(section.beforeLabel, "UX");
     normalized.afterLabel = sanitizeText(section.afterLabel, "UI");
-    normalized.beforeImage = escapeUrl(section.beforeImage, "/assets/images/others/work.png");
+    normalized.beforeImage = escapeUrl(section.beforeImage, "/assets/images/others/work.webp");
     normalized.beforeImageAlt = sanitizeText(section.beforeImageAlt, "Before image");
-    normalized.afterImage = escapeUrl(section.afterImage, "/assets/images/others/work.png");
+    normalized.afterImage = escapeUrl(section.afterImage, "/assets/images/others/work.webp");
     normalized.afterImageAlt = sanitizeText(section.afterImageAlt, "After image");
     normalized.background = sanitizeText(section.background, "#1f1f1f");
     return normalized;
@@ -1097,7 +1101,7 @@ function normalizeWorkSection(section) {
     normalized.title = sanitizeText(section.title, "Visual Identity");
     normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
       id: sanitizeText(item.id, createId("work-vi")),
-      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      image: escapeUrl(item.image, "/assets/images/others/work.webp"),
       alt: sanitizeText(item.alt, `Visual identity image ${index + 1}`),
       title: sanitizeText(item.title, `Card ${index + 1}`),
       description: sanitizeText(item.description, "")
@@ -1107,7 +1111,7 @@ function normalizeWorkSection(section) {
   if (type === "design-system") {
     normalized.label = sanitizeText(section.label, "Design System");
     normalized.title = sanitizeText(section.title, "Design System");
-    normalized.image = escapeUrl(section.image, "/assets/images/others/work.png");
+    normalized.image = escapeUrl(section.image, "/assets/images/others/work.webp");
     normalized.imageAlt = sanitizeText(section.imageAlt, normalized.title);
     return normalized;
   }
@@ -1116,7 +1120,7 @@ function normalizeWorkSection(section) {
     normalized.title = sanitizeText(section.title, normalized.label);
     normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
       id: sanitizeText(item.id, createId("work-ui")),
-      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      image: escapeUrl(item.image, "/assets/images/others/work.webp"),
       alt: sanitizeText(item.alt, `${normalized.label} image ${index + 1}`)
     }));
     return normalized;
@@ -1127,9 +1131,9 @@ function normalizeWorkSection(section) {
     normalized.quote = sanitizeText(section.quote, "");
     normalized.author = sanitizeText(section.author, "");
     normalized.role = sanitizeText(section.role, "");
-    normalized.authorImage = escapeUrl(section.authorImage, "/assets/images/others/work.png");
+    normalized.authorImage = escapeUrl(section.authorImage, "/assets/images/others/work.webp");
     normalized.authorImageAlt = sanitizeText(section.authorImageAlt, normalized.author || "Author");
-    normalized.brandLogo = escapeUrl(section.brandLogo, "/assets/images/others/work.png");
+    normalized.brandLogo = escapeUrl(section.brandLogo, "/assets/images/others/work.webp");
     normalized.brandLogoAlt = sanitizeText(section.brandLogoAlt, "Brand logo");
     return normalized;
   }
@@ -1146,7 +1150,7 @@ function normalizeWorkSection(section) {
     normalized.title = sanitizeText(section.title, "Project Gallery");
     normalized.items = (Array.isArray(section.items) ? section.items : []).map((item, index) => ({
       id: sanitizeText(item.id, createId("work-gallery")),
-      image: escapeUrl(item.image, "/assets/images/others/work.png"),
+      image: escapeUrl(item.image, "/assets/images/others/work.webp"),
       alt: sanitizeText(item.alt, `Gallery image ${index + 1}`),
       caption: sanitizeText(item.caption, "")
     }));
@@ -1193,7 +1197,7 @@ function getDefaultWorkProjects(store) {
       cardTitle: sanitizeText(item.title, `Project ${index + 1}`),
       category: "Case Study",
       summary: sanitizeText(item.description, ""),
-      thumbnailImage: escapeUrl(item.image, "/assets/images/others/work.png"),
+      thumbnailImage: escapeUrl(item.image, "/assets/images/others/work.webp"),
       thumbnailAlt: sanitizeText(item.imageAlt, item.title || `Project ${index + 1}`),
       metaTitle: sanitizeText(`${item.title} | Webx Design Studio`, `Project ${index + 1} | Webx Design Studio`),
       metaDescription: sanitizeText(item.description, ""),
@@ -1217,7 +1221,7 @@ function normalizeWorkProject(project, index = 0) {
     cardTitle: safeTitle,
     category: sanitizeText(project.category, "Case Study"),
     summary: sanitizeText(project.summary, ""),
-    thumbnailImage: escapeUrl(project.thumbnailImage, "/assets/images/others/work.png"),
+    thumbnailImage: escapeUrl(project.thumbnailImage, "/assets/images/others/work.webp"),
     thumbnailAlt: sanitizeText(project.thumbnailAlt, safeTitle),
     metaTitle: sanitizeText(project.metaTitle, `${safeTitle} | Webx Design Studio`),
     metaDescription: sanitizeText(project.metaDescription, project.summary || ""),
@@ -1315,7 +1319,7 @@ function renderWorkProjectPage(project, store) {
   const nextProjects = (store.pages?.work?.projects || []).filter(item => item.slug !== project.slug && item.status !== "archived").slice(0, 6);
   const heroTitle = sanitizeText(hero.title, project.cardTitle);
   const heroSubtitle = sanitizeText(hero.subtitle, project.summary || "Describe the product, transformation, and business outcome for this project.");
-  const heroImage = escapeUrl(hero.heroImage || project.thumbnailImage, project.thumbnailImage || "/assets/images/others/work.png");
+  const heroImage = escapeUrl(hero.heroImage || project.thumbnailImage, project.thumbnailImage || "/assets/images/others/work.webp");
   const heroImageAlt = sanitizeText(hero.heroImageAlt, `${project.cardTitle} hero image`);
   const viItems = Array.isArray(visualIdentity.items) ? visualIdentity.items : [];
   const webUiItems = Array.isArray(webUi.items) ? webUi.items : [];
@@ -1352,8 +1356,8 @@ function renderWorkProjectPage(project, store) {
 <meta name="twitter:description" content="${escapeAttr(project.metaDescription)}" />
 <meta name="twitter:image" content="https://webxds.com${escapeAttr(heroImage)}" />
 
-<link rel="icon" href="/assets/images/icons/favicon.png" type="image/png" sizes="32x32" />
-<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.png" sizes="180x180" />
+<link rel="icon" href="/assets/images/icons/favicon.webp" type="image/webp" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.webp" sizes="180x180" />
 <link rel="manifest" href="/manifest.json" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1547,7 +1551,7 @@ ${isPublicWebsitePath(project.path) ? buildClaritySnippet(store) : ""}
           </div>
           <div class="impact-footer">
             <div class="author-card">
-              <img src="${escapeAttr(escapeUrl(impact.authorImage, "/assets/images/blogs/auther-imag-ab.png"))}" alt="${escapeAttr(sanitizeText(impact.authorImageAlt, impact.author || "Client"))}" class="author-photo" width="56" height="56" loading="lazy" />
+              <img src="${escapeAttr(escapeUrl(impact.authorImage, "/assets/images/blogs/auther-imag-ab.webp"))}" alt="${escapeAttr(sanitizeText(impact.authorImageAlt, impact.author || "Client"))}" class="author-photo" width="56" height="56" loading="lazy" />
               <div class="author-info"><div class="author-name">${escapeHtml(sanitizeText(impact.author, "Client Name"))}</div><div class="author-title">${escapeHtml(sanitizeText(impact.role, "Role / Company"))}</div></div>
             </div>
             <div class="brand-logo"><img src="${escapeAttr(escapeUrl(impact.brandLogo, project.thumbnailImage || heroImage))}" alt="${escapeAttr(sanitizeText(impact.brandLogoAlt, `${project.cardTitle} logo`))}" width="100" height="50" loading="lazy" /></div>
@@ -1577,7 +1581,7 @@ ${isPublicWebsitePath(project.path) ? buildClaritySnippet(store) : ""}
   </div>
 </section>
 
-${nextProjects.length ? `<section class="next-work-section" aria-label="Explore more case studies"><div class="next-work-container"><h2 class="next-work-heading">EXPLORE MORE WORK</h2><div class="next-work-scroll-wrapper"><div class="next-work-grid" id="nextWorkGrid">${nextProjects.map(item => `<a href="${escapeAttr(item.path)}" class="next-work-card" style="background-image: url('${escapeAttr(item.thumbnailImage || "/assets/images/others/work.png")}');"><div class="card-content"><h3 class="card-title">${escapeHtml(item.cardTitle)}</h3><p class="card-description">${escapeHtml(item.summary)}</p><div class="card-tags"><span class="card-tag">${escapeHtml(item.category || "Case Study")}</span></div></div><div class="card-mockup"><img src="${escapeAttr(item.thumbnailImage || "/assets/images/others/work.png")}" alt="${escapeAttr(item.thumbnailAlt || item.cardTitle)}" class="mockup-image" width="200" height="120" loading="lazy" /></div></a>`).join("")}</div></div></div></section>` : ""}
+${nextProjects.length ? `<section class="next-work-section" aria-label="Explore more case studies"><div class="next-work-container"><h2 class="next-work-heading">EXPLORE MORE WORK</h2><div class="next-work-scroll-wrapper"><div class="next-work-grid" id="nextWorkGrid">${nextProjects.map(item => `<a href="${escapeAttr(item.path)}" class="next-work-card" style="background-image: url('${escapeAttr(item.thumbnailImage || "/assets/images/others/work.webp")}');"><div class="card-content"><h3 class="card-title">${escapeHtml(item.cardTitle)}</h3><p class="card-description">${escapeHtml(item.summary)}</p><div class="card-tags"><span class="card-tag">${escapeHtml(item.category || "Case Study")}</span></div></div><div class="card-mockup"><img src="${escapeAttr(item.thumbnailImage || "/assets/images/others/work.webp")}" alt="${escapeAttr(item.thumbnailAlt || item.cardTitle)}" class="mockup-image" width="200" height="120" loading="lazy" /></div></a>`).join("")}</div></div></div></section>` : ""}
 
 <section class="cta-banner-section" aria-label="Start your project">
   <div class="cta-banner-content">
@@ -1602,7 +1606,7 @@ ${nextProjects.length ? `<section class="next-work-section" aria-label="Explore 
 
 <div class="more-menu-overlay" id="moreMenu" role="dialog" aria-modal="true" aria-label="Full navigation menu"></div>
 <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top of page"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http:/www.w3.org/2000/svg" aria-hidden="true"><path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-<nav class="bottom-navbar" aria-label="Bottom navigation"><div class="bottom-nav-logo"><a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage"><img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="logo-full" width="100" height="30" loading="lazy" /><img src="/assets/images/icons/webx-icon.svg" alt="Webx" class="logo-icon" width="32" height="32" loading="lazy" /></a></div><div class="bottom-nav-container"><a href="/" class="nav-item"><img src="/assets/images/others/home.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Home</span></a><a href="/pages/main/work.html" class="nav-item active" aria-current="page"><img src="/assets/images/others/work.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Work</span></a><a href="/pages/main/services.html" class="nav-item"><img src="/assets/images/others/services.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Services</span></a><a href="/pages/main/about.html" class="nav-item"><img src="/assets/images/others/about.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">About</span></a><a href="/pages/main/contact-page.html" class="nav-item"><img src="/assets/images/others/contact.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Contact</span></a></div></nav>
+<nav class="bottom-navbar" aria-label="Bottom navigation"><div class="bottom-nav-logo"><a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage"><img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" class="logo-full" width="100" height="30" loading="lazy" /><img src="/assets/images/icons/webx-icon.svg" alt="Webx" class="logo-icon" width="32" height="32" loading="lazy" /></a></div><div class="bottom-nav-container"><a href="/" class="nav-item"><img src="/assets/images/others/home.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Home</span></a><a href="/pages/main/work.html" class="nav-item active" aria-current="page"><img src="/assets/images/others/work.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Work</span></a><a href="/pages/main/services.html" class="nav-item"><img src="/assets/images/others/services.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Services</span></a><a href="/pages/main/about.html" class="nav-item"><img src="/assets/images/others/about.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">About</span></a><a href="/pages/main/contact-page.html" class="nav-item"><img src="/assets/images/others/contact.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" /><span class="nav-label">Contact</span></a></div></nav>
 <script src="/js/script.js?v=20260311-2"></script>
 <script>if ('serviceWorker' in navigator) { window.addEventListener('load', function() { navigator.serviceWorker.register('/sw.js').catch(function(err) { console.warn('Service worker registration failed:', err); }); }); }</script>
 </body>
@@ -1631,7 +1635,7 @@ function renderWorkCardsMarkup(projects) {
   return projects.map(project => `<div class="work-card">
                     <div class="work-image"> <a href="${escapeAttr(project.path)}" class="work-image-link"
                             aria-label="View ${escapeAttr(project.cardTitle)} case study"> <img
-                                src="${escapeAttr(project.thumbnailImage || "/assets/images/others/work.png")}"
+                                src="${escapeAttr(project.thumbnailImage || "/assets/images/others/work.webp")}"
                                 alt="${escapeAttr(project.thumbnailAlt || project.cardTitle)}"
                                 width="600" height="400" loading="lazy" /> </a> </div>
                     <div class="work-content">
@@ -1701,7 +1705,7 @@ function syncHomeWorkSectionFromProjects(store) {
       id: project.id || createId("work"),
       title: project.cardTitle || `Project ${index + 1}`,
       description: project.summary || "",
-      image: project.thumbnailImage || "/assets/images/others/work.png",
+      image: project.thumbnailImage || "/assets/images/others/work.webp",
       imageAlt: project.thumbnailAlt || project.cardTitle || `Project ${index + 1}`,
       url: project.path || `/pages/details/${project.slug || `project-${index + 1}`}.html`
     }, index));
@@ -1744,7 +1748,7 @@ function normalizeBlogPost(post, index = 0) {
     articleSection: sanitizeText(post.articleSection, ""),
     metaTitle: sanitizeText(post.metaTitle, `${title} | Webx Design Studio`),
     metaDescription: sanitizeText(post.metaDescription || post.excerpt, ""),
-    image: escapeUrl(post.image, "/assets/images/blogs/blog-img-1.png"),
+    image: escapeUrl(post.image, "/assets/images/blogs/blog-img-1.webp"),
     imageAlt: sanitizeText(post.imageAlt, `${title} featured image`),
     dateValue,
     dateLabel: sanitizeText(post.dateLabel, formatBlogDateLabel(dateValue)),
@@ -1808,7 +1812,12 @@ async function parseStaticBlogPage(urlPath) {
     const html = await fsp.readFile(resolveProjectFilePath(normalizedUrl), "utf8");
     const title = sanitizeText(extractTitle(html, path.posix.basename(normalizedUrl, ".html")));
     const dateValue = extractPublishedDateValue(html) || nowIso().slice(0, 10);
-    const image = escapeUrl(extractMetaContent(html, "og:image"), "/assets/images/blogs/blog-img-1.png");
+    let extractedImage = extractMetaContent(html, "og:image");
+    // Strip domain from absolute URLs to normalize to relative paths
+    if (extractedImage) {
+      extractedImage = extractedImage.replace(/^https?:\/\/[^\/]+/, "").replace(/^\/\/[^\/]+/, "");
+    }
+    const image = escapeUrl(extractedImage, "/assets/images/blogs/blog-img-1.webp");
     const imageAlt = sanitizeText(extractMetaContent(html, "og:image:alt"), `${title} featured image`);
     const excerpt = sanitizeText(extractMetaContent(html, "description") || extractFirstParagraph(html), "");
     return {
@@ -1932,7 +1941,7 @@ function renderBlogArticlePage(post, store, allPublishedBlogs = null) {
 <meta property="og:title" content="${escapeAttr(post.title)}" />
 <meta property="og:description" content="${escapeAttr(post.metaDescription || post.excerpt || post.intro)}" />
 <meta property="og:url" content="https://webxds.com${escapeAttr(post.url)}" />
-<meta property="og:image" content="https://webxds.com${escapeAttr(post.image)}" />
+<meta property="og:image" content="${escapeAttr(post.image)}" />
 <meta property="og:image:alt" content="${escapeAttr(post.imageAlt)}" />
 <meta property="og:site_name" content="Webx Design Studio" />
 <meta property="og:locale" content="en_IN" />
@@ -1942,9 +1951,9 @@ ${post.tags.map(tag => `<meta property="article:tag" content="${escapeAttr(tag)}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${escapeAttr(post.title)}" />
 <meta name="twitter:description" content="${escapeAttr(post.metaDescription || post.excerpt || post.intro)}" />
-<meta name="twitter:image" content="https://webxds.com${escapeAttr(post.image)}" />
-<link rel="icon" href="/assets/images/icons/favicon.png" type="image/png" sizes="32x32" />
-<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.png" sizes="180x180" />
+<meta name="twitter:image" content="${escapeAttr(post.image)}" />
+<link rel="icon" href="/assets/images/icons/favicon.webp" type="image/webp" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.webp" sizes="180x180" />
 <link rel="manifest" href="/manifest.json" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -2021,13 +2030,13 @@ ${recommendedPostsHtml ? `
       </div>
       <div class="footer-social">
         <a href="https://www.linkedin.com/in/piyushgohil8889/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on LinkedIn">
-          <img src="/assets/images/icons/linkedin-icon.png" alt="LinkedIn" class="social-icon-img" width="24" height="24" loading="lazy" />
+          <img src="/assets/images/icons/linkedin-icon.webp" alt="LinkedIn" class="social-icon-img" width="24" height="24" loading="lazy" />
         </a>
         <a href="https://dribbble.com/desinger8889" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on Dribbble">
-          <img src="/assets/images/icons/dribbble-icon.png" alt="Dribbble" class="social-icon-img" width="24" height="24" loading="lazy" />
+          <img src="/assets/images/icons/dribbble-icon.webp" alt="Dribbble" class="social-icon-img" width="24" height="24" loading="lazy" />
         </a>
         <a href="https://www.behance.net/Piyushgohil8889" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Webx Design Studio on Behance">
-          <img src="/assets/images/icons/behance-icon.png" alt="Behance" class="social-icon-img" width="24" height="24" loading="lazy" />
+          <img src="/assets/images/icons/behance-icon.webp" alt="Behance" class="social-icon-img" width="24" height="24" loading="lazy" />
         </a>
       </div>
     </div>
@@ -2130,23 +2139,23 @@ ${recommendedPostsHtml ? `
   </div>
   <div class="bottom-nav-container">
     <a href="/" class="nav-item">
-      <img src="/assets/images/others/home.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <img src="/assets/images/others/home.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       <span class="nav-label">Home</span>
     </a>
     <a href="/pages/main/work.html" class="nav-item">
-      <img src="/assets/images/others/work.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <img src="/assets/images/others/work.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       <span class="nav-label">Work</span>
     </a>
     <a href="/pages/main/services.html" class="nav-item">
-      <img src="/assets/images/others/services.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <img src="/assets/images/others/services.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       <span class="nav-label">Services</span>
     </a>
     <a href="/pages/main/about.html" class="nav-item">
-      <img src="/assets/images/others/about.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <img src="/assets/images/others/about.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       <span class="nav-label">About</span>
     </a>
     <a href="/pages/main/contact-page.html" class="nav-item">
-      <img src="/assets/images/others/contact.png" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+      <img src="/assets/images/others/contact.webp" alt="" class="nav-icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       <span class="nav-label">Contact</span>
     </a>
     <button class="nav-item more-toggle" type="button" aria-label="Open full navigation menu" aria-expanded="false" aria-controls="moreMenu">
