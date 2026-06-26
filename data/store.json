@@ -706,7 +706,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.818Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-19a42fbe",
@@ -906,7 +906,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.818Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-0658f34b",
@@ -1106,7 +1106,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.818Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-a2bf1483",
@@ -1306,7 +1306,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.819Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-1ec2a1fb",
@@ -1506,7 +1506,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.819Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-8b4bdb47",
@@ -1706,7 +1706,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.515Z",
-          "updatedAt": "2026-06-26T09:39:28.819Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         },
         {
           "id": "work-project-ce17ba98",
@@ -1906,7 +1906,7 @@
             }
           ],
           "createdAt": "2026-06-10T09:04:59.516Z",
-          "updatedAt": "2026-06-26T09:39:28.819Z"
+          "updatedAt": "2026-06-26T10:18:38.614Z"
         }
       ],
       "heroTitle": "Creative Projects That Define Us",
@@ -2156,7 +2156,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <!-- MORE button -->\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.820Z"
+      "updatedAt": "2026-06-26T10:18:38.617Z"
     },
     "blog-4": {
       "editorType": "generic",
@@ -2401,7 +2401,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n        <div class=\"bottom-nav-logo\">\r\n            <a href=\"/\" class=\"logo-link\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n                <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n            </a>\r\n        </div>\r\n        <div class=\"bottom-nav-container\">\r\n            <a href=\"/\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Home</span>\r\n            </a>\r\n            <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Work</span>\r\n            </a>\r\n            <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Services</span>\r\n            </a>\r\n            <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">About</span>\r\n            </a>\r\n            <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n                <img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\r\n                <span class=\"nav-label\">Contact</span>\r\n            </a>\r\n            <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n                <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg>\r\n                <span class=\"nav-label\">More</span>\r\n            </button>\r\n        </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.822Z"
+      "updatedAt": "2026-06-26T10:18:38.618Z"
     },
     "blog-apple": {
       "editorType": "generic",
@@ -2646,7 +2646,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.822Z"
+      "updatedAt": "2026-06-26T10:18:38.619Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2891,7 +2891,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.823Z"
+      "updatedAt": "2026-06-26T10:18:38.619Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -3022,7 +3022,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n    <div class=\"bottom-nav-logo\">\n      <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n      </a>\n    </div>\n    <div class=\"bottom-nav-container\">\n      <a href=\"/\" class=\"nav-item\">\n        <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Home</span>\n      </a>\n      <a href=\"/pages/main/work.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Work</span>\n      </a>\n      <a href=\"/pages/main/services.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Services</span>\n      </a>\n      <a href=\"/pages/main/about.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">About</span>\n      </a>\n      <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n        <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        <span class=\"nav-label\">Contact</span>\n      </a>\n      <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n        <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n          <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n          <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n          <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n        </svg>\n        <span class=\"nav-label\">More</span>\n      </button>\n    </div>\n  </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.824Z"
+      "updatedAt": "2026-06-26T10:18:38.619Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3201,7 +3201,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.824Z"
+      "updatedAt": "2026-06-26T10:18:38.620Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3380,7 +3380,7 @@
           "html": "<nav class=\"bottom-navbar\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/\" class=\"logo-link\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\r\n        <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\r\n    </a>\r\n</div>\r\n  \r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n\r\n    <!-- MORE button with inline SVG -->\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\r\n      \r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <!-- Three lines (hamburger style) -->\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.825Z"
+      "updatedAt": "2026-06-26T10:18:38.620Z"
     },
     "about": {
       "editorType": "generic",
@@ -3617,7 +3617,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img\r\n                    src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">About</span> </a> <a\r\n                href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\"\r\n                    alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\"\r\n                aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg\r\n                    class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.825Z"
+      "updatedAt": "2026-06-26T10:18:38.620Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3764,7 +3764,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span> </a> <a\r\n                href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span>\r\n            </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\"\r\n                aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\"\r\n                    aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.825Z"
+      "updatedAt": "2026-06-26T10:18:38.620Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3943,7 +3943,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.826Z"
+      "updatedAt": "2026-06-26T10:18:38.621Z"
     },
     "services": {
       "editorType": "generic",
@@ -4140,7 +4140,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.826Z"
+      "updatedAt": "2026-06-26T10:18:38.621Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4309,7 +4309,7 @@
           "html": "<footer class=\"footer-section-form\">\r\n    <div class=\"footer-container-form\">\r\n      <!-- Copyright -->\r\n      <div class=\"footer-bottom-form\">\r\n        <p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\r\n      </div>\r\n\r\n    </div>\r\n  </footer>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.826Z"
+      "updatedAt": "2026-06-26T10:18:38.621Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4486,7 +4486,7 @@
           "html": "<footer class=\"footer-section animate-section\">\r\n    <div class=\"footer-container\">\r\n\r\n        <!-- Footer Top Content -->\r\n        <div class=\"footer-top animate-fade-in\">\r\n\r\n            <!-- Logo -->\r\n            <div class=\"footer-logo\">\r\n                <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\r\n            </div>\r\n\r\n            <!-- Social Links -->\r\n            <div class=\"footer-social\">\r\n                <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\r\n                    <img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\r\n                    <img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\r\n                </a>\r\n                <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\r\n                    <img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\r\n                </a>\r\n            </div>\r\n\r\n        </div>\r\n\r\n        <!-- Services Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Services\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Services\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/services.html\">UI/UX Design</a>\r\n                <a href=\"/pages/main/services.html\">Web Design</a>\r\n                <a href=\"/pages/main/services.html\">App Design</a>\r\n                <a href=\"/pages/main/services.html\">Marketing Emailer</a>\r\n                <a href=\"/pages/main/services.html\">Social Media</a>\r\n                <a href=\"/pages/main/services.html\">Logo Design</a>\r\n                <a href=\"/pages/main/services.html\">Graphics Design</a>\r\n                <a href=\"/pages/main/services.html\">Tool Design</a>\r\n                <a href=\"/pages/main/services.html\">Document Design</a>\r\n                <a href=\"/pages/main/services.html\">ETC Design</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Company Section -->\r\n        <div class=\"footer-section-block animate-slide-up\">\r\n            <h3 class=\"footer-heading\">\r\n                Company\r\n                <button class=\"footer-toggle\" aria-label=\"Toggle Company\">\r\n                    <span class=\"accordion-arrow-circle\">\r\n                        <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\r\n                            <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n                        </svg>\r\n                    </span>\r\n                </button>\r\n            </h3>\r\n            <div class=\"footer-links\">\r\n                <a href=\"/pages/main/about.html\">About Us</a>\r\n                <a href=\"/pages/blogs/blogs.html\">Blog</a>\r\n                \r\n                <a href=\"/pages/main/contact-page.html\">Contact</a>\r\n                <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\r\n                <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Copyright -->\r\n        <div class=\"footer-bottom animate-fade-in\">\r\n            <p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <!-- Large Background Text with Image - OUTSIDE container -->\r\n    <div class=\"footer-bg-text\">\r\n        <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\r\n    </div>\r\n\r\n</footer>"
         }
       ],
-      "updatedAt": "2026-06-26T09:39:28.827Z"
+      "updatedAt": "2026-06-26T10:18:38.622Z"
     },
     "ssd": {
       "editorType": "generic",
@@ -5364,10 +5364,110 @@
   "tracking": {
     "sessions": [
       {
+        "id": "sess-a980472d9b409819f036e0094",
+        "visitorId": "277bc7ea-b474-4618-b7ea-b33e14bad5d5",
+        "createdAt": "2026-06-26T10:16:08.608Z",
+        "lastSeenAt": "2026-06-26T10:18:38.622Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://127.0.0.1:3000/pages/main/about.html",
+        "viewport": "1078x708",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 150,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.126.0 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-be4875ea43d14819f036dfcd4",
+        "visitorId": "277bc7ea-b474-4618-b7ea-b33e14bad5d5",
+        "createdAt": "2026-06-26T10:16:07.650Z",
+        "lastSeenAt": "2026-06-26T10:16:08.517Z",
+        "currentPage": "about.html",
+        "path": "/pages/main/about.html",
+        "referrer": "http://127.0.0.1:3000/pages/main/services.html",
+        "viewport": "1078x708",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.126.0 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-1203579b1941e19f036df758",
+        "visitorId": "277bc7ea-b474-4618-b7ea-b33e14bad5d5",
+        "createdAt": "2026-06-26T10:16:06.244Z",
+        "lastSeenAt": "2026-06-26T10:16:07.592Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://127.0.0.1:3000/pages/main/work.html",
+        "viewport": "1078x708",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.126.0 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-d6e5a00cff36e19f036df199",
+        "visitorId": "277bc7ea-b474-4618-b7ea-b33e14bad5d5",
+        "createdAt": "2026-06-26T10:16:04.773Z",
+        "lastSeenAt": "2026-06-26T10:16:06.189Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://127.0.0.1:3000/",
+        "viewport": "1078x708",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.126.0 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-a3116772cbd5619f0367ecbb",
+        "visitorId": "277bc7ea-b474-4618-b7ea-b33e14bad5d5",
+        "createdAt": "2026-06-26T10:09:30.340Z",
+        "lastSeenAt": "2026-06-26T10:16:04.664Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1078x708",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 390,
+        "scrollDepth": 2,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.126.0 Chrome/148.0.7778.97 Electron/42.2.0 Safari/537.36",
+        "ip": "127.0.0.x"
+      },
+      {
         "id": "sess-c1fb41af1740219f034a5a9d",
         "visitorId": "8d1c5408-58ff-497a-9272-a1332dc39a50",
         "createdAt": "2026-06-26T09:37:12.375Z",
-        "lastSeenAt": "2026-06-26T09:39:27.802Z",
+        "lastSeenAt": "2026-06-26T10:18:27.787Z",
         "currentPage": "home",
         "path": "/",
         "referrer": "http://localhost:3000/pages/main/work.html",
@@ -5376,7 +5476,7 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 135,
+        "activeSeconds": 1050,
         "scrollDepth": 100,
         "eventCount": 0,
         "pageViews": 1,
@@ -5727,7 +5827,7 @@
         "id": "sess-5854916e8f4dd819f0251757c",
         "visitorId": "8d1c5408-58ff-497a-9272-a1332dc39a50",
         "createdAt": "2026-06-26T05:05:20.788Z",
-        "lastSeenAt": "2026-06-26T09:39:28.827Z",
+        "lastSeenAt": "2026-06-26T10:18:35.799Z",
         "currentPage": "home",
         "path": "/",
         "referrer": "http://localhost:3000/",
@@ -5736,7 +5836,7 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 4860,
+        "activeSeconds": 5505,
         "scrollDepth": 6,
         "eventCount": 0,
         "pageViews": 1,
@@ -9884,266 +9984,6 @@
         "ip": "1::*"
       },
       {
-        "id": "sess-715dea78512d9819edf59dc51",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:48.884Z",
-        "lastSeenAt": "2026-06-19T10:07:56.399Z",
-        "currentPage": "manglam-pdp.html",
-        "path": "/pages/details/manglam-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 8,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fe15742e71a18819edf59dacb",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:48.527Z",
-        "lastSeenAt": "2026-06-19T10:07:48.527Z",
-        "currentPage": "manglam-pdp.html",
-        "path": "/pages/details/manglam-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6387ff0d3b000819edf59c83d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:43.699Z",
-        "lastSeenAt": "2026-06-19T10:07:43.699Z",
-        "currentPage": "manglam-pdp.html",
-        "path": "/pages/details/manglam-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-ede59d4071f22819edf59b546",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:38.880Z",
-        "lastSeenAt": "2026-06-19T10:07:41.791Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b57a99b7f4d04819edf594ad3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:11.631Z",
-        "lastSeenAt": "2026-06-19T10:07:38.436Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 27,
-        "scrollDepth": 51,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0b03f1ce48d2b19edf5947c3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:10.851Z",
-        "lastSeenAt": "2026-06-19T10:07:11.294Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e6d2b21536fc19edf59442b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:09.924Z",
-        "lastSeenAt": "2026-06-19T10:07:10.581Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3695ff80c55619edf593a6b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:07.395Z",
-        "lastSeenAt": "2026-06-19T10:07:09.655Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-55e47fc42a471819edf593212",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:05.290Z",
-        "lastSeenAt": "2026-06-19T10:07:59.698Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 63,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-407e06ab8931a819edf58f9f3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:50.891Z",
-        "lastSeenAt": "2026-06-19T10:07:05.271Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 14,
-        "scrollDepth": 0,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-29924f6ae88cc819edf58f2c5",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:49.096Z",
-        "lastSeenAt": "2026-06-19T10:06:50.868Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/details/ab-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-87675d88b2f4e19edf58cd04",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:39.377Z",
-        "lastSeenAt": "2026-06-19T10:06:49.074Z",
-        "currentPage": "ab-pdp.html",
-        "path": "/pages/details/ab-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 10,
-        "scrollDepth": 0,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-23bc6c1d008b8819edf58c53c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:37.386Z",
-        "lastSeenAt": "2026-06-19T10:06:39.319Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
         "id": "sess-bb64e45ea3f1b819edf4d15ec",
         "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
         "createdAt": "2026-06-19T09:53:51.629Z",
@@ -10162,129 +10002,45 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-a8a775075d3ad819edf4d1020",
-        "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
-        "createdAt": "2026-06-19T09:53:50.178Z",
-        "lastSeenAt": "2026-06-19T09:53:51.556Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9cf05f34da53b19edf4c6db1",
-        "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
-        "createdAt": "2026-06-19T09:53:08.574Z",
-        "lastSeenAt": "2026-06-19T09:53:50.144Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 33,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a67c5cf89f64c19edf4c552a",
-        "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
-        "createdAt": "2026-06-19T09:53:02.272Z",
-        "lastSeenAt": "2026-06-19T09:53:08.352Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-90681182ef222819edf4c3430",
-        "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
-        "createdAt": "2026-06-19T09:52:53.895Z",
-        "lastSeenAt": "2026-06-19T09:53:02.193Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "997x892",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-eca5e090929a0819edf1c4ed0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T09:00:34.934Z",
-        "lastSeenAt": "2026-06-19T10:06:37.346Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2085,
-        "scrollDepth": 11,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-45fde8d5e041819edf1a3029",
-        "visitorId": "376bcb71-2220-48ee-aa41-210ca05d6b89",
-        "createdAt": "2026-06-19T08:58:16.027Z",
-        "lastSeenAt": "2026-06-19T09:52:51.143Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "997x892",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 975,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-853e18ae",
+        "sessionId": "sess-be4875ea43d14819f036dfcd4",
+        "page": "about.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-06-26T10:16:08.517Z"
+      },
+      {
+        "id": "evt-f2d32841",
+        "sessionId": "sess-1203579b1941e19f036df758",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "About",
+        "createdAt": "2026-06-26T10:16:07.592Z"
+      },
+      {
+        "id": "evt-2705f4c8",
+        "sessionId": "sess-d6e5a00cff36e19f036df199",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-06-26T10:16:06.189Z"
+      },
+      {
+        "id": "evt-d006ab49",
+        "sessionId": "sess-a3116772cbd5619f0367ecbb",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-06-26T10:16:04.664Z"
+      },
       {
         "id": "evt-b58e8053",
         "sessionId": "sess-27dd1a2b33cd2819f034a2ee2",
@@ -14748,42 +14504,6 @@
         "target": "a.logo-link",
         "text": "",
         "createdAt": "2026-06-13T05:22:37.173Z"
-      },
-      {
-        "id": "evt-bd6c179f",
-        "sessionId": "sess-288acf9856b919ebf6b8a1c",
-        "page": "home",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-06-13T05:20:37.735Z"
-      },
-      {
-        "id": "evt-243406e7",
-        "sessionId": "sess-ca898cb9a3cd719ebf6b6efd",
-        "page": "dsfsdf.html",
-        "type": "click",
-        "target": "button",
-        "text": "Decline",
-        "createdAt": "2026-06-13T05:19:13.555Z"
-      },
-      {
-        "id": "evt-5f293984",
-        "sessionId": "sess-23c35154a9cfa19ebf608bab",
-        "page": "dsfsdf.html",
-        "type": "click",
-        "target": "button",
-        "text": "Decline",
-        "createdAt": "2026-06-13T05:07:23.709Z"
-      },
-      {
-        "id": "evt-d67f0337",
-        "sessionId": "sess-1929115145db19ebf606ac7",
-        "page": "home",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-06-13T05:07:15.957Z"
       }
     ],
     "replays": [
@@ -15514,296 +15234,40 @@
             "url": "/data/replays/sess-36911397b533a19edf750ae9__part-001.webm"
           }
         ]
-      },
-      {
-        "id": "replay-3179efaf",
-        "sessionId": "sess-715dea78512d9819edf59dc51",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:56.399Z",
-        "updatedAt": "2026-06-19T10:07:56.399Z",
-        "page": "manglam-pdp.html",
-        "path": "/pages/details/manglam-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 7557,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-3f2f024e",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:56.399Z",
-            "durationMs": 7557,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-715dea78512d9819edf59dc51__part-001.webm",
-            "url": "/data/replays/sess-715dea78512d9819edf59dc51__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-d36f1c1d",
-        "sessionId": "sess-ede59d4071f22819edf59b546",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:41.791Z",
-        "updatedAt": "2026-06-19T10:07:41.791Z",
-        "page": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2932,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-a6d73cfe",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:41.791Z",
-            "durationMs": 2932,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 26564,
-            "file": "data/replays/sess-ede59d4071f22819edf59b546__part-001.webm",
-            "url": "/data/replays/sess-ede59d4071f22819edf59b546__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-d3cc0a29",
-        "sessionId": "sess-b57a99b7f4d04819edf594ad3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:38.436Z",
-        "updatedAt": "2026-06-19T10:07:38.436Z",
-        "page": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 26838,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-a5cf36d9",
-            "index": 2,
-            "createdAt": "2026-06-19T10:07:38.436Z",
-            "durationMs": 26838,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 48418,
-            "file": "data/replays/sess-b57a99b7f4d04819edf594ad3__part-002.webm",
-            "url": "/data/replays/sess-b57a99b7f4d04819edf594ad3__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-83ff08bc",
-        "sessionId": "sess-0b03f1ce48d2b19edf5947c3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:11.294Z",
-        "updatedAt": "2026-06-19T10:07:11.294Z",
-        "page": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 486,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-70641e99",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:11.294Z",
-            "durationMs": 486,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-0b03f1ce48d2b19edf5947c3__part-001.webm",
-            "url": "/data/replays/sess-0b03f1ce48d2b19edf5947c3__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-fd327c9f",
-        "sessionId": "sess-e6d2b21536fc19edf59442b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:10.581Z",
-        "updatedAt": "2026-06-19T10:07:10.581Z",
-        "page": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 692,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-e15d7480",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:10.581Z",
-            "durationMs": 692,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-e6d2b21536fc19edf59442b__part-001.webm",
-            "url": "/data/replays/sess-e6d2b21536fc19edf59442b__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-8139b49a",
-        "sessionId": "sess-3695ff80c55619edf593a6b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:09.655Z",
-        "updatedAt": "2026-06-19T10:07:09.655Z",
-        "page": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2259,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-f85638af",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:09.655Z",
-            "durationMs": 2259,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 28115,
-            "file": "data/replays/sess-3695ff80c55619edf593a6b__part-001.webm",
-            "url": "/data/replays/sess-3695ff80c55619edf593a6b__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-f978507f",
-        "sessionId": "sess-55e47fc42a471819edf593212",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:07.313Z",
-        "updatedAt": "2026-06-19T10:07:07.313Z",
-        "page": "work.html",
-        "path": "/pages/main/work.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2010,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-39cac41c",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:07.313Z",
-            "durationMs": 2010,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 20562,
-            "file": "data/replays/sess-55e47fc42a471819edf593212__part-001.webm",
-            "url": "/data/replays/sess-55e47fc42a471819edf593212__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-918388da",
-        "sessionId": "sess-407e06ab8931a819edf58f9f3",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:07:05.271Z",
-        "updatedAt": "2026-06-19T10:07:05.271Z",
-        "page": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 14349,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-38aac28f",
-            "index": 1,
-            "createdAt": "2026-06-19T10:07:05.271Z",
-            "durationMs": 14349,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-407e06ab8931a819edf58f9f3__part-001.webm",
-            "url": "/data/replays/sess-407e06ab8931a819edf58f9f3__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-5de5ade5",
-        "sessionId": "sess-29924f6ae88cc819edf58f2c5",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:50.868Z",
-        "updatedAt": "2026-06-19T10:06:50.868Z",
-        "page": "work.html",
-        "path": "/pages/main/work.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1784,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-ace3240c",
-            "index": 1,
-            "createdAt": "2026-06-19T10:06:50.868Z",
-            "durationMs": 1784,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 17942,
-            "file": "data/replays/sess-29924f6ae88cc819edf58f2c5__part-001.webm",
-            "url": "/data/replays/sess-29924f6ae88cc819edf58f2c5__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-4de9967f",
-        "sessionId": "sess-87675d88b2f4e19edf58cd04",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:49.074Z",
-        "updatedAt": "2026-06-19T10:06:49.074Z",
-        "page": "ab-pdp.html",
-        "path": "/pages/details/ab-pdp.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 9638,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-79321d48",
-            "index": 1,
-            "createdAt": "2026-06-19T10:06:49.074Z",
-            "durationMs": 9638,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-87675d88b2f4e19edf58cd04__part-001.webm",
-            "url": "/data/replays/sess-87675d88b2f4e19edf58cd04__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-e0a6eb36",
-        "sessionId": "sess-23bc6c1d008b8819edf58c53c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-06-19T10:06:39.319Z",
-        "updatedAt": "2026-06-19T10:06:39.319Z",
-        "page": "work.html",
-        "path": "/pages/main/work.html",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1893,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-bb9be091",
-            "index": 1,
-            "createdAt": "2026-06-19T10:06:39.319Z",
-            "durationMs": 1893,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 18533,
-            "file": "data/replays/sess-23bc6c1d008b8819edf58c53c__part-001.webm",
-            "url": "/data/replays/sess-23bc6c1d008b8819edf58c53c__part-001.webm"
-          }
-        ]
       }
     ]
   },
   "activity": [
+    {
+      "id": "act-5ce9c0f4",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-26T10:16:08.608Z"
+    },
+    {
+      "id": "act-f820d523",
+      "type": "visitor",
+      "message": "Visitor opened about.html",
+      "createdAt": "2026-06-26T10:16:07.650Z"
+    },
+    {
+      "id": "act-5b674174",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-06-26T10:16:06.244Z"
+    },
+    {
+      "id": "act-4202a8ab",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-06-26T10:16:04.774Z"
+    },
+    {
+      "id": "act-fa293741",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-06-26T10:09:30.341Z"
+    },
     {
       "id": "act-6ae75885",
       "type": "visitor",
@@ -16133,36 +15597,6 @@
       "type": "visitor",
       "message": "Visitor opened blog-3.html",
       "createdAt": "2026-06-25T11:22:35.407Z"
-    },
-    {
-      "id": "act-ec43b657",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-25T11:22:28.930Z"
-    },
-    {
-      "id": "act-7568e486",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-25T11:22:14.719Z"
-    },
-    {
-      "id": "act-b7594d31",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-06-25T11:05:08.310Z"
-    },
-    {
-      "id": "act-6b3629fc",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-06-25T11:05:05.967Z"
-    },
-    {
-      "id": "act-e2c0be38",
-      "type": "visitor",
-      "message": "Visitor opened services.html",
-      "createdAt": "2026-06-25T11:05:05.307Z"
     }
   ],
   "blogs": [
