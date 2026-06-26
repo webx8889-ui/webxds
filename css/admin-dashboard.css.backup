@@ -1,0 +1,80 @@
+:root {
+  --bg: #07111f;
+  --panel: #101c2f;
+  --panel-2: #15233a;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --accent: #f59e0b;
+  --accent-2: #fb7185;
+  --green: #22c55e;
+  --red: #ef4444;
+  --warning: #f97316;
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.28);
+  --radius: 22px;
+  --font: "Segoe UI", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body.webx-admin-v2 { margin: 0; font-family: var(--font); background: radial-gradient(circle at top left, rgba(251, 113, 133, 0.2), transparent 30%), radial-gradient(circle at top right, rgba(245, 158, 11, 0.15), transparent 25%), linear-gradient(180deg, #08101b 0%, #0d1627 100%); color: var(--text); }
+body.webx-admin-v2 button, body.webx-admin-v2 input, body.webx-admin-v2 textarea, body.webx-admin-v2 select { font: inherit; }
+body.webx-admin-v2 .hidden { display: none !important; }
+body.webx-admin-v2 .admin-shell { display: grid; grid-template-columns: 280px minmax(0, 1fr); min-height: 100vh; }
+body.webx-admin-v2 .sidebar { padding: 24px; border-right: 1px solid var(--border); background: rgba(5, 12, 24, 0.92); backdrop-filter: blur(16px); display: flex; flex-direction: column; gap: 24px; }
+body.webx-admin-v2 .brand { display: flex; align-items: center; gap: 14px; }
+body.webx-admin-v2 .brand-mark { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #111827; font-weight: 800; }
+body.webx-admin-v2 .brand-title, body.webx-admin-v2 .section-head h2, body.webx-admin-v2 .card-head h3, body.webx-admin-v2 .topbar h1, body.webx-admin-v2 .login-card h2 { margin: 0; }
+body.webx-admin-v2 .brand-subtitle, body.webx-admin-v2 .section-head p, body.webx-admin-v2 .topbar p, body.webx-admin-v2 .helper-text, body.webx-admin-v2 .foot-label { color: var(--muted); }
+body.webx-admin-v2 .sidebar-nav { display: grid; gap: 10px; }
+body.webx-admin-v2 .nav-link, body.webx-admin-v2 .btn { border: 0; cursor: pointer; transition: 0.2s ease; }
+body.webx-admin-v2 .nav-link { text-align: left; padding: 14px 16px; border-radius: 16px; background: transparent; color: var(--text); }
+body.webx-admin-v2 .nav-link:hover, body.webx-admin-v2 .nav-link.active { background: rgba(245, 158, 11, 0.16); }
+body.webx-admin-v2 .sidebar-foot { margin-top: auto; display: grid; gap: 10px; }
+body.webx-admin-v2 .status-pill { display: inline-flex; align-items: center; gap: 8px; width: fit-content; padding: 8px 12px; border-radius: 999px; font-size: 13px; border: 1px solid var(--border); }
+body.webx-admin-v2 .status-pill.success { color: #dcfce7; background: rgba(34, 197, 94, 0.12); }
+body.webx-admin-v2 .status-pill.warning { color: #fed7aa; background: rgba(249, 115, 22, 0.12); }
+body.webx-admin-v2 .main-panel { padding: 24px; }
+body.webx-admin-v2 .topbar { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; margin-bottom: 24px; }
+body.webx-admin-v2 .topbar-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+body.webx-admin-v2 .btn { padding: 12px 18px; border-radius: 14px; color: var(--text); }
+body.webx-admin-v2 .btn-primary { background: linear-gradient(135deg, var(--accent), #f97316); color: #101010; font-weight: 700; }
+body.webx-admin-v2 .btn-secondary { background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border); }
+body.webx-admin-v2 .btn-danger { background: rgba(239, 68, 68, 0.12); color: #fecaca; border: 1px solid rgba(239, 68, 68, 0.25); }
+body.webx-admin-v2 .btn:hover { transform: translateY(-1px); }
+body.webx-admin-v2 .panel { display: none; }
+body.webx-admin-v2 .panel.active-panel, body.webx-admin-v2 .login-panel { display: block; }
+body.webx-admin-v2 .login-panel { min-height: calc(100vh - 120px); display: grid; place-items: center; }
+body.webx-admin-v2 .login-card, body.webx-admin-v2 .card, body.webx-admin-v2 .metric-card, body.webx-admin-v2 .lead-card { background: rgba(16, 28, 47, 0.9); border: 1px solid var(--border); box-shadow: var(--shadow); border-radius: var(--radius); }
+body.webx-admin-v2 .login-card { width: min(460px, 100%); padding: 28px; }
+body.webx-admin-v2 .dashboard-grid { display: grid; gap: 24px; }
+body.webx-admin-v2 .section-head { margin-bottom: 16px; }
+body.webx-admin-v2 .metrics-grid, body.webx-admin-v2 .two-col { display: grid; gap: 18px; }
+body.webx-admin-v2 .metrics-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 18px; }
+body.webx-admin-v2 .metric-card { padding: 20px; }
+body.webx-admin-v2 .metric-label { color: var(--muted); font-size: 14px; margin-bottom: 10px; }
+body.webx-admin-v2 .metric-value { font-size: clamp(28px, 4vw, 40px); font-weight: 800; }
+body.webx-admin-v2 .two-col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+body.webx-admin-v2 .card { padding: 20px; }
+body.webx-admin-v2 .card-head { margin-bottom: 14px; }
+body.webx-admin-v2 .feed-list, body.webx-admin-v2 .lead-list, body.webx-admin-v2 .service-list { display: grid; gap: 12px; }
+body.webx-admin-v2 .feed-item, body.webx-admin-v2 .service-item { padding: 14px 16px; border-radius: 16px; background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border); }
+body.webx-admin-v2 .feed-item-title, body.webx-admin-v2 .lead-name { font-weight: 700; }
+body.webx-admin-v2 .feed-item-sub, body.webx-admin-v2 .lead-meta, body.webx-admin-v2 .lead-message, body.webx-admin-v2 .service-meta { color: var(--muted); }
+body.webx-admin-v2 .lead-card { padding: 18px; display: grid; gap: 12px; }
+body.webx-admin-v2 .lead-top, body.webx-admin-v2 .row-actions, body.webx-admin-v2 .lead-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+body.webx-admin-v2 .badge { display: inline-flex; padding: 6px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+body.webx-admin-v2 .badge.new { background: rgba(245, 158, 11, 0.15); color: #fde68a; }
+body.webx-admin-v2 .badge.contacted { background: rgba(59, 130, 246, 0.18); color: #bfdbfe; }
+body.webx-admin-v2 .badge.closed { background: rgba(34, 197, 94, 0.15); color: #bbf7d0; }
+body.webx-admin-v2 .stack-form { display: grid; gap: 14px; }
+body.webx-admin-v2 .stack-form label { display: grid; gap: 8px; }
+body.webx-admin-v2 .stack-form span { font-size: 14px; color: var(--muted); }
+body.webx-admin-v2 input, body.webx-admin-v2 textarea, body.webx-admin-v2 select { width: 100%; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--border); background: rgba(5, 12, 24, 0.7); color: var(--text); }
+body.webx-admin-v2 textarea { resize: vertical; }
+body.webx-admin-v2 .toggle-row { grid-template-columns: 1fr auto; align-items: center; }
+body.webx-admin-v2 .toggle-row input { width: 22px; height: 22px; }
+body.webx-admin-v2 .service-item { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+body.webx-admin-v2 .service-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+body.webx-admin-v2 .toast { position: fixed; right: 20px; bottom: 20px; padding: 12px 16px; border-radius: 14px; background: rgba(15, 23, 42, 0.94); border: 1px solid var(--border); color: var(--text); opacity: 0; pointer-events: none; transform: translateY(8px); transition: 0.2s ease; z-index: 9999; }
+body.webx-admin-v2 .toast.visible { opacity: 1; transform: translateY(0); }
+@media (max-width: 1100px) { body.webx-admin-v2 .admin-shell { grid-template-columns: 1fr; } body.webx-admin-v2 .sidebar { position: sticky; top: 0; z-index: 10; padding: 18px; } body.webx-admin-v2 .sidebar-nav { grid-template-columns: repeat(5, minmax(120px, 1fr)); overflow-x: auto; } body.webx-admin-v2 .metrics-grid, body.webx-admin-v2 .two-col { grid-template-columns: 1fr; } }
+@media (max-width: 720px) { body.webx-admin-v2 .main-panel { padding: 16px; } body.webx-admin-v2 .topbar { flex-direction: column; } body.webx-admin-v2 .sidebar-nav { grid-template-columns: repeat(5, minmax(140px, 1fr)); } body.webx-admin-v2 .lead-top, body.webx-admin-v2 .lead-actions, body.webx-admin-v2 .service-item, body.webx-admin-v2 .row-actions { align-items: stretch; } body.webx-admin-v2 .btn { width: 100%; } body.webx-admin-v2 .service-actions { width: 100%; } }

@@ -1,245 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Start Your Project | Service Request Form | Webx Design Studio</title>
-  <meta name="description" content="Tell us about your project. Fill out our service request form and the Webx Design Studio team will craft a tailored solution for your business needs." />
-  <link rel="canonical" href="https://webxds.com/pages/system/service-form.html" />
-  <meta name="robots" content="noindex, follow" />
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" href="/assets/images/icons/favicon.svg" type="image/x-icon">
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Start Your Project | Service Request Form | Webx Design Studio</title>
+<meta name="description" content="Tell us about your project. Fill out our service request form and the Webx Design Studio team will craft a tailored solution for your business needs."/>
+<link rel="canonical" href="https://webxds.com/pages/system/service-form.html"/>
+<meta name="robots" content="noindex, follow"/>
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="/assets/images/icons/favicon.svg" type="image/x-icon">
+<script src="https://www.google.com/recaptcha/api.js" async defer="defer"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 </head>
-
 <body>
 <main>
-  <h1 class="sr-only">Start Your Project with Webx Design Studio</h1>
-
-  <section class="service-hero-section">
-    <!-- Navbar -->
-    <nav class="home-navbar">
-      <div class="home-nav-container">
-        <div class="home-logo">
-          <a href="/" class="logo-link">
-            <img src="/assets/images/logos/webx-logo.svg" alt="Webox Design Studio">
-          </a>
-        </div>
-        <a href="/pages/main/contact-page.html" class="home-contact-btn">
-          <span>CONTACT US</span>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
-        </a>
-      </div>
-    </nav>
-  </section>
-
-  <section class="contact-section">
-    <div class="contact-container">
-      <div class="contact-header">
-        <h2 class="contact-title">Let's Build Something Amazing</h2>
-        <p class="contact-subtitle">
-          Tell us about your project requirements and our team will craft a perfect solution tailored to your business
-          needs.
-        </p>
-      </div>
-      <form class="contact-form" id="contactForm" novalidate>
-        <div class="contact-row">
-          <!-- Full Name Field -->
-          <div class="contact-field">
-            <label>Full Name <span class="astric">*</span></label>
-            <input type="text" name="name" id="fullName" placeholder="Enter your Full Name" required
-              pattern="[A-Za-z/s]+" data-error="Please enter only alphabetic characters">
-            <span class="error-message" id="nameError"></span>
-          </div>
-          <!-- Email Field -->
-          <div class="contact-field">
-            <label>Email Address <span class="astric">*</span></label>
-            <input type="email" name="email" id="emailInput" placeholder="you@email.com" required
-              data-error="Please enter a valid email address">
-            <span class="error-message" id="emailError"></span>
-          </div>
-          <!-- Phone Number Field with Country Code -->
-          <div class="contact-field">
-            <label>Phone Number <span class="astric">*</span></label>
-            <div class="phone-input-wrapper">
-              <select class="country-code-select" name="countryCode" id="countryCode">
-                <option value="+91" data-flag="IN" selected>IN +91</option>
-                <option value="+1" data-flag="US">US +1</option>
-                <option value="+44" data-flag="UK">UK +44</option>
-                <option value="+971" data-flag="UAE">UAE +971</option>
-                <option value="+61" data-flag="AU">AU +61</option>
-                <option value="+81" data-flag="JP">JP +81</option>
-                <option value="+86" data-flag="CN">CN +86</option>
-                <option value="+65" data-flag="SG">SG +65</option>
-                <option value="+60" data-flag="MY">MY +60</option>
-                <option value="+92" data-flag="PK">PK +92</option>
-                <option value="+880" data-flag="BD">BD +880</option>
-                <option value="+94" data-flag="LK">LK +94</option>
-              </select>
-              <input type="tel" name="phone" id="phoneInput" placeholder="1234567890" required maxlength="10"
-                pattern="[0-9]{10}" data-error="Please enter exactly 10 digits">
-            </div>
-            <span class="error-message" id="phoneError"></span>
-          </div>
-        </div>
-        <div class="contact-row">
-          <!-- Budget Field -->
-          <div class="contact-field">
-            <label>Project Budget</label>
-            <div class="budget-input-wrapper">
-              <span class="rupee-symbol">Rs</span>
-              <input type="text" name="budget" id="budgetInput" placeholder="Enter your budget amount" maxlength="10">
-            </div>
-            <span class="error-message" id="budgetError"></span>
-          </div>
-          <!-- Services Field -->
-          <div class="contact-field contact-services">
-            <label>Project Type </label>
-            <div class="services-grid">
-              <label class="service-checkbox">
-                <input type="checkbox" name="service" value="UI/UX Design" checked>
-                <span class="checkmark"></span>
-                <span class="service-label">UI/UX Design</span>
-              </label>
-              <label class="service-checkbox">
-                <input type="checkbox" name="service" value="Website Development">
-                <span class="checkmark"></span>
-                <span class="service-label">Website Development</span>
-              </label>
-              <label class="service-checkbox">
-                <input type="checkbox" name="service" value="Mobile Application">
-                <span class="checkmark"></span>
-                <span class="service-label">Mobile Application</span>
-              </label>
-              <label class="service-checkbox">
-                <input type="checkbox" name="service" value="Branding & Identity">
-                <span class="checkmark"></span>
-                <span class="service-label">Branding &amp; Identity</span>
-              </label>
-              <label class="service-checkbox">
-                <input type="checkbox" name="service" value="Other">
-                <span class="checkmark"></span>
-                <span class="service-label">Other</span>
-              </label>
-            </div>
-            <span class="error-message" id="servicesError"></span>
-          </div>
-        </div>
-        <!-- Project Details -->
-        <div class="contact-row contact-details-row">
-          <div class="contact-field full-width">
-            <label>Project Details</label>
-            <textarea name="message" id="projectDetails" rows="3" required minlength="20"
-              data-error="Please enter at least 20 characters"
-              placeholder="Tell us about your project goals, target audience, key features needed, and any reference websites or inspirations..."></textarea>
-            <span class="error-message" id="messageError"></span>
-          </div>
-        </div>
-        <!-- reCAPTCHA -->
-        <div class="contact-row">
-          <div class="contact-field">
-            <div class="g-recaptcha" data-sitekey="6Lf79jssAAAAAMXwKYN49fxYYxdxE_kTa53O0vwf"
-              data-callback="enableSubmitBtn" data-expired-callback="disableSubmitBtn"></div>
-            <span class="error-message" id="recaptchaError"></span>
-          </div>
-        </div>
-
-        <!-- Submit Button -->
-        <div class="contact-actions">
-          <button type="submit" class="accordion-cta-button" id="submitBtn" disabled>
-            <span>SEND</span>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <!-- Success Message Section (Hidden by default) -->
-  <section class="success-message-section" id="successMessage" style="display: none;">
-    <div class="success-outer-container">
-      <!-- Empty Box on Top -->
-      <div class="success-image-box">
-        <img src="/assets/images/banners/thank-you-banner.webp" alt="thank-you-banner" class="services-image">
-      </div>
-  </section>
-
-  <section class="reimagining-section">
-    <div class="reimagining-container">
-      <!-- Stats Box -->
-      <div class="stats-box">
-        <div class="stat-item">
-          <div class="stat-number" data-target="5">0</div>
-          <div class="stat-label">Years of Expertise</div>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="11">0</div>
-          <div class="stat-label">Projects Delivered</div>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="101">0</div>
-          <div class="stat-label">Creative Pros</div>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="10">0</div>
-          <div class="stat-label">Industries Serviced</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- ===============================
-     FOOTER SECTION
-     =============================== -->
-  <footer class="footer-section-form">
-    <div class="footer-container-form">
-      <!-- Copyright -->
-      <div class="footer-bottom-form">
-        <p class="footer-copyright">&copy;2025 Webx Design Studio. All rights reserved</p>
-      </div>
-
-    </div>
-  </footer>
-
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http:/www.w3.org/2000/svg">
-      <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round" />
-    </svg>
-  </button>
-
-  <script>
-    console.log('Testing script load...');
+<h1 class="sr-only">Start Your Project with Webx Design Studio</h1>
+<section class="service-hero-section">
+<nav class="home-navbar">
+<div class="home-nav-container">
+<div class="home-logo">
+<a href="/" class="logo-link">
+<img src="/assets/images/logos/webx-logo.svg" alt="Webox Design Studio">
+</a>
+</div>
+<a href="/pages/main/contact-page.html" class="home-contact-btn">
+<span>CONTACT US</span>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+</div>
+</nav>
+</section>
+<section class="contact-section">
+<div class="contact-container">
+<div class="contact-header">
+<h2 class="contact-title">Let's Build Something Amazing</h2>
+<p class="contact-subtitle">
+Tell us about your project requirements and our team will craft a perfect solution tailored to your business needs.
+</p>
+</div>
+<form class="contact-form" id="contactForm" novalidate>
+<div class="contact-row">
+<div class="contact-field">
+<label>Full Name <span class="astric">*</span></label>
+<input type="text" name="name" id="fullName" placeholder="Enter your Full Name" required pattern="[A-Za-z/s]+" data-error="Please enter only alphabetic characters">
+<span class="error-message" id="nameError"></span>
+</div>
+<div class="contact-field">
+<label>Email Address <span class="astric">*</span></label>
+<input type="email" name="email" id="emailInput" placeholder="you@email.com" required data-error="Please enter a valid email address">
+<span class="error-message" id="emailError"></span>
+</div>
+<div class="contact-field">
+<label>Phone Number <span class="astric">*</span></label>
+<div class="phone-input-wrapper">
+<select class="country-code-select" name="countryCode" id="countryCode">
+<option value="+91" data-flag="IN" selected="selected">IN +91</option>
+<option value="+1" data-flag="US">US +1</option>
+<option value="+44" data-flag="UK">UK +44</option>
+<option value="+971" data-flag="UAE">UAE +971</option>
+<option value="+61" data-flag="AU">AU +61</option>
+<option value="+81" data-flag="JP">JP +81</option>
+<option value="+86" data-flag="CN">CN +86</option>
+<option value="+65" data-flag="SG">SG +65</option>
+<option value="+60" data-flag="MY">MY +60</option>
+<option value="+92" data-flag="PK">PK +92</option>
+<option value="+880" data-flag="BD">BD +880</option>
+<option value="+94" data-flag="LK">LK +94</option>
+</select>
+<input type="tel" name="phone" id="phoneInput" placeholder="1234567890" required maxlength="10" pattern="[0-9]{10}" data-error="Please enter exactly 10 digits">
+</div>
+<span class="error-message" id="phoneError"></span>
+</div>
+</div>
+<div class="contact-row">
+<div class="contact-field">
+<label>Project Budget</label>
+<div class="budget-input-wrapper">
+<span class="rupee-symbol">Rs</span>
+<input type="text" name="budget" id="budgetInput" placeholder="Enter your budget amount" maxlength="10">
+</div>
+<span class="error-message" id="budgetError"></span>
+</div>
+<div class="contact-field contact-services">
+<label>Project Type </label>
+<div class="services-grid">
+<label class="service-checkbox">
+<input type="checkbox" name="service" value="UI/UX Design" checked="checked">
+<span class="checkmark"></span>
+<span class="service-label">UI/UX Design</span>
+</label>
+<label class="service-checkbox">
+<input type="checkbox" name="service" value="Website Development">
+<span class="checkmark"></span>
+<span class="service-label">Website Development</span>
+</label>
+<label class="service-checkbox">
+<input type="checkbox" name="service" value="Mobile Application">
+<span class="checkmark"></span>
+<span class="service-label">Mobile Application</span>
+</label>
+<label class="service-checkbox">
+<input type="checkbox" name="service" value="Branding & Identity">
+<span class="checkmark"></span>
+<span class="service-label">Branding &amp; Identity</span>
+</label>
+<label class="service-checkbox">
+<input type="checkbox" name="service" value="Other">
+<span class="checkmark"></span>
+<span class="service-label">Other</span>
+</label>
+</div>
+<span class="error-message" id="servicesError"></span>
+</div>
+</div>
+<div class="contact-row contact-details-row">
+<div class="contact-field full-width">
+<label>Project Details</label>
+<textarea name="message" id="projectDetails" rows="3" required minlength="20" data-error="Please enter at least 20 characters" placeholder="Tell us about your project goals, target audience, key features needed, and any reference websites or inspirations..."></textarea>
+<span class="error-message" id="messageError"></span>
+</div>
+</div>
+<div class="contact-row">
+<div class="contact-field">
+<div class="g-recaptcha" data-sitekey="6Lf79jssAAAAAMXwKYN49fxYYxdxE_kTa53O0vwf" data-callback="enableSubmitBtn" data-expired-callback="disableSubmitBtn"></div>
+<span class="error-message" id="recaptchaError"></span>
+</div>
+</div>
+<div class="contact-actions">
+<button type="submit" class="accordion-cta-button" id="submitBtn" disabled="disabled">
+<span>SEND</span>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+</div>
+</form>
+</div>
+</section>
+<section class="success-message-section" id="successMessage" style="display: none;">
+<div class="success-outer-container">
+<div class="success-image-box">
+<img src="/assets/images/banners/thank-you-banner.webp" alt="thank-you-banner" class="services-image">
+</div>
+</div></section>
+<section class="reimagining-section">
+<div class="reimagining-container">
+<div class="stats-box">
+<div class="stat-item">
+<div class="stat-number" data-target="5">0</div>
+<div class="stat-label">Years of Expertise</div>
+</div>
+<div class="stat-divider"></div>
+<div class="stat-item">
+<div class="stat-number" data-target="11">0</div>
+<div class="stat-label">Projects Delivered</div>
+</div>
+<div class="stat-divider"></div>
+<div class="stat-item">
+<div class="stat-number" data-target="101">0</div>
+<div class="stat-label">Creative Pros</div>
+</div>
+<div class="stat-divider"></div>
+<div class="stat-item">
+<div class="stat-number" data-target="10">0</div>
+<div class="stat-label">Industries Serviced</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer-section-form">
+<div class="footer-container-form">
+<div class="footer-bottom-form">
+<p class="footer-copyright">&copy;2025 Webx Design Studio. All rights reserved</p>
+</div>
+</div>
+</footer>
+<button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http:/www.w3.org/2000/svg">
+<path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+<script>
+console.log('Testing script load...');
     console.log('Script location:', window.location.href);
-  </script>
-
-  </main>
+</script>
+</main>
 <script src="/js/script.js?v=20260311-2"></script>
-
-  <script>
-    console.log('After script load');
-  </script>
+<script>
+console.log('After script load');
+</script>
 </body>
-
 </html>
-
-
-
-
-
-

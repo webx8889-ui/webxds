@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admin Dashboard - Webx Design Studio</title>
-  <meta name="description" content="Admin dashboard for Webx Design Studio to manage leads, projects, performance and content operations." />
-  <link rel="canonical" href="https://webxds.com/pages/system/admin-dashboard.html" />
-  <meta name="robots" content="noindex, nofollow" />
-  <link rel="preconnect" href="https://fonts.cdnfonts.com" />
-  <link href="https://fonts.cdnfonts.com/css/atten-new" rel="stylesheet" />
-  <!-- Tabler Icons for PNG-style SVG icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
-  <link rel="stylesheet" href="/css/admin-dashboard.css" />
-  <style>
-    /* ===== WEBX DESIGN STUDIO THEME ===== */
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Admin Dashboard - Webx Design Studio</title>
+<meta name="description" content="Admin dashboard for Webx Design Studio to manage leads, projects, performance and content operations."/>
+<link rel="canonical" href="https://webxds.com/pages/system/admin-dashboard.html"/>
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="preconnect" href="https://fonts.cdnfonts.com"/>
+<link href="https://fonts.cdnfonts.com/css/atten-new" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"/>
+<link rel="stylesheet" href="/css/admin-dashboard.css"/>
+<style>
+/* ===== WEBX DESIGN STUDIO THEME ===== */
     :root {
       --c-bg: #000000;
       --c-bg-2: #0a0a0a;
@@ -771,648 +770,610 @@
 
     /* ===== ACCENT LINES ON SECTION SEPARATOR ===== */
     .accent-line { height: 1px; background: linear-gradient(to right, var(--c-accent), transparent); margin: 28px 0; }
-  </style>
+</style>
 </head>
 <body>
-
 <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
-
-<!-- SIDEBAR -->
 <aside class="sidebar" id="sidebar">
-  <div class="sidebar-logo">
-    <div class="sidebar-logo-icon">WX</div>
-    <div>
-      <div class="sidebar-logo-text">Webx Design</div>
-      <div class="sidebar-logo-sub">Admin Dashboard</div>
-    </div>
-  </div>
-  <nav class="sidebar-nav">
-    <div class="sidebar-section-label">Main</div>
-    <div class="nav-item active" onclick="showPage('dashboard',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/layout-dashboard.svg" alt="" /></span>
-      Dashboard
-    </div>
-    <div class="nav-item" onclick="showPage('analytics',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/chart-bar.svg" alt="" /></span>
-      Analytics
-    </div>
-    <div class="nav-item" onclick="showPage('leads',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/inbox.svg" alt="" /></span>
-      Leads / Inquiries
-      <span class="nav-badge">5</span>
-    </div>
-    <div class="sidebar-section-label">Website Content</div>
-    <div class="nav-item" onclick="showPage('pages',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/file-text.svg" alt="" /></span>
-      Pages
-    </div>
-    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('services', this) : showPage('services',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt="" /></span>
-      Services
-    </div>
-    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', this) : showPage('portfolio',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/photo.svg" alt="" /></span>
-      Portfolio / Work
-    </div>
-    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', this) : showPage('blog',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt="" /></span>
-      Blog
-      <span class="nav-badge green">4</span>
-    </div>
-    <div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', this) : showPage('clients',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/handshake.svg" alt="" /></span>
-      Testimonials
-    </div>
-    <div class="sidebar-section-label">Manage</div>
-    <div class="nav-item" onclick="showPage('team',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></span>
-      Team
-    </div>
-    <div class="nav-item" onclick="showPage('media',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/folder.svg" alt="" /></span>
-      Media / Assets
-    </div>
-    <div class="nav-item" onclick="showPage('seo',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/search.svg" alt="" /></span>
-      SEO Manager
-    </div>
-    <div class="nav-item" onclick="showPage('settings',this)">
-      <span class="nav-icon"><img src="https://api.iconify.design/tabler/adjustments.svg" alt="" /></span>
-      Settings
-    </div>
-  </nav>
-  <div class="sidebar-user">
-    <div class="user-avatar">PG</div>
-    <div style="flex:1;min-width:0">
-      <div class="user-name">Webx </div>
-      <div class="user-role">Super Admin</div>
-    </div>
-    <div class="user-status" title="Online"></div>
-  </div>
-</aside>
-
-<!-- MAIN -->
-<div class="main-wrapper">
-  <header class="topbar">
-    <button class="icon-btn" id="sidebarToggleBtn" onclick="toggleSidebar()" title="Collapse / Expand Sidebar">
-      <img src="https://api.iconify.design/tabler/menu-2.svg" alt="toggle" />
-    </button>
-    <button class="icon-btn mobile-topbar-toggle" onclick="openSidebar()">
-      <img src="https://api.iconify.design/tabler/menu-2.svg" alt="menu" />
-    </button>
-    <div class="topbar-title" id="topbarTitle">Dashboard <span>/ Overview</span></div>
-    <div class="topbar-search">
-      <img src="https://api.iconify.design/tabler/search.svg" alt="" />
-      <input type="text" placeholder="Search anything..." />
-    </div>
-    <div class="topbar-actions">
-      <div class="topbar-date" id="topbarDate"></div>
-      <div class="icon-btn" title="Notifications" onclick="showToast('You have 3 new leads!','inbox')">
-        <img src="https://api.iconify.design/tabler/bell.svg" alt="notifications" />
-        <div class="notif-dot"></div>
-      </div>
-      <div class="icon-btn" title="Visit Website" onclick="window.open('/','_blank')">
-        <img src="https://api.iconify.design/tabler/world.svg" alt="website" />
-      </div>
-      <div class="icon-btn" title="Refresh" onclick="showToast('Data refreshed!','refresh',true)">
-        <img src="https://api.iconify.design/tabler/refresh.svg" alt="refresh" />
-      </div>
-    </div>
-  </header>
-
-  <main class="content">
-
-    <!-- ========== DASHBOARD ========== -->
-    <div class="page-panel active" id="page-dashboard">
-      <div class="section-header">
-        <div>
-          <div class="section-title">Dashboard Overview</div>
-          <div class="section-subtitle">Here's what's happening with your studio today.</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
-            <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" /> New Blog Post
-          </button>
-          <button class="btn btn-outline" onclick="showToast('Report exported!','download',true)">
-            <img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export Report
-          </button>
-        </div>
-      </div>
-
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-top">
-            <div class="stat-label">Total Inquiries</div>
-            <div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/inbox.svg" alt="" /></div>
-          </div>
-          <div class="stat-value">47</div>
-          <div class="stat-change">2 this month</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-top">
-            <div class="stat-label">Total Clients</div>
-            <div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></div>
-          </div>
-          <div class="stat-value">12</div>
-          <div class="stat-change down">1 inactive</div>
-        </div>
-      </div>
-
-      <div class="grid-6-4">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Inquiry Trend</div>
-              <div class="card-subtitle">Monthly inquiries - 2025</div>
-            </div>
-          </div>
-          <div class="chart-area" id="barChart"></div>
-        </div>
-        <div class="card">
-          <div class="card-header"><div class="card-title">Quick Actions</div></div>
-          <div class="quick-actions">
-            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showPage('blog', document.querySelectorAll('.nav-item')[6]); window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
-              <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" /> New Blog Post
-            </div>
-            <div class="quick-btn" onclick="showPage('services', document.querySelectorAll('.nav-item')[4]); showModal('newService')">
-              <img src="https://api.iconify.design/tabler/settings-plus.svg" alt="" /> Add Service
-            </div>
-            <div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showPage('portfolio', document.querySelectorAll('.nav-item')[5])">
-              <img src="https://api.iconify.design/tabler/photo-plus.svg" alt="" /> Add Project
-            </div>
-            <div class="quick-btn" onclick="window.open('/','_blank')">
-              <img src="https://api.iconify.design/tabler/external-link.svg" alt="" /> View Website
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">Recent Inquiries</div>
-            <div class="card-action" onclick="showPage('leads', document.querySelectorAll('.nav-item')[2])">View all -></div>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>Client</th><th>Service</th><th>Status</th><th>Date</th></tr></thead>
-              <tbody>
-                <tr>
-                  <td><div class="client-row"><div class="client-avatar">RK</div><div><div class="client-name">Rahul K.</div><div class="client-email">rahul@email.com</div></div></div></td>
-                  <td>UI/UX Design</td><td><span class="badge badge-gold">New</span></td><td>21 Feb</td>
-                </tr>
-                <tr>
-                  <td><div class="client-row"><div class="client-avatar" style="background:#fff;color:#000">PS</div><div><div class="client-name">Priya S.</div><div class="client-email">priya@biz.com</div></div></div></td>
-                  <td>Website Design</td><td><span class="badge badge-green">Replied</span></td><td>20 Feb</td>
-                </tr>
-                <tr>
-                  <td><div class="client-row"><div class="client-avatar" style="background:#222;color:#fff">AM</div><div><div class="client-name">Ankit M.</div><div class="client-email">ankit@co.in</div></div></div></td>
-                  <td>Brand Identity</td><td><span class="badge badge-blue">In Progress</span></td><td>19 Feb</td>
-                </tr>
-                <tr>
-                  <td><div class="client-row"><div class="client-avatar" style="background:#1a1a1a;color:#888">SJ</div><div><div class="client-name">Sneha J.</div><div class="client-email">sneha@store.com</div></div></div></td>
-                  <td>App Design</td><td><span class="badge badge-red">Pending</span></td><td>18 Feb</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header"><div class="card-title">Recent Activity</div></div>
-          <div>
-            <div class="activity-item">
-              <div class="activity-dot" style="background:var(--c-accent)"></div>
-              <div><div class="activity-text">New inquiry from <strong>Rahul K.</strong> - UI/UX Design</div><div class="activity-time">2 hours ago</div></div>
-            </div>
-            <div class="activity-item">
-              <div class="activity-dot" style="background:var(--c-green)"></div>
-              <div><div class="activity-text">Blog post <strong>"Landing Page Design Guide 2026"</strong> published</div><div class="activity-time">5 hours ago</div></div>
-            </div>
-            <div class="activity-item">
-              <div class="activity-dot" style="background:var(--c-red)"></div>
-              <div><div class="activity-text">Portfolio project <strong>Tictax</strong> updated</div><div class="activity-time">Yesterday</div></div>
-            </div>
-            <div class="activity-item">
-              <div class="activity-dot" style="background:var(--c-blue)"></div>
-              <div><div class="activity-text">Client <strong>Morphico</strong> testimonial added</div><div class="activity-time">2 days ago</div></div>
-            </div>
-            <div class="activity-item">
-              <div class="activity-dot" style="background:var(--c-accent)"></div>
-              <div><div class="activity-text">SEO meta updated for <strong>About page</strong></div><div class="activity-time">3 days ago</div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== ANALYTICS ========== -->
-    <div class="page-panel" id="page-analytics">
-      <div class="section-header">
-        <div><div class="section-title">Analytics</div><div class="section-subtitle">Website performance overview</div></div>
-        <button class="btn btn-outline"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" style="filter:brightness(0) invert(0.6)"/> Last 30 Days</button>
-      </div>
-      <div class="stats-grid">
-        <div class="stat-card"><div class="stat-top"><div class="stat-label">Page Views</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/eye.svg" alt="" /></div></div><div class="stat-value">12.4K</div><div class="stat-change">Up 18% vs last month</div></div>
-        <div class="stat-card"><div class="stat-top"><div class="stat-label">Unique Visitors</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/user.svg" alt="" /></div></div><div class="stat-value">3,821</div><div class="stat-change">Up 9%</div></div>
-        <div class="stat-card"><div class="stat-top"><div class="stat-label">Avg. Session</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/clock.svg" alt="" /></div></div><div class="stat-value">3:24</div><div class="stat-change">Up 0:14</div></div>
-        <div class="stat-card"><div class="stat-top"><div class="stat-label">Bounce Rate</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/door-exit.svg" alt="" /></div></div><div class="stat-value">42%</div><div class="stat-change down">Up 3% (worse)</div></div>
-      </div>
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-header"><div class="card-title">Traffic by Page</div></div>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>Page</th><th>Views</th><th>Share</th><th>Trend</th></tr></thead>
-              <tbody>
-                <tr><td>/ (Home)</td><td>5,200</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:85%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
-                <tr><td>/services</td><td>2,800</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:60%;background:#fff"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
-                <tr><td>/work</td><td>1,900</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:45%;background:var(--c-blue)"></div></div></td><td style="color:var(--c-muted)">Rising</td></tr>
-                <tr><td>/blog</td><td>1,500</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:35%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
-                <tr><td>/contact</td><td>980</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:25%;background:var(--c-muted-2)"></div></div></td><td style="color:var(--c-red)">Dropping</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header"><div class="card-title">Traffic Sources</div></div>
-          <div>
-            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Organic Search</span><span style="font-size:12.5px;font-weight:700;color:var(--c-accent)">48%</span></div><div class="progress-bar"><div class="progress-fill" style="width:48%;background:var(--c-accent)"></div></div></div>
-            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Direct</span><span style="font-size:12.5px;font-weight:700">27%</span></div><div class="progress-bar"><div class="progress-fill" style="width:27%;background:#fff"></div></div></div>
-            <div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Social Media</span><span style="font-size:12.5px;font-weight:700;color:var(--c-green)">15%</span></div><div class="progress-bar"><div class="progress-fill" style="width:15%;background:var(--c-green)"></div></div></div>
-            <div><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Referral</span><span style="font-size:12.5px;font-weight:700;color:var(--c-blue)">10%</span></div><div class="progress-bar"><div class="progress-fill" style="width:10%;background:var(--c-blue)"></div></div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== LEADS ========== -->
-    <div class="page-panel" id="page-leads">
-      <div class="section-header">
-        <div><div class="section-title">Leads & Inquiries</div><div class="section-subtitle">All incoming client inquiries</div></div>
-        <div style="display:flex;gap:10px">
-          <button class="btn btn-outline">Filter</button>
-          <button class="btn btn-primary" onclick="showToast('Exported to CSV!','download',true)"><img src="https://api.iconify.design/tabler/download.svg" alt="" /> Export</button>
-        </div>
-      </div>
-      <div id="leadsList">
-        <div class="lead-card">
-          <div class="lead-top">
-            <div><div class="lead-name">Rahul Kulkarni</div><div class="lead-service">Service: UI/UX Design | Budget: Rs 50,000</div></div>
-            <span class="badge badge-gold">New</span>
-          </div>
-          <div class="lead-details">
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> rahul@email.com</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 98765 43210</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 21 Feb 2026</div>
-          </div>
-          <div class="lead-message">"We need a complete redesign of our SaaS platform dashboard with modern UI components and dark mode support."</div>
-          <div style="display:flex;gap:8px;margin-top:14px">
-            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
-            <button class="btn btn-outline" onclick="showToast('Status updated','refresh')" style="font-size:11.5px;padding:7px 14px">Update Status</button>
-            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
-          </div>
-        </div>
-        <div class="lead-card">
-          <div class="lead-top">
-            <div><div class="lead-name">Priya Shah</div><div class="lead-service">Service: Website Design | Budget: Rs 30,000</div></div>
-            <span class="badge badge-green">Replied</span>
-          </div>
-          <div class="lead-details">
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> priya@business.com</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 87654 32109</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 20 Feb 2026</div>
-          </div>
-          <div class="lead-message">"Looking for a professional e-commerce website for our clothing brand. Need clean design with mobile-first approach."</div>
-          <div style="display:flex;gap:8px;margin-top:14px">
-            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
-            <button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
-            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
-          </div>
-        </div>
-        <div class="lead-card">
-          <div class="lead-top">
-            <div><div class="lead-name">Ankit Mehta</div><div class="lead-service">Service: Brand Identity | Budget: Rs 20,000</div></div>
-            <span class="badge badge-blue">In Progress</span>
-          </div>
-          <div class="lead-details">
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /> ankit@company.in</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt="" /> +91 76543 21098</div>
-            <div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" /> 19 Feb 2026</div>
-          </div>
-          <div class="lead-message">"Need full brand identity package - logo, colors, typography, and brand guidelines document for our startup."</div>
-          <div style="display:flex;gap:8px;margin-top:14px">
-            <button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt="" /> Reply</button>
-            <button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
-            <button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== PAGES ========== -->
-    <div class="page-panel" id="page-pages">
-      <div class="section-header">
-        <div><div class="section-title">Page Manager</div><div class="section-subtitle">Edit content of your website pages</div></div>
-      </div>
-      <div class="content-pages-grid" id="pageCardGrid">
-        <div class="page-card" onclick="openPageEditor('home')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/home.svg" alt="" /></div>
-          <div class="page-card-name">Home Page</div>
-          <div class="page-card-desc">Hero, services, work, testimonials, FAQ sections</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-        <div class="page-card" onclick="openPageEditor('about')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/users.svg" alt="" /></div>
-          <div class="page-card-name">About Page</div>
-          <div class="page-card-desc">Studio story, process, core values, testimonials</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-        <div class="page-card" onclick="openPageEditor('services')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt="" /></div>
-          <div class="page-card-name">Services Page</div>
-          <div class="page-card-desc">UI/UX, Web, App, Brand, Social, Emailer services</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-        <div class="page-card" onclick="openPageEditor('work')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/layout-grid.svg" alt="" /></div>
-          <div class="page-card-name">Work Page</div>
-          <div class="page-card-desc">Portfolio projects showcase grid</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-        <div class="page-card" onclick="openPageEditor('blog')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt="" /></div>
-          <div class="page-card-name">Blog Page</div>
-          <div class="page-card-desc">Articles, tips and industry insights</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-        <div class="page-card" onclick="openPageEditor('contact')">
-          <div class="page-card-icon"><img src="https://api.iconify.design/tabler/mail.svg" alt="" /></div>
-          <div class="page-card-name">Contact Page</div>
-          <div class="page-card-desc">Contact form, email, phone, address</div>
-          <div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
-        </div>
-      </div>
-      <div class="editor-wrap" id="pageEditor">
-        <div style="display:flex;align-items:center;gap:12px;margin:24px 0 20px">
-          <button class="btn btn-outline" onclick="closePageEditor()">Back</button>
-          <div class="section-title" id="editorTitle">Editing: Home Page</div>
-        </div>
-        <div class="card" id="pageEditorPrimaryCard">
-          <div class="editor-field"><div class="editor-label">Page Title (SEO)</div><input class="editor-input" id="editPageTitle" type="text" placeholder="Enter page title..." /></div>
-          <div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" id="editPageMeta" placeholder="Enter meta description..."></textarea></div>
-          <div class="editor-field"><div class="editor-label">Hero Heading</div><input class="editor-input" id="editPageHero" type="text" placeholder="Enter hero heading..." /></div>
-          <div class="editor-field"><div class="editor-label">Hero Sub-text</div><textarea class="editor-input" style="min-height:80px" id="editPageSub" placeholder="Enter hero subtext..."></textarea></div>
-          <div class="editor-actions">
-            <button class="btn btn-primary" onclick="savePageContent()"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Changes</button>
-            <button class="btn btn-outline" onclick="showToast('Preview opened','eye')">Preview</button>
-            <button class="btn btn-outline" onclick="closePageEditor()">Cancel</button>
-          </div>
-        </div>
-        <div id="homeCmsMount"></div>
-      </div>
-    </div>
-
-    <!-- ========== SERVICES ========== -->
-    <div class="page-panel" id="page-services">
-      <div class="section-header">
-        <div><div class="section-title">Services Manager</div><div class="section-subtitle">Manage your offered services</div></div>
-        <button class="btn btn-primary" onclick="showModal('newService')">+ Add Service</button>
-      </div>
-      <div id="serviceList">
-        <div class="service-list-item"><div class="service-num">01</div><div class="service-info"><div class="service-name">UI/UX Experience Design</div><div class="service-desc">Research and interaction flows built for clarity and ease</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">02</div><div class="service-info"><div class="service-name">Websites & Digital Spaces</div><div class="service-desc">Responsive platforms built for performance and brand presence</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">03</div><div class="service-info"><div class="service-name">Product & App Interfaces</div><div class="service-desc">Intuitive mobile and web experiences that users love</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">04</div><div class="service-info"><div class="service-name">Visual Brand Creatives</div><div class="service-desc">Identity systems and visuals that bring brands to life</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">05</div><div class="service-info"><div class="service-name">Social Media Creatives</div><div class="service-desc">Scroll-stopping content built to connect and grow communities</div></div><span class="badge badge-gold">Paused</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">06</div><div class="service-info"><div class="service-name">Custom Tools & Systems</div><div class="service-desc">Dashboards and SaaS platforms shaped for usability and scale</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">07</div><div class="service-info"><div class="service-name">Document Design</div><div class="service-desc">Impactful decks and reports built for clear communication</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-        <div class="service-list-item"><div class="service-num">08</div><div class="service-info"><div class="service-name">Marketing Emailer</div><div class="service-desc">Structured emails designed to capture attention and inspire action</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
-      </div>
-    </div>
-
-    <!-- ========== PORTFOLIO ========== -->
-    <div class="page-panel" id="page-portfolio">
-      <div class="section-header">
-        <div><div class="section-title">Portfolio / Work</div><div class="section-subtitle">Manage portfolio entries and case study detail pages</div></div>
-        <button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showToast('Project editor ready','photo')">Open PDP Editor</button>
-      </div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#ff6b6b)"><img src="https://api.iconify.design/tabler/home.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Morphico Wallpapers</div><div class="portfolio-type">Interior Brand / E-commerce</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#fff,#ddd)"><img src="https://api.iconify.design/tabler/stethoscope.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Arogya Bharat</div><div class="portfolio-type">Healthcare / UI System</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#000)"><img src="https://api.iconify.design/tabler/coins.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Tictax</div><div class="portfolio-type">Fintech / Tax Platform</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#333,#111)"><img src="https://api.iconify.design/tabler/building-factory.svg" alt="" style="width:44px;height:44px;filter:brightness(0) invert(1)" /></div><div class="portfolio-body"><div class="portfolio-name">Dharmesh Enterprise</div><div class="portfolio-type">Business / Inventory App</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#555)"><img src="https://api.iconify.design/tabler/settings-2.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Mecon</div><div class="portfolio-type">Industrial / Brand Identity</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-        <div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#111,#FEA800)"><img src="https://api.iconify.design/tabler/diamond.svg" alt="" style="width:44px;height:44px;filter:brightness(0)" /></div><div class="portfolio-body"><div class="portfolio-name">Manglam</div><div class="portfolio-type">Finance / Consultancy</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
-      </div>
-    </div>
-
-    <!-- ========== BLOG ========== -->
-    <div class="page-panel" id="page-blog">
-      <div class="section-header">
-        <div><div class="section-title">Blog Manager</div><div class="section-subtitle">Manage your blog posts and articles</div></div>
-        <button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">+ New Post</button>
-      </div>
-      <div id="blogPostList"><div class="blog-list-empty">Loading blog posts…</div></div>
-    </div>
-
-    <!-- ========== CLIENTS ========== -->
-    <div class="page-panel" id="page-clients">
-      <div class="section-header">
-        <div><div class="section-title">Testimonials</div><div class="section-subtitle">Manage client logos and review quotes</div></div>
-        <button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', document.querySelectorAll('.nav-item')[7]) : showToast('Testimonial editor ready','users')">Open Testimonials Editor</button>
-      </div>
-      <div class="card">
-        <div class="card-header"><div class="card-title">Active Clients</div></div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Client</th><th>Project Type</th><th>Testimonial</th><th>Status</th><th>Actions</th></tr></thead>
-            <tbody>
-              <tr><td><strong>Arogya Bharat</strong></td><td>Healthcare UI/UX</td><td><span style="font-size:11.5px;color:var(--c-muted)">"A truly dependable and creative team..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-              <tr><td><strong>Morphico</strong></td><td>E-commerce / Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Transformed our digital presence..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-              <tr><td><strong>Tictax</strong></td><td>Fintech Platform</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Boosted conversion rates by 200%..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-              <tr><td><strong>Mecon</strong></td><td>Industrial Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Clarity they brought made a real difference..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-              <tr><td><strong>Gurukrupa</strong></td><td>Brand / Logo</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Brand visuals improved significantly..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-              <tr><td><strong>Manglam</strong></td><td>Finance Consultancy</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Delivered exactly what we needed..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== TEAM ========== -->
-    <div class="page-panel" id="page-team">
-      <div class="section-header">
-        <div><div class="section-title">Team Management</div><div class="section-subtitle">Studio members and access control</div></div>
-        <button class="btn btn-primary" onclick="showToast('Invite sent!','mail',true)">+ Invite Member</button>
-      </div>
-      <div class="card">
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Member</th><th>Role</th><th>Access Level</th><th>Status</th><th>Last Active</th><th>Action</th></tr></thead>
-            <tbody>
-              <tr><td><div class="client-row"><div class="user-avatar">PG</div><div><div class="client-name">Piyush Gohil</div><div class="client-email">piyushgohil8889@gmail.com</div></div></div></td><td>Founder / Designer</td><td><span class="badge badge-gold">Super Admin</span></td><td><span class="badge badge-green">Online</span></td><td>Now</td><td>-</td></tr>
-              <tr><td><div class="client-row"><div class="user-avatar" style="background:#fff;color:#000">DE</div><div><div class="client-name">Dev Editor</div><div class="client-email">webx8889@gmail.com</div></div></div></td><td>Content Manager</td><td><span class="badge badge-gray">Editor</span></td><td><span class="badge badge-gray">Offline</span></td><td>2 days ago</td><td><button class="action-btn delete" onclick="showToast('Access revoked','lock')">Revoke</button></td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== MEDIA ========== -->
-    <div class="page-panel" id="page-media">
-      <div class="section-header">
-        <div><div class="section-title">Media & Assets</div><div class="section-subtitle">Images, videos, SVGs and files</div></div>
-        <button class="btn btn-primary" onclick="showToast('Upload panel ready','upload')">
-          <img src="https://api.iconify.design/tabler/upload.svg" alt="" /> Upload Files
-        </button>
-      </div>
-      <div class="grid-3">
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" style="display:flex;align-items:center;gap:8px">
-              <img src="https://api.iconify.design/tabler/photo.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
-              assets/images/
-            </div>
-          </div>
-          <div style="font-size:12.5px;color:var(--c-muted)">Hero mockups, client logos, blog images, icons</div>
-          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">48 files | 12.4 MB</div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" style="display:flex;align-items:center;gap:8px">
-              <img src="https://api.iconify.design/tabler/video.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
-              videos/
-            </div>
-          </div>
-          <div style="font-size:12.5px;color:var(--c-muted)">Background videos, showreel, intro clips</div>
-          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">3 files | 86.2 MB</div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" style="display:flex;align-items:center;gap:8px">
-              <img src="https://api.iconify.design/tabler/code.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)" />
-              css/ js/
-            </div>
-          </div>
-          <div style="font-size:12.5px;color:var(--c-muted)">Style sheets and JavaScript files</div>
-          <div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">2 files | 298 KB</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== SEO ========== -->
-    <div class="page-panel" id="page-seo">
-      <div class="section-header">
-        <div><div class="section-title">SEO Manager</div><div class="section-subtitle">Manage meta tags, OG data and keywords</div></div>
-        <button class="btn btn-primary" onclick="showToast('SEO changes saved!','check',true)">
-          <img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save All
-        </button>
-      </div>
-      <div class="card">
-        <div class="card-header"><div class="card-title">Home Page SEO</div></div>
-        <div class="editor-field"><div class="editor-label">Title Tag</div><input class="editor-input" type="text" value="UI/UX Design Agency for Websites & Apps - Webx Design Studio" /></div>
-        <div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" style="min-height:80px">Webx Design Studio is a UI/UX design agency helping startups and businesses build high-converting websites, apps, and digital experiences.</textarea></div>
-        <div class="editor-field"><div class="editor-label">Focus Keywords</div><input class="editor-input" type="text" value="UI UX design agency, web design studio, app design, brand identity" /></div>
-        <div class="editor-field"><div class="editor-label">OG Image URL</div><input class="editor-input" type="text" value="/assets/images/og-image.png" /></div>
-        <div class="editor-actions">
-          <button class="btn btn-primary" onclick="showToast('SEO saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save</button>
-          <button class="btn btn-outline">Preview SERP</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== SETTINGS ========== -->
-    <div class="page-panel" id="page-settings">
-      <div class="section-header">
-        <div><div class="section-title">Settings</div><div class="section-subtitle">Website and dashboard preferences</div></div>
-      </div>
-      <div class="settings-grid">
-        <div class="settings-nav">
-          <div class="settings-nav-item active" onclick="activateSettingsNav(this)">
-            <img src="https://api.iconify.design/tabler/settings.svg" alt="" /> General
-          </div>
-          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
-            <img src="https://api.iconify.design/tabler/mail.svg" alt="" /> Email / EmailJS
-          </div>
-          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
-            <img src="https://api.iconify.design/tabler/lock.svg" alt="" /> Security
-          </div>
-          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
-            <img src="https://api.iconify.design/tabler/world.svg" alt="" /> Social Links
-          </div>
-          <div class="settings-nav-item" onclick="activateSettingsNav(this)">
-            <img src="https://api.iconify.design/tabler/palette.svg" alt="" /> Appearance
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-title" style="margin-bottom:20px;font-size:15px">General Settings</div>
-          <div class="editor-field"><div class="editor-label">Studio Name</div><input class="editor-input" type="text" value="Webx Design Studio" /></div>
-          <div class="editor-field"><div class="editor-label">Contact Email</div><input class="editor-input" type="email" value="hello@webxdesign.com" /></div>
-          <div class="editor-field"><div class="editor-label">Phone</div><input class="editor-input" type="text" value="+91 XXXXX XXXXX" /></div>
-          <div class="toggle-wrap">
-            <div><div class="toggle-label">Maintenance Mode</div><div class="toggle-sub">Put site in maintenance mode</div></div>
-            <div class="toggle" onclick="this.classList.toggle('on');showToast(this.classList.contains('on')?'Maintenance ON':'Maintenance OFF','settings')"></div>
-          </div>
-          <div class="toggle-wrap">
-            <div><div class="toggle-label">Contact Form</div><div class="toggle-sub">Accept new inquiries</div></div>
-            <div class="toggle on" onclick="this.classList.toggle('on')"></div>
-          </div>
-          <div class="toggle-wrap">
-            <div><div class="toggle-label">Blog Comments</div><div class="toggle-sub">Allow comments on blog posts</div></div>
-            <div class="toggle" onclick="this.classList.toggle('on')"></div>
-          </div>
-          <div class="editor-actions" style="margin-top:20px">
-            <button class="btn btn-primary" onclick="showToast('Settings saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Settings</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </main>
+<div class="sidebar-logo">
+<div class="sidebar-logo-icon">WX</div>
+<div>
+<div class="sidebar-logo-text">Webx Design</div>
+<div class="sidebar-logo-sub">Admin Dashboard</div>
 </div>
-
-<!-- MODALS -->
+</div>
+<nav class="sidebar-nav">
+<div class="sidebar-section-label">Main</div>
+<div class="nav-item active" onclick="showPage('dashboard',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/layout-dashboard.svg" alt=""/></span>
+Dashboard
+</div>
+<div class="nav-item" onclick="showPage('analytics',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/chart-bar.svg" alt=""/></span>
+Analytics
+</div>
+<div class="nav-item" onclick="showPage('leads',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/inbox.svg" alt=""/></span>
+Leads / Inquiries
+<span class="nav-badge">5</span>
+</div>
+<div class="sidebar-section-label">Website Content</div>
+<div class="nav-item" onclick="showPage('pages',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/file-text.svg" alt=""/></span>
+Pages
+</div>
+<div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('services', this) : showPage('services',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt=""/></span>
+Services
+</div>
+<div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', this) : showPage('portfolio',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/photo.svg" alt=""/></span>
+Portfolio / Work
+</div>
+<div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', this) : showPage('blog',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt=""/></span>
+Blog
+<span class="nav-badge green">4</span>
+</div>
+<div class="nav-item" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', this) : showPage('clients',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/handshake.svg" alt=""/></span>
+Testimonials
+</div>
+<div class="sidebar-section-label">Manage</div>
+<div class="nav-item" onclick="showPage('team',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/users.svg" alt=""/></span>
+Team
+</div>
+<div class="nav-item" onclick="showPage('media',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/folder.svg" alt=""/></span>
+Media / Assets
+</div>
+<div class="nav-item" onclick="showPage('seo',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/search.svg" alt=""/></span>
+SEO Manager
+</div>
+<div class="nav-item" onclick="showPage('settings',this)">
+<span class="nav-icon"><img src="https://api.iconify.design/tabler/adjustments.svg" alt=""/></span>
+Settings
+</div>
+</nav>
+<div class="sidebar-user">
+<div class="user-avatar">PG</div>
+<div style="flex:1;min-width:0">
+<div class="user-name">Webx </div>
+<div class="user-role">Super Admin</div>
+</div>
+<div class="user-status" title="Online"></div>
+</div>
+</aside>
+<div class="main-wrapper">
+<header class="topbar">
+<button class="icon-btn" id="sidebarToggleBtn" onclick="toggleSidebar()" title="Collapse / Expand Sidebar">
+<img src="https://api.iconify.design/tabler/menu-2.svg" alt="toggle"/>
+</button>
+<button class="icon-btn mobile-topbar-toggle" onclick="openSidebar()">
+<img src="https://api.iconify.design/tabler/menu-2.svg" alt="menu"/>
+</button>
+<div class="topbar-title" id="topbarTitle">Dashboard <span>/ Overview</span></div>
+<div class="topbar-search">
+<img src="https://api.iconify.design/tabler/search.svg" alt=""/>
+<input type="text" placeholder="Search anything..."/>
+</div>
+<div class="topbar-actions">
+<div class="topbar-date" id="topbarDate"></div>
+<div class="icon-btn" title="Notifications" onclick="showToast('You have 3 new leads!','inbox')">
+<img src="https://api.iconify.design/tabler/bell.svg" alt="notifications"/>
+<div class="notif-dot"></div>
+</div>
+<div class="icon-btn" title="Visit Website" onclick="window.open('/','_blank')">
+<img src="https://api.iconify.design/tabler/world.svg" alt="website"/>
+</div>
+<div class="icon-btn" title="Refresh" onclick="showToast('Data refreshed!','refresh',true)">
+<img src="https://api.iconify.design/tabler/refresh.svg" alt="refresh"/>
+</div>
+</div>
+</header>
+<main class="content">
+<div class="page-panel active" id="page-dashboard">
+<div class="section-header">
+<div>
+<div class="section-title">Dashboard Overview</div>
+<div class="section-subtitle">Here's what's happening with your studio today.</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+<button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
+<img src="https://api.iconify.design/tabler/pencil-plus.svg" alt=""/> New Blog Post
+</button>
+<button class="btn btn-outline" onclick="showToast('Report exported!','download',true)">
+<img src="https://api.iconify.design/tabler/download.svg" alt=""/> Export Report
+</button>
+</div>
+</div>
+<div class="stats-grid">
+<div class="stat-card">
+<div class="stat-top">
+<div class="stat-label">Total Inquiries</div>
+<div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/inbox.svg" alt=""/></div>
+</div>
+<div class="stat-value">47</div>
+<div class="stat-change">2 this month</div>
+</div>
+<div class="stat-card">
+<div class="stat-top">
+<div class="stat-label">Total Clients</div>
+<div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/users.svg" alt=""/></div>
+</div>
+<div class="stat-value">12</div>
+<div class="stat-change down">1 inactive</div>
+</div>
+</div>
+<div class="grid-6-4">
+<div class="card">
+<div class="card-header">
+<div>
+<div class="card-title">Inquiry Trend</div>
+<div class="card-subtitle">Monthly inquiries - 2025</div>
+</div>
+</div>
+<div class="chart-area" id="barChart"></div>
+</div>
+<div class="card">
+<div class="card-header"><div class="card-title">Quick Actions</div></div>
+<div class="quick-actions">
+<div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('blogs', document.querySelectorAll('.nav-item')[6]) : showPage('blog', document.querySelectorAll('.nav-item')[6]); window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">
+<img src="https://api.iconify.design/tabler/pencil-plus.svg" alt=""/> New Blog Post
+</div>
+<div class="quick-btn" onclick="showPage('services', document.querySelectorAll('.nav-item')[4]); showModal('newService')">
+<img src="https://api.iconify.design/tabler/settings-plus.svg" alt=""/> Add Service
+</div>
+<div class="quick-btn" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showPage('portfolio', document.querySelectorAll('.nav-item')[5])">
+<img src="https://api.iconify.design/tabler/photo-plus.svg" alt=""/> Add Project
+</div>
+<div class="quick-btn" onclick="window.open('/','_blank')">
+<img src="https://api.iconify.design/tabler/external-link.svg" alt=""/> View Website
+</div>
+</div>
+</div>
+</div>
+<div class="grid-2">
+<div class="card">
+<div class="card-header">
+<div class="card-title">Recent Inquiries</div>
+<div class="card-action" onclick="showPage('leads', document.querySelectorAll('.nav-item')[2])">View all -></div>
+</div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Client</th><th>Service</th><th>Status</th><th>Date</th></tr></thead>
+<tbody>
+<tr>
+<td><div class="client-row"><div class="client-avatar">RK</div><div><div class="client-name">Rahul K.</div><div class="client-email">rahul@email.com</div></div></div></td>
+<td>UI/UX Design</td><td><span class="badge badge-gold">New</span></td><td>21 Feb</td>
+</tr>
+<tr>
+<td><div class="client-row"><div class="client-avatar" style="background:#fff;color:#000">PS</div><div><div class="client-name">Priya S.</div><div class="client-email">priya@biz.com</div></div></div></td>
+<td>Website Design</td><td><span class="badge badge-green">Replied</span></td><td>20 Feb</td>
+</tr>
+<tr>
+<td><div class="client-row"><div class="client-avatar" style="background:#222;color:#fff">AM</div><div><div class="client-name">Ankit M.</div><div class="client-email">ankit@co.in</div></div></div></td>
+<td>Brand Identity</td><td><span class="badge badge-blue">In Progress</span></td><td>19 Feb</td>
+</tr>
+<tr>
+<td><div class="client-row"><div class="client-avatar" style="background:#1a1a1a;color:#888">SJ</div><div><div class="client-name">Sneha J.</div><div class="client-email">sneha@store.com</div></div></div></td>
+<td>App Design</td><td><span class="badge badge-red">Pending</span></td><td>18 Feb</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="card">
+<div class="card-header"><div class="card-title">Recent Activity</div></div>
+<div>
+<div class="activity-item">
+<div class="activity-dot" style="background:var(--c-accent)"></div>
+<div><div class="activity-text">New inquiry from <strong>Rahul K.</strong> - UI/UX Design</div><div class="activity-time">2 hours ago</div></div>
+</div>
+<div class="activity-item">
+<div class="activity-dot" style="background:var(--c-green)"></div>
+<div><div class="activity-text">Blog post <strong>"Landing Page Design Guide 2026"</strong> published</div><div class="activity-time">5 hours ago</div></div>
+</div>
+<div class="activity-item">
+<div class="activity-dot" style="background:var(--c-red)"></div>
+<div><div class="activity-text">Portfolio project <strong>Tictax</strong> updated</div><div class="activity-time">Yesterday</div></div>
+</div>
+<div class="activity-item">
+<div class="activity-dot" style="background:var(--c-blue)"></div>
+<div><div class="activity-text">Client <strong>Morphico</strong> testimonial added</div><div class="activity-time">2 days ago</div></div>
+</div>
+<div class="activity-item">
+<div class="activity-dot" style="background:var(--c-accent)"></div>
+<div><div class="activity-text">SEO meta updated for <strong>About page</strong></div><div class="activity-time">3 days ago</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-analytics">
+<div class="section-header">
+<div><div class="section-title">Analytics</div><div class="section-subtitle">Website performance overview</div></div>
+<button class="btn btn-outline"><img src="https://api.iconify.design/tabler/calendar.svg" alt="" style="filter:brightness(0) invert(0.6)"/> Last 30 Days</button>
+</div>
+<div class="stats-grid">
+<div class="stat-card"><div class="stat-top"><div class="stat-label">Page Views</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/eye.svg" alt=""/></div></div><div class="stat-value">12.4K</div><div class="stat-change">Up 18% vs last month</div></div>
+<div class="stat-card"><div class="stat-top"><div class="stat-label">Unique Visitors</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/user.svg" alt=""/></div></div><div class="stat-value">3,821</div><div class="stat-change">Up 9%</div></div>
+<div class="stat-card"><div class="stat-top"><div class="stat-label">Avg. Session</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/clock.svg" alt=""/></div></div><div class="stat-value">3:24</div><div class="stat-change">Up 0:14</div></div>
+<div class="stat-card"><div class="stat-top"><div class="stat-label">Bounce Rate</div><div class="stat-icon-wrap"><img src="https://api.iconify.design/tabler/door-exit.svg" alt=""/></div></div><div class="stat-value">42%</div><div class="stat-change down">Up 3% (worse)</div></div>
+</div>
+<div class="grid-2">
+<div class="card">
+<div class="card-header"><div class="card-title">Traffic by Page</div></div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Page</th><th>Views</th><th>Share</th><th>Trend</th></tr></thead>
+<tbody>
+<tr><td>/ (Home)</td><td>5,200</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:85%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+<tr><td>/services</td><td>2,800</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:60%;background:#fff"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+<tr><td>/work</td><td>1,900</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:45%;background:var(--c-blue)"></div></div></td><td style="color:var(--c-muted)">Rising</td></tr>
+<tr><td>/blog</td><td>1,500</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:35%;background:var(--c-accent)"></div></div></td><td style="color:var(--c-green)">Live</td></tr>
+<tr><td>/contact</td><td>980</td><td><div class="progress-bar" style="width:120px"><div class="progress-fill" style="width:25%;background:var(--c-muted-2)"></div></div></td><td style="color:var(--c-red)">Dropping</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="card">
+<div class="card-header"><div class="card-title">Traffic Sources</div></div>
+<div>
+<div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Organic Search</span><span style="font-size:12.5px;font-weight:700;color:var(--c-accent)">48%</span></div><div class="progress-bar"><div class="progress-fill" style="width:48%;background:var(--c-accent)"></div></div></div>
+<div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Direct</span><span style="font-size:12.5px;font-weight:700">27%</span></div><div class="progress-bar"><div class="progress-fill" style="width:27%;background:#fff"></div></div></div>
+<div style="margin-bottom:16px"><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Social Media</span><span style="font-size:12.5px;font-weight:700;color:var(--c-green)">15%</span></div><div class="progress-bar"><div class="progress-fill" style="width:15%;background:var(--c-green)"></div></div></div>
+<div><div style="display:flex;justify-content:space-between;margin-bottom:7px"><span style="font-size:12.5px">Referral</span><span style="font-size:12.5px;font-weight:700;color:var(--c-blue)">10%</span></div><div class="progress-bar"><div class="progress-fill" style="width:10%;background:var(--c-blue)"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-leads">
+<div class="section-header">
+<div><div class="section-title">Leads & Inquiries</div><div class="section-subtitle">All incoming client inquiries</div></div>
+<div style="display:flex;gap:10px">
+<button class="btn btn-outline">Filter</button>
+<button class="btn btn-primary" onclick="showToast('Exported to CSV!','download',true)"><img src="https://api.iconify.design/tabler/download.svg" alt=""/> Export</button>
+</div>
+</div>
+<div id="leadsList">
+<div class="lead-card">
+<div class="lead-top">
+<div><div class="lead-name">Rahul Kulkarni</div><div class="lead-service">Service: UI/UX Design | Budget: Rs 50,000</div></div>
+<span class="badge badge-gold">New</span>
+</div>
+<div class="lead-details">
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt=""/> rahul@email.com</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt=""/> +91 98765 43210</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt=""/> 21 Feb 2026</div>
+</div>
+<div class="lead-message">"We need a complete redesign of our SaaS platform dashboard with modern UI components and dark mode support."</div>
+<div style="display:flex;gap:8px;margin-top:14px">
+<button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt=""/> Reply</button>
+<button class="btn btn-outline" onclick="showToast('Status updated','refresh')" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+<button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+</div>
+</div>
+<div class="lead-card">
+<div class="lead-top">
+<div><div class="lead-name">Priya Shah</div><div class="lead-service">Service: Website Design | Budget: Rs 30,000</div></div>
+<span class="badge badge-green">Replied</span>
+</div>
+<div class="lead-details">
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt=""/> priya@business.com</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt=""/> +91 87654 32109</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt=""/> 20 Feb 2026</div>
+</div>
+<div class="lead-message">"Looking for a professional e-commerce website for our clothing brand. Need clean design with mobile-first approach."</div>
+<div style="display:flex;gap:8px;margin-top:14px">
+<button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt=""/> Reply</button>
+<button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+<button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+</div>
+</div>
+<div class="lead-card">
+<div class="lead-top">
+<div><div class="lead-name">Ankit Mehta</div><div class="lead-service">Service: Brand Identity | Budget: Rs 20,000</div></div>
+<span class="badge badge-blue">In Progress</span>
+</div>
+<div class="lead-details">
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/mail.svg" alt=""/> ankit@company.in</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/phone.svg" alt=""/> +91 76543 21098</div>
+<div class="lead-detail"><img src="https://api.iconify.design/tabler/calendar.svg" alt=""/> 19 Feb 2026</div>
+</div>
+<div class="lead-message">"Need full brand identity package - logo, colors, typography, and brand guidelines document for our startup."</div>
+<div style="display:flex;gap:8px;margin-top:14px">
+<button class="btn btn-primary" onclick="showToast('Reply sent!','mail',true)" style="font-size:11.5px;padding:7px 14px"><img src="https://api.iconify.design/tabler/send.svg" alt=""/> Reply</button>
+<button class="btn btn-outline" style="font-size:11.5px;padding:7px 14px">Update Status</button>
+<button class="btn btn-danger" onclick="this.closest('.lead-card').remove();showToast('Lead deleted','trash')" style="font-size:11.5px;padding:7px 14px">Delete</button>
+</div>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-pages">
+<div class="section-header">
+<div><div class="section-title">Page Manager</div><div class="section-subtitle">Edit content of your website pages</div></div>
+</div>
+<div class="content-pages-grid" id="pageCardGrid">
+<div class="page-card" onclick="openPageEditor('home')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/home.svg" alt=""/></div>
+<div class="page-card-name">Home Page</div>
+<div class="page-card-desc">Hero, services, work, testimonials, FAQ sections</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+<div class="page-card" onclick="openPageEditor('about')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/users.svg" alt=""/></div>
+<div class="page-card-name">About Page</div>
+<div class="page-card-desc">Studio story, process, core values, testimonials</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+<div class="page-card" onclick="openPageEditor('services')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/settings.svg" alt=""/></div>
+<div class="page-card-name">Services Page</div>
+<div class="page-card-desc">UI/UX, Web, App, Brand, Social, Emailer services</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+<div class="page-card" onclick="openPageEditor('work')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/layout-grid.svg" alt=""/></div>
+<div class="page-card-name">Work Page</div>
+<div class="page-card-desc">Portfolio projects showcase grid</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+<div class="page-card" onclick="openPageEditor('blog')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/pencil.svg" alt=""/></div>
+<div class="page-card-name">Blog Page</div>
+<div class="page-card-desc">Articles, tips and industry insights</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+<div class="page-card" onclick="openPageEditor('contact')">
+<div class="page-card-icon"><img src="https://api.iconify.design/tabler/mail.svg" alt=""/></div>
+<div class="page-card-name">Contact Page</div>
+<div class="page-card-desc">Contact form, email, phone, address</div>
+<div class="page-card-footer"><span class="page-card-status">Live</span><span class="btn btn-outline" style="font-size:11px;padding:4px 12px">Edit</span></div>
+</div>
+</div>
+<div class="editor-wrap" id="pageEditor">
+<div style="display:flex;align-items:center;gap:12px;margin:24px 0 20px">
+<button class="btn btn-outline" onclick="closePageEditor()">Back</button>
+<div class="section-title" id="editorTitle">Editing: Home Page</div>
+</div>
+<div class="card" id="pageEditorPrimaryCard">
+<div class="editor-field"><div class="editor-label">Page Title (SEO)</div><input class="editor-input" id="editPageTitle" type="text" placeholder="Enter page title..."/></div>
+<div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" id="editPageMeta" placeholder="Enter meta description..."></textarea></div>
+<div class="editor-field"><div class="editor-label">Hero Heading</div><input class="editor-input" id="editPageHero" type="text" placeholder="Enter hero heading..."/></div>
+<div class="editor-field"><div class="editor-label">Hero Sub-text</div><textarea class="editor-input" style="min-height:80px" id="editPageSub" placeholder="Enter hero subtext..."></textarea></div>
+<div class="editor-actions">
+<button class="btn btn-primary" onclick="savePageContent()"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt=""/> Save Changes</button>
+<button class="btn btn-outline" onclick="showToast('Preview opened','eye')">Preview</button>
+<button class="btn btn-outline" onclick="closePageEditor()">Cancel</button>
+</div>
+</div>
+<div id="homeCmsMount"></div>
+</div>
+</div>
+<div class="page-panel" id="page-services">
+<div class="section-header">
+<div><div class="section-title">Services Manager</div><div class="section-subtitle">Manage your offered services</div></div>
+<button class="btn btn-primary" onclick="showModal('newService')">+ Add Service</button>
+</div>
+<div id="serviceList">
+<div class="service-list-item"><div class="service-num">01</div><div class="service-info"><div class="service-name">UI/UX Experience Design</div><div class="service-desc">Research and interaction flows built for clarity and ease</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">02</div><div class="service-info"><div class="service-name">Websites & Digital Spaces</div><div class="service-desc">Responsive platforms built for performance and brand presence</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">03</div><div class="service-info"><div class="service-name">Product & App Interfaces</div><div class="service-desc">Intuitive mobile and web experiences that users love</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">04</div><div class="service-info"><div class="service-name">Visual Brand Creatives</div><div class="service-desc">Identity systems and visuals that bring brands to life</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">05</div><div class="service-info"><div class="service-name">Social Media Creatives</div><div class="service-desc">Scroll-stopping content built to connect and grow communities</div></div><span class="badge badge-gold">Paused</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">06</div><div class="service-info"><div class="service-name">Custom Tools & Systems</div><div class="service-desc">Dashboards and SaaS platforms shaped for usability and scale</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">07</div><div class="service-info"><div class="service-name">Document Design</div><div class="service-desc">Impactful decks and reports built for clear communication</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+<div class="service-list-item"><div class="service-num">08</div><div class="service-info"><div class="service-name">Marketing Emailer</div><div class="service-desc">Structured emails designed to capture attention and inspire action</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
+</div>
+</div>
+<div class="page-panel" id="page-portfolio">
+<div class="section-header">
+<div><div class="section-title">Portfolio / Work</div><div class="section-subtitle">Manage portfolio entries and case study detail pages</div></div>
+<button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('work', document.querySelectorAll('.nav-item')[5]) : showToast('Project editor ready','photo')">Open PDP Editor</button>
+</div>
+<div class="portfolio-grid">
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#ff6b6b)"><img src="https://api.iconify.design/tabler/home.svg" alt="" style="width:44px;height:44px;filter:brightness(0)"/></div><div class="portfolio-body"><div class="portfolio-name">Morphico Wallpapers</div><div class="portfolio-type">Interior Brand / E-commerce</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#fff,#ddd)"><img src="https://api.iconify.design/tabler/stethoscope.svg" alt="" style="width:44px;height:44px;filter:brightness(0)"/></div><div class="portfolio-body"><div class="portfolio-name">Arogya Bharat</div><div class="portfolio-type">Healthcare / UI System</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#000)"><img src="https://api.iconify.design/tabler/coins.svg" alt="" style="width:44px;height:44px;filter:brightness(0)"/></div><div class="portfolio-body"><div class="portfolio-name">Tictax</div><div class="portfolio-type">Fintech / Tax Platform</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#333,#111)"><img src="https://api.iconify.design/tabler/building-factory.svg" alt="" style="width:44px;height:44px;filter:brightness(0) invert(1)"/></div><div class="portfolio-body"><div class="portfolio-name">Dharmesh Enterprise</div><div class="portfolio-type">Business / Inventory App</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#FEA800,#555)"><img src="https://api.iconify.design/tabler/settings-2.svg" alt="" style="width:44px;height:44px;filter:brightness(0)"/></div><div class="portfolio-body"><div class="portfolio-name">Mecon</div><div class="portfolio-type">Industrial / Brand Identity</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+<div class="portfolio-item"><div class="portfolio-thumb" style="background:linear-gradient(135deg,#111,#FEA800)"><img src="https://api.iconify.design/tabler/diamond.svg" alt="" style="width:44px;height:44px;filter:brightness(0)"/></div><div class="portfolio-body"><div class="portfolio-name">Manglam</div><div class="portfolio-type">Finance / Consultancy</div><div style="display:flex;gap:6px;margin-top:12px"><button class="action-btn edit" onclick="showToast('Edit opened','pencil')">Edit</button><button class="action-btn delete" onclick="this.closest('.portfolio-item').remove();showToast('Removed','trash')">Delete</button></div></div></div>
+</div>
+</div>
+<div class="page-panel" id="page-blog">
+<div class="section-header">
+<div><div class="section-title">Blog Manager</div><div class="section-subtitle">Manage your blog posts and articles</div></div>
+<button class="btn btn-primary" onclick="window.openBlogEditor ? openBlogEditor() : showModal('newBlog')">+ New Post</button>
+</div>
+<div id="blogPostList"><div class="blog-list-empty">Loading blog posts…</div></div>
+</div>
+<div class="page-panel" id="page-clients">
+<div class="section-header">
+<div><div class="section-title">Testimonials</div><div class="section-subtitle">Manage client logos and review quotes</div></div>
+<button class="btn btn-primary" onclick="window.openWebsiteContentEditor ? openWebsiteContentEditor('testimonials', document.querySelectorAll('.nav-item')[7]) : showToast('Testimonial editor ready','users')">Open Testimonials Editor</button>
+</div>
+<div class="card">
+<div class="card-header"><div class="card-title">Active Clients</div></div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Client</th><th>Project Type</th><th>Testimonial</th><th>Status</th><th>Actions</th></tr></thead>
+<tbody>
+<tr><td><strong>Arogya Bharat</strong></td><td>Healthcare UI/UX</td><td><span style="font-size:11.5px;color:var(--c-muted)">"A truly dependable and creative team..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+<tr><td><strong>Morphico</strong></td><td>E-commerce / Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Transformed our digital presence..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+<tr><td><strong>Tictax</strong></td><td>Fintech Platform</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Boosted conversion rates by 200%..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+<tr><td><strong>Mecon</strong></td><td>Industrial Brand</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Clarity they brought made a real difference..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+<tr><td><strong>Gurukrupa</strong></td><td>Brand / Logo</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Brand visuals improved significantly..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+<tr><td><strong>Manglam</strong></td><td>Finance Consultancy</td><td><span style="font-size:11.5px;color:var(--c-muted)">"Delivered exactly what we needed..."</span></td><td><span class="badge badge-green">Active</span></td><td><button class="action-btn edit" onclick="showToast('Edit client','pencil')">Edit</button></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-team">
+<div class="section-header">
+<div><div class="section-title">Team Management</div><div class="section-subtitle">Studio members and access control</div></div>
+<button class="btn btn-primary" onclick="showToast('Invite sent!','mail',true)">+ Invite Member</button>
+</div>
+<div class="card">
+<div class="table-wrap">
+<table>
+<thead><tr><th>Member</th><th>Role</th><th>Access Level</th><th>Status</th><th>Last Active</th><th>Action</th></tr></thead>
+<tbody>
+<tr><td><div class="client-row"><div class="user-avatar">PG</div><div><div class="client-name">Piyush Gohil</div><div class="client-email">piyushgohil8889@gmail.com</div></div></div></td><td>Founder / Designer</td><td><span class="badge badge-gold">Super Admin</span></td><td><span class="badge badge-green">Online</span></td><td>Now</td><td>-</td></tr>
+<tr><td><div class="client-row"><div class="user-avatar" style="background:#fff;color:#000">DE</div><div><div class="client-name">Dev Editor</div><div class="client-email">webx8889@gmail.com</div></div></div></td><td>Content Manager</td><td><span class="badge badge-gray">Editor</span></td><td><span class="badge badge-gray">Offline</span></td><td>2 days ago</td><td><button class="action-btn delete" onclick="showToast('Access revoked','lock')">Revoke</button></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-media">
+<div class="section-header">
+<div><div class="section-title">Media & Assets</div><div class="section-subtitle">Images, videos, SVGs and files</div></div>
+<button class="btn btn-primary" onclick="showToast('Upload panel ready','upload')">
+<img src="https://api.iconify.design/tabler/upload.svg" alt=""/> Upload Files
+</button>
+</div>
+<div class="grid-3">
+<div class="card">
+<div class="card-header">
+<div class="card-title" style="display:flex;align-items:center;gap:8px">
+<img src="https://api.iconify.design/tabler/photo.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)"/>
+assets/images/
+</div>
+</div>
+<div style="font-size:12.5px;color:var(--c-muted)">Hero mockups, client logos, blog images, icons</div>
+<div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">48 files | 12.4 MB</div>
+</div>
+<div class="card">
+<div class="card-header">
+<div class="card-title" style="display:flex;align-items:center;gap:8px">
+<img src="https://api.iconify.design/tabler/video.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)"/>
+videos/
+</div>
+</div>
+<div style="font-size:12.5px;color:var(--c-muted)">Background videos, showreel, intro clips</div>
+<div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">3 files | 86.2 MB</div>
+</div>
+<div class="card">
+<div class="card-header">
+<div class="card-title" style="display:flex;align-items:center;gap:8px">
+<img src="https://api.iconify.design/tabler/code.svg" alt="" style="width:18px;height:18px;filter:brightness(0) invert(0.6)"/>
+css/ js/
+</div>
+</div>
+<div style="font-size:12.5px;color:var(--c-muted)">Style sheets and JavaScript files</div>
+<div style="margin-top:14px;font-size:12px;color:var(--c-accent);font-weight:700">2 files | 298 KB</div>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-seo">
+<div class="section-header">
+<div><div class="section-title">SEO Manager</div><div class="section-subtitle">Manage meta tags, OG data and keywords</div></div>
+<button class="btn btn-primary" onclick="showToast('SEO changes saved!','check',true)">
+<img src="https://api.iconify.design/tabler/device-floppy.svg" alt=""/> Save All
+</button>
+</div>
+<div class="card">
+<div class="card-header"><div class="card-title">Home Page SEO</div></div>
+<div class="editor-field"><div class="editor-label">Title Tag</div><input class="editor-input" type="text" value="UI/UX Design Agency for Websites & Apps - Webx Design Studio"/></div>
+<div class="editor-field"><div class="editor-label">Meta Description</div><textarea class="editor-input editor-textarea" style="min-height:80px">Webx Design Studio is a UI/UX design agency helping startups and businesses build high-converting websites, apps, and digital experiences.</textarea></div>
+<div class="editor-field"><div class="editor-label">Focus Keywords</div><input class="editor-input" type="text" value="UI UX design agency, web design studio, app design, brand identity"/></div>
+<div class="editor-field"><div class="editor-label">OG Image URL</div><input class="editor-input" type="text" value="/assets/images/og-image.png"/></div>
+<div class="editor-actions">
+<button class="btn btn-primary" onclick="showToast('SEO saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt=""/> Save</button>
+<button class="btn btn-outline">Preview SERP</button>
+</div>
+</div>
+</div>
+<div class="page-panel" id="page-settings">
+<div class="section-header">
+<div><div class="section-title">Settings</div><div class="section-subtitle">Website and dashboard preferences</div></div>
+</div>
+<div class="settings-grid">
+<div class="settings-nav">
+<div class="settings-nav-item active" onclick="activateSettingsNav(this)">
+<img src="https://api.iconify.design/tabler/settings.svg" alt=""/> General
+</div>
+<div class="settings-nav-item" onclick="activateSettingsNav(this)">
+<img src="https://api.iconify.design/tabler/mail.svg" alt=""/> Email / EmailJS
+</div>
+<div class="settings-nav-item" onclick="activateSettingsNav(this)">
+<img src="https://api.iconify.design/tabler/lock.svg" alt=""/> Security
+</div>
+<div class="settings-nav-item" onclick="activateSettingsNav(this)">
+<img src="https://api.iconify.design/tabler/world.svg" alt=""/> Social Links
+</div>
+<div class="settings-nav-item" onclick="activateSettingsNav(this)">
+<img src="https://api.iconify.design/tabler/palette.svg" alt=""/> Appearance
+</div>
+</div>
+<div class="card">
+<div class="card-title" style="margin-bottom:20px;font-size:15px">General Settings</div>
+<div class="editor-field"><div class="editor-label">Studio Name</div><input class="editor-input" type="text" value="Webx Design Studio"/></div>
+<div class="editor-field"><div class="editor-label">Contact Email</div><input class="editor-input" type="email" value="hello@webxdesign.com"/></div>
+<div class="editor-field"><div class="editor-label">Phone</div><input class="editor-input" type="text" value="+91 XXXXX XXXXX"/></div>
+<div class="toggle-wrap">
+<div><div class="toggle-label">Maintenance Mode</div><div class="toggle-sub">Put site in maintenance mode</div></div>
+<div class="toggle" onclick="this.classList.toggle('on');showToast(this.classList.contains('on')?'Maintenance ON':'Maintenance OFF','settings')"></div>
+</div>
+<div class="toggle-wrap">
+<div><div class="toggle-label">Contact Form</div><div class="toggle-sub">Accept new inquiries</div></div>
+<div class="toggle on" onclick="this.classList.toggle('on')"></div>
+</div>
+<div class="toggle-wrap">
+<div><div class="toggle-label">Blog Comments</div><div class="toggle-sub">Allow comments on blog posts</div></div>
+<div class="toggle" onclick="this.classList.toggle('on')"></div>
+</div>
+<div class="editor-actions" style="margin-top:20px">
+<button class="btn btn-primary" onclick="showToast('Settings saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt=""/> Save Settings</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
 <div class="modal-backdrop" id="modal-newBlog">
-  <div class="modal">
-    <div class="modal-header">
-      <div class="modal-title" style="display:flex;align-items:center;gap:10px">
-        <img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)" /> New Blog Post
-      </div>
-      <span class="modal-close" onclick="closeModal('newBlog')">x</span>
-    </div>
-    <div class="editor-field"><div class="editor-label">Post Title</div><input class="editor-input" type="text" placeholder="Enter blog title..." /></div>
-    <div class="editor-field"><div class="editor-label">SEO Tags (comma separated)</div><input class="editor-input" type="text" placeholder="ui ux design, 2026 trends..." /></div>
-    <div class="editor-field"><div class="editor-label">Content</div><textarea class="editor-input editor-textarea">Write your blog post here...</textarea></div>
-    <div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Draft</option><option>Published</option></select></div>
-    <div class="editor-actions">
-      <button class="btn btn-primary" onclick="closeModal('newBlog');showToast('Blog post saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt="" /> Save Post</button>
-      <button class="btn btn-outline" onclick="closeModal('newBlog')">Cancel</button>
-    </div>
-  </div>
+<div class="modal">
+<div class="modal-header">
+<div class="modal-title" style="display:flex;align-items:center;gap:10px">
+<img src="https://api.iconify.design/tabler/pencil-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)"/> New Blog Post
+</div>
+<span class="modal-close" onclick="closeModal('newBlog')">x</span>
+</div>
+<div class="editor-field"><div class="editor-label">Post Title</div><input class="editor-input" type="text" placeholder="Enter blog title..."/></div>
+<div class="editor-field"><div class="editor-label">SEO Tags (comma separated)</div><input class="editor-input" type="text" placeholder="ui ux design, 2026 trends..."/></div>
+<div class="editor-field"><div class="editor-label">Content</div><textarea class="editor-input editor-textarea">Write your blog post here...</textarea></div>
+<div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Draft</option><option>Published</option></select></div>
+<div class="editor-actions">
+<button class="btn btn-primary" onclick="closeModal('newBlog');showToast('Blog post saved!','check',true)"><img src="https://api.iconify.design/tabler/device-floppy.svg" alt=""/> Save Post</button>
+<button class="btn btn-outline" onclick="closeModal('newBlog')">Cancel</button>
+</div>
+</div>
 </div>
 <div class="modal-backdrop" id="modal-newService">
-  <div class="modal">
-    <div class="modal-header">
-      <div class="modal-title" style="display:flex;align-items:center;gap:10px">
-        <img src="https://api.iconify.design/tabler/settings-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)" /> Add New Service
-      </div>
-      <span class="modal-close" onclick="closeModal('newService')">x</span>
-    </div>
-    <div class="editor-field"><div class="editor-label">Service Name</div><input class="editor-input" type="text" placeholder="e.g. Motion Design" /></div>
-    <div class="editor-field"><div class="editor-label">Short Description</div><input class="editor-input" type="text" placeholder="Brief description..." /></div>
-    <div class="editor-field"><div class="editor-label">Icon Name (Tabler)</div><input class="editor-input" type="text" placeholder="video" /></div>
-    <div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Active</option><option>Paused</option></select></div>
-    <div class="editor-actions">
-      <button class="btn btn-primary" onclick="closeModal('newService');showToast('Service added!','check',true)">+ Add Service</button>
-      <button class="btn btn-outline" onclick="closeModal('newService')">Cancel</button>
-    </div>
-  </div>
+<div class="modal">
+<div class="modal-header">
+<div class="modal-title" style="display:flex;align-items:center;gap:10px">
+<img src="https://api.iconify.design/tabler/settings-plus.svg" alt="" style="width:20px;height:20px;filter:brightness(0) invert(0.7)"/> Add New Service
 </div>
-
+<span class="modal-close" onclick="closeModal('newService')">x</span>
+</div>
+<div class="editor-field"><div class="editor-label">Service Name</div><input class="editor-input" type="text" placeholder="e.g. Motion Design"/></div>
+<div class="editor-field"><div class="editor-label">Short Description</div><input class="editor-input" type="text" placeholder="Brief description..."/></div>
+<div class="editor-field"><div class="editor-label">Icon Name (Tabler)</div><input class="editor-input" type="text" placeholder="video"/></div>
+<div class="editor-field"><div class="editor-label">Status</div><select class="editor-input" style="color:#fff"><option>Active</option><option>Paused</option></select></div>
+<div class="editor-actions">
+<button class="btn btn-primary" onclick="closeModal('newService');showToast('Service added!','check',true)">+ Add Service</button>
+<button class="btn btn-outline" onclick="closeModal('newService')">Cancel</button>
+</div>
+</div>
+</div>
 <div class="toast-container" id="toastContainer"></div>
-
 <script>
-  function showPage(id, el) {
+function showPage(id, el) {
     document.querySelectorAll('.page-panel').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
     const panel = document.getElementById('page-' + id);
