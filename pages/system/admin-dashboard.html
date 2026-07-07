@@ -1168,7 +1168,25 @@ Settings
 <div class="service-list-item"><div class="service-num">07</div><div class="service-info"><div class="service-name">Document Design</div><div class="service-desc">Impactful decks and reports built for clear communication</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
 <div class="service-list-item"><div class="service-num">08</div><div class="service-info"><div class="service-name">Marketing Emailer</div><div class="service-desc">Structured emails designed to capture attention and inspire action</div></div><span class="badge badge-green">Active</span><div class="service-actions"><button class="action-btn edit" onclick="showModal('newService')">Edit</button><button class="action-btn delete" onclick="this.closest('.service-list-item').remove();showToast('Service deleted','trash')">Delete</button></div></div>
 </div>
+
+<!-- Why Businesses Choose editor (Services page) -->
+<div class="card" style="margin-top:18px;background:var(--c-bg-card);border:1px solid var(--c-border);padding:18px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <div><div style="font-weight:700;font-size:16px">Why Businesses Choose Section</div><div style="font-size:13px;color:var(--c-muted)">Toggle visibility and edit the content shown on Services page</div></div>
+    <div style="display:flex;gap:8px">
+      <label style="display:flex;align-items:center;gap:8px;color:var(--c-muted)">Show on site
+        <input id="whyChooseEnabled" type="checkbox" style="width:18px;height:18px;margin-left:6px" />
+      </label>
+      <button class="btn btn-primary" id="saveWhyBtn" onclick="saveWhySection()">Save</button>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr;gap:12px">
+    <div class="editor-field"><div class="editor-label">Section Heading</div><input class="editor-input" id="whyChooseHeading" type="text" placeholder="Enter section heading..." /></div>
+    <div class="editor-field"><div class="editor-label">Section Description</div><textarea class="editor-input editor-textarea" id="whyChooseDescription" placeholder="Enter full description..." style="min-height:120px"></textarea></div>
+  </div>
+  <div style="margin-top:12px;font-size:13px;color:var(--c-muted)">After saving, the section will be updated on the live site. Use the toggle to hide/unhide the section.</div>
 </div>
+
 <div class="page-panel" id="page-portfolio">
 <div class="section-header">
 <div><div class="section-title">Portfolio / Work</div><div class="section-subtitle">Manage portfolio entries and case study detail pages</div></div>
@@ -1450,6 +1468,97 @@ function showPage(id, el) {
     el.closest('.settings-nav').querySelectorAll('.settings-nav-item').forEach(x=>x.classList.remove('active'));
     el.classList.add('active');
   }
+
+  /* ----- Why Businesses Choose editor helpers ----- */
+  async function loadWhySection() {
+    // Fetch the services page object and try to locate the business-bridge section
+    try {
+      const res = await fetch('/api/admin/pages/services', { credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'x-admin-token': localStorage.getItem('webx-admin-token') || '' } });
+      if (res.ok) {
+        const page = await res.json();
+        // locate existing section by searching for a section whose html contains the business-bridge class or text
+        const match = (page.sections||[]).find(s => (s.html||"").includes('business-bridge') || (s.label||"").toLowerCase().includes('strategic') || (s.html||"").includes('We formulate strategic thinking'));
+        if (match) {
+          document.getElementById('whyChooseEnabled').checked = !!match.enabled;
+          // attempt to extract heading and paragraph from the saved HTML (best-effort)
+          const tmp = document.createElement('div'); tmp.innerHTML = match.html || '';
+          const h = tmp.querySelector('h3') || tmp.querySelector('.business-bridge-title');
+          const p = tmp.querySelector('.business-bridge-text') || tmp.querySelector('p');
+          document.getElementById('whyChooseHeading').value = h ? h.textContent.trim() : (match.label || 'Why Businesses Choose WebXDS');
+          document.getElementById('whyChooseDescription').value = p ? p.textContent.trim() : (match.description || 'We formulate strategic thinking to bridge the gap between business and design by providing creative business solutions.');
+          return;
+        }
+      }
+    } catch (e) {
+      // ignore and fallback to defaults
+    }
+    // defaults
+    document.getElementById('whyChooseEnabled').checked = true;
+    document.getElementById('whyChooseHeading').value = 'Why Businesses Choose WebXDS';
+    document.getElementById('whyChooseDescription').value = 'We formulate strategic thinking to bridge the gap between business and design by providing creative business solutions.';
+  }
+
+  async function saveWhySection() {
+    const btn = document.getElementById('saveWhyBtn');
+    btn.disabled = true; btn.textContent = 'Saving...';
+    const enabled = !!document.getElementById('whyChooseEnabled').checked;
+    const heading = document.getElementById('whyChooseHeading').value || '';
+    const description = document.getElementById('whyChooseDescription').value || '';
+    try {
+      // load current page object
+      const getRes = await fetch('/api/admin/pages/services', { credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'x-admin-token': localStorage.getItem('webx-admin-token') || '' } });
+      if (!getRes.ok) throw new Error('Unable to load page data');
+      const page = await getRes.json();
+
+      // build section html (matches front-end markup)
+      const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      const sectionHtml = `\n<section class="business-bridge-section" aria-label="Strategic business design">\n<div class="business-bridge-container">\n<div class="business-bridge-card">\n<div class="business-bridge-copy">\n<h3 class="business-bridge-title">${esc(heading)}</h3>\n<p class="business-bridge-text">${esc(description)}</p>\n</div>\n<div class="business-bridge-action">\n<a href="/pages/main/contact-page.html" class="why-choose-cta-button">\n<span>CONTACT US</span>\n<svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">\n<path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>\n</svg>\n</a>\n</div>\n</div>\n</div>\n</section>\n`;
+
+      // try to find existing section by searching for 'business-bridge' in html or label
+      let secIndex = (page.sections||[]).findIndex(s => (s.html||'').includes('business-bridge') || (s.label||'').toLowerCase().includes('strategic'));
+      if (secIndex !== -1) {
+        page.sections[secIndex].enabled = enabled;
+        page.sections[secIndex].html = sectionHtml;
+      } else {
+        // create a new section id consistent with existing pattern
+        const newId = 'services-section-business-bridge-' + Math.random().toString(36).slice(2,8);
+        const newSection = { id: newId, label: 'Strategic business design', enabled: enabled, html: sectionHtml };
+        // insert the section before the 'Our clients' section if present, otherwise append
+        const clientsIdx = (page.sections||[]).findIndex(s => (s.label||'').toLowerCase().includes('clients'));
+        if (clientsIdx !== -1) {
+          page.sections.splice(clientsIdx, 0, newSection);
+          // also insert a bodyLayout reference before the clients placeholder
+          const clientSectionId = page.sections[clientsIdx+1] && page.sections[clientsIdx+1].id ? page.sections[clientsIdx+1].id : null;
+          // find bodyLayout index for that clientSectionId
+          const layoutIndex = (page.bodyLayout||[]).findIndex(b => b.type === 'section' && b.sectionId === clientSectionId);
+          const insertAt = layoutIndex !== -1 ? layoutIndex : (page.bodyLayout||[]).length - 1;
+          page.bodyLayout = page.bodyLayout || [];
+          page.bodyLayout.splice(insertAt, 0, { type: 'section', sectionId: newId });
+        } else {
+          page.sections.push(newSection);
+          page.bodyLayout = page.bodyLayout || [];
+          page.bodyLayout.push({ type: 'section', sectionId: newId });
+        }
+      }
+
+      // PUT updated page back
+      const putRes = await fetch('/api/admin/pages/services', {
+        method: 'PUT',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': localStorage.getItem('webx-admin-token') || '' },
+        body: JSON.stringify({ title: page.title || '', meta: page.meta || '', bodyLayout: page.bodyLayout || [], sections: page.sections || [] })
+      });
+      if (!putRes.ok) throw new Error('Save failed');
+      showToast('Section updated','check',true);
+    } catch (err) {
+      showToast(err.message || 'Save failed','lock');
+    } finally {
+      btn.disabled = false; btn.textContent = 'Save';
+    }
+  }
+
+  // Initialize editor values when the page loads
+  document.addEventListener('DOMContentLoaded', function(){ setTimeout(loadWhySection, 250); });
 
   function buildChart() {
     const data = [4,7,5,9,6,11,8,14,10,16,12,17];

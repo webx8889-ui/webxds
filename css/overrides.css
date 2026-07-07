@@ -1,0 +1,10 @@
+:root{
+  --space-y: clamp(12px, 3vw, 48px);
+}
+
+/* Reduce vertical padding for services and the business-bridge CTA */
+.services-section{padding:clamp(12px,3vw,48px) var(--space-x) !important}
+.business-bridge-section{padding:clamp(12px,3vw,48px) 0 !important}
+
+/* Tweak specific inner spacing if needed */
+.services-container, .business-bridge-container{max-width:var(--max-content-width);margin:0 auto}
