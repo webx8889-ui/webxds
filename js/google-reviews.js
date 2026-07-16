@@ -2,7 +2,8 @@
   "use strict";
 
   var REVIEW_CONFIG = {
-    apiEndpoint: "/api/google-reviews",
+    apiKey: "AIzaSyByQ_8tjinn-RJ9YH2ZeKjkgWnOEZOgbMc",
+    placeQuery: "Webx Design Studio",
     mapsUrl: "https://www.google.com/search?q=Webx+Design+Studio+Google+reviews"
   };
 
@@ -139,6 +140,46 @@
     renderDots();
   }
 
+  function buildGooglePlaceSearchUrl() {
+    return "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=" +
+      encodeURIComponent(REVIEW_CONFIG.placeQuery) +
+      "&inputtype=textquery&fields=place_id&key=" +
+      encodeURIComponent(REVIEW_CONFIG.apiKey);
+  }
+
+  function buildGooglePlaceDetailsUrl(placeId) {
+    return "https://maps.googleapis.com/maps/api/place/details/json?place_id=" +
+      encodeURIComponent(placeId) +
+      "&fields=name,rating,user_ratings_total,reviews,url&key=" +
+      encodeURIComponent(REVIEW_CONFIG.apiKey);
+  }
+
+  function fetchGoogleReviews() {
+    return fetch(buildGooglePlaceSearchUrl(), { headers: { Accept: "application/json" } })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Google reviews API request failed");
+        return response.json();
+      })
+      .then(function (data) {
+        var placeId = data && data.candidates && data.candidates[0] && data.candidates[0].place_id;
+        if (!placeId) throw new Error("Google place not found");
+        return fetch(buildGooglePlaceDetailsUrl(placeId), { headers: { Accept: "application/json" } });
+      })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Google reviews API request failed");
+        return response.json();
+      })
+      .then(function (data) {
+        var result = data && data.result ? data.result : {};
+        return {
+          reviews: Array.isArray(result.reviews) ? result.reviews : [],
+          rating: result.rating,
+          user_ratings_total: result.user_ratings_total,
+          mapsUrl: result.url || REVIEW_CONFIG.mapsUrl
+        };
+      });
+  }
+
   function insertSection(payload) {
     var impactSection = document.querySelector(".impact-section");
     if (!impactSection || document.querySelector(".google-reviews-section")) return;
@@ -148,11 +189,7 @@
 
   function initGoogleReviews() {
     if (document.querySelector(".google-reviews-section")) return;
-    fetch(REVIEW_CONFIG.apiEndpoint, { headers: { Accept: "application/json" } })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Google reviews API not configured");
-        return response.json();
-      })
+    fetchGoogleReviews()
       .then(insertSection)
       .catch(function () { insertSection(null); });
   }
