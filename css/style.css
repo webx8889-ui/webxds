@@ -2522,7 +2522,7 @@ body.modal-open .navbar {
 
 .nav-label {
     letter-spacing: 0.3px;
-    font-family: 'Atten New', sans-serif
+    font-family: 'Alan Sans', sans-serif
 }
 
 @media (max-width:1100px) and (min-width:770px) {
@@ -3842,7 +3842,7 @@ body.modal-open .navbar {
     font-size: clamp(20px, 3vw, 36px);
     font-weight: 500;
     color: var(--c-white);
-    font-family: 'Atten New', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     text-align: left;
     margin: 0
 }
@@ -4357,7 +4357,8 @@ body.modal-open .navbar {
 .faq-section {
     background: var(--c-bg-black);
     color: var(--c-white);
-    padding: var(--space-y) var(--space-x)
+    padding: var(--space-y) var(--space-x);
+    padding-bottom: calc(var(--space-y) + 110px)
 }
 
 .faq-container {
@@ -4395,10 +4396,11 @@ body.modal-open .navbar {
 
 .faq-question span:first-child {
     flex: 1;
+    min-width: 0;
     font-size: clamp(18px, 2.5vw, 24px);
     font-weight: 500;
     color: var(--c-white);
-    font-family: 'Atten New', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     line-height: 1.4
 }
 
@@ -4409,21 +4411,39 @@ body.modal-open .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(28px, 4vw, 40px);
+    position: relative;
+    font-size: 0;
     font-weight: 300;
     color: var(--c-white);
     transition: transform 0.3s ease
 }
 
-.faq-icon::before {
-    content: "-";
-    display: block;
-    line-height: 1;
-    font-family: 'Atten New', sans-serif
+.faq-icon::before,
+.faq-icon::after {
+    content: "";
+    position: absolute;
+    width: clamp(16px, 2vw, 22px);
+    height: 1.5px;
+    background: currentColor;
+    border-radius: 999px;
+    transition: transform 0.3s ease, opacity 0.3s ease
+}
+
+.faq-icon::after {
+    transform: rotate(90deg)
 }
 
 .faq-item.active .faq-icon {
-    transform: rotate(45deg)
+    transform: none
+}
+
+.faq-item.active .faq-icon::before {
+    transform: rotate(-45deg)
+}
+
+.faq-item.active .faq-icon::after {
+    opacity: 0;
+    transform: rotate(-45deg)
 }
 
 .faq-answer {
@@ -5634,7 +5654,7 @@ body.modal-open .navbar {
     background: var(--c-bg-black);
     color: var(--c-white);
     padding: 48px var(--space-x);
-    font-family: 'Atten New', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     line-height: 1.7
 }
 
@@ -5948,7 +5968,7 @@ body.modal-open .navbar {
 }
 
 .contact-links {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     gap: clamp(12px, 2vw, 12px)
@@ -5958,7 +5978,7 @@ body.modal-open .navbar {
     display: inline-flex;
     align-items: center;
     gap: clamp(5px, 1.5vw, 14px);
-    font-size: clamp(20px, 1.6vw, 20px);
+    font-size: clamp(14px, 1.6vw, 18px);
     color: #D4D4D4;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -6061,7 +6081,7 @@ body.modal-open .navbar {
     }
 
     .contact-links {
-        font-size: 20px;
+        font-size: 14px;
         gap: 16px
     }
 
@@ -6094,7 +6114,7 @@ body.modal-open .navbar {
     }
 
     .contact-link {
-        font-size: 16px
+        font-size: 14px
     }
 
     .contact-arrow-icon {
@@ -7335,7 +7355,7 @@ body.modal-open .navbar {
 }
 
 .faq-section.visible .faq-item.active .faq-icon {
-    transform: rotate(45deg)
+    transform: none
 }
 
 .faq-section.visible .faq-item {
@@ -7649,7 +7669,7 @@ body.modal-open .navbar {
 
 .circular-text {
     font-size: clamp(11px, 1.4vw, 14px);
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.15em;
     fill: #ffffff;
     text-transform: uppercase
@@ -7825,7 +7845,7 @@ body.modal-open .navbar {
 
 .contact-title {
     font-size: clamp(36px, 4.5vw, 48px);
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: clamp(16px, 4vw, 24px)
 }
 
@@ -7888,18 +7908,18 @@ body.modal-open .navbar {
 
 .contact-field textarea::-webkit-input-placeholder {
     color: #777777;
-    font-family: 'Atten New', sans-serif
+    font-family: 'Alan Sans', sans-serif
 }
 
 .contact-field textarea::-moz-placeholder {
     color: #777777;
-    font-family: 'Atten New', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     font-size: 14px
 }
 
 .contact-field textarea:-ms-input-placeholder {
     color: #777777;
-    font-family: 'Atten New', sans-serif
+    font-family: 'Alan Sans', sans-serif
 }
 
 .contact-select {
@@ -8094,7 +8114,7 @@ body.modal-open .navbar {
     -webkit-appearance: none;
     -moz-appearance: none;
     position: relative;
-    font-family: 'Atten New', sans-serif
+    font-family: 'Alan Sans', sans-serif
 }
 
 .country-code-wrapper {
@@ -8772,7 +8792,7 @@ body.modal-open .navbar {
 
 .track-record-title {
     font-size: clamp(32px, 5vw, 56px);
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
     color: #ffffff;
     margin: 0;
@@ -8786,8 +8806,9 @@ body.modal-open .navbar {
 }
 
 .track-record-tab {
-    font-size: clamp(24px, 1.6vw, 24px);
+    font-size: clamp(16px, 1.6vw, 20px);
     font-weight: 500;
+    font-family: 'Alan Sans', sans-serif;
     color: rgba(255, 255, 255, 0.4);
     background: transparent;
     border: none;
@@ -8881,7 +8902,7 @@ body.modal-open .navbar {
 }
 
 .track-stat-label {
-    font-size: clamp(16px, 1.5vw, 20px);
+    font-size: clamp(14px, 1.5vw, 18px);
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1;
@@ -8941,7 +8962,7 @@ body.modal-open .navbar {
     }
 
     .track-stat-label {
-        font-size: 16px
+        font-size: 14px
     }
 }
 
@@ -9026,7 +9047,7 @@ body.modal-open .navbar {
     }
 
     .track-record-tab {
-        font-size: 24px
+        font-size: 16px
     }
 
     .track-record-stats {
@@ -9231,7 +9252,7 @@ body.modal-open .navbar {
     color: #A8CF45;
     margin-bottom: 20px;
     letter-spacing: -0.02em;
-    font-family: 'Atten New', sans-serif
+    font-family: 'Alan Sans', sans-serif
 }
 
 .success-subtitle {
@@ -9724,6 +9745,12 @@ select:focus-visible {
     padding-bottom: clamp(16px, 2.5vw, 24px)
 }
 
+.why-tab-label-mobile,
+.why-title-mobile,
+.why-mobile-link-list {
+    display: none
+}
+
 .why-choose-tab:hover {
     opacity: 0.9
 }
@@ -9878,9 +9905,7 @@ select:focus-visible {
 }
 
 @media (max-width:768px) {
-    .business-bridge-container {
-        padding: 0 var(--space-x)
-    }
+    
 
     .business-bridge-card {
         flex-direction: column;
@@ -9902,57 +9927,190 @@ select:focus-visible {
 }
 
 @media (max-width:768px) {
+
+
+    .why-choose-section .section-header {
+        margin-bottom: 34px
+    }
+
+    .why-choose-section .section-label {
+        font-size: 0;
+        line-height: 1.2;
+        letter-spacing: 0;
+        margin-bottom: 24px;
+        padding-left: 38px;
+    }
+
+    .why-choose-section .section-label::before {
+        width: 23px;
+        height: 2px;
+        background: #FEA800;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+    .why-choose-section .section-label::after {
+        content: "Why Businesses Choose US";
+        font-size: 12px
+    }
+
+    .why-title-desktop,
+    .why-tab-label-desktop {
+        display: none
+    }
+
+    .why-title-mobile,
+    .why-tab-label-mobile {
+        display: inline
+    }
+
+    .why-choose-section .section-title {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+
+    .why-choose-tabs-wrapper {
+        margin-top: 0
+    }
+
     .why-choose-tabs {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-bottom: clamp(16px, 2vw, 24px);
-        margin-bottom: clamp(24px, 4vw, 40px)
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 22px;
+        overflow-x: auto;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+        padding-bottom: 13px;
+        scrollbar-width: none
+    }
+
+    .why-choose-tabs::-webkit-scrollbar {
+        display: none
     }
 
     .why-choose-tab {
-        width: 100%;
+        width: auto;
+        flex: 0 0 auto;
         text-align: left;
-        padding: clamp(12px, 2vw, 16px) 0;
-        border-bottom: 1px solid var(--c-line)
+        padding: 0;
+        border-bottom: 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0;
+        opacity: 1
     }
 
     .why-choose-tab.active {
-        background: rgba(254, 168, 0, 0.1);
-        padding-left: clamp(12px, 2vw, 16px);
-        margin-left: -clamp(12px, 2vw, 16px)
+        background: transparent;
+        padding-left: 0;
+        margin-left: 0
     }
 
     .why-choose-tab.active::after {
         content: '';
         position: absolute;
         left: 0;
-        top: 0;
-        bottom: 0;
-        width: 3px;
-        height: 100%;
-        background: var(--c-accent)
+        right: 0;
+        top: auto;
+        bottom: -15px;
+        width: 100%;
+        height: 2px;
+        background: #FEA800
     }
 
     .tab-content-wrapper {
-        grid-template-columns: 1fr;
-        gap: clamp(24px, 4vw, 32px);
-        padding: clamp(16px, 3vw, 24px) 0
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0
     }
 
     .tab-image-side {
-        order: 2
+        order: 1;
+        width: 100%;
+        margin-bottom: 58px
+    }
+
+    .tab-content-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover
     }
 
     .tab-text-side {
-        order: 1
+        order: 2;
+        gap: 0
     }
 
     .tab-content-title {
-        font-size: clamp(20px, 3vw, 28px)
+        display: none
+    }
+
+    .why-mobile-link-list {
+        display: grid;
+        gap: 18px;
+        margin-bottom: 54px
+    }
+
+    .why-mobile-link-list a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        color: #fff;
+        font-size: 19px;
+        line-height: 1.15;
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 6px
+    }
+
+    .why-mobile-link-list a::after {
+        content: "";
+        flex: 0 0 auto;
+        width: 14px;
+        height: 14px;
+        border-top: 2px solid currentColor;
+        border-right: 2px solid currentColor;
+        transform: translate(-4px, 1px) rotate(45deg)
     }
 
     .tab-content-description {
-        font-size: clamp(13px, 1.6vw, 16px)
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.45;
+        text-align: left;
+        margin-bottom: 36px
+    }
+
+    .tab-content-description {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+    }
+
+    .why-choose-cta-button {
+        width: 100%;
+        min-height: 44px;
+        justify-content: center;
+        gap: 10px;
+        padding: 12px 20px;
+        background: linear-gradient(120deg, #537993 -4%, #F77847 25%, #FEA800 50%, #EADDBF 100%);
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: 0.04em
+    }
+
+    .why-choose-tab[data-tab="support"] {
+        display: none
     }
 }
 
