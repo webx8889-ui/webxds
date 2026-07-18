@@ -702,7 +702,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -902,7 +902,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1102,7 +1102,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1302,7 +1302,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1502,7 +1502,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1702,7 +1702,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.085Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -1902,7 +1902,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-07-16T10:14:11.704Z"
+          "updatedAt": "2026-07-18T06:09:34.086Z"
         }
       ]
     },
@@ -2077,7 +2077,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.705Z"
+      "updatedAt": "2026-07-18T06:09:34.087Z"
     },
     "blog-4": {
       "editorType": "generic",
@@ -2250,7 +2250,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.707Z"
+      "updatedAt": "2026-07-18T06:09:34.097Z"
     },
     "blog-apple": {
       "editorType": "generic",
@@ -2423,7 +2423,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.708Z"
+      "updatedAt": "2026-07-18T06:09:34.099Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2596,7 +2596,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.709Z"
+      "updatedAt": "2026-07-18T06:09:34.100Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -2727,7 +2727,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.710Z"
+      "updatedAt": "2026-07-18T06:09:34.101Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2858,7 +2858,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.710Z"
+      "updatedAt": "2026-07-18T06:09:34.102Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -2989,7 +2989,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.711Z"
+      "updatedAt": "2026-07-18T06:09:34.102Z"
     },
     "about": {
       "editorType": "generic",
@@ -3182,7 +3182,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.711Z"
+      "updatedAt": "2026-07-18T06:09:34.103Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3305,7 +3305,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.712Z"
+      "updatedAt": "2026-07-18T06:09:34.103Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3436,7 +3436,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.713Z"
+      "updatedAt": "2026-07-18T06:09:34.104Z"
     },
     "services": {
       "editorType": "generic",
@@ -3633,7 +3633,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.714Z"
+      "updatedAt": "2026-07-18T06:09:34.105Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3778,7 +3778,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.714Z"
+      "updatedAt": "2026-07-18T06:09:34.106Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -3923,7 +3923,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-07-16T10:14:11.715Z"
+      "updatedAt": "2026-07-18T06:09:34.106Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4096,10 +4096,170 @@
   "tracking": {
     "sessions": [
       {
-        "id": "sess-b2349b2bfbad619f6a6a7c9c",
+        "id": "sess-976964feade4a19f73d73b1e",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T06:08:33.079Z",
+        "lastSeenAt": "2026-07-18T06:09:34.107Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1389x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 93,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-438edab44d1e919f73d71e52",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T06:08:25.716Z",
+        "lastSeenAt": "2026-07-18T06:08:25.716Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1389x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-38e2b874e5cf719f73d66896",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T06:07:39.173Z",
+        "lastSeenAt": "2026-07-18T06:08:24.185Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1389x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 45,
+        "scrollDepth": 49,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d47f6fa5abec719f73d567f2",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T06:06:33.478Z",
+        "lastSeenAt": "2026-07-18T06:07:34.038Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1389x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 38,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a4c5c59c5db46819f73d48f13",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T06:05:37.958Z",
+        "lastSeenAt": "2026-07-18T06:06:23.042Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1389x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 45,
+        "scrollDepth": 22,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7a8d5c10a03e9819f73ce9620",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T05:59:06.552Z",
+        "lastSeenAt": "2026-07-18T06:05:36.567Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "394x910",
+        "device": "mobile",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 390,
+        "scrollDepth": 21,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3c54c84f19c9919f73a5620f",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T05:14:06.242Z",
+        "lastSeenAt": "2026-07-18T05:59:01.235Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2370,
+        "scrollDepth": 25,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-df47d183a9b32819f73a5592c",
+        "visitorId": "477860b8-7814-40b0-94ec-00a5c8f4bfc8",
+        "createdAt": "2026-07-18T05:14:03.975Z",
+        "lastSeenAt": "2026-07-18T05:14:03.975Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7a4668c071b59819f6a73a8af",
         "visitorId": "91311fad-166e-442c-a25b-ac775e204c89",
-        "createdAt": "2026-07-16T10:13:11.518Z",
-        "lastSeenAt": "2026-07-16T10:14:11.715Z",
+        "createdAt": "2026-07-16T10:23:12.617Z",
+        "lastSeenAt": "2026-07-16T12:09:09.735Z",
         "currentPage": "home",
         "path": "/",
         "referrer": "http://localhost:3000/",
@@ -4108,7 +4268,67 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
+        "activeSeconds": 2280,
+        "scrollDepth": 26,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f3123e6b12fa819f6a739522",
+        "visitorId": "91311fad-166e-442c-a25b-ac775e204c89",
+        "createdAt": "2026-07-16T10:23:07.582Z",
+        "lastSeenAt": "2026-07-16T10:23:07.582Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-52bc23f8431c3819f6a738d6a",
+        "visitorId": "91311fad-166e-442c-a25b-ac775e204c89",
+        "createdAt": "2026-07-16T10:23:05.607Z",
+        "lastSeenAt": "2026-07-16T10:23:07.252Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b2349b2bfbad619f6a6a7c9c",
+        "visitorId": "91311fad-166e-442c-a25b-ac775e204c89",
+        "createdAt": "2026-07-16T10:13:11.518Z",
+        "lastSeenAt": "2026-07-16T10:23:04.619Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 240,
         "scrollDepth": 0,
         "eventCount": 0,
         "pageViews": 1,
@@ -8094,609 +8314,45 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-a5e3c171b45e119f4f8ceedf",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T05:01:04.119Z",
-        "lastSeenAt": "2026-07-11T05:05:19.486Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 255,
-        "scrollDepth": 64,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4af08ca9f496919f4f8ce657",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T05:01:01.937Z",
-        "lastSeenAt": "2026-07-11T05:01:03.747Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-91151ca0a34d919f4f857c26",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:52:55.995Z",
-        "lastSeenAt": "2026-07-11T05:00:28.446Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 225,
-        "scrollDepth": 28,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-86620dad948519f4f856b92",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:52:51.754Z",
-        "lastSeenAt": "2026-07-11T04:52:55.552Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-7586dd8d072e2819f4f85589a",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:52:46.893Z",
-        "lastSeenAt": "2026-07-11T04:52:51.430Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-909899ed3bf43819f4f855615",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:52:46.251Z",
-        "lastSeenAt": "2026-07-11T04:52:46.251Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f78edc8939f99819f4f84e50b",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:52:17.312Z",
-        "lastSeenAt": "2026-07-11T04:52:32.327Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 31,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fcfaedba0294919f4f7d8827",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:44:14.780Z",
-        "lastSeenAt": "2026-07-11T04:52:16.576Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 210,
-        "scrollDepth": 28,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a9266f552a1ec819f4f7d8702",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:44:14.520Z",
-        "lastSeenAt": "2026-07-11T04:44:14.520Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-70f74ebde25219f4f7d7786",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:44:10.526Z",
-        "lastSeenAt": "2026-07-11T04:44:10.526Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-24d729454d3d0819f4f7cc4ab",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:24.833Z",
-        "lastSeenAt": "2026-07-11T05:05:24.773Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1228x709",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1320,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fe237f0d44b5c819f4f7cc3d2",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:24.697Z",
-        "lastSeenAt": "2026-07-11T05:05:24.547Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1228x709",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1320,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b71a1b6fb7c7f19f4f7cc2a3",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:24.543Z",
-        "lastSeenAt": "2026-07-11T05:04:59.578Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "Direct",
-        "viewport": "1228x709",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 525,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-24772831d2b3319f4f7cc28d",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:24.423Z",
-        "lastSeenAt": "2026-07-11T05:04:59.625Z",
-        "currentPage": "contact-page.html",
-        "path": "/pages/main/contact-page.html",
-        "referrer": "Direct",
-        "viewport": "1228x709",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 705,
-        "scrollDepth": 12,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-daf5497ac58ce819f4f7cbbfc",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:43:22.514Z",
-        "lastSeenAt": "2026-07-11T04:44:07.533Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
-        "scrollDepth": 7,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-734068850d2c5819f4f7cb521",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:43:20.759Z",
-        "lastSeenAt": "2026-07-11T04:43:22.252Z",
-        "currentPage": "contact-page.html",
-        "path": "/pages/main/contact-page.html",
-        "referrer": "http://localhost:3000/pages/main/about.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5fd848871754519f4f7cae43",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:43:19.001Z",
-        "lastSeenAt": "2026-07-11T04:43:20.498Z",
-        "currentPage": "about.html",
-        "path": "/pages/main/about.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-bbdac17d6fc01819f4f7c7c46",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:06.245Z",
-        "lastSeenAt": "2026-07-11T05:04:59.530Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1228x709",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 555,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e042d2e0ec66819f4f7c7c33",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-07-11T04:43:06.212Z",
-        "lastSeenAt": "2026-07-11T05:04:59.484Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "0x0",
-        "device": "mobile",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 405,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0d2ee22c33bd1819f4f7b1d36",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:41:36.345Z",
-        "lastSeenAt": "2026-07-11T04:43:18.608Z",
-        "currentPage": "contact-page.html",
-        "path": "/pages/main/contact-page.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 23,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-93eff07f6dac8819f4f7aeece",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:41:24.457Z",
-        "lastSeenAt": "2026-07-11T04:41:35.996Z",
-        "currentPage": "contact-page.html",
-        "path": "/pages/main/contact-page.html",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6d49fa38738ce819f4f798104",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:39:50.805Z",
-        "lastSeenAt": "2026-07-11T04:41:23.756Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 76,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-220556c3d93cf819f4f7974e5",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:39:47.719Z",
-        "lastSeenAt": "2026-07-11T04:39:50.438Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-526c1d7b9af5719f4f6d42de",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:26:28.462Z",
-        "lastSeenAt": "2026-07-11T04:39:47.026Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 795,
-        "scrollDepth": 81,
-        "eventCount": 7,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-115d4d95b94bd19f4f661800",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:18:38.778Z",
-        "lastSeenAt": "2026-07-11T04:26:23.884Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 465,
-        "scrollDepth": 81,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-90564d28987ed819f4f65ffe2",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:18:32.572Z",
-        "lastSeenAt": "2026-07-11T04:18:38.295Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-77f50cca3289319f4f659f40",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:18:07.887Z",
-        "lastSeenAt": "2026-07-11T04:18:32.185Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 28,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-c17a4723a62fb819f4f64e6e6",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:17:20.660Z",
-        "lastSeenAt": "2026-07-11T04:18:06.965Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1389x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
-        "scrollDepth": 72,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b4c38a106a81f19f4f64d224",
-        "visitorId": "47931335-4f3d-4b9d-a700-743df6bf6efd",
-        "createdAt": "2026-07-11T04:17:15.326Z",
-        "lastSeenAt": "2026-07-11T04:17:15.326Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-7e72b8f012aa219f45198804",
-        "visitorId": "5c815289-d6b1-4c3f-bb2a-19ce01995bbe",
-        "createdAt": "2026-07-09T04:18:49.002Z",
-        "lastSeenAt": "2026-07-09T11:33:04.565Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "955x891",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 6300,
-        "scrollDepth": 81,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-bbca267c",
+        "sessionId": "sess-7a4668c071b59819f6a73a8af",
+        "page": "home",
+        "type": "click",
+        "target": "div.service-card",
+        "text": "Websites & Digital SpacesModern, responsive experiences built for performance an",
+        "createdAt": "2026-07-16T10:23:19.628Z"
+      },
+      {
+        "id": "evt-85007f1d",
+        "sessionId": "sess-7a4668c071b59819f6a73a8af",
+        "page": "home",
+        "type": "click",
+        "target": "div.service-card",
+        "text": "Websites & Digital SpacesModern, responsive experiences built for performance an",
+        "createdAt": "2026-07-16T10:23:19.475Z"
+      },
+      {
+        "id": "evt-c8188d2a",
+        "sessionId": "sess-7a4668c071b59819f6a73a8af",
+        "page": "home",
+        "type": "click",
+        "target": "div.service-card",
+        "text": "Websites & Digital SpacesModern, responsive experiences built for performance an",
+        "createdAt": "2026-07-16T10:23:19.303Z"
+      },
+      {
+        "id": "evt-141f549b",
+        "sessionId": "sess-52bc23f8431c3819f6a738d6a",
+        "page": "home",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-07-16T10:23:07.252Z"
+      },
       {
         "id": "evt-9e2ef4f2",
         "sessionId": "sess-3ba2412fe6419f6a6a7777",
@@ -14864,6 +14520,72 @@
   ],
   "activity": [
     {
+      "id": "act-c82513eb",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T06:08:33.079Z"
+    },
+    {
+      "id": "act-47c26bb9",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T06:08:25.716Z"
+    },
+    {
+      "id": "act-06cc117c",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T06:07:39.174Z"
+    },
+    {
+      "id": "act-cd2f4496",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T06:06:33.478Z"
+    },
+    {
+      "id": "act-9435c92b",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T06:05:37.959Z"
+    },
+    {
+      "id": "act-24922487",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T05:59:06.553Z"
+    },
+    {
+      "id": "act-b63d5c27",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T05:14:06.242Z"
+    },
+    {
+      "id": "act-4e7617cb",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-18T05:14:03.975Z"
+    },
+    {
+      "id": "act-8d6716a7",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-16T10:23:12.618Z"
+    },
+    {
+      "id": "act-23a15d06",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-16T10:23:07.582Z"
+    },
+    {
+      "id": "act-09667155",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-16T10:23:05.607Z"
+    },
+    {
       "id": "act-eafabb70",
       "type": "visitor",
       "message": "Visitor opened home",
@@ -15156,72 +14878,6 @@
       "type": "visitor",
       "message": "Visitor opened morphico-pdp.html",
       "createdAt": "2026-07-16T09:48:33.649Z"
-    },
-    {
-      "id": "act-9ab655f8",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:48:33.436Z"
-    },
-    {
-      "id": "act-31e0c424",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:48:31.102Z"
-    },
-    {
-      "id": "act-ae106850",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-07-16T09:48:10.883Z"
-    },
-    {
-      "id": "act-68c534b3",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:48:10.797Z"
-    },
-    {
-      "id": "act-2bdf2b3e",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:48:04.816Z"
-    },
-    {
-      "id": "act-dab7ebb2",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:44.600Z"
-    },
-    {
-      "id": "act-a4a9d838",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:44.342Z"
-    },
-    {
-      "id": "act-fb4815d6",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:38.053Z"
-    },
-    {
-      "id": "act-8f7db7b4",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:17.847Z"
-    },
-    {
-      "id": "act-38ae4e7f",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:17.745Z"
-    },
-    {
-      "id": "act-3af0506e",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-07-16T09:47:08.432Z"
     }
   ]
 }

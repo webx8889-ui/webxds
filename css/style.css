@@ -1,10 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/alan-sans');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 
 :root {
     --c-bg-hero: #FEA800;
     --c-bg-black: #000000;
     --c-white: #ffffff;
-    --c-muted: #b8b8b8;
+    --c-muted: #D4D4D4;
     --c-line: #2a2a2a;
     --c-accent: #FEA800;
     --space-x: clamp(20px, 4vw, 105px);
@@ -23,11 +23,32 @@
 
 body {
     font-family: 'Alan Sans', sans-serif;
+    font-optical-sizing: auto;
     background: var(--c-bg-black);
     min-height: 100vh;
     color: var(--c-white);
     overflow-x: hidden
 }
+
+.alan-sans-300,
+.alan-sans-400,
+.alan-sans-500,
+.alan-sans-600,
+.alan-sans-700,
+.alan-sans-800,
+.alan-sans-900 {
+    font-family: 'Alan Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.alan-sans-300 { font-weight: 300; }
+.alan-sans-400 { font-weight: 400; }
+.alan-sans-500 { font-weight: 500; }
+.alan-sans-600 { font-weight: 600; }
+.alan-sans-700 { font-weight: 700; }
+.alan-sans-800 { font-weight: 800; }
+.alan-sans-900 { font-weight: 900; }
 
 strong,
 b {
@@ -1042,7 +1063,7 @@ h1 {
 .quote-text {
     font-size: clamp(16px, 2vw, 20px);
     line-height: clamp(24px, 3vw, 35px);
-    color: var(--c-white);
+    color: var(--c-muted);
     font-weight: 400;
     margin: 0
 }
@@ -2974,7 +2995,8 @@ body.modal-open .navbar {
 .reimagining-container>p {
     font-size: 18px;
     letter-spacing: 0.01em;
-    line-height: 30px
+    line-height: 30px;
+    color: #D4D4D4;
 }
 
 .reimagining-title {
@@ -6472,7 +6494,6 @@ body.modal-open .navbar {
 .work-excerpt {
     font-size: clamp(14px, 1.5vw, 18px);
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.8);
     margin: 0;
     flex: 1
 }
