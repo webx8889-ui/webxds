@@ -105,33 +105,85 @@
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 36px;
+      width: 100%;
     }
 
     .blogs-grid .blog-card {
       height: 100%;
       display: flex;
       flex-direction: column;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      flex: 1 1 0;
     }
-      .blog-card {  
-        max-width: 90%;
-    }
-    
 
     .blogs-grid .blog-content {
       flex: 1;
       display: flex;
       flex-direction: column;
+      min-width: 0;
     }
 
     .blogs-grid .blog-excerpt {
       flex: 1;
     }
 
+    .blogs-grid .blog-meta,
+    .blogs-grid .blog-tags,
+    .blogs-grid .blog-tag,
+    .blogs-grid .blog-date,
+    .blogs-grid .blog-card-title,
+    .blogs-grid .blog-read-more {
+      min-width: 0;
+    }
+
+    .blogs-grid .blog-tag {
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .blogs-grid .blog-date {
+      white-space: normal;
+    }
+
     @media (max-width: 960px) {
       .blogs-grid {
         grid-template-columns: 1fr;
+        gap: 24px;
       }
 
+      .blogs-list-section {
+        padding-inline: clamp(16px, 4vw, 24px);
+      }
+
+      .blogs-page-subtitle {
+        font-size: 15px;
+        margin-bottom: 24px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .blogs-list-section {
+        padding-top: 24px;
+        padding-bottom: 36px;
+      }
+
+      .blogs-grid .blog-card-title {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+
+      .blogs-grid .blog-meta {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .blogs-grid .blog-read-more {
+        width: 100%;
+        justify-content: center;
+      }
     }
 </style>
 </head>
@@ -441,6 +493,7 @@ together.
 </button>
 </div>
 </nav>
+<script src="/js/skeleton-loader.js"></script>
 <script src="/js/script.js?v=20260311-2"></script>
 <script>
 if ('serviceWorker' in navigator) {

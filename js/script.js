@@ -3,3 +3,29 @@ document.addEventListener("DOMContentLoaded",function(){console.log("Script load
 
 /* Why Choose Tabs */
 (function(){const tabs=document.querySelectorAll('.why-choose-tab');const panels=document.querySelectorAll('.why-choose-content .tab-panel');if(!tabs.length||!panels.length)return;tabs.forEach(tab=>{tab.addEventListener('click',function(){const tabName=this.getAttribute('data-tab');tabs.forEach(t=>t.classList.remove('active'));panels.forEach(p=>p.classList.remove('active'));this.classList.add('active');const activePanel=document.getElementById('tab-'+tabName+'-panel');if(activePanel){activePanel.classList.add('active')}});tab.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();const nextTab=this.nextElementSibling?.classList.contains('why-choose-tab')?this.nextElementSibling:tabs[0];nextTab.click();nextTab.focus()}else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();const prevTab=this.previousElementSibling?.classList.contains('why-choose-tab')?this.previousElementSibling:tabs[tabs.length-1];prevTab.click();prevTab.focus()}})})})();
+
+// Mobile: toggle service card expansion on tap so CTA doesn't overlay text
+function initMobileServiceTaps(){
+        const grid = document.querySelector('.services-section .services-grid');
+        if(!grid) return;
+        // use event delegation to avoid duplicate listeners
+        grid.addEventListener('click', function(e){
+                const card = e.target.closest('.service-card');
+                if(!card) return;
+                // let CTA clicks behave normally
+                if(e.target.closest('.service-cta')) return;
+                if(window.matchMedia('(max-width:580px)').matches){
+                        const wasOpen = card.classList.contains('is-current');
+                        grid.querySelectorAll('.service-card.is-current').forEach(c=>c.classList.remove('is-current'));
+                        if(!wasOpen) card.classList.add('is-current');
+                }
+        });
+        // close expanded card when tapping outside the services section
+        document.addEventListener('click', function(e){
+                if(!e.target.closest('.services-section')){
+                        grid.querySelectorAll('.service-card.is-current').forEach(c=>c.classList.remove('is-current'));
+                }
+        });
+}
+
+document.addEventListener('DOMContentLoaded', initMobileServiceTaps);
