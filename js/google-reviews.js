@@ -1,13 +1,9 @@
 (function () {
   "use strict";
 
-  var REVIEW_CONFIG = {
-    apiKey: "AIzaSyByQ_8tjinn-RJ9YH2ZeKjkgWnOEZOgbMc",
-    placeQuery: "Webx Design Studio",
-    mapsUrl: "https://www.google.com/search?q=Webx+Design+Studio+Google+reviews"
-  };
+  var GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=Webx+Design+Studio+Google+reviews";
 
-  var fallbackReviews = [
+  var reviews = [
     { author: "Jyoti Kamble", rating: 5, relativeTime: "2 months ago", text: "Great support by Avinash. Thanks for the quick help." },
     { author: "Aditya Kumar Singh", rating: 5, relativeTime: "2 weeks ago", text: "Good customer support." },
     { author: "Sandesh Patil", rating: 5, relativeTime: "a month ago", text: "Thanks for the quick support." },
@@ -34,33 +30,21 @@
     }).join("");
   }
 
-  function normalizeReviews(items) {
-    if (!Array.isArray(items) || !items.length) return fallbackReviews;
-    return items.slice(0, 12).map(function (item) {
-      return {
-        author: item.author_name || item.author || "Google user",
-        rating: item.rating || 5,
-        relativeTime: item.relative_time_description || item.relativeTime || "Google review",
-        text: item.text || item.review || "",
-        profilePhotoUrl: item.profile_photo_url || item.profilePhotoUrl || ""
-      };
-    }).filter(function (item) { return item.text; });
+  function buildWordmark() {
+    return '<div class="google-wordmark" aria-label="Google"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></div>';
   }
 
   function buildReviewCard(review) {
     var initials = String(review.author || "G").trim().split(/\s+/).map(function (part) {
       return part.charAt(0);
     }).join("").slice(0, 2).toUpperCase();
-    var photo = review.profilePhotoUrl
-      ? '<img src="' + escapeHtml(review.profilePhotoUrl) + '" alt="" class="google-review-avatar-img" loading="lazy">'
-      : '<span>' + escapeHtml(initials || "G") + '</span>';
 
     return [
       '<article class="google-review-card">',
       '  <div class="google-review-card-head">',
-      '    <div class="google-review-avatar">' + photo + '</div>',
+      '    <div class="google-review-avatar"><span>' + escapeHtml(initials || "G") + '</span></div>',
       '    <div class="google-review-person">',
-      '      <div class="google-review-author-row"><h3 class="google-review-author">' + escapeHtml(review.author) + '</h3><span class="google-verified" title="Verified Google review" aria-label="Verified Google review">&#10003;</span></div>',
+      '      <div class="google-review-author-row"><h3 class="google-review-author">' + escapeHtml(review.author) + '</h3><span class="google-verified" title="Google review" aria-label="Google review">&#10003;</span></div>',
       '      <div class="google-review-source"><span class="google-g-icon" aria-hidden="true">G</span><span>' + escapeHtml(review.relativeTime) + '</span></div>',
       '    </div>',
       '  </div>',
@@ -70,24 +54,15 @@
     ].join("");
   }
 
-  function buildWordmark() {
-    return '<div class="google-wordmark" aria-label="Google"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></div>';
-  }
-
-  function buildSection(payload) {
-    var reviews = normalizeReviews(payload && payload.reviews);
-    var rating = payload && payload.rating ? Number(payload.rating).toFixed(1) : "4.7";
-    var total = payload && payload.user_ratings_total ? payload.user_ratings_total : 18;
-    var mapsUrl = payload && payload.mapsUrl ? payload.mapsUrl : REVIEW_CONFIG.mapsUrl;
-
+  function buildSection() {
     return [
       '<section class="google-reviews-section animate-section" aria-label="Google reviews">',
       '  <div class="google-reviews-container">',
       '    <div class="google-reviews-header">',
       '      <div class="google-reviews-summary">' + buildWordmark(),
-      '        <div class="google-rating-row"><span>' + escapeHtml(rating) + '</span><span class="google-review-stars" aria-hidden="true">' + renderStars(Math.round(Number(rating) || 5)) + '</span><span class="google-review-count">(' + escapeHtml(total) + ')</span></div>',
+      '        <div class="google-rating-row"><span>5.0</span><span class="google-review-stars" aria-hidden="true">' + renderStars(5) + '</span><span class="google-review-count">(' + reviews.length + ' reviews)</span></div>',
       '      </div>',
-      '      <a href="' + escapeHtml(mapsUrl) + '" class="google-review-button" target="_blank" rel="noopener">Review us on Google</a>',
+      '      <a href="' + GOOGLE_REVIEWS_URL + '" class="google-review-button" target="_blank" rel="noopener">View on Google</a>',
       '    </div>',
       '    <div class="google-reviews-viewport"><div class="google-reviews-track" tabindex="0" aria-label="Google review carousel">' + reviews.map(buildReviewCard).join("") + '</div></div>',
       '    <div class="google-review-nav" aria-label="Review carousel pages"></div>',
@@ -140,62 +115,12 @@
     renderDots();
   }
 
-  function buildGooglePlaceSearchUrl() {
-    return "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=" +
-      encodeURIComponent(REVIEW_CONFIG.placeQuery) +
-      "&inputtype=textquery&fields=place_id&key=" +
-      encodeURIComponent(REVIEW_CONFIG.apiKey);
-  }
-
-  function buildGooglePlaceDetailsUrl(placeId) {
-    return "https://maps.googleapis.com/maps/api/place/details/json?place_id=" +
-      encodeURIComponent(placeId) +
-      "&fields=name,rating,user_ratings_total,reviews,url&key=" +
-      encodeURIComponent(REVIEW_CONFIG.apiKey);
-  }
-
-  function fetchGoogleReviews() {
-    return fetch(buildGooglePlaceSearchUrl(), { headers: { Accept: "application/json" } })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Google reviews API request failed");
-        return response.json();
-      })
-      .then(function (data) {
-        var placeId = data && data.candidates && data.candidates[0] && data.candidates[0].place_id;
-        if (!placeId) throw new Error("Google place not found");
-        return fetch(buildGooglePlaceDetailsUrl(placeId), { headers: { Accept: "application/json" } });
-      })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Google reviews API request failed");
-        return response.json();
-      })
-      .then(function (data) {
-        var result = data && data.result ? data.result : {};
-        return {
-          reviews: Array.isArray(result.reviews) ? result.reviews : [],
-          rating: result.rating,
-          user_ratings_total: result.user_ratings_total,
-          mapsUrl: result.url || REVIEW_CONFIG.mapsUrl
-        };
-      });
-  }
-
-  function insertSection(payload) {
+  function insertSection() {
     var impactSection = document.querySelector(".impact-section");
     if (!impactSection || document.querySelector(".google-reviews-section")) return;
-    impactSection.insertAdjacentHTML("afterend", buildSection(payload));
+    impactSection.insertAdjacentHTML("afterend", buildSection());
     initCarousel(impactSection.nextElementSibling);
   }
 
-  function initGoogleReviews() {
-    if (document.querySelector(".google-reviews-section")) return;
-    fetchGoogleReviews()
-      .then(insertSection)
-      .catch(function () { insertSection(null); });
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    initGoogleReviews();
-    window.setTimeout(initGoogleReviews, 800);
-  });
+  document.addEventListener("DOMContentLoaded", insertSection);
 })();
