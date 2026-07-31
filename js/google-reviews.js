@@ -4,12 +4,38 @@
   var GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=Webx+Design+Studio+Google+reviews";
 
   var reviews = [
-    { author: "Jyoti Kamble", rating: 5, relativeTime: "2 months ago", text: "Great support by Avinash. Thanks for the quick help." },
-    { author: "Aditya Kumar Singh", rating: 5, relativeTime: "2 weeks ago", text: "Good customer support." },
-    { author: "Sandesh Patil", rating: 5, relativeTime: "a month ago", text: "Thanks for the quick support." },
-    { author: "Anirudh Vasudevan", rating: 5, relativeTime: "a month ago", text: "Amazing!" },
-    { author: "Irfan N. Shaikh", rating: 5, relativeTime: "3 months ago", text: "A dependable team with a strong workflow and polished execution." },
-    { author: "Archit Sankhe", rating: 5, relativeTime: "4 months ago", text: "The collaboration was smooth, strategic, and detail-driven." }
+    {
+      author: "Morphico Designs",
+      rating: 5,
+      meta: "4 reviews",
+      relativeTime: "3 months ago",
+      avatarColor: "#6276c8",
+      text: "Great output by piyush sir. His ability to take feedback and turn it around is really phenomenal. Great attention to detail. Would be great to work with him again."
+    },
+    {
+      author: "Invisible World Poetry",
+      rating: 5,
+      meta: "3 reviews",
+      relativeTime: "3 months ago",
+      avatarColor: "#0097a7",
+      text: "WebX Designs is easily one of the best design studios to work with. Piyush is an absolute pleasure to collaborate with. He's intuitive, brings a great attitude to every interaction, and genuinely puts in the effort to understand client needs and deliver accordingly."
+    },
+    {
+      author: "Irfan Shaikh",
+      rating: 5,
+      meta: "Local Guide · 91 reviews · 38 photos",
+      relativeTime: "3 months ago",
+      avatarImage: "/assets/images/blogs/auther-imag-ab.webp",
+      text: "We improved out customers ESAT by 30% by implementing good UI UX journeys.\n\nHighly recommend Design agency."
+    },
+    {
+      author: "sujit metaliya",
+      rating: 5,
+      meta: "3 reviews",
+      relativeTime: "3 months ago",
+      avatarColor: "#5e35b1",
+      text: "Excellent work"
+    }
   ];
 
   function escapeHtml(value) {
@@ -38,18 +64,22 @@
     var initials = String(review.author || "G").trim().split(/\s+/).map(function (part) {
       return part.charAt(0);
     }).join("").slice(0, 2).toUpperCase();
+    var avatarStyle = review.avatarColor ? ' style="background:' + escapeHtml(review.avatarColor) + ';color:#fff"' : "";
+    var avatar = review.avatarImage
+      ? '<img src="' + escapeHtml(review.avatarImage) + '" alt="" class="google-review-avatar-img" loading="lazy">'
+      : '<span>' + escapeHtml(initials || "G") + '</span>';
 
     return [
       '<article class="google-review-card">',
       '  <div class="google-review-card-head">',
-      '    <div class="google-review-avatar"><span>' + escapeHtml(initials || "G") + '</span></div>',
+      '    <div class="google-review-avatar"' + avatarStyle + '>' + avatar + '</div>',
       '    <div class="google-review-person">',
-      '      <div class="google-review-author-row"><h3 class="google-review-author">' + escapeHtml(review.author) + '</h3><span class="google-verified" title="Google review" aria-label="Google review">&#10003;</span></div>',
-      '      <div class="google-review-source"><span class="google-g-icon" aria-hidden="true">G</span><span>' + escapeHtml(review.relativeTime) + '</span></div>',
+      '      <div class="google-review-author-row"><h3 class="google-review-author">' + escapeHtml(review.author) + '</h3></div>',
+      '      <div class="google-review-source">' + escapeHtml(review.meta || "") + '</div>',
       '    </div>',
       '  </div>',
-      '  <div class="google-review-stars google-review-card-stars" aria-label="' + clampRating(review.rating) + ' out of 5 stars">' + renderStars(review.rating) + '</div>',
-      '  <p class="google-review-text">' + escapeHtml(review.text) + '</p>',
+      '  <div class="google-review-rating-row"><div class="google-review-stars google-review-card-stars" aria-label="' + clampRating(review.rating) + ' out of 5 stars">' + renderStars(review.rating) + '</div><span class="google-review-date">' + escapeHtml(review.relativeTime) + '</span></div>',
+      '  <p class="google-review-text">' + escapeHtml(review.text).replace(/\n/g, "<br>") + '</p>',
       '</article>'
     ].join("");
   }
@@ -84,8 +114,8 @@
     }
 
     function pageCount() {
-      var visibleCards = Math.max(1, Math.floor((track.clientWidth + 1) / cardStep()));
-      return Math.max(1, cards.length - visibleCards + 1);
+      var maxScrollLeft = Math.max(0, track.scrollWidth - track.clientWidth);
+      return Math.max(1, Math.ceil(maxScrollLeft / cardStep()) + 1);
     }
 
     function renderDots() {
@@ -106,7 +136,8 @@
     }
 
     function updateDots() {
-      var index = Math.min(dots.length - 1, Math.round(track.scrollLeft / cardStep()));
+      if (!dots.length) return;
+      var index = Math.max(0, Math.min(dots.length - 1, Math.round(track.scrollLeft / cardStep())));
       dots.forEach(function (dot, dotIndex) { dot.classList.toggle("is-active", dotIndex === index); });
     }
 

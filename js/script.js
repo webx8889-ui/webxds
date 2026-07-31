@@ -43,3 +43,137 @@ document.addEventListener("DOMContentLoaded", function () { function initCtaProj
 document.addEventListener("DOMContentLoaded", function () { function enhanceCtaProjectBackButtons() { document.querySelectorAll(".cta-project-form.is-flow-v2").forEach(function (form) { if (form.dataset.backReady === "true") return; form.dataset.backReady = "true"; form.querySelectorAll(".cta-project-step").forEach(function (step, index) { if (index === 0) return; const actions = step.querySelector(".cta-project-actions"); if (!actions || actions.querySelector("[data-prev]")) return; const back = document.createElement("button"); back.type = "button"; back.className = "cta-project-button cta-project-button-secondary"; back.setAttribute("data-prev", ""); back.innerHTML = "BACK"; actions.insertBefore(back, actions.firstChild) }); form.addEventListener("click", function (event) { const previous = event.target.closest("[data-prev]"); if (!previous) return; event.preventDefault(); event.stopPropagation(); const steps = Array.from(form.querySelectorAll(".cta-project-step")); const currentIndex = steps.findIndex(function (step) { return step.classList.contains("is-active") }); if (currentIndex <= 0) return; steps.forEach(function (step, index) { step.classList.toggle("is-active", index === currentIndex - 1) }); const field = steps[currentIndex - 1].querySelector("input, textarea"); if (field) window.setTimeout(function () { field.focus({ preventScroll: true }) }, 120) }, true) }) } enhanceCtaProjectBackButtons() });
 
 document.addEventListener("DOMContentLoaded", function () { document.querySelectorAll(".cta-project-form.is-flow-v2").forEach(function (form) { if (form.dataset.domFlowReady === "true") return; form.dataset.domFlowReady = "true"; function steps() { return Array.from(form.querySelectorAll(".cta-project-step")) } function activeIndex() { return Math.max(0, steps().findIndex(function (step) { return step.classList.contains("is-active") })) } function show(index) { const items = steps(); const nextIndex = Math.max(0, Math.min(index, items.length - 1)); items.forEach(function (step, stepIndex) { step.classList.toggle("is-active", stepIndex === nextIndex) }); const field = items[nextIndex].querySelector("input, textarea"); if (field) window.setTimeout(function () { field.focus({ preventScroll: true }) }, 120) } function setError(index, message) { const item = steps()[index]; const error = item ? item.querySelector(".cta-project-error") : null; if (error) error.textContent = message || "" } function validate(index) { setError(index, ""); const item = steps()[index]; if (!item) return true; if (index === 3 || index === 5) return true; if (index === 4) { if (!form.querySelectorAll(".cta-project-service-option.is-selected").length) { setError(index, "Please select at least one service."); return false } return true } const field = item.querySelector("input:not([type='range']), textarea"); if (!field) return true; const value = field.value.trim(); if (!value) { setError(index, "This field is required."); return false } if (field.name === "name" && value.length < 3) { setError(index, "Please enter your full name."); return false } if (field.name === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) { setError(index, "Please enter a valid email ID."); return false } if (field.name === "phone" && value.replace(/\D/g, "").length < 10) { setError(index, "Please enter a valid mobile number."); return false } return true } function formatBudget(value) { return Number(value || 0).toLocaleString("en-IN") } form.addEventListener("click", function (event) { const next = event.target.closest("[data-next]"); if (!next) return; event.preventDefault(); event.stopImmediatePropagation(); const index = activeIndex(); if (validate(index)) show(index + 1) }, true); form.addEventListener("submit", function (event) { event.preventDefault(); event.stopImmediatePropagation(); const index = activeIndex(); if (!validate(index)) return; const budgetRange = form.querySelector('input[name="budgetRange"]'); const data = new FormData(form); const submit = form.querySelector('button[type="submit"]'); const payload = { name: String(data.get("name") || "").trim(), email: String(data.get("email") || "").trim(), phone: String(data.get("phone") || "").trim(), budget: "Rs " + formatBudget(budgetRange ? budgetRange.value : 100000), services: Array.from(form.querySelectorAll(".cta-project-service-option.is-selected")).map(function (item) { return item.dataset.service }), message: String(data.get("message") || "").trim() || "Project brief not provided.", source: "cta-expand-form", sessionId: window.__webxTrackingSessionId || "" }; if (!payload.name || !payload.email || !payload.phone || !payload.services.length) { setError(index, "Please complete all fields."); return } if (submit) submit.disabled = true; fetch("/api/leads", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) }).then(function (response) { if (!response.ok) { return response.json().catch(function () { return {} }).then(function (data) { throw new Error(data.error || "Submission failed") }) } return response.json() }).then(function () { form.innerHTML = `<div class="cta-project-thankyou"><div><h3>Thank You !</h3><p>Your request has been submitted.<br>We will get in touch with you within<br>24 hours</p></div></div>` }).catch(function (error) { setError(index, error.message || "Something went wrong. Please try again.") }).finally(function () { if (submit) submit.disabled = false }) }, true) }) });
+
+document.addEventListener("DOMContentLoaded", function () {
+    function initCtaVoiceToText() {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        let activeRecognition = null;
+        let activeButton = null;
+        let activeField = null;
+        let baseValue = "";
+
+        function getStep(element) {
+            return element.closest(".cta-project-step");
+        }
+
+        function setStepMessage(element, message) {
+            const step = getStep(element);
+            const error = step ? step.querySelector(".cta-project-error") : null;
+            if (error) error.textContent = message || "";
+        }
+
+        function stopActive() {
+            if (activeRecognition) {
+                activeRecognition.stop();
+            }
+        }
+
+        function setButtonListening(button, isListening) {
+            button.classList.toggle("is-listening", isListening);
+            button.setAttribute("aria-pressed", isListening ? "true" : "false");
+            button.setAttribute("aria-label", isListening ? "Stop voice typing" : "Start voice typing");
+            button.setAttribute("title", isListening ? "Stop voice typing" : "Start voice typing");
+        }
+
+        function formatSpokenValue(field, text) {
+            const cleanText = String(text || "").trim();
+            if (field.type === "tel") {
+                return cleanText.replace(/\b(plus|plush)\b/gi, "+").replace(/[^\d+]/g, "");
+            }
+            return cleanText;
+        }
+
+        function applyTranscript(field, transcript) {
+            const spoken = formatSpokenValue(field, transcript);
+            const joiner = baseValue && spoken && !/\s$/.test(baseValue) && field.tagName === "TEXTAREA" ? " " : "";
+            field.value = (baseValue + joiner + spoken).trimStart();
+            field.dispatchEvent(new Event("input", { bubbles: true }));
+            field.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+
+        function startVoice(button, field) {
+            if (!SpeechRecognition) {
+                setStepMessage(button, "Voice typing is not supported in this browser. Please use Chrome or Edge.");
+                return;
+            }
+
+            stopActive();
+            activeButton = button;
+            activeField = field;
+            baseValue = field.value || "";
+
+            const recognition = new SpeechRecognition();
+            activeRecognition = recognition;
+            recognition.lang = field.type === "tel" ? "en-IN" : (document.documentElement.lang || navigator.language || "en-IN");
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            recognition.maxAlternatives = 1;
+
+            recognition.onstart = function () {
+                setButtonListening(button, true);
+                setStepMessage(button, "Listening...");
+                field.focus({ preventScroll: true });
+            };
+
+            recognition.onresult = function (event) {
+                let transcript = "";
+                for (let index = event.resultIndex; index < event.results.length; index += 1) {
+                    transcript += event.results[index][0].transcript;
+                }
+                applyTranscript(field, transcript);
+            };
+
+            recognition.onerror = function (event) {
+                const message = event.error === "not-allowed"
+                    ? "Please allow microphone permission and try again."
+                    : "Could not hear clearly. Please tap the mic and try again.";
+                setStepMessage(button, message);
+            };
+
+            recognition.onend = function () {
+                if (activeButton === button) {
+                    setButtonListening(button, false);
+                    if (activeField && activeField.value.trim()) setStepMessage(button, "");
+                    activeRecognition = null;
+                    activeButton = null;
+                    activeField = null;
+                }
+            };
+
+            recognition.start();
+        }
+
+        document.querySelectorAll(".cta-project-form .cta-project-field-wrap").forEach(function (wrap) {
+            if (wrap.dataset.voiceReady === "true") return;
+            const field = wrap.querySelector("input:not([type='range']), textarea");
+            const icon = wrap.querySelector(".cta-project-field-icon");
+            if (!field || !icon) return;
+
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "cta-project-field-icon cta-project-voice-button";
+            button.setAttribute("aria-label", "Start voice typing");
+            button.setAttribute("aria-pressed", "false");
+            button.setAttribute("title", "Start voice typing");
+            icon.classList.remove("cta-project-field-icon");
+            button.appendChild(icon);
+            wrap.appendChild(button);
+            wrap.dataset.voiceReady = "true";
+        });
+
+        document.addEventListener("click", function (event) {
+            const button = event.target.closest(".cta-project-voice-button");
+            if (!button) return;
+            event.preventDefault();
+            const field = button.closest(".cta-project-field-wrap").querySelector("input:not([type='range']), textarea");
+            if (!field) return;
+            if (activeButton === button) {
+                stopActive();
+                return;
+            }
+            startVoice(button, field);
+        });
+    }
+
+    initCtaVoiceToText();
+});

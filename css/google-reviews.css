@@ -24,10 +24,13 @@
 .google-verified{width:16px;height:16px;border-radius:50%;background:#1a73e8;color:#fff;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;font:600 11px/1 Arial,sans-serif}
 .google-review-source{display:flex;align-items:center;gap:8px;margin-top:5px;color:var(--c-muted);font:400 13px/1.2 'Alan Sans',Arial,sans-serif}
 .google-g-icon{font:600 24px/1 Arial,sans-serif;letter-spacing:-3px;background:conic-gradient(from -35deg,#4285f4 0 26%,#34a853 26% 42%,#fbbc05 42% 62%,#ea4335 62% 78%,#4285f4 78% 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.google-review-card-stars{margin-top:15px}
+.google-review-rating-row{display:flex;align-items:center;gap:8px;margin-top:15px;color:var(--c-muted);font:400 14px/1.2 'Alan Sans',Arial,sans-serif}
+.google-review-card-stars{margin-top:0}
 .google-review-card-stars .google-review-star{font-size:16px}
+.google-review-date{white-space:nowrap}
 .google-review-text{color:rgba(255,255,255,.82);font:400 16px/1.55 'Alan Sans',Arial,sans-serif;margin:12px 0 0;overflow-wrap:anywhere}
 .google-review-nav{display:flex;align-items:center;justify-content:center;gap:8px;padding-top:16px}
+.google-review-nav[hidden]{display:none}
 .google-review-dot{width:8px;height:8px;border:0;border-radius:50%;background:#c6c6c2;padding:0;cursor:pointer;transition:transform .2s ease,background .2s ease}
 .google-review-dot.is-active{background:var(--c-accent);transform:scale(1.18)}
 .google-review-dot:focus-visible{outline:2px solid var(--c-accent);outline-offset:3px}

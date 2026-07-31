@@ -1723,6 +1723,41 @@ h1 {
     pointer-events: none
 }
 
+.cta-project-voice-button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease
+}
+
+.cta-project-voice-button svg {
+    width: 100%;
+    height: 100%
+}
+
+.cta-project-voice-button:hover,
+.cta-project-voice-button:focus-visible {
+    color: #9d1f00;
+    opacity: 1;
+    transform: translateY(-50%) scale(1.08)
+}
+
+.cta-project-voice-button:focus-visible {
+    outline: 2px solid rgba(157, 31, 0, 0.35);
+    outline-offset: 4px
+}
+
+.cta-project-voice-button.is-listening {
+    color: #9d1f00;
+    opacity: 1;
+    animation: ctaVoicePulse 1s ease-in-out infinite
+}
+
 .cta-project-actions {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -1793,6 +1828,17 @@ h1 {
     to {
         opacity: 1;
         transform: translateX(0)
+    }
+}
+
+@keyframes ctaVoicePulse {
+    0%,
+    100% {
+        transform: translateY(-50%) scale(1)
+    }
+
+    50% {
+        transform: translateY(-50%) scale(1.18)
     }
 }
 
