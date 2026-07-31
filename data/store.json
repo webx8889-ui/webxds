@@ -702,7 +702,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -902,7 +902,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1102,7 +1102,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1302,7 +1302,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1502,7 +1502,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1702,7 +1702,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -1902,7 +1902,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-07-31T04:43:41.429Z"
+          "updatedAt": "2026-07-31T09:39:30.282Z"
         }
       ]
     },
@@ -2077,7 +2077,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.430Z"
+      "updatedAt": "2026-07-31T09:39:30.284Z"
     },
     "blog-4": {
       "editorType": "generic",
@@ -2250,7 +2250,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.432Z"
+      "updatedAt": "2026-07-31T09:39:30.285Z"
     },
     "blog-apple": {
       "editorType": "generic",
@@ -2423,7 +2423,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.433Z"
+      "updatedAt": "2026-07-31T09:39:30.286Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2596,7 +2596,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.434Z"
+      "updatedAt": "2026-07-31T09:39:30.287Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -2727,7 +2727,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.435Z"
+      "updatedAt": "2026-07-31T09:39:30.289Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2858,7 +2858,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.436Z"
+      "updatedAt": "2026-07-31T09:39:30.289Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -2989,7 +2989,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.437Z"
+      "updatedAt": "2026-07-31T09:39:30.289Z"
     },
     "about": {
       "editorType": "generic",
@@ -3182,7 +3182,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.438Z"
+      "updatedAt": "2026-07-31T09:39:30.290Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3305,7 +3305,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.438Z"
+      "updatedAt": "2026-07-31T09:39:30.290Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3436,7 +3436,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.439Z"
+      "updatedAt": "2026-07-31T09:39:30.291Z"
     },
     "services": {
       "editorType": "generic",
@@ -3633,7 +3633,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.440Z"
+      "updatedAt": "2026-07-31T09:39:30.292Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3778,7 +3778,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.440Z"
+      "updatedAt": "2026-07-31T09:39:30.292Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -3923,7 +3923,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-07-31T04:43:41.441Z"
+      "updatedAt": "2026-07-31T09:39:30.293Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4196,10 +4196,150 @@
   "tracking": {
     "sessions": [
       {
-        "id": "sess-9b389d4681cfd19fb679eba2",
+        "id": "sess-7b07ee718edda19fb77baed4",
         "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
-        "createdAt": "2026-07-31T04:41:11.362Z",
-        "lastSeenAt": "2026-07-31T04:43:41.441Z",
+        "createdAt": "2026-07-31T09:22:44.072Z",
+        "lastSeenAt": "2026-07-31T09:39:30.294Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 525,
+        "scrollDepth": 24,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e74f9d448ced6819fb77923e1",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:57.442Z",
+        "lastSeenAt": "2026-07-31T09:22:42.450Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c606b27db2c29819fb77915db",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:53.845Z",
+        "lastSeenAt": "2026-07-31T09:19:53.845Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7fc485e942923819fb7790d5d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:51.672Z",
+        "lastSeenAt": "2026-07-31T09:19:53.781Z",
+        "currentPage": "about.html",
+        "path": "/pages/main/about.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f620da387818819fb779057e",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:49.652Z",
+        "lastSeenAt": "2026-07-31T09:19:51.605Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-623a77fed7876819fb778eee8",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:43.874Z",
+        "lastSeenAt": "2026-07-31T09:19:49.573Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e128125f8b9a5819fb778e2e3",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:40.830Z",
+        "lastSeenAt": "2026-07-31T09:19:40.830Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-08d06b2df368f819fb778d412",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:19:37.003Z",
+        "lastSeenAt": "2026-07-31T09:19:40.702Z",
         "currentPage": "work.html",
         "path": "/pages/main/work.html",
         "referrer": "http://localhost:3000/",
@@ -4208,7 +4348,807 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 150,
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8cdbf7bbec7dc819fb777697f",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:18:04.187Z",
+        "lastSeenAt": "2026-07-31T09:19:36.940Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 48,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d7828a9d9a86f819fb77734f7",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:17:50.749Z",
+        "lastSeenAt": "2026-07-31T09:18:04.020Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bc4854e41f599819fb7772b0e",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:17:48.201Z",
+        "lastSeenAt": "2026-07-31T09:17:48.201Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-27a9418678dc6819fb775c6fd",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:16:17.046Z",
+        "lastSeenAt": "2026-07-31T09:17:48.132Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 31,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-eeb7f272d92119fb775ba0c",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:16:13.732Z",
+        "lastSeenAt": "2026-07-31T09:16:13.732Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-83150e9fbff74819fb775b220",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:16:11.705Z",
+        "lastSeenAt": "2026-07-31T09:16:13.668Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/contact-page.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d99312dca76a6819fb7758e06",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:16:02.467Z",
+        "lastSeenAt": "2026-07-31T09:16:11.643Z",
+        "currentPage": "contact-page.html",
+        "path": "/pages/main/contact-page.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-58d0af63b4232819fb775877d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:16:00.795Z",
+        "lastSeenAt": "2026-07-31T09:16:00.795Z",
+        "currentPage": "contact-page.html",
+        "path": "/pages/main/contact-page.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1b80569bc1c2519fb7757605",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:56.318Z",
+        "lastSeenAt": "2026-07-31T09:16:00.733Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9ccc2127fbc8619fb77565df",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:52.188Z",
+        "lastSeenAt": "2026-07-31T09:15:52.188Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7389c3648366219fb7753ba2",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:41.370Z",
+        "lastSeenAt": "2026-07-31T09:15:52.117Z",
+        "currentPage": "about.html",
+        "path": "/pages/main/about.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-388b5dd9d20bc19fb775327c",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:39.032Z",
+        "lastSeenAt": "2026-07-31T09:15:39.032Z",
+        "currentPage": "about.html",
+        "path": "/pages/main/about.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1bd47609f94da819fb7752450",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:35.398Z",
+        "lastSeenAt": "2026-07-31T09:15:38.961Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-172d4a3a6aa98819fb774feee",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:15:25.828Z",
+        "lastSeenAt": "2026-07-31T09:15:35.304Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-891b6c84ea40e19fb7723598",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:12:23.210Z",
+        "lastSeenAt": "2026-07-31T09:15:24.846Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1de77619dd266819fb77186bf",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:11:38.461Z",
+        "lastSeenAt": "2026-07-31T09:12:08.469Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 16,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f6bd9aa5a7ff2819fb77179c7",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:11:35.136Z",
+        "lastSeenAt": "2026-07-31T09:11:38.395Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8412641581c96819fb77156b0",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:11:26.195Z",
+        "lastSeenAt": "2026-07-31T09:11:34.988Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b4bad163d0e0419fb7713013",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:11:16.261Z",
+        "lastSeenAt": "2026-07-31T09:11:26.049Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a46e5d34073a1819fb771282c",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:11:14.267Z",
+        "lastSeenAt": "2026-07-31T09:11:14.267Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8074e55f0450d19fb76c0fb8",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:05:40.294Z",
+        "lastSeenAt": "2026-07-31T09:11:14.172Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1566x980",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 330,
+        "scrollDepth": 93,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-247b6316ad8d0819fb76b121d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:04:35.430Z",
+        "lastSeenAt": "2026-07-31T09:05:36.291Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 3,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cb98346685d1d819fb76b059d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:04:32.191Z",
+        "lastSeenAt": "2026-07-31T09:04:35.123Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1acbf0248112b19fb7697cd2",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:02:51.631Z",
+        "lastSeenAt": "2026-07-31T09:04:22.290Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 98,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-76f7b260cc5d719fb76964d9",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:02:45.491Z",
+        "lastSeenAt": "2026-07-31T09:02:49.622Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8fd101aaee913819fb7695e36",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T09:02:43.836Z",
+        "lastSeenAt": "2026-07-31T09:02:45.405Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bf07ffc89c75b19fb7642de0",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:57:03.783Z",
+        "lastSeenAt": "2026-07-31T09:02:43.625Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 180,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f2765ea875d9319fb76425f8",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:57:01.714Z",
+        "lastSeenAt": "2026-07-31T08:57:03.671Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3010779a66c5419fb764057d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:53.402Z",
+        "lastSeenAt": "2026-07-31T08:57:01.654Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-29d1935860da419fb763ff12",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:51.760Z",
+        "lastSeenAt": "2026-07-31T08:56:53.334Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2ba0555e3908e819fb763f00d",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:47.923Z",
+        "lastSeenAt": "2026-07-31T08:56:51.691Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/pages/main/about.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bbd76f7d918e919fb763e9c3",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:46.304Z",
+        "lastSeenAt": "2026-07-31T08:56:47.752Z",
+        "currentPage": "about.html",
+        "path": "/pages/main/about.html",
+        "referrer": "http://localhost:3000/pages/main/services.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-078ce1e09775b19fb763e18a",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:44.196Z",
+        "lastSeenAt": "2026-07-31T08:56:46.232Z",
+        "currentPage": "services.html",
+        "path": "/pages/main/services.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7cf5a60c1e05819fb763d6ce",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T08:56:41.476Z",
+        "lastSeenAt": "2026-07-31T08:56:44.098Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cd9a21d46655219fb69b90b9",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T05:17:56.309Z",
+        "lastSeenAt": "2026-07-31T08:56:41.265Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2580,
+        "scrollDepth": 97,
+        "eventCount": 34,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9ff4f422de21c19fb69b4a24",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T05:17:38.262Z",
+        "lastSeenAt": "2026-07-31T05:17:53.268Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 92,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-39aadeab0d15b819fb69b432e",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T05:17:36.514Z",
+        "lastSeenAt": "2026-07-31T05:17:36.514Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a1a6e142ce7a119fb69b2897",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T05:17:29.642Z",
+        "lastSeenAt": "2026-07-31T05:17:29.642Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8869c4a5e75ae819fb6909928",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T05:05:57.561Z",
+        "lastSeenAt": "2026-07-31T05:17:28.932Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 285,
+        "scrollDepth": 83,
+        "eventCount": 6,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9b389d4681cfd19fb679eba2",
+        "visitorId": "0e7c40bf-c495-4486-8283-dfe8b23a03a8",
+        "createdAt": "2026-07-31T04:41:11.362Z",
+        "lastSeenAt": "2026-07-31T05:05:56.358Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 990,
         "scrollDepth": 97,
         "eventCount": 2,
         "pageViews": 1,
@@ -9238,6 +10178,690 @@
     ],
     "events": [
       {
+        "id": "evt-1727d405",
+        "sessionId": "sess-7fc485e942923819fb7790d5d",
+        "page": "about.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:19:53.781Z"
+      },
+      {
+        "id": "evt-042f9a22",
+        "sessionId": "sess-f620da387818819fb779057e",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "About",
+        "createdAt": "2026-07-31T09:19:51.605Z"
+      },
+      {
+        "id": "evt-74d63221",
+        "sessionId": "sess-623a77fed7876819fb778eee8",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:19:49.573Z"
+      },
+      {
+        "id": "evt-b335eb6b",
+        "sessionId": "sess-08d06b2df368f819fb778d412",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T09:19:40.702Z"
+      },
+      {
+        "id": "evt-52f606f1",
+        "sessionId": "sess-8cdbf7bbec7dc819fb777697f",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:19:36.940Z"
+      },
+      {
+        "id": "evt-50851d04",
+        "sessionId": "sess-d7828a9d9a86f819fb77734f7",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-07-31T09:18:04.020Z"
+      },
+      {
+        "id": "evt-ab3d7e52",
+        "sessionId": "sess-27a9418678dc6819fb775c6fd",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:17:48.132Z"
+      },
+      {
+        "id": "evt-29534c6e",
+        "sessionId": "sess-83150e9fbff74819fb775b220",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T09:16:13.668Z"
+      },
+      {
+        "id": "evt-51701288",
+        "sessionId": "sess-d99312dca76a6819fb7758e06",
+        "page": "contact-page.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:16:11.643Z"
+      },
+      {
+        "id": "evt-3c6327e4",
+        "sessionId": "sess-1b80569bc1c2519fb7757605",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Contact",
+        "createdAt": "2026-07-31T09:16:00.733Z"
+      },
+      {
+        "id": "evt-a8534e62",
+        "sessionId": "sess-7389c3648366219fb7753ba2",
+        "page": "about.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T09:15:52.117Z"
+      },
+      {
+        "id": "evt-3abd245b",
+        "sessionId": "sess-1bd47609f94da819fb7752450",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "About",
+        "createdAt": "2026-07-31T09:15:38.961Z"
+      },
+      {
+        "id": "evt-90d56205",
+        "sessionId": "sess-172d4a3a6aa98819fb774feee",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T09:15:35.304Z"
+      },
+      {
+        "id": "evt-2a88ab05",
+        "sessionId": "sess-f6bd9aa5a7ff2819fb77179c7",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:11:38.395Z"
+      },
+      {
+        "id": "evt-b4b81937",
+        "sessionId": "sess-8412641581c96819fb77156b0",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-07-31T09:11:34.988Z"
+      },
+      {
+        "id": "evt-b5ab995b",
+        "sessionId": "sess-b4bad163d0e0419fb7713013",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T09:11:26.049Z"
+      },
+      {
+        "id": "evt-637419ab",
+        "sessionId": "sess-8074e55f0450d19fb76c0fb8",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:11:14.172Z"
+      },
+      {
+        "id": "evt-57ce539f",
+        "sessionId": "sess-8074e55f0450d19fb76c0fb8",
+        "page": "home",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T09:05:47.756Z"
+      },
+      {
+        "id": "evt-afe0b99f",
+        "sessionId": "sess-8074e55f0450d19fb76c0fb8",
+        "page": "home",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T09:05:46.427Z"
+      },
+      {
+        "id": "evt-de80b87b",
+        "sessionId": "sess-cb98346685d1d819fb76b059d",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-07-31T09:04:35.123Z"
+      },
+      {
+        "id": "evt-b34fc13a",
+        "sessionId": "sess-1acbf0248112b19fb7697cd2",
+        "page": "work.html",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T09:02:55.685Z"
+      },
+      {
+        "id": "evt-bb8a47eb",
+        "sessionId": "sess-1acbf0248112b19fb7697cd2",
+        "page": "work.html",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T09:02:54.645Z"
+      },
+      {
+        "id": "evt-bf3abf6c",
+        "sessionId": "sess-1acbf0248112b19fb7697cd2",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T09:02:53.736Z"
+      },
+      {
+        "id": "evt-617c8453",
+        "sessionId": "sess-76f7b260cc5d719fb76964d9",
+        "page": "work.html",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T09:02:49.622Z"
+      },
+      {
+        "id": "evt-541273ee",
+        "sessionId": "sess-76f7b260cc5d719fb76964d9",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T09:02:48.454Z"
+      },
+      {
+        "id": "evt-c45d9d8b",
+        "sessionId": "sess-8fd101aaee913819fb7695e36",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T09:02:45.405Z"
+      },
+      {
+        "id": "evt-72a1f12d",
+        "sessionId": "sess-bf07ffc89c75b19fb7642de0",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-07-31T09:02:43.625Z"
+      },
+      {
+        "id": "evt-cfac149c",
+        "sessionId": "sess-f2765ea875d9319fb76425f8",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T08:57:03.671Z"
+      },
+      {
+        "id": "evt-2c14a07d",
+        "sessionId": "sess-3010779a66c5419fb764057d",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T08:57:01.654Z"
+      },
+      {
+        "id": "evt-861f1cb1",
+        "sessionId": "sess-29d1935860da419fb763ff12",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T08:56:53.334Z"
+      },
+      {
+        "id": "evt-6c3bb3df",
+        "sessionId": "sess-2ba0555e3908e819fb763f00d",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T08:56:51.691Z"
+      },
+      {
+        "id": "evt-11668468",
+        "sessionId": "sess-bbd76f7d918e919fb763e9c3",
+        "page": "about.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-07-31T08:56:47.752Z"
+      },
+      {
+        "id": "evt-ead64d6f",
+        "sessionId": "sess-078ce1e09775b19fb763e18a",
+        "page": "services.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "About",
+        "createdAt": "2026-07-31T08:56:46.232Z"
+      },
+      {
+        "id": "evt-c932c22e",
+        "sessionId": "sess-7cf5a60c1e05819fb763d6ce",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Services",
+        "createdAt": "2026-07-31T08:56:44.098Z"
+      },
+      {
+        "id": "evt-e1d1365c",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-07-31T08:56:41.265Z"
+      },
+      {
+        "id": "evt-4ec9d4d3",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:23:39.054Z"
+      },
+      {
+        "id": "evt-6812642f",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:23:38.575Z"
+      },
+      {
+        "id": "evt-69ee4f0a",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:23:37.410Z"
+      },
+      {
+        "id": "evt-05c69675",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:23:18.529Z"
+      },
+      {
+        "id": "evt-06186451",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:23:16.720Z"
+      },
+      {
+        "id": "evt-7e0f86c8",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:23:15.159Z"
+      },
+      {
+        "id": "evt-5ef29744",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:23:14.979Z"
+      },
+      {
+        "id": "evt-436d20c6",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "How does better UI/UX design help my business?",
+        "createdAt": "2026-07-31T05:23:11.665Z"
+      },
+      {
+        "id": "evt-84fd9e84",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What does a UI/UX design agency actually do?",
+        "createdAt": "2026-07-31T05:23:10.735Z"
+      },
+      {
+        "id": "evt-04a7cc61",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:23:04.619Z"
+      },
+      {
+        "id": "evt-36f0ab1c",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:23:03.912Z"
+      },
+      {
+        "id": "evt-f253da8a",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:22:55.991Z"
+      },
+      {
+        "id": "evt-34f01cbb",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:22:54.889Z"
+      },
+      {
+        "id": "evt-ce2395e7",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What industries do you specialize in?",
+        "createdAt": "2026-07-31T05:22:53.929Z"
+      },
+      {
+        "id": "evt-4b583241",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Do you work with early-stage startups?",
+        "createdAt": "2026-07-31T05:22:53.057Z"
+      },
+      {
+        "id": "evt-de2180cd",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "How does better UI/UX design help my business?",
+        "createdAt": "2026-07-31T05:22:52.116Z"
+      },
+      {
+        "id": "evt-2b9cf056",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What does a UI/UX design agency actually do?",
+        "createdAt": "2026-07-31T05:22:51.389Z"
+      },
+      {
+        "id": "evt-248c2c02",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What does a UI/UX design agency actually do?",
+        "createdAt": "2026-07-31T05:22:50.789Z"
+      },
+      {
+        "id": "evt-558040a4",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "How does better UI/UX design help my business?",
+        "createdAt": "2026-07-31T05:22:49.836Z"
+      },
+      {
+        "id": "evt-01fd514d",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Do you work with early-stage startups?",
+        "createdAt": "2026-07-31T05:22:48.972Z"
+      },
+      {
+        "id": "evt-75a43f87",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What industries do you specialize in?",
+        "createdAt": "2026-07-31T05:22:46.858Z"
+      },
+      {
+        "id": "evt-18b9d437",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What industries do you specialize in?",
+        "createdAt": "2026-07-31T05:22:45.917Z"
+      },
+      {
+        "id": "evt-a8ca98d7",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:22:44.933Z"
+      },
+      {
+        "id": "evt-a891e1ec",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:22:43.835Z"
+      },
+      {
+        "id": "evt-7479c07f",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:22:43.233Z"
+      },
+      {
+        "id": "evt-dcd3b3e4",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-07-31T05:22:42.376Z"
+      },
+      {
+        "id": "evt-eba511ee",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-07-31T05:22:40.221Z"
+      },
+      {
+        "id": "evt-c0e6e9d2",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T05:22:36.267Z"
+      },
+      {
+        "id": "evt-275433fa",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:22:33.601Z"
+      },
+      {
+        "id": "evt-d1689bc9",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:22:33.430Z"
+      },
+      {
+        "id": "evt-4f371d91",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T05:17:59.911Z"
+      },
+      {
+        "id": "evt-a4a37832",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:17:59.404Z"
+      },
+      {
+        "id": "evt-271f7821",
+        "sessionId": "sess-cd9a21d46655219fb69b90b9",
+        "page": "home",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T05:17:58.491Z"
+      },
+      {
+        "id": "evt-d974508b",
+        "sessionId": "sess-9ff4f422de21c19fb69b4a24",
+        "page": "home",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T05:17:52.889Z"
+      },
+      {
+        "id": "evt-d3cce032",
+        "sessionId": "sess-9ff4f422de21c19fb69b4a24",
+        "page": "home",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T05:17:51.594Z"
+      },
+      {
+        "id": "evt-95ee26a9",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:06:35.490Z"
+      },
+      {
+        "id": "evt-4a1e9945",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:06:35.339Z"
+      },
+      {
+        "id": "evt-06ee91a9",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "input.cta-project-input",
+        "text": "",
+        "createdAt": "2026-07-31T05:06:35.196Z"
+      },
+      {
+        "id": "evt-71bffa2d",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T05:06:11.132Z"
+      },
+      {
+        "id": "evt-f0980186",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "button.cta-project-field-icon.cta-project-voice-button",
+        "text": "",
+        "createdAt": "2026-07-31T05:06:01.747Z"
+      },
+      {
+        "id": "evt-6560ee66",
+        "sessionId": "sess-8869c4a5e75ae819fb6909928",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-07-31T05:05:59.428Z"
+      },
+      {
         "id": "evt-c248ab29",
         "sessionId": "sess-9b389d4681cfd19fb679eba2",
         "page": "work.html",
@@ -13052,690 +14676,6 @@
         "target": "input.cta-project-input",
         "text": "[masked]",
         "createdAt": "2026-07-25T05:23:52.875Z"
-      },
-      {
-        "id": "evt-1fd490b9",
-        "sessionId": "sess-97374ca9431d1819f97bac49f",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:23:51.859Z"
-      },
-      {
-        "id": "evt-e80e2e16",
-        "sessionId": "sess-97374ca9431d1819f97bac49f",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-07-25T05:23:50.859Z"
-      },
-      {
-        "id": "evt-d72a1c67",
-        "sessionId": "sess-97374ca9431d1819f97bac49f",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-07-25T05:23:49.891Z"
-      },
-      {
-        "id": "evt-249b5b0f",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:18:14.872Z"
-      },
-      {
-        "id": "evt-01579fb0",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:18:13.575Z"
-      },
-      {
-        "id": "evt-97e46422",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:18:12.830Z"
-      },
-      {
-        "id": "evt-9bfee9ab",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:18:11.969Z"
-      },
-      {
-        "id": "evt-384b7835",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:18:11.170Z"
-      },
-      {
-        "id": "evt-9deceb98",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-07-25T05:18:10.277Z"
-      },
-      {
-        "id": "evt-bac554a5",
-        "sessionId": "sess-ac1c7f133152c819f97aff71a",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-07-25T05:12:09.439Z"
-      },
-      {
-        "id": "evt-de0e78f5",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:11:28.402Z"
-      },
-      {
-        "id": "evt-7a895ca4",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "textarea.cta-project-textarea",
-        "text": "",
-        "createdAt": "2026-07-25T05:11:26.109Z"
-      },
-      {
-        "id": "evt-cd7a4d73",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "textarea.cta-project-textarea",
-        "text": "",
-        "createdAt": "2026-07-25T05:11:24.817Z"
-      },
-      {
-        "id": "evt-b691148d",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:11:23.739Z"
-      },
-      {
-        "id": "evt-64ea9664",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T05:11:23.416Z"
-      },
-      {
-        "id": "evt-6aa431a9",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "UI/UX Design",
-        "createdAt": "2026-07-25T05:11:17.707Z"
-      },
-      {
-        "id": "evt-65faba00",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Mobile/Web App",
-        "createdAt": "2026-07-25T05:11:16.786Z"
-      },
-      {
-        "id": "evt-d8559a8d",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T05:11:12.389Z"
-      },
-      {
-        "id": "evt-7c3387ff",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T05:11:11.591Z"
-      },
-      {
-        "id": "evt-884411a2",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Other +",
-        "createdAt": "2026-07-25T05:11:10.570Z"
-      },
-      {
-        "id": "evt-5cf47ba9",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T05:11:09.990Z"
-      },
-      {
-        "id": "evt-ba3b374c",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T05:11:08.694Z"
-      },
-      {
-        "id": "evt-06966e37",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Mobile/Web App",
-        "createdAt": "2026-07-25T05:11:07.954Z"
-      },
-      {
-        "id": "evt-77e6e928",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:11:06.357Z"
-      },
-      {
-        "id": "evt-93d08cd1",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:11:05.670Z"
-      },
-      {
-        "id": "evt-3587ede9",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:53.696Z"
-      },
-      {
-        "id": "evt-2be2d1f3",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:52.128Z"
-      },
-      {
-        "id": "evt-c95b52e9",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:51.940Z"
-      },
-      {
-        "id": "evt-faa77b20",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:51.777Z"
-      },
-      {
-        "id": "evt-4cd05e2c",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:49.052Z"
-      },
-      {
-        "id": "evt-bee702cf",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:10:45.770Z"
-      },
-      {
-        "id": "evt-50006d2c",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:10:44.593Z"
-      },
-      {
-        "id": "evt-5c573884",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:10:43.299Z"
-      },
-      {
-        "id": "evt-18f8c4d7",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:10:42.188Z"
-      },
-      {
-        "id": "evt-fdfdaa88",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:10:27.993Z"
-      },
-      {
-        "id": "evt-feaf5ba0",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:10:21.112Z"
-      },
-      {
-        "id": "evt-162edaf6",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:10:13.118Z"
-      },
-      {
-        "id": "evt-aaf6f54c",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-07-25T05:10:12.150Z"
-      },
-      {
-        "id": "evt-260b377b",
-        "sessionId": "sess-0c985e5268201819f97ae4475",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-07-25T05:10:10.167Z"
-      },
-      {
-        "id": "evt-a1dc133a",
-        "sessionId": "sess-78808c89267a1819f97aa677b",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T05:06:07.794Z"
-      },
-      {
-        "id": "evt-32eb1b13",
-        "sessionId": "sess-78808c89267a1819f97aa677b",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T05:06:02.724Z"
-      },
-      {
-        "id": "evt-7c2ccc36",
-        "sessionId": "sess-78808c89267a1819f97aa677b",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-07-25T05:06:00.645Z"
-      },
-      {
-        "id": "evt-39b5f1da",
-        "sessionId": "sess-78808c89267a1819f97aa677b",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-07-25T05:05:57.724Z"
-      },
-      {
-        "id": "evt-cdfa2afa",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T04:59:00.872Z"
-      },
-      {
-        "id": "evt-bf12f52b",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T04:58:58.255Z"
-      },
-      {
-        "id": "evt-f56eef7a",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T04:58:50.618Z"
-      },
-      {
-        "id": "evt-c60d34ff",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-07-25T04:58:48.035Z"
-      },
-      {
-        "id": "evt-f812d9ed",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:57:45.566Z"
-      },
-      {
-        "id": "evt-20e37ca5",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T04:57:43.192Z"
-      },
-      {
-        "id": "evt-f12addaa",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:56:44.579Z"
-      },
-      {
-        "id": "evt-0e2ff631",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-07-25T04:56:43.043Z"
-      },
-      {
-        "id": "evt-a62a7e03",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:56:42.276Z"
-      },
-      {
-        "id": "evt-3453c4d7",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-07-25T04:56:40.955Z"
-      },
-      {
-        "id": "evt-a3efa4e2",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:56:40.156Z"
-      },
-      {
-        "id": "evt-59ef8315",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-prev",
-        "text": "←",
-        "createdAt": "2026-07-25T04:55:01.842Z"
-      },
-      {
-        "id": "evt-be723111",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-prev",
-        "text": "←",
-        "createdAt": "2026-07-25T04:55:01.105Z"
-      },
-      {
-        "id": "evt-72100e26",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-next",
-        "text": "→",
-        "createdAt": "2026-07-25T04:54:58.315Z"
-      },
-      {
-        "id": "evt-489ded53",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-next",
-        "text": "→",
-        "createdAt": "2026-07-25T04:54:57.490Z"
-      },
-      {
-        "id": "evt-f0b94441",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-next",
-        "text": "→",
-        "createdAt": "2026-07-25T04:54:54.432Z"
-      },
-      {
-        "id": "evt-a9ff4747",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-next",
-        "text": "→",
-        "createdAt": "2026-07-25T04:54:53.329Z"
-      },
-      {
-        "id": "evt-c36f8bad",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-prev",
-        "text": "←",
-        "createdAt": "2026-07-25T04:54:51.886Z"
-      },
-      {
-        "id": "evt-9fd956f3",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.impact-arrow.impact-next",
-        "text": "→",
-        "createdAt": "2026-07-25T04:54:49.977Z"
-      },
-      {
-        "id": "evt-c58177df",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "What industries do you specialize in?",
-        "createdAt": "2026-07-25T04:54:22.716Z"
-      },
-      {
-        "id": "evt-c928b160",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "What industries do you specialize in?",
-        "createdAt": "2026-07-25T04:54:21.726Z"
-      },
-      {
-        "id": "evt-d25e3ead",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "Do you work with early-stage startups?",
-        "createdAt": "2026-07-25T04:54:20.707Z"
-      },
-      {
-        "id": "evt-330f5e57",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "How does better UI/UX design help my business?",
-        "createdAt": "2026-07-25T04:54:19.310Z"
-      },
-      {
-        "id": "evt-41d6155a",
-        "sessionId": "sess-34eff6c03832419f979f72cd",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-07-25T04:54:00.767Z"
-      },
-      {
-        "id": "evt-5c56222b",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:53:17.895Z"
-      },
-      {
-        "id": "evt-eb583482",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "textarea.cta-project-textarea",
-        "text": "",
-        "createdAt": "2026-07-25T04:53:16.321Z"
-      },
-      {
-        "id": "evt-33a389a1",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE ↗",
-        "createdAt": "2026-07-25T04:53:08.420Z"
-      },
-      {
-        "id": "evt-55eb9b11",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T04:52:59.042Z"
-      },
-      {
-        "id": "evt-7d7fdece",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T04:52:58.364Z"
-      },
-      {
-        "id": "evt-4c3692b0",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T04:52:57.165Z"
-      },
-      {
-        "id": "evt-3753d038",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Mobile/Web App",
-        "createdAt": "2026-07-25T04:52:56.523Z"
-      },
-      {
-        "id": "evt-492ebe6a",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T04:52:55.375Z"
-      },
-      {
-        "id": "evt-cafbfdd1",
-        "sessionId": "sess-b189c63a2e991819f979db85c",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-service-option.is-selected",
-        "text": "Branding & Identity",
-        "createdAt": "2026-07-25T04:52:54.774Z"
       }
     ],
     "replays": [
@@ -15502,6 +16442,288 @@
   ],
   "activity": [
     {
+      "id": "act-7184a40b",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:22:44.072Z"
+    },
+    {
+      "id": "act-f6ea59a4",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:19:57.442Z"
+    },
+    {
+      "id": "act-5de2bef0",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:19:53.845Z"
+    },
+    {
+      "id": "act-87c96f72",
+      "type": "visitor",
+      "message": "Visitor opened about.html",
+      "createdAt": "2026-07-31T09:19:51.672Z"
+    },
+    {
+      "id": "act-87eb4a39",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:19:49.652Z"
+    },
+    {
+      "id": "act-84af56bb",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:19:43.874Z"
+    },
+    {
+      "id": "act-ff42fcb9",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:19:40.830Z"
+    },
+    {
+      "id": "act-b4fb87f4",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:19:37.003Z"
+    },
+    {
+      "id": "act-db7d9487",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T09:18:04.187Z"
+    },
+    {
+      "id": "act-b8739095",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:17:50.749Z"
+    },
+    {
+      "id": "act-2f959332",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:17:48.201Z"
+    },
+    {
+      "id": "act-ecef434e",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:16:17.046Z"
+    },
+    {
+      "id": "act-ff0b2273",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:16:13.732Z"
+    },
+    {
+      "id": "act-dc0d9f3b",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:16:11.705Z"
+    },
+    {
+      "id": "act-4dda6bfa",
+      "type": "visitor",
+      "message": "Visitor opened contact-page.html",
+      "createdAt": "2026-07-31T09:16:02.467Z"
+    },
+    {
+      "id": "act-b1c96574",
+      "type": "visitor",
+      "message": "Visitor opened contact-page.html",
+      "createdAt": "2026-07-31T09:16:00.795Z"
+    },
+    {
+      "id": "act-7080fa81",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:15:56.318Z"
+    },
+    {
+      "id": "act-c4f06553",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:15:52.188Z"
+    },
+    {
+      "id": "act-13a07584",
+      "type": "visitor",
+      "message": "Visitor opened about.html",
+      "createdAt": "2026-07-31T09:15:41.370Z"
+    },
+    {
+      "id": "act-62d46455",
+      "type": "visitor",
+      "message": "Visitor opened about.html",
+      "createdAt": "2026-07-31T09:15:39.032Z"
+    },
+    {
+      "id": "act-37312e87",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:15:35.398Z"
+    },
+    {
+      "id": "act-1280930d",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:15:25.828Z"
+    },
+    {
+      "id": "act-d2ee0cb0",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:12:23.210Z"
+    },
+    {
+      "id": "act-083167a0",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:11:38.461Z"
+    },
+    {
+      "id": "act-dc1f51e6",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T09:11:35.137Z"
+    },
+    {
+      "id": "act-6eb4136b",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T09:11:26.195Z"
+    },
+    {
+      "id": "act-ad3b3977",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:11:16.261Z"
+    },
+    {
+      "id": "act-b60b8a19",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:11:14.267Z"
+    },
+    {
+      "id": "act-58be74e8",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T09:05:40.294Z"
+    },
+    {
+      "id": "act-825e6a21",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T09:04:35.430Z"
+    },
+    {
+      "id": "act-fbbc00db",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:04:32.192Z"
+    },
+    {
+      "id": "act-7b5e5602",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:02:51.631Z"
+    },
+    {
+      "id": "act-7a6e4b18",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T09:02:45.491Z"
+    },
+    {
+      "id": "act-7753dd2d",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T09:02:43.836Z"
+    },
+    {
+      "id": "act-19fe8e3d",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T08:57:03.783Z"
+    },
+    {
+      "id": "act-ffd6ad80",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T08:57:01.714Z"
+    },
+    {
+      "id": "act-73b8c553",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T08:56:53.402Z"
+    },
+    {
+      "id": "act-635a9d78",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T08:56:51.760Z"
+    },
+    {
+      "id": "act-ba1c18fc",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T08:56:47.923Z"
+    },
+    {
+      "id": "act-41ac9693",
+      "type": "visitor",
+      "message": "Visitor opened about.html",
+      "createdAt": "2026-07-31T08:56:46.304Z"
+    },
+    {
+      "id": "act-1f2d3376",
+      "type": "visitor",
+      "message": "Visitor opened services.html",
+      "createdAt": "2026-07-31T08:56:44.196Z"
+    },
+    {
+      "id": "act-4ca1b98f",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T08:56:41.477Z"
+    },
+    {
+      "id": "act-36bbd6b4",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T05:17:56.309Z"
+    },
+    {
+      "id": "act-83ff645a",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T05:17:38.262Z"
+    },
+    {
+      "id": "act-a6ee92ed",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-07-31T05:17:36.514Z"
+    },
+    {
+      "id": "act-8cbd72eb",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T05:17:29.642Z"
+    },
+    {
+      "id": "act-a41bf48b",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-07-31T05:05:57.561Z"
+    },
+    {
       "id": "act-86b52082",
       "type": "visitor",
       "message": "Visitor opened work.html",
@@ -15578,288 +16800,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-07-28T11:26:29.122Z"
-    },
-    {
-      "id": "act-20f386c2",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:58:10.217Z"
-    },
-    {
-      "id": "act-a695c811",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:58:09.392Z"
-    },
-    {
-      "id": "act-1af855fa",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:57:55.463Z"
-    },
-    {
-      "id": "act-9847fdab",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:57:55.004Z"
-    },
-    {
-      "id": "act-04f3888b",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:57:47.002Z"
-    },
-    {
-      "id": "act-87c92576",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:52:51.065Z"
-    },
-    {
-      "id": "act-8efae682",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:45:20.111Z"
-    },
-    {
-      "id": "act-d298db45",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:44:32.187Z"
-    },
-    {
-      "id": "act-05894b73",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:18:10.763Z"
-    },
-    {
-      "id": "act-cdf93ca0",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:16:15.298Z"
-    },
-    {
-      "id": "act-cec91f66",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:14:55.799Z"
-    },
-    {
-      "id": "act-81297af2",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-28T04:00:03.875Z"
-    },
-    {
-      "id": "act-d5f494b6",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T11:10:55.907Z"
-    },
-    {
-      "id": "act-00ae5067",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T10:23:52.697Z"
-    },
-    {
-      "id": "act-73c90d11",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:26:05.935Z"
-    },
-    {
-      "id": "act-ca03d7b7",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:25:02.265Z"
-    },
-    {
-      "id": "act-e227c413",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:24:57.466Z"
-    },
-    {
-      "id": "act-752ccf29",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:24:50.875Z"
-    },
-    {
-      "id": "act-a017d1fc",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:24:31.509Z"
-    },
-    {
-      "id": "act-62e2d7f7",
-      "type": "lead",
-      "message": "New lead received from web x",
-      "createdAt": "2026-07-27T04:24:18.980Z"
-    },
-    {
-      "id": "act-32c6f474",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:23:33.312Z"
-    },
-    {
-      "id": "act-267832ea",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:16:21.217Z"
-    },
-    {
-      "id": "act-c264a629",
-      "type": "visitor",
-      "message": "Visitor opened claude-fable-5-for-product-designers.html",
-      "createdAt": "2026-07-27T04:16:19.107Z"
-    },
-    {
-      "id": "act-93497af0",
-      "type": "visitor",
-      "message": "Visitor opened claude-fable-5-for-product-designers.html",
-      "createdAt": "2026-07-27T04:14:23.325Z"
-    },
-    {
-      "id": "act-4db63ab8",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-07-27T04:14:21.012Z"
-    },
-    {
-      "id": "act-b8dc4169",
-      "type": "visitor",
-      "message": "Visitor opened contact-page.html",
-      "createdAt": "2026-07-27T04:13:52.070Z"
-    },
-    {
-      "id": "act-76d08f6e",
-      "type": "visitor",
-      "message": "Visitor opened about.html",
-      "createdAt": "2026-07-27T04:13:45.292Z"
-    },
-    {
-      "id": "act-9991a2de",
-      "type": "visitor",
-      "message": "Visitor opened services.html",
-      "createdAt": "2026-07-27T04:13:39.243Z"
-    },
-    {
-      "id": "act-76373052",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:13:35.480Z"
-    },
-    {
-      "id": "act-c89a40f6",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:13:33.373Z"
-    },
-    {
-      "id": "act-bd9b122f",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-07-27T04:13:07.939Z"
-    },
-    {
-      "id": "act-89912dfd",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:13:05.589Z"
-    },
-    {
-      "id": "act-c7c89307",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:12:03.062Z"
-    },
-    {
-      "id": "act-61b3a1cb",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:09:58.992Z"
-    },
-    {
-      "id": "act-eb0edfbe",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:09:17.147Z"
-    },
-    {
-      "id": "act-69a0b29d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-27T04:00:40.666Z"
-    },
-    {
-      "id": "act-99e75165",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:00:39.012Z"
-    },
-    {
-      "id": "act-6a4fe830",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-07-27T04:00:37.264Z"
-    },
-    {
-      "id": "act-6c568936",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-07-25T13:38:57.559Z"
-    },
-    {
-      "id": "act-b2cfad19",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-25T13:38:52.679Z"
-    },
-    {
-      "id": "act-4e8aa69e",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-07-25T13:36:32.135Z"
-    },
-    {
-      "id": "act-e5230ca4",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-25T13:36:18.829Z"
-    },
-    {
-      "id": "act-0d2ca307",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-07-25T13:30:47.001Z"
-    },
-    {
-      "id": "act-4431c0e0",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-25T13:30:39.061Z"
-    },
-    {
-      "id": "act-27a092f0",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-25T13:27:34.156Z"
-    },
-    {
-      "id": "act-dc24f99e",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-07-25T13:27:26.184Z"
-    },
-    {
-      "id": "act-edba0d60",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-07-25T13:27:25.524Z"
     }
   ]
 }

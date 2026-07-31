@@ -81,6 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
             return window.isSecureContext || isLocalSecureOrigin();
         }
 
+        function canUseVoiceTyping() {
+            return Boolean(SpeechRecognition) && canRequestMicrophone();
+        }
+
         function stopActive() {
             if (activeRecognition) {
                 activeRecognition.stop();
@@ -113,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
         function startVoice(button, field) {
             if (!canRequestMicrophone()) {
                 focusFieldForNativeDictation(field);
-                setStepMessage(button, "Mic permission ke liye site HTTPS par open honi chahiye.", "hint");
+                setStepMessage(button, "Microphone permission requires the site to be opened over HTTPS.", "hint");
                 return;
             }
 
@@ -121,8 +125,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 focusFieldForNativeDictation(field);
                 const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
                 const message = isTouchDevice
-                    ? "Keyboard mic se bolkar type karein."
-                    : "Voice typing needs Chrome or Edge on HTTPS.";
+                    ? "Use your keyboard microphone to enter text by voice."
+                    : "Voice typing needs a supported browser on HTTPS.";
                 setStepMessage(button, message, "hint");
                 return;
             }
@@ -175,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     recognition.start();
                 } catch (error) {
                     setButtonListening(button, false);
-                    setStepMessage(button, "Mic start nahi ho pa raha. Page refresh karke phir try karein.");
+                    setStepMessage(button, "The microphone could not start. Please refresh the page and try again.");
                 }
             }
 
@@ -188,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginRecognition();
                 }).catch(function () {
                     setButtonListening(button, false);
-                    setStepMessage(button, "Browser settings me microphone Allow karke phir try karein.");
+                    setStepMessage(button, "Please allow microphone access in your browser settings and try again.");
                 });
                 return;
             }
@@ -201,6 +205,11 @@ document.addEventListener("DOMContentLoaded", function () {
             const field = wrap.querySelector("input:not([type='range']), textarea");
             const icon = wrap.querySelector(".cta-project-field-icon");
             if (!field || !icon) return;
+
+            if (!canUseVoiceTyping()) {
+                wrap.classList.add("is-voice-unavailable");
+                return;
+            }
 
             const button = document.createElement("button");
             button.type = "button";

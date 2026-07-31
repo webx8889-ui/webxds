@@ -27,13 +27,22 @@
 <link rel="icon" href="/assets/images/icons/favicon.webp" type="image/webp" sizes="32x32"/>
 <link rel="apple-touch-icon" href="/assets/images/icons/favicon-180.webp" sizes="180x180"/>
 <link rel="manifest" href="/manifest.json"/>
-<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/style.css?v=20260731-1"/>
+<link rel="preload" href="/videos/home-background.mp4" as="video"/>
 </head>
-<body><noscript>
+<body class="inner-video-bg"><noscript>
 <div style="padding: 20px; background: #111; color: #fff; text-align: center; font-family: sans-serif;"> This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings. </div>
 </noscript>
 <header>
 <section class="service-hero-section" aria-label="Work page hero">
+<div class="home-hero-background animate-bg">
+<video class="home-bg-video active-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+<source src="/videos/home-background.mp4" type="video/mp4"/>
+</video>
+<video class="home-bg-video" muted loop playsinline preload="auto" aria-hidden="true">
+<source src="/videos/home-background.mp4" type="video/mp4"/>
+</video>
+</div>
 <nav class="home-navbar" aria-label="Main navigation">
 <div class="home-nav-container">
 <div class="home-logo"> <a href="/" class="logo-link" aria-label="Webx Design Studio - Go to homepage"> <img src="/assets/images/logos/webx-logo.svg" alt="Webx Design Studio" width="140" height="40"/> </a> </div> <a href="/pages/main/contact-page.html" class="home-contact-btn"> <span>CONTACT US</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -244,7 +253,7 @@
 </div>
 </nav>
 <script src="/js/skeleton-loader.js"></script>
-<script src="/js/script.js?v=20260311-2"></script>
+<script src="/js/script.js?v=20260731-1"></script>
 <script> if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function (err) { console.warn('Service worker registration failed:', err); }); }); }</script>
 </body>
 </html>
