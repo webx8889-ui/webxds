@@ -11320,13 +11320,27 @@ select:focus-visible {
 
     .services-section .service-card.is-current {
         height: auto !important;
-        min-height: 176px !important;
+        min-height: 188px !important;
         flex: 0 0 auto !important;
     }
 
     .services-section .service-card.is-current .service-card-inner {
-        grid-template-rows: auto 1fr auto !important;
-        padding-bottom: 18px !important;
+        height: auto !important;
+        min-height: 188px !important;
+        grid-template-rows: auto auto !important;
+        align-content: start !important;
+        padding-bottom: 16px !important;
+    }
+
+    .services-section .service-card.is-current .service-content {
+        grid-row: 1 !important;
+    }
+
+    .services-section .service-card.is-current .service-cta-wrapper {
+        grid-row: 2 !important;
+        min-height: 36px !important;
+        margin-top: 10px !important;
+        overflow: visible !important;
     }
 
     .services-section .service-card:hover .service-cta,
