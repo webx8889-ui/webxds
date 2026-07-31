@@ -1819,6 +1819,10 @@ h1 {
     font-weight: 600
 }
 
+.cta-project-error.is-voice-hint {
+    color: rgba(0, 0, 0, 0.72)
+}
+
 @keyframes ctaStepIn {
     from {
         opacity: 0;

@@ -56,10 +56,21 @@ document.addEventListener("DOMContentLoaded", function () {
             return element.closest(".cta-project-step");
         }
 
-        function setStepMessage(element, message) {
+        function setStepMessage(element, message, type) {
             const step = getStep(element);
             const error = step ? step.querySelector(".cta-project-error") : null;
-            if (error) error.textContent = message || "";
+            if (error) {
+                error.textContent = message || "";
+                error.classList.toggle("is-voice-hint", type === "hint");
+            }
+        }
+
+        function focusFieldForNativeDictation(field) {
+            field.focus({ preventScroll: true });
+            const valueLength = field.value.length;
+            if (typeof field.setSelectionRange === "function") {
+                field.setSelectionRange(valueLength, valueLength);
+            }
         }
 
         function stopActive() {
@@ -93,7 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function startVoice(button, field) {
             if (!SpeechRecognition) {
-                setStepMessage(button, "Voice typing is not supported in this browser. Please use Chrome or Edge.");
+                focusFieldForNativeDictation(field);
+                const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+                const message = isTouchDevice
+                    ? "Keyboard mic se bolkar type karein."
+                    : "Voice typing needs Chrome or Edge on HTTPS.";
+                setStepMessage(button, message, "hint");
                 return;
             }
 
@@ -111,8 +127,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             recognition.onstart = function () {
                 setButtonListening(button, true);
-                setStepMessage(button, "Listening...");
-                field.focus({ preventScroll: true });
+                setStepMessage(button, "Listening...", "hint");
+                focusFieldForNativeDictation(field);
             };
 
             recognition.onresult = function (event) {
