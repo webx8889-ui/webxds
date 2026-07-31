@@ -73,6 +73,14 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
+        function isLocalSecureOrigin() {
+            return ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+        }
+
+        function canRequestMicrophone() {
+            return window.isSecureContext || isLocalSecureOrigin();
+        }
+
         function stopActive() {
             if (activeRecognition) {
                 activeRecognition.stop();
@@ -103,6 +111,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function startVoice(button, field) {
+            if (!canRequestMicrophone()) {
+                focusFieldForNativeDictation(field);
+                setStepMessage(button, "Mic permission ke liye site HTTPS par open honi chahiye.", "hint");
+                return;
+            }
+
             if (!SpeechRecognition) {
                 focusFieldForNativeDictation(field);
                 const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
@@ -156,7 +170,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             };
 
-            recognition.start();
+            function beginRecognition() {
+                try {
+                    recognition.start();
+                } catch (error) {
+                    setButtonListening(button, false);
+                    setStepMessage(button, "Mic start nahi ho pa raha. Page refresh karke phir try karein.");
+                }
+            }
+
+            if (navigator.mediaDevices && typeof navigator.mediaDevices.getUserMedia === "function") {
+                setStepMessage(button, "Please allow microphone permission.", "hint");
+                navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+                    stream.getTracks().forEach(function (track) {
+                        track.stop();
+                    });
+                    beginRecognition();
+                }).catch(function () {
+                    setButtonListening(button, false);
+                    setStepMessage(button, "Browser settings me microphone Allow karke phir try karein.");
+                });
+                return;
+            }
+
+            beginRecognition();
         }
 
         document.querySelectorAll(".cta-project-form .cta-project-field-wrap").forEach(function (wrap) {
