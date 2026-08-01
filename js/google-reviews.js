@@ -2,6 +2,64 @@
   "use strict";
 
   var GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=Webx+Design+Studio+Google+reviews";
+  var REVIEWS_JSON_URL = "/reviews.json";
+
+  function parseRating(value) {
+    if (value == null) return 5;
+    var text = String(value).trim();
+    var match = text.match(/([0-9]+(?:\.[0-9]+)?)/);
+    if (match) {
+      var number = Number(match[1]);
+      if (Number.isFinite(number)) return Math.max(0, Math.min(5, number));
+    }
+    return 5;
+  }
+
+  function normalizeReview(review) {
+    if (!review || typeof review !== "object") return null;
+    var author = String(review.author || review.name || "Google User").trim();
+    var rating = parseRating(review.rating || review.stars || review.star || "5");
+    var text = String(review.text || review.review || "").trim();
+    var relativeTime = String(review.relativeTime || review.date || "").trim();
+    var meta = String(review.meta || review.source || "").trim();
+    var avatarColor = String(review.avatarColor || review.color || "").trim();
+    var avatarImage = String(review.avatarImage || review.avatar || "").trim();
+    return {
+      author: author || "Google User",
+      rating: rating,
+      meta: meta,
+      relativeTime: relativeTime,
+      text: text,
+      avatarColor: avatarColor || "",
+      avatarImage: avatarImage || ""
+    };
+  }
+
+  function getAverageRating() {
+    if (!reviews || !reviews.length) return 5;
+    var total = reviews.reduce(function (sum, review) {
+      return sum + (Number.isFinite(Number(review.rating)) ? Number(review.rating) : 5);
+    }, 0);
+    return Math.round((total / reviews.length) * 10) / 10;
+  }
+
+  function loadExternalReviews() {
+    return fetch(REVIEWS_JSON_URL, { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Review JSON not available");
+        return response.json();
+      })
+      .then(function (json) {
+        if (!Array.isArray(json)) throw new Error("Invalid review JSON");
+        var loadedReviews = json.map(normalizeReview).filter(Boolean);
+        if (loadedReviews.length) {
+          reviews = loadedReviews;
+        }
+      })
+      .catch(function () {
+        return null;
+      });
+  }
 
   var reviews = [
     {
@@ -85,12 +143,13 @@
   }
 
   function buildSection() {
+    var averageRating = getAverageRating();
     return [
       '<section class="google-reviews-section animate-section" aria-label="Google reviews">',
       '  <div class="google-reviews-container">',
       '    <div class="google-reviews-header">',
       '      <div class="google-reviews-summary">' + buildWordmark(),
-      '        <div class="google-rating-row"><span>5.0</span><span class="google-review-stars" aria-hidden="true">' + renderStars(5) + '</span><span class="google-review-count">(' + reviews.length + ' reviews)</span></div>',
+      '        <div class="google-rating-row"><span>' + escapeHtml(averageRating.toFixed(1)) + '</span><span class="google-review-stars" aria-hidden="true">' + renderStars(averageRating) + '</span><span class="google-review-count">(' + reviews.length + ' reviews)</span></div>',
       '      </div>',
       '      <a href="' + GOOGLE_REVIEWS_URL + '" class="google-review-button" target="_blank" rel="noopener">View on Google</a>',
       '    </div>',
@@ -153,5 +212,7 @@
     initCarousel(impactSection.nextElementSibling);
   }
 
-  document.addEventListener("DOMContentLoaded", insertSection);
+  document.addEventListener("DOMContentLoaded", function () {
+    loadExternalReviews().finally(insertSection);
+  });
 })();

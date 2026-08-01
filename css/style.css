@@ -1599,7 +1599,7 @@ h1 {
 }
 
 .cta-project-form {
-    width: min(578px, 100%);
+    width: min(430px, 100%);
     border: 1.5px solid rgba(255, 255, 255, 0.42);
     padding: 16px 18px 14px;
     color: #000;
@@ -1616,6 +1616,38 @@ h1 {
     visibility: hidden;
     pointer-events: none;
     transition: opacity 0.28s ease, transform 0.62s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.42s ease, visibility 0s linear 0.62s
+}
+
+.cta-project-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.24);
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease
+}
+
+.cta-project-close:hover,
+.cta-project-close:focus-visible {
+    background: rgba(255, 255, 255, 0.48);
+    border-color: rgba(0, 0, 0, 0.42);
+    transform: scale(1.04)
+}
+
+.cta-project-close:focus-visible {
+    outline: 2px solid rgba(0, 0, 0, 0.35);
+    outline-offset: 2px
 }
 
 .cta-banner-section.is-form-open .cta-project-form {
@@ -1639,13 +1671,13 @@ h1 {
     color: #000;
     font-size: 24px;
     line-height: 1.15;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 8px
 }
 
 .cta-project-form-subtitle {
     color: #000;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.25;
     font-weight: 400;
     margin: 0
@@ -1791,7 +1823,7 @@ h1 {
     padding: 6px 14px;
     font-size: 12px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     transition: background 0.24s ease, transform 0.24s ease, border-color 0.24s ease
@@ -1856,7 +1888,7 @@ h1 {
 }
 
 .cta-project-form.is-flow-v2 {
-    width: min(578px, 100%);
+    width: min(430px, 100%);
     padding: 18px 18px 14px;
     border-color: rgba(255, 255, 255, 0.48);
     box-shadow: 0 20px 56px rgba(0, 0, 0, 0.12), inset 0 1px 18px rgba(255, 255, 255, 0.08)
@@ -1867,19 +1899,19 @@ h1 {
 }
 
 .cta-project-form.is-flow-v2 .cta-project-form-title {
-    font-size: clamp(22px, 2vw, 24px);
+    font-size: 24px;
     margin-bottom: 10px
 }
 
 .cta-project-form.is-flow-v2 .cta-project-form-subtitle {
-    font-size: clamp(15px, 1.5vw, 17px);
+    font-size: 18px;
     line-height: 1.25
 }
 
 .cta-project-form.is-flow-v2 .cta-project-label {
     margin: 0 0 12px 4px;
-    font-size: 15px;
-    font-weight: 600
+    font-size: 16px;
+    font-weight: 500
 }
 
 .cta-project-form.is-flow-v2 .cta-project-input,
@@ -1897,8 +1929,8 @@ h1 {
 
 .cta-project-form.is-flow-v2 .cta-project-field-icon {
     right: 12px;
-    width: 18px;
-    height: 18px
+    width: 22px;
+    height: 22px
 }
 
 .cta-project-form.is-flow-v2 .cta-project-actions {
@@ -1914,8 +1946,8 @@ h1 {
 
 .cta-project-form.is-flow-v2 .cta-project-button {
     min-height: 31px;
-    padding: 6px 14px;
-    font-size: 12px;
+    padding: clamp(10px, 1.5vw, 14px) clamp(20px, 2.5vw, 28px);
+    font-size: 16px;
     border-color: rgba(255, 255, 255, 0.74)
 }
 
@@ -1942,17 +1974,17 @@ h1 {
     align-items: center;
     gap: 20px;
     color: #000;
-        font-size: clamp(20px, 3.6vw, 30px);
+    font-size: clamp(14px, 3.6vw, 18px);
     line-height: 1;
-    font-weight: 700
+    font-weight: 400
 }
 
 .cta-project-budget-value span {
-    font-weight: 700
+    font-weight: 400
 }
 .cta-project-budget-range {
     position: absolute;
-    left: 92px;
+    left: 70px;
     right: 124px;
     bottom: 26px;
     height: 14px;
@@ -2014,21 +2046,24 @@ h1 {
 /* Thumb Icon (arrow circle) */
 .cta-project-budget-thumb-icon {
     position: absolute;
-    bottom: -10px;
+    bottom: -9px;
     width: 32px;
-    height: 24px;
+    height: 22px;
     display: grid;
     place-items: center;
-    border-radius: 60px;
-    border: 1px solid rgba(255, 255, 255, 0.98);
-    background: #fef3c7;          /* ← ye missing tha (yellow fill) */
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1;
     pointer-events: none;
-    box-shadow: 0 4px 12px rgba(254, 168, 0, 0.35);
     transform: translateX(-50%);
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: transparent;
+}
+
+.cta-project-budget-thumb-icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }
 
 .cta-project-service-grid {
@@ -2088,16 +2123,16 @@ h1 {
 
 .cta-project-thankyou h3 {
     margin: 0 0 10px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.15;
-    font-weight: 700
+    font-weight: 500
 }
 
 .cta-project-thankyou p {
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.25;
-    font-weight: 500
+    font-weight: 400
 }
 
 @media (max-width:768px) {
@@ -2107,7 +2142,7 @@ h1 {
     }
 
     .cta-project-form.is-flow-v2 .cta-project-form-title {
-        font-size: 22px
+        font-size: 24px
     }
 
     .cta-project-form.is-flow-v2 .cta-project-form-subtitle {
@@ -2126,20 +2161,20 @@ h1 {
     }
 
     .cta-project-form.is-flow-v2 .cta-project-form-title {
-        font-size: 18px
+        font-size: 24px
     }
 
     .cta-project-form.is-flow-v2 .cta-project-form-subtitle {
-        font-size: 13px
+        font-size: 18px
     }
 
     .cta-project-form.is-flow-v2 .cta-project-label {
-        font-size: 13px
+        font-size: 16px
     }
 
     .cta-project-form.is-flow-v2 .cta-project-input,
     .cta-project-form.is-flow-v2 .cta-project-textarea {
-        font-size: 13px
+        font-size: 16px
     }
 
     .cta-project-form.is-flow-v2 .cta-project-actions:has(.cta-project-button-secondary) {
@@ -2153,14 +2188,14 @@ h1 {
     }
 
     .cta-project-budget-range {
-        left: 56px;
+        left: 45px;
         right: 62px;
         bottom: 20px
     }
 
     .cta-project-budget-value {
         gap: 14px;
-        font-size: 26px
+        font-size: 18px
     }
 
     .cta-project-budget-thumb-icon {
