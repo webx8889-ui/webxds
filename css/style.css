@@ -1505,7 +1505,8 @@ h1 {
     padding: clamp(48px, 10vw, 80px) var(--space-x);
     width: 100%;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    transition: padding 0.35s ease, background 0.3s ease;
 }
 
 .cta-banner-content {
@@ -1515,7 +1516,8 @@ h1 {
     grid-template-columns: minmax(0, 1fr) minmax(320px, 578px);
     align-items: center;
     gap: clamp(24px, 4vw, 48px);
-    position: relative
+    position: relative;
+    transition: gap 0.4s ease, transform 0.55s ease, opacity 0.35s ease;
 }
 
 .cta-banner-title {
@@ -1583,21 +1585,24 @@ h1 {
 }
 
 .cta-banner-section.is-form-open {
-    padding-top: clamp(34px, 6vw, 54px);
-    padding-bottom: clamp(34px, 6vw, 54px)
+    padding-top: clamp(30px, 5.5vw, 48px);
+    padding-bottom: clamp(30px, 5.5vw, 48px);
+    min-height: 450px;
 }
 
 .cta-banner-section.is-form-open .cta-banner-content {
-    align-items: center
+    align-items: center;
+    transform: translateY(0) scale(1);
 }
 
 .cta-banner-section.is-form-open .cta-banner-button {
     opacity: 0;
-    transform: translateY(10px) scale(0.82);
+    transform: translateY(8px) scale(0.94);
     pointer-events: none;
     position: absolute;
     right: 0;
-    top: 50%
+    top: 50%;
+    transition: opacity 0.3s ease, transform 0.35s ease;
 }
 
 .cta-project-form {
@@ -1613,11 +1618,11 @@ h1 {
     top: 50%;
     grid-column: 2;
     grid-row: 1;
-    transform: translateY(calc(-50% + 12px)) scale(0.72, 0.58);
+    transform: translateY(calc(-50% + 12px)) scale(0.92);
     transform-origin: right center;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.28s ease, transform 0.62s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.42s ease, visibility 0s linear 0.62s
+    transition: opacity 0.28s ease, transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease, visibility 0s linear 0.28s;
 }
 
 .cta-project-close {
@@ -1661,7 +1666,7 @@ h1 {
     transform: translateY(0) scale(1);
     visibility: visible;
     transition-delay: 0s;
-    pointer-events: auto
+    pointer-events: auto;
 }
 
 .cta-project-form-header {
@@ -1747,6 +1752,7 @@ h1 {
 
 .cta-project-field-icon {
     position: absolute;
+    display: hidden;
     top: 50%;
     right: 12px;
     width: 18px;
@@ -1767,6 +1773,10 @@ h1 {
     cursor: pointer;
     pointer-events: auto;
     transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease
+}
+
+.cta-project-form .cta-project-voice-button {
+    display: none !important;
 }
 
 .cta-project-voice-button svg {
@@ -1825,7 +1835,8 @@ h1 {
     padding: 6px 14px;
     font-size: 12px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: 'Alan Sans', Arial, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     transition: background 0.24s ease, transform 0.24s ease, border-color 0.24s ease
@@ -1932,7 +1943,8 @@ h1 {
 .cta-project-form.is-flow-v2 .cta-project-field-icon {
     right: 12px;
     width: 22px;
-    height: 22px
+    height: 22px;
+    display: none;
 }
 
 .cta-project-form.is-flow-v2 .cta-project-actions {
@@ -1950,7 +1962,8 @@ h1 {
     min-height: 31px;
     padding: clamp(10px, 1.5vw, 14px) clamp(20px, 2.5vw, 28px);
     font-size: 16px;
-    border-color: rgba(255, 255, 255, 0.74)
+    border-color: rgba(255, 255, 255, 0.74);
+    font-family: 'Alan Sans', Arial, sans-serif;
 }
 
 .cta-project-form.is-flow-v2 .cta-project-button-secondary {
@@ -1966,7 +1979,7 @@ h1 {
 .cta-project-budget-box {
     position: relative;
     min-height: 96px;
-    padding: 24px 64px 18px 36px;
+    padding: 24px 64px 18px 18px;
         background: rgba(255, 232, 168, 0.42);
         border-radius: 2px;
 }
@@ -1987,8 +2000,8 @@ h1 {
 }
 .cta-project-budget-range {
     position: absolute;
-    left: 70px;
-    right: 124px;
+    left: 20px;
+    right: 20px;
     bottom: 26px;
     height: 14px;
 }
@@ -4374,7 +4387,7 @@ body.modal-open .navbar {
 @media (max-width:580px) {
     .services-scroll-wrapper {
         overflow: hidden !important;
-        height: 452px !important;
+        height: 520px !important;
         margin-bottom: 22px
     }
 
@@ -5246,6 +5259,14 @@ body.modal-open .navbar {
     background: var(--c-bg-black);
     color: var(--c-white);
     padding: var(--space-y) var(--space-x);
+}
+
+.clients-section + .faq-section {
+    margin-top: clamp(32px, 4vw, 48px);
+}
+
+.clients-section + .impact-section {
+    margin-top: clamp(48px, 5vw, 80px);
 }
 
 .faq-container {
@@ -11290,7 +11311,7 @@ select:focus-visible {
 
 @media (max-width:580px) {
     .services-section .services-scroll-wrapper {
-        height: 452px !important;
+        height: 520px !important;
         overflow: hidden !important;
         margin-bottom: 22px !important
     }
