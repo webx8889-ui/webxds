@@ -8,7 +8,90 @@ document.addEventListener("DOMContentLoaded", function () { console.log("Script 
 })();
 
 /* Why Choose Tabs */
-(function () { const tabs = document.querySelectorAll('.why-choose-tab'); const panels = document.querySelectorAll('.why-choose-content .tab-panel'); if (!tabs.length || !panels.length) return; tabs.forEach(tab => { tab.addEventListener('click', function () { const tabName = this.getAttribute('data-tab'); tabs.forEach(t => t.classList.remove('active')); panels.forEach(p => p.classList.remove('active')); this.classList.add('active'); const activePanel = document.getElementById('tab-' + tabName + '-panel'); if (activePanel) { activePanel.classList.add('active') } }); tab.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); const nextTab = this.nextElementSibling?.classList.contains('why-choose-tab') ? this.nextElementSibling : tabs[0]; nextTab.click(); nextTab.focus() } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); const prevTab = this.previousElementSibling?.classList.contains('why-choose-tab') ? this.previousElementSibling : tabs[tabs.length - 1]; prevTab.click(); prevTab.focus() } }) }) })();
+(function () {
+    const tabs = Array.from(document.querySelectorAll('.why-choose-tab'));
+    const panels = Array.from(document.querySelectorAll('.why-choose-content .tab-panel'));
+    const tabsContainer = document.querySelector('.why-choose-tabs');
+    if (!tabs.length || !panels.length) return;
+
+    function activateTab(tab) {
+        const tabName = tab.getAttribute('data-tab');
+        tabs.forEach(t => t.classList.remove('active'));
+        panels.forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        const activePanel = document.getElementById('tab-' + tabName + '-panel');
+        if (activePanel) activePanel.classList.add('active');
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function () {
+            activateTab(this);
+        });
+        tab.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                e.preventDefault();
+                const nextTab = this.nextElementSibling?.classList.contains('why-choose-tab') ? this.nextElementSibling : tabs[0];
+                nextTab.click();
+                nextTab.focus();
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                e.preventDefault();
+                const prevTab = this.previousElementSibling?.classList.contains('why-choose-tab') ? this.previousElementSibling : tabs[tabs.length - 1];
+                prevTab.click();
+                prevTab.focus();
+            }
+        });
+    });
+
+    // utility debounce
+    function debounce(fn, wait) {
+        let t = null;
+        return function (...args) {
+            clearTimeout(t);
+            t = setTimeout(() => fn.apply(this, args), wait);
+        };
+    }
+
+    // Mobile: enable horizontal scroll snapping and auto-activation on scroll end / touchend
+    if (tabsContainer && window.matchMedia('(max-width:768px)').matches) {
+        const snapToClosest = function () {
+            const containerRect = tabsContainer.getBoundingClientRect();
+            const center = containerRect.left + containerRect.width / 2;
+            let closest = null;
+            let minDist = Infinity;
+            tabs.forEach(t => {
+                const r = t.getBoundingClientRect();
+                const tabCenter = r.left + r.width / 2;
+                const d = Math.abs(tabCenter - center);
+                if (d < minDist) {
+                    minDist = d;
+                    closest = t;
+                }
+            });
+            if (closest) {
+                // smooth scroll to center the chosen tab
+                const tabRect = closest.getBoundingClientRect();
+                const scrollLeft = tabsContainer.scrollLeft + (tabRect.left + tabRect.width / 2) - (tabsContainer.getBoundingClientRect().left + tabsContainer.clientWidth / 2);
+                tabsContainer.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+                activateTab(closest);
+            }
+        };
+
+        const debouncedSnap = debounce(snapToClosest, 120);
+        // Activate only after touch/pointer end (user finished sliding) — avoid activating during continuous scroll
+        tabsContainer.addEventListener('touchend', function () { setTimeout(snapToClosest, 80); }, { passive: true });
+        // pointer events to handle desktop touchpads or pointer-based drags
+        tabsContainer.addEventListener('pointerup', function () { setTimeout(snapToClosest, 80); }, { passive: true });
+
+        // also ensure clicking a tab centers it
+        tabs.forEach(t => {
+            t.addEventListener('click', function () {
+                const r = t.getBoundingClientRect();
+                const scrollLeft = tabsContainer.scrollLeft + (r.left + r.width / 2) - (tabsContainer.getBoundingClientRect().left + tabsContainer.clientWidth / 2);
+                tabsContainer.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+            });
+        });
+    }
+})();
 
 // Mobile: toggle service card expansion on tap so CTA doesn't overlay text
 function initMobileServiceTaps() {
