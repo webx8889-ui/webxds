@@ -393,9 +393,26 @@
               ]
             },
             {
+              "id": "blog-agentic-ux-design-how-to-design-interfaces-for-ai-agents-in-2026-webx-design-studio",
+              "title": "Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio",
+              "image": "/assets/images/blogs/blog-img-5.png",
+              "imageAlt": "Agentic UX design for AI agent interfaces in 2026",
+              "dateLabel": "Date: 06 Jun 26",
+              "dateValue": "2026-06-06",
+              "excerpt": "Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.",
+              "url": "/pages/blogs/blog-agentic-ux-design.html",
+              "tags": [
+                "agentic UX design",
+                "AI agent interface design",
+                "UX for AI agents",
+                "agentic AI UX",
+                "AI UX design 2026"
+              ]
+            },
+            {
               "id": "blog-apple-design-study-10-ux-lessons-you-can-apply-to-your-products-in-2026-webx-design-studio",
               "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
-              "image": "/assets/images/blogs/blog-img-2.webp",
+              "image": "/assets/images/blogs/blog-img-2.png",
               "imageAlt": "Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio",
               "dateLabel": "Date: 07 Feb 26",
               "dateValue": "2026-02-07",
@@ -405,6 +422,25 @@
                 "apple design study",
                 "apple ux case study",
                 "ios design principles"
+              ]
+            },
+            {
+              "id": "blog-dark-mode-vs-light-mode-which-improves-user-experience-webx-design-studio",
+              "title": "Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio",
+              "image": "/assets/images/blogs/blog-img-light-dark-mode.png",
+              "imageAlt": "Dark mode versus light mode UX decision guide",
+              "dateLabel": "Date: 24 Jun 26",
+              "dateValue": "2026-06-24",
+              "excerpt": "Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.",
+              "url": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+              "tags": [
+                "dark mode ux",
+                "light mode ui",
+                "user experience design",
+                "accessibility",
+                "interface design",
+                "theme switching",
+                "visual ergonomics"
               ]
             },
             {
@@ -689,7 +725,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-02T11:53:41.115Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -889,7 +925,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-02T11:53:41.115Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1089,7 +1125,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-02T11:53:41.115Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1289,7 +1325,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-02T11:53:41.115Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1489,7 +1525,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-02T11:53:41.115Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1689,7 +1725,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-02T11:53:41.116Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -1889,7 +1925,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-02T11:53:41.116Z"
+          "updatedAt": "2026-08-06T11:13:27.845Z"
         }
       ]
     },
@@ -2064,7 +2100,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.117Z"
+      "updatedAt": "2026-08-06T11:13:27.846Z"
     },
     "blog-4": {
       "editorType": "generic",
@@ -2237,7 +2273,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.118Z"
+      "updatedAt": "2026-08-06T11:13:27.847Z"
     },
     "blog-apple": {
       "editorType": "generic",
@@ -2410,7 +2446,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.119Z"
+      "updatedAt": "2026-08-06T11:13:27.848Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2583,7 +2619,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.120Z"
+      "updatedAt": "2026-08-06T11:13:27.849Z"
     },
     "blogs": {
       "editorType": "generic",
@@ -2714,7 +2750,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.121Z"
+      "updatedAt": "2026-08-06T11:13:27.849Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2845,7 +2881,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.122Z"
+      "updatedAt": "2026-08-06T11:13:27.850Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -2976,7 +3012,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.122Z"
+      "updatedAt": "2026-08-06T11:13:27.850Z"
     },
     "about": {
       "editorType": "generic",
@@ -3169,7 +3205,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.123Z"
+      "updatedAt": "2026-08-06T11:13:27.851Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3292,7 +3328,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.124Z"
+      "updatedAt": "2026-08-06T11:13:27.851Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3423,7 +3459,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.124Z"
+      "updatedAt": "2026-08-06T11:13:27.852Z"
     },
     "services": {
       "editorType": "generic",
@@ -3620,7 +3656,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.125Z"
+      "updatedAt": "2026-08-06T11:13:27.853Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3765,7 +3801,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.126Z"
+      "updatedAt": "2026-08-06T11:13:27.854Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -3910,7 +3946,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-02T11:53:41.126Z"
+      "updatedAt": "2026-08-06T11:13:27.854Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4076,6 +4112,338 @@
         }
       ],
       "updatedAt": "2026-07-07T06:22:23.820Z"
+    },
+    "blog-agentic-ux-design": {
+      "editorType": "generic",
+      "path": "/pages/blogs/blog-agentic-ux-design.html",
+      "title": "Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio",
+      "meta": "Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.",
+      "displayName": "Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\n<title>Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio</title>\n<meta name=\"description\" content=\"Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.\" />\n<meta name=\"robots\" content=\"index, follow\" />\n<meta name=\"author\" content=\"Webx Design Studio\" />\n<meta name=\"theme-color\" content=\"#ff6b00\" />\n<meta name=\"keywords\" content=\"agentic UX design, AI agent interface design, UX for AI agents, agentic AI UX, AI UX design 2026\" />\n\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog-agentic-ux-design.html\" />\n\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Agentic UX Design: How to Design Interfaces for AI Agents in 2026\" />\n<meta property=\"og:description\" content=\"A practical UX guide for designing AI agent interfaces that feel clear, controllable, trustworthy, and useful in 2026.\" />\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog-agentic-ux-design.html\" />\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-5.png\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"Agentic UX design for AI agent interfaces in 2026\" />\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n<meta property=\"og:locale\" content=\"en_IN\" />\n<meta property=\"article:published_time\" content=\"2026-06-06\" />\n<meta property=\"article:modified_time\" content=\"2026-06-06\" />\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\n<meta property=\"article:section\" content=\"UX/UI Design\" />\n<meta property=\"article:tag\" content=\"agentic UX design\" />\n<meta property=\"article:tag\" content=\"AI agent interface design\" />\n<meta property=\"article:tag\" content=\"UX for AI agents\" />\n\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Agentic UX Design: How to Design Interfaces for AI Agents in 2026\" />\n<meta name=\"twitter:description\" content=\"Learn how to design AI agent interfaces with clear goals, approvals, transparency, memory, and trust.\" />\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-5.png\" />\n<meta name=\"twitter:image:alt\" content=\"Agentic UX design for AI agent interfaces in 2026\" />\n\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\n<link rel=\"manifest\" href=\"/manifest.json\" />\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\n\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\n<link rel=\"preload\" href=\"/assets/images/blogs/blog-img-5.png\" as=\"image\" />\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Agentic UX Design: How to Design Interfaces for AI Agents in 2026\",\n  \"description\": \"Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.\",\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-5.png\",\n  \"url\": \"https://webxds.com/pages/blogs/blog-agentic-ux-design.html\",\n  \"datePublished\": \"2026-06-06\",\n  \"dateModified\": \"2026-06-06\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Webx Design Studio\",\n    \"url\": \"https://webxds.com\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Webx Design Studio\",\n    \"url\": \"https://webxds.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\n    }\n  },\n  \"keywords\": [\"agentic UX design\", \"AI agent interface design\", \"UX for AI agents\", \"AI UX design 2026\"],\n  \"articleSection\": \"UX/UI Design\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://webxds.com/pages/blogs/blog-agentic-ux-design.html\"\n  }\n}\n</script>\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://webxds.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://webxds.com/pages/blogs/blogs.html\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Agentic UX Design: How to Design Interfaces for AI Agents in 2026\",\n      \"item\": \"https://webxds.com/pages/blogs/blog-agentic-ux-design.html\"\n    }\n  ]\n}\n</script>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<noscript>\n  <div style=\"padding: 20px; background: #111; color: #fff; text-align: center; font-family: sans-serif;\">\n    This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.\n  </div>\n</noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-74b6ef5e"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-a9b0b9ec"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-af769624"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-41abeb3f"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-97258d5d"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-d85d5f96"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\">\n  <div class=\"more-menu-inner\">\n    <div class=\"more-menu-left\">\n      <div class=\"more-menu-column\">\n        <a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a>\n        <a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a>\n        <a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a>\n        <a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a>\n      </div>\n      <div class=\"more-menu-column\">\n        <a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a>\n        <a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a>\n        <a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a>\n        <a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a>\n        <a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a>\n      </div>\n    </div>\n    <aside class=\"more-menu-right\">\n      <div class=\"more-cta-content\">\n        <h2 class=\"more-cta-title\">\n          Let's create<br>\n          experiences<br>\n          together.\n        </h2>\n        <p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p>\n        <a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\">\n          <span>CONTACT US</span>\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\n            <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n          </svg>\n        </a>\n      </div>\n    </aside>\n  </div>\n</div>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\">\n  <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\n    <path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n</button>"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-agentic-ux-design-section-00b164f2"
+        },
+        {
+          "type": "static",
+          "html": "\n\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260311-2\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script>\n  if ('serviceWorker' in navigator) {\n    window.addEventListener('load', function() {\n      navigator.serviceWorker.register('/sw.js').catch(function(err) {\n        console.warn('Service worker registration failed:', err);\n      });\n    });\n  }\n</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "blog-agentic-ux-design-section-74b6ef5e",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n  <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n    <nav class=\"home-navbar\" aria-label=\"Main navigation\">\n      <div class=\"home-nav-container\">\n        <div class=\"home-logo\">\n          <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n            <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" />\n          </a>\n        </div>\n        <a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\">\n          <span>CONTACT US</span>\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </a>\n      </div>\n    </nav>\n  </section>\n</header>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-a9b0b9ec",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\">\n  <div class=\"breadcrumb-container\">\n    <nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\">\n      <a href=\"/\" class=\"breadcrumb-link\">Home</a>\n      <span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span>\n      <a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a>\n      <span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span>\n      <span class=\"breadcrumb-current\" aria-current=\"page\">Agentic UX Design</span>\n    </nav>\n  </div>\n</section>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-af769624",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\">\n  <div class=\"blog-hero-image-container\">\n    <img src=\"/assets/images/blogs/blog-img-5.png\" alt=\"Agentic UX design for AI agents and adaptive interfaces in 2026\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" />\n    <div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div>\n    <div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div>\n    <div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div>\n  </div>\n</section>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-41abeb3f",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\">\n  <div class=\"blog-content-container\">\n    <header class=\"blog-header\">\n      <h1 class=\"blog-title\">Agentic UX Design: How to Design Interfaces for AI Agents in 2026</h1>\n\n      <div class=\"blog-tags-date-row\">\n        <div class=\"blog-tags\" aria-label=\"Article tags\">\n          <span class=\"blog-tag\">agentic ux design</span>\n          <span class=\"blog-tag\">ai agent interface</span>\n          <span class=\"blog-tag\">ux for ai agents</span>\n        </div>\n        <time class=\"blog-date\" datetime=\"2026-06-06\">Date: 06 Jun 26</time>\n      </div>\n\n      <div class=\"blog-social-share\" aria-label=\"Share this article\">\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Twitter\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"Twitter\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n      </div>\n    </header>\n\n    <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"Agentic UX Design: How to Design Interfaces for AI Agents in 2026\" />\n      <meta itemprop=\"datePublished\" content=\"2026-06-06\" />\n\n      <p class=\"blog-intro\">\n        In 2026, AI is no longer only answering questions. It is planning tasks, using tools, making recommendations, updating records, writing drafts, comparing options, and taking multi-step action on behalf of users. That shift creates a new design challenge: the interface is no longer just a place where people click. It is a place where people delegate.\n      </p>\n\n      <p class=\"blog-intro\">\n        Agentic UX design is the practice of designing interfaces for AI agents that can understand goals, make decisions, ask for help, and complete tasks while keeping the user informed and in control. The best agentic interfaces feel powerful without feeling unpredictable.\n      </p>\n\n      <p class=\"blog-intro\">\n        This guide explains the core UX principles, patterns, and mistakes to avoid when designing AI agent experiences for websites, SaaS products, internal tools, and consumer apps.\n      </p>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-1\">\n        <h2 class=\"section-heading\" id=\"section-heading-1\">What Is Agentic UX Design?</h2>\n        <p class=\"section-text\">\n          Agentic UX design focuses on experiences where an AI system can act with a degree of autonomy. Instead of asking the user to complete every step manually, the interface helps the user define an outcome and then supports the agent as it works toward that outcome.\n        </p>\n        <p class=\"section-text\">A traditional interface might ask users to choose filters, open records, compare data, and write a response. An agentic interface can let the user say, \"Find the top three renewal risks and draft follow-up messages,\" then show the plan, evidence, actions, and approval points.</p>\n        <ul class=\"section-list\">\n          <li>The user defines the goal.</li>\n          <li>The agent proposes or executes a sequence of steps.</li>\n          <li>The interface explains what is happening.</li>\n          <li>The user can approve, pause, correct, or take over.</li>\n        </ul>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-2\">\n        <h2 class=\"section-heading\" id=\"section-heading-2\">Why Agentic Interfaces Need a Different UX Approach</h2>\n        <p class=\"section-text\">\n          Classic UX is built around direct manipulation: the user clicks a button and sees a result. Agentic UX is built around delegation: the user gives an intent and the system performs several actions in between. That middle layer introduces uncertainty, and uncertainty changes the design problem.\n        </p>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">1. Users need to understand scope.</strong></p>\n        <p class=\"section-text\">An agent should never feel like it can roam everywhere. Show what data, tools, files, or permissions it can access before it acts.</p>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">2. Users need confidence in the plan.</strong></p>\n        <p class=\"section-text\">When a task has multiple steps, show the agent's intended path. A visible plan reduces anxiety and makes the agent feel like a collaborator.</p>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">3. Users need control at the right moments.</strong></p>\n        <p class=\"section-text\">Low-risk steps can be automated. High-risk steps, such as sending emails, charging money, deleting data, or changing settings, should ask for confirmation.</p>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-3\">\n        <h2 class=\"section-heading\" id=\"section-heading-3\">Core Principles of Agentic UX Design</h2>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">1. Design for goals, not prompts.</strong></p>\n        <p class=\"section-text\">A prompt box is useful, but it should not be the whole experience. Give users structured ways to set goals, constraints, tone, budget, time range, audience, and success criteria.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">2. Make the agent's state visible.</strong></p>\n        <p class=\"section-text\">Users should know whether the agent is thinking, searching, drafting, waiting for approval, blocked, or finished. State visibility turns invisible AI activity into understandable workflow.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">3. Separate suggestions from actions.</strong></p>\n        <p class=\"section-text\">A recommendation is not the same as execution. Design separate UI treatments for \"I suggest this\" and \"I am about to do this.\" That distinction protects trust.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">4. Keep humans in the loop for risk.</strong></p>\n        <p class=\"section-text\">The higher the consequence, the more explicit the confirmation should be. Use review screens, side-by-side diffs, undo options, and clear approval buttons.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">5. Make memory editable.</strong></p>\n        <p class=\"section-text\">If the agent remembers preferences, roles, brand rules, or past decisions, users need a way to inspect and edit that memory. Hidden memory can quickly feel uncomfortable.</p>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-4\">\n        <h2 class=\"section-heading\" id=\"section-heading-4\">Key UI Patterns for AI Agent Interfaces</h2>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Goal Composer</strong></p>\n        <p class=\"section-text\">Use a guided input area where users can describe the task and set constraints. Add chips, dropdowns, examples, and saved templates so users do not need to write perfect prompts.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Plan Preview</strong></p>\n        <p class=\"section-text\">Before the agent runs, show the steps it plans to take. Let users reorder, remove, or add steps when the task is complex.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Activity Timeline</strong></p>\n        <p class=\"section-text\">Show what the agent has done: sources checked, tools used, files changed, drafts created, and decisions made. This is especially important for business workflows.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Approval Queue</strong></p>\n        <p class=\"section-text\">When multiple actions need review, group them into an approval queue. Users should be able to approve one, approve all low-risk items, edit, or reject.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Evidence Panel</strong></p>\n        <p class=\"section-text\">For decisions and recommendations, show the evidence behind the output. Include source links, extracted facts, confidence indicators, or comparison tables when relevant.</p>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-5\">\n        <h2 class=\"section-heading\" id=\"section-heading-5\">How to Build Trust in Agentic UX</h2>\n        <p class=\"section-text\">\n          Trust does not come from making the AI sound confident. It comes from making the system understandable, interruptible, and accountable.\n        </p>\n        <ul class=\"section-list\">\n          <li>Use plain language for what the agent can and cannot do.</li>\n          <li>Show uncertainty when the answer is incomplete or based on weak evidence.</li>\n          <li>Offer undo, version history, and change summaries for important actions.</li>\n          <li>Let users correct the agent without restarting the entire workflow.</li>\n          <li>Keep permissions narrow and visible.</li>\n        </ul>\n        <p class=\"section-text\">\n          The goal is not to make the agent look magical. The goal is to make it dependable.\n        </p>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-6\">\n        <h2 class=\"section-heading\" id=\"section-heading-6\">Common Agentic UX Mistakes to Avoid</h2>\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Hiding the agent's process.</strong></p>\n        <p class=\"section-text\">If users only see a final answer, they cannot judge whether the process was sensible. Show enough process to build confidence without overwhelming them.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Using chat for everything.</strong></p>\n        <p class=\"section-text\">Chat is flexible, but forms, tables, previews, timelines, and review screens are often better for complex work. Agentic UX should blend conversation with structured UI.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Automating high-risk actions too early.</strong></p>\n        <p class=\"section-text\">Do not let speed outrun safety. Start with suggestions and approvals, then increase automation only after users trust the workflow.</p>\n\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Forgetting edge cases.</strong></p>\n        <p class=\"section-text\">Agents will get blocked, miss context, ask unclear questions, or produce weak results. Design recovery states: retry, clarify, escalate, edit, and undo.</p>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-7\">\n        <h2 class=\"section-heading\" id=\"section-heading-7\">Agentic UX Checklist for 2026</h2>\n        <ul class=\"section-list\">\n          <li>Can users clearly define the goal and constraints?</li>\n          <li>Can they see what tools, data, and permissions the agent will use?</li>\n          <li>Is there a visible plan before complex tasks run?</li>\n          <li>Are risky actions separated from low-risk suggestions?</li>\n          <li>Can users approve, pause, edit, reject, or undo actions?</li>\n          <li>Does the interface show evidence for important recommendations?</li>\n          <li>Can users inspect and change what the agent remembers?</li>\n          <li>Are failure and handoff states designed clearly?</li>\n        </ul>\n      </section>\n\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-8\">\n        <h2 class=\"section-heading\" id=\"section-heading-8\">Final Thoughts: Design the Agent, Not Just the Screen</h2>\n        <p class=\"section-text\">\n          Agentic UX design is one of the most important product design shifts of 2026. As AI agents become part of daily workflows, the winning products will not be the ones that simply add a chat box. They will be the ones that help users delegate work with clarity, confidence, and control.\n        </p>\n        <p class=\"section-text\">\n          If you are building an AI-powered product, start by mapping the decisions, risks, permissions, and approval moments in the user journey. Then design the interface around trust. Need help designing an AI agent experience? <a href=\"/pages/main/contact-page.html\" style=\"color: #00d4ff; text-decoration: underline;\">Contact Webx Design Studio</a> for a UX strategy session.\n        </p>\n      </section>\n    </article>\n  </div>\n</section>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-97258d5d",
+          "label": "More blog posts",
+          "enabled": true,
+          "html": "<section class=\"blog-section animate-section\" aria-label=\"More blog posts\">\n  <div class=\"blog-container\">\n    <div class=\"section-header animate-fade-in\">\n      <p class=\"section-label\">Today's Blogs</p>\n      <h2 class=\"section-title\">Check out our blog for the latest tips, tricks, and happenings in business and design.</h2>\n    </div>\n\n    <div class=\"blog-slider-wrapper\">\n      <div class=\"blog-slider animate-cards\" role=\"list\">\n        <article class=\"blog-card\" role=\"listitem\">\n          <div class=\"blog-image\">\n            <img src=\"/assets/images/blogs/blog-img-5.png\" alt=\"AI-driven personalization in UX/UI design\" width=\"400\" height=\"250\" loading=\"lazy\" />\n          </div>\n          <div class=\"blog-content\">\n            <h3 class=\"blog-card-title\">AI-Driven Personalization: The UX/UI Design Trend Your Business Cannot Ignore in 2026</h3>\n            <div class=\"blog-meta\">\n              <div class=\"blog-tags\" aria-label=\"Tags\">\n                <span class=\"blog-tag\">ai personalization ux</span>\n                <span class=\"blog-tag\">ai in ux ui</span>\n              </div>\n              <time class=\"blog-date\" datetime=\"2026-02-07\">Date: 07 Feb 26</time>\n            </div>\n            <p class=\"blog-excerpt\">Learn how personalized AI experiences adapt layouts, flows, and content around user behavior and intent.</p>\n            <a href=\"/pages/blogs/blog.html\" class=\"blog-read-more\" aria-label=\"Read more about AI-driven personalization\">\n              <span>READ MORE</span>\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              </svg>\n            </a>\n          </div>\n        </article>\n\n        <article class=\"blog-card\" role=\"listitem\">\n          <div class=\"blog-image\">\n            <img src=\"/assets/images/blogs/blog-img-3.png\" alt=\"High-converting landing page UX guide\" width=\"400\" height=\"250\" loading=\"lazy\" />\n          </div>\n          <div class=\"blog-content\">\n            <h3 class=\"blog-card-title\">How to Design a High-Converting Landing Page in 2026: UX and CRO Complete Guide</h3>\n            <div class=\"blog-meta\">\n              <div class=\"blog-tags\" aria-label=\"Tags\">\n                <span class=\"blog-tag\">landing page ux</span>\n                <span class=\"blog-tag\">cro design</span>\n              </div>\n              <time class=\"blog-date\" datetime=\"2026-02-18\">Date: 18 Feb 26</time>\n            </div>\n            <p class=\"blog-excerpt\">A practical guide to CTA hierarchy, trust signals, mobile UX, and conversion-focused landing page design.</p>\n            <a href=\"/pages/blogs/blog-3.html\" class=\"blog-read-more\" aria-label=\"Read more about high-converting landing page design\">\n              <span>READ MORE</span>\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              </svg>\n            </a>\n          </div>\n        </article>\n\n        <article class=\"blog-card\" role=\"listitem\">\n          <div class=\"blog-image\">\n            <img src=\"/assets/images/blogs/blog-img-4.png\" alt=\"Website redesign checklist 2026\" width=\"400\" height=\"250\" loading=\"lazy\" />\n          </div>\n          <div class=\"blog-content\">\n            <h3 class=\"blog-card-title\">10 Signs It Is Time to Redesign Your Website in 2026: Full Redesign Checklist</h3>\n            <div class=\"blog-meta\">\n              <div class=\"blog-tags\" aria-label=\"Tags\">\n                <span class=\"blog-tag\">website redesign</span>\n                <span class=\"blog-tag\">ux checklist</span>\n              </div>\n              <time class=\"blog-date\" datetime=\"2026-02-18\">Date: 18 Feb 26</time>\n            </div>\n            <p class=\"blog-excerpt\">Use this checklist to spot the warning signs that your current website is slowing traffic, leads, and revenue.</p>\n            <a href=\"/pages/blogs/blog-4.html\" class=\"blog-read-more\" aria-label=\"Read more about website redesign checklist\">\n              <span>READ MORE</span>\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\n                <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              </svg>\n            </a>\n          </div>\n        </article>\n      </div>\n    </div>\n\n    <div class=\"blog-slider-controls\">\n      <div class=\"blog-progress-bar\" role=\"progressbar\" aria-label=\"Blog slider progress\">\n        <div class=\"blog-progress-bg\"></div>\n        <div class=\"blog-progress-fill\"></div>\n      </div>\n      <div class=\"blog-navigation\">\n        <button class=\"blog-arrow blog-prev\" aria-label=\"Previous blog post\">&#8592;</button>\n        <button class=\"blog-arrow blog-next\" aria-label=\"Next blog post\">&#8594;</button>\n      </div>\n    </div>\n  </div>\n</section>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-d85d5f96",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\">\n  <div class=\"footer-container\">\n    <div class=\"footer-top\">\n      <div class=\"footer-logo\">\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" />\n      </div>\n      <div class=\"footer-social\">\n        <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\">\n          <img src=\"/assets/images/icons/linkedin-icon.png\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\">\n          <img src=\"/assets/images/icons/dribbble-icon.png\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n        <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\">\n          <img src=\"/assets/images/icons/behance-icon.png\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\n        </a>\n      </div>\n    </div>\n    <div class=\"footer-section-block\">\n      <h3 class=\"footer-heading\">\n        Services\n        <button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\">\n          <span class=\"accordion-arrow-circle\">\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </span>\n        </button>\n      </h3>\n      <div class=\"footer-links\">\n        <a href=\"/pages/main/services.html\">UI/UX Design</a>\n        <a href=\"/pages/main/services.html\">Web Design</a>\n        <a href=\"/pages/main/services.html\">App Design</a>\n        <a href=\"/pages/main/services.html\">Marketing Emailer</a>\n        <a href=\"/pages/main/services.html\">Social Media</a>\n        <a href=\"/pages/main/services.html\">Logo Design</a>\n        <a href=\"/pages/main/services.html\">Graphics Design</a>\n        <a href=\"/pages/main/services.html\">Tool Design</a>\n        <a href=\"/pages/main/services.html\">Document Design</a>\n        <a href=\"/pages/main/services.html\">ETC Design</a>\n      </div>\n    </div>\n    <div class=\"footer-section-block\">\n      <h3 class=\"footer-heading\">\n        Company\n        <button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\">\n          <span class=\"accordion-arrow-circle\">\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </span>\n        </button>\n      </h3>\n      <div class=\"footer-links\">\n        <a href=\"/pages/main/about.html\">About Us</a>\n        <a href=\"/pages/blogs/blogs.html\">Blog</a>\n        <a href=\"/pages/main/contact-page.html\">Contact</a>\n        <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n        <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n      </div>\n    </div>\n    <div class=\"footer-bottom\">\n      <p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p>\n    </div>\n  </div>\n  <div class=\"footer-bg-text\" aria-hidden=\"true\">\n    <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" width=\"600\" height=\"200\" loading=\"lazy\" />\n  </div>\n</footer>"
+        },
+        {
+          "id": "blog-agentic-ux-design-section-00b164f2",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n  <div class=\"bottom-nav-logo\">\n    <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\n    </a>\n  </div>\n  <div class=\"bottom-nav-container\">\n    <a href=\"/\" class=\"nav-item\">\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Home</span>\n    </a>\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Work</span>\n    </a>\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Services</span>\n    </a>\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">About</span>\n    </a>\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\n      <span class=\"nav-label\">Contact</span>\n    </a>\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\n      </svg>\n      <span class=\"nav-label\">More</span>\n    </button>\n  </div>\n</nav>"
+        }
+      ],
+      "updatedAt": "2026-08-06T10:52:21.195Z"
+    },
+    "blog-dark-mode-vs-light-mode": {
+      "editorType": "generic",
+      "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+      "title": "Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio",
+      "meta": "Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.",
+      "displayName": "Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"UTF-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\r\n<title>Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio</title>\r\n<meta name=\"description\" content=\"Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.\" />\r\n<meta name=\"robots\" content=\"index, follow\" />\r\n<meta name=\"author\" content=\"Webx Design Studio\" />\r\n<meta name=\"theme-color\" content=\"#ff6b00\" />\r\n<meta name=\"keywords\" content=\"dark mode ux, light mode ui, user experience design, accessibility, interface design, theme switching, visual ergonomics\" />\r\n\r\n<link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/blog-dark-mode-vs-light-mode.html\" />\r\n\r\n<meta property=\"og:type\" content=\"article\" />\r\n<meta property=\"og:title\" content=\"Dark Mode vs Light Mode: Which Improves User Experience?\" />\r\n<meta property=\"og:description\" content=\"Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.\" />\r\n<meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/blog-dark-mode-vs-light-mode.html\" />\r\n<meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-light-dark-mode.png\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Dark mode versus light mode UX decision guide\" />\r\n<meta property=\"og:site_name\" content=\"Webx Design Studio\" />\r\n<meta property=\"og:locale\" content=\"en_IN\" />\r\n<meta property=\"article:published_time\" content=\"2026-06-24\" />\r\n<meta property=\"article:author\" content=\"Webx Design Studio\" />\r\n<meta property=\"article:section\" content=\"UX/UI Design\" />\r\n<meta property=\"article:tag\" content=\"dark mode ux\" />\r\n<meta property=\"article:tag\" content=\"light mode ui\" />\r\n<meta property=\"article:tag\" content=\"accessibility\" />\r\n<meta property=\"article:tag\" content=\"user experience\" />\r\n<meta property=\"article:tag\" content=\"theme switching\" />\r\n<meta property=\"article:tag\" content=\"visual ergonomics\" />\r\n<meta property=\"article:tag\" content=\"web design trends\" />\r\n\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Dark Mode vs Light Mode: Which Improves User Experience?\" />\r\n<meta name=\"twitter:description\" content=\"Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.\" />\r\n<meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/blog-img-light-dark-mode.png\" />\r\n<meta name=\"twitter:image:alt\" content=\"Dark mode versus light mode UX decision guide\" />\r\n\r\n<link rel=\"icon\" href=\"/assets/images/icons/favicon.png\" type=\"image/png\" sizes=\"32x32\" />\r\n<link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.png\" sizes=\"180x180\" />\r\n<link rel=\"manifest\" href=\"/manifest.json\" />\r\n\r\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\r\n\r\n<link rel=\"stylesheet\" href=\"/css/style.css\" />\r\n<link rel=\"preload\" href=\"/assets/images/blogs/blog-img-light-dark-mode.png\" as=\"image\" />\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BlogPosting\",\r\n  \"headline\": \"Dark Mode vs Light Mode: Which Improves User Experience?\",\r\n  \"description\": \"Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.\",\r\n  \"image\": \"https://webxds.com/assets/images/blogs/blog-img-light-dark-mode.png\",\r\n  \"url\": \"https://webxds.com/pages/blogs/blog-dark-mode-vs-light-mode.html\",\r\n  \"datePublished\": \"2026-06-24\",\r\n  \"dateModified\": \"2026-06-24\",\r\n  \"author\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\"\r\n  },\r\n  \"publisher\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Webx Design Studio\",\r\n    \"url\": \"https://webxds.com\",\r\n    \"logo\": {\r\n      \"@type\": \"ImageObject\",\r\n      \"url\": \"https://webxds.com/assets/images/logos/webx-logo.svg\"\r\n    }\r\n  },\r\n  \"keywords\": [\"dark mode ux\", \"light mode ui\", \"user experience design\", \"accessibility\", \"interface design\"],\r\n  \"articleSection\": \"UX/UI Design\",\r\n  \"mainEntityOfPage\": {\r\n    \"@type\": \"WebPage\",\r\n    \"@id\": \"https://webxds.com/pages/blogs/blog-dark-mode-vs-light-mode.html\"\r\n  }\r\n}\r\n</script>\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"BreadcrumbList\",\r\n  \"itemListElement\": [\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 1,\r\n      \"name\": \"Home\",\r\n      \"item\": \"https://webxds.com/\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 2,\r\n      \"name\": \"Blog\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blogs.html\"\r\n    },\r\n    {\r\n      \"@type\": \"ListItem\",\r\n      \"position\": 3,\r\n      \"name\": \"Dark Mode vs Light Mode: Which Improves User Experience?\",\r\n      \"item\": \"https://webxds.com/pages/blogs/blog-dark-mode-vs-light-mode.html\"\r\n    }\r\n  ]\r\n}\r\n</script>\r\n\r\n</head>\r\n<body>",
+      "templateEnd": "</body>\r\n</html>\r\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<noscript>\r\n  <div style=\"padding: 20px; background: #111; color: #fff; text-align: center; font-family: sans-serif;\">\r\n    This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.\r\n  </div>\r\n</noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-477afca3"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-5ebed926"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-bd866119"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-5d73f344"
+        },
+        {
+          "type": "static",
+          "html": "\r\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-38538dcc"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\">\r\n  <div class=\"more-menu-inner\">\r\n    <div class=\"more-menu-left\">\r\n      <div class=\"more-menu-column\">\r\n        <a href=\"/index.html\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a>\r\n        <a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a>\r\n        <a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a>\r\n        <a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a>\r\n      </div>\r\n      <div class=\"more-menu-column\">\r\n        <a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a>\r\n        <a href=\"/pages/blogs/blogs.html\" class=\"more-link\"><span class=\"more-link-label\">Blog</span></a>\r\n        <a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a>\r\n        <a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a>\r\n        <a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a>\r\n      </div>\r\n    </div>\r\n    <aside class=\"more-menu-right\">\r\n      <div class=\"more-cta-content\">\r\n        <h2 class=\"more-cta-title\">\r\n          Let's create<br>\r\n          experiences<br>\r\n          together.\r\n        </h2>\r\n        <p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p>\r\n        <a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\">\r\n          <span>CONTACT US</span>\r\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\r\n            <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n          </svg>\r\n        </a>\r\n      </div>\r\n    </aside>\r\n  </div>\r\n</div>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\">\r\n  <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\r\n    <path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n  </svg>\r\n</button>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "blog-dark-mode-vs-light-mode-section-81ddea1b"
+        },
+        {
+          "type": "static",
+          "html": "\r\n\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n"
+        },
+        {
+          "type": "static",
+          "html": "<script>\r\n  if ('serviceWorker' in navigator) {\r\n    window.addEventListener('load', function() {\r\n      navigator.serviceWorker.register('/sw.js').catch(function(err) {\r\n        console.warn('Service worker registration failed:', err);\r\n      });\r\n    });\r\n  }\r\n</script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-477afca3",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\r\n  <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\r\n    <nav class=\"home-navbar\" aria-label=\"Main navigation\">\r\n      <div class=\"home-nav-container\">\r\n        <div class=\"home-logo\">\r\n          <a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\r\n            <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" />\r\n          </a>\r\n        </div>\r\n        <a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\">\r\n          <span>CONTACT US</span>\r\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\">\r\n            <path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n          </svg>\r\n        </a>\r\n      </div>\r\n    </nav>\r\n  </section>\r\n</header>"
+        },
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-5ebed926",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\">\r\n  <div class=\"breadcrumb-container\">\r\n    <nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\">\r\n      <a href=\"/index.html\" class=\"breadcrumb-link\">Home</a>\r\n      <span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span>\r\n      <a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a>\r\n      <span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span>\r\n      <span class=\"breadcrumb-current\" aria-current=\"page\">Dark Mode vs Light Mode: Which Improves User Experience?</span>\r\n    </nav>\r\n  </div>\r\n</section>"
+        },
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-bd866119",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\">\r\n  <div class=\"blog-hero-image-container\">\r\n    <img src=\"/assets/images/blogs/blog-img-light-dark-mode.png\" alt=\"Dark mode versus light mode UX decision graphic\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" />\r\n    <div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div>\r\n    <div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div>\r\n    <div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div>\r\n  </div>\r\n</section>"
+        },
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-5d73f344",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\">\r\n  <div class=\"blog-content-container\">\r\n\r\n    <header class=\"blog-header\">\r\n      <h1 class=\"blog-title\">Dark Mode vs Light Mode: Which Improves User Experience?</h1>\r\n\r\n      <div class=\"blog-tags-date-row\">\r\n        <div class=\"blog-tags\" aria-label=\"Article tags\">\r\n          <span class=\"blog-tag\">dark mode ux</span>\r\n          <span class=\"blog-tag\">light mode ui</span>\r\n          <span class=\"blog-tag\">user experience</span>\r\n          <span class=\"blog-tag\">accessibility</span>\r\n          <span class=\"blog-tag\">interface design</span>\r\n          <span class=\"blog-tag\">theme switching</span>\r\n          <span class=\"blog-tag\">visual ergonomics</span>\r\n        </div>\r\n        <time class=\"blog-date\" datetime=\"2026-06-24\">Date: 24 Jun 26</time>\r\n      </div>\r\n\r\n      <div class=\"blog-social-share\" aria-label=\"Share this article\">\r\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n        <a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Twitter\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"Twitter\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n      </div>\r\n    </header>\r\n\r\n    <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\r\n      <meta itemprop=\"headline\" content=\"Dark Mode vs Light Mode: Which Improves User Experience?\" />\r\n      <meta itemprop=\"datePublished\" content=\"2026-06-24\" />\r\n\r\n      <p class=\"blog-intro\">\r\n        Choosing between dark mode and light mode is no longer just a style decision — it is a UX decision that affects readability, emotional tone, visibility, and accessibility across devices.\r\n      </p>\r\n\r\n      <p class=\"blog-intro\">\r\n        In this article, we compare both design systems through the lens of real user experience, accessibility best practices, and the situations where each mode can strengthen your product.\r\n      </p>\r\n\r\n      <p class=\"blog-intro\">\r\n        By the end, you will know when to use dark mode, when light mode is the better choice, and how to design an experience that feels polished for every audience.\r\n      </p>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-1\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-1\">The UX differences between dark mode and light mode</h2>\r\n        <p class=\"section-text\">\r\n          Light mode relies on bright backgrounds and dark text, while dark mode flips the contrast. That shift affects more than just appearance — it changes how users scan content, perceive hierarchy, and feel about the interface.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li><strong style=\"color: #fff;\">Light mode advantage:</strong> Higher legibility for long-form reading and dense content.</li>\r\n          <li><strong style=\"color: #fff;\">Dark mode advantage:</strong> Reduced glare in low-light environments and a stronger sense of focus.</li>\r\n          <li><strong style=\"color: #fff;\">Light mode risk:</strong> Can feel harsh on dark screens and may increase eye strain in dim conditions.</li>\r\n          <li><strong style=\"color: #fff;\">Dark mode risk:</strong> Poor contrast can make small text hard to read, especially for users with low vision.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-2\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-2\">When dark mode improves user experience</h2>\r\n        <p class=\"section-text\">\r\n          Dark mode works best when the interface is used in low-light environments or when the experience is content-light and task-focused.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li><strong style=\"color: #fff;\">Media and entertainment apps:</strong> Video players, music apps, and creative tools often feel more immersive in dark mode.</li>\r\n          <li><strong style=\"color: #fff;\">Nighttime use cases:</strong> Apps designed for evening reading, gaming, or sleepy conditions benefit from lower brightness.</li>\r\n          <li><strong style=\"color: #fff;\">High-contrast dashboards:</strong> Interfaces with charts, graphs, or status indicators can reduce visual noise with dark backgrounds.</li>\r\n          <li><strong style=\"color: #fff;\">Brand mood and premium feel:</strong> Dark mode can communicate luxury, mystery, or a technology-forward brand tone.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-3\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-3\">When light mode is the better UX choice</h2>\r\n        <p class=\"section-text\">\r\n          Light mode remains the default for most products because it is familiar, easy to scan, and better suited for content-heavy experiences.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li><strong style=\"color: #fff;\">Reading and learning experiences:</strong> Articles, documentation, and educational content are typically easier to consume in light mode.</li>\r\n          <li><strong style=\"color: #fff;\">Professional productivity tools:</strong> Spreadsheets, forms, and enterprise apps often benefit from clear visual hierarchy in light themes.</li>\r\n          <li><strong style=\"color: #fff;\">Accessibility for diverse audiences:</strong> Light mode generally supports consistent contrast ratios across different devices and user settings.</li>\r\n          <li><strong style=\"color: #fff;\">Daytime environments:</strong> When users are in bright settings, light mode feels more natural and legible.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-4\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-4\">Accessibility and contrast guidelines</h2>\r\n        <p class=\"section-text\">\r\n          The most important factor is not the color scheme itself, but how well you maintain accessible contrast. Both modes can work if text, icons, and controls meet WCAG contrast standards.\r\n        </p>\r\n\r\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Dark mode best practice:</strong> Avoid pure black backgrounds for body text areas; use dark grey tones and ensure text remains at least 4.5:1 contrast against the background.</p>\r\n        <p class=\"section-text\"><strong style=\"color: #fff;\">Light mode best practice:</strong> Avoid pure white backgrounds when possible; soft off-whites reduce glare while preserving contrast.</p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li>Use accessible text colors for all body copy, labels, and form text.</li>\r\n          <li>Maintain clear focus styles for keyboard navigation in both themes.</li>\r\n          <li>Ensure interactive elements have strong contrast from their background states.</li>\r\n          <li>Test with actual users who have vision differences and low-light sensitivity.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-5\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-5\">Design patterns that make both modes work</h2>\r\n        <p class=\"section-text\">\r\n          If you support both light mode and dark mode, use consistent spacing, typography, and content structure so the experience feels familiar even when the palette changes.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li>Keep layouts consistent across themes; avoid reorganizing content purely because the background changed.</li>\r\n          <li>Use accent colors intentionally — brighter accents on dark backgrounds, richer neutrals on light backgrounds.</li>\r\n          <li>Maintain a clear visual hierarchy with card shadows, borders, and separators that adapt to each mode.</li>\r\n          <li>Use subtle depth and layering (not just flat color) to help users distinguish interactive areas.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-6\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-6\">How to choose the right default theme</h2>\r\n        <p class=\"section-text\">\r\n          The best default depends on your audience and context. When in doubt, choose the theme that supports the primary task most clearly and provide users an easy way to switch.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li><strong style=\"color: #fff;\">Know your audience:</strong> Professional users and knowledge workers often prefer light mode during the day; creative and media audiences often prefer dark mode.</li>\r\n          <li><strong style=\"color: #fff;\">Consider the environment:</strong> If users spend time in low-light or evening settings, dark mode can reduce discomfort.</li>\r\n          <li><strong style=\"color: #fff;\">Use system preferences:</strong> Honor the user's OS-level theme if you support both modes, and provide a manual override.</li>\r\n          <li><strong style=\"color: #fff;\">Measure engagement:</strong> Compare metrics like session length, time on page, and task completion for users in each mode.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-7\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-7\">Testing theme performance and satisfaction</h2>\r\n        <p class=\"section-text\">\r\n          User testing is the final verdict. Run small experiments with real people, and listen to their feedback about comfort, readability, and emotional response.\r\n        </p>\r\n\r\n        <ul class=\"section-list\">\r\n          <li>Test both themes with users in real environments: daylight, office lighting, and low-light situations.</li>\r\n          <li>Measure task success across common flows such as reading, form entry, and navigation.</li>\r\n          <li>Observe whether users switch themes or leave the page when the default mode feels wrong.</li>\r\n          <li>Collect qualitative feedback to understand whether your interface feels calm, clear, and trustworthy.</li>\r\n        </ul>\r\n      </section>\r\n\r\n      <section class=\"blog-page-section\" aria-labelledby=\"section-heading-8\">\r\n        <h2 class=\"section-heading\" id=\"section-heading-8\">Final takeaway: experience over aesthetics</h2>\r\n        <p class=\"section-text\">\r\n          Dark mode and light mode are both valid choices. The right decision is not about which one looks cooler — it is about which one supports your users, content, and context most effectively.\r\n        </p>\r\n\r\n        <p class=\"section-text\">\r\n          For many products, the best outcome is a polished light mode as the default with an optional dark theme for users who prefer low-light or immersive experiences. For others, dark mode can be the star feature when it reinforces the brand and the primary use case.\r\n        </p>\r\n\r\n        <p class=\"section-text\">\r\n          Design both themes with the same care, test them with real users, and keep readability, contrast, and comfort at the center of every decision.\r\n        </p>\r\n      </section>\r\n    </article>\r\n  </div>\r\n</section>"
+        },
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-38538dcc",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\">\r\n  <div class=\"footer-container\">\r\n    <div class=\"footer-top\">\r\n      <div class=\"footer-logo\">\r\n        <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" />\r\n      </div>\r\n      <div class=\"footer-social\">\r\n        <a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\">\r\n          <img src=\"/assets/images/icons/linkedin-icon.png\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n        <a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\">\r\n          <img src=\"/assets/images/icons/dribbble-icon.png\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n        <a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\">\r\n          <img src=\"/assets/images/icons/behance-icon.png\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n        </a>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"footer-section-block\">\r\n      <h3 class=\"footer-heading\">\r\n        Services\r\n        <button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\">\r\n          <span class=\"accordion-arrow-circle\">\r\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\r\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n            </svg>\r\n          </span>\r\n        </button>\r\n      </h3>\r\n      <div class=\"footer-links\">\r\n        <a href=\"/pages/main/services.html\">UI/UX Design</a>\r\n        <a href=\"/pages/main/services.html\">Web Design</a>\r\n        <a href=\"/pages/main/services.html\">App Design</a>\r\n        <a href=\"/pages/main/services.html\">Marketing Emailer</a>\r\n        <a href=\"/pages/main/services.html\">Social Media</a>\r\n        <a href=\"/pages/main/services.html\">Logo Design</a>\r\n        <a href=\"/pages/main/services.html\">Graphics Design</a>\r\n        <a href=\"/pages/main/services.html\">Tool Design</a>\r\n        <a href=\"/pages/main/services.html\">Document Design</a>\r\n        <a href=\"/pages/main/services.html\">ETC Design</a>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"footer-section-block\">\r\n      <h3 class=\"footer-heading\">\r\n        Company\r\n        <button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\">\r\n          <span class=\"accordion-arrow-circle\">\r\n            <svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\" aria-hidden=\"true\">\r\n              <path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\r\n            </svg>\r\n          </span>\r\n        </button>\r\n      </h3>\r\n      <div class=\"footer-links\">\r\n        <a href=\"/pages/main/about.html\">About Us</a>\r\n        <a href=\"/pages/blogs/blogs.html\">Blog</a>\r\n        <a href=\"/pages/main/contact-page.html\">Contact</a>\r\n        <a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\r\n        <a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"footer-bottom\">\r\n      <p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"footer-bg-text\" aria-hidden=\"true\">\r\n    <img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" />\r\n  </div>\r\n</footer>"
+        },
+        {
+          "id": "blog-dark-mode-vs-light-mode-section-81ddea1b",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n  <div class=\"bottom-nav-logo\">\r\n    <a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\r\n      <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" />\r\n      <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" />\r\n    </a>\r\n  </div>\r\n  <div class=\"bottom-nav-container\">\r\n    <a href=\"/index.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/home.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n      <span class=\"nav-label\">Home</span>\r\n    </a>\r\n    <a href=\"/pages/main/work.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/work.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n      <span class=\"nav-label\">Work</span>\r\n    </a>\r\n    <a href=\"/pages/main/services.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/services.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n      <span class=\"nav-label\">Services</span>\r\n    </a>\r\n    <a href=\"/pages/main/about.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/about.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n      <span class=\"nav-label\">About</span>\r\n    </a>\r\n    <a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\r\n      <img src=\"/assets/images/others/contact.png\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" />\r\n      <span class=\"nav-label\">Contact</span>\r\n    </a>\r\n    <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\r\n      <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n        <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n        <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n        <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n      </svg>\r\n      <span class=\"nav-label\">More</span>\r\n    </button>\r\n  </div>\r\n</nav>"
+        }
+      ],
+      "updatedAt": "2026-08-06T10:52:21.196Z"
     }
   },
   "services": [],
@@ -4295,10 +4663,650 @@
   "tracking": {
     "sessions": [
       {
+        "id": "sess-6399f53845afd819fd6c44f90",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:10:17.521Z",
+        "lastSeenAt": "2026-08-06T11:13:27.855Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 85,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b65911890152d19fd6c3e70d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:50.761Z",
+        "lastSeenAt": "2026-08-06T11:10:05.852Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 60,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a76a845087f26819fd6c3d95c",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:47.261Z",
+        "lastSeenAt": "2026-08-06T11:09:50.691Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9d720b3db8aba19fd6c3bc20",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:39.771Z",
+        "lastSeenAt": "2026-08-06T11:09:47.169Z",
+        "currentPage": "blog-dark-mode-vs-light-mode.html",
+        "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1ab9aa6a18af519fd6c3b290",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:37.333Z",
+        "lastSeenAt": "2026-08-06T11:09:39.701Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/main/work.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f16876be44c90819fd6c3a194",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:32.980Z",
+        "lastSeenAt": "2026-08-06T11:09:37.258Z",
+        "currentPage": "work.html",
+        "path": "/pages/main/work.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-95554e8377ec219fd6c37e13",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:23.889Z",
+        "lastSeenAt": "2026-08-06T11:09:32.907Z",
+        "currentPage": "blog.html",
+        "path": "/pages/blogs/blog.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ed346ebf8ce6519fd6c372c3",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:20.995Z",
+        "lastSeenAt": "2026-08-06T11:09:23.806Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a80d74e85457319fd6c343e6",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:08.996Z",
+        "lastSeenAt": "2026-08-06T11:09:08.996Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-56d0a97602856819fd6c32eea",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:09:03.623Z",
+        "lastSeenAt": "2026-08-06T11:09:08.903Z",
+        "currentPage": "blog-dark-mode-vs-light-mode.html",
+        "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-06b8b612920e219fd6c2823d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:08:19.417Z",
+        "lastSeenAt": "2026-08-06T11:08:49.847Z",
+        "currentPage": "blog-dark-mode-vs-light-mode.html",
+        "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 100,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1b2b951a6d4d2819fd6c157c5",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:07:03.008Z",
+        "lastSeenAt": "2026-08-06T11:08:18.015Z",
+        "currentPage": "blog-dark-mode-vs-light-mode.html",
+        "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 75,
+        "scrollDepth": 100,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f6ab91049e5d2819fd6c14d77",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:07:00.374Z",
+        "lastSeenAt": "2026-08-06T11:07:02.932Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-apple.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9a73456cbc0419fd6c10e44",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:06:44.189Z",
+        "lastSeenAt": "2026-08-06T11:07:00.279Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 100,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b85273655f51319fd6c0701a",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:06:03.706Z",
+        "lastSeenAt": "2026-08-06T11:06:33.850Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 100,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7822d67353b7219fd6c03c8b",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:05:50.508Z",
+        "lastSeenAt": "2026-08-06T11:05:50.508Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3b67d9d88ee4219fd6c03141",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:05:47.606Z",
+        "lastSeenAt": "2026-08-06T11:05:47.606Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-408d25c1bf6ba819fd6bf996d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:05:08.751Z",
+        "lastSeenAt": "2026-08-06T11:05:38.856Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 48,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3121aa12e5944819fd6bf8052",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:05:02.308Z",
+        "lastSeenAt": "2026-08-06T11:05:05.598Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-af6d78c41c2c8819fd6bf3ca7",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:04:44.993Z",
+        "lastSeenAt": "2026-08-06T11:05:00.845Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 89,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1832bab5ed31e819fd6beaf6d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:04:08.835Z",
+        "lastSeenAt": "2026-08-06T11:04:39.846Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 85,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-61cec8c51968219fd6bdd15a",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:03:11.996Z",
+        "lastSeenAt": "2026-08-06T11:03:57.862Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 45,
+        "scrollDepth": 91,
+        "eventCount": 4,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b8eadd1c285af819fd6bcebe6",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:02:13.252Z",
+        "lastSeenAt": "2026-08-06T11:03:10.538Z",
+        "currentPage": "blog-apple.html",
+        "path": "/pages/blogs/blog-apple.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 45,
+        "scrollDepth": 33,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9d6f828f03e34819fd6bcc70d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:02:03.817Z",
+        "lastSeenAt": "2026-08-06T11:02:13.160Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-57d4becd5831e19fd6bcb52f",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:01:59.246Z",
+        "lastSeenAt": "2026-08-06T11:01:59.246Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3615ad11efd86819fd6bca658",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T11:01:55.472Z",
+        "lastSeenAt": "2026-08-06T11:01:59.151Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dd33f9e1aee1f819fd6b76cf0",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:56:13.072Z",
+        "lastSeenAt": "2026-08-06T11:01:43.864Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 330,
+        "scrollDepth": 76,
+        "eventCount": 4,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-044b503436075819fd6b7658d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:56:11.186Z",
+        "lastSeenAt": "2026-08-06T10:56:11.186Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f5d43ac5d2c22819fd6b7485d",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:56:03.711Z",
+        "lastSeenAt": "2026-08-06T10:56:11.062Z",
+        "currentPage": "blog-dark-mode-vs-light-mode.html",
+        "path": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
+        "referrer": "http://localhost:3000/pages/blogs/blogs.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b85ab524ebd2c819fd6b3fd03",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:52:27.809Z",
+        "lastSeenAt": "2026-08-06T10:56:03.523Z",
+        "currentPage": "blogs.html",
+        "path": "/pages/blogs/blogs.html",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 210,
+        "scrollDepth": 88,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-abd4a69a8dc6519fd6b3eefb",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:52:24.224Z",
+        "lastSeenAt": "2026-08-06T10:52:27.720Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-13bf8b4f0bb919fd6b3e301",
+        "visitorId": "d77fdcb9-a029-41fb-b1ce-521242ad7387",
+        "createdAt": "2026-08-06T10:52:21.197Z",
+        "lastSeenAt": "2026-08-06T10:52:21.197Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
         "id": "sess-4c5852b43a7fe19fc251aeea",
         "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
         "createdAt": "2026-08-02T11:52:40.968Z",
-        "lastSeenAt": "2026-08-02T11:53:41.126Z",
+        "lastSeenAt": "2026-08-02T13:02:30.645Z",
         "currentPage": "work.html",
         "path": "/pages/main/work.html",
         "referrer": "http://localhost:3000/pages/main/work.html",
@@ -4307,7 +5315,7 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
+        "activeSeconds": 1305,
         "scrollDepth": 74,
         "eventCount": 7,
         "pageViews": 1,
@@ -9653,649 +10661,297 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-6199a4ebf193d819fbc16b410",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:50:32.356Z",
-        "lastSeenAt": "2026-08-01T06:51:41.425Z",
-        "currentPage": "thank-you-page.html",
-        "path": "/pages/system/thank-you-page.html",
-        "referrer": "http://localhost:3000/pages/system/service-form.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 100,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-40f4fe1e2349f19fbc1675c7",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:50:16.412Z",
-        "lastSeenAt": "2026-08-01T06:50:32.236Z",
-        "currentPage": "service-form.html",
-        "path": "/pages/system/service-form.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 20,
-        "eventCount": 4,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3dddbdfde924319fbc15edb9",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:49:41.613Z",
-        "lastSeenAt": "2026-08-01T06:50:16.329Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/details/de-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 35,
-        "scrollDepth": 20,
-        "eventCount": 6,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-863c43bc8e58d19fbc15a875",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:49:23.851Z",
-        "lastSeenAt": "2026-08-01T06:49:41.456Z",
-        "currentPage": "de-pdp.html",
-        "path": "/pages/details/de-pdp.html",
-        "referrer": "http://localhost:3000/pages/details/tictax-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 18,
-        "scrollDepth": 22,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4e6f18d6f01c819fbc13ecf9",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:47:30.317Z",
-        "lastSeenAt": "2026-08-01T06:49:23.768Z",
-        "currentPage": "tictax-pdp.html",
-        "path": "/pages/details/tictax-pdp.html",
-        "referrer": "http://localhost:3000/pages/details/ab-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 113,
-        "scrollDepth": 85,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-be70ebf3bfd3c819fbc127d20",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:45:56.147Z",
-        "lastSeenAt": "2026-08-01T06:47:30.243Z",
-        "currentPage": "ab-pdp.html",
-        "path": "/pages/details/ab-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 94,
-        "scrollDepth": 75,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d2ce1bec0606219fbc126736",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:45:50.538Z",
-        "lastSeenAt": "2026-08-01T06:45:56.062Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/details/morphico-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-61b9ce763d1a319fbc1156cf",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:44:40.811Z",
-        "lastSeenAt": "2026-08-01T06:45:50.466Z",
-        "currentPage": "morphico-pdp.html",
-        "path": "/pages/details/morphico-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 70,
-        "scrollDepth": 24,
-        "eventCount": 12,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-7eb5e9b5388c719fbc114935",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:44:37.321Z",
-        "lastSeenAt": "2026-08-01T06:44:40.750Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/details/manglam-pdp.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0524a53eceefa19fbc10663f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:43:39.218Z",
-        "lastSeenAt": "2026-08-01T06:44:37.251Z",
-        "currentPage": "manglam-pdp.html",
-        "path": "/pages/details/manglam-pdp.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 58,
-        "scrollDepth": 23,
-        "eventCount": 12,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6ea09b8210ddd19fbc0e4b52",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:41:21.298Z",
-        "lastSeenAt": "2026-08-01T06:43:39.157Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 135,
-        "scrollDepth": 98,
-        "eventCount": 17,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fad8d998e0f60819fbc0ac729",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:37:30.805Z",
-        "lastSeenAt": "2026-08-01T06:41:15.838Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 225,
-        "scrollDepth": 75,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b72fa307fd597819fbc0a4fd2",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:37:00.255Z",
-        "lastSeenAt": "2026-08-01T06:37:30.765Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 38,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-334be53225ed819fbc0a49e8",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:36:58.746Z",
-        "lastSeenAt": "2026-08-01T06:36:59.982Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a97c8e63da77819fbc08c4ff",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:35:19.204Z",
-        "lastSeenAt": "2026-08-01T06:36:49.669Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 79,
-        "eventCount": 11,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5dfb3cd38f13e19fbc06880f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:32:52.514Z",
-        "lastSeenAt": "2026-08-01T06:35:19.088Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 135,
-        "scrollDepth": 60,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1af5875327663819fbc05d6be",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:32:07.124Z",
-        "lastSeenAt": "2026-08-01T06:32:52.460Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
-        "scrollDepth": 94,
-        "eventCount": 13,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e7745cd4e9ab19fbc05aa67",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:31:55.770Z",
-        "lastSeenAt": "2026-08-01T06:32:07.017Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/legal/term-condition.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-c1796b659a714819fbc05924c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:31:49.599Z",
-        "lastSeenAt": "2026-08-01T06:31:55.707Z",
-        "currentPage": "term-condition.html",
-        "path": "/pages/legal/term-condition.html",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2b21a3ef922cb819fbc04e915",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:31:06.317Z",
-        "lastSeenAt": "2026-08-01T06:31:49.520Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "429x934",
-        "device": "mobile",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 65,
-        "eventCount": 8,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-39a2b666efa5e819fbc03f513",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:30:03.815Z",
-        "lastSeenAt": "2026-08-01T06:31:03.834Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/work.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 100,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f8cebb83b08e319fbc035f95",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:29:25.545Z",
-        "lastSeenAt": "2026-08-01T06:30:03.756Z",
-        "currentPage": "work.html",
-        "path": "/pages/main/work.html",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 79,
-        "eventCount": 6,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d4bb8bf2d616f19fbc035252",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:29:22.141Z",
-        "lastSeenAt": "2026-08-01T06:29:25.475Z",
-        "currentPage": "services.html",
-        "path": "/pages/main/services.html",
-        "referrer": "http://localhost:3000/pages/main/contact-page.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5f4720b7fdeed19fbc032273",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:29:09.926Z",
-        "lastSeenAt": "2026-08-01T06:29:22.095Z",
-        "currentPage": "contact-page.html",
-        "path": "/pages/main/contact-page.html",
-        "referrer": "http://localhost:3000/pages/legal/term-condition.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-c61a74e21924d819fbc030ab9",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:29:03.823Z",
-        "lastSeenAt": "2026-08-01T06:29:09.842Z",
-        "currentPage": "term-condition.html",
-        "path": "/pages/legal/term-condition.html",
-        "referrer": "http://localhost:3000/pages/legal/term-condition.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9a3d07c2a7a9b19fbc02fad8",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:28:59.760Z",
-        "lastSeenAt": "2026-08-01T06:29:03.767Z",
-        "currentPage": "term-condition.html",
-        "path": "/pages/legal/term-condition.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0a90792cab5c519fbc02ce3d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T06:28:48.331Z",
-        "lastSeenAt": "2026-08-01T06:28:59.674Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 11,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d31ef91bd558f19fbbe3e638",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T05:55:02.876Z",
-        "lastSeenAt": "2026-08-01T05:55:04.283Z",
-        "currentPage": "service-form.html",
-        "path": "/pages/system/service-form.html",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a312c53620dcc19fbbe2129f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T05:53:03.150Z",
-        "lastSeenAt": "2026-08-01T06:28:48.207Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1185,
-        "scrollDepth": 77,
-        "eventCount": 7,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3c4f225ffa1d619fbbdfe3cf",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T05:50:40.115Z",
-        "lastSeenAt": "2026-08-01T05:52:40.666Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 120,
-        "scrollDepth": 92,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-92b2fad3d1cce19fbbddeedb",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T05:48:31.853Z",
-        "lastSeenAt": "2026-08-01T05:50:17.662Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 105,
-        "scrollDepth": 86,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b7df58ed3331319fbbd24ed8",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-01T05:35:50.001Z",
-        "lastSeenAt": "2026-08-01T05:48:20.657Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/pages/main/services.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 750,
-        "scrollDepth": 79,
-        "eventCount": 18,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-bc0b7d30",
+        "sessionId": "sess-a76a845087f26819fd6c3d95c",
+        "page": "index.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T11:09:50.691Z"
+      },
+      {
+        "id": "evt-e7e893a2",
+        "sessionId": "sess-a76a845087f26819fd6c3d95c",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T11:09:49.776Z"
+      },
+      {
+        "id": "evt-4940cf22",
+        "sessionId": "sess-9d720b3db8aba19fd6c3bc20",
+        "page": "blog-dark-mode-vs-light-mode.html",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-08-06T11:09:47.169Z"
+      },
+      {
+        "id": "evt-d4045b3c",
+        "sessionId": "sess-1ab9aa6a18af519fd6c3b290",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-06T11:09:39.701Z"
+      },
+      {
+        "id": "evt-25a74c06",
+        "sessionId": "sess-f16876be44c90819fd6c3a194",
+        "page": "work.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T11:09:37.258Z"
+      },
+      {
+        "id": "evt-76a94f1d",
+        "sessionId": "sess-f16876be44c90819fd6c3a194",
+        "page": "work.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T11:09:36.095Z"
+      },
+      {
+        "id": "evt-5c6f455b",
+        "sessionId": "sess-95554e8377ec219fd6c37e13",
+        "page": "blog.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-08-06T11:09:32.907Z"
+      },
+      {
+        "id": "evt-d35fa56f",
+        "sessionId": "sess-ed346ebf8ce6519fd6c372c3",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-06T11:09:23.806Z"
+      },
+      {
+        "id": "evt-e7953231",
+        "sessionId": "sess-56d0a97602856819fd6c32eea",
+        "page": "blog-dark-mode-vs-light-mode.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T11:09:08.903Z"
+      },
+      {
+        "id": "evt-007ec95c",
+        "sessionId": "sess-56d0a97602856819fd6c32eea",
+        "page": "blog-dark-mode-vs-light-mode.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T11:09:07.710Z"
+      },
+      {
+        "id": "evt-a3f5464e",
+        "sessionId": "sess-f6ab91049e5d2819fd6c14d77",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-06T11:07:02.932Z"
+      },
+      {
+        "id": "evt-52911031",
+        "sessionId": "sess-9a73456cbc0419fd6c10e44",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T11:07:00.279Z"
+      },
+      {
+        "id": "evt-6c32cbc3",
+        "sessionId": "sess-9a73456cbc0419fd6c10e44",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T11:06:58.129Z"
+      },
+      {
+        "id": "evt-ea6d58d4",
+        "sessionId": "sess-3121aa12e5944819fd6bf8052",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-06T11:05:05.598Z"
+      },
+      {
+        "id": "evt-5775b12e",
+        "sessionId": "sess-3121aa12e5944819fd6bf8052",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T11:05:03.952Z"
+      },
+      {
+        "id": "evt-ae5256ae",
+        "sessionId": "sess-af6d78c41c2c8819fd6bf3ca7",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T11:04:46.863Z"
+      },
+      {
+        "id": "evt-e87b5125",
+        "sessionId": "sess-61cec8c51968219fd6bdd15a",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-06T11:03:20.428Z"
+      },
+      {
+        "id": "evt-66212e4c",
+        "sessionId": "sess-61cec8c51968219fd6bdd15a",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T11:03:19.403Z"
+      },
+      {
+        "id": "evt-6f1fd3d7",
+        "sessionId": "sess-61cec8c51968219fd6bdd15a",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-06T11:03:17.872Z"
+      },
+      {
+        "id": "evt-c0826337",
+        "sessionId": "sess-61cec8c51968219fd6bdd15a",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T11:03:14.061Z"
+      },
+      {
+        "id": "evt-ba8532f4",
+        "sessionId": "sess-b8eadd1c285af819fd6bcebe6",
+        "page": "blog-apple.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T11:03:10.538Z"
+      },
+      {
+        "id": "evt-b5cc1d56",
+        "sessionId": "sess-9d6f828f03e34819fd6bcc70d",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-06T11:02:13.160Z"
+      },
+      {
+        "id": "evt-9a99e33c",
+        "sessionId": "sess-3615ad11efd86819fd6bca658",
+        "page": "index.html",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T11:01:59.151Z"
+      },
+      {
+        "id": "evt-ba3f2bd6",
+        "sessionId": "sess-3615ad11efd86819fd6bca658",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T11:01:56.819Z"
+      },
+      {
+        "id": "evt-40237140",
+        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-06T10:56:23.646Z"
+      },
+      {
+        "id": "evt-beebd26a",
+        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-06T10:56:23.174Z"
+      },
+      {
+        "id": "evt-088cc7c0",
+        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T10:56:21.331Z"
+      },
+      {
+        "id": "evt-4ea2bd2d",
+        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
+        "page": "index.html",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-06T10:56:20.577Z"
+      },
+      {
+        "id": "evt-d1b0f558",
+        "sessionId": "sess-f5d43ac5d2c22819fd6b7485d",
+        "page": "blog-dark-mode-vs-light-mode.html",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-06T10:56:11.062Z"
+      },
+      {
+        "id": "evt-7046c1fd",
+        "sessionId": "sess-b85ab524ebd2c819fd6b3fd03",
+        "page": "blogs.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-06T10:56:03.523Z"
+      },
+      {
+        "id": "evt-f1465ec7",
+        "sessionId": "sess-abd4a69a8dc6519fd6b3eefb",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-06T10:52:27.720Z"
+      },
+      {
+        "id": "evt-012a1f8e",
+        "sessionId": "sess-abd4a69a8dc6519fd6b3eefb",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-06T10:52:26.537Z"
+      },
       {
         "id": "evt-d51911a7",
         "sessionId": "sess-4c5852b43a7fe19fc251aeea",
@@ -14507,294 +15163,6 @@
         "target": "a.cta-banner-button",
         "text": "START YOUR PROJECT",
         "createdAt": "2026-08-02T10:10:11.840Z"
-      },
-      {
-        "id": "evt-6c4db78b",
-        "sessionId": "sess-16ff59670415a819fc1ee2cbe",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T10:10:07.952Z"
-      },
-      {
-        "id": "evt-fe574c95",
-        "sessionId": "sess-16ff59670415a819fc1ee2cbe",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T10:10:07.099Z"
-      },
-      {
-        "id": "evt-f6b91774",
-        "sessionId": "sess-16ff59670415a819fc1ee2cbe",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T10:10:04.285Z"
-      },
-      {
-        "id": "evt-558fc8bb",
-        "sessionId": "sess-16ff59670415a819fc1ee2cbe",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "Can you help with custom tools like SaaS dashboards?",
-        "createdAt": "2026-08-02T10:04:14.591Z"
-      },
-      {
-        "id": "evt-07248cb6",
-        "sessionId": "sess-16ff59670415a819fc1ee2cbe",
-        "page": "home",
-        "type": "click",
-        "target": "button.faq-question",
-        "text": "What tools and methods do you use?",
-        "createdAt": "2026-08-02T10:04:14.377Z"
-      },
-      {
-        "id": "evt-9e62c605",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T09:57:56.790Z"
-      },
-      {
-        "id": "evt-21a94d39",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T09:57:55.396Z"
-      },
-      {
-        "id": "evt-123a6389",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:54.542Z"
-      },
-      {
-        "id": "evt-7fcb5119",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:50.690Z"
-      },
-      {
-        "id": "evt-d45c61a0",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:50.642Z"
-      },
-      {
-        "id": "evt-bee33391",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:46.259Z"
-      },
-      {
-        "id": "evt-9f670937",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:44.016Z"
-      },
-      {
-        "id": "evt-b87bee42",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:41.014Z"
-      },
-      {
-        "id": "evt-35dc855b",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:57:39.174Z"
-      },
-      {
-        "id": "evt-01fc1f3e",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T09:57:37.418Z"
-      },
-      {
-        "id": "evt-2290cbde",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:57:36.687Z"
-      },
-      {
-        "id": "evt-037041a9",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T09:57:35.609Z"
-      },
-      {
-        "id": "evt-b4c53951",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:57:35.086Z"
-      },
-      {
-        "id": "evt-a4940a99",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T09:57:33.749Z"
-      },
-      {
-        "id": "evt-d257067e",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T09:57:32.835Z"
-      },
-      {
-        "id": "evt-d02de18d",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T09:57:32.155Z"
-      },
-      {
-        "id": "evt-b5c1efc7",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T09:57:31.127Z"
-      },
-      {
-        "id": "evt-717bb0d5",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T09:57:30.355Z"
-      },
-      {
-        "id": "evt-99c3420d",
-        "sessionId": "sess-48ef5f8699cba19fc1e8308e",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T09:57:28.990Z"
-      },
-      {
-        "id": "evt-0885606b",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T09:55:51.070Z"
-      },
-      {
-        "id": "evt-bac3aacd",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T09:55:50.273Z"
-      },
-      {
-        "id": "evt-fa3fcaad",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T09:55:48.853Z"
-      },
-      {
-        "id": "evt-c3a21b94",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "×",
-        "createdAt": "2026-08-02T09:55:48.054Z"
-      },
-      {
-        "id": "evt-9312f61a",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:55:47.271Z"
-      },
-      {
-        "id": "evt-203f1e7d",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T09:55:46.671Z"
-      },
-      {
-        "id": "evt-21ba9165",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:55:45.756Z"
-      },
-      {
-        "id": "evt-deccf136",
-        "sessionId": "sess-a71ea9680178519fc1e67c81",
-        "page": "home",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T09:55:44.570Z"
       }
     ],
     "replays": [
@@ -17710,12 +18078,37 @@
       "sections": []
     },
     {
+      "id": "blog-agentic-ux-design-how-to-design-interfaces-for-ai-agents-in-2026-webx-design-studio",
+      "title": "Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio",
+      "slug": "blog-agentic-ux-design",
+      "metaTitle": "Agentic UX Design: How to Design Interfaces for AI Agents in 2026 | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.",
+      "image": "/assets/images/blogs/blog-img-5.png",
+      "imageAlt": "Agentic UX design for AI agent interfaces in 2026",
+      "dateValue": "2026-06-06",
+      "dateLabel": "Date: 06 Jun 26",
+      "excerpt": "Learn how to design agentic UX interfaces for AI agents in 2026, including goal setting, approvals, transparency, memory, trust, and human control.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "agentic UX design",
+        "AI agent interface design",
+        "UX for AI agents",
+        "agentic AI UX",
+        "AI UX design 2026"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/blog-agentic-ux-design.html",
+      "sections": []
+    },
+    {
       "id": "blog-apple-design-study-10-ux-lessons-you-can-apply-to-your-products-in-2026-webx-design-studio",
       "title": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio",
       "slug": "blog-apple",
       "metaTitle": "Apple Design Study: 10 UX Lessons You Can Apply to Your Products in 2026 | Webx Design Studio | Webx Design Studio",
       "metaDescription": "Learn 10 practical UX lessons from Apple",
-      "image": "/assets/images/blogs/blog-img-2.webp",
+      "image": "/assets/images/blogs/blog-img-2.png",
       "imageAlt": "Apple Design Study - 10 UX Lessons for 2026 - Webx Design Studio",
       "dateValue": "2026-02-07",
       "dateLabel": "Date: 07 Feb 26",
@@ -17730,6 +18123,33 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/blog-apple.html",
+      "sections": []
+    },
+    {
+      "id": "blog-dark-mode-vs-light-mode-which-improves-user-experience-webx-design-studio",
+      "title": "Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio",
+      "slug": "blog-dark-mode-vs-light-mode",
+      "metaTitle": "Dark Mode vs Light Mode: Which Improves User Experience? | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.",
+      "image": "/assets/images/blogs/blog-img-light-dark-mode.png",
+      "imageAlt": "Dark mode versus light mode UX decision guide",
+      "dateValue": "2026-06-24",
+      "dateLabel": "Date: 24 Jun 26",
+      "excerpt": "Explore the UX, accessibility, and performance tradeoffs between dark mode and light mode to choose the best experience for your audience.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "dark mode ux",
+        "light mode ui",
+        "user experience design",
+        "accessibility",
+        "interface design",
+        "theme switching",
+        "visual ergonomics"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/blog-dark-mode-vs-light-mode.html",
       "sections": []
     },
     {
@@ -17759,6 +18179,198 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-b8e78792",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:10:17.521Z"
+    },
+    {
+      "id": "act-71cf7185",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:09:50.761Z"
+    },
+    {
+      "id": "act-4f4d4eda",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-06T11:09:47.261Z"
+    },
+    {
+      "id": "act-a8957ae9",
+      "type": "visitor",
+      "message": "Visitor opened blog-dark-mode-vs-light-mode.html",
+      "createdAt": "2026-08-06T11:09:39.771Z"
+    },
+    {
+      "id": "act-91b51bea",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:09:37.333Z"
+    },
+    {
+      "id": "act-bf78bf89",
+      "type": "visitor",
+      "message": "Visitor opened work.html",
+      "createdAt": "2026-08-06T11:09:32.980Z"
+    },
+    {
+      "id": "act-9b19fdcb",
+      "type": "visitor",
+      "message": "Visitor opened blog.html",
+      "createdAt": "2026-08-06T11:09:23.889Z"
+    },
+    {
+      "id": "act-c7e0a4a2",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:09:20.995Z"
+    },
+    {
+      "id": "act-3d3caf98",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:09:08.996Z"
+    },
+    {
+      "id": "act-daeb6035",
+      "type": "visitor",
+      "message": "Visitor opened blog-dark-mode-vs-light-mode.html",
+      "createdAt": "2026-08-06T11:09:03.623Z"
+    },
+    {
+      "id": "act-77070ccf",
+      "type": "visitor",
+      "message": "Visitor opened blog-dark-mode-vs-light-mode.html",
+      "createdAt": "2026-08-06T11:08:19.417Z"
+    },
+    {
+      "id": "act-64a31eda",
+      "type": "visitor",
+      "message": "Visitor opened blog-dark-mode-vs-light-mode.html",
+      "createdAt": "2026-08-06T11:07:03.008Z"
+    },
+    {
+      "id": "act-9ee24d2e",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:07:00.374Z"
+    },
+    {
+      "id": "act-6811625d",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:06:44.189Z"
+    },
+    {
+      "id": "act-35372479",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:06:03.706Z"
+    },
+    {
+      "id": "act-f24c9b0f",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:05:50.509Z"
+    },
+    {
+      "id": "act-9f598471",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:05:47.606Z"
+    },
+    {
+      "id": "act-722e3c7b",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:05:08.751Z"
+    },
+    {
+      "id": "act-a501cecf",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:05:02.308Z"
+    },
+    {
+      "id": "act-96cd89d7",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:04:44.993Z"
+    },
+    {
+      "id": "act-b67f0f90",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:04:08.835Z"
+    },
+    {
+      "id": "act-0fcf35b6",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:03:11.997Z"
+    },
+    {
+      "id": "act-630961be",
+      "type": "visitor",
+      "message": "Visitor opened blog-apple.html",
+      "createdAt": "2026-08-06T11:02:13.252Z"
+    },
+    {
+      "id": "act-79de9ba4",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:02:03.817Z"
+    },
+    {
+      "id": "act-53d4e67c",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T11:01:59.246Z"
+    },
+    {
+      "id": "act-347bcd7e",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-06T11:01:55.472Z"
+    },
+    {
+      "id": "act-f00c2fee",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-06T10:56:13.072Z"
+    },
+    {
+      "id": "act-e9ed65df",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-06T10:56:11.186Z"
+    },
+    {
+      "id": "act-7447c464",
+      "type": "visitor",
+      "message": "Visitor opened blog-dark-mode-vs-light-mode.html",
+      "createdAt": "2026-08-06T10:56:03.711Z"
+    },
+    {
+      "id": "act-ecddc2d5",
+      "type": "visitor",
+      "message": "Visitor opened blogs.html",
+      "createdAt": "2026-08-06T10:52:27.809Z"
+    },
+    {
+      "id": "act-f4b6297f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-06T10:52:24.224Z"
+    },
+    {
+      "id": "act-b4ee737e",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-06T10:52:21.197Z"
+    },
     {
       "id": "act-2b4bab8e",
       "type": "visitor",
@@ -17926,198 +18538,6 @@
       "type": "visitor",
       "message": "Visitor opened work.html",
       "createdAt": "2026-08-02T11:30:35.550Z"
-    },
-    {
-      "id": "act-536dd110",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:30:35.116Z"
-    },
-    {
-      "id": "act-9b0d5e5e",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:30:34.456Z"
-    },
-    {
-      "id": "act-71b8d800",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-08-02T11:30:16.612Z"
-    },
-    {
-      "id": "act-90d6a235",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:30:15.443Z"
-    },
-    {
-      "id": "act-2c4684ce",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:30:03.210Z"
-    },
-    {
-      "id": "act-e2e4b3c0",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:29:47.104Z"
-    },
-    {
-      "id": "act-656d1e70",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:18:13.952Z"
-    },
-    {
-      "id": "act-aa0dc615",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:15:19.809Z"
-    },
-    {
-      "id": "act-35017a47",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:07:49.511Z"
-    },
-    {
-      "id": "act-8273b095",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-08-02T11:04:51.730Z"
-    },
-    {
-      "id": "act-ceee0276",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-08-02T11:04:47.134Z"
-    },
-    {
-      "id": "act-699decd8",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:04:39.920Z"
-    },
-    {
-      "id": "act-08a83384",
-      "type": "visitor",
-      "message": "Video replay captured for mecon-pdp.html",
-      "createdAt": "2026-08-02T11:04:36.394Z"
-    },
-    {
-      "id": "act-22ad4003",
-      "type": "visitor",
-      "message": "Visitor opened mecon-pdp.html",
-      "createdAt": "2026-08-02T11:04:32.306Z"
-    },
-    {
-      "id": "act-b45b6998",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-08-02T11:04:32.210Z"
-    },
-    {
-      "id": "act-04944d55",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:04:29.631Z"
-    },
-    {
-      "id": "act-8e57afd1",
-      "type": "visitor",
-      "message": "Video replay captured for manglam-pdp.html",
-      "createdAt": "2026-08-02T11:03:25.127Z"
-    },
-    {
-      "id": "act-fa2bf8a7",
-      "type": "visitor",
-      "message": "Visitor opened manglam-pdp.html",
-      "createdAt": "2026-08-02T11:03:22.659Z"
-    },
-    {
-      "id": "act-7930342e",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-08-02T11:03:16.629Z"
-    },
-    {
-      "id": "act-ba2fc746",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T11:03:15.777Z"
-    },
-    {
-      "id": "act-a96db184",
-      "type": "visitor",
-      "message": "Video replay captured for morphico-pdp.html",
-      "createdAt": "2026-08-02T10:51:44.378Z"
-    },
-    {
-      "id": "act-2b002ea0",
-      "type": "visitor",
-      "message": "Visitor opened morphico-pdp.html",
-      "createdAt": "2026-08-02T10:51:40.422Z"
-    },
-    {
-      "id": "act-d421750d",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-08-02T10:51:40.330Z"
-    },
-    {
-      "id": "act-2aa55109",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T10:51:38.171Z"
-    },
-    {
-      "id": "act-669827d3",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-02T10:51:38.078Z"
-    },
-    {
-      "id": "act-13e7f0f7",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-02T10:51:33.573Z"
-    },
-    {
-      "id": "act-405811fd",
-      "type": "visitor",
-      "message": "Visitor opened blogs.html",
-      "createdAt": "2026-08-02T10:51:28.041Z"
-    },
-    {
-      "id": "act-62c17c18",
-      "type": "visitor",
-      "message": "Video replay captured for work.html",
-      "createdAt": "2026-08-02T10:46:02.695Z"
-    },
-    {
-      "id": "act-8db5789e",
-      "type": "visitor",
-      "message": "Visitor opened work.html",
-      "createdAt": "2026-08-02T10:46:01.103Z"
-    },
-    {
-      "id": "act-ce758ab3",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-02T10:40:14.195Z"
-    },
-    {
-      "id": "act-89c16be5",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-02T10:39:59.069Z"
-    },
-    {
-      "id": "act-7426d49e",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-02T10:30:55.583Z"
     }
   ]
 }
