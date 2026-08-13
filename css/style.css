@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 
+/* Related articles on blog detail pages */
+.related-blogs-section { background: #000; padding: clamp(56px, 8vw, 112px) clamp(20px, 7vw, 105px); }
+.related-blogs-container { max-width: 1440px; margin: 0 auto; }
+.related-blogs-header { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 36px; }
+.related-blogs-header .section-title { margin: 0; max-width: 680px; }
+.related-blogs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.related-blog-card { overflow: hidden; border: 1px solid #2a2a2a; background: #101010; transition: transform .25s ease, border-color .25s ease; }
+.related-blog-card:hover { transform: translateY(-6px); border-color: #FEA800; }
+.related-blog-image { display: block; aspect-ratio: 5 / 3; overflow: hidden; background: #1b1b1b; }
+.related-blog-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+.related-blog-card:hover .related-blog-image img { transform: scale(1.05); }
+.related-blog-content { padding: 22px; }
+.related-blog-meta { display: flex; justify-content: space-between; gap: 12px; margin: 0 0 14px; color: #aaa; font-size: 12px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+.related-blog-meta span { color: #FEA800; }
+.related-blog-content h3 { margin: 0 0 22px; font-size: clamp(19px, 1.6vw, 24px); line-height: 1.3; }
+.related-blog-content h3 a { color: #fff; text-decoration: none; }
+.related-blog-link { display: inline-flex; gap: 8px; align-items: center; color: #fff; font-size: 13px; font-weight: 500; letter-spacing: .06em; text-decoration: none; text-transform: uppercase; }
+.related-blog-link span { color: #FEA800; font-size: 18px; line-height: 1; }
+@media (max-width: 900px) { .related-blogs-grid { grid-template-columns: 1fr; } .related-blogs-header { display: block; } .related-blogs-header .section-label { margin-bottom: 10px; } }
+
 :root {
     --c-bg-hero: #FEA800;
     --c-bg-black: #000000;
