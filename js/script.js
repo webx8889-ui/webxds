@@ -394,3 +394,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
     initCtaVoiceToText();
 });
+
+// Receive the server-generated reference and place it in the shared CTA
+// confirmation state, regardless of which CTA form variant submitted it.
+document.addEventListener("DOMContentLoaded", function () {
+    const nativeFetch = window.fetch.bind(window);
+    let latestServiceId = "";
+
+    function showServiceId() {
+        if (!latestServiceId) return;
+        document.querySelectorAll(".cta-project-thankyou").forEach(function (message) {
+            if (message.querySelector(".cta-project-service-id")) return;
+            const id = document.createElement("p");
+            id.className = "cta-project-service-id";
+            id.innerHTML = 'Service ID: <strong></strong>';
+            id.querySelector("strong").textContent = latestServiceId;
+            message.querySelector("div").appendChild(id);
+        });
+    }
+
+    window.fetch = function (input, options) {
+        const url = typeof input === "string" ? input : (input && input.url) || "";
+        const request = nativeFetch(input, options);
+        if (!/\/api\/leads(?:\?.*)?$/.test(url)) return request;
+        return request.then(function (response) {
+            if (response.ok) {
+                response.clone().json().then(function (payload) {
+                    if (payload && payload.serviceId) {
+                        latestServiceId = String(payload.serviceId);
+                        showServiceId();
+                    }
+                }).catch(function () { });
+            }
+            return response;
+        });
+    };
+
+    new MutationObserver(showServiceId).observe(document.body, { childList: true, subtree: true });
+});

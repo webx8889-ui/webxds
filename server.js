@@ -336,6 +336,11 @@ function createId(prefix) {
     return `${prefix}-${crypto.randomBytes(4).toString("hex")}`;
 }
 
+function createServiceId() {
+    const date = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+    return `WX-${date}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
+}
+
 function createSectionId(type) {
     return createId(`home-${sanitizeText(type, "section").toLowerCase().replace(/[^a-z0-9]+/g, "-")}`);
 }
@@ -2752,9 +2757,11 @@ async function handleApi(req, res, url) {
             });
             return;
         }
+        let serviceId = "";
         await withStore(async current => {
             const lead = {
                 id: createId("lead"),
+                serviceId: createServiceId(),
                 name: name,
                 email: email,
                 phone: phone,
@@ -2767,11 +2774,13 @@ async function handleApi(req, res, url) {
                 createdAt: nowIso(),
                 updatedAt: nowIso()
             };
+            serviceId = lead.serviceId;
             current.leads = [ lead, ...current.leads || [] ].slice(0, 500);
             addActivity(current, `New lead received from ${lead.name}`, "lead");
         });
         sendJson(res, 201, {
-            ok: true
+            ok: true,
+            serviceId: serviceId
         });
         return;
     }

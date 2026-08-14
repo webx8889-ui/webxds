@@ -2238,6 +2238,24 @@ h1 {
     font-weight: 400
 }
 
+.cta-project-thankyou .cta-project-service-id {
+    margin-top: 16px;
+    font-size: 13px;
+    letter-spacing: .04em;
+    color: rgba(0, 0, 0, .72);
+}
+
+.cta-project-thankyou .cta-project-service-id strong {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 5px 8px;
+    border: 1px solid rgba(0, 0, 0, .28);
+    background: rgba(255, 255, 255, .26);
+    color: #000;
+    font-size: 12px;
+    letter-spacing: .08em;
+}
+
 @media (max-width:768px) {
     .cta-project-form.is-flow-v2 {
         width: min(100%, 520px);
