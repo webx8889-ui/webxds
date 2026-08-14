@@ -303,6 +303,11 @@ document.addEventListener("DOMContentLoaded", function () {
             icon.classList.remove("cta-project-field-icon");
             button.appendChild(icon);
             wrap.appendChild(button);
+            const waveform = document.createElement("span");
+            waveform.className = "cta-project-voice-waveform";
+            waveform.setAttribute("aria-hidden", "true");
+            waveform.innerHTML = "<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>";
+            wrap.appendChild(waveform);
             wrap.dataset.voiceReady = "true";
         });
 

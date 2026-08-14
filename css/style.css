@@ -1920,6 +1920,60 @@ h1 {
     }
 }
 
+/* Voice typing: the icon remains a clear tap target; a live waveform replaces
+   the placeholder only while speech is being captured. */
+.cta-project-form.is-flow-v2 .cta-project-voice-button {
+    display: inline-flex !important;
+    z-index: 2;
+    width: 22px;
+    height: 22px;
+    color: #000;
+}
+
+.cta-project-field-wrap:has(.cta-project-voice-button.is-listening) .cta-project-input,
+.cta-project-field-wrap:has(.cta-project-voice-button.is-listening) .cta-project-textarea {
+    color: transparent;
+    caret-color: #000;
+}
+
+.cta-project-voice-waveform {
+    position: absolute;
+    inset: 0 50px 0 12px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.cta-project-field-wrap:has(.cta-project-voice-button.is-listening) .cta-project-voice-waveform {
+    display: flex;
+}
+
+.cta-project-voice-waveform i {
+    display: block;
+    width: 3px;
+    height: 10px;
+    border-radius: 3px;
+    background: #000;
+    animation: ctaVoiceWave 720ms ease-in-out infinite alternate;
+}
+
+.cta-project-voice-waveform i:nth-child(2n) { height: 20px; animation-delay: -260ms; }
+.cta-project-voice-waveform i:nth-child(3n) { height: 28px; animation-delay: -510ms; }
+.cta-project-voice-waveform i:nth-child(5n) { height: 15px; animation-delay: -120ms; }
+
+@keyframes ctaVoiceWave {
+    from { transform: scaleY(.35); opacity: .55; }
+    to { transform: scaleY(1.15); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .cta-project-voice-waveform i,
+    .cta-project-voice-button.is-listening { animation: none; }
+}
+
 .cta-project-form.is-flow-v2 {
     width: min(430px, 100%);
     padding: 18px 18px 14px;
