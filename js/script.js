@@ -169,9 +169,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function stopActive() {
+            if (activeButton) {
+                setButtonListening(activeButton, false);
+            }
             if (activeRecognition) {
                 activeRecognition.stop();
             }
+            activeRecognition = null;
+            activeButton = null;
+            activeField = null;
         }
 
         function setButtonListening(button, isListening) {
@@ -183,13 +189,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function formatSpokenValue(field, text) {
             const cleanText = String(text || "").trim();
+            if (field.type === "email") {
+                return cleanText.replace(/\s+/g, "");
+            }
             if (field.type === "tel") {
                 return cleanText.replace(/\b(plus|plush)\b/gi, "+").replace(/[^\d+]/g, "");
             }
             return cleanText;
         }
 
+        function parseSpokenBudget(text) {
+            const value = String(text || "").toLowerCase().replace(/[,₹]/g, " ");
+            const words = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90 };
+            let total = 0;
+            let current = 0;
+            let found = false;
+            value.split(/\s+/).forEach(function (token) {
+                if (/^\d+$/.test(token)) { current += Number(token); found = true; return; }
+                if (Object.prototype.hasOwnProperty.call(words, token)) { current += words[token]; found = true; return; }
+                if (token === "hundred") { current = Math.max(1, current) * 100; found = true; return; }
+                if (token === "thousand" || token === "thousands") { total += Math.max(1, current) * 1000; current = 0; found = true; return; }
+                if (token === "lakh" || token === "lakhs" || token === "lac" || token === "lacs") { total += Math.max(1, current) * 100000; current = 0; found = true; }
+            });
+            return found ? total + current : NaN;
+        }
+
         function applyTranscript(field, transcript) {
+            if (field.type === "range" && field.dataset.voiceBudget === "true") {
+                const spokenBudget = parseSpokenBudget(transcript);
+                if (Number.isFinite(spokenBudget)) {
+                    const min = Number(field.min);
+                    const max = Number(field.max);
+                    const step = Number(field.step) || 1;
+                    const selected = Math.max(min, Math.min(max, Math.round(spokenBudget / step) * step));
+                    field.value = String(selected);
+                    field.dispatchEvent(new Event("input", { bubbles: true }));
+                    field.dispatchEvent(new Event("change", { bubbles: true }));
+                }
+                return;
+            }
             const spoken = formatSpokenValue(field, transcript);
             const joiner = baseValue && spoken && !/\s$/.test(baseValue) && field.tagName === "TEXTAREA" ? " " : "";
             field.value = (baseValue + joiner + spoken).trimStart();
@@ -218,6 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
             activeButton = button;
             activeField = field;
             baseValue = field.value || "";
+            setButtonListening(button, true);
 
             const recognition = new SpeechRecognition();
             activeRecognition = recognition;
@@ -262,6 +301,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     recognition.start();
                 } catch (error) {
                     setButtonListening(button, false);
+                    activeRecognition = null;
+                    activeButton = null;
+                    activeField = null;
                     setStepMessage(button, "The microphone could not start. Please refresh the page and try again.");
                 }
             }
@@ -275,6 +317,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginRecognition();
                 }).catch(function () {
                     setButtonListening(button, false);
+                    activeRecognition = null;
+                    activeButton = null;
+                    activeField = null;
                     setStepMessage(button, "Please allow microphone access in your browser settings and try again.");
                 });
                 return;
@@ -311,11 +356,33 @@ document.addEventListener("DOMContentLoaded", function () {
             wrap.dataset.voiceReady = "true";
         });
 
+        document.querySelectorAll(".cta-project-form .cta-project-budget-box").forEach(function (box) {
+            if (box.dataset.voiceReady === "true" || !canUseVoiceTyping()) return;
+            const range = box.querySelector('input[type="range"]');
+            if (!range) return;
+            range.dataset.voiceBudget = "true";
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "cta-project-field-icon cta-project-voice-button cta-project-budget-voice-button";
+            button.setAttribute("aria-label", "Set project budget by voice");
+            button.setAttribute("aria-pressed", "false");
+            button.setAttribute("title", "Set project budget by voice");
+            button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 1 0 6 0V6a3 3 0 0 0-3-3Z" stroke="currentColor" stroke-width="1.8"/><path d="M5 11v1a7 7 0 0 0 14 0v-1M12 19v3M8 22h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+            const waveform = document.createElement("span");
+            waveform.className = "cta-project-voice-waveform";
+            waveform.setAttribute("aria-hidden", "true");
+            waveform.innerHTML = "<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>";
+            box.appendChild(button);
+            box.appendChild(waveform);
+            box.dataset.voiceReady = "true";
+        });
+
         document.addEventListener("click", function (event) {
             const button = event.target.closest(".cta-project-voice-button");
             if (!button) return;
             event.preventDefault();
-            const field = button.closest(".cta-project-field-wrap").querySelector("input:not([type='range']), textarea");
+            const container = button.closest(".cta-project-field-wrap, .cta-project-budget-box");
+            const field = container && container.querySelector("input:not([type='range']), textarea, input[data-voice-budget='true']");
             if (!field) return;
             if (activeButton === button) {
                 stopActive();

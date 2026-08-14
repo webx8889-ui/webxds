@@ -1951,6 +1951,19 @@ h1 {
     display: flex;
 }
 
+.cta-project-budget-box:has(.cta-project-voice-button.is-listening) .cta-project-budget-value,
+.cta-project-budget-box:has(.cta-project-voice-button.is-listening) .cta-project-budget-range {
+    opacity: 0;
+}
+
+.cta-project-budget-box .cta-project-voice-waveform {
+    inset: 0 50px 0 18px;
+}
+
+.cta-project-budget-box:has(.cta-project-voice-button.is-listening) .cta-project-voice-waveform {
+    display: flex;
+}
+
 .cta-project-voice-waveform i {
     display: block;
     width: 3px;
