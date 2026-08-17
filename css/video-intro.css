@@ -3,6 +3,18 @@
 .intro-background { width: 100%; height: 100%; object-fit: cover; filter: brightness(.54) saturate(.9); }
 .intro-background-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.12), rgba(0,0,0,.55) 68%, #000 100%); }
 .intro-header { position: relative; z-index: 2; padding: clamp(20px, 2.5vw, 36px) var(--intro-pad); }
+.intro-glass-nav { position: absolute; z-index: 100; top: 0; right: 0; left: 0; min-height: 108px; padding: 0 clamp(24px, 6.8vw, 80px); border-top: 2px solid rgba(255,255,255,.28); border-bottom: 1px solid rgba(255,255,255,.20); box-shadow: 0 10px 26px rgba(0,0,0,.18); backdrop-filter: blur(18px) saturate(135%); -webkit-backdrop-filter: blur(18px) saturate(135%); }
+.intro-glass-nav-container { display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: var(--intro-content-width); min-height: 108px; margin: 0 auto; }
+.intro-ai-brand { display: inline-flex; align-items: center; gap: 11px; color: var(--c-white); text-decoration: none; }
+.intro-ai-brand > img { display: block; width: 48px; height: 48px; border-radius: 50%; }
+.intro-ai-brand-copy { display: grid; gap: 4px; }
+.intro-ai-brand-copy > span { font-size: 24px; font-weight: 500; line-height: 1; letter-spacing: -.02em; }
+.intro-ai-brand-copy small { display: inline-flex; align-items: center; gap: 5px; color: rgba(255,255,255,.67); font-size: 12px; font-weight: 400; line-height: 1; }
+.intro-ai-brand-copy i { width: 6.5px; height: 6.5px; border-radius: 50%; background: #b6db37; box-shadow: 0 0 8px rgba(182,219,55,.7); }
+.intro-glass-close { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: rgba(0,0,0,.78); color: var(--c-white); text-decoration: none; transition: background .2s ease, transform .2s ease; }
+.intro-glass-close span, .intro-glass-close span::after { display: block; width: 17px; height: 1.5px; background: currentColor; content: ''; transform: rotate(45deg); }
+.intro-glass-close span::after { transform: rotate(90deg); }
+.intro-glass-close:hover, .intro-glass-close:focus-visible { background: rgba(254,168,0,.24); transform: scale(1.08); }
 .intro-nav, .intro-footer-container { width: 100%; max-width: var(--intro-content-width); margin: 0 auto; }
 .intro-showreel, .intro-competencies { width: min(var(--intro-content-width), calc(100% - (var(--intro-pad) * 2))); margin-right: auto; margin-left: auto; }
 .intro-nav { display: flex; align-items: center; justify-content: space-between; }
@@ -26,6 +38,12 @@
 .intro-kicker { margin: 0 0 14px; font-size: clamp(32px, 5vw, 56px); font-weight: 400; line-height: 1.2; letter-spacing: 1%; color: var(--c-white); opacity: 1; }
 .intro-copy h1 { margin: 0; font-size: clamp(32px, 5vw, 56px); font-weight: 500; line-height: 1.2; letter-spacing: 1%;}
 .intro-description { margin: 31px 0 0; color: var(--c-muted); font-size: clamp(14px, 1.8vw, 18px); font-weight: 400; line-height: clamp(24px, 2.5vw, 30px); letter-spacing: 1%; }
+.intro-copy-detail { margin-top: 22px; color: var(--c-muted); font-size: clamp(14px, 1.35vw, 16px); font-weight: 400; line-height: 1.5; }
+.intro-copy-detail h2 { margin: 22px 0 8px; color: var(--c-white); font-size: clamp(18px, 1.7vw, 22px); font-weight: 500; line-height: 1.35; }
+.intro-copy-detail p { margin: 0; }
+.intro-copy-detail ul { margin: 16px 0 0; padding-left: 20px; }
+.intro-copy-detail li + li { margin-top: 6px; }
+.intro-copy-closing { margin-top: 24px !important; }
 .intro-competencies { padding: var(--intro-section-space) 0; }
 .competencies-label { color: var(--c-white); margin: 0 0 23px; font-size: clamp(12px, 1.3vw, 16px); font-weight: 400; letter-spacing: 2px; line-height: normal; opacity: .7; }
 .competencies-label::before { content: ''; display: inline-block; width: 27px; height: 2px; margin: 0 10px 4px 0; background: #ffa900; }
@@ -45,3 +63,5 @@
 .intro-copyright { margin: 0; padding: clamp(36px, 6vw, 72px) 0 clamp(72px, 11vw, 155px); text-align: center; color: #ddd; font-size: 16px; letter-spacing: .03em; }.intro-footer-wordmark { display: block; width: min(var(--intro-content-width),100%); margin: 0 auto -7px; opacity: .95; }
 .intro-modal { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 5vw; visibility: hidden; opacity: 0; background: rgba(0,0,0,.94); transition: opacity .25s ease, visibility .25s ease; }.intro-modal.is-open { visibility: visible; opacity: 1; }.intro-modal video { display: block; width: min(1100px,100%); max-height: 80vh; background: #000; }.intro-modal-close { position:absolute; top:24px; right:30px; width:45px; height:45px; border:0; border-radius:50%; background:#fff; color:#000; font-size:36px; line-height:38px; cursor:pointer; }
 @media (max-width: 720px) { .video-intro-page { --intro-section-space: clamp(72px, 20vw, 100px); }.intro-top { height: 410px; }.intro-logo img,.intro-footer-logo { width: 133px; }.intro-contact { gap: 8px; padding: 10px 11px; font-size: 11px; }.intro-contact svg { width: 16px; height: 16px; }.intro-description { margin-top: 20px; }.intro-competencies h2 { margin-bottom: 29px; }.competencies-tags { gap: 10px; }.competencies-tags span { min-height: 38px; padding: 8px 13px; font-size: 14px; }.intro-footer-group { padding-bottom: 24px; margin-bottom: 27px; }.intro-footer-heading { margin-bottom: 18px; }.intro-footer-heading h2 { font-size: 21px; }.intro-footer-heading button { width: 32px; height: 32px; font-size: 18px; }.intro-footer-links { gap: 12px 20px; }.intro-footer-links a { font-size: 14px; }.intro-copyright { padding-bottom: 76px; font-size: 13px; }.intro-footer-wordmark { width: 142%; margin-left: -21%; }.intro-modal { padding: 20px; }.intro-modal-close { top:15px; right:15px; width:38px; height:38px; font-size:30px; } }
+
+@media (max-width: 720px) { .intro-glass-nav, .intro-glass-nav-container { min-height: 76px; }.intro-glass-nav { padding: 0 20px; }.intro-ai-brand { gap: 8px; }.intro-ai-brand > img { width: 37px; height: 37px; }.intro-ai-brand-copy { gap: 3px; }.intro-ai-brand-copy > span { font-size: 16px; }.intro-ai-brand-copy small { font-size: 10px; }.intro-glass-close { width: 34px; height: 34px; }.intro-glass-close span, .intro-glass-close span::after { width: 15px; } }
