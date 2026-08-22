@@ -1,5 +1,6 @@
 (() => {
   const posts = [
+    { slug: 'ai-voice-assistant-form-fields', title: 'AI Voice Assistant Form Fields: A UX Guide for Natural Conversations', category: 'AI & UX', date: '22 Aug 26', image: '/assets/images/blogs/ai-voice-assistant-form-fields.webp', href: '/pages/blogs/ai-voice-assistant-form-fields.html', alt: 'AI voice assistant form fields UX guide' },
     { slug: 'blog-what-makes-a-great-website-2026', title: 'What Makes a Great Website in 2026?', category: 'Web Design', date: '13 Aug 26', image: '/assets/images/blogs/blog-img-great-website-2026.png', href: '/pages/blogs/blog-what-makes-a-great-website-2026.html', alt: 'Mobile-first, fast, accessible and AI-readable website concept' },
     { slug: 'blog-dark-mode-vs-light-mode', title: 'Dark Mode vs Light Mode: Which Improves User Experience?', category: 'UX/UI Design', date: '24 Jun 26', image: '/assets/images/blogs/blog-img-light-dark-mode.png', href: '/pages/blogs/blog-dark-mode-vs-light-mode.html', alt: 'Dark mode versus light mode UX decision guide' },
     { slug: 'blog-agentic-ux-design', title: 'Agentic UX Design: How to Design Interfaces for AI Agents in 2026', category: 'AI & UX', date: '06 Jun 26', image: '/assets/images/blogs/blog-img-5.png', href: '/pages/blogs/blog-agentic-ux-design.html', alt: 'Agentic UX design for AI agents and adaptive interfaces' },

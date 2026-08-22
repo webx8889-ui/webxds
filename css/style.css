@@ -10743,6 +10743,11 @@ body.inner-video-bg main > .work-page-section {
     color: #F2A602
 }
 
+.home-blog-tags-limited {
+    max-height: 84px;
+    overflow: hidden
+}
+
 .blog-meta {
     display: flex;
     align-items: center;
@@ -10849,6 +10854,29 @@ body.inner-video-bg main > .work-page-section {
 .section-list li strong {
     color: rgba(255, 255, 255, 0.95);
     font-weight: 600
+}
+
+.blog-inline-visual {
+    margin: clamp(24px, 4vw, 42px) 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    overflow: hidden;
+    background: #111;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22)
+}
+
+.blog-inline-visual img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.blog-inline-visual figcaption {
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 13px;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, 0.03)
 }
 
 @media (max-width:768px) {
