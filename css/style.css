@@ -10691,12 +10691,16 @@ body.inner-video-bg main > .work-page-section {
 .blog-detail-content {
     background: #000000;
     color: #ffffff;
-    padding: clamp(24px, 5vw, 36px) clamp(20px, 4vw, 60px)
+    padding: clamp(24px, 5vw, 36px) clamp(20px, 4vw, 60px);
+    overflow-x: clip
 }
 
 .blog-content-container {
+    width: min(900px, 100%);
     max-width: 900px;
-    margin: 0 auto
+    margin: 0 auto;
+    min-width: 0;
+    box-sizing: border-box
 }
 
 .blog-header {
@@ -10797,7 +10801,9 @@ body.inner-video-bg main > .work-page-section {
 
 .blog-article {
     color: rgba(255, 255, 255, 0.85);
-    line-height: 1.8
+    line-height: 1.8;
+    width: 100%;
+    min-width: 0
 }
 
 .blog-intro {
@@ -10808,7 +10814,10 @@ body.inner-video-bg main > .work-page-section {
 }
 
 .blog-page-section {
-    margin-bottom: clamp(24px, 5vw, 48px)
+    margin-bottom: clamp(24px, 5vw, 48px);
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box
 }
 
 .section-heading {
@@ -10858,6 +10867,10 @@ body.inner-video-bg main > .work-page-section {
 
 .blog-inline-visual {
     margin: clamp(24px, 4vw, 42px) 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 18px;
     overflow: hidden;
@@ -10868,6 +10881,12 @@ body.inner-video-bg main > .work-page-section {
 .blog-inline-visual img {
     display: block;
     width: 100%;
+    max-width: 100%;
+    height: auto
+}
+
+.blog-article img {
+    max-width: 100%;
     height: auto
 }
 
@@ -10880,6 +10899,26 @@ body.inner-video-bg main > .work-page-section {
 }
 
 @media (max-width:768px) {
+    .blog-detail-content {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .blog-content-container,
+    .blog-article,
+    .blog-page-section,
+    .blog-inline-visual {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0
+    }
+
+    .blog-inline-visual {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 12px
+    }
+
     .blog-detail-hero {
         padding: clamp(16px, 3vw, 24px) clamp(16px, 4vw, 24px) clamp(32px, 5vw, 48px)
     }
