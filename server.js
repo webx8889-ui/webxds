@@ -224,6 +224,17 @@ function sendJson(res, statusCode, payload) {
     res.end(JSON.stringify(payload));
 }
 
+function sendPublicBlogJson(res, statusCode, payload) {
+    res.writeHead(statusCode, {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-store",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type"
+    });
+    res.end(JSON.stringify(payload));
+}
+
 function parseBody(req) {
     return new Promise((resolve, reject) => {
         let body = "";
@@ -2453,11 +2464,21 @@ async function handleApi(req, res, url) {
     pruneTracking(store);
     pruneBlogViewers(store);
     const pathname = url.pathname;
+    if (pathname.startsWith("/api/blogs/") && req.method === "OPTIONS") {
+        res.writeHead(204, {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Max-Age": "86400"
+        });
+        res.end();
+        return;
+    }
     if (pathname === "/api/blogs/meta" && req.method === "GET") {
         const blogs = await collectPublishedStaticBlogs();
         const metadata = {};
         for (const blog of blogs) metadata[blog.url] = getBlogMeta(blog, store);
-        sendJson(res, 200, {
+        sendPublicBlogJson(res, 200, {
             blogs: metadata
         });
         return;
@@ -2467,7 +2488,7 @@ async function handleApi(req, res, url) {
         const blogPath = normalizeBlogViewPath(body.path);
         const visitorId = sanitizeText(body.visitorId, "").slice(0, 180);
         if (!blogPath || !visitorId) {
-            sendJson(res, 400, {
+            sendPublicBlogJson(res, 400, {
                 error: "A valid blog path and visitor ID are required"
             });
             return;
@@ -2475,7 +2496,7 @@ async function handleApi(req, res, url) {
         const blogs = await collectPublishedStaticBlogs();
         const blog = blogs.find(item => item.url === blogPath);
         if (!blog) {
-            sendJson(res, 404, {
+            sendPublicBlogJson(res, 404, {
                 error: "Blog not found"
             });
             return;
@@ -2493,7 +2514,7 @@ async function handleApi(req, res, url) {
         }
         store.blogViews[blogPath] = record;
         await writeStore(store);
-        sendJson(res, 200, {
+        sendPublicBlogJson(res, 200, {
             ok: true,
             blog: {
                 path: blogPath,

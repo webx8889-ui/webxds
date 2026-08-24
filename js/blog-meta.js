@@ -1,9 +1,13 @@
 (() => {
   "use strict";
+  if (window.__webxBlogMetaInitialized) return;
+  window.__webxBlogMetaInitialized = true;
 
   const BLOG_PREFIX = "/pages/blogs/";
   const BLOG_INDEX = "/pages/blogs/blogs.html";
   const REFRESH_INTERVAL_MS = 10000;
+  const isLiveServer = ["5500", "5501", "5502"].includes(window.location.port);
+  const API_BASE = window.WEBX_API_ORIGIN || (isLiveServer ? `${window.location.protocol}//${window.location.hostname}:3000` : "");
   let metadata = {};
   let refreshQueued = false;
 
@@ -17,6 +21,10 @@
     } catch (_) {
       return "";
     }
+  }
+
+  function apiUrl(path) {
+    return `${API_BASE}${path}`;
   }
 
   function getVisitorId() {
@@ -95,7 +103,7 @@
 
   async function refreshMetadata() {
     try {
-      const response = await fetch("/api/blogs/meta", { cache: "no-store" });
+      const response = await fetch(apiUrl("/api/blogs/meta"), { cache: "no-store" });
       if (!response.ok) return;
       const payload = await response.json();
       metadata = payload && payload.blogs ? payload.blogs : {};
@@ -114,7 +122,7 @@
     } catch (_) {}
 
     try {
-      const response = await fetch("/api/blogs/views", {
+      const response = await fetch(apiUrl("/api/blogs/views"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ path, visitorId: getVisitorId() })
