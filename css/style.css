@@ -10767,6 +10767,34 @@ body.inner-video-bg main > .work-page-section {
     flex-shrink: 0
 }
 
+.blog-byline {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: clamp(12px, 1.25vw, 14px);
+    line-height: 1.4
+}
+
+.blog-author {
+    color: rgba(255, 255, 255, 0.84);
+    font-weight: 500
+}
+
+.blog-meta-separator {
+    color: #fea800
+}
+
+.blog-view-count::before {
+    content: "◉";
+    color: #fea800;
+    font-size: .7em;
+    margin-right: 6px;
+    vertical-align: 1px
+}
+
 .blog-social-share {
     display: flex;
     gap: 12px;

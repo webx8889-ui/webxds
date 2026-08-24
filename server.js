@@ -38,6 +38,8 @@ const REPLAY_EVENT_LIMIT = 3e4;
 
 const ADMIN_SESSION_TTL_MS = 1e3 * 60 * 60 * 24 * 7;
 
+const BLOG_VIEW_DEDUPLICATION_MS = 1e3 * 60 * 60 * 24;
+
 const MIME_TYPES = {
     ".html": "text/html; charset=utf-8",
     ".css": "text/css; charset=utf-8",
@@ -1816,6 +1818,47 @@ function normalizeBlogPost(post, index = 0) {
     };
 }
 
+function normalizeBlogViewPath(value) {
+    const candidate = sanitizeText(value, "");
+    if (!candidate || !candidate.startsWith("/pages/blogs/") || candidate === "/pages/blogs/blogs.html" || !candidate.endsWith(".html")) return "";
+    if (candidate.includes("..") || candidate.includes("\\")) return "";
+    return candidate;
+}
+
+function ensureBlogViews(store) {
+    if (!store.blogViews || typeof store.blogViews !== "object" || Array.isArray(store.blogViews)) store.blogViews = {};
+    for (const [blogPath, record] of Object.entries(store.blogViews)) {
+        if (!normalizeBlogViewPath(blogPath) || !record || typeof record !== "object") {
+            delete store.blogViews[blogPath];
+            continue;
+        }
+        record.count = Math.max(0, Math.floor(Number(record.count) || 0));
+        if (!record.viewers || typeof record.viewers !== "object" || Array.isArray(record.viewers)) record.viewers = {};
+    }
+}
+
+function pruneBlogViewers(store) {
+    ensureBlogViews(store);
+    const cutoff = Date.now() - BLOG_VIEW_DEDUPLICATION_MS;
+    for (const record of Object.values(store.blogViews)) {
+        for (const [viewerHash, timestamp] of Object.entries(record.viewers)) {
+            if (!Number.isFinite(Number(timestamp)) || Number(timestamp) < cutoff) delete record.viewers[viewerHash];
+        }
+    }
+}
+
+function getBlogViewCount(store, blogPath) {
+    ensureBlogViews(store);
+    return Math.max(0, Math.floor(Number(store.blogViews[blogPath]?.count) || 0));
+}
+
+function getBlogMeta(post, store) {
+    return {
+        author: sanitizeText(post.author, "Webx Design Studio"),
+        views: getBlogViewCount(store, post.url)
+    };
+}
+
 function extractMetaContent(html, metaKey) {
     const regex = new RegExp(`<meta\\s+(?:property|name)=["']${metaKey}["'][^>]*content=["']([^"']*)["'][^>]*>`, "i");
     const match = String(html || "").match(regex);
@@ -1884,7 +1927,7 @@ async function parseStaticBlogPage(urlPath) {
             dateLabel: formatBlogDateLabel(dateValue),
             excerpt: excerpt,
             intro: "",
-            author: "Webx Design Studio",
+            author: sanitizeText(extractMetaContent(html, "author") || extractMetaContent(html, "article:author"), "Webx Design Studio"),
             tags: extractBlogTags(html),
             keywords: [],
             status: "published",
@@ -2194,6 +2237,7 @@ async function withStore(mutator) {
     ensureWorkPageStructure(store);
     ensureGenericPagesStructure(store);
     pruneTracking(store);
+    pruneBlogViewers(store);
     const result = await mutator(store);
     await writeStore(store);
     broadcast(store);
@@ -2407,7 +2451,57 @@ async function handleApi(req, res, url) {
     ensureWorkPageStructure(store);
     ensureGenericPagesStructure(store);
     pruneTracking(store);
+    pruneBlogViewers(store);
     const pathname = url.pathname;
+    if (pathname === "/api/blogs/meta" && req.method === "GET") {
+        const blogs = await collectPublishedStaticBlogs();
+        const metadata = {};
+        for (const blog of blogs) metadata[blog.url] = getBlogMeta(blog, store);
+        sendJson(res, 200, {
+            blogs: metadata
+        });
+        return;
+    }
+    if (pathname === "/api/blogs/views" && req.method === "POST") {
+        const body = await parseBody(req);
+        const blogPath = normalizeBlogViewPath(body.path);
+        const visitorId = sanitizeText(body.visitorId, "").slice(0, 180);
+        if (!blogPath || !visitorId) {
+            sendJson(res, 400, {
+                error: "A valid blog path and visitor ID are required"
+            });
+            return;
+        }
+        const blogs = await collectPublishedStaticBlogs();
+        const blog = blogs.find(item => item.url === blogPath);
+        if (!blog) {
+            sendJson(res, 404, {
+                error: "Blog not found"
+            });
+            return;
+        }
+        ensureBlogViews(store);
+        const record = store.blogViews[blogPath] || {
+            count: 0,
+            viewers: {}
+        };
+        const viewerHash = crypto.createHash("sha256").update(`${blogPath}:${visitorId}`).digest("hex");
+        const now = Date.now();
+        if (!record.viewers[viewerHash] || now - Number(record.viewers[viewerHash]) >= BLOG_VIEW_DEDUPLICATION_MS) {
+            record.count = Math.max(0, Math.floor(Number(record.count) || 0)) + 1;
+            record.viewers[viewerHash] = now;
+        }
+        store.blogViews[blogPath] = record;
+        await writeStore(store);
+        sendJson(res, 200, {
+            ok: true,
+            blog: {
+                path: blogPath,
+                ...getBlogMeta(blog, store)
+            }
+        });
+        return;
+    }
     if (pathname === "/api/public/bootstrap" && req.method === "GET") {
         try {
             sendJson(res, 200, getPublicBootstrap(store, url.searchParams.get("pathname") || "/"));

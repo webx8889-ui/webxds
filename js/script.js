@@ -395,6 +395,17 @@ document.addEventListener("DOMContentLoaded", function () {
     initCtaVoiceToText();
 });
 
+// Loads the shared author and live blog-view UI on every page that already uses
+// the site script, including pages generated later from the CMS.
+(function loadBlogMeta() {
+    if (document.querySelector("script[data-blog-meta-loader]")) return;
+    const script = document.createElement("script");
+    script.src = "/js/blog-meta.js?v=20260824-1";
+    script.defer = true;
+    script.dataset.blogMetaLoader = "true";
+    document.head.appendChild(script);
+})();
+
 // Receive the server-generated reference and place it in the shared CTA
 // confirmation state, regardless of which CTA form variant submitted it.
 document.addEventListener("DOMContentLoaded", function () {
