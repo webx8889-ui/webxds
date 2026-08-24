@@ -771,7 +771,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.529Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -971,7 +971,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.529Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1171,7 +1171,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.529Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1371,7 +1371,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.530Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1571,7 +1571,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.530Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1771,7 +1771,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.530Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -1971,7 +1971,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-24T05:03:17.529Z"
+          "updatedAt": "2026-08-24T05:23:00.531Z"
         }
       ]
     },
@@ -2492,7 +2492,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.532Z"
+      "updatedAt": "2026-08-24T05:23:00.534Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2796,7 +2796,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.534Z"
+      "updatedAt": "2026-08-24T05:23:00.535Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2927,7 +2927,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.537Z"
+      "updatedAt": "2026-08-24T05:23:00.540Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3058,7 +3058,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.538Z"
+      "updatedAt": "2026-08-24T05:23:00.540Z"
     },
     "about": {
       "editorType": "generic",
@@ -3251,7 +3251,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.539Z"
+      "updatedAt": "2026-08-24T05:23:00.541Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3374,7 +3374,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.539Z"
+      "updatedAt": "2026-08-24T05:23:00.542Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3505,7 +3505,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.540Z"
+      "updatedAt": "2026-08-24T05:23:00.542Z"
     },
     "services": {
       "editorType": "generic",
@@ -3702,7 +3702,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.541Z"
+      "updatedAt": "2026-08-24T05:23:00.544Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3847,7 +3847,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.541Z"
+      "updatedAt": "2026-08-24T05:23:00.545Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -3992,7 +3992,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.542Z"
+      "updatedAt": "2026-08-24T05:23:00.545Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4857,7 +4857,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.531Z"
+      "updatedAt": "2026-08-24T05:23:00.532Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5052,7 +5052,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.535Z"
+      "updatedAt": "2026-08-24T05:23:00.538Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5247,7 +5247,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-24T05:03:17.537Z"
+      "updatedAt": "2026-08-24T05:23:00.539Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -5679,10 +5679,70 @@
   "tracking": {
     "sessions": [
       {
-        "id": "sess-bb0469ccf505f81a03224b5da",
+        "id": "sess-e736125b996ad1a032388e48",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:42.401Z",
+        "lastSeenAt": "2026-08-24T05:22:57.429Z",
+        "currentPage": "work",
+        "path": "/work",
+        "referrer": "http://localhost:3000/blogs/blog-what-makes-a-great-website-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 12,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cbe114f83c0fd1a0323882b6",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:39.449Z",
+        "lastSeenAt": "2026-08-24T05:22:42.300Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 3,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e023f9ab6d3db81a032387c39",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:37.776Z",
+        "lastSeenAt": "2026-08-24T05:22:39.249Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3f0ce692ceacd1a032385c36",
         "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
-        "createdAt": "2026-08-24T05:01:01.812Z",
-        "lastSeenAt": "2026-08-24T05:03:17.542Z",
+        "createdAt": "2026-08-24T05:22:29.580Z",
+        "lastSeenAt": "2026-08-24T05:23:00.546Z",
         "currentPage": "blog-what-makes-a-great-website-2026",
         "path": "/blogs/blog-what-makes-a-great-website-2026",
         "referrer": "http://localhost:3000/",
@@ -5691,7 +5751,607 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 135,
+        "activeSeconds": 30,
+        "scrollDepth": 18,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-45f7527371fc61a032385b37",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:29.330Z",
+        "lastSeenAt": "2026-08-24T05:22:29.330Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e697eb7d9e151a032385792",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:28.400Z",
+        "lastSeenAt": "2026-08-24T05:22:28.400Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-83bae59c96bdc81a032384756",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:24.243Z",
+        "lastSeenAt": "2026-08-24T05:22:24.243Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9be225762f8e281a032384648",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:23.971Z",
+        "lastSeenAt": "2026-08-24T05:22:23.971Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-473d4238ed58e1a03238406b",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:22.469Z",
+        "lastSeenAt": "2026-08-24T05:22:22.469Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e0b0707b41c4d1a032383520",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:19.582Z",
+        "lastSeenAt": "2026-08-24T05:22:19.582Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6988029af0eaf81a03238263e",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:22:15.761Z",
+        "lastSeenAt": "2026-08-24T05:22:28.310Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5deabcec4d2261a03237d9bc",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-08-24T05:21:56.172Z",
+        "lastSeenAt": "2026-08-24T05:22:56.203Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1187x667",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 9,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-745934b3861431a032378011",
+        "visitorId": "b022597d-5859-464c-8c01-7bf40095d2d5",
+        "createdAt": "2026-08-24T05:21:33.277Z",
+        "lastSeenAt": "2026-08-24T05:21:33.277Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1009x668",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-89ff5e46b169481a032373432",
+        "visitorId": "b022597d-5859-464c-8c01-7bf40095d2d5",
+        "createdAt": "2026-08-24T05:21:13.832Z",
+        "lastSeenAt": "2026-08-24T05:21:29.555Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1009x668",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a8b4e875721bb81a032358443",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-08-24T05:19:23.217Z",
+        "lastSeenAt": "2026-08-24T05:21:53.229Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1009x667",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 150,
+        "scrollDepth": 20,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b9ec8a04fa9d681a032357dc8",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-08-24T05:19:21.563Z",
+        "lastSeenAt": "2026-08-24T05:19:21.563Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1009x667",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-15be434845c471a032346257",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:18:09.061Z",
+        "lastSeenAt": "2026-08-24T05:21:54.518Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 225,
+        "scrollDepth": 75,
+        "eventCount": 6,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7ff82dbaa731181a0323418fa",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:50.227Z",
+        "lastSeenAt": "2026-08-24T05:22:36.390Z",
+        "currentPage": "high-converting-landing-page-2026",
+        "path": "/blogs/high-converting-landing-page-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 150,
+        "scrollDepth": 8,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ddd0ed8fdf14a81a032340d04",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:47.166Z",
+        "lastSeenAt": "2026-08-24T05:17:50.014Z",
+        "currentPage": "high-converting-landing-page-2026",
+        "path": "/blogs/high-converting-landing-page-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 3,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-817e546edd0a91a03233dbcf",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:34.571Z",
+        "lastSeenAt": "2026-08-24T05:17:47.017Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 12,
+        "scrollDepth": 0,
+        "eventCount": 10,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7ee8c975a39d61a03233a883",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:21.484Z",
+        "lastSeenAt": "2026-08-24T05:17:21.484Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-358be5852e5b681a03233a4ec",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:20.526Z",
+        "lastSeenAt": "2026-08-24T05:17:21.210Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b4bd952c1f8f181a032339464",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:16.292Z",
+        "lastSeenAt": "2026-08-24T05:17:20.319Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 4,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a07fbfa71970f1a032338be0",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:14.111Z",
+        "lastSeenAt": "2026-08-24T05:17:16.073Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6dcb521b032fc1a032336e00",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:17:06.458Z",
+        "lastSeenAt": "2026-08-24T05:18:08.823Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 8,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6e64065f0f9c11a032336342",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:17:03.711Z",
+        "lastSeenAt": "2026-08-24T05:17:03.711Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0d5556bf9b03b81a032335192",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:16:59.207Z",
+        "lastSeenAt": "2026-08-24T05:17:03.616Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/blogs/blog-what-makes-a-great-website-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4fd51b65b023b1a0323334ec",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:16:51.847Z",
+        "lastSeenAt": "2026-08-24T05:16:51.847Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/blogs/blog-what-makes-a-great-website-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8d8b5cfb5a85a1a032332f82",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:16:50.465Z",
+        "lastSeenAt": "2026-08-24T05:16:50.465Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/blogs/blog-what-makes-a-great-website-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-60f3b809b1b7e81a032332584",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:16:47.903Z",
+        "lastSeenAt": "2026-08-24T05:16:50.334Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-673ee8fc9c6231a03232d96d",
+        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
+        "createdAt": "2026-08-24T05:16:28.421Z",
+        "lastSeenAt": "2026-08-24T05:19:21.363Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1009x667",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 64,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-faad74ee96f7d1a03231de37",
+        "visitorId": "b022597d-5859-464c-8c01-7bf40095d2d5",
+        "createdAt": "2026-08-24T05:15:24.135Z",
+        "lastSeenAt": "2026-08-24T05:15:54.126Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1009x668",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 9,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7211cce61dea481a032308588",
+        "visitorId": "b022597d-5859-464c-8c01-7bf40095d2d5",
+        "createdAt": "2026-08-24T05:13:55.900Z",
+        "lastSeenAt": "2026-08-24T05:15:41.523Z",
+        "currentPage": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "referrer": "Direct",
+        "viewport": "1009x668",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.134.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bb0469ccf505f81a03224b5da",
+        "visitorId": "aa17c5d9-6da1-4866-8668-efc63400bd3a",
+        "createdAt": "2026-08-24T05:01:01.812Z",
+        "lastSeenAt": "2026-08-24T05:16:46.729Z",
+        "currentPage": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 405,
         "scrollDepth": 69,
         "eventCount": 0,
         "pageViews": 1,
@@ -7020,6 +7680,222 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-0b674df4",
+        "sessionId": "sess-cbe114f83c0fd1a0323882b6",
+        "page": "blog-what-makes-a-great-website-2026",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-08-24T05:22:42.260Z"
+      },
+      {
+        "id": "evt-61ec2dd3",
+        "sessionId": "sess-6988029af0eaf81a03238263e",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-24T05:22:28.310Z"
+      },
+      {
+        "id": "evt-4e033081",
+        "sessionId": "sess-6988029af0eaf81a03238263e",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-24T05:22:19.461Z"
+      },
+      {
+        "id": "evt-7f71afec",
+        "sessionId": "sess-673ee8fc9c6231a03232d96d",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-24T05:19:21.363Z"
+      },
+      {
+        "id": "evt-9818e8fd",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:18:28.310Z"
+      },
+      {
+        "id": "evt-88f9eb23",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:18:27.802Z"
+      },
+      {
+        "id": "evt-4587d729",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:18:27.611Z"
+      },
+      {
+        "id": "evt-bef9d26d",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:18:24.771Z"
+      },
+      {
+        "id": "evt-c30cb7b2",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:18:23.101Z"
+      },
+      {
+        "id": "evt-2f19bfb7",
+        "sessionId": "sess-15be434845c471a032346257",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:18:20.141Z"
+      },
+      {
+        "id": "evt-41aa05ee",
+        "sessionId": "sess-6dcb521b032fc1a032336e00",
+        "page": "ai-voice-assistant-form-fields",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-24T05:18:08.823Z"
+      },
+      {
+        "id": "evt-16bae079",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-24T05:17:46.981Z"
+      },
+      {
+        "id": "evt-8ed8ba88",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:17:45.769Z"
+      },
+      {
+        "id": "evt-b711d10c",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:43.380Z"
+      },
+      {
+        "id": "evt-3979648b",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:42.903Z"
+      },
+      {
+        "id": "evt-fdff4ca6",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:42.781Z"
+      },
+      {
+        "id": "evt-2a154f93",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:42.713Z"
+      },
+      {
+        "id": "evt-e0a3d1c9",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:17:41.000Z"
+      },
+      {
+        "id": "evt-6aeaf6cc",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-prev",
+        "text": "←",
+        "createdAt": "2026-08-24T05:17:40.504Z"
+      },
+      {
+        "id": "evt-241f651b",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:39.193Z"
+      },
+      {
+        "id": "evt-4ffcfe75",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "page": "home",
+        "type": "click",
+        "target": "button.blog-arrow.blog-next",
+        "text": "→",
+        "createdAt": "2026-08-24T05:17:37.078Z"
+      },
+      {
+        "id": "evt-a9342c99",
+        "sessionId": "sess-358be5852e5b681a03233a4ec",
+        "page": "ai-voice-assistant-form-fields",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-24T05:17:21.174Z"
+      },
+      {
+        "id": "evt-65c7919e",
+        "sessionId": "sess-0d5556bf9b03b81a032335192",
+        "page": "index.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-24T05:17:03.616Z"
+      },
+      {
+        "id": "evt-a0f46186",
+        "sessionId": "sess-60f3b809b1b7e81a032332584",
+        "page": "blog-what-makes-a-great-website-2026",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-24T05:16:50.334Z"
+      },
       {
         "id": "evt-3084eae9",
         "sessionId": "sess-62ebfa106fd331a032248483",
@@ -11303,225 +12179,217 @@
         "target": "button.cta-project-close",
         "text": "×",
         "createdAt": "2026-08-02T11:35:50.380Z"
-      },
-      {
-        "id": "evt-060d19b4",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:48.465Z"
-      },
-      {
-        "id": "evt-8c756946",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:48.154Z"
-      },
-      {
-        "id": "evt-71190eb5",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:47.378Z"
-      },
-      {
-        "id": "evt-1d6a0783",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:45.942Z"
-      },
-      {
-        "id": "evt-44deedde",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-service-option",
-        "text": "UI/UX Design",
-        "createdAt": "2026-08-02T11:35:43.529Z"
-      },
-      {
-        "id": "evt-72e1d4a9",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:42.328Z"
-      },
-      {
-        "id": "evt-a9e6718b",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "input",
-        "text": "",
-        "createdAt": "2026-08-02T11:35:41.794Z"
-      },
-      {
-        "id": "evt-dabdd1ff",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:39.683Z"
-      },
-      {
-        "id": "evt-22060a2d",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:29.378Z"
-      },
-      {
-        "id": "evt-49a10dfa",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:28.699Z"
-      },
-      {
-        "id": "evt-071909a3",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:28.314Z"
-      },
-      {
-        "id": "evt-cf2fc4cf",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:27.620Z"
-      },
-      {
-        "id": "evt-a9425e2d",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:27.048Z"
-      },
-      {
-        "id": "evt-aa7cd1a8",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:26.408Z"
-      },
-      {
-        "id": "evt-9b5f5048",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:25.898Z"
-      },
-      {
-        "id": "evt-9cb43b2e",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:25.316Z"
-      },
-      {
-        "id": "evt-51d11cfd",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:24.852Z"
-      },
-      {
-        "id": "evt-2aa57ffe",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:24.305Z"
-      },
-      {
-        "id": "evt-8f95c934",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:23.785Z"
-      },
-      {
-        "id": "evt-fe42eb0c",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:22.889Z"
-      },
-      {
-        "id": "evt-8a0f819e",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:22.376Z"
-      },
-      {
-        "id": "evt-bcefc3cd",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:20.468Z"
-      },
-      {
-        "id": "evt-85b567f4",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:35:19.802Z"
-      },
-      {
-        "id": "evt-f205e21f",
-        "sessionId": "sess-2c4a7fe7014a7819fc2412aff",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:35:18.884Z"
       }
     ],
     "replays": [
+      {
+        "id": "replay-c08ae1b8",
+        "sessionId": "sess-e736125b996ad1a032388e48",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:45.591Z",
+        "updatedAt": "2026-08-24T05:22:45.591Z",
+        "page": "work",
+        "path": "/work",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 3154,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-2667bc75",
+            "index": 1,
+            "createdAt": "2026-08-24T05:22:45.591Z",
+            "durationMs": 3154,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 30125,
+            "file": "data/replays/sess-e736125b996ad1a032388e48__part-001.webm",
+            "url": "/data/replays/sess-e736125b996ad1a032388e48__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-97b71c95",
+        "sessionId": "sess-cbe114f83c0fd1a0323882b6",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:42.300Z",
+        "updatedAt": "2026-08-24T05:22:42.300Z",
+        "page": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 2804,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-904b30c1",
+            "index": 1,
+            "createdAt": "2026-08-24T05:22:42.300Z",
+            "durationMs": 2804,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 28144,
+            "file": "data/replays/sess-cbe114f83c0fd1a0323882b6__part-001.webm",
+            "url": "/data/replays/sess-cbe114f83c0fd1a0323882b6__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-950e6b99",
+        "sessionId": "sess-e023f9ab6d3db81a032387c39",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:22:39.249Z",
+        "updatedAt": "2026-08-24T05:22:39.249Z",
+        "page": "blog-what-makes-a-great-website-2026",
+        "path": "/blogs/blog-what-makes-a-great-website-2026",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1467,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-9c0c2d61",
+            "index": 1,
+            "createdAt": "2026-08-24T05:22:39.249Z",
+            "durationMs": 1467,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 17924,
+            "file": "data/replays/sess-e023f9ab6d3db81a032387c39__part-001.webm",
+            "url": "/data/replays/sess-e023f9ab6d3db81a032387c39__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-ad92b7f3",
+        "sessionId": "sess-ddd0ed8fdf14a81a032340d04",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:50.014Z",
+        "updatedAt": "2026-08-24T05:17:50.014Z",
+        "page": "high-converting-landing-page-2026",
+        "path": "/blogs/high-converting-landing-page-2026",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 2850,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-24920e75",
+            "index": 1,
+            "createdAt": "2026-08-24T05:17:50.014Z",
+            "durationMs": 2850,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 33412,
+            "file": "data/replays/sess-ddd0ed8fdf14a81a032340d04__part-001.webm",
+            "url": "/data/replays/sess-ddd0ed8fdf14a81a032340d04__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-b9b335a1",
+        "sessionId": "sess-817e546edd0a91a03233dbcf",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:47.017Z",
+        "updatedAt": "2026-08-24T05:17:47.017Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 12426,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-2932da27",
+            "index": 1,
+            "createdAt": "2026-08-24T05:17:47.017Z",
+            "durationMs": 12426,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 12559,
+            "file": "data/replays/sess-817e546edd0a91a03233dbcf__part-001.webm",
+            "url": "/data/replays/sess-817e546edd0a91a03233dbcf__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-99ff3406",
+        "sessionId": "sess-358be5852e5b681a03233a4ec",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:21.210Z",
+        "updatedAt": "2026-08-24T05:17:21.210Z",
+        "page": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 659,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-4191705d",
+            "index": 1,
+            "createdAt": "2026-08-24T05:17:21.210Z",
+            "durationMs": 659,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-358be5852e5b681a03233a4ec__part-001.webm",
+            "url": "/data/replays/sess-358be5852e5b681a03233a4ec__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-fce2e4ad",
+        "sessionId": "sess-b4bd952c1f8f181a032339464",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:20.319Z",
+        "updatedAt": "2026-08-24T05:17:20.319Z",
+        "page": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 4030,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-a180d10e",
+            "index": 1,
+            "createdAt": "2026-08-24T05:17:20.319Z",
+            "durationMs": 4030,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 37057,
+            "file": "data/replays/sess-b4bd952c1f8f181a032339464__part-001.webm",
+            "url": "/data/replays/sess-b4bd952c1f8f181a032339464__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-1b91b23b",
+        "sessionId": "sess-a07fbfa71970f1a032338be0",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-24T05:17:16.073Z",
+        "updatedAt": "2026-08-24T05:17:16.073Z",
+        "page": "ai-voice-assistant-form-fields",
+        "path": "/blogs/ai-voice-assistant-form-fields",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1963,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-4ef9b145",
+            "index": 1,
+            "createdAt": "2026-08-24T05:17:16.073Z",
+            "durationMs": 1963,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 26482,
+            "file": "data/replays/sess-a07fbfa71970f1a032338be0__part-001.webm",
+            "url": "/data/replays/sess-a07fbfa71970f1a032338be0__part-001.webm"
+          }
+        ]
+      },
       {
         "id": "replay-5a6acca4",
         "sessionId": "sess-9901ee9ad8b7381a028e1c549",
@@ -12360,6 +13228,252 @@
   ],
   "activity": [
     {
+      "id": "act-493f0db6",
+      "type": "visitor",
+      "message": "Video replay captured for work",
+      "createdAt": "2026-08-24T05:22:45.613Z"
+    },
+    {
+      "id": "act-cedf280c",
+      "type": "visitor",
+      "message": "Visitor opened work",
+      "createdAt": "2026-08-24T05:22:42.401Z"
+    },
+    {
+      "id": "act-f76dce0d",
+      "type": "visitor",
+      "message": "Video replay captured for blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:42.329Z"
+    },
+    {
+      "id": "act-dd278a1e",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:39.449Z"
+    },
+    {
+      "id": "act-bf0fb561",
+      "type": "visitor",
+      "message": "Video replay captured for blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:39.272Z"
+    },
+    {
+      "id": "act-5b40a540",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:37.776Z"
+    },
+    {
+      "id": "act-a8dd74cc",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:29.581Z"
+    },
+    {
+      "id": "act-6b80dcc3",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:29.330Z"
+    },
+    {
+      "id": "act-43b52cd5",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:28.400Z"
+    },
+    {
+      "id": "act-65ca13aa",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:24.243Z"
+    },
+    {
+      "id": "act-54e9a5a1",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:23.971Z"
+    },
+    {
+      "id": "act-4c53e454",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:22.469Z"
+    },
+    {
+      "id": "act-1c52ba40",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:22:19.582Z"
+    },
+    {
+      "id": "act-04b54f65",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-24T05:22:15.761Z"
+    },
+    {
+      "id": "act-614bb502",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:21:56.172Z"
+    },
+    {
+      "id": "act-46b2ef46",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:21:33.278Z"
+    },
+    {
+      "id": "act-9372812b",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:21:13.832Z"
+    },
+    {
+      "id": "act-352e9f2d",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:19:23.217Z"
+    },
+    {
+      "id": "act-63f099fa",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:19:21.563Z"
+    },
+    {
+      "id": "act-f954f1f5",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-24T05:18:09.061Z"
+    },
+    {
+      "id": "act-aa8c5b4a",
+      "type": "visitor",
+      "message": "Visitor opened high-converting-landing-page-2026",
+      "createdAt": "2026-08-24T05:17:50.227Z"
+    },
+    {
+      "id": "act-a290b459",
+      "type": "visitor",
+      "message": "Video replay captured for high-converting-landing-page-2026",
+      "createdAt": "2026-08-24T05:17:50.036Z"
+    },
+    {
+      "id": "act-63827560",
+      "type": "visitor",
+      "message": "Visitor opened high-converting-landing-page-2026",
+      "createdAt": "2026-08-24T05:17:47.166Z"
+    },
+    {
+      "id": "act-6e722d4e",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-24T05:17:47.042Z"
+    },
+    {
+      "id": "act-961fc12a",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-24T05:17:34.571Z"
+    },
+    {
+      "id": "act-7cace5fc",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-24T05:17:21.484Z"
+    },
+    {
+      "id": "act-3037dca6",
+      "type": "visitor",
+      "message": "Video replay captured for ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:21.244Z"
+    },
+    {
+      "id": "act-36e5dfea",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:20.526Z"
+    },
+    {
+      "id": "act-0aa61e47",
+      "type": "visitor",
+      "message": "Video replay captured for ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:20.352Z"
+    },
+    {
+      "id": "act-d8eca194",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:16.292Z"
+    },
+    {
+      "id": "act-378307e3",
+      "type": "visitor",
+      "message": "Video replay captured for ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:16.109Z"
+    },
+    {
+      "id": "act-3e3dec65",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:14.112Z"
+    },
+    {
+      "id": "act-00e2cbbd",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:06.458Z"
+    },
+    {
+      "id": "act-4b74f981",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:17:03.711Z"
+    },
+    {
+      "id": "act-c76bc151",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-24T05:16:59.207Z"
+    },
+    {
+      "id": "act-69ec41ab",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-24T05:16:51.847Z"
+    },
+    {
+      "id": "act-a9933a75",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-08-24T05:16:50.466Z"
+    },
+    {
+      "id": "act-f5159a7a",
+      "type": "visitor",
+      "message": "Visitor opened blog-what-makes-a-great-website-2026",
+      "createdAt": "2026-08-24T05:16:47.903Z"
+    },
+    {
+      "id": "act-38f1a570",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-24T05:16:28.422Z"
+    },
+    {
+      "id": "act-8aee068f",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:15:24.135Z"
+    },
+    {
+      "id": "act-03320589",
+      "type": "visitor",
+      "message": "Visitor opened ai-voice-assistant-form-fields",
+      "createdAt": "2026-08-24T05:13:55.901Z"
+    },
+    {
       "id": "act-c07717aa",
       "type": "visitor",
       "message": "Visitor opened blog-what-makes-a-great-website-2026",
@@ -12472,253 +13586,30 @@
       "type": "visitor",
       "message": "Visitor opened blogs",
       "createdAt": "2026-08-24T04:30:31.741Z"
-    },
-    {
-      "id": "act-9c5457f8",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:30:26.035Z"
-    },
-    {
-      "id": "act-cc843a8a",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:30:14.173Z"
-    },
-    {
-      "id": "act-34f55b24",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-08-24T04:30:05.580Z"
-    },
-    {
-      "id": "act-df322599",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:30:02.793Z"
-    },
-    {
-      "id": "act-50cbee63",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:29:52.448Z"
-    },
-    {
-      "id": "act-f25ea8b0",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:26:34.599Z"
-    },
-    {
-      "id": "act-dd893880",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T04:26:30.676Z"
-    },
-    {
-      "id": "act-8da95aba",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T04:25:48.192Z"
-    },
-    {
-      "id": "act-4ba308b5",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T04:25:33.184Z"
-    },
-    {
-      "id": "act-bce41764",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T04:25:23.981Z"
-    },
-    {
-      "id": "act-176e82f1",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:51:43.048Z"
-    },
-    {
-      "id": "act-b1274634",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:51:19.902Z"
-    },
-    {
-      "id": "act-aadaf841",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:51:19.706Z"
-    },
-    {
-      "id": "act-da04641c",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:51:19.485Z"
-    },
-    {
-      "id": "act-00d3381b",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:31:31.267Z"
-    },
-    {
-      "id": "act-6878fa66",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:31:13.539Z"
-    },
-    {
-      "id": "act-99b2f319",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:31:06.409Z"
-    },
-    {
-      "id": "act-ec1d8654",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-22T09:31:06.366Z"
-    },
-    {
-      "id": "act-f2ab8360",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-22T09:30:54.519Z"
-    },
-    {
-      "id": "act-2d88b78e",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-22T09:30:54.222Z"
-    },
-    {
-      "id": "act-5c3eae48",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-22T09:30:52.724Z"
-    },
-    {
-      "id": "act-4a8eff41",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-22T09:30:52.495Z"
-    },
-    {
-      "id": "act-2e92d3e7",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-22T09:30:43.953Z"
-    },
-    {
-      "id": "act-fb93a79d",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:43.808Z"
-    },
-    {
-      "id": "act-73c6a449",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:38.675Z"
-    },
-    {
-      "id": "act-a7b0997e",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:38.464Z"
-    },
-    {
-      "id": "act-c6c81b5d",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:38.302Z"
-    },
-    {
-      "id": "act-df17171d",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:38.122Z"
-    },
-    {
-      "id": "act-4d0f7ae0",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:36.998Z"
-    },
-    {
-      "id": "act-47fbe473",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:36.800Z"
-    },
-    {
-      "id": "act-e2b2bd82",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:36.618Z"
-    },
-    {
-      "id": "act-24268303",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:36.285Z"
-    },
-    {
-      "id": "act-9d43befe",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:25.831Z"
-    },
-    {
-      "id": "act-9d17731c",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:25.411Z"
-    },
-    {
-      "id": "act-7617ddb2",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-22T09:30:19.592Z"
-    },
-    {
-      "id": "act-261dc5f4",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-22T09:30:19.550Z"
-    },
-    {
-      "id": "act-5fa33bc1",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-22T09:30:17.810Z"
-    },
-    {
-      "id": "act-d92d5432",
-      "type": "visitor",
-      "message": "Video replay captured for blog-what-makes-a-great-website-2026",
-      "createdAt": "2026-08-22T09:30:15.289Z"
-    },
-    {
-      "id": "act-b562ce27",
-      "type": "visitor",
-      "message": "Visitor opened blog-what-makes-a-great-website-2026",
-      "createdAt": "2026-08-22T09:30:13.553Z"
-    },
-    {
-      "id": "act-82158e55",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-22T09:30:00.479Z"
-    },
-    {
-      "id": "act-3056cb4d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-22T09:29:36.809Z"
     }
   ],
-  "blogViews": {}
+  "blogViews": {
+    "/pages/blogs/ai-voice-assistant-form-fields.html": {
+      "count": 3,
+      "viewers": {
+        "74cfe5206f8dc118cac660be5aee1e0878f6e1ee3c31979b1b8dd7454177c487": 1787548435957,
+        "49569843175c0ec88948776f17a7e41f654aa50f55f42cf1c7e275b06582b83c": 1787548626585,
+        "e1ce8905adec3c62a21d9012c1a4d998aca0e0e79f430c54aa6434401352cae6": 1787548634313,
+        "426a39afc60366ef9f18174428907581e62ba0c8714285685c740ec608424b3b": 1787548761631
+      }
+    },
+    "/pages/blogs/blog-what-makes-a-great-website-2026.html": {
+      "count": 2,
+      "viewers": {
+        "c6355b89f761004afdf1bfa7a5630c5c02930bd2658e9dcddc16fd87f48d8d78": 1787548608041,
+        "045de7ed21855144635c0ba670e4d630f42e18a338e51ba2a44b2dda03c92a09": 1787548957946
+      }
+    },
+    "/pages/blogs/high-converting-landing-page-2026.html": {
+      "count": 1,
+      "viewers": {
+        "e5486b762a5e1917c3bc9c1e41a584cbf8c3ea47c957912ed524b787b291e4d3": 1787548667527
+      }
+    }
+  }
 }

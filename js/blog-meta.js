@@ -16,8 +16,9 @@
     try {
       const url = new URL(value, window.location.origin);
       const pathname = url.pathname.replace(/\/+$/, "") || "/";
-      if (!pathname.startsWith(BLOG_PREFIX) || pathname === BLOG_INDEX || !pathname.endsWith(".html")) return "";
-      return pathname;
+      if (pathname.startsWith(BLOG_PREFIX) && pathname !== BLOG_INDEX && pathname.endsWith(".html")) return pathname;
+      const cleanMatch = pathname.match(/^\/blogs\/([a-z0-9-]+)$/i);
+      return cleanMatch ? `${BLOG_PREFIX}${cleanMatch[1]}.html` : "";
     } catch (_) {
       return "";
     }
@@ -73,7 +74,9 @@
   function renderByline(container, path) {
     const info = metadata[path];
     if (!info || !container) return;
-    let byline = Array.from(container.querySelectorAll(".blog-byline")).find(item => item.dataset.blogPath === path);
+    const matchingBylines = Array.from(container.querySelectorAll(".blog-byline")).filter(item => blogPath(item.dataset.blogPath) === path);
+    let byline = matchingBylines[0];
+    matchingBylines.slice(1).forEach(item => item.remove());
     if (!byline) {
       byline = createByline(path, info);
       const anchor = container.querySelector(".blog-meta, .blog-tags-date-row, .related-blog-meta");
@@ -94,7 +97,7 @@
     if (currentPath) renderByline(document.querySelector(".blog-header"), currentPath);
 
     document.querySelectorAll(".blog-card, .related-blog-card").forEach(card => {
-      const path = blogPath(card.dataset.blogPath || card.querySelector('a[href*="/pages/blogs/"]')?.getAttribute("href"));
+      const path = blogPath(card.dataset.blogPath || card.querySelector('a[href*="/pages/blogs/"], a[href^="/blogs/"]')?.getAttribute("href"));
       if (!path) return;
       card.dataset.blogPath = path;
       renderByline(card.querySelector(".blog-content, .related-blog-content") || card, path);
