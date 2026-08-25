@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">UI vs UX design explained</title>
+  <desc id="desc">A bold editorial graphic comparing user interface and user experience design.</desc>
+  <rect width="1200" height="630" fill="#111111"/>
+  <rect x="48" y="48" width="1104" height="534" rx="12" fill="#171717" stroke="#3b3b3b" stroke-width="2"/>
+  <circle cx="101" cy="101" r="10" fill="#ff6b00"/><circle cx="135" cy="101" r="10" fill="#f5c542"/><circle cx="169" cy="101" r="10" fill="#f4f4f0"/>
+  <text x="76" y="185" fill="#f4f4f0" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">THE DESIGN DUO</text>
+  <text x="76" y="262" fill="#f4f4f0" font-family="Arial, sans-serif" font-size="74" font-weight="800">UI <tspan fill="#ff6b00">vs</tspan> UX</text>
+  <text x="80" y="308" fill="#a5a5a5" font-family="Arial, sans-serif" font-size="23">What is the difference, and why both matter</text>
+  <rect x="76" y="380" width="470" height="118" rx="8" fill="#f4f4f0"/>
+  <text x="104" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="30" font-weight="800">UI = the interface</text>
+  <text x="104" y="466" fill="#555555" font-family="Arial, sans-serif" font-size="20">Visuals, controls, type, colour</text>
+  <rect x="654" y="380" width="470" height="118" rx="8" fill="#ff6b00"/>
+  <text x="682" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="30" font-weight="800">UX = the journey</text>
+  <text x="682" y="466" fill="#321500" font-family="Arial, sans-serif" font-size="20">Flow, clarity, confidence, outcome</text>
+  <path d="M565 439h70M612 416l23 23-23 23" fill="none" stroke="#f4f4f0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
