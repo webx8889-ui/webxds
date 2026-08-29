@@ -492,6 +492,26 @@
               ]
             },
             {
+              "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
+              "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
+              "image": "/assets/images/blogs/ui-ux-design-trends-2026-cover.png",
+              "imageAlt": "Futuristic adaptive mobile interface representing UI and UX design trends for 2026",
+              "dateLabel": "Date: 29 Aug 26",
+              "dateValue": "2026-08-29",
+              "excerpt": "Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion. Includes a practical adoption checklist.",
+              "url": "/pages/blogs/top-ui-ux-design-trends-2026.html",
+              "tags": [
+                "UI UX design trends 2026",
+                "UX trends 2026",
+                "UI trends 2026",
+                "agentic UX",
+                "adaptive interface design",
+                "accessible UX design",
+                "AI UX design",
+                "design systems 2026"
+              ]
+            },
+            {
               "id": "blog-what-is-the-difference-between-ui-and-ux-a-practical-guide-webx-design-studio",
               "title": "What Is the Difference Between UI and UX? A Practical Guide | Webx Design Studio",
               "image": "/assets/images/blogs/ui-vs-ux-difference-2026.png",
@@ -789,7 +809,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-25T12:43:38.931Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -989,7 +1009,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-08-25T12:43:38.931Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1189,7 +1209,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-25T12:43:38.932Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1389,7 +1409,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-25T12:43:38.932Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1589,7 +1609,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-08-25T12:43:38.932Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1789,7 +1809,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-25T12:43:38.932Z"
+          "updatedAt": "2026-08-29T12:43:17.914Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -1989,7 +2009,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-08-25T12:43:38.932Z"
+          "updatedAt": "2026-08-29T12:43:17.915Z"
         }
       ]
     },
@@ -2510,7 +2530,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.935Z"
+      "updatedAt": "2026-08-29T12:43:17.919Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2814,7 +2834,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.936Z"
+      "updatedAt": "2026-08-29T12:43:17.921Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2945,7 +2965,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.941Z"
+      "updatedAt": "2026-08-29T12:43:17.926Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3076,7 +3096,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.941Z"
+      "updatedAt": "2026-08-29T12:43:17.927Z"
     },
     "about": {
       "editorType": "generic",
@@ -3269,7 +3289,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.942Z"
+      "updatedAt": "2026-08-29T12:43:17.929Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3392,7 +3412,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.943Z"
+      "updatedAt": "2026-08-29T12:43:17.930Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3523,7 +3543,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.944Z"
+      "updatedAt": "2026-08-29T12:43:17.931Z"
     },
     "services": {
       "editorType": "generic",
@@ -3720,7 +3740,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.945Z"
+      "updatedAt": "2026-08-29T12:43:17.937Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3865,7 +3885,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.946Z"
+      "updatedAt": "2026-08-29T12:43:17.938Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4010,7 +4030,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.946Z"
+      "updatedAt": "2026-08-29T12:43:17.939Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4875,7 +4895,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.934Z"
+      "updatedAt": "2026-08-29T12:43:17.917Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5070,7 +5090,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.938Z"
+      "updatedAt": "2026-08-29T12:43:17.923Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5265,7 +5285,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-08-25T12:43:38.940Z"
+      "updatedAt": "2026-08-29T12:43:17.925Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -5614,6 +5634,217 @@
         }
       ],
       "updatedAt": "2026-08-25T10:20:00.655Z"
+    },
+    "top-ui-ux-design-trends-2026": {
+      "editorType": "generic",
+      "path": "/pages/blogs/top-ui-ux-design-trends-2026.html",
+      "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
+      "meta": "Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion. Includes a practical adoption checklist.",
+      "displayName": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion. Includes a practical adoption checklist.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"UI UX design trends 2026, UX trends 2026, UI trends 2026, agentic UX, adaptive interface design, accessible UX design, AI UX design, design systems 2026\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/top-ui-ux-design-trends-2026.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Top UI/UX Design Trends for 2026: What Product Teams Need to Know\" />\n  <meta property=\"og:description\" content=\"A practical, human-centred guide to the UI/UX trends that matter in 2026.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/top-ui-ux-design-trends-2026.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/ui-ux-design-trends-2026.png\" />\n  <meta property=\"og:image:width\" content=\"1200\" />\n  <meta property=\"og:image:height\" content=\"630\" />\n  <meta property=\"og:image:alt\" content=\"Futuristic adaptive mobile interface representing UI and UX design trends for 2026\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-08-29\" />\n  <meta property=\"article:modified_time\" content=\"2026-08-29\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"UX/UI Design\" />\n  <meta property=\"article:tag\" content=\"UI UX design trends 2026\" />\n  <meta property=\"article:tag\" content=\"agentic UX\" />\n  <meta property=\"article:tag\" content=\"accessible design\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"Top UI/UX Design Trends for 2026\" />\n  <meta name=\"twitter:description\" content=\"The UI/UX shifts worth acting on in 2026—and how to apply them without chasing hype.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/ui-ux-design-trends-2026.png\" />\n  <meta name=\"twitter:image:alt\" content=\"Futuristic adaptive mobile interface representing UI and UX design trends for 2026\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/ui-ux-design-trends-2026.png\" as=\"image\" />\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Top UI/UX Design Trends for 2026: What Product Teams Need to Know\",\"description\":\"Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion.\",\"image\":[\"https://webxds.com/assets/images/blogs/ui-ux-design-trends-2026.png\",\"https://webxds.com/assets/images/blogs/adaptive-design-system-2026.png\",\"https://webxds.com/assets/images/blogs/inclusive-ui-ux-2026.png\"],\"url\":\"https://webxds.com/pages/blogs/top-ui-ux-design-trends-2026.html\",\"datePublished\":\"2026-08-29\",\"dateModified\":\"2026-08-29\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"UI UX design trends 2026\",\"UX trends 2026\",\"UI trends 2026\",\"agentic UX\",\"adaptive interface design\",\"accessible UX design\",\"AI UX design\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/top-ui-ux-design-trends-2026.html\"}}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Top UI/UX Design Trends for 2026\",\"item\":\"https://webxds.com/pages/blogs/top-ui-ux-design-trends-2026.html\"}]}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What are the biggest UI/UX design trends for 2026?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The key shifts are adaptive and agentic interfaces, calmer visual systems, multimodal experiences, accessibility as a default, purpose-led motion, and flexible design systems that support personalisation without losing consistency.\"}},{\"@type\":\"Question\",\"name\":\"Should every product use AI in its UX?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Use AI only where it lowers effort, makes a decision easier, or helps users understand and control a complex task. Every AI action should make its scope, status, and next step visible.\"}},{\"@type\":\"Question\",\"name\":\"How can a business adopt UX trends without redesigning everything?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Begin with one high-friction journey, define a measurable outcome, prototype a small improvement, and test it with real users. Strengthen the design system as you learn instead of launching a trend-led visual overhaul.\"}}]}\n  </script>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif;\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-ae5a8df1"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-4166542a"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-4566ca5c"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-334dca5d"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-55767b0b"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-3f4a595e"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-c2e6380f"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br />experiences<br />together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "top-ui-ux-design-trends-2026-section-f5e35a26"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err);});});</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "top-ui-ux-design-trends-2026-section-ae5a8df1",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n    <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n      <nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav>\n    </section>\n  </header>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-4166542a",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Top UI/UX Design Trends for 2026</span></nav></div></section>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-4566ca5c",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/ui-ux-design-trends-2026.png\" alt=\"Futuristic adaptive mobile interface representing UI and UX design trends for 2026\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-334dca5d",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\">\n        <h1 class=\"blog-title\">Top UI/UX Design Trends for 2026</h1>\n        <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">UI UX trends 2026</span><span class=\"blog-tag\">product design</span><span class=\"blog-tag\">agentic UX</span><span class=\"blog-tag\">accessible design</span></div><time class=\"blog-date\" datetime=\"2026-08-29\">Date: 29 Aug 26</time></div>\n        <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/top-ui-ux-design-trends-2026.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">Loading views...</span></p>\n        <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\n      </header>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n        <meta itemprop=\"headline\" content=\"Top UI/UX Design Trends for 2026\" /><meta itemprop=\"datePublished\" content=\"2026-08-29\" />\n        <p class=\"blog-intro\">2026 is not about making every interface look futuristic. It is about making digital products feel more useful, more understandable, and more considerate of the context a person is in.</p>\n        <p class=\"blog-intro\">The strongest UI/UX work this year blends quiet visual confidence with smarter behaviour: interfaces adapt without becoming unpredictable, AI helps without taking over, and accessibility is designed into the system instead of added at the end.</p>\n        <section class=\"blog-page-section\" aria-labelledby=\"what-changed\"><h2 class=\"section-heading\" id=\"what-changed\">What Has Changed in UI/UX for 2026?</h2><p class=\"section-text\">The move is from static screens to responsive experiences. People expect products to remember context, reduce repeated work, and explain complex choices in plain language. At the same time, they are more alert to privacy, automation mistakes, and distracting visual noise.</p><p class=\"section-text\">That creates a new standard: useful intelligence, clear control, and design systems strong enough to flex without breaking brand trust.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-one\"><h2 class=\"section-heading\" id=\"trend-one\">1. Adaptive Interfaces That Respect Context</h2><p class=\"section-text\">An adaptive interface changes what it shows or how it guides a person based on useful signals: whether they are new or returning, using a small screen, working quickly, or trying to complete a complex task. The goal is not to create a different product for every person. It is to remove unnecessary steps.</p><ul class=\"section-list\"><li>Show a focused first-time path, then reveal shortcuts for confident users.</li><li>Bring recent work, saved preferences, and likely next actions closer to the surface.</li><li>Adjust density and guidance for screen size, input method, and user preference.</li><li>Keep the core structure predictable so people never feel lost.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/adaptive-design-system-2026.png\" alt=\"Adaptive responsive design system workspace with web, tablet, and mobile UI layouts\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Flexible design systems let one product experience adapt across contexts while its visual language stays recognisable.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-two\"><h2 class=\"section-heading\" id=\"trend-two\">2. Agentic UX: Designing for AI That Can Take Action</h2><p class=\"section-text\">AI is moving beyond chat windows. In many products, it can now prepare a draft, compare options, organise information, or complete multi-step work. This is often called agentic UX—but the important part is the experience around the action, not the label.</p><p class=\"section-text\">Good agentic interfaces make the AI's scope visible. Users should understand what the system will do, what data it is using, what is still waiting for approval, and how to undo a result. A helpful pattern is <strong style=\"color:#fff;\">suggest → preview → confirm → review</strong>. It protects trust while preserving speed.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-three\"><h2 class=\"section-heading\" id=\"trend-three\">3. Calm, Editorial Visual Systems</h2><p class=\"section-text\">After years of loud gradients, dense cards, and attention-grabbing motion, a calmer visual direction is gaining ground. Think generous spacing, rich but restrained colour, clear typography, and one strong focal moment instead of five competing ones.</p><p class=\"section-text\">This is not minimalism for its own sake. It is a way to make products easier to scan, more premium, and less mentally tiring—especially when people spend long stretches inside a dashboard or app.</p><ul class=\"section-list\"><li>Use colour to establish hierarchy, status, and moments of delight—not to decorate every component.</li><li>Build type scales that remain legible at smaller sizes and higher zoom levels.</li><li>Let content containers breathe; dense screens need deliberate rhythm.</li><li>Use texture, depth, or illustration only when it reinforces the task.</li></ul></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-four\"><h2 class=\"section-heading\" id=\"trend-four\">4. Accessible by Default, Not as a Final QA Step</h2><p class=\"section-text\">Accessibility is becoming a design-quality signal, not a compliance checkbox. Teams are treating contrast, keyboard use, readable type, captions, reduced motion, and clear focus states as core product requirements from the beginning.</p><p class=\"section-text\">The upside is broader than accessibility alone. Clear labels help everyone. A visible focus state helps keyboard users and power users. Reduced motion makes an experience calmer. Better contrast works in bright sunlight as well as for people with low vision.</p></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/inclusive-ui-ux-2026.png\" alt=\"Accessible interface with controls for typography, dark mode, voice input, and focus states\" width=\"1724\" height=\"930\" loading=\"lazy\" /><figcaption>Inclusive UX gives people options: how they read, navigate, hear, interact, and reduce distraction should never be an afterthought.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-five\"><h2 class=\"section-heading\" id=\"trend-five\">5. Multimodal Experiences Become Normal</h2><p class=\"section-text\">People do not always want to type. They may want to scan a document, speak a request, upload a photo, or switch between touch and keyboard. Multimodal UX connects these inputs in a single, forgiving flow.</p><p class=\"section-text\">The key is continuity. If someone starts with voice, they should be able to edit the result with text. If they upload an image, explain what was recognised and offer corrections. Every mode should leave a clear trail of what the product understood.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-six\"><h2 class=\"section-heading\" id=\"trend-six\">6. Purposeful Motion and Meaningful Feedback</h2><p class=\"section-text\">Motion still matters, but the best motion now acts like feedback: it explains a state change, preserves a person's sense of place, or makes a waiting moment feel less uncertain. It should not slow down a frequent task or compete with content.</p><ul class=\"section-list\"><li>Use transitions to show where a panel came from and where it went.</li><li>Show progress for background tasks, especially AI-assisted work.</li><li>Provide a reduced-motion option and avoid looping decorative animation.</li><li>Make success, error, and saved states specific enough to be useful.</li></ul></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"trend-seven\"><h2 class=\"section-heading\" id=\"trend-seven\">7. Design Systems That Can Flex</h2><p class=\"section-text\">A design system in 2026 is more than a component library. It is a set of rules that lets a team scale a product across themes, locales, screen sizes, content states, and levels of personalisation.</p><p class=\"section-text\">The most valuable systems define the non-negotiables—voice, accessibility, spacing, interaction patterns, and content hierarchy—then give product teams safe room to adapt. Tokens, component variants, documented content rules, and regular design-engineering reviews make that possible.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"practical-plan\"><h2 class=\"section-heading\" id=\"practical-plan\">A Practical Way to Use These Trends</h2><p class=\"section-text\">You do not need a complete redesign to benefit from 2026's UI/UX direction. Start with the journey where customers hesitate, abandon, or ask for help most often.</p><ol class=\"section-list\"><li>Choose one user outcome, such as completing onboarding or finding the right plan.</li><li>Map the friction: repeated inputs, unclear decisions, slow feedback, or inaccessible controls.</li><li>Prototype one targeted improvement rather than a visual overhaul.</li><li>Test it with real users, including people who use different devices and assistive technology.</li><li>Measure task completion, confidence, errors, and support demand—not only clicks.</li></ol></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"avoid-hype\"><h2 class=\"section-heading\" id=\"avoid-hype\">What to Avoid</h2><p class=\"section-text\">Trends are useful when they help a real user goal. They become expensive when they are copied without a reason. Avoid AI that creates extra review work, visual effects that obscure information, personalisation that feels invasive, or new interactions that require people to relearn simple tasks.</p><p class=\"section-text\">The best question to ask is simple: <strong style=\"color:#fff;\">does this reduce effort while keeping the person in control?</strong> If the answer is yes, the trend is probably worth exploring.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Final Thoughts</h2><p class=\"section-text\">The most enduring UI/UX trend for 2026 is thoughtful restraint. Products will become smarter, more adaptive, and more visual—but the winners will make that sophistication feel clear and human. Build for confidence, choice, and momentum, and your interface will age far better than any short-lived aesthetic.</p></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-55767b0b",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"top-ui-ux-design-trends-2026\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-3f4a595e",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build a product people enjoy using?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-c2e6380f",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Logo Design</a><a href=\"/pages/main/services.html\">Graphics Design</a><a href=\"/pages/main/services.html\">Tool Design</a><a href=\"/pages/main/services.html\">Document Design</a><a href=\"/pages/main/services.html\">ETC Design</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "top-ui-ux-design-trends-2026-section-f5e35a26",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" /><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" /></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-08-29T12:21:44.132Z"
     }
   },
   "services": [],
@@ -5850,10 +6081,370 @@
   "tracking": {
     "sessions": [
       {
+        "id": "sess-c5d83c31d016c81a04d89325b",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:40:32.128Z",
+        "lastSeenAt": "2026-08-29T12:43:17.939Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 67,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dfcd3ff8be2be81a04d892f43",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:40:31.385Z",
+        "lastSeenAt": "2026-08-29T12:40:31.821Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-142b5a967c69781a04d83e971",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:45.772Z",
+        "lastSeenAt": "2026-08-29T12:40:31.116Z",
+        "currentPage": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 210,
+        "scrollDepth": 100,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1de2d159d913781a04d838b58",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:21.689Z",
+        "lastSeenAt": "2026-08-29T12:34:45.708Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 64,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4c8f5a7d7f31a04d836d53",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:13.998Z",
+        "lastSeenAt": "2026-08-29T12:34:16.023Z",
+        "currentPage": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "referrer": "http://localhost:3000/blogs/ui-vs-ux-difference-guide",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3ccfcf0b208ee1a04d833d90",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:01.775Z",
+        "lastSeenAt": "2026-08-29T12:34:16.807Z",
+        "currentPage": "ui-vs-ux-difference-guide",
+        "path": "/blogs/ui-vs-ux-difference-guide",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 82,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b1384af47891f81a04d832dba",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:57.721Z",
+        "lastSeenAt": "2026-08-29T12:34:17.710Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 65,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-55668382138811a04d83216a",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:54.582Z",
+        "lastSeenAt": "2026-08-29T12:33:57.409Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 3,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-25eae0894b011a04d8315e7",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:51.619Z",
+        "lastSeenAt": "2026-08-29T12:33:53.573Z",
+        "currentPage": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-93717b20c061281a04d8304c5",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:47.241Z",
+        "lastSeenAt": "2026-08-29T12:33:51.517Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 4,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b5974aa9c34f11a04d83023e",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:46.589Z",
+        "lastSeenAt": "2026-08-29T12:33:46.589Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e6026e219af7f81a04d82f8d1",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:44.173Z",
+        "lastSeenAt": "2026-08-29T12:33:46.201Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 2,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-02a01e8aa45bd1a04d827eb4",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:12.914Z",
+        "lastSeenAt": "2026-08-29T12:33:43.827Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 31,
+        "scrollDepth": 62,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2a2a22290357481a04d80dd57",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:31:26.074Z",
+        "lastSeenAt": "2026-08-29T12:33:12.745Z",
+        "currentPage": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 90,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7f54f077e353481a04d80b707",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:31:16.262Z",
+        "lastSeenAt": "2026-08-29T12:31:25.901Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f5b4a261d86f781a04d7ab22f",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:24:41.807Z",
+        "lastSeenAt": "2026-08-29T12:31:13.925Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 7,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-55ccde3ee130681a04d781061",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:21:49.322Z",
+        "lastSeenAt": "2026-08-29T12:24:34.934Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 37,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3f1d121563ad581a04d77fc1d",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:21:44.133Z",
+        "lastSeenAt": "2026-08-29T12:21:49.186Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 5,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
         "id": "sess-2251deacf2d0c1a038f1ea59",
         "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
         "createdAt": "2026-08-25T12:42:53.431Z",
-        "lastSeenAt": "2026-08-25T12:43:38.947Z",
+        "lastSeenAt": "2026-08-25T12:51:24.946Z",
         "currentPage": "blogs",
         "path": "/blogs",
         "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
@@ -5862,7 +6453,7 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
+        "activeSeconds": 195,
         "scrollDepth": 17,
         "eventCount": 0,
         "pageViews": 1,
@@ -7368,769 +7959,117 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-9901ee9ad8b7381a028e1c549",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:51:19.902Z",
-        "lastSeenAt": "2026-08-22T09:51:50.580Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 100,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-25bba508ba05881a028e1c3a6",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:51:19.485Z",
-        "lastSeenAt": "2026-08-22T09:51:19.685Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9ece9fb44b89781a028cfa222",
-        "visitorId": "69bc9c56-f3d0-4f9a-a1b2-f6cdefd49586",
-        "createdAt": "2026-08-22T09:31:31.267Z",
-        "lastSeenAt": "2026-08-22T09:31:31.267Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-284e1a93e6ada81a028cf5ce0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:31:13.539Z",
-        "lastSeenAt": "2026-08-22T09:51:17.317Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 555,
-        "scrollDepth": 66,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-17eef78fdf31281a028cf4108",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:31:06.409Z",
-        "lastSeenAt": "2026-08-22T09:31:06.409Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-756468ebaec751a028cf12a0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:54.519Z",
-        "lastSeenAt": "2026-08-22T09:31:06.328Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 12,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9cf5b274e5a1281a028cf0b74",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:52.724Z",
-        "lastSeenAt": "2026-08-22T09:30:54.195Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f66c52a075b2f81a028cee958",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:43.953Z",
-        "lastSeenAt": "2026-08-22T09:30:52.462Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 9,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-715c4528262bd81a028ced4b7",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:38.675Z",
-        "lastSeenAt": "2026-08-22T09:30:43.776Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 5,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-32b58ad74ea8381a028ced3e5",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:38.464Z",
-        "lastSeenAt": "2026-08-22T09:30:38.464Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8495b8d2e9db181a028ced31f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:38.302Z",
-        "lastSeenAt": "2026-08-22T09:30:38.302Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9f0e14c064b0e81a028cece27",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:36.998Z",
-        "lastSeenAt": "2026-08-22T09:30:38.085Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0120ec7d8c89181a028cecd5c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:36.800Z",
-        "lastSeenAt": "2026-08-22T09:30:36.800Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8582449ec750e81a028cecb60",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:36.285Z",
-        "lastSeenAt": "2026-08-22T09:30:36.585Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-99beba35ced341a028cea285",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:25.831Z",
-        "lastSeenAt": "2026-08-22T09:30:34.176Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0a47d60cb730f81a028ce8a20",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:19.592Z",
-        "lastSeenAt": "2026-08-22T09:30:25.382Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 6,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4dc3221897b9681a028ce833a",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:17.810Z",
-        "lastSeenAt": "2026-08-22T09:30:19.502Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/work",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-647fda80bd8e11a028ce7297",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:13.553Z",
-        "lastSeenAt": "2026-08-22T09:30:15.253Z",
-        "currentPage": "blog-what-makes-a-great-website-2026",
-        "path": "/blogs/blog-what-makes-a-great-website-2026",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fefd43dc4e74f81a028cde303",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:29:36.808Z",
-        "lastSeenAt": "2026-08-22T09:30:13.439Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/work",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 73,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-02f5936575bd281a028c9007c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:24:16.665Z",
-        "lastSeenAt": "2026-08-22T09:29:31.748Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/work",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 315,
-        "scrollDepth": 86,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e2d22cfafacfb81a028c8c40b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:24:01.190Z",
-        "lastSeenAt": "2026-08-22T09:24:01.190Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/work",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9af2db2d4df171a028c8bdc4",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:59.606Z",
-        "lastSeenAt": "2026-08-22T09:24:01.039Z",
-        "currentPage": "work",
-        "path": "/work",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-672d3416624441a028c8b485",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:57.214Z",
-        "lastSeenAt": "2026-08-22T09:23:59.514Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-69116cfb6c891a028c8a3a0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:52.890Z",
-        "lastSeenAt": "2026-08-22T09:23:57.052Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 4,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5998038e5d4321a028c84e0d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:30.988Z",
-        "lastSeenAt": "2026-08-22T09:23:52.770Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 22,
-        "scrollDepth": 94,
-        "eventCount": 7,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b4be6ba4fc05e81a028c470fb",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:19:17.780Z",
-        "lastSeenAt": "2026-08-22T09:23:18.728Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "429x934",
-        "device": "mobile",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 240,
-        "scrollDepth": 100,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9055bb57539651a028c40eb2",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:52.620Z",
-        "lastSeenAt": "2026-08-22T09:19:07.651Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 9,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9054beff27be41a028c3dce6",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:39.884Z",
-        "lastSeenAt": "2026-08-22T09:18:52.505Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fd80b40480c9b81a028c38020",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:16.163Z",
-        "lastSeenAt": "2026-08-22T09:18:39.803Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/work",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 24,
-        "scrollDepth": 100,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3ad7115d901e31a028c37970",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:14.416Z",
-        "lastSeenAt": "2026-08-22T09:18:15.919Z",
-        "currentPage": "work",
-        "path": "/work",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-85477927b90c781a028c36b87",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:10.859Z",
-        "lastSeenAt": "2026-08-22T09:18:14.306Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/ai-voice-assistant-form-fields",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a302042df7cbb1a028c36076",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:08.068Z",
-        "lastSeenAt": "2026-08-22T09:18:10.537Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-50e9564f902651a028c2d945",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:17:33.409Z",
-        "lastSeenAt": "2026-08-22T09:18:06.963Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 82,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-888f8f6c8d38181a028bc050b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:10:05.861Z",
-        "lastSeenAt": "2026-08-22T09:16:23.742Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 285,
-        "scrollDepth": 85,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f4a129a80cc9f1a028bbeb5b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:59.291Z",
-        "lastSeenAt": "2026-08-22T09:10:04.519Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 4,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-255f274a1df5a81a028bbb8a6",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:46.310Z",
-        "lastSeenAt": "2026-08-22T09:09:57.869Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-16d332c3d77cb1a028bbb414",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:45.145Z",
-        "lastSeenAt": "2026-08-22T09:09:46.045Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-df96b635785c881a028bba950",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:42.401Z",
-        "lastSeenAt": "2026-08-22T09:09:44.677Z",
-        "currentPage": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "referrer": "Direct",
-        "viewport": "1428x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-af64e4bd",
+        "sessionId": "sess-142b5a967c69781a04d83e971",
+        "page": "top-ui-ux-design-trends-2026",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-29T12:40:31.116Z"
+      },
+      {
+        "id": "evt-71d59c47",
+        "sessionId": "sess-142b5a967c69781a04d83e971",
+        "page": "top-ui-ux-design-trends-2026",
+        "type": "click",
+        "target": "button.footer-toggle",
+        "text": "",
+        "createdAt": "2026-08-29T12:35:01.216Z"
+      },
+      {
+        "id": "evt-27f15165",
+        "sessionId": "sess-1de2d159d913781a04d838b58",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-29T12:34:45.708Z"
+      },
+      {
+        "id": "evt-b19814b9",
+        "sessionId": "sess-3ccfcf0b208ee1a04d833d90",
+        "page": "ui-vs-ux-difference-guide",
+        "type": "click",
+        "target": "a.related-blog-image",
+        "text": "",
+        "createdAt": "2026-08-29T12:34:13.933Z"
+      },
+      {
+        "id": "evt-39ce6679",
+        "sessionId": "sess-b1384af47891f81a04d832dba",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-29T12:34:01.615Z"
+      },
+      {
+        "id": "evt-1e359382",
+        "sessionId": "sess-93717b20c061281a04d8304c5",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-29T12:33:51.478Z"
+      },
+      {
+        "id": "evt-d118e981",
+        "sessionId": "sess-2a2a22290357481a04d80dd57",
+        "page": "top-ui-ux-design-trends-2026",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-08-29T12:33:12.745Z"
+      },
+      {
+        "id": "evt-5f985c1b",
+        "sessionId": "sess-2a2a22290357481a04d80dd57",
+        "page": "top-ui-ux-design-trends-2026",
+        "type": "click",
+        "target": "button.cta-project-close",
+        "text": "×",
+        "createdAt": "2026-08-29T12:31:47.979Z"
+      },
+      {
+        "id": "evt-5135fadc",
+        "sessionId": "sess-2a2a22290357481a04d80dd57",
+        "page": "top-ui-ux-design-trends-2026",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-08-29T12:31:46.835Z"
+      },
+      {
+        "id": "evt-f323d972",
+        "sessionId": "sess-7f54f077e353481a04d80b707",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-08-29T12:31:25.901Z"
+      },
+      {
+        "id": "evt-30f29733",
+        "sessionId": "sess-3f1d121563ad581a04d77fc1d",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-08-29T12:21:49.141Z"
+      },
+      {
+        "id": "evt-818f7bc8",
+        "sessionId": "sess-3f1d121563ad581a04d77fc1d",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-08-29T12:21:47.666Z"
+      },
       {
         "id": "evt-9f3fbc93",
         "sessionId": "sess-342ac98081b3681a038f1ac25",
@@ -12522,117 +12461,321 @@
         "target": "button.cta-project-button",
         "text": "CONTINUE",
         "createdAt": "2026-08-02T11:38:54.864Z"
-      },
-      {
-        "id": "evt-5c5d42c1",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:38:54.332Z"
-      },
-      {
-        "id": "evt-7ecad51c",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:38:52.592Z"
-      },
-      {
-        "id": "evt-9fc4ff5d",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:38:51.303Z"
-      },
-      {
-        "id": "evt-e5fa9fbd",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:38:50.478Z"
-      },
-      {
-        "id": "evt-c77ca3ab",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:38:49.525Z"
-      },
-      {
-        "id": "evt-e7a3aacd",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:38:48.851Z"
-      },
-      {
-        "id": "evt-4dabb3eb",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:38:47.705Z"
-      },
-      {
-        "id": "evt-82dc9900",
-        "sessionId": "sess-5cc6045956c25819fc244eb8e",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:38:46.619Z"
-      },
-      {
-        "id": "evt-4d0287c4",
-        "sessionId": "sess-63595e96f8a5519fc24284db",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "Ã—",
-        "createdAt": "2026-08-02T11:37:11.064Z"
-      },
-      {
-        "id": "evt-91fc41d7",
-        "sessionId": "sess-63595e96f8a5519fc24284db",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:36:20.121Z"
-      },
-      {
-        "id": "evt-41a69e4e",
-        "sessionId": "sess-63595e96f8a5519fc24284db",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:36:19.251Z"
-      },
-      {
-        "id": "evt-e132efba",
-        "sessionId": "sess-63595e96f8a5519fc24284db",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:36:18.193Z"
       }
     ],
     "replays": [
+      {
+        "id": "replay-255db6db",
+        "sessionId": "sess-c5d83c31d016c81a04d89325b",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:40:52.717Z",
+        "updatedAt": "2026-08-29T12:40:52.717Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 20591,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-9664b4ec",
+            "index": 1,
+            "createdAt": "2026-08-29T12:40:52.717Z",
+            "durationMs": 20591,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 64965,
+            "file": "data/replays/sess-c5d83c31d016c81a04d89325b__part-001.webm",
+            "url": "/data/replays/sess-c5d83c31d016c81a04d89325b__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-c61ea1c4",
+        "sessionId": "sess-dfcd3ff8be2be81a04d892f43",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:40:31.821Z",
+        "updatedAt": "2026-08-29T12:40:31.821Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 476,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-4e1dad0b",
+            "index": 1,
+            "createdAt": "2026-08-29T12:40:31.821Z",
+            "durationMs": 476,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 110,
+            "file": "data/replays/sess-dfcd3ff8be2be81a04d892f43__part-001.webm",
+            "url": "/data/replays/sess-dfcd3ff8be2be81a04d892f43__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-23529c02",
+        "sessionId": "sess-1de2d159d913781a04d838b58",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:28.341Z",
+        "updatedAt": "2026-08-29T12:34:28.341Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 6667,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-98e24177",
+            "index": 1,
+            "createdAt": "2026-08-29T12:34:28.341Z",
+            "durationMs": 6667,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 5124,
+            "file": "data/replays/sess-1de2d159d913781a04d838b58__part-001.webm",
+            "url": "/data/replays/sess-1de2d159d913781a04d838b58__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-87628c27",
+        "sessionId": "sess-4c8f5a7d7f31a04d836d53",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:16.023Z",
+        "updatedAt": "2026-08-29T12:34:16.023Z",
+        "page": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 2007,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-0309b279",
+            "index": 1,
+            "createdAt": "2026-08-29T12:34:16.023Z",
+            "durationMs": 2007,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 19264,
+            "file": "data/replays/sess-4c8f5a7d7f31a04d836d53__part-001.webm",
+            "url": "/data/replays/sess-4c8f5a7d7f31a04d836d53__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-2309c814",
+        "sessionId": "sess-b1384af47891f81a04d832dba",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:34:01.658Z",
+        "updatedAt": "2026-08-29T12:34:01.658Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 3887,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-7349dcd9",
+            "index": 1,
+            "createdAt": "2026-08-29T12:34:01.658Z",
+            "durationMs": 3887,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 4011,
+            "file": "data/replays/sess-b1384af47891f81a04d832dba__part-001.webm",
+            "url": "/data/replays/sess-b1384af47891f81a04d832dba__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-83fe523f",
+        "sessionId": "sess-55668382138811a04d83216a",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:57.409Z",
+        "updatedAt": "2026-08-29T12:33:57.409Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 2836,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-51a32b8c",
+            "index": 1,
+            "createdAt": "2026-08-29T12:33:57.409Z",
+            "durationMs": 2836,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 2413,
+            "file": "data/replays/sess-55668382138811a04d83216a__part-001.webm",
+            "url": "/data/replays/sess-55668382138811a04d83216a__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-0bfc26db",
+        "sessionId": "sess-25eae0894b011a04d8315e7",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:53.573Z",
+        "updatedAt": "2026-08-29T12:33:53.573Z",
+        "page": "top-ui-ux-design-trends-2026",
+        "path": "/blogs/top-ui-ux-design-trends-2026",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 1937,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-958a3814",
+            "index": 1,
+            "createdAt": "2026-08-29T12:33:53.573Z",
+            "durationMs": 1937,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 19264,
+            "file": "data/replays/sess-25eae0894b011a04d8315e7__part-001.webm",
+            "url": "/data/replays/sess-25eae0894b011a04d8315e7__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-5c20442c",
+        "sessionId": "sess-93717b20c061281a04d8304c5",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:51.517Z",
+        "updatedAt": "2026-08-29T12:33:51.517Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 4229,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-7c79f3a1",
+            "index": 1,
+            "createdAt": "2026-08-29T12:33:51.517Z",
+            "durationMs": 4229,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 2436,
+            "file": "data/replays/sess-93717b20c061281a04d8304c5__part-001.webm",
+            "url": "/data/replays/sess-93717b20c061281a04d8304c5__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-4a0fc639",
+        "sessionId": "sess-e6026e219af7f81a04d82f8d1",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:46.201Z",
+        "updatedAt": "2026-08-29T12:33:46.201Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 2025,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-d127ffe6",
+            "index": 1,
+            "createdAt": "2026-08-29T12:33:46.201Z",
+            "durationMs": 2025,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 1258,
+            "file": "data/replays/sess-e6026e219af7f81a04d82f8d1__part-001.webm",
+            "url": "/data/replays/sess-e6026e219af7f81a04d82f8d1__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-97dec7ef",
+        "sessionId": "sess-02a01e8aa45bd1a04d827eb4",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:33:43.827Z",
+        "updatedAt": "2026-08-29T12:33:43.827Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 30911,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-d2e02206",
+            "index": 2,
+            "createdAt": "2026-08-29T12:33:43.827Z",
+            "durationMs": 30911,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 28570,
+            "file": "data/replays/sess-02a01e8aa45bd1a04d827eb4__part-002.webm",
+            "url": "/data/replays/sess-02a01e8aa45bd1a04d827eb4__part-002.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-dfb0ae4c",
+        "sessionId": "sess-f5b4a261d86f781a04d7ab22f",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:24:44.955Z",
+        "updatedAt": "2026-08-29T12:24:44.955Z",
+        "page": "blogs",
+        "path": "/blogs",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 3151,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-7774c617",
+            "index": 1,
+            "createdAt": "2026-08-29T12:24:44.955Z",
+            "durationMs": 3151,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 41114,
+            "file": "data/replays/sess-f5b4a261d86f781a04d7ab22f__part-001.webm",
+            "url": "/data/replays/sess-f5b4a261d86f781a04d7ab22f__part-001.webm"
+          }
+        ]
+      },
+      {
+        "id": "replay-b6a474d9",
+        "sessionId": "sess-3f1d121563ad581a04d77fc1d",
+        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
+        "createdAt": "2026-08-29T12:21:49.186Z",
+        "updatedAt": "2026-08-29T12:21:49.186Z",
+        "page": "home",
+        "path": "/",
+        "ip": "1::*",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "format": "video",
+        "durationMs": 5005,
+        "eventsCount": 0,
+        "parts": [
+          {
+            "id": "clip-a9fe67fe",
+            "index": 1,
+            "createdAt": "2026-08-29T12:21:49.186Z",
+            "durationMs": 5005,
+            "mimeType": "video/webm;codecs=vp9",
+            "bytes": 54423,
+            "file": "data/replays/sess-3f1d121563ad581a04d77fc1d__part-001.webm",
+            "url": "/data/replays/sess-3f1d121563ad581a04d77fc1d__part-001.webm"
+          }
+        ]
+      },
       {
         "id": "replay-1cadbea4",
         "sessionId": "sess-c8b19b76d51931a038f1595f",
@@ -12970,630 +13113,6 @@
             "url": "/data/replays/sess-a07fbfa71970f1a032338be0__part-001.webm"
           }
         ]
-      },
-      {
-        "id": "replay-5a6acca4",
-        "sessionId": "sess-9901ee9ad8b7381a028e1c549",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:51:43.028Z",
-        "updatedAt": "2026-08-22T09:51:43.028Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 23127,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-7a9d211d",
-            "index": 2,
-            "createdAt": "2026-08-22T09:51:43.028Z",
-            "durationMs": 23127,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 53409,
-            "file": "data/replays/sess-9901ee9ad8b7381a028e1c549__part-002.webm",
-            "url": "/data/replays/sess-9901ee9ad8b7381a028e1c549__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-0294859d",
-        "sessionId": "sess-25bba508ba05881a028e1c3a6",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:51:19.685Z",
-        "updatedAt": "2026-08-22T09:51:19.685Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 203,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-ad299b31",
-            "index": 1,
-            "createdAt": "2026-08-22T09:51:19.685Z",
-            "durationMs": 203,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-25bba508ba05881a028e1c3a6__part-001.webm",
-            "url": "/data/replays/sess-25bba508ba05881a028e1c3a6__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-92461204",
-        "sessionId": "sess-756468ebaec751a028cf12a0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:31:06.328Z",
-        "updatedAt": "2026-08-22T09:31:06.328Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 11757,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-0a750a8d",
-            "index": 1,
-            "createdAt": "2026-08-22T09:31:06.328Z",
-            "durationMs": 11757,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 12505,
-            "file": "data/replays/sess-756468ebaec751a028cf12a0__part-001.webm",
-            "url": "/data/replays/sess-756468ebaec751a028cf12a0__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-61fb0da5",
-        "sessionId": "sess-9cf5b274e5a1281a028cf0b74",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:54.195Z",
-        "updatedAt": "2026-08-22T09:30:54.195Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1502,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-bc12d5cc",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:54.195Z",
-            "durationMs": 1502,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 1255,
-            "file": "data/replays/sess-9cf5b274e5a1281a028cf0b74__part-001.webm",
-            "url": "/data/replays/sess-9cf5b274e5a1281a028cf0b74__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-904bdedb",
-        "sessionId": "sess-f66c52a075b2f81a028cee958",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:52.462Z",
-        "updatedAt": "2026-08-22T09:30:52.462Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 8508,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-69a1f1ea",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:52.462Z",
-            "durationMs": 8508,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 27052,
-            "file": "data/replays/sess-f66c52a075b2f81a028cee958__part-001.webm",
-            "url": "/data/replays/sess-f66c52a075b2f81a028cee958__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-9ea3881f",
-        "sessionId": "sess-715c4528262bd81a028ced4b7",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:43.776Z",
-        "updatedAt": "2026-08-22T09:30:43.776Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 5054,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d24cc48b",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:43.776Z",
-            "durationMs": 5054,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 63939,
-            "file": "data/replays/sess-715c4528262bd81a028ced4b7__part-001.webm",
-            "url": "/data/replays/sess-715c4528262bd81a028ced4b7__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-cec0ad66",
-        "sessionId": "sess-9f0e14c064b0e81a028cece27",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:38.085Z",
-        "updatedAt": "2026-08-22T09:30:38.085Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1088,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-e5ebefc5",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:38.085Z",
-            "durationMs": 1088,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 11790,
-            "file": "data/replays/sess-9f0e14c064b0e81a028cece27__part-001.webm",
-            "url": "/data/replays/sess-9f0e14c064b0e81a028cece27__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-3d7e20a1",
-        "sessionId": "sess-8582449ec750e81a028cecb60",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:36.585Z",
-        "updatedAt": "2026-08-22T09:30:36.585Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 303,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-3c79e400",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:36.585Z",
-            "durationMs": 303,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-8582449ec750e81a028cecb60__part-001.webm",
-            "url": "/data/replays/sess-8582449ec750e81a028cecb60__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-e3cdb22b",
-        "sessionId": "sess-0a47d60cb730f81a028ce8a20",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:25.382Z",
-        "updatedAt": "2026-08-22T09:30:25.382Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 5797,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-86a0036d",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:25.382Z",
-            "durationMs": 5797,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 64160,
-            "file": "data/replays/sess-0a47d60cb730f81a028ce8a20__part-001.webm",
-            "url": "/data/replays/sess-0a47d60cb730f81a028ce8a20__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-aa668250",
-        "sessionId": "sess-4dc3221897b9681a028ce833a",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:19.502Z",
-        "updatedAt": "2026-08-22T09:30:19.502Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1628,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d0260111",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:19.502Z",
-            "durationMs": 1628,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 1149,
-            "file": "data/replays/sess-4dc3221897b9681a028ce833a__part-001.webm",
-            "url": "/data/replays/sess-4dc3221897b9681a028ce833a__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-f0e0c14d",
-        "sessionId": "sess-647fda80bd8e11a028ce7297",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:15.253Z",
-        "updatedAt": "2026-08-22T09:30:15.253Z",
-        "page": "blog-what-makes-a-great-website-2026",
-        "path": "/blogs/blog-what-makes-a-great-website-2026",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1690,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-ee4f0858",
-            "index": 1,
-            "createdAt": "2026-08-22T09:30:15.253Z",
-            "durationMs": 1690,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 20247,
-            "file": "data/replays/sess-647fda80bd8e11a028ce7297__part-001.webm",
-            "url": "/data/replays/sess-647fda80bd8e11a028ce7297__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-22832274",
-        "sessionId": "sess-fefd43dc4e74f81a028cde303",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:30:00.450Z",
-        "updatedAt": "2026-08-22T09:30:00.450Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 23598,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-cab6906b",
-            "index": 2,
-            "createdAt": "2026-08-22T09:30:00.450Z",
-            "durationMs": 23598,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 2946,
-            "file": "data/replays/sess-fefd43dc4e74f81a028cde303__part-002.webm",
-            "url": "/data/replays/sess-fefd43dc4e74f81a028cde303__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-bac0fdab",
-        "sessionId": "sess-02f5936575bd281a028c9007c",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:24:37.309Z",
-        "updatedAt": "2026-08-22T09:24:37.309Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 20645,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-61845dff",
-            "index": 1,
-            "createdAt": "2026-08-22T09:24:37.309Z",
-            "durationMs": 20645,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 59017,
-            "file": "data/replays/sess-02f5936575bd281a028c9007c__part-001.webm",
-            "url": "/data/replays/sess-02f5936575bd281a028c9007c__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-a33abe5b",
-        "sessionId": "sess-9af2db2d4df171a028c8bdc4",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:24:01.039Z",
-        "updatedAt": "2026-08-22T09:24:01.039Z",
-        "page": "work",
-        "path": "/work",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1407,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-b219379e",
-            "index": 1,
-            "createdAt": "2026-08-22T09:24:01.039Z",
-            "durationMs": 1407,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 1685,
-            "file": "data/replays/sess-9af2db2d4df171a028c8bdc4__part-001.webm",
-            "url": "/data/replays/sess-9af2db2d4df171a028c8bdc4__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-3d0f288e",
-        "sessionId": "sess-672d3416624441a028c8b485",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:59.514Z",
-        "updatedAt": "2026-08-22T09:23:59.514Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2253,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-34b1e2fd",
-            "index": 1,
-            "createdAt": "2026-08-22T09:23:59.514Z",
-            "durationMs": 2253,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 4533,
-            "file": "data/replays/sess-672d3416624441a028c8b485__part-001.webm",
-            "url": "/data/replays/sess-672d3416624441a028c8b485__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-0a33c238",
-        "sessionId": "sess-69116cfb6c891a028c8a3a0",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:57.052Z",
-        "updatedAt": "2026-08-22T09:23:57.052Z",
-        "page": "blogs",
-        "path": "/blogs",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 4049,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d40d92f6",
-            "index": 1,
-            "createdAt": "2026-08-22T09:23:57.052Z",
-            "durationMs": 4049,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 56424,
-            "file": "data/replays/sess-69116cfb6c891a028c8a3a0__part-001.webm",
-            "url": "/data/replays/sess-69116cfb6c891a028c8a3a0__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-4c05625d",
-        "sessionId": "sess-5998038e5d4321a028c84e0d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:23:52.770Z",
-        "updatedAt": "2026-08-22T09:23:52.770Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 21749,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-b6204cac",
-            "index": 2,
-            "createdAt": "2026-08-22T09:23:52.770Z",
-            "durationMs": 21749,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 22298,
-            "file": "data/replays/sess-5998038e5d4321a028c84e0d__part-002.webm",
-            "url": "/data/replays/sess-5998038e5d4321a028c84e0d__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-d8566591",
-        "sessionId": "sess-b4be6ba4fc05e81a028c470fb",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:19:41.698Z",
-        "updatedAt": "2026-08-22T09:19:41.698Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 23918,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d4c8ee29",
-            "index": 2,
-            "createdAt": "2026-08-22T09:19:41.698Z",
-            "durationMs": 23918,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 38260,
-            "file": "data/replays/sess-b4be6ba4fc05e81a028c470fb__part-002.webm",
-            "url": "/data/replays/sess-b4be6ba4fc05e81a028c470fb__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-9c04bbe7",
-        "sessionId": "sess-fd80b40480c9b81a028c38020",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:39.803Z",
-        "updatedAt": "2026-08-22T09:18:39.803Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 23684,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-fea4e906",
-            "index": 2,
-            "createdAt": "2026-08-22T09:18:39.803Z",
-            "durationMs": 23684,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 3246,
-            "file": "data/replays/sess-fd80b40480c9b81a028c38020__part-002.webm",
-            "url": "/data/replays/sess-fd80b40480c9b81a028c38020__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-22fd5702",
-        "sessionId": "sess-3ad7115d901e31a028c37970",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:15.919Z",
-        "updatedAt": "2026-08-22T09:18:15.919Z",
-        "page": "work",
-        "path": "/work",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1462,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-077efc77",
-            "index": 1,
-            "createdAt": "2026-08-22T09:18:15.919Z",
-            "durationMs": 1462,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 19247,
-            "file": "data/replays/sess-3ad7115d901e31a028c37970__part-001.webm",
-            "url": "/data/replays/sess-3ad7115d901e31a028c37970__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-5066837e",
-        "sessionId": "sess-85477927b90c781a028c36b87",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:14.306Z",
-        "updatedAt": "2026-08-22T09:18:14.306Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 3411,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-56b2e6ba",
-            "index": 1,
-            "createdAt": "2026-08-22T09:18:14.306Z",
-            "durationMs": 3411,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 8007,
-            "file": "data/replays/sess-85477927b90c781a028c36b87__part-001.webm",
-            "url": "/data/replays/sess-85477927b90c781a028c36b87__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-ac603dbd",
-        "sessionId": "sess-a302042df7cbb1a028c36076",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:18:10.537Z",
-        "updatedAt": "2026-08-22T09:18:10.537Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2421,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-40f2bafa",
-            "index": 1,
-            "createdAt": "2026-08-22T09:18:10.537Z",
-            "durationMs": 2421,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 28088,
-            "file": "data/replays/sess-a302042df7cbb1a028c36076__part-001.webm",
-            "url": "/data/replays/sess-a302042df7cbb1a028c36076__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-83461b91",
-        "sessionId": "sess-16d332c3d77cb1a028bbb414",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:46.045Z",
-        "updatedAt": "2026-08-22T09:09:46.045Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 901,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-6500980e",
-            "index": 1,
-            "createdAt": "2026-08-22T09:09:46.045Z",
-            "durationMs": 901,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 12850,
-            "file": "data/replays/sess-16d332c3d77cb1a028bbb414__part-001.webm",
-            "url": "/data/replays/sess-16d332c3d77cb1a028bbb414__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-9072b4d9",
-        "sessionId": "sess-df96b635785c881a028bba950",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-22T09:09:44.677Z",
-        "updatedAt": "2026-08-22T09:09:44.677Z",
-        "page": "ai-voice-assistant-form-fields",
-        "path": "/blogs/ai-voice-assistant-form-fields",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2283,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-42ad7ef2",
-            "index": 1,
-            "createdAt": "2026-08-22T09:09:44.677Z",
-            "durationMs": 2283,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 27166,
-            "file": "data/replays/sess-df96b635785c881a028bba950__part-001.webm",
-            "url": "/data/replays/sess-df96b635785c881a028bba950__part-001.webm"
-          }
-        ]
       }
     ]
   },
@@ -13784,6 +13303,34 @@
       "sections": []
     },
     {
+      "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
+      "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
+      "slug": "top-ui-ux-design-trends-2026",
+      "metaTitle": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion. Includes a practical adoption checklist.",
+      "image": "/assets/images/blogs/ui-ux-design-trends-2026-cover.png",
+      "imageAlt": "Futuristic adaptive mobile interface representing UI and UX design trends for 2026",
+      "dateValue": "2026-08-29",
+      "dateLabel": "Date: 29 Aug 26",
+      "excerpt": "Explore the top UI/UX design trends for 2026—from calm, adaptive interfaces and agentic UX to accessible systems and purposeful motion. Includes a practical adoption checklist.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "UI UX design trends 2026",
+        "UX trends 2026",
+        "UI trends 2026",
+        "agentic UX",
+        "adaptive interface design",
+        "accessible UX design",
+        "AI UX design",
+        "design systems 2026"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/top-ui-ux-design-trends-2026.html",
+      "sections": []
+    },
+    {
       "id": "blog-what-is-the-difference-between-ui-and-ux-a-practical-guide-webx-design-studio",
       "title": "What Is the Difference Between UI and UX? A Practical Guide | Webx Design Studio",
       "slug": "ui-vs-ux-difference-guide",
@@ -13834,6 +13381,186 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-5bbb5e06",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:40:52.747Z"
+    },
+    {
+      "id": "act-9f15bf6e",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:40:32.128Z"
+    },
+    {
+      "id": "act-4a198331",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:40:31.852Z"
+    },
+    {
+      "id": "act-2bdcbda4",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:40:31.385Z"
+    },
+    {
+      "id": "act-9153f584",
+      "type": "visitor",
+      "message": "Visitor opened top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:34:45.772Z"
+    },
+    {
+      "id": "act-c1880f64",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:34:28.359Z"
+    },
+    {
+      "id": "act-77e61fee",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:34:21.689Z"
+    },
+    {
+      "id": "act-2d28d746",
+      "type": "visitor",
+      "message": "Video replay captured for top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:34:16.052Z"
+    },
+    {
+      "id": "act-5ad013ee",
+      "type": "visitor",
+      "message": "Visitor opened top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:34:13.998Z"
+    },
+    {
+      "id": "act-f2d00b73",
+      "type": "visitor",
+      "message": "Visitor opened ui-vs-ux-difference-guide",
+      "createdAt": "2026-08-29T12:34:01.775Z"
+    },
+    {
+      "id": "act-18465408",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:34:01.683Z"
+    },
+    {
+      "id": "act-2e1288a2",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:57.721Z"
+    },
+    {
+      "id": "act-160735d5",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:33:57.435Z"
+    },
+    {
+      "id": "act-67e86562",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:54.582Z"
+    },
+    {
+      "id": "act-cdb4213e",
+      "type": "visitor",
+      "message": "Video replay captured for top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:33:53.611Z"
+    },
+    {
+      "id": "act-d78f31b1",
+      "type": "visitor",
+      "message": "Visitor opened top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:33:51.620Z"
+    },
+    {
+      "id": "act-3d5fb301",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:33:51.549Z"
+    },
+    {
+      "id": "act-14a8c218",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:47.241Z"
+    },
+    {
+      "id": "act-e18fc648",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:46.589Z"
+    },
+    {
+      "id": "act-a4b84092",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:33:46.228Z"
+    },
+    {
+      "id": "act-5a42d113",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:44.173Z"
+    },
+    {
+      "id": "act-0e956584",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:33:43.859Z"
+    },
+    {
+      "id": "act-37826298",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:33:12.914Z"
+    },
+    {
+      "id": "act-2d860539",
+      "type": "visitor",
+      "message": "Visitor opened top-ui-ux-design-trends-2026",
+      "createdAt": "2026-08-29T12:31:26.074Z"
+    },
+    {
+      "id": "act-5b48bbcb",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-08-29T12:31:16.262Z"
+    },
+    {
+      "id": "act-9f536977",
+      "type": "visitor",
+      "message": "Video replay captured for blogs",
+      "createdAt": "2026-08-29T12:24:44.974Z"
+    },
+    {
+      "id": "act-620fc2a6",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-08-29T12:24:41.807Z"
+    },
+    {
+      "id": "act-fb6d2033",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-08-29T12:21:49.322Z"
+    },
+    {
+      "id": "act-d0cc427a",
+      "type": "visitor",
+      "message": "Video replay captured for home",
+      "createdAt": "2026-08-29T12:21:49.230Z"
+    },
+    {
+      "id": "act-d4534bb4",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-08-29T12:21:44.134Z"
+    },
     {
       "id": "act-5bd920d7",
       "type": "visitor",
@@ -14013,194 +13740,12 @@
       "type": "visitor",
       "message": "Visitor opened blog-what-makes-a-great-website-2026",
       "createdAt": "2026-08-24T05:22:23.971Z"
-    },
-    {
-      "id": "act-4c53e454",
-      "type": "visitor",
-      "message": "Visitor opened blog-what-makes-a-great-website-2026",
-      "createdAt": "2026-08-24T05:22:22.469Z"
-    },
-    {
-      "id": "act-1c52ba40",
-      "type": "visitor",
-      "message": "Visitor opened blog-what-makes-a-great-website-2026",
-      "createdAt": "2026-08-24T05:22:19.582Z"
-    },
-    {
-      "id": "act-04b54f65",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T05:22:15.761Z"
-    },
-    {
-      "id": "act-614bb502",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:21:56.172Z"
-    },
-    {
-      "id": "act-46b2ef46",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:21:33.278Z"
-    },
-    {
-      "id": "act-9372812b",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:21:13.832Z"
-    },
-    {
-      "id": "act-352e9f2d",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:19:23.217Z"
-    },
-    {
-      "id": "act-63f099fa",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:19:21.563Z"
-    },
-    {
-      "id": "act-f954f1f5",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T05:18:09.061Z"
-    },
-    {
-      "id": "act-aa8c5b4a",
-      "type": "visitor",
-      "message": "Visitor opened high-converting-landing-page-2026",
-      "createdAt": "2026-08-24T05:17:50.227Z"
-    },
-    {
-      "id": "act-a290b459",
-      "type": "visitor",
-      "message": "Video replay captured for high-converting-landing-page-2026",
-      "createdAt": "2026-08-24T05:17:50.036Z"
-    },
-    {
-      "id": "act-63827560",
-      "type": "visitor",
-      "message": "Visitor opened high-converting-landing-page-2026",
-      "createdAt": "2026-08-24T05:17:47.166Z"
-    },
-    {
-      "id": "act-6e722d4e",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-24T05:17:47.042Z"
-    },
-    {
-      "id": "act-961fc12a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T05:17:34.571Z"
-    },
-    {
-      "id": "act-7cace5fc",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T05:17:21.484Z"
-    },
-    {
-      "id": "act-3037dca6",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:21.244Z"
-    },
-    {
-      "id": "act-36e5dfea",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:20.526Z"
-    },
-    {
-      "id": "act-0aa61e47",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:20.352Z"
-    },
-    {
-      "id": "act-d8eca194",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:16.292Z"
-    },
-    {
-      "id": "act-378307e3",
-      "type": "visitor",
-      "message": "Video replay captured for ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:16.109Z"
-    },
-    {
-      "id": "act-3e3dec65",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:14.112Z"
-    },
-    {
-      "id": "act-00e2cbbd",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:06.458Z"
-    },
-    {
-      "id": "act-4b74f981",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:17:03.711Z"
-    },
-    {
-      "id": "act-c76bc151",
-      "type": "visitor",
-      "message": "Visitor opened index.html",
-      "createdAt": "2026-08-24T05:16:59.207Z"
-    },
-    {
-      "id": "act-69ec41ab",
-      "type": "visitor",
-      "message": "Visitor opened index.html",
-      "createdAt": "2026-08-24T05:16:51.847Z"
-    },
-    {
-      "id": "act-a9933a75",
-      "type": "visitor",
-      "message": "Visitor opened index.html",
-      "createdAt": "2026-08-24T05:16:50.466Z"
-    },
-    {
-      "id": "act-f5159a7a",
-      "type": "visitor",
-      "message": "Visitor opened blog-what-makes-a-great-website-2026",
-      "createdAt": "2026-08-24T05:16:47.903Z"
-    },
-    {
-      "id": "act-38f1a570",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-24T05:16:28.422Z"
-    },
-    {
-      "id": "act-8aee068f",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:15:24.135Z"
-    },
-    {
-      "id": "act-03320589",
-      "type": "visitor",
-      "message": "Visitor opened ai-voice-assistant-form-fields",
-      "createdAt": "2026-08-24T05:13:55.901Z"
     }
   ],
   "blogViews": {
     "/pages/blogs/ai-voice-assistant-form-fields.html": {
       "count": 4,
-      "viewers": {
-        "e1ce8905adec3c62a21d9012c1a4d998aca0e0e79f430c54aa6434401352cae6": 1787661745943
-      }
+      "viewers": {}
     },
     "/pages/blogs/blog-what-makes-a-great-website-2026.html": {
       "count": 2,
@@ -14211,11 +13756,15 @@
       "viewers": {}
     },
     "/pages/blogs/ui-vs-ux-difference-guide.html": {
-      "count": 3,
+      "count": 4,
       "viewers": {
-        "a31dad1a70bcad88aced9cb855eddff4c629ef21c837df453baecdfa2beb58c7": 1787653222047,
-        "6f83e016c3e1769f22814d9a6713a39d5018cf89ac58ad30097731802d0be5bd": 1787661570887,
-        "eeba262935edbd68dc83d320b200c0f0ba0b3c386c3e220f36dbf0dfcee9a9b9": 1787661729013
+        "eeba262935edbd68dc83d320b200c0f0ba0b3c386c3e220f36dbf0dfcee9a9b9": 1788006841977
+      }
+    },
+    "/pages/blogs/top-ui-ux-design-trends-2026.html": {
+      "count": 1,
+      "viewers": {
+        "ce14199297982b61e310bd6ed06fbba340bf388a3d11361236fe538ddaccd781": 1788006686228
       }
     }
   }
