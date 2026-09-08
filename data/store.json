@@ -477,6 +477,24 @@
               ]
             },
             {
+              "id": "blog-gestalt-principles-in-modern-interface-design-8-laws-for-clearer-ux-webx-design-studio",
+              "title": "Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio",
+              "image": "/assets/images/blogs/gestalt-ui-design-thumbnail.png",
+              "imageAlt": "Modern interface system showing visual grouping and hierarchy",
+              "dateLabel": "Date: 08 Sept 26",
+              "dateValue": "2026-09-08",
+              "excerpt": "Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.",
+              "url": "/pages/blogs/gestalt-principles-modern-interface-design.html",
+              "tags": [
+                "Gestalt principles in interface design",
+                "Gestalt laws UX",
+                "proximity in UI design",
+                "visual hierarchy UX",
+                "modern interface design principles",
+                "UI design psychology"
+              ]
+            },
+            {
               "id": "blog-heuristic-evaluation-methods-for-web-apps-a-practical-ux-review-framework-webx-design-studio",
               "title": "Heuristic Evaluation Methods for Web Apps: A Practical UX Review Framework | Webx Design Studio",
               "image": "/assets/images/blogs/heuristic-evaluation-methods-web-apps.png",
@@ -827,7 +845,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.952Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1027,7 +1045,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.952Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1227,7 +1245,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.952Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1427,7 +1445,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.953Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1627,7 +1645,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.953Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1827,7 +1845,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-02T06:16:53.229Z"
+          "updatedAt": "2026-09-08T05:17:40.953Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2027,7 +2045,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-02T06:16:53.230Z"
+          "updatedAt": "2026-09-08T05:17:40.953Z"
         }
       ]
     },
@@ -2548,7 +2566,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.233Z"
+      "updatedAt": "2026-09-08T05:17:40.957Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2852,7 +2870,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.234Z"
+      "updatedAt": "2026-09-08T05:17:40.961Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -2983,7 +3001,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.238Z"
+      "updatedAt": "2026-09-08T05:17:40.965Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3114,7 +3132,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.238Z"
+      "updatedAt": "2026-09-08T05:17:40.966Z"
     },
     "about": {
       "editorType": "generic",
@@ -3307,7 +3325,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.239Z"
+      "updatedAt": "2026-09-08T05:17:40.967Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3430,7 +3448,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.240Z"
+      "updatedAt": "2026-09-08T05:17:40.968Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3561,7 +3579,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.241Z"
+      "updatedAt": "2026-09-08T05:17:40.968Z"
     },
     "services": {
       "editorType": "generic",
@@ -3758,7 +3776,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.245Z"
+      "updatedAt": "2026-09-08T05:17:40.970Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3903,7 +3921,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.246Z"
+      "updatedAt": "2026-09-08T05:17:40.970Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4048,7 +4066,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.246Z"
+      "updatedAt": "2026-09-08T05:17:40.971Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4913,7 +4931,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.231Z"
+      "updatedAt": "2026-09-08T05:17:40.955Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5108,7 +5126,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.236Z"
+      "updatedAt": "2026-09-08T05:17:40.963Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5303,7 +5321,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-02T06:16:53.237Z"
+      "updatedAt": "2026-09-08T05:17:40.965Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -6074,6 +6092,217 @@
         }
       ],
       "updatedAt": "2026-09-02T04:57:25.924Z"
+    },
+    "gestalt-principles-modern-interface-design": {
+      "editorType": "generic",
+      "path": "/pages/blogs/gestalt-principles-modern-interface-design.html",
+      "title": "Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio",
+      "meta": "Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.",
+      "displayName": "Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\r\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\r\n  <meta charset=\"UTF-8\" />\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n  <title>Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio</title>\r\n  <meta name=\"description\" content=\"Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.\" />\r\n  <meta name=\"robots\" content=\"index, follow\" />\r\n  <meta name=\"author\" content=\"Webx Design Studio\" />\r\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\r\n  <meta name=\"keywords\" content=\"Gestalt principles in interface design, Gestalt laws UX, proximity in UI design, visual hierarchy UX, modern interface design principles, UI design psychology\" />\r\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/gestalt-principles-modern-interface-design.html\" />\r\n  <meta property=\"og:type\" content=\"article\" />\r\n  <meta property=\"og:title\" content=\"Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX\" />\r\n  <meta property=\"og:description\" content=\"A practical guide to using Gestalt psychology to create interfaces people can scan, understand, and trust.\" />\r\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/gestalt-principles-modern-interface-design.html\" />\r\n    <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/gestalt-ui-design-thumbnail.png\" />\r\n  <meta property=\"og:image:width\" content=\"1200\" />\r\n  <meta property=\"og:image:height\" content=\"630\" />\r\n  <meta property=\"og:image:alt\" content=\"Modern interface system showing visual grouping and hierarchy\" />\r\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\r\n  <meta property=\"og:locale\" content=\"en_IN\" />\r\n  <meta property=\"article:published_time\" content=\"2026-09-08\" />\r\n  <meta property=\"article:modified_time\" content=\"2026-09-08\" />\r\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\r\n  <meta property=\"article:section\" content=\"UX/UI Design\" />\r\n  <meta property=\"article:tag\" content=\"Gestalt principles\" />\r\n  <meta property=\"article:tag\" content=\"interface design\" />\r\n  <meta property=\"article:tag\" content=\"visual hierarchy\" />\r\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n  <meta name=\"twitter:title\" content=\"Gestalt Principles in Modern Interface Design\" />\r\n  <meta name=\"twitter:description\" content=\"Use eight practical Gestalt laws to make modern interfaces clearer and easier to scan.\" />\r\n    <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/gestalt-ui-design-thumbnail.png\" />\r\n  <meta name=\"twitter:image:alt\" content=\"Modern interface system showing visual grouping and hierarchy\" />\r\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\r\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\r\n  <link rel=\"manifest\" href=\"/manifest.json\" />\r\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\r\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\r\n    <link rel=\"preload\" href=\"/assets/images/blogs/gestalt-ui-design-thumbnail.png\" as=\"image\" />\r\n  <script type=\"application/ld+json\">\r\n    {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX\",\"description\":\"Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.\",\"image\":[\"https://webxds.com/assets/images/blogs/gestalt-ui-design-thumbnail.png\",\"https://webxds.com/assets/images/blogs/gestalt-proximity-ui.png\",\"https://webxds.com/assets/images/blogs/gestalt-figure-ground-ui.png\",\"https://webxds.com/assets/images/blogs/gestalt-figure-ground-ui-1.png\",\"https://webxds.com/assets/images/blogs/gestalt-continuity-ui.png\"],\"url\":\"https://webxds.com/pages/blogs/gestalt-principles-modern-interface-design.html\",\"datePublished\":\"2026-09-08\",\"dateModified\":\"2026-09-08\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"Gestalt principles in interface design\",\"Gestalt laws UX\",\"proximity in UI design\",\"visual hierarchy UX\",\"modern interface design principles\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/gestalt-principles-modern-interface-design.html\"}}\r\n  </script>\r\n  <script type=\"application/ld+json\">\r\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Gestalt Principles in Modern Interface Design\",\"item\":\"https://webxds.com/pages/blogs/gestalt-principles-modern-interface-design.html\"}]}\r\n  </script>\r\n  <script type=\"application/ld+json\">\r\n  {\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What are Gestalt principles in UI design?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Gestalt principles are visual perception laws that explain how people naturally group, separate, and interpret interface elements. Designers use them to create clear hierarchy and predictable relationships.\"}},{\"@type\":\"Question\",\"name\":\"Which Gestalt principle is most useful in interface design?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Proximity is often the fastest place to start because spacing tells users which labels, controls, and content belong together. Strong interfaces combine it with similarity, figure-ground, and common region.\"}},{\"@type\":\"Question\",\"name\":\"Are Gestalt principles still relevant for modern apps?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. They apply to dashboards, mobile flows, AI interfaces, design systems, and responsive layouts because they describe how people make sense of visual relationships, not a particular visual style.\"}}]}\r\n  </script>\r\n</head>\r\n<body>",
+      "templateEnd": "</body>\r\n</html>\r\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif;\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-4f84c5b7"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-a9e5449e"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-ab8a2fd6"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-f6c96c47"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-1d741eb5"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-3017161a"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-1e7ab3d2"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br />experiences<br />together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "gestalt-principles-modern-interface-design-section-23646a20"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err);});});}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "gestalt-principles-modern-interface-design-section-4f84c5b7",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\r\n    <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\r\n      <nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav>\r\n    </section>\r\n  </header>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-a9e5449e",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Gestalt Principles in Modern Interface Design</span></nav></div></section>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-ab8a2fd6",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/gestalt-ui-design-thumbnail.png\" alt=\"Gestalt principles in modern interface design with visual grouping and hierarchy\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-f6c96c47",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\r\n      <header class=\"blog-header\">\r\n        <h1 class=\"blog-title\">Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX</h1>\r\n        <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">Gestalt principles</span><span class=\"blog-tag\">interface design</span><span class=\"blog-tag\">visual hierarchy</span><span class=\"blog-tag\">UX psychology</span></div><time class=\"blog-date\" datetime=\"2026-09-08\">Date: 08 Sep 26</time></div>\r\n        <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/gestalt-principles-modern-interface-design.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">Loading views...</span></p>\r\n        <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\r\n      </header>\r\n    <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\r\n        <meta itemprop=\"headline\" content=\"Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX\" />\r\n        <meta itemprop=\"datePublished\" content=\"2026-09-08\" />\r\n        <p class=\"blog-intro\">A modern interface can contain excellent components and still feel confusing. The problem is\r\n            often not the individual button, card, or illustration. It is the relationship between them.</p>\r\n        <p class=\"blog-intro\">Gestalt principles give designers a practical language for those relationships. They explain\r\n            how people group information, notice contrast, complete patterns, and follow visual paths before they\r\n            consciously read every word.</p>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"what-gestalt-means\">\r\n            <h2 class=\"section-heading\" id=\"what-gestalt-means\">What Gestalt Means for Interface Design</h2>\r\n            <p class=\"section-text\">Gestalt psychology is built around a simple observation: people perceive organised\r\n                wholes, not isolated visual fragments. In a product interface, that means spacing, alignment, colour, shape,\r\n                and order all communicate before copy does.</p>\r\n            <p class=\"section-text\">These principles are not decoration rules. They help users answer useful questions\r\n                quickly: what belongs together, what can I click, what is most important, and where does this flow continue?\r\n            </p>\r\n        </section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/gestalt-figure-ground-ui.png\"\r\n                alt=\"Interface review framework showing grouped controls and visual relationships\" width=\"1536\"\r\n                height=\"1024\" loading=\"lazy\" />\r\n            <figcaption>Good interface hierarchy makes relationships visible before a user has to study the screen.\r\n            </figcaption>\r\n        </figure>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"proximity\">\r\n            <h2 class=\"section-heading\" id=\"proximity\">1. Proximity: Space Tells Users What Belongs Together</h2>\r\n            <p class=\"section-text\">Elements placed close together are usually read as a group. A form label near its input\r\n                feels connected; a heading with tight supporting text feels like one content unit. When unrelated items\r\n                share the same spacing, the interface becomes harder to scan.</p>\r\n            <ul class=\"section-list\">\r\n                <li>Keep labels visually closer to the controls they describe.</li>\r\n                <li>Use larger gaps between sections than between items inside a section.</li>\r\n                <li>Give a card enough internal rhythm that its content reads as one object.</li>\r\n                <li>Check mobile layouts separately because narrow screens amplify spacing mistakes.</li>\r\n            </ul>\r\n        </section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/gestalt-proximity-ui.png\"\r\n                alt=\"Accessible interface controls arranged into clear visual groups\" width=\"1724\" height=\"930\"\r\n                loading=\"lazy\" />\r\n            <figcaption>Spacing is part of the information architecture: clear groups help people move through a screen with\r\n                less effort.</figcaption>\r\n        </figure>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"similarity\">\r\n            <h2 class=\"section-heading\" id=\"similarity\">2. Similarity: Shared Appearance Signals Shared Function</h2>\r\n            <p class=\"section-text\">When controls share colour, shape, typography, or behaviour, people expect them to have\r\n                a related role. A design system depends on this principle: primary actions should look like primary actions\r\n                wherever they appear.</p>\r\n            <p class=\"section-text\">Similarity is powerful, so use it deliberately. If every element is highlighted, nothing\r\n                has priority. Reserve strong emphasis for actions and states that genuinely deserve attention.</p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"figure-ground\">\r\n            <h2 class=\"section-heading\" id=\"figure-ground\">3. Figure-Ground: Make the Important Layer Stand Out</h2>\r\n            <p class=\"section-text\">Figure-ground helps people separate the thing they need to act on from its surroundings.\r\n                Contrast, scale, whitespace, and surface treatment can bring a dialog, task, or key result forward without\r\n                turning the entire screen into noise.</p>\r\n            <p class=\"section-text\">This is especially important in dashboards and AI-assisted workflows. Users need to know\r\n                what is active, what is background context, and what will change if they continue.</p>\r\n        </section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/gestalt-figure-ground-ui-1.png\"\r\n                alt=\"Dark interface with a focused central product surface and supporting controls\" width=\"1724\"\r\n                height=\"930\" loading=\"lazy\" />\r\n            <figcaption>Figure-ground creates focus: one active task can lead while supporting controls remain available but\r\n                quieter.</figcaption>\r\n        </figure>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"common-region\">\r\n            <h2 class=\"section-heading\" id=\"common-region\">4. Common Region: A Boundary Creates Belonging</h2>\r\n            <p class=\"section-text\">A background, border, or container can signal that several elements belong to the same\r\n                task. Common region is useful for filters, billing summaries, settings groups, and multi-step panels where\r\n                the relationship needs to remain clear even when the content is dense.</p>\r\n            <p class=\"section-text\">Use containers to explain structure, not to decorate every sentence. Too many nested\r\n                surfaces flatten the hierarchy and make the user work harder to find the main action.</p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"continuity\">\r\n            <h2 class=\"section-heading\" id=\"continuity\">5. Continuity: Lead the Eye Through a Flow</h2>\r\n            <p class=\"section-text\">People tend to follow aligned edges, lines, sequences, and directional cues. Consistent\r\n                columns, step indicators, connected navigation, and progressive disclosure all use continuity to make the\r\n                next move feel natural.</p>\r\n            <ol class=\"section-list\">\r\n                <li>Align related content along a shared edge.</li>\r\n                <li>Use a clear visual order for multi-step tasks.</li>\r\n                <li>Keep repeated navigation in a stable location.</li>\r\n                <li>Let transitions preserve the relationship between a previous and next state.</li>\r\n            </ol>\r\n        </section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/gestalt-continuity-ui.png\"\r\n                alt=\"Responsive design system showing a consistent interface flow across devices\" width=\"1536\" height=\"1024\"\r\n                loading=\"lazy\" />\r\n            <figcaption>Continuity keeps a flexible system understandable across breakpoints, devices, and states.\r\n            </figcaption>\r\n        </figure>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"closure\">\r\n            <h2 class=\"section-heading\" id=\"closure\">6. Closure: Let People Complete the Pattern</h2>\r\n            <p class=\"section-text\">Closure describes our tendency to perceive a complete shape even when part of it is\r\n                missing. In UI, subtle cues can help people understand a carousel, progress indicator, cropped card, or icon\r\n                without adding extra explanation.</p>\r\n            <p class=\"section-text\">Closure should support recognition, never hide essential information. Do not crop\r\n                labels, obscure critical actions, or rely on a clever visual where a plain explanation is safer.</p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"focal-point\">\r\n            <h2 class=\"section-heading\" id=\"focal-point\">7. Focal Point: Use Emphasis with Intent</h2>\r\n            <p class=\"section-text\">A strong contrast, unusual shape, bright accent, or isolated element attracts attention.\r\n                Focal points help users find the primary action and understand the intended starting point, especially on a\r\n                busy screen.</p>\r\n            <p class=\"section-text\">A useful test is to blur the page or squint at it. If the eye jumps between several\r\n                equally loud areas, simplify the emphasis before adding more copy.</p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"experience\">\r\n            <h2 class=\"section-heading\" id=\"experience\">8. Common Fate and Shared Motion: Show What Changes Together</h2>\r\n            <p class=\"section-text\">Elements that move in the same direction or change at the same time are perceived as\r\n                related. This can make filtering, sorting, drag-and-drop, and responsive transitions easier to understand.\r\n            </p>\r\n            <p class=\"section-text\">Motion should remain purposeful and accessible. Keep it short, preserve context, and\r\n                respect reduced-motion preferences. The goal is to explain a relationship, not to perform a visual trick.\r\n            </p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"design-system\">\r\n            <h2 class=\"section-heading\" id=\"design-system\">Turn Gestalt Principles into Design-System Rules</h2>\r\n            <p class=\"section-text\">The most useful way to apply Gestalt is to translate it into repeatable decisions your\r\n                team can inspect. Document spacing relationships, surface levels, emphasis tokens, alignment rules, and\r\n                responsive behaviour alongside components.</p>\r\n            <ul class=\"section-list\">\r\n                <li>Define spacing tokens for label-to-control, item-to-item, and section-to-section relationships.</li>\r\n                <li>Document which colours mean action, selection, status, and decoration.</li>\r\n                <li>Use component anatomy to keep headings, descriptions, controls, and feedback connected.</li>\r\n                <li>Review empty, loading, error, and success states with the same visual principles.</li>\r\n                <li>Test the system on real content instead of only tidy placeholder text.</li>\r\n            </ul>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"audit\">\r\n            <h2 class=\"section-heading\" id=\"audit\">A Practical Gestalt Audit for Any Screen</h2>\r\n            <p class=\"section-text\">Before shipping a page, ask five quick questions:</p>\r\n            <ol class=\"section-list\">\r\n                <li>Can I tell which elements belong together without reading every word?</li>\r\n                <li>Do elements that look similar behave similarly?</li>\r\n                <li>Is the primary task visually distinct from background context?</li>\r\n                <li>Does alignment guide the eye toward the next useful step?</li>\r\n                <li>Does the interface still make sense with real content, zoom, and smaller screens?</li>\r\n            </ol>\r\n            <p class=\"section-text\">Pair this visual audit with usability testing and accessibility checks. Gestalt\r\n                principles explain likely perception, but real users reveal whether the experience actually supports their\r\n                goals.</p>\r\n        </section>\r\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\">\r\n            <h2 class=\"section-heading\" id=\"final-thoughts\">Final Thoughts</h2>\r\n            <p class=\"section-text\">Gestalt principles remain relevant because modern interfaces still ask people to\r\n                interpret relationships. Whether the product is a mobile app, an analytics dashboard, or an AI workflow,\r\n                clarity comes from making structure visible.</p>\r\n            <p class=\"section-text\">Start with proximity and similarity, strengthen figure-ground and continuity, then\r\n                inspect the quieter details such as closure, focal points, and shared motion. The result is not just a\r\n                better-looking interface. It is a product people can understand with less hesitation.</p>\r\n        </section>\r\n    </article>\r\n    </div></section>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-1d741eb5",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"gestalt-principles-modern-interface-design\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-3017161a",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Want a clearer interface for your product?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-1e7ab3d2",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Brand Identity</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About</a><a href=\"/pages/main/work.html\">Our Work</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/faq.html\">FAQ</a><a href=\"/pages/main/contact-page.html\">Contact</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Legal<button class=\"footer-toggle\" aria-label=\"Toggle Legal menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a></div></div></div></footer>"
+        },
+        {
+          "id": "gestalt-principles-modern-interface-design-section-23646a20",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" /><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" /></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-08T05:04:27.811Z"
     }
   },
   "services": [],
@@ -6309,6 +6538,546 @@
   ],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-0d42c84f1154a1a07f7358cd",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:40.971Z",
+        "lastSeenAt": "2026-09-08T05:17:40.971Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/heuristic-evaluation-methods-for-web-apps",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1a5762f6dadcb1a07f73426c",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:35.247Z",
+        "lastSeenAt": "2026-09-08T05:17:40.827Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b87af07defc7581a07f733d66",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:33.953Z",
+        "lastSeenAt": "2026-09-08T05:17:33.953Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-648bae2cd1a31a07f73326b",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:31.143Z",
+        "lastSeenAt": "2026-09-08T05:17:33.847Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/heuristic-evaluation-methods-for-web-apps",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f7642c79617851a07f73291c",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:28.760Z",
+        "lastSeenAt": "2026-09-08T05:17:30.999Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-51ca21f713ccc81a07f730aa0",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:17:20.946Z",
+        "lastSeenAt": "2026-09-08T05:17:20.946Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-64be116b9c9061a07f71849a",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:15:41.102Z",
+        "lastSeenAt": "2026-09-08T05:17:11.358Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 5,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f32cfdd705fa91a07f718388",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:15:40.829Z",
+        "lastSeenAt": "2026-09-08T05:15:40.829Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-781fce529fb331a07f71790a",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:15:38.138Z",
+        "lastSeenAt": "2026-09-08T05:15:38.138Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3481fa93f67ce1a07f71778e",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:15:37.758Z",
+        "lastSeenAt": "2026-09-08T05:15:37.758Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-157359876e2dd81a07f701a39",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:14:08.341Z",
+        "lastSeenAt": "2026-09-08T05:15:24.063Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 75,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-fd87cccc9ed981a07f701254",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:14:06.318Z",
+        "lastSeenAt": "2026-09-08T05:14:06.318Z",
+        "currentPage": "heuristic-evaluation-methods-for-web-apps",
+        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6cad6a57c5ed781a07f700a7a",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:14:04.307Z",
+        "lastSeenAt": "2026-09-08T05:14:06.244Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e5ba5779c0ced1a07f6ffd12",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:14:00.875Z",
+        "lastSeenAt": "2026-09-08T05:14:04.241Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1c43d702494991a07f6ff2b0",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:13:58.218Z",
+        "lastSeenAt": "2026-09-08T05:13:58.218Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ef4975637042381a07f6fe830",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:13:55.531Z",
+        "lastSeenAt": "2026-09-08T05:13:58.131Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8dbad7cec2a221a07f6fd8e4",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:13:51.617Z",
+        "lastSeenAt": "2026-09-08T05:13:55.438Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-dbb449d2bc28d1a07f6f9e80",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:13:36.686Z",
+        "lastSeenAt": "2026-09-08T05:13:51.422Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-21f9dabe8d1f881a07f6ccb22",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:10:31.598Z",
+        "lastSeenAt": "2026-09-08T05:13:33.377Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 7,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b369c1428d7c481a07f6cbd4c",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:10:27.937Z",
+        "lastSeenAt": "2026-09-08T05:10:31.330Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/about",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8bd2d6f535a7f81a07f699a72",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:07:02.457Z",
+        "lastSeenAt": "2026-09-08T05:10:27.722Z",
+        "currentPage": "about",
+        "path": "/about",
+        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 8,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0d7b741640bad81a07f68d147",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:06:10.918Z",
+        "lastSeenAt": "2026-09-08T05:07:02.261Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1205x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 45,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-36bd87752d8c181a07f67d97d",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:05:07.483Z",
+        "lastSeenAt": "2026-09-08T05:06:07.516Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 51,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-624b8d833c53e1a07f67bc34",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:04:59.995Z",
+        "lastSeenAt": "2026-09-08T05:05:07.397Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-7c356a08a4fc281a07f67610f",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:04:36.652Z",
+        "lastSeenAt": "2026-09-08T05:04:59.827Z",
+        "currentPage": "gestalt-principles-modern-interface-design",
+        "path": "/blogs/gestalt-principles-modern-interface-design",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 85,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-679111bf300311a07f674e6a",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:04:31.878Z",
+        "lastSeenAt": "2026-09-08T05:04:36.466Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-67670988abcfe81a07f673e67",
+        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
+        "createdAt": "2026-09-08T05:04:27.812Z",
+        "lastSeenAt": "2026-09-08T05:04:31.766Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-f0ce6a684474881a060bc4b97",
         "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
@@ -7468,369 +8237,207 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.135.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-c5d83c31d016c81a04d89325b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:40:32.128Z",
-        "lastSeenAt": "2026-08-29T12:43:17.939Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 165,
-        "scrollDepth": 67,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-dfcd3ff8be2be81a04d892f43",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:40:31.385Z",
-        "lastSeenAt": "2026-08-29T12:40:31.821Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-142b5a967c69781a04d83e971",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:45.772Z",
-        "lastSeenAt": "2026-08-29T12:40:31.116Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 210,
-        "scrollDepth": 100,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1de2d159d913781a04d838b58",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:21.689Z",
-        "lastSeenAt": "2026-08-29T12:34:45.708Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 64,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4c8f5a7d7f31a04d836d53",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:13.998Z",
-        "lastSeenAt": "2026-08-29T12:34:16.023Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3000/blogs/ui-vs-ux-difference-guide",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3ccfcf0b208ee1a04d833d90",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:01.775Z",
-        "lastSeenAt": "2026-08-29T12:34:16.807Z",
-        "currentPage": "ui-vs-ux-difference-guide",
-        "path": "/blogs/ui-vs-ux-difference-guide",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 82,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b1384af47891f81a04d832dba",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:57.721Z",
-        "lastSeenAt": "2026-08-29T12:34:17.710Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 65,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-55668382138811a04d83216a",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:54.582Z",
-        "lastSeenAt": "2026-08-29T12:33:57.409Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-25eae0894b011a04d8315e7",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:51.619Z",
-        "lastSeenAt": "2026-08-29T12:33:53.573Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-93717b20c061281a04d8304c5",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:47.241Z",
-        "lastSeenAt": "2026-08-29T12:33:51.517Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 4,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b5974aa9c34f11a04d83023e",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:46.589Z",
-        "lastSeenAt": "2026-08-29T12:33:46.589Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e6026e219af7f81a04d82f8d1",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:44.173Z",
-        "lastSeenAt": "2026-08-29T12:33:46.201Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 2,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-02a01e8aa45bd1a04d827eb4",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:12.914Z",
-        "lastSeenAt": "2026-08-29T12:33:43.827Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 31,
-        "scrollDepth": 62,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2a2a22290357481a04d80dd57",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:31:26.074Z",
-        "lastSeenAt": "2026-08-29T12:33:12.745Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 105,
-        "scrollDepth": 90,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-7f54f077e353481a04d80b707",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:31:16.262Z",
-        "lastSeenAt": "2026-08-29T12:31:25.901Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f5b4a261d86f781a04d7ab22f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:24:41.807Z",
-        "lastSeenAt": "2026-08-29T12:31:13.925Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 165,
-        "scrollDepth": 7,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-55ccde3ee130681a04d781061",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:21:49.322Z",
-        "lastSeenAt": "2026-08-29T12:24:34.934Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 165,
-        "scrollDepth": 37,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3f1d121563ad581a04d77fc1d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:21:44.133Z",
-        "lastSeenAt": "2026-08-29T12:21:49.186Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 5,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-9225d478",
+        "sessionId": "sess-1a5762f6dadcb1a07f73426c",
+        "page": "heuristic-evaluation-methods-for-web-apps",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-08T05:17:40.827Z"
+      },
+      {
+        "id": "evt-c32887cf",
+        "sessionId": "sess-648bae2cd1a31a07f73326b",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:17:33.847Z"
+      },
+      {
+        "id": "evt-7f875872",
+        "sessionId": "sess-f7642c79617851a07f73291c",
+        "page": "heuristic-evaluation-methods-for-web-apps",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-08T05:17:30.999Z"
+      },
+      {
+        "id": "evt-871e4de8",
+        "sessionId": "sess-f7642c79617851a07f73291c",
+        "page": "heuristic-evaluation-methods-for-web-apps",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-08T05:17:29.716Z"
+      },
+      {
+        "id": "evt-366f60fc",
+        "sessionId": "sess-6cad6a57c5ed781a07f700a7a",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:14:06.244Z"
+      },
+      {
+        "id": "evt-55023340",
+        "sessionId": "sess-e5ba5779c0ced1a07f6ffd12",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-08T05:14:04.241Z"
+      },
+      {
+        "id": "evt-cbb9e09e",
+        "sessionId": "sess-e5ba5779c0ced1a07f6ffd12",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-08T05:14:03.042Z"
+      },
+      {
+        "id": "evt-915d5e1e",
+        "sessionId": "sess-ef4975637042381a07f6fe830",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:13:58.131Z"
+      },
+      {
+        "id": "evt-240b0014",
+        "sessionId": "sess-8dbad7cec2a221a07f6fd8e4",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-08T05:13:55.438Z"
+      },
+      {
+        "id": "evt-c1626d9b",
+        "sessionId": "sess-8dbad7cec2a221a07f6fd8e4",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-08T05:13:54.184Z"
+      },
+      {
+        "id": "evt-e83adab2",
+        "sessionId": "sess-dbb449d2bc28d1a07f6f9e80",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-08T05:13:51.422Z"
+      },
+      {
+        "id": "evt-590bca07",
+        "sessionId": "sess-b369c1428d7c481a07f6cbd4c",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:10:31.330Z"
+      },
+      {
+        "id": "evt-2273f044",
+        "sessionId": "sess-8bd2d6f535a7f81a07f699a72",
+        "page": "about",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-08T05:10:27.722Z"
+      },
+      {
+        "id": "evt-5bbbf16d",
+        "sessionId": "sess-8bd2d6f535a7f81a07f699a72",
+        "page": "about",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-08T05:10:26.838Z"
+      },
+      {
+        "id": "evt-605940b9",
+        "sessionId": "sess-0d7b741640bad81a07f68d147",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "About",
+        "createdAt": "2026-09-08T05:07:02.261Z"
+      },
+      {
+        "id": "evt-d5c0b18d",
+        "sessionId": "sess-624b8d833c53e1a07f67bc34",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:05:07.397Z"
+      },
+      {
+        "id": "evt-435a8016",
+        "sessionId": "sess-7c356a08a4fc281a07f67610f",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-09-08T05:04:59.827Z"
+      },
+      {
+        "id": "evt-902ef1ce",
+        "sessionId": "sess-7c356a08a4fc281a07f67610f",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "button.cta-project-close",
+        "text": "×",
+        "createdAt": "2026-09-08T05:04:58.536Z"
+      },
+      {
+        "id": "evt-1fee2324",
+        "sessionId": "sess-7c356a08a4fc281a07f67610f",
+        "page": "gestalt-principles-modern-interface-design",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-09-08T05:04:57.448Z"
+      },
+      {
+        "id": "evt-5bf870be",
+        "sessionId": "sess-679111bf300311a07f674e6a",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-08T05:04:36.466Z"
+      },
+      {
+        "id": "evt-7864b6ed",
+        "sessionId": "sess-67670988abcfe81a07f673e67",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-08T05:04:31.766Z"
+      },
+      {
+        "id": "evt-14a06448",
+        "sessionId": "sess-67670988abcfe81a07f673e67",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-08T05:04:30.328Z"
+      },
       {
         "id": "evt-6c5ca33c",
         "sessionId": "sess-66a3866228b1c1a060bc3749",
@@ -12132,520 +12739,9 @@
         "target": "button.cta-project-button",
         "text": "CONTINUE",
         "createdAt": "2026-08-02T11:42:37.281Z"
-      },
-      {
-        "id": "evt-b6fe7dcb",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:42:36.098Z"
-      },
-      {
-        "id": "evt-022261bd",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:42:35.227Z"
-      },
-      {
-        "id": "evt-283d2133",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "Ã—",
-        "createdAt": "2026-08-02T11:42:34.327Z"
-      },
-      {
-        "id": "evt-02774936",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:42:33.243Z"
-      },
-      {
-        "id": "evt-a304aa00",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-close",
-        "text": "Ã—",
-        "createdAt": "2026-08-02T11:42:31.969Z"
-      },
-      {
-        "id": "evt-88fd08cc",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:39:48.069Z"
-      },
-      {
-        "id": "evt-3530b579",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:47.393Z"
-      },
-      {
-        "id": "evt-681644c2",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:39:46.787Z"
-      },
-      {
-        "id": "evt-43eb5671",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:45.987Z"
-      },
-      {
-        "id": "evt-a443d571",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:44.657Z"
-      },
-      {
-        "id": "evt-26e89d2f",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:39:44.149Z"
-      },
-      {
-        "id": "evt-5d8b5731",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:43.139Z"
-      },
-      {
-        "id": "evt-2e3014a0",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:39:42.597Z"
-      },
-      {
-        "id": "evt-50843eec",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:42.059Z"
-      },
-      {
-        "id": "evt-4a647219",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:39:41.332Z"
-      },
-      {
-        "id": "evt-8d1b5dd5",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:39.926Z"
-      },
-      {
-        "id": "evt-6cf20568",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:39:38.862Z"
-      },
-      {
-        "id": "evt-993130bc",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:38.168Z"
-      },
-      {
-        "id": "evt-72fd23d9",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:39:37.117Z"
-      },
-      {
-        "id": "evt-7a47784e",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:39:36.470Z"
-      },
-      {
-        "id": "evt-f8d54028",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:39:35.191Z"
-      },
-      {
-        "id": "evt-5d3260c8",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:39:34.177Z"
       }
     ],
-    "replays": [
-      {
-        "id": "replay-255db6db",
-        "sessionId": "sess-c5d83c31d016c81a04d89325b",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:40:52.717Z",
-        "updatedAt": "2026-08-29T12:40:52.717Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 20591,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-9664b4ec",
-            "index": 1,
-            "createdAt": "2026-08-29T12:40:52.717Z",
-            "durationMs": 20591,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 64965,
-            "file": "data/replays/sess-c5d83c31d016c81a04d89325b__part-001.webm",
-            "url": "/data/replays/sess-c5d83c31d016c81a04d89325b__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-c61ea1c4",
-        "sessionId": "sess-dfcd3ff8be2be81a04d892f43",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:40:31.821Z",
-        "updatedAt": "2026-08-29T12:40:31.821Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 476,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-4e1dad0b",
-            "index": 1,
-            "createdAt": "2026-08-29T12:40:31.821Z",
-            "durationMs": 476,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 110,
-            "file": "data/replays/sess-dfcd3ff8be2be81a04d892f43__part-001.webm",
-            "url": "/data/replays/sess-dfcd3ff8be2be81a04d892f43__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-23529c02",
-        "sessionId": "sess-1de2d159d913781a04d838b58",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:28.341Z",
-        "updatedAt": "2026-08-29T12:34:28.341Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 6667,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-98e24177",
-            "index": 1,
-            "createdAt": "2026-08-29T12:34:28.341Z",
-            "durationMs": 6667,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 5124,
-            "file": "data/replays/sess-1de2d159d913781a04d838b58__part-001.webm",
-            "url": "/data/replays/sess-1de2d159d913781a04d838b58__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-87628c27",
-        "sessionId": "sess-4c8f5a7d7f31a04d836d53",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:16.023Z",
-        "updatedAt": "2026-08-29T12:34:16.023Z",
-        "page": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2007,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-0309b279",
-            "index": 1,
-            "createdAt": "2026-08-29T12:34:16.023Z",
-            "durationMs": 2007,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 19264,
-            "file": "data/replays/sess-4c8f5a7d7f31a04d836d53__part-001.webm",
-            "url": "/data/replays/sess-4c8f5a7d7f31a04d836d53__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-2309c814",
-        "sessionId": "sess-b1384af47891f81a04d832dba",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:34:01.658Z",
-        "updatedAt": "2026-08-29T12:34:01.658Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 3887,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-7349dcd9",
-            "index": 1,
-            "createdAt": "2026-08-29T12:34:01.658Z",
-            "durationMs": 3887,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 4011,
-            "file": "data/replays/sess-b1384af47891f81a04d832dba__part-001.webm",
-            "url": "/data/replays/sess-b1384af47891f81a04d832dba__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-83fe523f",
-        "sessionId": "sess-55668382138811a04d83216a",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:57.409Z",
-        "updatedAt": "2026-08-29T12:33:57.409Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2836,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-51a32b8c",
-            "index": 1,
-            "createdAt": "2026-08-29T12:33:57.409Z",
-            "durationMs": 2836,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 2413,
-            "file": "data/replays/sess-55668382138811a04d83216a__part-001.webm",
-            "url": "/data/replays/sess-55668382138811a04d83216a__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-0bfc26db",
-        "sessionId": "sess-25eae0894b011a04d8315e7",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:53.573Z",
-        "updatedAt": "2026-08-29T12:33:53.573Z",
-        "page": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 1937,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-958a3814",
-            "index": 1,
-            "createdAt": "2026-08-29T12:33:53.573Z",
-            "durationMs": 1937,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 19264,
-            "file": "data/replays/sess-25eae0894b011a04d8315e7__part-001.webm",
-            "url": "/data/replays/sess-25eae0894b011a04d8315e7__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-5c20442c",
-        "sessionId": "sess-93717b20c061281a04d8304c5",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:51.517Z",
-        "updatedAt": "2026-08-29T12:33:51.517Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 4229,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-7c79f3a1",
-            "index": 1,
-            "createdAt": "2026-08-29T12:33:51.517Z",
-            "durationMs": 4229,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 2436,
-            "file": "data/replays/sess-93717b20c061281a04d8304c5__part-001.webm",
-            "url": "/data/replays/sess-93717b20c061281a04d8304c5__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-4a0fc639",
-        "sessionId": "sess-e6026e219af7f81a04d82f8d1",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:46.201Z",
-        "updatedAt": "2026-08-29T12:33:46.201Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 2025,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d127ffe6",
-            "index": 1,
-            "createdAt": "2026-08-29T12:33:46.201Z",
-            "durationMs": 2025,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 1258,
-            "file": "data/replays/sess-e6026e219af7f81a04d82f8d1__part-001.webm",
-            "url": "/data/replays/sess-e6026e219af7f81a04d82f8d1__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-97dec7ef",
-        "sessionId": "sess-02a01e8aa45bd1a04d827eb4",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:33:43.827Z",
-        "updatedAt": "2026-08-29T12:33:43.827Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 30911,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-d2e02206",
-            "index": 2,
-            "createdAt": "2026-08-29T12:33:43.827Z",
-            "durationMs": 30911,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 28570,
-            "file": "data/replays/sess-02a01e8aa45bd1a04d827eb4__part-002.webm",
-            "url": "/data/replays/sess-02a01e8aa45bd1a04d827eb4__part-002.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-dfb0ae4c",
-        "sessionId": "sess-f5b4a261d86f781a04d7ab22f",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:24:44.955Z",
-        "updatedAt": "2026-08-29T12:24:44.955Z",
-        "page": "blogs",
-        "path": "/blogs",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 3151,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-7774c617",
-            "index": 1,
-            "createdAt": "2026-08-29T12:24:44.955Z",
-            "durationMs": 3151,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 41114,
-            "file": "data/replays/sess-f5b4a261d86f781a04d7ab22f__part-001.webm",
-            "url": "/data/replays/sess-f5b4a261d86f781a04d7ab22f__part-001.webm"
-          }
-        ]
-      },
-      {
-        "id": "replay-b6a474d9",
-        "sessionId": "sess-3f1d121563ad581a04d77fc1d",
-        "visitorId": "0d0dc686-c900-485e-983c-ffd3e6e9d0d7",
-        "createdAt": "2026-08-29T12:21:49.186Z",
-        "updatedAt": "2026-08-29T12:21:49.186Z",
-        "page": "home",
-        "path": "/",
-        "ip": "1::*",
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-        "format": "video",
-        "durationMs": 5005,
-        "eventsCount": 0,
-        "parts": [
-          {
-            "id": "clip-a9fe67fe",
-            "index": 1,
-            "createdAt": "2026-08-29T12:21:49.186Z",
-            "durationMs": 5005,
-            "mimeType": "video/webm;codecs=vp9",
-            "bytes": 54423,
-            "file": "data/replays/sess-3f1d121563ad581a04d77fc1d__part-001.webm",
-            "url": "/data/replays/sess-3f1d121563ad581a04d77fc1d__part-001.webm"
-          }
-        ]
-      }
-    ]
+    "replays": []
   },
   "blogs": [
     {
@@ -12811,6 +12907,32 @@
       "sections": []
     },
     {
+      "id": "blog-gestalt-principles-in-modern-interface-design-8-laws-for-clearer-ux-webx-design-studio",
+      "title": "Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio",
+      "slug": "gestalt-principles-modern-interface-design",
+      "metaTitle": "Gestalt Principles in Modern Interface Design: 8 Laws for Clearer UX | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.",
+      "image": "/assets/images/blogs/gestalt-ui-design-thumbnail.png",
+      "imageAlt": "Modern interface system showing visual grouping and hierarchy",
+      "dateValue": "2026-09-08",
+      "dateLabel": "Date: 08 Sept 26",
+      "excerpt": "Learn how Gestalt principles such as proximity, similarity, closure, continuity, and figure-ground can make modern interfaces clearer, calmer, and easier to use.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "Gestalt principles in interface design",
+        "Gestalt laws UX",
+        "proximity in UI design",
+        "visual hierarchy UX",
+        "modern interface design principles",
+        "UI design psychology"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/gestalt-principles-modern-interface-design.html",
+      "sections": []
+    },
+    {
       "id": "blog-heuristic-evaluation-methods-for-web-apps-a-practical-ux-review-framework-webx-design-studio",
       "title": "Heuristic Evaluation Methods for Web Apps: A Practical UX Review Framework | Webx Design Studio",
       "slug": "heuristic-evaluation-methods-for-web-apps",
@@ -12938,6 +13060,168 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-82d7382f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-08T05:17:40.971Z"
+    },
+    {
+      "id": "act-281b0b19",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:17:35.247Z"
+    },
+    {
+      "id": "act-886b523f",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:17:33.953Z"
+    },
+    {
+      "id": "act-21d7e5f3",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-08T05:17:31.143Z"
+    },
+    {
+      "id": "act-1ee12f78",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:17:28.761Z"
+    },
+    {
+      "id": "act-8d8b3c73",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:17:20.947Z"
+    },
+    {
+      "id": "act-f860117a",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:15:41.102Z"
+    },
+    {
+      "id": "act-797e9fe7",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:15:40.829Z"
+    },
+    {
+      "id": "act-537f96a7",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:15:38.138Z"
+    },
+    {
+      "id": "act-d3f97cc5",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:15:37.758Z"
+    },
+    {
+      "id": "act-629da644",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:14:08.341Z"
+    },
+    {
+      "id": "act-2e9cc941",
+      "type": "visitor",
+      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
+      "createdAt": "2026-09-08T05:14:06.318Z"
+    },
+    {
+      "id": "act-8c9854cd",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-08T05:14:04.307Z"
+    },
+    {
+      "id": "act-eae36a0d",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:14:00.875Z"
+    },
+    {
+      "id": "act-c94c21b7",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:13:58.218Z"
+    },
+    {
+      "id": "act-a486f502",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-08T05:13:55.531Z"
+    },
+    {
+      "id": "act-83f2851f",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-08T05:13:51.617Z"
+    },
+    {
+      "id": "act-4ac0d265",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:13:36.686Z"
+    },
+    {
+      "id": "act-32ed945e",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:10:31.598Z"
+    },
+    {
+      "id": "act-ee6a98e1",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-08T05:10:27.937Z"
+    },
+    {
+      "id": "act-5dac7fec",
+      "type": "visitor",
+      "message": "Visitor opened about",
+      "createdAt": "2026-09-08T05:07:02.457Z"
+    },
+    {
+      "id": "act-7a6503f6",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:06:10.918Z"
+    },
+    {
+      "id": "act-66ae43c4",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:05:07.483Z"
+    },
+    {
+      "id": "act-14215a80",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-08T05:04:59.995Z"
+    },
+    {
+      "id": "act-8f3ab59e",
+      "type": "visitor",
+      "message": "Visitor opened gestalt-principles-modern-interface-design",
+      "createdAt": "2026-09-08T05:04:36.652Z"
+    },
+    {
+      "id": "act-f4949175",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-08T05:04:31.878Z"
+    },
+    {
+      "id": "act-9b830bf8",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-08T05:04:27.812Z"
+    },
     {
       "id": "act-3c55ad7a",
       "type": "visitor",
@@ -13135,168 +13419,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-02T05:55:27.522Z"
-    },
-    {
-      "id": "act-0235ca1a",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:55:25.404Z"
-    },
-    {
-      "id": "act-5f891980",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:54:28.781Z"
-    },
-    {
-      "id": "act-185219d3",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:49.247Z"
-    },
-    {
-      "id": "act-192a2db9",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:47.824Z"
-    },
-    {
-      "id": "act-ac0c5805",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:28.044Z"
-    },
-    {
-      "id": "act-a5409a0d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:24.670Z"
-    },
-    {
-      "id": "act-0c4cb015",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:24.268Z"
-    },
-    {
-      "id": "act-60e358b2",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:22.267Z"
-    },
-    {
-      "id": "act-b17f08e3",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:53:16.289Z"
-    },
-    {
-      "id": "act-f627c8a7",
-      "type": "visitor",
-      "message": "Visitor opened top-ui-ux-design-trends-2026",
-      "createdAt": "2026-09-02T05:53:14.399Z"
-    },
-    {
-      "id": "act-b71c3c31",
-      "type": "visitor",
-      "message": "Visitor opened top-ui-ux-design-trends-2026",
-      "createdAt": "2026-09-02T05:53:07.585Z"
-    },
-    {
-      "id": "act-3f0ae7d6",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:52:54.033Z"
-    },
-    {
-      "id": "act-04bf92bb",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:50:10.805Z"
-    },
-    {
-      "id": "act-eb624df9",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:50:07.496Z"
-    },
-    {
-      "id": "act-c325f5b0",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:50:04.028Z"
-    },
-    {
-      "id": "act-be047de9",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:50:01.186Z"
-    },
-    {
-      "id": "act-cf646594",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:49:49.435Z"
-    },
-    {
-      "id": "act-f6d1ad5e",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:47:51.380Z"
-    },
-    {
-      "id": "act-a771d91f",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:47:50.760Z"
-    },
-    {
-      "id": "act-2c120a30",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:47:20.693Z"
-    },
-    {
-      "id": "act-bf810120",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:04:12.457Z"
-    },
-    {
-      "id": "act-f5031f03",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:03:59.038Z"
-    },
-    {
-      "id": "act-6a6da118",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T05:01:24.461Z"
-    },
-    {
-      "id": "act-a4036fda",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:00:13.192Z"
-    },
-    {
-      "id": "act-a9edf42b",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T04:57:25.925Z"
-    },
-    {
-      "id": "act-5bbb5e06",
-      "type": "visitor",
-      "message": "Video replay captured for home",
-      "createdAt": "2026-08-29T12:40:52.747Z"
-    },
-    {
-      "id": "act-9f15bf6e",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-08-29T12:40:32.128Z"
     }
   ],
   "blogViews": {
@@ -13318,16 +13440,18 @@
     },
     "/pages/blogs/top-ui-ux-design-trends-2026.html": {
       "count": 2,
-      "viewers": {
-        "eb7a8cc8871edd91a861f000ab7a5d374fcb57a802ead7e5eed876036d99872f": 1788328387702
-      }
+      "viewers": {}
     },
     "/pages/blogs/heuristic-evaluation-methods-for-web-apps.html": {
-      "count": 3,
+      "count": 4,
       "viewers": {
-        "6e3b1a2af398e90a1360d753f7370d4dee4e4c19dadda70aafec568342c8a85f": 1788325046012,
-        "8a8d455f17f9336df38ca606e3d1f63b00a888e7624eb9118b6f1efde9a93ef3": 1788325284582,
-        "87c04949dbe572902657756838fc295be7e2bebc4dc4d881ffb06fc325101927": 1788325452614
+        "5998ef46981193a88088d650cb29ef8e7e581d961920a36d4a16b90013bbc193": 1788844446433
+      }
+    },
+    "/pages/blogs/gestalt-principles-modern-interface-design.html": {
+      "count": 1,
+      "viewers": {
+        "04f08c4e20a1d42ae1e8a7acead73aee9cd67a0171963634ef274b0dc47bf841": 1788843876823
       }
     }
   }

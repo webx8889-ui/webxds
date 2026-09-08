@@ -10617,7 +10617,7 @@ body.inner-video-bg main > .work-page-section {
     width: 100%;
     height: clamp(400px, 45vw, 550px);
     overflow: hidden;
-    background: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 25%, #A855F7 50%, #6366F1 75%, #8B5CF6 100%)
+    background: url('/assets/images/blogs/blog-bg.png') left top / 100% 100% no-repeat
 }
 
 .blog-hero-image-container {
@@ -10630,8 +10630,8 @@ body.inner-video-bg main > .work-page-section {
 }
 
 .blog-hero-image {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
     object-fit: contain;
