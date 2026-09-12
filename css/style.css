@@ -10926,6 +10926,37 @@ body.inner-video-bg main > .work-page-section {
     background: rgba(255, 255, 255, 0.03)
 }
 
+/* Long-form accessibility article components */
+.blog-toc, .blog-callout, .wcag-checklist, .blog-faq {
+    margin: clamp(24px, 4vw, 42px) 0;
+    padding: clamp(20px, 3vw, 30px);
+    border: 1px solid rgba(255, 255, 255, .14);
+    background: linear-gradient(135deg, rgba(254, 168, 0, .13), rgba(255, 255, 255, .035));
+    border-radius: 16px
+}
+.blog-toc h2, .blog-callout h2, .wcag-checklist h2, .blog-faq h2 { margin: 0 0 14px; color: #fff; font-size: clamp(20px, 2.2vw, 27px); line-height: 1.3 }
+.blog-toc ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 26px; margin: 0; padding-left: 22px }
+.blog-toc a { color: rgba(255, 255, 255, .82); text-decoration-color: #fea800; text-underline-offset: 4px; font-size: 15px }
+.blog-toc a:hover { color: #fea800 }
+.blog-callout { border-left: 4px solid #fea800; background: #181512 }
+.blog-callout p { margin: 0; color: rgba(255, 255, 255, .82); font-size: clamp(15px, 1.4vw, 18px); line-height: 1.7 }
+.wcag-principles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 20px 0 0 }
+.wcag-principle { padding: 18px; background: rgba(255, 255, 255, .045); border: 1px solid rgba(255, 255, 255, .1); border-radius: 12px }
+.wcag-principle strong { display: block; margin-bottom: 5px; color: #fea800; font-size: 17px }
+.wcag-principle span { color: rgba(255, 255, 255, .72); font-size: 15px; line-height: 1.5 }
+.wcag-checklist { background: #141414 }
+.wcag-checklist ul { margin-top: 14px }
+.wcag-checklist li { list-style: none; position: relative; padding: 10px 0 10px 34px; color: rgba(255,255,255,.78); border-bottom: 1px solid rgba(255,255,255,.09); line-height: 1.55 }
+.wcag-checklist li:last-child { border-bottom: 0 }
+.wcag-checklist li::before { content: '✓'; position: absolute; left: 0; top: 9px; color: #17120b; background: #fea800; width: 20px; height: 20px; border-radius: 50%; text-align: center; font-weight: 800; line-height: 20px }
+.blog-faq details { border-top: 1px solid rgba(255,255,255,.12); padding: 16px 0 }
+.blog-faq details:last-child { padding-bottom: 0 }
+.blog-faq summary { cursor: pointer; color: #fff; font-size: 17px; font-weight: 600; padding-right: 20px }
+.blog-faq summary::marker { color: #fea800 }
+.blog-faq p { margin: 12px 0 0; color: rgba(255,255,255,.75); line-height: 1.7 }
+.blog-code-example { overflow: auto; margin: 20px 0; padding: 18px; background: #0d0e10; border: 1px solid #2b2d32; border-radius: 12px; color: #f4e8ca; font: 14px/1.65 Consolas, monospace; white-space: pre }
+@media (max-width: 640px) { .blog-toc ol, .wcag-principles { grid-template-columns: 1fr } .blog-toc { padding: 20px } }
+
 @media (max-width:768px) {
     .blog-detail-content {
         padding-left: 16px;

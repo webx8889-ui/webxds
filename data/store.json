@@ -528,6 +528,24 @@
               ]
             },
             {
+              "id": "blog-how-to-design-accessible-websites-for-wcag-compliance-webx-design-studio",
+              "title": "How to Design Accessible Websites for WCAG Compliance | Webx Design Studio",
+              "image": "/assets/images/blogs/wcag-accessible-websites-cover.svg",
+              "imageAlt": "Accessible website interface with WCAG compliance checklist",
+              "dateLabel": "Date: 12 Sept 26",
+              "dateValue": "2026-09-12",
+              "excerpt": "Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.",
+              "url": "/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html",
+              "tags": [
+                "WCAG compliance",
+                "accessible website design",
+                "web accessibility checklist",
+                "WCAG 2.2",
+                "accessible UX design",
+                "ADA accessible website"
+              ]
+            },
+            {
               "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
               "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
               "image": "/assets/images/blogs/ui-ux-design-trends-2026-cover.png",
@@ -845,7 +863,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-08T05:17:40.952Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1045,7 +1063,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-08T05:17:40.952Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1245,7 +1263,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-08T05:17:40.952Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1445,7 +1463,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-08T05:17:40.953Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1645,7 +1663,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-08T05:17:40.953Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1845,7 +1863,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-08T05:17:40.953Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2045,7 +2063,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-08T05:17:40.953Z"
+          "updatedAt": "2026-09-12T11:07:58.741Z"
         }
       ]
     },
@@ -2566,7 +2584,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.957Z"
+      "updatedAt": "2026-09-12T11:07:58.745Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2870,7 +2888,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.961Z"
+      "updatedAt": "2026-09-12T11:07:58.746Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3001,7 +3019,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.965Z"
+      "updatedAt": "2026-09-12T11:07:58.750Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3132,7 +3150,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.966Z"
+      "updatedAt": "2026-09-12T11:07:58.750Z"
     },
     "about": {
       "editorType": "generic",
@@ -3325,7 +3343,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.967Z"
+      "updatedAt": "2026-09-12T11:07:58.752Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3448,7 +3466,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.968Z"
+      "updatedAt": "2026-09-12T11:07:58.752Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3579,7 +3597,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.968Z"
+      "updatedAt": "2026-09-12T11:07:58.753Z"
     },
     "services": {
       "editorType": "generic",
@@ -3776,7 +3794,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.970Z"
+      "updatedAt": "2026-09-12T11:07:58.754Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3921,7 +3939,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.970Z"
+      "updatedAt": "2026-09-12T11:07:58.754Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4066,7 +4084,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.971Z"
+      "updatedAt": "2026-09-12T11:07:58.755Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4931,7 +4949,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.955Z"
+      "updatedAt": "2026-09-12T11:07:58.743Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5126,7 +5144,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.963Z"
+      "updatedAt": "2026-09-12T11:07:58.748Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5321,7 +5339,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-08T05:17:40.965Z"
+      "updatedAt": "2026-09-12T11:07:58.749Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -6303,6 +6321,205 @@
         }
       ],
       "updatedAt": "2026-09-08T05:04:27.811Z"
+    },
+    "how-to-design-accessible-websites-wcag-compliance": {
+      "editorType": "generic",
+      "path": "/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html",
+      "title": "How to Design Accessible Websites for WCAG Compliance | Webx Design Studio",
+      "meta": "Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.",
+      "displayName": "How to Design Accessible Websites for WCAG Compliance | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>How to Design Accessible Websites for WCAG Compliance | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#fea800\" />\n  <meta name=\"keywords\" content=\"WCAG compliance, accessible website design, web accessibility checklist, WCAG 2.2, accessible UX design, ADA accessible website\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"How to Design Accessible Websites for WCAG Compliance\" />\n  <meta property=\"og:description\" content=\"A practical, design-led guide to building accessible websites that work better for every visitor.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/wcag-accessible-websites-cover.svg\" />\n  <meta property=\"og:image:width\" content=\"1200\" />\n  <meta property=\"og:image:height\" content=\"630\" />\n  <meta property=\"og:image:alt\" content=\"Accessible website interface with WCAG compliance checklist\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-09-12\" />\n  <meta property=\"article:modified_time\" content=\"2026-09-12\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"Web Design\" />\n  <meta property=\"article:tag\" content=\"WCAG compliance\" />\n  <meta property=\"article:tag\" content=\"web accessibility\" />\n  <meta property=\"article:tag\" content=\"inclusive design\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"How to Design Accessible Websites for WCAG Compliance\" />\n  <meta name=\"twitter:description\" content=\"Practical WCAG guidance for designers, developers, and teams building inclusive websites.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/wcag-accessible-websites-cover.svg\" />\n  <meta name=\"twitter:image:alt\" content=\"Accessible website interface with WCAG compliance checklist\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260912-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/wcag-accessible-websites-cover.svg\" as=\"image\" type=\"image/svg+xml\" />\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"How to Design Accessible Websites for WCAG Compliance\",\"description\":\"Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.\",\"image\":[\"https://webxds.com/assets/images/blogs/wcag-accessible-websites-cover.svg\",\"https://webxds.com/assets/images/blogs/wcag-pour-principles.svg\",\"https://webxds.com/assets/images/blogs/wcag-keyboard-focus.svg\"],\"url\":\"https://webxds.com/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\",\"datePublished\":\"2026-09-12\",\"dateModified\":\"2026-09-12\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"WCAG compliance\",\"accessible website design\",\"web accessibility checklist\",\"WCAG 2.2\",\"accessible UX design\"],\"articleSection\":\"Web Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\"}}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"How to Design Accessible Websites for WCAG Compliance\",\"item\":\"https://webxds.com/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\"}]}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What WCAG level should a business website target?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For most public-facing websites, WCAG 2.2 Level AA is a practical and widely expected target. It addresses the needs of many people while remaining achievable for product teams.\"}},{\"@type\":\"Question\",\"name\":\"Can automated tools make a website WCAG compliant?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Automated tools are useful for finding repeatable technical issues, but they cannot confirm reading order, clear language, meaningful alt text or whether a keyboard user can complete a real task. Manual testing is essential.\"}},{\"@type\":\"Question\",\"name\":\"Is accessibility only a developer responsibility?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Accessibility is a shared design, content, product and engineering responsibility. The most efficient approach begins with inclusive decisions in research, content and design before implementation.\"}}]}\n  </script>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-d5ddef5a"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-56f75ee8"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-9693b0f8"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-aba5a081"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-0805c47a"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-05812d7b"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-ce73595e"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br/>experiences<br/>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-design-accessible-websites-wcag-compliance-section-904d4ed9"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-d5ddef5a",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n    <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n      <nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></nav>\n    </section>\n  </header>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-56f75ee8",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">WCAG Compliance Guide</span></nav></div></section>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-9693b0f8",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/wcag-accessible-websites-cover.svg\" alt=\"Accessible website interface with WCAG compliance checklist, keyboard navigation and readable text\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-aba5a081",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\">\n        <h1 class=\"blog-title\">How to Design Accessible Websites for WCAG Compliance</h1>\n        <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">WCAG 2.2</span><span class=\"blog-tag\">web accessibility</span><span class=\"blog-tag\">inclusive design</span><span class=\"blog-tag\">accessible UX</span></div><time class=\"blog-date\" datetime=\"2026-09-12\">Date: 12 Sep 26</time></div>\n        <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">Loading views...</span></p>\n        <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\n      </header>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n        <meta itemprop=\"headline\" content=\"How to Design Accessible Websites for WCAG Compliance\" /><meta itemprop=\"datePublished\" content=\"2026-09-12\" />\n        <p class=\"blog-intro\">An accessible website is not a smaller version of a great experience. It is a great experience that more people can use: people navigating with a keyboard, using a screen reader, viewing a phone in bright light, recovering from an injury, or simply trying to complete a task quickly.</p>\n        <p class=\"blog-intro\">WCAG gives teams a shared standard for that work. The real goal, however, is more human: make every important journey clear, operable, and dependable for the widest possible range of visitors.</p>\n\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#what-wcag-means\">What WCAG compliance means</a></li><li><a href=\"#pour\">The POUR principles</a></li><li><a href=\"#structure\">Start with structure and content</a></li><li><a href=\"#keyboard\">Keyboard and focus design</a></li><li><a href=\"#colour\">Colour, contrast and type</a></li><li><a href=\"#forms\">Forms, errors and feedback</a></li><li><a href=\"#media\">Images, media and motion</a></li><li><a href=\"#testing\">How to test accessibility</a></li><li><a href=\"#checklist\">Pre-launch checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"what-wcag-means\"><h2 class=\"section-heading\" id=\"what-wcag-means\">What WCAG Compliance Actually Means</h2><p class=\"section-text\">The Web Content Accessibility Guidelines (WCAG) are internationally used recommendations for making web content more accessible. They cover design, content, code, interaction, and compatibility with assistive technology. WCAG 2.2 is the current version most teams reference when planning new work.</p><p class=\"section-text\">Conformance is measured at three levels: A, AA, and AAA. Level AA is the practical target for most public-facing websites. It requires deliberate design choices, but it does not require a separate “accessible version” of the site. The most durable approach is one inclusive experience.</p></section>\n\n        <aside class=\"blog-callout\" aria-label=\"Important accessibility principle\"><h2>Design accessibility in early</h2><p>Accessibility is cheapest and strongest when it starts in the brief, content outline, wireframes, and component library. Retrofitting after launch usually creates avoidable design debt and incomplete fixes.</p></aside>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"pour\"><h2 class=\"section-heading\" id=\"pour\">Use POUR as Your Design Lens</h2><p class=\"section-text\">WCAG is easier to use when you group its requirements around four questions. Can people perceive the information? Operate the interface? Understand what is happening? And rely on the technology to work with their browser or assistive tools?</p><div class=\"wcag-principles\"><div class=\"wcag-principle\"><strong>Perceivable</strong><span>Offer text alternatives, captions, adequate contrast, and information that is not colour-only.</span></div><div class=\"wcag-principle\"><strong>Operable</strong><span>Make controls usable by keyboard and provide enough time, focus visibility, and clear navigation.</span></div><div class=\"wcag-principle\"><strong>Understandable</strong><span>Use predictable patterns, meaningful labels, plain language, and helpful error recovery.</span></div><div class=\"wcag-principle\"><strong>Robust</strong><span>Use semantic HTML so browsers and assistive technologies can interpret the experience reliably.</span></div></div></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-pour-principles.svg\" alt=\"Four WCAG principles: perceivable, operable, understandable and robust\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>POUR keeps accessibility reviews focused on the visitor’s experience instead of a disconnected list of rules.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"structure\"><h2 class=\"section-heading\" id=\"structure\">1. Start with Meaningful Structure and Content</h2><p class=\"section-text\">A screen reader does not see your layout. It reads the semantic structure behind it. Use a single, descriptive <code>h1</code>, then organise ideas with logical heading levels. Prefer native buttons for actions and links for destinations. When the element already exists in HTML, using it usually gives you keyboard and accessibility behaviour for free.</p><p class=\"section-text\">Content design matters just as much. Write specific link text such as “Download the accessibility checklist” instead of “Click here.” Describe the purpose of a form field before someone enters information. Keep instructions next to the control they explain.</p><pre class=\"blog-code-example\" aria-label=\"Semantic HTML example\"><code>&lt;button type=\"button\"&gt;Save changes&lt;/button&gt;\n&lt;a href=\"/pricing\"&gt;View pricing plans&lt;/a&gt;\n&lt;label for=\"email\"&gt;Work email&lt;/label&gt;\n&lt;input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\"&gt;</code></pre></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"keyboard\"><h2 class=\"section-heading\" id=\"keyboard\">2. Make Every Important Task Work with a Keyboard</h2><p class=\"section-text\">Many visitors do not use a mouse all the time, or at all. A keyboard user should be able to reach menus, filters, dialogs, form fields, and calls to action in a predictable order using Tab, Shift + Tab, Enter, Space, and arrow keys where appropriate.</p><ul class=\"section-list\"><li>Keep the visual focus indicator obvious on every interactive element; never remove it without a stronger replacement.</li><li>Match keyboard order to the visual reading order, especially in complex cards, modals, and responsive layouts.</li><li>Include a “Skip to main content” link as the first focusable element for long pages.</li><li>When a dialog opens, move focus into it; when it closes, return focus to the control that opened it.</li><li>Do not create keyboard traps: users must always be able to move away from an element.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-keyboard-focus.svg\" alt=\"Website interface illustrating a visible keyboard focus path through navigation, filter and call to action\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Focus should be high-contrast, consistently styled, and visible wherever a keyboard user lands.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"colour\"><h2 class=\"section-heading\" id=\"colour\">3. Design for Contrast, Not Just Brand Colour</h2><p class=\"section-text\">Colour can support meaning, but it cannot be the only way meaning is communicated. A red field alone does not adequately explain an error; pair it with clear text and an icon or status label. Likewise, charts and filters need labels, patterns, or shapes in addition to colour.</p><p class=\"section-text\">For normal-size text, aim for a contrast ratio of at least 4.5:1 against the background. Large text has a lower threshold of 3:1, and non-text controls need enough contrast to be identifiable. Check every state: default, hover, focus, selected, disabled, error, and dark mode.</p><aside class=\"blog-callout\" aria-label=\"Contrast design tip\"><h2>Contrast is a usability feature</h2><p>Good contrast helps people with low vision, colour-vision differences, tired eyes, low-quality screens, glare, and divided attention. It usually makes an interface feel more confident for everyone.</p></aside></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"forms\"><h2 class=\"section-heading\" id=\"forms\">4. Build Forms That Explain, Prevent, and Recover</h2><p class=\"section-text\">Forms are often where an otherwise accessible site breaks down. Each field needs a visible label, not placeholder text alone. Required fields should be identified before submission. If an error occurs, say what happened, where it happened, and what the visitor should do next.</p><ul class=\"section-list\"><li>Use persistent labels and helpful examples for formats such as dates, phone numbers, and passwords.</li><li>Group related inputs with <code>fieldset</code> and <code>legend</code>, such as a delivery preference or payment method.</li><li>Connect inline errors to the related field and provide an error summary after submission when needed.</li><li>Preserve entered information after a validation error whenever it is safe to do so.</li><li>Use clear action labels: “Create account” is more helpful than a generic “Submit.”</li></ul></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"media\"><h2 class=\"section-heading\" id=\"media\">5. Treat Images, Media, and Motion as Content</h2><p class=\"section-text\">Every meaningful image needs alternative text that conveys its purpose in context. Decorative images should use empty alt text so screen readers can skip them. For complex visuals such as charts or process diagrams, provide a short summary and a nearby detailed explanation in the page content.</p><p class=\"section-text\">Provide captions for prerecorded video, transcripts for audio, and audio description when important visual information is not already spoken. Avoid auto-playing media. For animation, respect the visitor’s reduced-motion preference and never use flashing content that could trigger a seizure.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"testing\"><h2 class=\"section-heading\" id=\"testing\">6. Test the Journey, Not Only the Page</h2><p class=\"section-text\">Automated tools are useful early warnings, not a compliance certificate. Combine them with manual checks on the paths that matter most: finding a service, filtering results, signing up, booking, checking out, and contacting your team. Test with real content, zoomed text, a keyboard, and at least one screen reader.</p><ol class=\"section-list\"><li>Run an automated scan to catch common issues such as missing labels, invalid heading order, and weak contrast.</li><li>Tab through each key journey without touching the mouse. Check focus order, visibility, and dialogs.</li><li>Zoom to 200% and check that content remains readable, usable, and does not require horizontal scrolling on common widths.</li><li>Use a screen reader to review headings, landmarks, links, images, forms, and dynamic error messages.</li><li>Include disabled people in usability research whenever possible; lived experience finds problems a checklist can miss.</li></ol></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-test-loop.svg\" alt=\"Accessibility delivery loop: design, build, test, fix and monitor\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Accessibility is a continuous quality practice: each release should preserve and improve the experience.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"teams\"><h2 class=\"section-heading\" id=\"teams\">7. Make Accessibility a Team Habit</h2><p class=\"section-text\">The best accessibility outcomes come from shared ownership. Content teams write concise labels and useful alternatives. Designers define focus, error, contrast, and responsive states. Developers use semantic components and test interaction. Product teams make inclusive outcomes part of the definition of done.</p><p class=\"section-text\">Capture your decisions in the design system. A documented button, input, modal, alert, and data table is easier to use correctly across projects than a one-off fix. Add accessibility acceptance criteria to tickets so it is planned and reviewed alongside performance, analytics, and visual polish.</p></section>\n\n        <section class=\"wcag-checklist\" aria-labelledby=\"checklist\"><h2 id=\"checklist\">WCAG-minded pre-launch checklist</h2><ul><li>Every page has a descriptive title, one clear <code>h1</code>, and logical heading hierarchy.</li><li>All important tasks work with keyboard-only navigation and show a visible focus indicator.</li><li>Text, controls, and status messages meet contrast needs in every relevant state.</li><li>Links, buttons, inputs, and errors have names that explain their purpose.</li><li>Images have appropriate alt text; video has captions; audio has a transcript.</li><li>Layouts work at 200% zoom and on narrow screens without losing content or controls.</li><li>Automated checks and manual keyboard/screen-reader tests have been run on core journeys.</li><li>Accessibility issues have an owner, a severity, and a plan for follow-up after launch.</li></ul></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Final Thoughts</h2><p class=\"section-text\">WCAG compliance is not about making a website feel constrained. It is a way to make the product clearer, more resilient, and more welcoming. When semantic structure, visible focus, readable contrast, helpful feedback, and thoughtful testing become normal parts of your process, accessibility stops being an emergency fix.</p><p class=\"section-text\">Start with the one journey that matters most to your visitors. Make it work well without a mouse, without colour alone, and without assumptions about how someone consumes content. Then repeat that standard across the system.</p></section>\n\n        <section class=\"blog-faq\" aria-labelledby=\"faq\"><h2 id=\"faq\">Frequently asked questions</h2><details><summary>What WCAG level should a business website target?</summary><p>For most public-facing websites, WCAG 2.2 Level AA is a practical and widely expected target. It addresses many common barriers while remaining achievable for product teams.</p></details><details><summary>Can automated tools make a website WCAG compliant?</summary><p>No. They help find repeatable technical issues, but they cannot judge clear language, meaningful alt text, reading order, or whether a keyboard user can complete a real task. Manual testing is essential.</p></details><details><summary>Is accessibility only a developer responsibility?</summary><p>No. It is shared by product, content, design, research, and engineering. The most efficient work happens before code, when inclusive needs influence the brief and the interface.</p></details></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-0805c47a",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"how-to-design-accessible-websites-wcag-compliance\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-05812d7b",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Want an inclusive website your customers can use with confidence?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\"/></svg></a></div></section>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-ce73595e",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Brand Identity</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About</a><a href=\"/pages/main/work.html\">Our Work</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/faq.html\">FAQ</a><a href=\"/pages/main/contact-page.html\">Contact</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Legal<button class=\"footer-toggle\" aria-label=\"Toggle Legal menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a></div></div></div></footer>"
+        },
+        {
+          "id": "how-to-design-accessible-websites-wcag-compliance-section-904d4ed9",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-12T10:35:33.159Z"
     }
   },
   "services": [],
@@ -6538,6 +6755,66 @@
   ],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-b9c34f5239c8781a0953003fb",
+        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
+        "createdAt": "2026-09-12T10:35:47.101Z",
+        "lastSeenAt": "2026-09-12T11:07:58.755Z",
+        "currentPage": "how-to-design-accessible-websites-wcag-compliance",
+        "path": "/blogs/how-to-design-accessible-websites-wcag-compliance",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 900,
+        "scrollDepth": 88,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d63ae195c234381a0952fe647",
+        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
+        "createdAt": "2026-09-12T10:35:39.495Z",
+        "lastSeenAt": "2026-09-12T10:35:46.890Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3001/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-49cb23f7a24b081a0952fd8f7",
+        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
+        "createdAt": "2026-09-12T10:35:36.111Z",
+        "lastSeenAt": "2026-09-12T10:35:39.232Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-0d42c84f1154a1a07f7358cd",
         "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
@@ -7077,1169 +7354,54 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-f0ce6a684474881a060bc4b97",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:09:08.016Z",
-        "lastSeenAt": "2026-09-02T06:16:53.247Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 465,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-66a3866228b1c1a060bc3749",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:09:02.819Z",
-        "lastSeenAt": "2026-09-02T06:09:07.853Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fe55173090d671a060bc2b2b",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:08:59.714Z",
-        "lastSeenAt": "2026-09-02T06:09:02.721Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f66be54b268f1a060bc1b84",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:08:55.711Z",
-        "lastSeenAt": "2026-09-02T06:08:59.562Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1e5e1fcc1835f81a060b85f55",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:04:50.935Z",
-        "lastSeenAt": "2026-09-02T06:08:50.928Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 240,
-        "scrollDepth": 73,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5bfc3462899c581a060b8429e",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:04:43.620Z",
-        "lastSeenAt": "2026-09-02T06:04:43.620Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-04c45cfa1976d1a060b8386c",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:04:40.971Z",
-        "lastSeenAt": "2026-09-02T06:04:40.971Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e71918a555afa81a060b71054",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:03:25.170Z",
-        "lastSeenAt": "2026-09-02T06:04:40.174Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 75,
-        "scrollDepth": 94,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fabfe97d576ef1a060b6b1c9",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:03:00.953Z",
-        "lastSeenAt": "2026-09-02T06:03:00.953Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-c17e4a315fb5281a060b5b221",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:01:55.510Z",
-        "lastSeenAt": "2026-09-02T06:02:56.234Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 94,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-563cbbc21221f1a060b5a498",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T06:01:52.046Z",
-        "lastSeenAt": "2026-09-02T06:01:52.046Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3b5539cbaa751a060b33e6b",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:59:14.830Z",
-        "lastSeenAt": "2026-09-02T06:01:50.849Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 120,
-        "scrollDepth": 74,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b8a923a2e9cc981a060b32057",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:59:07.117Z",
-        "lastSeenAt": "2026-09-02T05:59:07.117Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-91c7a633371e11a060b2e415",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:51.697Z",
-        "lastSeenAt": "2026-09-02T05:59:06.707Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 22,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-639dbbeb3828681a060b2dc92",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:49.772Z",
-        "lastSeenAt": "2026-09-02T05:58:49.772Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-96d51a6ae9d0c81a060b2c579",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:43.859Z",
-        "lastSeenAt": "2026-09-02T05:58:43.859Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-ba827e172c4c91a060b28d88",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:29.538Z",
-        "lastSeenAt": "2026-09-02T05:58:29.538Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-23c5021c0173e1a060b277c8",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:23.965Z",
-        "lastSeenAt": "2026-09-02T05:58:23.965Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2a19308a8795781a060b26d15",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:58:21.226Z",
-        "lastSeenAt": "2026-09-02T05:58:23.821Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e42220b9662851a060b1ce20",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:40.539Z",
-        "lastSeenAt": "2026-09-02T05:58:11.223Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 18,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-11b4f9ec31ad781a060b1cd12",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:40.270Z",
-        "lastSeenAt": "2026-09-02T05:57:40.270Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6952c32928d411a060b1cc05",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:40.000Z",
-        "lastSeenAt": "2026-09-02T05:57:40.000Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6f093b9b087f61a060b1c7f7",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:38.963Z",
-        "lastSeenAt": "2026-09-02T05:57:38.963Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-dd1d5ca5c58fd81a060b1bfca",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:36.876Z",
-        "lastSeenAt": "2026-09-02T05:57:36.876Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d4a714d5e89a51a060b1be50",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:36.490Z",
-        "lastSeenAt": "2026-09-02T05:57:36.490Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-64991df2999961a060b1b77b",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:34.745Z",
-        "lastSeenAt": "2026-09-02T05:57:34.745Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5972ce9c293b781a060b1ac4a",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:31.874Z",
-        "lastSeenAt": "2026-09-02T05:57:31.874Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-28b98669839291a060b16e03",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:57:15.933Z",
-        "lastSeenAt": "2026-09-02T05:57:31.802Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 78,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a65f7ee3df1821a060b0c0dd",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:56:31.664Z",
-        "lastSeenAt": "2026-09-02T05:57:15.803Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 72,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-267b7db7bad6781a060b07255",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:56:11.507Z",
-        "lastSeenAt": "2026-09-02T05:56:26.561Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 47,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-721b51ab7facc81a060afe8fd",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:55:36.352Z",
-        "lastSeenAt": "2026-09-02T05:55:36.352Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-cbf199353e10581a060afe2da",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:55:34.782Z",
-        "lastSeenAt": "2026-09-02T05:55:34.782Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-028086439b7e481a060afc677",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:55:27.521Z",
-        "lastSeenAt": "2026-09-02T05:55:27.521Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-67b179d5c41ea81a060afbe47",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:55:25.404Z",
-        "lastSeenAt": "2026-09-02T05:55:27.355Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9c6322c49da0e81a060aee118",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:54:28.780Z",
-        "lastSeenAt": "2026-09-02T05:55:14.215Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
-        "scrollDepth": 24,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9e0a224c7149e1a060ae4690",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:49.247Z",
-        "lastSeenAt": "2026-09-02T05:54:28.712Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 71,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-cdf6eeaecca9f81a060ae4112",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:47.824Z",
-        "lastSeenAt": "2026-09-02T05:53:47.824Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d78fac6bc5061a060adf3a5",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:28.043Z",
-        "lastSeenAt": "2026-09-02T05:53:43.235Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 69,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3fbeebdd2c3ee1a060ade69d",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:24.670Z",
-        "lastSeenAt": "2026-09-02T05:53:24.670Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3cf4a0a6ee6cc81a060ade50f",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:24.268Z",
-        "lastSeenAt": "2026-09-02T05:53:24.268Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-731662a0b28b481a060addd15",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:22.267Z",
-        "lastSeenAt": "2026-09-02T05:53:22.267Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b3c1a9d4140071a060adc5e6",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:16.289Z",
-        "lastSeenAt": "2026-09-02T05:53:16.289Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/top-ui-ux-design-trends-2026",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b4a7ce7d2e9ba81a060adbe81",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:14.399Z",
-        "lastSeenAt": "2026-09-02T05:53:16.141Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-485c89b1628e081a060ada3e6",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:53:07.585Z",
-        "lastSeenAt": "2026-09-02T05:53:07.585Z",
-        "currentPage": "top-ui-ux-design-trends-2026",
-        "path": "/blogs/top-ui-ux-design-trends-2026",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6f9e293a1e46d1a060ad6efa",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:52:54.033Z",
-        "lastSeenAt": "2026-09-02T05:53:07.477Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8874ced869c3981a060aaf151",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:50:10.805Z",
-        "lastSeenAt": "2026-09-02T05:52:41.222Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 150,
-        "scrollDepth": 19,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b24fd80fe3d951a060aae462",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:50:07.496Z",
-        "lastSeenAt": "2026-09-02T05:50:07.496Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2b25c76f6dc6e1a060aad6d8",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:50:04.028Z",
-        "lastSeenAt": "2026-09-02T05:50:04.028Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-696542f2889cd81a060aacbb6",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:50:01.186Z",
-        "lastSeenAt": "2026-09-02T05:50:03.915Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3001/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2edc05e88056e1a060aa9de1",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:49:49.434Z",
-        "lastSeenAt": "2026-09-02T05:50:00.885Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-543b0b8004bba1a060a8d0ac",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:47:51.380Z",
-        "lastSeenAt": "2026-09-02T05:49:36.813Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 105,
-        "scrollDepth": 73,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1aea16aa3a2d51a060a8ce3e",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:47:50.760Z",
-        "lastSeenAt": "2026-09-02T05:47:50.760Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-2767305d1f3451a060a858cf",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:47:20.693Z",
-        "lastSeenAt": "2026-09-02T05:47:35.729Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 51,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a8524aed4362881a06080da80",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:04:12.457Z",
-        "lastSeenAt": "2026-09-02T05:46:57.485Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1695,
-        "scrollDepth": 95,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4aaf4926564091a06080a5d8",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:03:59.038Z",
-        "lastSeenAt": "2026-09-02T05:04:12.118Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0f26f555d188281a0607e4a0d",
-        "visitorId": "549514e5-3bc3-46f4-a9c7-94ded46f9d7e",
-        "createdAt": "2026-09-02T05:01:24.461Z",
-        "lastSeenAt": "2026-09-02T05:49:20.256Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "Direct",
-        "viewport": "1486x672",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 870,
-        "scrollDepth": 8,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.135.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0ed02c443c60b81a0607d33c4",
-        "visitorId": "a6aad038-8754-41f5-823a-0dbd2e5ef22f",
-        "createdAt": "2026-09-02T05:00:13.192Z",
-        "lastSeenAt": "2026-09-02T05:00:13.192Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a5f5c597bb2e481a0607aa659",
-        "visitorId": "0a89cbda-bb36-48d4-843b-8a337905a90f",
-        "createdAt": "2026-09-02T04:57:25.925Z",
-        "lastSeenAt": "2026-09-02T05:00:41.228Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "Direct",
-        "viewport": "1486x672",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 195,
-        "scrollDepth": 100,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.135.0 Chrome/148.0.7778.280 Electron/42.8.1 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-6d0c6d4a",
+        "sessionId": "sess-b9c34f5239c8781a0953003fb",
+        "page": "how-to-design-accessible-websites-wcag-compliance",
+        "type": "click",
+        "target": "a",
+        "text": "Colour, contrast and type",
+        "createdAt": "2026-09-12T10:45:40.958Z"
+      },
+      {
+        "id": "evt-2fd92d04",
+        "sessionId": "sess-b9c34f5239c8781a0953003fb",
+        "page": "how-to-design-accessible-websites-wcag-compliance",
+        "type": "click",
+        "target": "a",
+        "text": "Start with structure and content",
+        "createdAt": "2026-09-12T10:35:54.362Z"
+      },
+      {
+        "id": "evt-0263f7a4",
+        "sessionId": "sess-d63ae195c234381a0952fe647",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-12T10:35:46.890Z"
+      },
+      {
+        "id": "evt-9360ac12",
+        "sessionId": "sess-49cb23f7a24b081a0952fd8f7",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-12T10:35:39.232Z"
+      },
+      {
+        "id": "evt-a9d8b748",
+        "sessionId": "sess-49cb23f7a24b081a0952fd8f7",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-12T10:35:38.200Z"
+      },
       {
         "id": "evt-9225d478",
         "sessionId": "sess-1a5762f6dadcb1a07f73426c",
@@ -12694,51 +11856,6 @@
         "target": "button.cta-project-button.cta-project-button-secondary",
         "text": "BACK",
         "createdAt": "2026-08-02T11:42:42.878Z"
-      },
-      {
-        "id": "evt-6bc9f9db",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:41.420Z"
-      },
-      {
-        "id": "evt-a2cd4eb5",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:42:40.082Z"
-      },
-      {
-        "id": "evt-038f6bfd",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:39.282Z"
-      },
-      {
-        "id": "evt-87f79002",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:42:38.029Z"
-      },
-      {
-        "id": "evt-3194c64f",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:37.281Z"
       }
     ],
     "replays": []
@@ -12982,6 +12099,32 @@
       "sections": []
     },
     {
+      "id": "blog-how-to-design-accessible-websites-for-wcag-compliance-webx-design-studio",
+      "title": "How to Design Accessible Websites for WCAG Compliance | Webx Design Studio",
+      "slug": "how-to-design-accessible-websites-wcag-compliance",
+      "metaTitle": "How to Design Accessible Websites for WCAG Compliance | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.",
+      "image": "/assets/images/blogs/wcag-accessible-websites-cover.svg",
+      "imageAlt": "Accessible website interface with WCAG compliance checklist",
+      "dateValue": "2026-09-12",
+      "dateLabel": "Date: 12 Sept 26",
+      "excerpt": "Learn how to design accessible websites for WCAG compliance with practical guidance for structure, keyboard access, contrast, forms, testing and inclusive delivery.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "WCAG compliance",
+        "accessible website design",
+        "web accessibility checklist",
+        "WCAG 2.2",
+        "accessible UX design",
+        "ADA accessible website"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html",
+      "sections": []
+    },
+    {
       "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
       "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
       "slug": "top-ui-ux-design-trends-2026",
@@ -13060,6 +12203,24 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-2b263e82",
+      "type": "visitor",
+      "message": "Visitor opened how-to-design-accessible-websites-wcag-compliance",
+      "createdAt": "2026-09-12T10:35:47.101Z"
+    },
+    {
+      "id": "act-8728f6ad",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-12T10:35:39.495Z"
+    },
+    {
+      "id": "act-2469fb6c",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-12T10:35:36.111Z"
+    },
     {
       "id": "act-82d7382f",
       "type": "visitor",
@@ -13401,24 +12562,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-02T05:56:11.507Z"
-    },
-    {
-      "id": "act-015f1078",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:55:36.352Z"
-    },
-    {
-      "id": "act-3685146a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:55:34.782Z"
-    },
-    {
-      "id": "act-e044bfa4",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:55:27.522Z"
     }
   ],
   "blogViews": {
@@ -13444,14 +12587,17 @@
     },
     "/pages/blogs/heuristic-evaluation-methods-for-web-apps.html": {
       "count": 4,
-      "viewers": {
-        "5998ef46981193a88088d650cb29ef8e7e581d961920a36d4a16b90013bbc193": 1788844446433
-      }
+      "viewers": {}
     },
     "/pages/blogs/gestalt-principles-modern-interface-design.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html": {
+      "count": 2,
       "viewers": {
-        "04f08c4e20a1d42ae1e8a7acead73aee9cd67a0171963634ef274b0dc47bf841": 1788843876823
+        "02b2f8a380e69e7b8d1c369feb057aff4dd8e151c62dbe3798d0165372181cce": 1789209333179,
+        "68b13c1639436a05f5c20291dce26ae7ef38a79c08e68996c68fdbfd0a1b184f": 1789209347233
       }
     }
   }
