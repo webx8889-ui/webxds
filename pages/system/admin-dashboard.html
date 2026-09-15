@@ -805,7 +805,7 @@ Analytics
 <div class="nav-item" onclick="showPage('leads',this)">
 <span class="nav-icon"><img src="https://api.iconify.design/tabler/inbox.svg" alt=""/></span>
 Leads / Inquiries
-<span class="nav-badge">5</span>
+<span class="nav-badge" id="leadsCountBadge">0</span>
 </div>
 <div class="sidebar-section-label">Website Content</div>
 <div class="nav-item" onclick="showPage('pages',this)">
@@ -1607,6 +1607,21 @@ function showPage(id, el) {
     buildChart();
     setTimeout(() => showToast('Dashboard ready','rocket', true), 600);
   });
+</script>
+<script>
+  (() => {
+    const originalFetch = window.fetch.bind(window);
+    window.fetch = (...args) => originalFetch(...args).then(response => {
+      const requestUrl = String(args[0]?.url || args[0] || '');
+      if (requestUrl.includes('/api/admin/bootstrap')) {
+        response.clone().json().then(payload => {
+          const badge = document.getElementById('leadsCountBadge');
+          if (badge) badge.textContent = String(Number(payload?.totals?.totalLeads ?? payload?.leads?.length ?? 0));
+        }).catch(() => {});
+      }
+      return response;
+    });
+  })();
 </script>
 <script src="/js/admin-dashboard.js"></script>
 <script src="/js/admin-service-ids.js"></script>

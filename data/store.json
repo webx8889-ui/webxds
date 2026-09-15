@@ -880,7 +880,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1080,7 +1080,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1280,7 +1280,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1480,7 +1480,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1680,7 +1680,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1880,7 +1880,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.566Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2080,7 +2080,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-14T13:11:00.709Z"
+          "updatedAt": "2026-09-15T10:36:52.567Z"
         }
       ]
     },
@@ -2601,7 +2601,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.712Z"
+      "updatedAt": "2026-09-15T10:36:52.569Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2905,7 +2905,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.713Z"
+      "updatedAt": "2026-09-15T10:36:52.571Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3036,7 +3036,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.717Z"
+      "updatedAt": "2026-09-15T10:36:52.575Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3167,7 +3167,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.717Z"
+      "updatedAt": "2026-09-15T10:36:52.575Z"
     },
     "about": {
       "editorType": "generic",
@@ -3360,7 +3360,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.718Z"
+      "updatedAt": "2026-09-15T10:36:52.576Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3483,7 +3483,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.718Z"
+      "updatedAt": "2026-09-15T10:36:52.577Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3614,7 +3614,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.719Z"
+      "updatedAt": "2026-09-15T10:36:52.577Z"
     },
     "services": {
       "editorType": "generic",
@@ -3811,7 +3811,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.720Z"
+      "updatedAt": "2026-09-15T10:36:52.578Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3956,7 +3956,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.720Z"
+      "updatedAt": "2026-09-15T10:36:52.579Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4101,7 +4101,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.721Z"
+      "updatedAt": "2026-09-15T10:36:52.579Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4966,7 +4966,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.711Z"
+      "updatedAt": "2026-09-15T10:36:52.568Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5161,7 +5161,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.715Z"
+      "updatedAt": "2026-09-15T10:36:52.573Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5356,7 +5356,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-14T13:11:00.716Z"
+      "updatedAt": "2026-09-15T10:36:52.574Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -6735,243 +6735,94 @@
     }
   },
   "services": [],
-  "leads": [
-    {
-      "id": "lead-9df93848",
-      "serviceId": "WX-20260814-F05CAF",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 1,50,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "rffdfsdfsfsdfsdfsdfsd",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-c5d6a807fd64b819ffee96cf8",
-      "createdAt": "2026-08-14T06:16:13.571Z",
-      "updatedAt": "2026-08-14T06:16:13.571Z"
-    },
-    {
-      "id": "lead-001dd487",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 1,00,000",
-      "services": [
-        "Graphic Design"
-      ],
-      "message": "Project brief not provided.",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-2c6c54856a844819fc1c65082",
-      "createdAt": "2026-08-02T09:21:19.507Z",
-      "updatedAt": "2026-08-02T09:21:19.507Z"
-    },
-    {
-      "id": "lead-b1679d13",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "6566566566",
-      "budget": "Rs 7,00,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "sdsdsdsdsdsdsd",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-3583a60127c5b19fc1bb2ea4",
-      "createdAt": "2026-08-02T09:08:38.833Z",
-      "updatedAt": "2026-08-02T09:08:38.833Z"
-    },
-    {
-      "id": "lead-4e514e3e",
-      "name": "fdfdfd",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 4,50,000",
-      "services": [
-        "Mobile/Web App"
-      ],
-      "message": "sdsdsds",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-e901d54a4d22e19fbd81038c",
-      "createdAt": "2026-08-01T13:28:25.500Z",
-      "updatedAt": "2026-08-01T13:28:25.500Z"
-    },
-    {
-      "id": "lead-259958e4",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 3,00,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "sdsds",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-2e2a12d0e304219fbd4b41ed",
-      "createdAt": "2026-08-01T12:27:58.255Z",
-      "updatedAt": "2026-08-01T12:27:58.255Z"
-    },
-    {
-      "id": "lead-bd5b7c33",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 1,50,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "sfsfsfsfsf",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-36668264c28e819fbd47c5b6",
-      "createdAt": "2026-08-01T12:24:00.695Z",
-      "updatedAt": "2026-08-01T12:24:00.695Z"
-    },
-    {
-      "id": "lead-6f52a7b1",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 9,00,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "fdgdggdgdg",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-38028890ec996819fbd46360f",
-      "createdAt": "2026-08-01T12:22:46.489Z",
-      "updatedAt": "2026-08-01T12:22:46.489Z"
-    },
-    {
-      "id": "lead-9437a0b6",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "+918128819104",
-      "budget": "Rs 5000000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "dsdsdsdsdsdsdsdsdsdssd",
-      "status": "new",
-      "source": "service-form",
-      "sessionId": "sess-40f4fe1e2349f19fbc1675c7",
-      "createdAt": "2026-08-01T06:50:32.282Z",
-      "updatedAt": "2026-08-01T06:50:32.282Z"
-    },
-    {
-      "id": "lead-5066180d",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 5,50,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "dffdfdfsdfdf",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-337780369f792819fa1d05689",
-      "createdAt": "2026-07-27T04:24:18.980Z",
-      "updatedAt": "2026-07-27T04:24:18.980Z"
-    },
-    {
-      "id": "lead-7572202e",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 1,00,000",
-      "services": [
-        "UI/UX Design",
-        "Other +"
-      ],
-      "message": "sdsdsdsdsdsd",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-90b9c0a227d28819f98acf917",
-      "createdAt": "2026-07-25T09:48:41.583Z",
-      "updatedAt": "2026-07-25T09:48:41.583Z"
-    },
-    {
-      "id": "lead-d26d1ee3",
-      "name": "web x",
-      "email": "webx8889@gmail.com",
-      "phone": "8128819104",
-      "budget": "Rs 5,00,000",
-      "services": [
-        "Branding & Identity"
-      ],
-      "message": "fdfdfd",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-c10df03b4a98519f988acb69",
-      "createdAt": "2026-07-25T09:13:44.387Z",
-      "updatedAt": "2026-07-25T09:13:44.387Z"
-    },
-    {
-      "id": "lead-7b9c0a12",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 1,00,000",
-      "services": [
-        "UI/UX Design",
-        "Mobile/Web App",
-        "Other +"
-      ],
-      "message": "Project brief not provided.",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-d3de47241b34b19f97e8a9fb",
-      "createdAt": "2026-07-25T06:14:29.983Z",
-      "updatedAt": "2026-07-25T06:14:29.983Z"
-    },
-    {
-      "id": "lead-e4bf250d",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 5,00,000",
-      "services": [
-        "Branding & Identity"
-      ],
-      "message": "ggfdfg",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-0c985e5268201819f97ae4475",
-      "createdAt": "2026-07-25T05:11:28.455Z",
-      "updatedAt": "2026-07-25T05:11:28.455Z"
-    },
-    {
-      "id": "lead-86c032de",
-      "name": "Harsh Hariyani",
-      "email": "harshfive9@gmail.com",
-      "phone": "08128819104",
-      "budget": "Rs 7,50,000",
-      "services": [
-        "UI/UX Design"
-      ],
-      "message": "gfgfgfgf",
-      "status": "new",
-      "source": "cta-expand-form",
-      "sessionId": "sess-b189c63a2e991819f979db85c",
-      "createdAt": "2026-07-25T04:53:17.946Z",
-      "updatedAt": "2026-07-25T04:53:17.946Z"
-    }
-  ],
+  "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-d02a9ee2c4ad081a0a4837d9a",
+        "visitorId": "1917aa24-46e1-4e55-a25e-9955055a5f8b",
+        "createdAt": "2026-09-15T10:01:16.032Z",
+        "lastSeenAt": "2026-09-15T10:01:16.032Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a833ea06362391a0a00dcbc9",
+        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
+        "createdAt": "2026-09-14T13:14:13.863Z",
+        "lastSeenAt": "2026-09-14T13:32:00.794Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 345,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4373f6d521f171a0a00dc3c4",
+        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
+        "createdAt": "2026-09-14T13:14:11.858Z",
+        "lastSeenAt": "2026-09-14T13:14:11.858Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-218c87b6c3c261a0a00db80d",
+        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
+        "createdAt": "2026-09-14T13:14:08.804Z",
+        "lastSeenAt": "2026-09-14T13:14:11.728Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/role-of-white-space-in-website-layouts",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-239a70111f1b681a0a007f032",
         "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
         "createdAt": "2026-09-14T13:07:49.976Z",
-        "lastSeenAt": "2026-09-14T13:11:00.721Z",
+        "lastSeenAt": "2026-09-14T13:14:08.649Z",
         "currentPage": "role-of-white-space-in-website-layouts",
         "path": "/blogs/role-of-white-space-in-website-layouts",
         "referrer": "http://localhost:3000/blogs",
@@ -6980,9 +6831,9 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 150,
+        "activeSeconds": 210,
         "scrollDepth": 88,
-        "eventCount": 4,
+        "eventCount": 5,
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
         "ip": "1::*"
@@ -7086,549 +6937,36 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-0d42c84f1154a1a07f7358cd",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:40.971Z",
-        "lastSeenAt": "2026-09-08T05:17:40.971Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1a5762f6dadcb1a07f73426c",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:35.247Z",
-        "lastSeenAt": "2026-09-08T05:17:40.827Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b87af07defc7581a07f733d66",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:33.953Z",
-        "lastSeenAt": "2026-09-08T05:17:33.953Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-648bae2cd1a31a07f73326b",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:31.143Z",
-        "lastSeenAt": "2026-09-08T05:17:33.847Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/heuristic-evaluation-methods-for-web-apps",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f7642c79617851a07f73291c",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:28.760Z",
-        "lastSeenAt": "2026-09-08T05:17:30.999Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-51ca21f713ccc81a07f730aa0",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:17:20.946Z",
-        "lastSeenAt": "2026-09-08T05:17:20.946Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-64be116b9c9061a07f71849a",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:15:41.102Z",
-        "lastSeenAt": "2026-09-08T05:17:11.358Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 5,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f32cfdd705fa91a07f718388",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:15:40.829Z",
-        "lastSeenAt": "2026-09-08T05:15:40.829Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-781fce529fb331a07f71790a",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:15:38.138Z",
-        "lastSeenAt": "2026-09-08T05:15:38.138Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3481fa93f67ce1a07f71778e",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:15:37.758Z",
-        "lastSeenAt": "2026-09-08T05:15:37.758Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-157359876e2dd81a07f701a39",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:14:08.341Z",
-        "lastSeenAt": "2026-09-08T05:15:24.063Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 75,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fd87cccc9ed981a07f701254",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:14:06.318Z",
-        "lastSeenAt": "2026-09-08T05:14:06.318Z",
-        "currentPage": "heuristic-evaluation-methods-for-web-apps",
-        "path": "/blogs/heuristic-evaluation-methods-for-web-apps",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6cad6a57c5ed781a07f700a7a",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:14:04.307Z",
-        "lastSeenAt": "2026-09-08T05:14:06.244Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e5ba5779c0ced1a07f6ffd12",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:14:00.875Z",
-        "lastSeenAt": "2026-09-08T05:14:04.241Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1c43d702494991a07f6ff2b0",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:13:58.218Z",
-        "lastSeenAt": "2026-09-08T05:13:58.218Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-ef4975637042381a07f6fe830",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:13:55.531Z",
-        "lastSeenAt": "2026-09-08T05:13:58.131Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8dbad7cec2a221a07f6fd8e4",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:13:51.617Z",
-        "lastSeenAt": "2026-09-08T05:13:55.438Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-dbb449d2bc28d1a07f6f9e80",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:13:36.686Z",
-        "lastSeenAt": "2026-09-08T05:13:51.422Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-21f9dabe8d1f881a07f6ccb22",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:10:31.598Z",
-        "lastSeenAt": "2026-09-08T05:13:33.377Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 135,
-        "scrollDepth": 7,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b369c1428d7c481a07f6cbd4c",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:10:27.937Z",
-        "lastSeenAt": "2026-09-08T05:10:31.330Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/about",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8bd2d6f535a7f81a07f699a72",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:07:02.457Z",
-        "lastSeenAt": "2026-09-08T05:10:27.722Z",
-        "currentPage": "about",
-        "path": "/about",
-        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 165,
-        "scrollDepth": 8,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-0d7b741640bad81a07f68d147",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:06:10.918Z",
-        "lastSeenAt": "2026-09-08T05:07:02.261Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1205x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 45,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-36bd87752d8c181a07f67d97d",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:05:07.483Z",
-        "lastSeenAt": "2026-09-08T05:06:07.516Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 51,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-624b8d833c53e1a07f67bc34",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:04:59.995Z",
-        "lastSeenAt": "2026-09-08T05:05:07.397Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/gestalt-principles-modern-interface-design",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-7c356a08a4fc281a07f67610f",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:04:36.652Z",
-        "lastSeenAt": "2026-09-08T05:04:59.827Z",
-        "currentPage": "gestalt-principles-modern-interface-design",
-        "path": "/blogs/gestalt-principles-modern-interface-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 85,
-        "eventCount": 3,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-679111bf300311a07f674e6a",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:04:31.878Z",
-        "lastSeenAt": "2026-09-08T05:04:36.466Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-67670988abcfe81a07f673e67",
-        "visitorId": "b647af57-e2ad-494d-8057-839801ae0a93",
-        "createdAt": "2026-09-08T05:04:27.812Z",
-        "lastSeenAt": "2026-09-08T05:04:31.766Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-8f699a58",
+        "sessionId": "sess-218c87b6c3c261a0a00db80d",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-14T13:14:11.728Z"
+      },
+      {
+        "id": "evt-ff454d84",
+        "sessionId": "sess-218c87b6c3c261a0a00db80d",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-14T13:14:10.355Z"
+      },
+      {
+        "id": "evt-980e7c54",
+        "sessionId": "sess-239a70111f1b681a0a007f032",
+        "page": "role-of-white-space-in-website-layouts",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-14T13:14:08.649Z"
+      },
       {
         "id": "evt-bea977d3",
         "sessionId": "sess-239a70111f1b681a0a007f032",
@@ -12101,33 +11439,6 @@
         "target": "button.cta-project-button.cta-project-button-secondary",
         "text": "BACK",
         "createdAt": "2026-08-02T11:42:49.407Z"
-      },
-      {
-        "id": "evt-ad3602bb",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:48.912Z"
-      },
-      {
-        "id": "evt-ca83f857",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:42:48.455Z"
-      },
-      {
-        "id": "evt-79141056",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:47.682Z"
       }
     ],
     "replays": []
@@ -12501,6 +11812,114 @@
   ],
   "activity": [
     {
+      "id": "act-5a509e2d",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:52.580Z"
+    },
+    {
+      "id": "act-377bbd4c",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:52.083Z"
+    },
+    {
+      "id": "act-8c020898",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:51.546Z"
+    },
+    {
+      "id": "act-266e4262",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:51.215Z"
+    },
+    {
+      "id": "act-65b6bceb",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:50.881Z"
+    },
+    {
+      "id": "act-89876e0c",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:50.532Z"
+    },
+    {
+      "id": "act-7a195aa3",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:49.982Z"
+    },
+    {
+      "id": "act-86d1b2be",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:49.442Z"
+    },
+    {
+      "id": "act-90b3b65e",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:48.733Z"
+    },
+    {
+      "id": "act-7779b920",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:48.205Z"
+    },
+    {
+      "id": "act-cd69992e",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:47.844Z"
+    },
+    {
+      "id": "act-87e46392",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:47.457Z"
+    },
+    {
+      "id": "act-3beb46b9",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:47.086Z"
+    },
+    {
+      "id": "act-c4ed3988",
+      "type": "lead",
+      "message": "Lead deleted from dashboard",
+      "createdAt": "2026-09-15T10:36:46.654Z"
+    },
+    {
+      "id": "act-96468b31",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-15T10:01:16.032Z"
+    },
+    {
+      "id": "act-f420d8c1",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-14T13:14:13.863Z"
+    },
+    {
+      "id": "act-460d7c70",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-14T13:14:11.859Z"
+    },
+    {
+      "id": "act-7604a127",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-14T13:14:08.804Z"
+    },
+    {
       "id": "act-d333118f",
       "type": "visitor",
       "message": "Visitor opened role-of-white-space-in-website-layouts",
@@ -12751,114 +12170,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-02T06:03:00.953Z"
-    },
-    {
-      "id": "act-9cb2c3d9",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T06:01:55.510Z"
-    },
-    {
-      "id": "act-02c4f541",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T06:01:52.047Z"
-    },
-    {
-      "id": "act-536c1adb",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:59:14.830Z"
-    },
-    {
-      "id": "act-35e9f120",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:59:07.117Z"
-    },
-    {
-      "id": "act-8049a411",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:58:51.697Z"
-    },
-    {
-      "id": "act-c2fd15a0",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:58:49.773Z"
-    },
-    {
-      "id": "act-cfe4e140",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:58:43.859Z"
-    },
-    {
-      "id": "act-8223320c",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:58:29.538Z"
-    },
-    {
-      "id": "act-94ca6e00",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T05:58:23.965Z"
-    },
-    {
-      "id": "act-f07fba87",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:58:21.226Z"
-    },
-    {
-      "id": "act-4e5f598b",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:40.539Z"
-    },
-    {
-      "id": "act-8a9a4ee4",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:40.270Z"
-    },
-    {
-      "id": "act-d8c39f16",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:40.000Z"
-    },
-    {
-      "id": "act-0b6f9e75",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:38.963Z"
-    },
-    {
-      "id": "act-89cf5738",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:36.876Z"
-    },
-    {
-      "id": "act-b22f0b66",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:36.490Z"
-    },
-    {
-      "id": "act-4015f691",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:34.745Z"
-    },
-    {
-      "id": "act-3204d664",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T05:57:31.874Z"
     }
   ],
   "blogViews": {

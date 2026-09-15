@@ -2242,17 +2242,29 @@ function getAnalytics(store) {
     };
 }
 
-async function withStore(mutator) {
-    const store = readStore();
-    ensureHomePageStructure(store);
-    ensureWorkPageStructure(store);
-    ensureGenericPagesStructure(store);
-    pruneTracking(store);
-    pruneBlogViewers(store);
-    const result = await mutator(store);
-    await writeStore(store);
-    broadcast(store);
-    return result;
+// Every persistent mutation goes through this queue.  Without it, two requests
+// can both read the same JSON snapshot and the later write can put data that was
+// removed by the earlier request back into store.json.
+let storeMutationTail = Promise.resolve();
+
+function withStore(mutator) {
+    const operation = storeMutationTail.then(async () => {
+        const store = readStore();
+        ensureHomePageStructure(store);
+        ensureWorkPageStructure(store);
+        ensureGenericPagesStructure(store);
+        pruneTracking(store);
+        pruneBlogViewers(store);
+        const result = await mutator(store);
+        writeStore(store);
+        broadcast(store);
+        return result;
+    });
+
+    // Keep the queue usable after a failed operation while returning the error
+    // to the request that caused it.
+    storeMutationTail = operation.catch(() => {});
+    return operation;
 }
 
 function pruneAdminSessions() {
@@ -2501,24 +2513,27 @@ async function handleApi(req, res, url) {
             });
             return;
         }
-        ensureBlogViews(store);
-        const record = store.blogViews[blogPath] || {
-            count: 0,
-            viewers: {}
-        };
         const viewerHash = crypto.createHash("sha256").update(`${blogPath}:${visitorId}`).digest("hex");
         const now = Date.now();
-        if (!record.viewers[viewerHash] || now - Number(record.viewers[viewerHash]) >= BLOG_VIEW_DEDUPLICATION_MS) {
-            record.count = Math.max(0, Math.floor(Number(record.count) || 0)) + 1;
-            record.viewers[viewerHash] = now;
-        }
-        store.blogViews[blogPath] = record;
-        await writeStore(store);
+        let persistedStore;
+        await withStore(async current => {
+            ensureBlogViews(current);
+            const record = current.blogViews[blogPath] || {
+                count: 0,
+                viewers: {}
+            };
+            if (!record.viewers[viewerHash] || now - Number(record.viewers[viewerHash]) >= BLOG_VIEW_DEDUPLICATION_MS) {
+                record.count = Math.max(0, Math.floor(Number(record.count) || 0)) + 1;
+                record.viewers[viewerHash] = now;
+            }
+            current.blogViews[blogPath] = record;
+            persistedStore = current;
+        });
         sendPublicBlogJson(res, 200, {
             ok: true,
             blog: {
                 path: blogPath,
-                ...getBlogMeta(blog, store)
+                ...getBlogMeta(blog, persistedStore)
             }
         });
         return;
@@ -2545,42 +2560,43 @@ async function handleApi(req, res, url) {
         }
         const sessionId = sanitizeText(body.sessionId) || createId("sess");
         const visitorId = sanitizeText(body.visitorId) || `visitor-${crypto.randomBytes(6).toString("hex")}`;
-        const existing = (store.tracking.sessions || []).find(session => session.id === sessionId);
         const now = nowIso();
-        const nextSession = {
-            id: sessionId,
-            visitorId: visitorId,
-            createdAt: existing?.createdAt || now,
-            lastSeenAt: now,
-            currentPage: sanitizeText(body.page, "/"),
-            path: sanitizeText(body.path, "/"),
-            referrer: sanitizeText(body.referrer, "Direct"),
-            viewport: sanitizeText(body.viewport, "unknown"),
-            device: sanitizeText(body.device, "desktop"),
-            timezone: sanitizeText(body.timezone, existing?.timezone || ""),
-            language: sanitizeText(body.language, existing?.language || ""),
-            locationLabel: sanitizeText(body.locationLabel, existing?.locationLabel || ""),
-            activeSeconds: Number(body.activeSeconds || existing?.activeSeconds || 0),
-            scrollDepth: Number(body.scrollDepth || existing?.scrollDepth || 0),
-            eventCount: Number(existing?.eventCount || 0),
-            pageViews: Number(existing?.pageViews || 0) + 1,
-            userAgent: sanitizeText(req.headers["user-agent"], "unknown"),
-            ip: existing?.ip || getTruncatedIp(req)
-        };
-        const sessions = store.tracking.sessions || [];
-        const index = sessions.findIndex(session => session.id === sessionId);
-        if (index >= 0) {
-            sessions[index] = {
-                ...sessions[index],
-                ...nextSession
+        await withStore(async current => {
+            ensureTrackingStore(current);
+            const existing = (current.tracking.sessions || []).find(session => session.id === sessionId);
+            const nextSession = {
+                id: sessionId,
+                visitorId: visitorId,
+                createdAt: existing?.createdAt || now,
+                lastSeenAt: now,
+                currentPage: sanitizeText(body.page, "/"),
+                path: sanitizeText(body.path, "/"),
+                referrer: sanitizeText(body.referrer, "Direct"),
+                viewport: sanitizeText(body.viewport, "unknown"),
+                device: sanitizeText(body.device, "desktop"),
+                timezone: sanitizeText(body.timezone, existing?.timezone || ""),
+                language: sanitizeText(body.language, existing?.language || ""),
+                locationLabel: sanitizeText(body.locationLabel, existing?.locationLabel || ""),
+                activeSeconds: Number(body.activeSeconds || existing?.activeSeconds || 0),
+                scrollDepth: Number(body.scrollDepth || existing?.scrollDepth || 0),
+                eventCount: Number(existing?.eventCount || 0),
+                pageViews: Number(existing?.pageViews || 0) + 1,
+                userAgent: sanitizeText(req.headers["user-agent"], "unknown"),
+                ip: existing?.ip || getTruncatedIp(req)
             };
-        } else {
-            sessions.unshift(nextSession);
-        }
-        store.tracking.sessions = sessions.slice(0, 300);
-        addActivity(store, `Visitor opened ${nextSession.currentPage}`, "visitor");
-        await writeStore(store);
-        broadcast(store);
+            const sessions = current.tracking.sessions || [];
+            const index = sessions.findIndex(session => session.id === sessionId);
+            if (index >= 0) {
+                sessions[index] = {
+                    ...sessions[index],
+                    ...nextSession
+                };
+            } else {
+                sessions.unshift(nextSession);
+            }
+            current.tracking.sessions = sessions.slice(0, 300);
+            addActivity(current, `Visitor opened ${nextSession.currentPage}`, "visitor");
+        });
         sendJson(res, 200, {
             ok: true,
             sessionId: sessionId
