@@ -3347,6 +3347,7 @@ body.modal-open .navbar {
     visibility: hidden !important
 }
 
+
 @media (max-width:1024px) {
     .video-modal-close {
         top: 20px;

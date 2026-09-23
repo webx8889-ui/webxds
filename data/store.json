@@ -546,6 +546,24 @@
               ]
             },
             {
+              "id": "blog-how-visual-hierarchy-drives-user-attention-webx-design-studio",
+              "title": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
+              "image": "/assets/images/blogs/visual-hierarchy-user-attention-cover.webp",
+              "imageAlt": "Visual hierarchy guide showing a landing page with a clear call to action",
+              "dateLabel": "Date: 23 Sept 26",
+              "dateValue": "2026-09-23",
+              "excerpt": "Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.",
+              "url": "/pages/blogs/how-visual-hierarchy-drives-user-attention.html",
+              "tags": [
+                "visual hierarchy",
+                "user attention",
+                "UX design",
+                "website hierarchy",
+                "UI design principles",
+                "call to action design"
+              ]
+            },
+            {
               "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
               "title": "The Role of White Space in Website Layouts | Webx Design Studio",
               "image": "/assets/images/blogs/white-space-website-layouts-cover.svg",
@@ -880,7 +898,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-18T04:51:26.574Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1080,7 +1098,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-18T04:51:26.574Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1280,7 +1298,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-18T04:51:26.574Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1480,7 +1498,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-18T04:51:26.574Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1680,7 +1698,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-18T04:51:26.574Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1880,7 +1898,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-18T04:51:26.575Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2080,7 +2098,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-18T04:51:26.575Z"
+          "updatedAt": "2026-09-23T06:29:41.444Z"
         }
       ]
     },
@@ -2601,7 +2619,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.578Z"
+      "updatedAt": "2026-09-23T06:29:41.449Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2905,7 +2923,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.580Z"
+      "updatedAt": "2026-09-23T06:29:41.451Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3036,7 +3054,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.583Z"
+      "updatedAt": "2026-09-23T06:29:41.457Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3167,7 +3185,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.583Z"
+      "updatedAt": "2026-09-23T06:29:41.458Z"
     },
     "about": {
       "editorType": "generic",
@@ -3360,7 +3378,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.584Z"
+      "updatedAt": "2026-09-23T06:29:41.460Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3483,7 +3501,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.585Z"
+      "updatedAt": "2026-09-23T06:29:41.461Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3614,7 +3632,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.586Z"
+      "updatedAt": "2026-09-23T06:29:41.462Z"
     },
     "services": {
       "editorType": "generic",
@@ -3811,7 +3829,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.587Z"
+      "updatedAt": "2026-09-23T06:29:41.464Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3956,7 +3974,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.587Z"
+      "updatedAt": "2026-09-23T06:29:41.464Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4101,7 +4119,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.588Z"
+      "updatedAt": "2026-09-23T06:29:41.465Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4966,7 +4984,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.576Z"
+      "updatedAt": "2026-09-23T06:29:41.447Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5161,7 +5179,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.581Z"
+      "updatedAt": "2026-09-23T06:29:41.453Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5356,7 +5374,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-18T04:51:26.583Z"
+      "updatedAt": "2026-09-23T06:29:41.456Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -6732,12 +6750,587 @@
         }
       ],
       "updatedAt": "2026-09-14T13:05:30.384Z"
+    },
+    "how-visual-hierarchy-drives-user-attention": {
+      "editorType": "generic",
+      "path": "/pages/blogs/how-visual-hierarchy-drives-user-attention.html",
+      "title": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
+      "meta": "Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.",
+      "displayName": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <meta charset=\"UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>How Visual Hierarchy Drives User Attention | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.\" />\n  <meta name=\"robots\" content=\"index, follow\" /><meta name=\"author\" content=\"Webx Design Studio\" /><meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"visual hierarchy, user attention, UX design, website hierarchy, UI design principles, call to action design\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/how-visual-hierarchy-drives-user-attention.html\" />\n  <meta property=\"og:type\" content=\"article\" /><meta property=\"og:title\" content=\"How Visual Hierarchy Drives User Attention\" /><meta property=\"og:description\" content=\"A practical guide to making the right message and next action feel obvious.\" /><meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/how-visual-hierarchy-drives-user-attention.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/visual-hierarchy-user-attention-cover.webp\" /><meta property=\"og:image:width\" content=\"1200\" /><meta property=\"og:image:height\" content=\"630\" /><meta property=\"og:image:alt\" content=\"Visual hierarchy guide showing a landing page with a clear call to action\" /><meta property=\"og:site_name\" content=\"Webx Design Studio\" /><meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-09-23\" /><meta property=\"article:modified_time\" content=\"2026-09-23\" /><meta property=\"article:author\" content=\"Webx Design Studio\" /><meta property=\"article:section\" content=\"UX/UI Design\" /><meta property=\"article:tag\" content=\"visual hierarchy\" /><meta property=\"article:tag\" content=\"user attention\" /><meta property=\"article:tag\" content=\"UX design\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" /><meta name=\"twitter:title\" content=\"How Visual Hierarchy Drives User Attention\" /><meta name=\"twitter:description\" content=\"Make the right message and next action feel obvious.\" /><meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/visual-hierarchy-user-attention-cover.webp\" /><meta name=\"twitter:image:alt\" content=\"Visual hierarchy guide showing a landing page with a clear call to action\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" /><link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" /><link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin /><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap\" rel=\"stylesheet\" /><link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" /><link rel=\"preload\" href=\"/assets/images/blogs/visual-hierarchy-user-attention-cover.webp\" as=\"image\" type=\"image/webp\" />\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"How Visual Hierarchy Drives User Attention\",\"description\":\"Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.\",\"image\":[\"https://webxds.com/assets/images/blogs/visual-hierarchy-user-attention-cover.webp\",\"https://webxds.com/assets/images/blogs/visual-hierarchy-scan-path.png\",\"https://webxds.com/assets/images/blogs/visual-hierarchy-emphasis.webp\",\"https://webxds.com/assets/images/blogs/visual-hierarchy-mobile-focus.png\"],\"url\":\"https://webxds.com/pages/blogs/how-visual-hierarchy-drives-user-attention.html\",\"datePublished\":\"2026-09-23\",\"dateModified\":\"2026-09-23\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"visual hierarchy\",\"user attention\",\"UX design\",\"website hierarchy\",\"UI design principles\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/how-visual-hierarchy-drives-user-attention.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"How Visual Hierarchy Drives User Attention\",\"item\":\"https://webxds.com/pages/blogs/how-visual-hierarchy-drives-user-attention.html\"}]}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is visual hierarchy in UX design?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Visual hierarchy is the intentional ordering of interface elements so people notice the most important message, supporting information and next action in a useful sequence.\"}},{\"@type\":\"Question\",\"name\":\"What creates visual hierarchy on a website?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Size, contrast, colour, position, spacing, type weight, imagery and motion can all create hierarchy. The strongest layouts use only a few of these signals at a time.\"}},{\"@type\":\"Question\",\"name\":\"Can visual hierarchy improve conversion?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. When a page makes the value proposition, evidence and primary action easier to find, visitors spend less effort deciding where to look or what to do next.\"}}]}</script>\n  <style>\n    .article-toc{margin:42px 0;padding:26px 28px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:rgba(255,255,255,.045)}.article-toc p{margin:0 0 13px;font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#ff8a53}.article-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px;margin:0;padding-left:20px}.article-toc a{color:#fff;text-decoration:none}.article-toc a:hover{color:#ff8a53}.attention-map{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.attention-map div{padding:22px;border:1px solid rgba(255,255,255,.16);border-radius:14px;background:#282132}.attention-map strong{display:block;margin-bottom:8px;color:#ff8a53;font-size:14px;letter-spacing:.08em;text-transform:uppercase}.attention-map span{color:#fff;font-size:17px;line-height:1.45}.blog-callout{margin:38px 0;padding:27px 30px;border-left:4px solid #ff6b00;border-radius:0 14px 14px 0;background:#2a242e}.blog-callout p{margin:0;color:#fff;font-size:20px;line-height:1.55}.hierarchy-check{margin:30px 0;padding:30px;border-radius:16px;background:#f7f4ff;color:#2b233d}.hierarchy-check h2{margin:0 0 18px;font-size:25px}.hierarchy-check ol{margin:0;padding-left:23px}.hierarchy-check li{margin:11px 0;line-height:1.5}.hierarchy-check strong{color:#d85317}@media(max-width:640px){.article-toc ol,.attention-map{grid-template-columns:1fr}.blog-callout,.hierarchy-check{padding:22px}.blog-callout p{font-size:18px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body></html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-7a889aa1"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-2c7678fb"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-291f27f1"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-d1cf8dff"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-8a670450"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-16a939d5"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-ffd8fda3"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br />experiences<br />together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-visual-hierarchy-drives-user-attention-section-21fef99a"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err);});});}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-7a889aa1",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-2c7678fb",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><span class=\"breadcrumb-current\" aria-current=\"page\">Visual Hierarchy</span></nav></div></section>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-291f27f1",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/visual-hierarchy-user-attention-cover.webp\" alt=\"Visual hierarchy guide showing a landing page with a clear call to action\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-d1cf8dff",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\"><h1 class=\"blog-title\">How Visual Hierarchy Drives User Attention</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">visual hierarchy</span><span class=\"blog-tag\">user attention</span><span class=\"blog-tag\">UX design</span><span class=\"blog-tag\">website conversion</span></div><time class=\"blog-date\" datetime=\"2026-09-23\">Date: 23 Sep 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/how-visual-hierarchy-drives-user-attention.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">Loading views...</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"How Visual Hierarchy Drives User Attention\" /><meta itemprop=\"datePublished\" content=\"2026-09-23\" />\n        <p class=\"blog-intro\">Every page asks people to spend attention. The question is whether the page rewards it with a clear next step—or makes them hunt through equally loud messages, cards, buttons and labels.</p>\n        <p class=\"blog-intro\">Visual hierarchy is how a layout answers that question. It gives information an order: first the promise, then the evidence, then the action. Done well, it feels effortless rather than persuasive.</p>\n        <nav class=\"article-toc\" aria-label=\"On this page\"><p>In this guide</p><ol><li><a href=\"#meaning\">What visual hierarchy does</a></li><li><a href=\"#attention\">How attention moves through a page</a></li><li><a href=\"#tools\">The signals that create emphasis</a></li><li><a href=\"#layout\">Build a useful reading path</a></li><li><a href=\"#cta\">Make calls to action easier to choose</a></li><li><a href=\"#mobile\">Design hierarchy for mobile</a></li><li><a href=\"#audit\">A five-minute hierarchy audit</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"meaning\"><h2 class=\"section-heading\" id=\"meaning\">Visual Hierarchy Is the Order in Which a Page Gets Understood</h2><p class=\"section-text\">People do not read a website from top left to bottom right in a perfectly orderly way. They scan for relevance. Their eyes look for the largest idea, the sharpest contrast, familiar shapes, faces, and anything that appears to promise a useful outcome.</p><p class=\"section-text\">Hierarchy helps you arrange those signals so they support one another. It is not about making every important thing bigger. It is about making the most important thing easiest to notice at the moment it matters.</p><div class=\"attention-map\" aria-label=\"Three levels of visual hierarchy\"><div><strong>Primary</strong><span>The value, task or decision a visitor should understand first.</span></div><div><strong>Secondary</strong><span>The proof and context that make the primary message credible.</span></div><div><strong>Tertiary</strong><span>Helpful detail available when someone needs to go deeper.</span></div></div></section>\n        <aside class=\"blog-callout\" aria-label=\"Key visual hierarchy principle\"><p><strong>One useful question:</strong> if someone gives your page three seconds, can they tell what it is for, why it matters, and where to begin?</p></aside>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"attention\"><h2 class=\"section-heading\" id=\"attention\">Attention Follows a Path, Not a Checklist</h2><p class=\"section-text\">A good page has a sequence. The headline earns the first glance. Supporting copy answers the obvious question. Proof reduces doubt. A call to action offers a next step. Visitors can skip around, but the visual weight still gives them a reliable way back into the story.</p><p class=\"section-text\">When every block competes at the same volume, visitors must create that sequence for themselves. That takes effort, and effort often becomes hesitation.</p></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/visual-hierarchy-scan-path.png\" alt=\"Landing page illustration showing a scan path from headline to call to action and proof\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Use size, placement and space to guide attention from the message to proof and then to the next action.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"tools\"><h2 class=\"section-heading\" id=\"tools\">The Signals That Create Emphasis</h2><p class=\"section-text\">Hierarchy is rarely created by one property alone. A button becomes easier to find when it has contrast, enough room around it, a clear label, and no neighbouring control with the same visual strength. A headline becomes memorable when its size, position and message work together.</p><ul class=\"section-list\"><li><strong style=\"color:#fff;\">Size and scale:</strong> larger elements attract attention first, but a single oversized element can make supporting content feel disconnected.</li><li><strong style=\"color:#fff;\">Contrast:</strong> a change in colour, lightness, weight or shape creates a clear signal. Reserve the strongest contrast for the most valuable moment.</li><li><strong style=\"color:#fff;\">Position:</strong> people notice elements near the start of a reading path and near natural stopping points in a layout.</li><li><strong style=\"color:#fff;\">Space:</strong> an element with room around it feels more important because it has fewer competitors.</li><li><strong style=\"color:#fff;\">Repetition:</strong> consistent components teach visitors what is primary, secondary and optional across the entire site.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/visual-hierarchy-emphasis.webp\" alt=\"Three interface panels comparing low, medium and high visual emphasis\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Priority becomes legible when the visual difference between primary, secondary and supporting content is intentional.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"layout\"><h2 class=\"section-heading\" id=\"layout\">Build the Page Around Decisions, Not Decorations</h2><p class=\"section-text\">Start with the decision you want a visitor to make on that page. It might be to understand a service, compare plans, request a proposal, or add an item to a cart. Then design the content in the order someone needs to see it to make that decision with confidence.</p><ol class=\"section-list\"><li>Write the one sentence a visitor should remember after a quick scan.</li><li>Place the clearest proof directly after or alongside that message.</li><li>Give the primary action a distinct visual neighbourhood.</li><li>Demote links and options that are useful but not needed for this decision.</li><li>Test the layout with realistic content, not short placeholder copy.</li></ol><p class=\"section-text\">This approach often removes more than it adds. The strongest hierarchy usually comes from reducing competing signals, not stacking on another badge, gradient or animation.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"cta\"><h2 class=\"section-heading\" id=\"cta\">Give the Primary Action a Clear Role</h2><p class=\"section-text\">A prominent CTA is not simply a bright button. It is the natural conclusion to the information immediately before it. Its label should describe the outcome, its surrounding copy should resolve the last question, and nearby links should not compete for the same level of urgency.</p><p class=\"section-text\">For example, a service page can use “Book a discovery call” as the primary action and keep “View case studies” as a quieter supporting path. Both are useful, but they do not deserve the same amount of visual emphasis at the same time.</p><aside class=\"blog-callout\" aria-label=\"Call to action tip\"><p><strong>Use one primary action per decision point.</strong> A page can contain several CTAs, but each section should make one next step feel more important than the rest.</p></aside></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"mobile\"><h2 class=\"section-heading\" id=\"mobile\">On Mobile, Hierarchy Has Nowhere to Hide</h2><p class=\"section-text\">Desktop layouts can use columns and generous space to show several ideas at once. On a small screen, content becomes a single vertical sequence. That makes weak priorities obvious: a busy header, repeated buttons, oversized labels and long introductions can push the real point below the fold.</p><p class=\"section-text\">Review mobile as its own experience. Put the most useful content first, keep controls comfortably sized, reduce decorative interruptions, and ensure that every CTA still makes sense with only the surrounding content visible.</p></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/visual-hierarchy-mobile-focus.png\" alt=\"Mobile interface demonstrating one clear headline and one clear call to action\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Small screens reward a focused sequence: one message, relevant proof and one clear action.</figcaption></figure>\n\n        <section class=\"hierarchy-check\" aria-labelledby=\"audit\"><h2 id=\"audit\">A five-minute visual hierarchy audit</h2><ol><li><strong>Squint at the page.</strong> Do the dominant shapes still reveal the headline and main action?</li><li><strong>Remove the colour.</strong> If the interface becomes grayscale, can people still see what is primary?</li><li><strong>Read only headings and buttons.</strong> Do they tell a coherent story and lead to meaningful choices?</li><li><strong>Check one section at a time.</strong> Is there a single element with the strongest emphasis?</li><li><strong>Open it on a phone.</strong> Is the first screen still clear before someone scrolls?</li></ol></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"mistakes\"><h2 class=\"section-heading\" id=\"mistakes\">Common Mistakes That Flatten a Layout</h2><ul class=\"section-list\"><li><strong style=\"color:#fff;\">Making every button primary:</strong> identical bright CTAs force visitors to choose before they understand the page.</li><li><strong style=\"color:#fff;\">Using too many type sizes:</strong> a scale with too many steps creates noise rather than meaningful contrast.</li><li><strong style=\"color:#fff;\">Treating every block as a card:</strong> repeated borders, shadows and backgrounds give low-priority detail the same weight as the main story.</li><li><strong style=\"color:#fff;\">Relying on colour alone:</strong> use scale, weight, labels and space too, so priority survives varied screens and accessibility needs.</li><li><strong style=\"color:#fff;\">Ignoring the content:</strong> hierarchy designed with two-line placeholder cards often fails when real titles and descriptions arrive.</li></ul></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Design for the Next Useful Glance</h2><p class=\"section-text\">Visual hierarchy is not a styling pass at the end of a project. It is a way to respect attention from the first wireframe onward. Each choice about space, type, imagery and contrast tells people what deserves their focus.</p><p class=\"section-text\">Begin with a single page and make its purpose visible in three seconds. Once that decision is clear, use hierarchy to turn every extra detail into support—not competition.</p></section>\n        <section class=\"blog-faq\" aria-labelledby=\"faq\"><h2 id=\"faq\">Frequently asked questions</h2><details><summary>What is visual hierarchy in UX design?</summary><p>It is the intentional ordering of interface elements so people notice the most important message, supporting information and next action in a useful sequence.</p></details><details><summary>What creates visual hierarchy on a website?</summary><p>Size, contrast, colour, position, spacing, type weight, imagery and motion can all create hierarchy. The strongest layouts use only a few of these signals at a time.</p></details><details><summary>Can visual hierarchy improve conversion?</summary><p>Yes. A clearer value proposition, relevant proof and an easy-to-find next action reduce decision friction and help visitors move forward with confidence.</p></details></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-8a670450",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"how-visual-hierarchy-drives-user-attention\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-16a939d5",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to make your website easier to understand?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-ffd8fda3",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Brand Identity</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About</a><a href=\"/pages/main/work.html\">Our Work</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/faq.html\">FAQ</a><a href=\"/pages/main/contact-page.html\">Contact</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Legal<button class=\"footer-toggle\" aria-label=\"Toggle Legal menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a></div></div></div></footer>"
+        },
+        {
+          "id": "how-visual-hierarchy-drives-user-attention-section-21fef99a",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-23T04:43:09.318Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-f1195d942ff9d1a0ccbde0e1",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:29:51.154Z",
+        "lastSeenAt": "2026-09-23T06:29:41.466Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 1575,
+        "scrollDepth": 37,
+        "eventCount": 5,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8c6e067b4b8df1a0ccbdd28e",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:29:47.438Z",
+        "lastSeenAt": "2026-09-23T05:29:50.967Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-870a36efb473681a0ccbdc057",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:29:42.827Z",
+        "lastSeenAt": "2026-09-23T05:29:47.357Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1253610f18f821a0cca6c46e",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:04:36.553Z",
+        "lastSeenAt": "2026-09-23T05:29:37.967Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 840,
+        "scrollDepth": 7,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8acad423788771a0cca6b678",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:04:32.926Z",
+        "lastSeenAt": "2026-09-23T05:04:36.294Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-73cc5cc68420281a0cca4ee15",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:02:36.147Z",
+        "lastSeenAt": "2026-09-23T05:04:32.830Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-73915f6da44f681a0cca4ac0e",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T05:02:19.200Z",
+        "lastSeenAt": "2026-09-23T05:02:19.200Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-eccdd4b4dd79f81a0cc9fa229",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:56:48.973Z",
+        "lastSeenAt": "2026-09-23T05:02:04.416Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 315,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cbfcf5a244c5b1a0cc9f8d5d",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:56:43.655Z",
+        "lastSeenAt": "2026-09-23T04:56:43.655Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d52042725b9b081a0cc9f8bf9",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:56:43.303Z",
+        "lastSeenAt": "2026-09-23T04:56:43.303Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b77716a24ae2c1a0cc9f8864",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:56:42.430Z",
+        "lastSeenAt": "2026-09-23T04:56:42.430Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-744e6eb0e77a481a0cc9f752c",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:56:37.571Z",
+        "lastSeenAt": "2026-09-23T04:56:37.571Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-cb613c589133281a0cc9b8c8c",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:52:21.354Z",
+        "lastSeenAt": "2026-09-23T04:56:21.328Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 240,
+        "scrollDepth": 6,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-12b34ec74aaad1a0cc9b67c8",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:52:11.891Z",
+        "lastSeenAt": "2026-09-23T04:52:11.891Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a38d2364ed221a0cc963a91",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:46:32.627Z",
+        "lastSeenAt": "2026-09-23T04:52:10.995Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
+        "viewport": "1156x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 225,
+        "scrollDepth": 3,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-99f36fbf915e181a0cc94d90d",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:45:02.131Z",
+        "lastSeenAt": "2026-09-23T04:46:17.155Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 75,
+        "scrollDepth": 7,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-67d4da78b98c1a0cc93e183",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:43:58.765Z",
+        "lastSeenAt": "2026-09-23T04:45:01.926Z",
+        "currentPage": "how-visual-hierarchy-drives-user-attention",
+        "path": "/blogs/how-visual-hierarchy-drives-user-attention",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 80,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-71da1d573a14a81a0cc936ff4",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:43:29.687Z",
+        "lastSeenAt": "2026-09-23T04:43:58.579Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 6,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-36d6be84aae2a1a0cc931ff8",
+        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
+        "createdAt": "2026-09-23T04:43:09.284Z",
+        "lastSeenAt": "2026-09-23T04:43:29.531Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 4,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-8108cec264f5781a0b2daea67",
         "visitorId": "24e4fbf2-58c7-4db2-8a2e-175f8660beeb",
@@ -6857,209 +7450,153 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-d02a9ee2c4ad081a0a4837d9a",
-        "visitorId": "1917aa24-46e1-4e55-a25e-9955055a5f8b",
-        "createdAt": "2026-09-15T10:01:16.032Z",
-        "lastSeenAt": "2026-09-15T10:01:16.032Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a833ea06362391a0a00dcbc9",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:14:13.863Z",
-        "lastSeenAt": "2026-09-14T13:32:00.794Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 345,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4373f6d521f171a0a00dc3c4",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:14:11.858Z",
-        "lastSeenAt": "2026-09-14T13:14:11.858Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-218c87b6c3c261a0a00db80d",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:14:08.804Z",
-        "lastSeenAt": "2026-09-14T13:14:11.728Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/role-of-white-space-in-website-layouts",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-239a70111f1b681a0a007f032",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:07:49.976Z",
-        "lastSeenAt": "2026-09-14T13:14:08.649Z",
-        "currentPage": "role-of-white-space-in-website-layouts",
-        "path": "/blogs/role-of-white-space-in-website-layouts",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 210,
-        "scrollDepth": 88,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-14cfc9483ff9f81a0a007d46a",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:07:42.849Z",
-        "lastSeenAt": "2026-09-14T13:07:49.791Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b02539995540981a0a005cec1",
-        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
-        "createdAt": "2026-09-14T13:05:30.385Z",
-        "lastSeenAt": "2026-09-14T13:07:42.734Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 120,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b9c34f5239c8781a0953003fb",
-        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
-        "createdAt": "2026-09-12T10:35:47.101Z",
-        "lastSeenAt": "2026-09-12T13:32:00.015Z",
-        "currentPage": "how-to-design-accessible-websites-wcag-compliance",
-        "path": "/blogs/how-to-design-accessible-websites-wcag-compliance",
-        "referrer": "http://localhost:3001/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 3120,
-        "scrollDepth": 88,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d63ae195c234381a0952fe647",
-        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
-        "createdAt": "2026-09-12T10:35:39.495Z",
-        "lastSeenAt": "2026-09-12T10:35:46.890Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3001/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-49cb23f7a24b081a0952fd8f7",
-        "visitorId": "5557d742-2130-46b7-91a8-058c92c84f2d",
-        "createdAt": "2026-09-12T10:35:36.111Z",
-        "lastSeenAt": "2026-09-12T10:35:39.232Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-c1f86560",
+        "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
+        "page": "home",
+        "type": "click",
+        "target": "button.slider-arrow.slider-next",
+        "text": "→",
+        "createdAt": "2026-09-23T05:30:05.132Z"
+      },
+      {
+        "id": "evt-24aef0f3",
+        "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
+        "page": "home",
+        "type": "click",
+        "target": "button.slider-arrow.slider-prev",
+        "text": "←",
+        "createdAt": "2026-09-23T05:30:04.768Z"
+      },
+      {
+        "id": "evt-770c4117",
+        "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
+        "page": "home",
+        "type": "click",
+        "target": "button.slider-arrow.slider-next",
+        "text": "→",
+        "createdAt": "2026-09-23T05:30:03.940Z"
+      },
+      {
+        "id": "evt-448166c5",
+        "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
+        "page": "home",
+        "type": "click",
+        "target": "button.slider-arrow.slider-prev",
+        "text": "←",
+        "createdAt": "2026-09-23T05:30:03.490Z"
+      },
+      {
+        "id": "evt-fa4021d2",
+        "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
+        "page": "home",
+        "type": "click",
+        "target": "button.slider-arrow.slider-next",
+        "text": "→",
+        "createdAt": "2026-09-23T05:30:02.761Z"
+      },
+      {
+        "id": "evt-0eac8c72",
+        "sessionId": "sess-8c6e067b4b8df1a0ccbdd28e",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-23T05:29:50.967Z"
+      },
+      {
+        "id": "evt-e287ef3e",
+        "sessionId": "sess-870a36efb473681a0ccbdc057",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-23T05:29:47.357Z"
+      },
+      {
+        "id": "evt-a58cf559",
+        "sessionId": "sess-870a36efb473681a0ccbdc057",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-23T05:29:46.279Z"
+      },
+      {
+        "id": "evt-39cb032f",
+        "sessionId": "sess-8acad423788771a0cca6b678",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-23T05:04:36.294Z"
+      },
+      {
+        "id": "evt-d968a48e",
+        "sessionId": "sess-73cc5cc68420281a0cca4ee15",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-23T05:04:32.830Z"
+      },
+      {
+        "id": "evt-7dcf086b",
+        "sessionId": "sess-73cc5cc68420281a0cca4ee15",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-23T05:04:31.701Z"
+      },
+      {
+        "id": "evt-13a94039",
+        "sessionId": "sess-99f36fbf915e181a0cc94d90d",
+        "page": "home",
+        "type": "click",
+        "target": "button.video-modal-close",
+        "text": "",
+        "createdAt": "2026-09-23T04:45:08.331Z"
+      },
+      {
+        "id": "evt-83ad2afb",
+        "sessionId": "sess-67d4da78b98c1a0cc93e183",
+        "page": "how-visual-hierarchy-drives-user-attention",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-09-23T04:45:01.926Z"
+      },
+      {
+        "id": "evt-53c3d790",
+        "sessionId": "sess-71da1d573a14a81a0cc936ff4",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-23T04:43:58.579Z"
+      },
+      {
+        "id": "evt-ee5c9d70",
+        "sessionId": "sess-36d6be84aae2a1a0cc931ff8",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-23T04:43:29.531Z"
+      },
+      {
+        "id": "evt-4251ec31",
+        "sessionId": "sess-36d6be84aae2a1a0cc931ff8",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-23T04:43:28.350Z"
+      },
       {
         "id": "evt-4a898385",
         "sessionId": "sess-8948ff490b20381a0b2dab8f0",
@@ -11415,150 +11952,6 @@
         "target": "button.cta-project-button",
         "text": "CONTINUE",
         "createdAt": "2026-08-02T11:44:38.891Z"
-      },
-      {
-        "id": "evt-925f2743",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:44:38.296Z"
-      },
-      {
-        "id": "evt-3225b167",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:37.330Z"
-      },
-      {
-        "id": "evt-742965ca",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:44:36.557Z"
-      },
-      {
-        "id": "evt-80d7bb8c",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:35.749Z"
-      },
-      {
-        "id": "evt-ae264643",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:44:34.440Z"
-      },
-      {
-        "id": "evt-1ae6f564",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:33.668Z"
-      },
-      {
-        "id": "evt-1ecfb573",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:44:32.239Z"
-      },
-      {
-        "id": "evt-52d74a32",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:31.541Z"
-      },
-      {
-        "id": "evt-6f076bea",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:44:30.276Z"
-      },
-      {
-        "id": "evt-d1087399",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:44:29.282Z"
-      },
-      {
-        "id": "evt-1e573ac3",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:53.378Z"
-      },
-      {
-        "id": "evt-331a6d7a",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:42:52.712Z"
-      },
-      {
-        "id": "evt-4a51f7c6",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:52.180Z"
-      },
-      {
-        "id": "evt-55c4456e",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:42:51.750Z"
-      },
-      {
-        "id": "evt-1c153be7",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:42:51.083Z"
-      },
-      {
-        "id": "evt-8c3ef616",
-        "sessionId": "sess-47fc88e9edab1819fc245a862",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:42:50.521Z"
       }
     ],
     "replays": []
@@ -11828,6 +12221,32 @@
       "sections": []
     },
     {
+      "id": "blog-how-visual-hierarchy-drives-user-attention-webx-design-studio",
+      "title": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
+      "slug": "how-visual-hierarchy-drives-user-attention",
+      "metaTitle": "How Visual Hierarchy Drives User Attention | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.",
+      "image": "/assets/images/blogs/visual-hierarchy-user-attention-cover.webp",
+      "imageAlt": "Visual hierarchy guide showing a landing page with a clear call to action",
+      "dateValue": "2026-09-23",
+      "dateLabel": "Date: 23 Sept 26",
+      "excerpt": "Learn how visual hierarchy directs user attention, reduces decision friction, and makes website content and calls to action easier to understand.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "visual hierarchy",
+        "user attention",
+        "UX design",
+        "website hierarchy",
+        "UI design principles",
+        "call to action design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/how-visual-hierarchy-drives-user-attention.html",
+      "sections": []
+    },
+    {
       "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
       "title": "The Role of White Space in Website Layouts | Webx Design Studio",
       "slug": "role-of-white-space-in-website-layouts",
@@ -11931,6 +12350,120 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-3d045d12",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T05:29:51.187Z"
+    },
+    {
+      "id": "act-1ec277d6",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-23T05:29:47.471Z"
+    },
+    {
+      "id": "act-8c3db719",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T05:29:42.856Z"
+    },
+    {
+      "id": "act-b6b9820b",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T05:04:36.584Z"
+    },
+    {
+      "id": "act-4eb73a2a",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-23T05:04:32.957Z"
+    },
+    {
+      "id": "act-00967cb8",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T05:02:36.177Z"
+    },
+    {
+      "id": "act-ddfee0a1",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T05:02:19.225Z"
+    },
+    {
+      "id": "act-9f5ff7b6",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:56:49.000Z"
+    },
+    {
+      "id": "act-6a7c00ae",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:56:43.685Z"
+    },
+    {
+      "id": "act-d532c4e8",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:56:43.335Z"
+    },
+    {
+      "id": "act-3c3ed4d2",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:56:42.458Z"
+    },
+    {
+      "id": "act-5f15f265",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:56:37.598Z"
+    },
+    {
+      "id": "act-51d333cc",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:52:21.384Z"
+    },
+    {
+      "id": "act-0d17af4d",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:52:11.912Z"
+    },
+    {
+      "id": "act-5122f4dc",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:46:32.660Z"
+    },
+    {
+      "id": "act-1714249a",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:45:02.158Z"
+    },
+    {
+      "id": "act-9f2bb95a",
+      "type": "visitor",
+      "message": "Visitor opened how-visual-hierarchy-drives-user-attention",
+      "createdAt": "2026-09-23T04:43:58.796Z"
+    },
+    {
+      "id": "act-d1543589",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-23T04:43:29.720Z"
+    },
+    {
+      "id": "act-3cfd7421",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-23T04:43:09.319Z"
+    },
     {
       "id": "act-695f58a3",
       "type": "visitor",
@@ -12176,120 +12709,6 @@
       "type": "visitor",
       "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
       "createdAt": "2026-09-08T05:14:08.341Z"
-    },
-    {
-      "id": "act-2e9cc941",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:14:06.318Z"
-    },
-    {
-      "id": "act-8c9854cd",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-08T05:14:04.307Z"
-    },
-    {
-      "id": "act-eae36a0d",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:14:00.875Z"
-    },
-    {
-      "id": "act-c94c21b7",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:13:58.218Z"
-    },
-    {
-      "id": "act-a486f502",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-08T05:13:55.531Z"
-    },
-    {
-      "id": "act-83f2851f",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-08T05:13:51.617Z"
-    },
-    {
-      "id": "act-4ac0d265",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:13:36.686Z"
-    },
-    {
-      "id": "act-32ed945e",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:10:31.598Z"
-    },
-    {
-      "id": "act-ee6a98e1",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-08T05:10:27.937Z"
-    },
-    {
-      "id": "act-5dac7fec",
-      "type": "visitor",
-      "message": "Visitor opened about",
-      "createdAt": "2026-09-08T05:07:02.457Z"
-    },
-    {
-      "id": "act-7a6503f6",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:06:10.918Z"
-    },
-    {
-      "id": "act-66ae43c4",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:05:07.483Z"
-    },
-    {
-      "id": "act-14215a80",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-08T05:04:59.995Z"
-    },
-    {
-      "id": "act-8f3ab59e",
-      "type": "visitor",
-      "message": "Visitor opened gestalt-principles-modern-interface-design",
-      "createdAt": "2026-09-08T05:04:36.652Z"
-    },
-    {
-      "id": "act-f4949175",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-08T05:04:31.878Z"
-    },
-    {
-      "id": "act-9b830bf8",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-08T05:04:27.812Z"
-    },
-    {
-      "id": "act-3c55ad7a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-02T06:09:08.016Z"
-    },
-    {
-      "id": "act-25cace3b",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-02T06:09:02.819Z"
-    },
-    {
-      "id": "act-7d9dffde",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-02T06:08:59.714Z"
     }
   ],
   "blogViews": {
@@ -12328,6 +12747,12 @@
     "/pages/blogs/role-of-white-space-in-website-layouts.html": {
       "count": 1,
       "viewers": {}
+    },
+    "/pages/blogs/how-visual-hierarchy-drives-user-attention.html": {
+      "count": 1,
+      "viewers": {
+        "a998b3718e115de5ca3c678eefce00a51e244712106210b1503021182ffcb03a": 1790138638952
+      }
     }
   }
 }
