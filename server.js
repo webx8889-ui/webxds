@@ -2343,9 +2343,29 @@ const CLEAN_PAGE_PATHS = {
     "/thank-you": "/pages/system/thank-you-page.html"
 };
 
+// Case-study files retain their legacy filenames on disk, while visitors and
+// search engines use short, stable public URLs.
+const WORK_DETAIL_PATHS = {
+    "/work/morphico": "/pages/details/morphico-pdp.html",
+    "/work/arogya-bharat": "/pages/details/ab-pdp.html",
+    "/work/tictax": "/pages/details/tictax-pdp.html",
+    "/work/dharmesh-enterprise": "/pages/details/de-pdp.html",
+    "/work/mecon": "/pages/details/mecon-pdp.html",
+    "/work/gurukrupa": "/pages/details/gurukrupa-pdp.html",
+    "/work/manglam": "/pages/details/manglam-pdp.html"
+};
+
+const LEGACY_WORK_DETAIL_PATHS = Object.fromEntries(Object.entries(WORK_DETAIL_PATHS).flatMap(([cleanPath, filePath]) => [
+    [ filePath, cleanPath ],
+    [ `/${path.posix.basename(filePath)}`, cleanPath ]
+]));
+
 function getCleanPath(requestPath) {
     const decoded = decodeURIComponent(String(requestPath || "/").split("?")[0]);
     if (CLEAN_PAGE_PATHS[decoded]) return CLEAN_PAGE_PATHS[decoded];
+    if (WORK_DETAIL_PATHS[decoded]) return WORK_DETAIL_PATHS[decoded];
+    const workDetail = decoded.match(/^\/work\/([a-z0-9-]+)\/?$/i);
+    if (workDetail) return `/pages/details/${workDetail[1]}.html`;
     const legacyBlogPaths = {
         "/blogs/blog": "/pages/blogs/ai-driven-personalization-ux-design-2026.html",
         "/blogs/blog-3": "/pages/blogs/high-converting-landing-page-2026.html",
@@ -2360,6 +2380,9 @@ function getCanonicalPath(filePath) {
     for (const [clean, file] of Object.entries(CLEAN_PAGE_PATHS)) {
         if (file === filePath) return clean;
     }
+    if (LEGACY_WORK_DETAIL_PATHS[filePath]) return LEGACY_WORK_DETAIL_PATHS[filePath];
+    const workDetail = filePath.match(/^\/pages\/details\/([a-z0-9-]+)\.html$/i);
+    if (workDetail) return `/work/${workDetail[1]}`;
     const blog = filePath.match(/^\/pages\/blogs\/([a-z0-9-]+)\.html$/i);
     return blog ? `/blogs/${blog[1]}` : null;
 }
@@ -2378,7 +2401,10 @@ function rewriteCleanUrls(html) {
     for (const [clean, file] of Object.entries(CLEAN_PAGE_PATHS)) {
         output = output.split(file).join(clean).split(`https://webxds.com${file}`).join(`https://webxds.com${clean}`);
     }
-    return output.replace(/\/pages\/blogs\/blog\.html/gi, "/blogs/ai-driven-personalization-ux-design-2026").replace(/\/pages\/blogs\/blog-3\.html/gi, "/blogs/high-converting-landing-page-2026").replace(/\/pages\/blogs\/blog-4\.html/gi, "/blogs/website-redesign-checklist-2026").replace(/\/pages\/blogs\/([a-z0-9-]+)\.html/gi, "/blogs/$1");
+    for (const [clean, file] of Object.entries(WORK_DETAIL_PATHS)) {
+        output = output.split(`https://webxds.com${file}`).join(`https://webxds.com${clean}`).split(file).join(clean);
+    }
+    return output.replace(/\/pages\/details\/([a-z0-9-]+)\.html/gi, "/work/$1").replace(/\/pages\/blogs\/blog\.html/gi, "/blogs/ai-driven-personalization-ux-design-2026").replace(/\/pages\/blogs\/blog-3\.html/gi, "/blogs/high-converting-landing-page-2026").replace(/\/pages\/blogs\/blog-4\.html/gi, "/blogs/website-redesign-checklist-2026").replace(/\/pages\/blogs\/([a-z0-9-]+)\.html/gi, "/blogs/$1");
 }
 
 function serveFile(reqPath, res, req) {
