@@ -564,6 +564,24 @@
               ]
             },
             {
+              "id": "blog-mobile-first-design-principles-and-execution-webx-design-studio",
+              "title": "Mobile-First Design Principles and Execution | Webx Design Studio",
+              "image": "/assets/images/blogs/mobile-first-design-cover.svg",
+              "imageAlt": "Mobile-first design interface growing into a responsive layout",
+              "dateLabel": "Date: 24 Sept 26",
+              "dateValue": "2026-09-24",
+              "excerpt": "Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.",
+              "url": "/pages/blogs/mobile-first-design-principles-execution.html",
+              "tags": [
+                "mobile-first design",
+                "responsive web design",
+                "mobile UX design",
+                "responsive design principles",
+                "mobile-first workflow",
+                "website design"
+              ]
+            },
+            {
               "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
               "title": "The Role of White Space in Website Layouts | Webx Design Studio",
               "image": "/assets/images/blogs/white-space-website-layouts-cover.svg",
@@ -898,7 +916,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1098,7 +1116,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1298,7 +1316,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1498,7 +1516,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1698,7 +1716,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1898,7 +1916,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2098,7 +2116,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-23T06:29:41.444Z"
+          "updatedAt": "2026-09-24T04:23:58.247Z"
         }
       ]
     },
@@ -2619,7 +2637,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.449Z"
+      "updatedAt": "2026-09-24T04:23:58.251Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2923,7 +2941,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.451Z"
+      "updatedAt": "2026-09-24T04:23:58.253Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3054,7 +3072,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.457Z"
+      "updatedAt": "2026-09-24T04:23:58.258Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3185,7 +3203,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.458Z"
+      "updatedAt": "2026-09-24T04:23:58.259Z"
     },
     "about": {
       "editorType": "generic",
@@ -3378,7 +3396,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.460Z"
+      "updatedAt": "2026-09-24T04:23:58.260Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3501,7 +3519,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.461Z"
+      "updatedAt": "2026-09-24T04:23:58.261Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3632,7 +3650,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.462Z"
+      "updatedAt": "2026-09-24T04:23:58.262Z"
     },
     "services": {
       "editorType": "generic",
@@ -3829,7 +3847,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.464Z"
+      "updatedAt": "2026-09-24T04:23:58.264Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -3974,7 +3992,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.464Z"
+      "updatedAt": "2026-09-24T04:23:58.264Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4119,7 +4137,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.465Z"
+      "updatedAt": "2026-09-24T04:23:58.265Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -4984,7 +5002,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.447Z"
+      "updatedAt": "2026-09-24T04:23:58.249Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5179,7 +5197,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.453Z"
+      "updatedAt": "2026-09-24T04:23:58.256Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5374,7 +5392,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-23T06:29:41.456Z"
+      "updatedAt": "2026-09-24T04:23:58.258Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -6945,12 +6963,511 @@
         }
       ],
       "updatedAt": "2026-09-23T04:43:09.318Z"
+    },
+    "mobile-first-design-principles-execution": {
+      "editorType": "generic",
+      "path": "/pages/blogs/mobile-first-design-principles-execution.html",
+      "title": "Mobile-First Design Principles and Execution | Webx Design Studio",
+      "meta": "Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.",
+      "displayName": "Mobile-First Design Principles and Execution | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Mobile-First Design Principles and Execution | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#fea800\" />\n  <meta name=\"keywords\" content=\"mobile-first design, responsive web design, mobile UX design, responsive design principles, mobile-first workflow, website design\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/mobile-first-design-principles-execution.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Mobile-First Design Principles and Execution\" />\n  <meta property=\"og:description\" content=\"A practical mobile-first playbook for clear content priorities, resilient layouts, and measurable delivery.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/mobile-first-design-principles-execution.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/mobile-first-design-cover.svg\" />\n  <meta property=\"og:image:width\" content=\"1200\" />\n  <meta property=\"og:image:height\" content=\"630\" />\n  <meta property=\"og:image:alt\" content=\"Mobile-first design interface growing into a responsive layout\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-09-24\" />\n  <meta property=\"article:modified_time\" content=\"2026-09-24\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"Web Design\" />\n  <meta property=\"article:tag\" content=\"mobile-first design\" />\n  <meta property=\"article:tag\" content=\"responsive design\" />\n  <meta property=\"article:tag\" content=\"mobile UX\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"Mobile-First Design Principles and Execution\" />\n  <meta name=\"twitter:description\" content=\"A practical mobile-first playbook for clear content priorities and responsive delivery.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/mobile-first-design-cover.svg\" />\n  <meta name=\"twitter:image:alt\" content=\"Mobile-first design interface growing into a responsive layout\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260924-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/mobile-first-design-cover.svg\" as=\"image\" type=\"image/svg+xml\" />\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Mobile-First Design Principles and Execution\",\"description\":\"Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.\",\"image\":[\"https://webxds.com/assets/images/blogs/mobile-first-design-cover.svg\",\"https://webxds.com/assets/images/blogs/mobile-first-content-priority.svg\",\"https://webxds.com/assets/images/blogs/mobile-first-layout-evolution.svg\",\"https://webxds.com/assets/images/blogs/mobile-first-release-loop.svg\"],\"url\":\"https://webxds.com/pages/blogs/mobile-first-design-principles-execution.html\",\"datePublished\":\"2026-09-24\",\"dateModified\":\"2026-09-24\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"mobile-first design\",\"responsive web design\",\"mobile UX design\",\"responsive design principles\",\"mobile-first workflow\"],\"articleSection\":\"Web Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/mobile-first-design-principles-execution.html\"}}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Mobile-First Design Principles and Execution\",\"item\":\"https://webxds.com/pages/blogs/mobile-first-design-principles-execution.html\"}]}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What does mobile-first design mean?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Mobile-first design starts with the smallest screen and most constrained conditions. Teams first decide what content and actions are essential, then progressively enhance the layout as space and capability increase.\"}},{\"@type\":\"Question\",\"name\":\"Is mobile-first the same as making a desktop site responsive?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. A responsive desktop design may rearrange a large-screen layout for mobile. Mobile-first makes small-screen priorities, content hierarchy, touch targets and performance decisions the starting point for the entire system.\"}},{\"@type\":\"Question\",\"name\":\"Which breakpoints should a mobile-first website use?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Choose breakpoints where the content or component needs more room, not because of a specific device model. Test real content and add a layout change only when the current arrangement stops being clear or usable.\"}}]}\n  </script>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-0942d841"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-b8be2f82"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-af1e19dc"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-efc697e8"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-8552c945"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-bbc06830"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-83b4cddb"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br/>experiences<br/>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "mobile-first-design-principles-execution-section-52c20b78"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "mobile-first-design-principles-execution-section-0942d841",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n    <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n      <nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></nav>\n    </section>\n  </header>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-b8be2f82",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Mobile-First Design Guide</span></nav></div></section>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-af1e19dc",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/mobile-first-design-cover.svg\" alt=\"Mobile-first design interface growing into a responsive layout\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-efc697e8",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\">\n        <h1 class=\"blog-title\">Mobile-First Design Principles and Execution</h1>\n        <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">mobile-first design</span><span class=\"blog-tag\">responsive web design</span><span class=\"blog-tag\">mobile UX</span><span class=\"blog-tag\">design systems</span></div><time class=\"blog-date\" datetime=\"2026-09-24\">Date: 24 Sep 26</time></div>\n        <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/how-to-design-accessible-websites-wcag-compliance.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">Loading views...</span></p>\n        <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\n      </header>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\" hidden aria-hidden=\"true\">\n        <meta itemprop=\"headline\" content=\"How to Design Accessible Websites for WCAG Compliance\" /><meta itemprop=\"datePublished\" content=\"2026-09-12\" />\n        <p class=\"blog-intro\">An accessible website is not a smaller version of a great experience. It is a great experience that more people can use: people navigating with a keyboard, using a screen reader, viewing a phone in bright light, recovering from an injury, or simply trying to complete a task quickly.</p>\n        <p class=\"blog-intro\">WCAG gives teams a shared standard for that work. The real goal, however, is more human: make every important journey clear, operable, and dependable for the widest possible range of visitors.</p>\n\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#what-wcag-means\">What WCAG compliance means</a></li><li><a href=\"#pour\">The POUR principles</a></li><li><a href=\"#structure\">Start with structure and content</a></li><li><a href=\"#keyboard\">Keyboard and focus design</a></li><li><a href=\"#colour\">Colour, contrast and type</a></li><li><a href=\"#forms\">Forms, errors and feedback</a></li><li><a href=\"#media\">Images, media and motion</a></li><li><a href=\"#testing\">How to test accessibility</a></li><li><a href=\"#checklist\">Pre-launch checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"what-wcag-means\"><h2 class=\"section-heading\" id=\"what-wcag-means\">What WCAG Compliance Actually Means</h2><p class=\"section-text\">The Web Content Accessibility Guidelines (WCAG) are internationally used recommendations for making web content more accessible. They cover design, content, code, interaction, and compatibility with assistive technology. WCAG 2.2 is the current version most teams reference when planning new work.</p><p class=\"section-text\">Conformance is measured at three levels: A, AA, and AAA. Level AA is the practical target for most public-facing websites. It requires deliberate design choices, but it does not require a separate “accessible version” of the site. The most durable approach is one inclusive experience.</p></section>\n\n        <aside class=\"blog-callout\" aria-label=\"Important accessibility principle\"><h2>Design accessibility in early</h2><p>Accessibility is cheapest and strongest when it starts in the brief, content outline, wireframes, and component library. Retrofitting after launch usually creates avoidable design debt and incomplete fixes.</p></aside>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"pour\"><h2 class=\"section-heading\" id=\"pour\">Use POUR as Your Design Lens</h2><p class=\"section-text\">WCAG is easier to use when you group its requirements around four questions. Can people perceive the information? Operate the interface? Understand what is happening? And rely on the technology to work with their browser or assistive tools?</p><div class=\"wcag-principles\"><div class=\"wcag-principle\"><strong>Perceivable</strong><span>Offer text alternatives, captions, adequate contrast, and information that is not colour-only.</span></div><div class=\"wcag-principle\"><strong>Operable</strong><span>Make controls usable by keyboard and provide enough time, focus visibility, and clear navigation.</span></div><div class=\"wcag-principle\"><strong>Understandable</strong><span>Use predictable patterns, meaningful labels, plain language, and helpful error recovery.</span></div><div class=\"wcag-principle\"><strong>Robust</strong><span>Use semantic HTML so browsers and assistive technologies can interpret the experience reliably.</span></div></div></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-pour-principles.svg\" alt=\"Four WCAG principles: perceivable, operable, understandable and robust\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>POUR keeps accessibility reviews focused on the visitor’s experience instead of a disconnected list of rules.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"structure\"><h2 class=\"section-heading\" id=\"structure\">1. Start with Meaningful Structure and Content</h2><p class=\"section-text\">A screen reader does not see your layout. It reads the semantic structure behind it. Use a single, descriptive <code>h1</code>, then organise ideas with logical heading levels. Prefer native buttons for actions and links for destinations. When the element already exists in HTML, using it usually gives you keyboard and accessibility behaviour for free.</p><p class=\"section-text\">Content design matters just as much. Write specific link text such as “Download the accessibility checklist” instead of “Click here.” Describe the purpose of a form field before someone enters information. Keep instructions next to the control they explain.</p><pre class=\"blog-code-example\" aria-label=\"Semantic HTML example\"><code>&lt;button type=\"button\"&gt;Save changes&lt;/button&gt;\n&lt;a href=\"/pricing\"&gt;View pricing plans&lt;/a&gt;\n&lt;label for=\"email\"&gt;Work email&lt;/label&gt;\n&lt;input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\"&gt;</code></pre></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"keyboard\"><h2 class=\"section-heading\" id=\"keyboard\">2. Make Every Important Task Work with a Keyboard</h2><p class=\"section-text\">Many visitors do not use a mouse all the time, or at all. A keyboard user should be able to reach menus, filters, dialogs, form fields, and calls to action in a predictable order using Tab, Shift + Tab, Enter, Space, and arrow keys where appropriate.</p><ul class=\"section-list\"><li>Keep the visual focus indicator obvious on every interactive element; never remove it without a stronger replacement.</li><li>Match keyboard order to the visual reading order, especially in complex cards, modals, and responsive layouts.</li><li>Include a “Skip to main content” link as the first focusable element for long pages.</li><li>When a dialog opens, move focus into it; when it closes, return focus to the control that opened it.</li><li>Do not create keyboard traps: users must always be able to move away from an element.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-keyboard-focus.svg\" alt=\"Website interface illustrating a visible keyboard focus path through navigation, filter and call to action\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Focus should be high-contrast, consistently styled, and visible wherever a keyboard user lands.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"colour\"><h2 class=\"section-heading\" id=\"colour\">3. Design for Contrast, Not Just Brand Colour</h2><p class=\"section-text\">Colour can support meaning, but it cannot be the only way meaning is communicated. A red field alone does not adequately explain an error; pair it with clear text and an icon or status label. Likewise, charts and filters need labels, patterns, or shapes in addition to colour.</p><p class=\"section-text\">For normal-size text, aim for a contrast ratio of at least 4.5:1 against the background. Large text has a lower threshold of 3:1, and non-text controls need enough contrast to be identifiable. Check every state: default, hover, focus, selected, disabled, error, and dark mode.</p><aside class=\"blog-callout\" aria-label=\"Contrast design tip\"><h2>Contrast is a usability feature</h2><p>Good contrast helps people with low vision, colour-vision differences, tired eyes, low-quality screens, glare, and divided attention. It usually makes an interface feel more confident for everyone.</p></aside></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"forms\"><h2 class=\"section-heading\" id=\"forms\">4. Build Forms That Explain, Prevent, and Recover</h2><p class=\"section-text\">Forms are often where an otherwise accessible site breaks down. Each field needs a visible label, not placeholder text alone. Required fields should be identified before submission. If an error occurs, say what happened, where it happened, and what the visitor should do next.</p><ul class=\"section-list\"><li>Use persistent labels and helpful examples for formats such as dates, phone numbers, and passwords.</li><li>Group related inputs with <code>fieldset</code> and <code>legend</code>, such as a delivery preference or payment method.</li><li>Connect inline errors to the related field and provide an error summary after submission when needed.</li><li>Preserve entered information after a validation error whenever it is safe to do so.</li><li>Use clear action labels: “Create account” is more helpful than a generic “Submit.”</li></ul></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"media\"><h2 class=\"section-heading\" id=\"media\">5. Treat Images, Media, and Motion as Content</h2><p class=\"section-text\">Every meaningful image needs alternative text that conveys its purpose in context. Decorative images should use empty alt text so screen readers can skip them. For complex visuals such as charts or process diagrams, provide a short summary and a nearby detailed explanation in the page content.</p><p class=\"section-text\">Provide captions for prerecorded video, transcripts for audio, and audio description when important visual information is not already spoken. Avoid auto-playing media. For animation, respect the visitor’s reduced-motion preference and never use flashing content that could trigger a seizure.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"testing\"><h2 class=\"section-heading\" id=\"testing\">6. Test the Journey, Not Only the Page</h2><p class=\"section-text\">Automated tools are useful early warnings, not a compliance certificate. Combine them with manual checks on the paths that matter most: finding a service, filtering results, signing up, booking, checking out, and contacting your team. Test with real content, zoomed text, a keyboard, and at least one screen reader.</p><ol class=\"section-list\"><li>Run an automated scan to catch common issues such as missing labels, invalid heading order, and weak contrast.</li><li>Tab through each key journey without touching the mouse. Check focus order, visibility, and dialogs.</li><li>Zoom to 200% and check that content remains readable, usable, and does not require horizontal scrolling on common widths.</li><li>Use a screen reader to review headings, landmarks, links, images, forms, and dynamic error messages.</li><li>Include disabled people in usability research whenever possible; lived experience finds problems a checklist can miss.</li></ol></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/wcag-test-loop.svg\" alt=\"Accessibility delivery loop: design, build, test, fix and monitor\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Accessibility is a continuous quality practice: each release should preserve and improve the experience.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"teams\"><h2 class=\"section-heading\" id=\"teams\">7. Make Accessibility a Team Habit</h2><p class=\"section-text\">The best accessibility outcomes come from shared ownership. Content teams write concise labels and useful alternatives. Designers define focus, error, contrast, and responsive states. Developers use semantic components and test interaction. Product teams make inclusive outcomes part of the definition of done.</p><p class=\"section-text\">Capture your decisions in the design system. A documented button, input, modal, alert, and data table is easier to use correctly across projects than a one-off fix. Add accessibility acceptance criteria to tickets so it is planned and reviewed alongside performance, analytics, and visual polish.</p></section>\n\n        <section class=\"wcag-checklist\" aria-labelledby=\"checklist\"><h2 id=\"checklist\">WCAG-minded pre-launch checklist</h2><ul><li>Every page has a descriptive title, one clear <code>h1</code>, and logical heading hierarchy.</li><li>All important tasks work with keyboard-only navigation and show a visible focus indicator.</li><li>Text, controls, and status messages meet contrast needs in every relevant state.</li><li>Links, buttons, inputs, and errors have names that explain their purpose.</li><li>Images have appropriate alt text; video has captions; audio has a transcript.</li><li>Layouts work at 200% zoom and on narrow screens without losing content or controls.</li><li>Automated checks and manual keyboard/screen-reader tests have been run on core journeys.</li><li>Accessibility issues have an owner, a severity, and a plan for follow-up after launch.</li></ul></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Final Thoughts</h2><p class=\"section-text\">WCAG compliance is not about making a website feel constrained. It is a way to make the product clearer, more resilient, and more welcoming. When semantic structure, visible focus, readable contrast, helpful feedback, and thoughtful testing become normal parts of your process, accessibility stops being an emergency fix.</p><p class=\"section-text\">Start with the one journey that matters most to your visitors. Make it work well without a mouse, without colour alone, and without assumptions about how someone consumes content. Then repeat that standard across the system.</p></section>\n\n        <section class=\"blog-faq\" aria-labelledby=\"faq\"><h2 id=\"faq\">Frequently asked questions</h2><details><summary>What WCAG level should a business website target?</summary><p>For most public-facing websites, WCAG 2.2 Level AA is a practical and widely expected target. It addresses many common barriers while remaining achievable for product teams.</p></details><details><summary>Can automated tools make a website WCAG compliant?</summary><p>No. They help find repeatable technical issues, but they cannot judge clear language, meaningful alt text, reading order, or whether a keyboard user can complete a real task. Manual testing is essential.</p></details><details><summary>Is accessibility only a developer responsibility?</summary><p>No. It is shared by product, content, design, research, and engineering. The most efficient work happens before code, when inclusive needs influence the brief and the interface.</p></details></section>\n      </article>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n        <meta itemprop=\"headline\" content=\"Mobile-First Design Principles and Execution\" /><meta itemprop=\"datePublished\" content=\"2026-09-24\" />\n        <p class=\"blog-intro\">Mobile-first design is not the act of shrinking a desktop page. It is a way of making better product decisions under real constraints: a narrow viewport, a thumb instead of a pointer, patchy connectivity, divided attention, and just enough time to decide whether a page is worth staying on.</p>\n        <p class=\"blog-intro\">When the smallest experience is clear, fast, and complete, larger screens become an opportunity to enhance—not an excuse to hide weak priorities behind more space.</p>\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#mindset\">What mobile-first really means</a></li><li><a href=\"#priorities\">Start with content priority</a></li><li><a href=\"#flows\">Design the critical flow</a></li><li><a href=\"#components\">Build responsive components</a></li><li><a href=\"#performance\">Treat performance as UX</a></li><li><a href=\"#testing\">Test real conditions</a></li><li><a href=\"#checklist\">Execution checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n        <section class=\"blog-page-section\" aria-labelledby=\"mindset\"><h2 class=\"section-heading\" id=\"mindset\">What Mobile-First Design Actually Means</h2><p class=\"section-text\">A mobile-first process begins with the narrowest useful layout. It asks what a visitor came to understand or accomplish, then gives that job an obvious path before adding columns, secondary modules, decorative media, or advanced interaction.</p><p class=\"section-text\">This is different from simply adding media queries at the end of a desktop project. Mobile-first is a content and interaction strategy. It surfaces assumptions early: which action is primary, which copy is essential, what can wait, and how quickly the page needs to become useful.</p></section>\n        <aside class=\"blog-callout\" aria-label=\"Mobile-first design principle\"><h2>Start with a complete small-screen journey</h2><p>If a visitor cannot understand the offer, compare an option, or complete the key action on a phone, extra desktop space will not solve the core experience. Make the small path complete first.</p></aside>\n        <section class=\"blog-page-section\" aria-labelledby=\"priorities\"><h2 class=\"section-heading\" id=\"priorities\">1. Put Content Priority Before Layout</h2><p class=\"section-text\">Small screens force a helpful conversation: what deserves the first scroll? Strong mobile pages introduce one clear value, one primary action, and the minimum context needed to make that action feel safe. Supporting content follows the visitor’s decision, not the team’s desire to say everything at once.</p><ul class=\"section-list\"><li>Lead with the job to be done, not a generic welcome message.</li><li>Give each screen one dominant action and name it clearly.</li><li>Keep trust signals near the point of commitment: price, delivery, proof, privacy, or availability.</li><li>Turn long lists into progressive disclosure only when the hidden detail is genuinely optional.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/mobile-first-content-priority.svg\" alt=\"Three layers of mobile-first content priority: primary decision, essential context, and supporting detail\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Mobile-first content hierarchy puts the visitor’s next decision above supporting detail.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"flows\"><h2 class=\"section-heading\" id=\"flows\">2. Design the Critical Flow, Not Just the First Screen</h2><p class=\"section-text\">A polished hero is only the beginning. Map the first useful journey from entry to completion: find the product, compare choices, add to cart, book a call, save a preference, or send an enquiry. Identify where visitors need reassurance, where they might lose context, and which fields or choices create friction.</p><p class=\"section-text\">Design every state in the flow: loading, empty, error, success, offline, signed-out, and returning. On a mobile connection, a blank wait can feel like failure. A tiny, specific status message is often more valuable than another visual effect.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"components\"><h2 class=\"section-heading\" id=\"components\">3. Build Components That Expand Gracefully</h2><p class=\"section-text\">A good responsive system does not create a different experience at every breakpoint. It preserves the component’s purpose while changing its arrangement. A card may become wider, a comparison may gain columns, and navigation may expose more choices—but the same labels, actions, and information should remain recognisable.</p><pre class=\"blog-code-example\" aria-label=\"Mobile-first CSS example\"><code>/* Start with a focused single-column layout */&#10;.product-grid { display: grid; gap: 16px; }&#10;&#10;@media (min-width: 48rem) {&#10;  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }&#10;}</code></pre></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/mobile-first-layout-evolution.svg\" alt=\"A mobile single-column layout evolving into tablet and desktop grid layouts\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Enhance a stable content model as space grows; do not create three unrelated layouts.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"performance\"><h2 class=\"section-heading\" id=\"performance\">4. Treat Performance as Part of the Interface</h2><p class=\"section-text\">On mobile, speed is experienced as confidence. A fast, stable page gives people feedback that their action worked. A slow, shifting page makes taps feel risky and content hard to read. Design decisions directly affect this: oversized imagery, autoplay video, heavy animation, late-loading fonts, and unstable embed space all erode the experience.</p><ul class=\"section-list\"><li>Use responsive image sizes and reserve image space so the layout does not jump.</li><li>Load the primary content and action first; defer features that do not help the current task.</li><li>Respect reduced-motion preferences and avoid animation that delays interaction.</li><li>Make touch targets comfortably large and preserve entered form information after errors.</li></ul><aside class=\"blog-callout\" aria-label=\"Performance design tip\"><h2>Every kilobyte competes with clarity</h2><p>When a visual, script, or interaction does not move a visitor toward a decision, it has to justify the attention and loading time it asks for.</p></aside></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"testing\"><h2 class=\"section-heading\" id=\"testing\">5. Test Real Conditions, Not Just a Browser Resize</h2><p class=\"section-text\">Dragging a desktop browser narrow is a useful start, not a mobile test. Use real phones when possible. Check the page one-handed, with browser chrome present, on a less-than-perfect network, in bright light, with text enlarged, and after a form error.</p><ol class=\"section-list\"><li>Test the most important task from entry to completion.</li><li>Check the first viewport: can a visitor identify the value and next action without hunting?</li><li>Test touch targets, keyboard behaviour, and content at increased text size.</li><li>Use analytics and research to spot drop-off points, repeated taps, and abandoned forms.</li></ol></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/mobile-first-release-loop.svg\" alt=\"Mobile-first delivery loop showing prioritise, build, test and learn\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Focused delivery and real evidence create the strongest mobile experience.</figcaption></figure>\n        <section class=\"wcag-checklist\" aria-labelledby=\"checklist\"><h2 id=\"checklist\">Mobile-first execution checklist</h2><ul><li>The first screen explains the page’s value and presents one clear next action.</li><li>Every critical task can be completed on a small screen without a workaround.</li><li>Content is ordered by the visitor’s decision, not desktop layout convenience.</li><li>Components have documented small-screen, expanded, loading, empty, error, and focus states.</li><li>Touch targets, contrast, text resizing, keyboard access, and reduced motion are considered.</li><li>Images are correctly sized and the layout remains stable while content loads.</li><li>Breakpoints are chosen when content needs a change—not by a device marketing list.</li><li>Real-device tests and behavioural evidence inform the next release.</li></ul></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Final Thoughts</h2><p class=\"section-text\">Mobile-first design is a discipline of respect: respect for limited space, limited bandwidth, limited attention, and the real contexts in which people use a website. Start with one valuable journey. Make it complete, quick, and calm on the smallest screen. Then let the experience expand with intention—never with clutter.</p></section>\n        <section class=\"blog-faq\" aria-labelledby=\"faq\"><h2 id=\"faq\">Frequently asked questions</h2><details><summary>What does mobile-first design mean?</summary><p>It means starting with the smallest screen and most constrained context, then progressively enhancing the experience as space and capability increase. The goal is a complete, focused mobile journey—not a reduced one.</p></details><details><summary>Is mobile-first the same as responsive design?</summary><p>They work together but are not identical. Responsive design adapts layouts across screen sizes; mobile-first is the strategy of making mobile priorities the foundation from which those layouts grow.</p></details><details><summary>Which breakpoints should a mobile-first website use?</summary><p>Use breakpoints when a component or content group stops being clear at its current width. Test real content and choose a change based on that pressure, rather than targeting a particular phone or tablet model.</p></details></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-8552c945",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"mobile-first-design-principles-execution\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-bbc06830",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Want an inclusive website your customers can use with confidence?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\"/></svg></a></div></section>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-83b4cddb",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Brand Identity</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About</a><a href=\"/pages/main/work.html\">Our Work</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/faq.html\">FAQ</a><a href=\"/pages/main/contact-page.html\">Contact</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Legal<button class=\"footer-toggle\" aria-label=\"Toggle Legal menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a></div></div></div></footer>"
+        },
+        {
+          "id": "mobile-first-design-principles-execution-section-52c20b78",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-24T04:17:51.857Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-c00e14f14d6e41a0d1a64a86",
+        "visitorId": "a5f6506d-3ca2-4ca5-95ef-f680a2bd7bc2",
+        "createdAt": "2026-09-24T04:22:11.420Z",
+        "lastSeenAt": "2026-09-24T04:22:11.420Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5f765614aeed881a0d1a6165f",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:21:58.012Z",
+        "lastSeenAt": "2026-09-24T04:23:58.266Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 120,
+        "scrollDepth": 8,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-62954b72b4c0381a0d1a3898d",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:19:10.894Z",
+        "lastSeenAt": "2026-09-24T04:21:56.266Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 5,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2bd38affe9a1a81a0d1a3885c",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:19:10.596Z",
+        "lastSeenAt": "2026-09-24T04:19:10.596Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a030652f2c73a81a0d1a386e5",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:19:10.221Z",
+        "lastSeenAt": "2026-09-24T04:19:10.221Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-452cc35649ad681a0d1a385ac",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:19:09.903Z",
+        "lastSeenAt": "2026-09-24T04:19:09.903Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b1232244bfc2381a0d1a37db2",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:19:07.862Z",
+        "lastSeenAt": "2026-09-24T04:19:07.862Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-fa8d581ffbaaa81a0d1a30b49",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:38.634Z",
+        "lastSeenAt": "2026-09-24T04:18:53.606Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 50,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-757c25b15aee181a0d1a30276",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:36.314Z",
+        "lastSeenAt": "2026-09-24T04:18:38.493Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3a8eaa2699ef181a0d1a2f4ed",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:32.849Z",
+        "lastSeenAt": "2026-09-24T04:18:36.232Z",
+        "currentPage": "how-visual-hierarchy-drives-user-attention",
+        "path": "/blogs/how-visual-hierarchy-drives-user-attention",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-817ab880dcde081a0d1a2ea35",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:30.107Z",
+        "lastSeenAt": "2026-09-24T04:18:32.766Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/mobile-first-design-principles-execution",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0253bccc7cd691a0d1a2df57",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:27.321Z",
+        "lastSeenAt": "2026-09-24T04:18:30.019Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5140923c24ac381a0d1a29b22",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:18:09.868Z",
+        "lastSeenAt": "2026-09-24T04:18:24.902Z",
+        "currentPage": "mobile-first-design-principles-execution",
+        "path": "/blogs/mobile-first-design-principles-execution",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 8,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6e362090e10041a0d1a26cf8",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:17:58.041Z",
+        "lastSeenAt": "2026-09-24T04:18:09.637Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-404376b15c00081a0d1a25462",
+        "visitorId": "4f24adb2-6591-49f0-98d7-5dd98de7a85f",
+        "createdAt": "2026-09-24T04:17:51.824Z",
+        "lastSeenAt": "2026-09-24T04:17:57.901Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-f1195d942ff9d1a0ccbde0e1",
         "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
@@ -7453,6 +7970,96 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-73c018a6",
+        "sessionId": "sess-fa8d581ffbaaa81a0d1a30b49",
+        "page": "mobile-first-design-principles-execution",
+        "type": "click",
+        "target": "a",
+        "text": "Start with content priority",
+        "createdAt": "2026-09-24T04:18:40.897Z"
+      },
+      {
+        "id": "evt-ba32d852",
+        "sessionId": "sess-757c25b15aee181a0d1a30276",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-24T04:18:38.493Z"
+      },
+      {
+        "id": "evt-c265742b",
+        "sessionId": "sess-3a8eaa2699ef181a0d1a2f4ed",
+        "page": "how-visual-hierarchy-drives-user-attention",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-24T04:18:36.232Z"
+      },
+      {
+        "id": "evt-4233ae20",
+        "sessionId": "sess-3a8eaa2699ef181a0d1a2f4ed",
+        "page": "how-visual-hierarchy-drives-user-attention",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-24T04:18:35.197Z"
+      },
+      {
+        "id": "evt-61b9f125",
+        "sessionId": "sess-817ab880dcde081a0d1a2ea35",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-24T04:18:32.766Z"
+      },
+      {
+        "id": "evt-13de5030",
+        "sessionId": "sess-0253bccc7cd691a0d1a2df57",
+        "page": "mobile-first-design-principles-execution",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-24T04:18:30.019Z"
+      },
+      {
+        "id": "evt-614d5b15",
+        "sessionId": "sess-0253bccc7cd691a0d1a2df57",
+        "page": "mobile-first-design-principles-execution",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-24T04:18:28.882Z"
+      },
+      {
+        "id": "evt-85697f8b",
+        "sessionId": "sess-6e362090e10041a0d1a26cf8",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-24T04:18:09.637Z"
+      },
+      {
+        "id": "evt-568a590a",
+        "sessionId": "sess-404376b15c00081a0d1a25462",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-24T04:17:57.901Z"
+      },
+      {
+        "id": "evt-bb562d4d",
+        "sessionId": "sess-404376b15c00081a0d1a25462",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-24T04:17:56.725Z"
+      },
       {
         "id": "evt-c1f86560",
         "sessionId": "sess-f1195d942ff9d1a0ccbde0e1",
@@ -11862,96 +12469,6 @@
         "target": "button.cta-project-button",
         "text": "CONTINUE",
         "createdAt": "2026-08-02T11:44:50.482Z"
-      },
-      {
-        "id": "evt-32b00feb",
-        "sessionId": "sess-54160e5b995b3819fc24a6bdc",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:44:49.359Z"
-      },
-      {
-        "id": "evt-eaaad420",
-        "sessionId": "sess-54160e5b995b3819fc24a6bdc",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:48.560Z"
-      },
-      {
-        "id": "evt-d78cb37b",
-        "sessionId": "sess-54160e5b995b3819fc24a6bdc",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:44:47.297Z"
-      },
-      {
-        "id": "evt-8eaa4c02",
-        "sessionId": "sess-54160e5b995b3819fc24a6bdc",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:44:46.477Z"
-      },
-      {
-        "id": "evt-13ff9bad",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:44:42.202Z"
-      },
-      {
-        "id": "evt-18e993f2",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:41.474Z"
-      },
-      {
-        "id": "evt-e7884968",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:44:40.980Z"
-      },
-      {
-        "id": "evt-742984ae",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:39.954Z"
-      },
-      {
-        "id": "evt-23f9eae0",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:44:39.466Z"
-      },
-      {
-        "id": "evt-550f9118",
-        "sessionId": "sess-5b82ff69d33419fc24a266e",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:44:38.891Z"
       }
     ],
     "replays": []
@@ -12247,6 +12764,32 @@
       "sections": []
     },
     {
+      "id": "blog-mobile-first-design-principles-and-execution-webx-design-studio",
+      "title": "Mobile-First Design Principles and Execution | Webx Design Studio",
+      "slug": "mobile-first-design-principles-execution",
+      "metaTitle": "Mobile-First Design Principles and Execution | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.",
+      "image": "/assets/images/blogs/mobile-first-design-cover.svg",
+      "imageAlt": "Mobile-first design interface growing into a responsive layout",
+      "dateValue": "2026-09-24",
+      "dateLabel": "Date: 24 Sept 26",
+      "excerpt": "Learn how to execute mobile-first design: prioritise content, design resilient layouts, define responsive rules, test real journeys, and improve with evidence.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "mobile-first design",
+        "responsive web design",
+        "mobile UX design",
+        "responsive design principles",
+        "mobile-first workflow",
+        "website design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/mobile-first-design-principles-execution.html",
+      "sections": []
+    },
+    {
       "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
       "title": "The Role of White Space in Website Layouts | Webx Design Studio",
       "slug": "role-of-white-space-in-website-layouts",
@@ -12350,6 +12893,96 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-3fa7c818",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:22:11.452Z"
+    },
+    {
+      "id": "act-e2eb6a15",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:21:58.028Z"
+    },
+    {
+      "id": "act-7047adf4",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:19:10.922Z"
+    },
+    {
+      "id": "act-98fb017b",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:19:10.625Z"
+    },
+    {
+      "id": "act-e1673235",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:19:10.249Z"
+    },
+    {
+      "id": "act-fa64f07f",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:19:09.933Z"
+    },
+    {
+      "id": "act-fdab48f1",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:19:07.889Z"
+    },
+    {
+      "id": "act-5d0bbcec",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:18:38.660Z"
+    },
+    {
+      "id": "act-2f284e9b",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-24T04:18:36.348Z"
+    },
+    {
+      "id": "act-e664ad96",
+      "type": "visitor",
+      "message": "Visitor opened how-visual-hierarchy-drives-user-attention",
+      "createdAt": "2026-09-24T04:18:32.876Z"
+    },
+    {
+      "id": "act-7aefab35",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-24T04:18:30.135Z"
+    },
+    {
+      "id": "act-41e80c9a",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:18:27.351Z"
+    },
+    {
+      "id": "act-342016a1",
+      "type": "visitor",
+      "message": "Visitor opened mobile-first-design-principles-execution",
+      "createdAt": "2026-09-24T04:18:09.900Z"
+    },
+    {
+      "id": "act-06b8e508",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-24T04:17:58.074Z"
+    },
+    {
+      "id": "act-5cbfb0ce",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-24T04:17:51.858Z"
+    },
     {
       "id": "act-3d045d12",
       "type": "visitor",
@@ -12619,96 +13252,6 @@
       "type": "visitor",
       "message": "Visitor opened blogs",
       "createdAt": "2026-09-14T13:07:42.849Z"
-    },
-    {
-      "id": "act-14494c37",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-14T13:05:30.386Z"
-    },
-    {
-      "id": "act-2b263e82",
-      "type": "visitor",
-      "message": "Visitor opened how-to-design-accessible-websites-wcag-compliance",
-      "createdAt": "2026-09-12T10:35:47.101Z"
-    },
-    {
-      "id": "act-8728f6ad",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-12T10:35:39.495Z"
-    },
-    {
-      "id": "act-2469fb6c",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-12T10:35:36.111Z"
-    },
-    {
-      "id": "act-82d7382f",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-08T05:17:40.971Z"
-    },
-    {
-      "id": "act-281b0b19",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:17:35.247Z"
-    },
-    {
-      "id": "act-886b523f",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:17:33.953Z"
-    },
-    {
-      "id": "act-21d7e5f3",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-08T05:17:31.143Z"
-    },
-    {
-      "id": "act-1ee12f78",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:17:28.761Z"
-    },
-    {
-      "id": "act-8d8b3c73",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:17:20.947Z"
-    },
-    {
-      "id": "act-f860117a",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:15:41.102Z"
-    },
-    {
-      "id": "act-797e9fe7",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:15:40.829Z"
-    },
-    {
-      "id": "act-537f96a7",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:15:38.138Z"
-    },
-    {
-      "id": "act-d3f97cc5",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:15:37.758Z"
-    },
-    {
-      "id": "act-629da644",
-      "type": "visitor",
-      "message": "Visitor opened heuristic-evaluation-methods-for-web-apps",
-      "createdAt": "2026-09-08T05:14:08.341Z"
     }
   ],
   "blogViews": {
@@ -12749,9 +13292,17 @@
       "viewers": {}
     },
     "/pages/blogs/how-visual-hierarchy-drives-user-attention.html": {
-      "count": 1,
+      "count": 2,
       "viewers": {
-        "a998b3718e115de5ca3c678eefce00a51e244712106210b1503021182ffcb03a": 1790138638952
+        "a998b3718e115de5ca3c678eefce00a51e244712106210b1503021182ffcb03a": 1790138638952,
+        "c85622cc3259b8ca99a52f4615a882b2a1ef0287d4dcd4b393fc5f684f4743da": 1790223513027
+      }
+    },
+    "/pages/blogs/mobile-first-design-principles-execution.html": {
+      "count": 2,
+      "viewers": {
+        "096da16404a0af86587c756a8caae64ad4c000f130245b57c8e1dc3910165f37": 1790223490060,
+        "455b4691fe23da8ce376b147097e384b49bc3dec65c3faf52a1a2e54f457271a": 1790223731561
       }
     }
   }
