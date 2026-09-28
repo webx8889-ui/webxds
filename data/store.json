@@ -601,6 +601,24 @@
               ]
             },
             {
+              "id": "blog-the-psychology-of-color-in-digital-products-webx-design-studio",
+              "title": "The Psychology of Color in Digital Products | Webx Design Studio",
+              "image": "/assets/images/blogs/color-psychology-digital-products-cover.webp",
+              "imageAlt": "A vivid color wheel connected to payment and review states, illustrating color as a product signal",
+              "dateLabel": "Date: 28 Sept 26",
+              "dateValue": "2026-09-28",
+              "excerpt": "Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.",
+              "url": "/pages/blogs/psychology-of-color-digital-products.html",
+              "tags": [
+                "color psychology digital products",
+                "color theory UX",
+                "product design color palette",
+                "accessible color contrast",
+                "semantic colors UI",
+                "interface design"
+              ]
+            },
+            {
               "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
               "title": "The Role of White Space in Website Layouts | Webx Design Studio",
               "image": "/assets/images/blogs/white-space-website-layouts-cover.svg",
@@ -935,7 +953,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1135,7 +1153,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1335,7 +1353,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1535,7 +1553,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1735,7 +1753,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1935,7 +1953,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2135,7 +2153,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-26T06:46:48.120Z"
+          "updatedAt": "2026-09-28T05:05:06.494Z"
         }
       ]
     },
@@ -2656,7 +2674,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.123Z"
+      "updatedAt": "2026-09-28T05:05:06.496Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2960,7 +2978,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.124Z"
+      "updatedAt": "2026-09-28T05:05:06.497Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3091,7 +3109,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.129Z"
+      "updatedAt": "2026-09-28T05:05:06.500Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3222,7 +3240,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.129Z"
+      "updatedAt": "2026-09-28T05:05:06.501Z"
     },
     "about": {
       "editorType": "generic",
@@ -3415,7 +3433,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.131Z"
+      "updatedAt": "2026-09-28T05:05:06.502Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3538,7 +3556,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.131Z"
+      "updatedAt": "2026-09-28T05:05:06.502Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3669,7 +3687,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.132Z"
+      "updatedAt": "2026-09-28T05:05:06.503Z"
     },
     "services": {
       "editorType": "generic",
@@ -3866,7 +3884,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.137Z"
+      "updatedAt": "2026-09-28T05:05:06.504Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4011,7 +4029,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.137Z"
+      "updatedAt": "2026-09-28T05:05:06.504Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4156,7 +4174,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.138Z"
+      "updatedAt": "2026-09-28T05:05:06.505Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5021,7 +5039,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.122Z"
+      "updatedAt": "2026-09-28T05:05:06.495Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5216,7 +5234,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.126Z"
+      "updatedAt": "2026-09-28T05:05:06.497Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5411,7 +5429,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-26T06:46:48.128Z"
+      "updatedAt": "2026-09-28T05:05:06.499Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -7380,12 +7398,471 @@
         }
       ],
       "updatedAt": "2026-09-26T06:37:13.154Z"
+    },
+    "psychology-of-color-digital-products": {
+      "editorType": "generic",
+      "path": "/pages/blogs/psychology-of-color-digital-products.html",
+      "title": "The Psychology of Color in Digital Products | Webx Design Studio",
+      "meta": "Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.",
+      "displayName": "The Psychology of Color in Digital Products | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\r\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\r\n  <meta charset=\"UTF-8\" />\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n  <title>The Psychology of Color in Digital Products | Webx Design Studio</title>\r\n  <meta name=\"description\" content=\"Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.\" />\r\n  <meta name=\"robots\" content=\"index, follow\" />\r\n  <meta name=\"author\" content=\"Webx Design Studio\" />\r\n  <meta name=\"theme-color\" content=\"#17211f\" />\r\n  <meta name=\"keywords\" content=\"color psychology digital products, color theory UX, product design color palette, accessible color contrast, semantic colors UI, interface design\" />\r\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/psychology-of-color-digital-products.html\" />\r\n  <meta property=\"og:type\" content=\"article\" />\r\n  <meta property=\"og:title\" content=\"The Psychology of Color in Digital Products\" />\r\n  <meta property=\"og:description\" content=\"Color is more than decoration. Learn to use it as a clear, accessible product signal grounded in context and user research.\" />\r\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/psychology-of-color-digital-products.html\" />\r\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/color-psychology-digital-products-cover.webp\" />\r\n  <meta property=\"og:image:width\" content=\"1200\" /><meta property=\"og:image:height\" content=\"630\" />\r\n  <meta property=\"og:image:alt\" content=\"A vivid color wheel connected to payment and review states, illustrating color as a product signal\" />\r\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" /><meta property=\"og:locale\" content=\"en_IN\" />\r\n  <meta property=\"article:published_time\" content=\"2026-09-28\" /><meta property=\"article:modified_time\" content=\"2026-09-28\" />\r\n  <meta property=\"article:author\" content=\"Webx Design Studio\" /><meta property=\"article:section\" content=\"UX/UI Design\" />\r\n  <meta property=\"article:tag\" content=\"color psychology in UX\" /><meta property=\"article:tag\" content=\"digital product design\" /><meta property=\"article:tag\" content=\"accessible color systems\" /><meta property=\"article:tag\" content=\"UX research\" />\r\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n  <meta name=\"twitter:title\" content=\"The Psychology of Color in Digital Products\" />\r\n  <meta name=\"twitter:description\" content=\"Use color to clarify digital products, support decisions, and include more people.\" />\r\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/color-psychology-digital-products-cover.webp\" />\r\n  <meta name=\"twitter:image:alt\" content=\"A vivid color wheel connected to payment and review states, illustrating color as a product signal\" />\r\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\r\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" /><link rel=\"manifest\" href=\"/manifest.json\" />\r\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap\" rel=\"stylesheet\" />\r\n  <link rel=\"stylesheet\" href=\"/css/style.css\" />\r\n  <link rel=\"preload\" href=\"/assets/images/blogs/color-psychology-digital-products-cover.webp\" as=\"image\" type=\"image/webp\" />\r\n  <script type=\"application/ld+json\">\r\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Psychology of Color in Digital Products\",\"description\":\"Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.\",\"image\":[\"https://webxds.com/assets/images/blogs/color-psychology-digital-products-cover.webp\",\"https://webxds.com/assets/images/blogs/color-psychology-context.png\",\"https://webxds.com/assets/images/blogs/color-psychology-semantic-system.png\",\"https://webxds.com/assets/images/blogs/color-psychology-accessible-contrast.png\",\"https://webxds.com/assets/images/blogs/color-psychology-design-loop.png\"],\"url\":\"https://webxds.com/pages/blogs/psychology-of-color-digital-products.html\",\"datePublished\":\"2026-09-28\",\"dateModified\":\"2026-09-28\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"color psychology in UX\",\"digital product design\",\"accessible color systems\",\"UX research\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/psychology-of-color-digital-products.html\"}}\r\n  </script>\r\n  <script type=\"application/ld+json\">\r\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"The Psychology of Color in Digital Products\",\"item\":\"https://webxds.com/pages/blogs/psychology-of-color-digital-products.html\"}]}\r\n  </script>\r\n  <script type=\"application/ld+json\">\r\n  {\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Does a color always have the same psychological meaning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Associations vary across people, cultures, categories, and situations. Treat color meanings as hypotheses to research with the people and context your product serves.\"}},{\"@type\":\"Question\",\"name\":\"How many colors should a digital product use?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"There is no universal number. Start with a restrained set of brand and neutral colors, then add semantic roles only when they clarify a distinct state or action. Define and document each role.\"}},{\"@type\":\"Question\",\"name\":\"Can color alone communicate an error or success?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It should not. Pair color with a clear label, icon or shape, and a useful next action so the state remains understandable when color perception differs.\"}},{\"@type\":\"Question\",\"name\":\"What contrast ratio should product teams target?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WCAG 2.2 AA calls for at least 4.5:1 for normal text and 3:1 for large text. Meaningful interface components and graphical objects generally need 3:1 against adjacent colors. Check actual rendered states, not only palette swatches.\"}}]}\r\n  </script>\r\n</head>\r\n<body>",
+      "templateEnd": "</body>\r\n</html>",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-57206e96"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-66af2a4e"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-912a722b"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-0c29375f"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-a7da5461"
+        },
+        {
+          "type": "static",
+          "html": "\r\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-372b1914"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-ff9f06b2"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Terms &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br/>experiences<br/>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "psychology-of-color-digital-products-section-c71be6cb"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\r\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "psychology-of-color-digital-products-section-57206e96",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-66af2a4e",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&#8250;</span><span class=\"breadcrumb-current\" aria-current=\"page\">The Psychology of Color</span></nav></div></section>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-912a722b",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/color-psychology-digital-products-cover.webp\" alt=\"A vivid color wheel connected to payment and review states, illustrating color as a product signal\" class=\"blog-hero-image\" width=\"1200\" height=\"630\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-0c29375f",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\r\n      <header class=\"blog-header\">\r\n        <h1 class=\"blog-title\">The Psychology of Color in Digital Products</h1>\r\n        <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">color psychology in UX</span><span class=\"blog-tag\">digital product design</span><span class=\"blog-tag\">accessible color systems</span></div><time class=\"blog-date\" datetime=\"2026-09-28\">Date: 28 Sep 26</time></div>\r\n        <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/psychology-of-color-digital-products.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&#8226;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p>\r\n        <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\r\n      </header>\r\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\r\n        <meta itemprop=\"headline\" content=\"The Psychology of Color in Digital Products\" /><meta itemprop=\"datePublished\" content=\"2026-09-28\" />\r\n        <p class=\"blog-intro\">A color choice can make a button easier to find, a warning harder to miss, or a screen feel unexpectedly calm. But color does not carry a fixed message on its own. Its meaning is shaped by the task, the surrounding interface, the person using it, and what they have learned to expect.</p>\r\n        <p class=\"blog-intro\">That makes color a product decision, not merely a branding flourish. Used deliberately, it helps people scan, compare, understand status, and act with confidence. Used carelessly, it can add noise, imply the wrong thing, or make important information inaccessible.</p>\r\n        <p class=\"blog-intro\">This guide moves from color psychology to practical interface decisions: how to research associations, build a semantic color system, design accessible states, and test whether the palette is helping people complete real tasks.</p>\r\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#psychology\">What color psychology can and cannot tell you</a></li><li><a href=\"#perception\">How people perceive color in an interface</a></li><li><a href=\"#roles\">Give colors clear product roles</a></li><li><a href=\"#palette\">Build a palette that earns its place</a></li><li><a href=\"#states\">Use color to communicate product states</a></li><li><a href=\"#accessibility\">Make the system accessible</a></li><li><a href=\"#context\">Account for culture, context, and theme</a></li><li><a href=\"#research\">Research and test color choices</a></li><li><a href=\"#measurement\">Measure whether color is working</a></li><li><a href=\"#workflow\">A practical color-design workflow</a></li><li><a href=\"#checklist\">Color system checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"psychology\"><h2 class=\"section-heading\" id=\"psychology\">What Color Psychology Can and Cannot Tell You</h2><p class=\"section-text\">Color psychology studies how color may influence perception, emotion, attention, and behavior. It gives teams useful questions to explore: Does this accent make the primary action stand out? Does a success state feel reassuring? Does an alert create urgency that the situation does not deserve?</p><p class=\"section-text\">It cannot provide a universal lookup table where red always means danger, blue always means trust, or green always means success. Associations shift with culture, experience, industry, lighting, combinations, and the words beside them. A saturated red can mean a destructive action in one product and a familiar brand cue in another.</p><p class=\"section-text\">Treat an association as a hypothesis, then test it in the interface with the people who use it. The goal is not to make everyone feel the same emotion. It is to make the intended information easier to recognize without creating a misleading signal.</p></section>\r\n        <aside class=\"blog-callout\" aria-label=\"Color design principle\"><h2>Start with the job, not the shade</h2><p>Before choosing a hex value, name what the color must help someone notice, understand, or do. If the job is unclear, a more fashionable palette will not make the experience clearer.</p></aside>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"perception\"><h2 class=\"section-heading\" id=\"perception\">How People Perceive Color in an Interface</h2><p class=\"section-text\">People rarely interpret an interface color in isolation. They see it against nearby surfaces, beside labels and icons, within a hierarchy, and in the context of a task. A warm accent used sparingly on a neutral page may signal the primary action; repeat it on every card, badge, and button and it loses its ability to prioritize.</p><ul class=\"section-list\"><li><strong>Contrast directs attention:</strong> meaningful differences in lightness or saturation can draw the eye, but competing accents flatten hierarchy.</li><li><strong>Repetition builds learned meaning:</strong> consistent use helps people predict what a control or state will do.</li><li><strong>Surroundings change appearance:</strong> a swatch can look different beside another hue, on a bright display, or in a dark environment.</li><li><strong>Labels frame interpretation:</strong> words such as “Saved,” “Review,” or “Payment failed” clarify a cue and reduce ambiguity.</li></ul><p class=\"section-text\">Color is strongest when it reinforces structure already present in the interface. It should not be asked to rescue unclear copy, a confusing flow, or a missing explanation.</p></section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/color-psychology-context.png\" alt=\"Three product color examples for energy, reassurance, and caution, framed as research questions rather than universal meanings\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Associations are useful prompts for research. Audience, category, culture, and task shape the answer.</figcaption></figure>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"roles\"><h2 class=\"section-heading\" id=\"roles\">Give Colors Clear Product Roles</h2><p class=\"section-text\">A robust interface palette is a small language. Each color has a role, the role stays consistent, and color plus content communicates what is happening. This is more dependable than assigning a decorative color to every component.</p><ul class=\"section-list\"><li><strong>Brand colors</strong> express identity, but do not automatically pass contrast checks or work for every action.</li><li><strong>Neutral colors</strong> support reading, layout, surfaces, separators, and secondary content.</li><li><strong>Action colors</strong> distinguish primary, secondary, and destructive actions without relying on hue alone.</li><li><strong>Semantic colors</strong> communicate success, caution, error, and information consistently.</li><li><strong>Data colors</strong> distinguish values in charts and need intentional sequences and non-color cues.</li></ul><p class=\"section-text\">Name tokens by role, such as <strong>text-primary</strong>, <strong>surface-raised</strong>, <strong>action-primary</strong>, or <strong>status-warning</strong>, rather than appearance alone. Role-based tokens make themes and contrast improvements easier to maintain.</p></section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/color-psychology-semantic-system.png\" alt=\"A product interface uses consistent success, caution, error, and information colors with clear labels, icons, and next actions\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>A semantic system connects the visual cue to a named state and a useful next action.</figcaption></figure>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"palette\"><h2 class=\"section-heading\" id=\"palette\">Build a Palette That Earns Its Place</h2><p class=\"section-text\">Begin with the interface’s jobs: reading, navigation, selection, confirmation, alerts, and data comparison. Build a compact set around those jobs, then test combinations that appear together. A palette is not finished when every swatch looks attractive in a design file; it is finished when roles stay clear in real screens and states.</p><ol class=\"section-list\"><li><strong>Choose a base:</strong> define surfaces and text colors before adding accents.</li><li><strong>Set an action hierarchy:</strong> reserve the strongest accent for the most important action.</li><li><strong>Create tonal steps:</strong> provide values for backgrounds, borders, text, hover, focus, and pressed states.</li><li><strong>Check combinations:</strong> test text on surfaces, icons beside labels, and controls in every interaction state.</li><li><strong>Document intent:</strong> state where a token belongs, where it does not, and which pairings are verified.</li></ol><p class=\"section-text\">This prevents meaning drift, such as a brand accent becoming an error color simply because it was the closest available red.</p></section>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"states\"><h2 class=\"section-heading\" id=\"states\">Use Color to Communicate Product States</h2><p class=\"section-text\">Status color helps people scan a dense screen quickly. It is also easy to misuse. If every notification is bright, people stop distinguishing urgent failures from routine updates. If success appears before an action is complete, the interface breaks trust.</p><p class=\"section-text\">Pair each state with a plain-language label and a next step. A completed payment might use a calm success color, a check icon, “Payment complete,” and a receipt action. An error should identify what failed, explain what remains safe, and offer a repair path. A warning should say what could change and how to review it.</p><ul class=\"section-list\"><li>Use success for a confirmed outcome, not an action still in progress.</li><li>Use caution when a decision is genuinely needed, and explain why.</li><li>Use error for a real failure, with recovery wherever possible.</li><li>Use informational styling for updates that do not need alarm.</li><li>Keep status meaning stable across pages, devices, charts, and notifications.</li></ul></section>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"accessibility\"><h2 class=\"section-heading\" id=\"accessibility\">Make the System Accessible</h2><p class=\"section-text\">A useful palette must work across different vision, devices, environments, and ways of interacting. Color must never be the only way to identify an error, selected option, required field, chart series, or successful action. Pair it with text, shape, iconography, position, or a clear pattern.</p><p class=\"section-text\">Check contrast in context. WCAG 2.2 AA requires at least 4.5:1 for normal text and 3:1 for large text. Meaningful graphical objects and interface components generally need 3:1 against adjacent colors. Verify the rendered component: transparency, overlays, gradients, and state changes can alter the effective pair.</p><p class=\"section-text\">Do not stop at the default state. Test hover, keyboard focus, pressed, selected, disabled, error, and validation states. Confirm focus remains visible and text remains legible at zoom and on small screens. Automated checks help, but they do not replace a keyboard pass or task test with people.</p></section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/color-psychology-accessible-contrast.png\" alt=\"Comparison of a low-contrast yellow interface with a clearer dark-green interface that uses a text label and check icon\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Contrast supports legibility; labels and icons keep meaning available when color perception differs.</figcaption></figure>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"context\"><h2 class=\"section-heading\" id=\"context\">Account for Culture, Context, and Theme</h2><p class=\"section-text\">A product may serve people with different cultural references, category expectations, and familiarity. Even within one audience, the same shade can feel playful in shopping and alarming in a financial workflow. Ask people how they interpret the actual screen instead of asking them to assign abstract emotions to isolated swatches.</p><p class=\"section-text\">Dark and light themes also change color roles. A hue that works as a bright background may need a different lightness as text. Define theme-aware semantic tokens, keep controls legible, and avoid simply inverting every value. Check charts, focus rings, and elevation alongside the main interface.</p><p class=\"section-text\">Personalization deserves care. Do not infer sensitive traits or emotional states from color preference. Make theme choices understandable and reversible, and preserve contrast and status meaning in every option.</p></section>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"research\"><h2 class=\"section-heading\" id=\"research\">Research and Test Color Choices</h2><p class=\"section-text\">A preference poll can tell you which option someone likes in a moment. It cannot prove that the color makes a task clearer, reduces mistakes, or improves trust. Test a realistic screen and measure what people understand and do.</p><ol class=\"section-list\"><li><strong>Start with an observation:</strong> note where people overlook an action, misread a status, or hesitate.</li><li><strong>Write a hypothesis:</strong> for example, “A persistent selected-state treatment will distinguish chosen filters from available filters.”</li><li><strong>Change one meaningful variable:</strong> keep task, wording, and layout stable enough to interpret the result.</li><li><strong>Test representative use:</strong> include different devices, display conditions, and color-vision needs.</li><li><strong>Combine evidence:</strong> observe task completion and errors, ask what the state meant, and check contrast and focus.</li></ol><p class=\"section-text\">A/B tests can help when traffic and outcomes are clear, but can reward short-term clicks while obscuring confusion or exclusion. Pair behavior with task quality and qualitative feedback.</p></section>\r\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/color-psychology-design-loop.png\" alt=\"Five-step color design process from research and definition to prototype, test, and refinement\" width=\"1200\" height=\"720\" loading=\"lazy\" /><figcaption>Test whether people understand the state and complete the task, then refine the system.</figcaption></figure>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"measurement\"><h2 class=\"section-heading\" id=\"measurement\">Measure Whether Color Is Working</h2><p class=\"section-text\">Color has no single success metric. Choose signals that match the product job and evaluate them alongside accessibility and task quality.</p><ul class=\"section-list\"><li><strong>Discoverability:</strong> can people find the primary action without searching?</li><li><strong>Comprehension:</strong> can they explain a status, selection, or chart?</li><li><strong>Decision quality:</strong> do they choose for the right reason, not just click the brightest control?</li><li><strong>Error and recovery:</strong> do cues prevent mistakes and help people get back on track?</li><li><strong>Inclusive completion:</strong> can people using different displays, vision, and input methods finish?</li><li><strong>Consistency:</strong> is the same status recognized across journeys and themes?</li></ul><p class=\"section-text\">Compare against a baseline and investigate unexpected differences. More clicks are not a win if people are less certain about what they agreed to.</p></section>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"workflow\"><h2 class=\"section-heading\" id=\"workflow\">A Practical Color-Design Workflow</h2><p class=\"section-text\">Bring design, product, engineering, content, and accessibility perspectives together early. A short, repeatable process prevents color from being decided at the last minute and makes the system easier to maintain.</p><ol class=\"section-list\"><li>Map product states and the decisions people need to make.</li><li>Audit existing colors, including charts, alerts, and legacy screens.</li><li>Define role-based tokens and document purpose and constraints.</li><li>Prototype actual components in light and dark themes and interaction states.</li><li>Check contrast, keyboard focus, non-color cues, and responsive behavior.</li><li>Test a real task; record comprehension, errors, and confidence.</li><li>Ship a focused improvement, monitor it, and update documentation.</li></ol><p class=\"section-text\">The outcome should be a shared design language, not a frozen palette. A well-named system makes future improvements safer to apply.</p></section>\r\n\r\n        <section class=\"wcag-checklist\" aria-labelledby=\"checklist\"><h2 id=\"checklist\">Color System Checklist</h2><ul><li>Does every color have a clear, documented product role?</li><li>Are associations treated as hypotheses grounded in audience and task?</li><li>Can users understand actions and states without color alone?</li><li>Have text, icons, controls, and focus indicators been checked in context?</li><li>Are success, warning, error, and information states used consistently?</li><li>Do themes preserve hierarchy, contrast, and semantic meaning?</li><li>Have charts been checked for distinguishable data series?</li><li>Does research measure comprehension and outcomes, not preference alone?</li><li>Can people recover from an error and understand what happens next?</li></ul></section>\r\n\r\n        <section class=\"blog-page-section\" aria-labelledby=\"final-thoughts\"><h2 class=\"section-heading\" id=\"final-thoughts\">Color Should Make the Product Easier to Read</h2><p class=\"section-text\">Color psychology is most useful when it makes a product decision more thoughtful. It helps teams ask what people should notice, what a state means, and whether a cue is clear to the people who need it.</p><p class=\"section-text\">Start with context. Give colors stable roles. Pair them with words and structure, verify contrast, and test real tasks. When color supports comprehension instead of competing for attention, the whole product becomes easier to use. <a href=\"/pages/main/contact-page.html\" style=\"color:#00d4ff;text-decoration:underline\">Talk with Webx Design Studio</a> about building a clearer digital product.</p></section>\r\n\r\n        <section class=\"blog-faq\" id=\"faq\" aria-labelledby=\"faq-heading\"><h2 id=\"faq-heading\">Frequently asked questions</h2><details><summary>Does a color always have the same psychological meaning?</summary><p>No. Associations vary across people, cultures, categories, and situations. Treat color meanings as hypotheses to research with the people and context your product serves.</p></details><details><summary>How many colors should a digital product use?</summary><p>There is no universal number. Start with a restrained set of brand and neutral colors, then add semantic roles only when they clarify a distinct state or action. Define and document each role.</p></details><details><summary>Can color alone communicate an error or success?</summary><p>It should not. Pair color with a clear label, icon or shape, and a useful next action so the state remains understandable when color perception differs.</p></details><details><summary>What contrast ratio should product teams target?</summary><p>WCAG 2.2 AA calls for at least 4.5:1 for normal text and 3:1 for large text. Meaningful interface components and graphical objects generally need 3:1 against adjacent colors. Check actual rendered states, not only palette swatches.</p></details></section>\r\n      </article>\r\n    </div></section>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-a7da5461",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"psychology-of-color-digital-products\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-372b1914",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to make every product detail feel intentional?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\"/></svg></a></div></section>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-ff9f06b2",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"/></a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/main/work.html\">Our Work</a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Legal</h3><div class=\"footer-links\"><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a></div></div><div class=\"footer-bottom\"><p>&copy; 2026 Webx Design Studio. All rights reserved.</p></div></div></footer>"
+        },
+        {
+          "id": "psychology-of-color-digital-products-section-c71be6cb",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-28T05:02:49.603Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-79fb2c347e62a1a0e6651350",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T05:02:58.930Z",
+        "lastSeenAt": "2026-09-28T05:05:06.505Z",
+        "currentPage": "psychology-of-color-digital-products",
+        "path": "/blogs/psychology-of-color-digital-products",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 100,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c5c92519f10891a0e664fa82",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T05:02:52.579Z",
+        "lastSeenAt": "2026-09-28T05:02:58.822Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-29fc90c7532f51a0e664eeab",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T05:02:49.583Z",
+        "lastSeenAt": "2026-09-28T05:02:52.483Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-12b93503fec271a0e65aa081",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:51:34.228Z",
+        "lastSeenAt": "2026-09-28T05:02:06.494Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 420,
+        "scrollDepth": 67,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-66034c05e14f91a0e65a943f",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:51:31.038Z",
+        "lastSeenAt": "2026-09-28T04:51:31.038Z",
+        "currentPage": "future-of-ux-better-experiences",
+        "path": "/blogs/future-of-ux-better-experiences",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-14b3d6127c61681a0e659e7a1",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:50:46.850Z",
+        "lastSeenAt": "2026-09-28T04:51:30.939Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6f944ccef49d71a0e659b1bd",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:50:33.049Z",
+        "lastSeenAt": "2026-09-28T04:50:33.049Z",
+        "currentPage": "future-of-ux-better-experiences",
+        "path": "/blogs/future-of-ux-better-experiences",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-1adddbfc136461a0e6597d57",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:50:19.642Z",
+        "lastSeenAt": "2026-09-28T04:50:35.089Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 7,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-180556531638a1a0e6597bc9",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:50:19.244Z",
+        "lastSeenAt": "2026-09-28T04:50:19.244Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e653969c8d22f81a0e6595be0",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:50:11.064Z",
+        "lastSeenAt": "2026-09-28T04:50:11.064Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a78b87118d08481a0e6562fc0",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:46:43.172Z",
+        "lastSeenAt": "2026-09-28T04:46:43.172Z",
+        "currentPage": "future-of-ux-better-experiences",
+        "path": "/blogs/future-of-ux-better-experiences",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-eee9e8cafa93a1a0e655e99e",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:46:25.217Z",
+        "lastSeenAt": "2026-09-28T04:50:10.231Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 84,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2857a3fc6ace21a0e655d34c",
+        "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
+        "createdAt": "2026-09-28T04:46:19.506Z",
+        "lastSeenAt": "2026-09-28T04:46:25.115Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-5eac6c5c10c6381a0dc73f5b0",
         "visitorId": "bd049a1e-0633-4fa9-93ef-9b3624facf22",
@@ -7450,7 +7927,7 @@
         "id": "sess-594687950a8781a0dc6f4912",
         "visitorId": "b26ff99a-94df-40ea-99e5-aaa168349e35",
         "createdAt": "2026-09-26T06:37:55.914Z",
-        "lastSeenAt": "2026-09-26T06:46:41.138Z",
+        "lastSeenAt": "2026-09-26T06:53:08.166Z",
         "currentPage": "home",
         "path": "/",
         "referrer": "http://localhost:3000/blogs/future-of-ux-better-experiences",
@@ -7459,7 +7936,7 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 525,
+        "activeSeconds": 630,
         "scrollDepth": 41,
         "eventCount": 0,
         "pageViews": 1,
@@ -8548,6 +9025,87 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-d0d96500",
+        "sessionId": "sess-79fb2c347e62a1a0e6651350",
+        "page": "psychology-of-color-digital-products",
+        "type": "click",
+        "target": "a",
+        "text": "Color system checklist",
+        "createdAt": "2026-09-28T05:03:04.462Z"
+      },
+      {
+        "id": "evt-16c2cc86",
+        "sessionId": "sess-c5c92519f10891a0e664fa82",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-28T05:02:58.822Z"
+      },
+      {
+        "id": "evt-71dec207",
+        "sessionId": "sess-29fc90c7532f51a0e664eeab",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-28T05:02:52.483Z"
+      },
+      {
+        "id": "evt-3c324e4e",
+        "sessionId": "sess-29fc90c7532f51a0e664eeab",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-28T05:02:51.348Z"
+      },
+      {
+        "id": "evt-4f405648",
+        "sessionId": "sess-14b3d6127c61681a0e659e7a1",
+        "page": "home",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-28T04:51:30.939Z"
+      },
+      {
+        "id": "evt-11954868",
+        "sessionId": "sess-1adddbfc136461a0e6597d57",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-28T04:50:32.923Z"
+      },
+      {
+        "id": "evt-6b966a22",
+        "sessionId": "sess-eee9e8cafa93a1a0e655e99e",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-28T04:46:43.056Z"
+      },
+      {
+        "id": "evt-12f3ba72",
+        "sessionId": "sess-2857a3fc6ace21a0e655d34c",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-28T04:46:25.115Z"
+      },
+      {
+        "id": "evt-9bc3e257",
+        "sessionId": "sess-2857a3fc6ace21a0e655d34c",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-28T04:46:24.096Z"
+      },
       {
         "id": "evt-88d7c7ca",
         "sessionId": "sess-1fc161e3bbea41a0dc7084ee",
@@ -12966,87 +13524,6 @@
         "target": "input.cta-project-input",
         "text": "",
         "createdAt": "2026-08-02T11:51:42.992Z"
-      },
-      {
-        "id": "evt-6ea8d120",
-        "sessionId": "sess-59cf6def4fb5e19fc250b7b5",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-02T11:51:42.307Z"
-      },
-      {
-        "id": "evt-d0c86dde",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:51:35.398Z"
-      },
-      {
-        "id": "evt-a956291b",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button.cta-project-button-secondary",
-        "text": "BACK",
-        "createdAt": "2026-08-02T11:51:34.735Z"
-      },
-      {
-        "id": "evt-46d4c136",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:51:26.568Z"
-      },
-      {
-        "id": "evt-1fad5c87",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:51:25.153Z"
-      },
-      {
-        "id": "evt-9a732bd7",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:51:24.560Z"
-      },
-      {
-        "id": "evt-bf128cf6",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:51:22.787Z"
-      },
-      {
-        "id": "evt-2c943f6d",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:51:22.121Z"
-      },
-      {
-        "id": "evt-cec4f328",
-        "sessionId": "sess-cbb66d854099c19fc250699b",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:51:20.930Z"
       }
     ],
     "replays": []
@@ -13395,6 +13872,32 @@
       "sections": []
     },
     {
+      "id": "blog-the-psychology-of-color-in-digital-products-webx-design-studio",
+      "title": "The Psychology of Color in Digital Products | Webx Design Studio",
+      "slug": "psychology-of-color-digital-products",
+      "metaTitle": "The Psychology of Color in Digital Products | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.",
+      "image": "/assets/images/blogs/color-psychology-digital-products-cover.webp",
+      "imageAlt": "A vivid color wheel connected to payment and review states, illustrating color as a product signal",
+      "dateValue": "2026-09-28",
+      "dateLabel": "Date: 28 Sept 26",
+      "excerpt": "Learn how color shapes attention, trust, decisions, and accessibility in digital products, with a practical guide to palettes, UI states, research, and testing.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "color psychology digital products",
+        "color theory UX",
+        "product design color palette",
+        "accessible color contrast",
+        "semantic colors UI",
+        "interface design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/psychology-of-color-digital-products.html",
+      "sections": []
+    },
+    {
       "id": "blog-the-role-of-white-space-in-website-layouts-webx-design-studio",
       "title": "The Role of White Space in Website Layouts | Webx Design Studio",
       "slug": "role-of-white-space-in-website-layouts",
@@ -13498,6 +14001,84 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-f07db14b",
+      "type": "visitor",
+      "message": "Visitor opened psychology-of-color-digital-products",
+      "createdAt": "2026-09-28T05:02:58.961Z"
+    },
+    {
+      "id": "act-37f632ab",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-28T05:02:52.610Z"
+    },
+    {
+      "id": "act-fcc3f651",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-28T05:02:49.604Z"
+    },
+    {
+      "id": "act-fd771101",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-28T04:51:34.255Z"
+    },
+    {
+      "id": "act-cc0a20ea",
+      "type": "visitor",
+      "message": "Visitor opened future-of-ux-better-experiences",
+      "createdAt": "2026-09-28T04:51:31.068Z"
+    },
+    {
+      "id": "act-a57057be",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-28T04:50:46.878Z"
+    },
+    {
+      "id": "act-f762d7b2",
+      "type": "visitor",
+      "message": "Visitor opened future-of-ux-better-experiences",
+      "createdAt": "2026-09-28T04:50:33.077Z"
+    },
+    {
+      "id": "act-a2a636a5",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-28T04:50:19.672Z"
+    },
+    {
+      "id": "act-7d7c3a3f",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-28T04:50:19.271Z"
+    },
+    {
+      "id": "act-3eb66fa3",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-28T04:50:11.084Z"
+    },
+    {
+      "id": "act-f38b463d",
+      "type": "visitor",
+      "message": "Visitor opened future-of-ux-better-experiences",
+      "createdAt": "2026-09-28T04:46:43.203Z"
+    },
+    {
+      "id": "act-44c18f1c",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-28T04:46:25.249Z"
+    },
+    {
+      "id": "act-b2c8f74d",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-28T04:46:19.531Z"
+    },
     {
       "id": "act-7b9f8721",
       "type": "visitor",
@@ -13779,84 +14360,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-23T04:56:49.000Z"
-    },
-    {
-      "id": "act-6a7c00ae",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:56:43.685Z"
-    },
-    {
-      "id": "act-d532c4e8",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:56:43.335Z"
-    },
-    {
-      "id": "act-3c3ed4d2",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:56:42.458Z"
-    },
-    {
-      "id": "act-5f15f265",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:56:37.598Z"
-    },
-    {
-      "id": "act-51d333cc",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:52:21.384Z"
-    },
-    {
-      "id": "act-0d17af4d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:52:11.912Z"
-    },
-    {
-      "id": "act-5122f4dc",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:46:32.660Z"
-    },
-    {
-      "id": "act-1714249a",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:45:02.158Z"
-    },
-    {
-      "id": "act-9f2bb95a",
-      "type": "visitor",
-      "message": "Visitor opened how-visual-hierarchy-drives-user-attention",
-      "createdAt": "2026-09-23T04:43:58.796Z"
-    },
-    {
-      "id": "act-d1543589",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-23T04:43:29.720Z"
-    },
-    {
-      "id": "act-3cfd7421",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:43:09.319Z"
-    },
-    {
-      "id": "act-695f58a3",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-18T04:51:26.588Z"
-    },
-    {
-      "id": "act-18b8a325",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-18T04:51:24.274Z"
     }
   ],
   "blogViews": {
@@ -13905,10 +14408,15 @@
       "viewers": {}
     },
     "/pages/blogs/future-of-ux-better-experiences.html": {
-      "count": 2,
+      "count": 3,
       "viewers": {
-        "f1f81bb9c3a0f02a8bd989e9ca8ea1e043b2d1a4cffd1d883ca45a8975087219": 1790404633224,
-        "0c5f3e1d2c70931d68412d9313b101c4ed099f3f2bd2be5acc65f14644151933": 1790404756956
+        "29053465bfef17f18cb7c5fddc99077e99dbe634375b858c47fed98409818e85": 1790570803357
+      }
+    },
+    "/pages/blogs/psychology-of-color-digital-products.html": {
+      "count": 1,
+      "viewers": {
+        "6ab8c2091336b473a327921c6644ff40fb243591c678e9ca9f7e4f2b1ea0d60d": 1790571779107
       }
     }
   }
