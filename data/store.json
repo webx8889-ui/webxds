@@ -477,6 +477,24 @@
               ]
             },
             {
+              "id": "blog-designing-an-interactive-digital-gallery-for-luxury-brands-webx-design-studio",
+              "title": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
+              "image": "/assets/images/blogs/luxury-digital-gallery-cover.png",
+              "imageAlt": "A luxury handbag displayed in a dramatic interactive digital gallery",
+              "dateLabel": "Date: 30 Sept 26",
+              "dateValue": "2026-09-30",
+              "excerpt": "Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.",
+              "url": "/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html",
+              "tags": [
+                "interactive digital gallery",
+                "luxury brand website design",
+                "luxury ecommerce experience",
+                "digital storytelling",
+                "immersive web design",
+                "luxury UX"
+              ]
+            },
+            {
               "id": "blog-the-future-of-ux-design-is-not-more-screens-it-s-better-experiences-webx-design-studio",
               "title": "The Future of UX Design Is Not More Screens. It's Better Experiences. | Webx Design Studio",
               "image": "/assets/images/blogs/better-experiences-ux-cover.webp",
@@ -953,7 +971,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.923Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1153,7 +1171,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.923Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1353,7 +1371,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.923Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1553,7 +1571,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.923Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1753,7 +1771,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.923Z"
         },
         {
           "id": "work-project-3e820984",
@@ -1953,7 +1971,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.924Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2153,7 +2171,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-09-28T05:05:06.494Z"
+          "updatedAt": "2026-09-30T10:01:05.924Z"
         }
       ]
     },
@@ -2674,7 +2692,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.496Z"
+      "updatedAt": "2026-09-30T10:01:05.927Z"
     },
     "blog": {
       "editorType": "generic",
@@ -2978,7 +2996,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.497Z"
+      "updatedAt": "2026-09-30T10:01:05.928Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3109,7 +3127,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.500Z"
+      "updatedAt": "2026-09-30T10:01:05.932Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3240,7 +3258,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.501Z"
+      "updatedAt": "2026-09-30T10:01:05.932Z"
     },
     "about": {
       "editorType": "generic",
@@ -3433,7 +3451,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.502Z"
+      "updatedAt": "2026-09-30T10:01:05.933Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3556,7 +3574,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.502Z"
+      "updatedAt": "2026-09-30T10:01:05.933Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3687,7 +3705,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.503Z"
+      "updatedAt": "2026-09-30T10:01:05.934Z"
     },
     "services": {
       "editorType": "generic",
@@ -3884,7 +3902,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.504Z"
+      "updatedAt": "2026-09-30T10:01:05.935Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4029,7 +4047,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.504Z"
+      "updatedAt": "2026-09-30T10:01:05.936Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4174,7 +4192,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.505Z"
+      "updatedAt": "2026-09-30T10:01:05.936Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5039,7 +5057,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.495Z"
+      "updatedAt": "2026-09-30T10:01:05.925Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5234,7 +5252,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.497Z"
+      "updatedAt": "2026-09-30T10:01:05.930Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5429,7 +5447,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-09-28T05:05:06.499Z"
+      "updatedAt": "2026-09-30T10:01:05.931Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -7597,12 +7615,347 @@
         }
       ],
       "updatedAt": "2026-09-28T05:02:49.603Z"
+    },
+    "designing-interactive-digital-gallery-luxury-brands": {
+      "editorType": "generic",
+      "path": "/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html",
+      "title": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
+      "meta": "Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.",
+      "displayName": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.\">\n  <meta name=\"robots\" content=\"index, follow\"><meta name=\"author\" content=\"Webx Design Studio\"><meta name=\"theme-color\" content=\"#ff6b00\">\n  <meta name=\"keywords\" content=\"interactive digital gallery, luxury brand website design, luxury ecommerce experience, digital storytelling, immersive web design, luxury UX\">\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\">\n  <meta property=\"og:type\" content=\"article\"><meta property=\"og:title\" content=\"Designing an Interactive Digital Gallery for Luxury Brands\"><meta property=\"og:description\" content=\"A practical guide to designing immersive, high-touch digital galleries that feel worthy of a luxury brand.\"><meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\"><meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/luxury-digital-gallery-cover.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"A luxury handbag displayed in a dramatic interactive digital gallery\"><meta property=\"og:site_name\" content=\"Webx Design Studio\"><meta property=\"og:locale\" content=\"en_IN\">\n  <meta property=\"article:published_time\" content=\"2026-09-30\"><meta property=\"article:modified_time\" content=\"2026-09-30\"><meta property=\"article:author\" content=\"Webx Design Studio\"><meta property=\"article:section\" content=\"UX/UI Design\"><meta property=\"article:tag\" content=\"luxury brand design\"><meta property=\"article:tag\" content=\"interactive gallery\"><meta property=\"article:tag\" content=\"digital storytelling\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Designing an Interactive Digital Gallery for Luxury Brands\"><meta name=\"twitter:description\" content=\"Design a high-touch online gallery that turns browsing into brand discovery.\"><meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/luxury-digital-gallery-cover.png\"><meta name=\"twitter:image:alt\" content=\"A luxury handbag displayed in a dramatic interactive digital gallery\">\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\"><link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\"><link rel=\"manifest\" href=\"/manifest.json\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\"><link rel=\"preload\" href=\"/assets/images/blogs/luxury-digital-gallery-cover.png\" as=\"image\" type=\"image/png\">\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Designing an Interactive Digital Gallery for Luxury Brands\",\"description\":\"Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.\",\"image\":[\"https://webxds.com/assets/images/blogs/luxury-digital-gallery-cover.png\",\"https://webxds.com/assets/images/blogs/luxury-gallery-journey.png\",\"https://webxds.com/assets/images/blogs/luxury-gallery-interaction.png\",\"https://webxds.com/assets/images/blogs/luxury-gallery-craft.png\"],\"url\":\"https://webxds.com/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\",\"datePublished\":\"2026-09-30\",\"dateModified\":\"2026-09-30\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"interactive digital gallery\",\"luxury brand website design\",\"digital storytelling\",\"luxury UX\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Designing an Interactive Digital Gallery for Luxury Brands\",\"item\":\"https://webxds.com/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\"}]}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What makes a digital gallery feel luxurious?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Luxury comes from restraint, craft-led storytelling, responsive performance, polished detail, and giving visitors control over the pace of discovery.\"}},{\"@type\":\"Question\",\"name\":\"Does an interactive gallery need 3D?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. A gallery can be compelling with film, high-resolution imagery, sound, layered editorial content, and subtle motion. Use 3D only when it genuinely helps people understand material, scale, or configuration.\"}},{\"@type\":\"Question\",\"name\":\"How should luxury brands measure a digital gallery?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Measure meaningful engagement such as completed stories, product exploration depth, saved pieces, consultation requests, qualified visits, and return sessions instead of relying only on clicks.\"}}]}</script>\n  <style>\n    .gallery-toc{margin:40px 0;padding:26px 28px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:linear-gradient(135deg,rgba(254,168,0,.12),rgba(255,255,255,.04))}.gallery-toc p{margin:0 0 13px;color:#fea800;font-size:13px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}.gallery-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 30px;margin:0;padding-left:20px}.gallery-toc a{color:#fff;text-decoration:none}.gallery-toc a:hover{color:#fea800}.gallery-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0}.gallery-principle{padding:22px 18px;border:1px solid rgba(255,255,255,.13);border-radius:14px;background:rgba(255,255,255,.045)}.gallery-principle b{display:block;margin-bottom:8px;color:#fea800;font-size:13px;letter-spacing:.1em;text-transform:uppercase}.gallery-principle span{color:rgba(255,255,255,.78);font-size:15px;line-height:1.55}.gallery-callout{margin:38px 0;padding:28px 30px;border-left:4px solid #fea800;border-radius:0 14px 14px 0;background:#181512}.gallery-callout p{margin:0;color:#fff;font-size:19px;line-height:1.6}.gallery-framework{margin:32px 0;padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:#151515}.gallery-framework h2{margin:0 0 16px;color:#fff;font-size:25px}.gallery-framework ol{margin:0;padding-left:24px}.gallery-framework li{margin:13px 0;color:rgba(255,255,255,.8);line-height:1.55}.gallery-framework strong{color:#fea800}@media(max-width:640px){.gallery-toc ol,.gallery-principles{grid-template-columns:1fr}.gallery-toc,.gallery-framework{padding:21px}.gallery-callout{padding:22px}.gallery-callout p{font-size:17px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-939c7a7e"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-a5b836c4"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-f1b098e8"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-b1c17bcd"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-7db235b0"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-c8b74d67"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-638c118e"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br>experiences<br>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-interactive-digital-gallery-luxury-brands-section-7a3fece2"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err);});});}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-939c7a7e",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\"></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-a5b836c4",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><span class=\"breadcrumb-current\" aria-current=\"page\">Interactive digital galleries</span></nav></div></section>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-f1b098e8",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/luxury-digital-gallery-cover.png\" alt=\"A luxury handbag displayed in a dramatic interactive digital gallery\" class=\"blog-hero-image\" width=\"1536\" height=\"1024\" loading=\"eager\"><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-b1c17bcd",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\"><h1 class=\"blog-title\">Designing an Interactive Digital Gallery for Luxury Brands</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">luxury brand design</span><span class=\"blog-tag\">interactive gallery</span><span class=\"blog-tag\">digital storytelling</span><span class=\"blog-tag\">luxury UX</span><span class=\"blog-tag\">immersive web design</span></div><time class=\"blog-date\" datetime=\"2026-09-30\">Date: 30 Sept 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\"></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\"></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\"></a></div></header>\n      <article class=\"blog-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"Designing an Interactive Digital Gallery for Luxury Brands\"><meta itemprop=\"datePublished\" content=\"2026-09-30\">\n        <p class=\"blog-intro\">A luxury website should not feel like a product catalogue with better photography. It should make the visitor feel that they have stepped into a considered world—one where craft, heritage, material, and personal taste have room to unfold.</p>\n        <p class=\"blog-intro\">An interactive digital gallery can create that feeling. The goal is not to add spectacle everywhere; it is to orchestrate discovery with the same care a gallery curator gives a physical exhibition.</p>\n        <nav class=\"gallery-toc\" aria-label=\"On this page\"><p>Inside the gallery</p><ol><li><a href=\"#why\">Why galleries work for luxury</a></li><li><a href=\"#journey\">Design the visitor journey</a></li><li><a href=\"#interaction\">Make interaction feel intentional</a></li><li><a href=\"#craft\">Reveal the details that matter</a></li><li><a href=\"#performance\">Protect performance and access</a></li><li><a href=\"#measurement\">Measure the right signals</a></li><li><a href=\"#framework\">A practical design framework</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n        <section class=\"blog-page-section\" aria-labelledby=\"why\"><h2 class=\"section-heading\" id=\"why\">Luxury Begins With Attention, Not Excess</h2><p class=\"section-text\">The defining quality of luxury is rarely more content. It is deliberate attention: enough space to notice a seam, understand a maker’s choice, or connect a piece to a larger point of view. A digital gallery turns that attention into a usable experience.</p><p class=\"section-text\">Instead of asking people to filter a grid immediately, start with an invitation. A collection, a material study, a craft story, or a house code can become the entrance. Commerce remains close, but it does not interrupt the first moment of curiosity.</p><div class=\"gallery-principles\" aria-label=\"Three principles for luxury gallery experiences\"><div class=\"gallery-principle\"><b>Curate</b><span>Give every room, story, and object a reason to exist. A smaller edit is more memorable than a crowded feed.</span></div><div class=\"gallery-principle\"><b>Control pace</b><span>Use spacious composition and optional layers so visitors choose when they want to go deeper.</span></div><div class=\"gallery-principle\"><b>Keep promise</b><span>Every digital detail should reinforce the same quality, confidence, and restraint as the physical brand.</span></div></div></section>\n        <aside class=\"gallery-callout\" aria-label=\"Key design principle\"><p><strong>The test is simple:</strong> does the experience make a visitor more curious about the object and its story—or merely more aware of the interface? When the interface becomes the performance, the luxury feeling disappears.</p></aside>\n        <section class=\"blog-page-section\" aria-labelledby=\"journey\"><h2 class=\"section-heading\" id=\"journey\">Design a Journey, Not a Collection of Screens</h2><p class=\"section-text\">The best galleries have a rhythm. They create orientation, offer a first encounter, reveal a layer of meaning, and leave a natural path toward a private appointment, a product page, or another story. Map that sequence before deciding whether the experience needs a scroll animation, a 3D room, or a cinematic film.</p><p class=\"section-text\">Give a visitor a clear sense of where they are without covering the experience in controls. A subtle room label, a restrained progress marker, and a reliable way back to the collection are usually enough.</p></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/luxury-gallery-journey.png\" alt=\"Visitor moving through a light-filled luxury gallery with an interactive digital artwork\" width=\"1536\" height=\"1024\" loading=\"lazy\"><figcaption>A gallery journey should alternate between spacious discovery and optional depth—never rush a visitor straight into a product grid.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"interaction\"><h2 class=\"section-heading\" id=\"interaction\">Make Interaction Feel Like an Invitation</h2><p class=\"section-text\">Luxury interaction is tactile, quiet, and easy to reverse. It should answer a real question: What happens if I inspect this texture? Can I see this object in a different light? What is the story behind this piece? A hover state, a tap, a gentle drag, or a scroll-triggered reveal can be powerful when it rewards genuine interest.</p><ul class=\"section-list\"><li><strong style=\"color:#fff\">Use progressive disclosure:</strong> begin with the most evocative view, then offer materials, provenance, styling, and specifications as deeper layers.</li><li><strong style=\"color:#fff\">Make motion explain:</strong> animation should reveal a construction detail, change of scale, or relationship—not fill time while content loads.</li><li><strong style=\"color:#fff\">Keep ownership with the visitor:</strong> provide pause, skip, close, and back controls wherever movement or sound may demand attention.</li><li><strong style=\"color:#fff\">Reward returning visitors:</strong> saved pieces, recently viewed stories, and a considered continuation can feel more personal than a generic pop-up.</li></ul></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/luxury-gallery-interaction.png\" alt=\"A visitor using a phone to explore a luxury gallery object through a digital layer\" width=\"1536\" height=\"1024\" loading=\"lazy\"><figcaption>A mobile companion can deepen an in-gallery visit or bring the exhibition home, provided the interaction remains clear and genuinely useful.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"craft\"><h2 class=\"section-heading\" id=\"craft\">Give Craft a Digital Language</h2><p class=\"section-text\">Digital can show what a display case cannot: the finish of a hand-polished surface, the movement of a mechanism, the inside of a garment, or the decision behind an unusual material. Treat these details as editorial moments, not as an exhaustive specification table.</p><p class=\"section-text\">Photography, macro video, 360-degree views, annotated close-ups, sound, and 3D can all help. Choose the medium that best reveals the truth of the object. A watch may benefit from controlled rotation; a fragrance might be better served by film, language, and material mood; a fashion collection may need silhouette and motion before product detail.</p></section>\n        <figure class=\"blog-inline-visual\"><img src=\"/assets/images/blogs/luxury-gallery-craft.png\" alt=\"Transparent gold luxury watch floating above a black marble plinth\" width=\"1536\" height=\"1024\" loading=\"lazy\"><figcaption>Technology earns its place when it reveals material, precision, movement, or scale that a static image cannot communicate.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"performance\"><h2 class=\"section-heading\" id=\"performance\">Protect the Feeling With Performance and Accessibility</h2><p class=\"section-text\">A delayed entrance, a locked scroll, or an inaccessible interactive scene feels especially damaging in a luxury experience because it breaks the sense of effortless control. Beauty is not an excuse for friction.</p><ul class=\"section-list\"><li>Start with a fast, meaningful first view; load rich media after the visitor can orient themselves.</li><li>Offer motion-reduced alternatives and never rely on a gesture alone to reveal essential content.</li><li>Describe imagery well, provide visible focus states, and ensure keyboard users can enter and exit every gallery module.</li><li>Build a graceful baseline for lower-powered devices and slower connections—never a blank experience.</li></ul></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"measurement\"><h2 class=\"section-heading\" id=\"measurement\">Measure Depth, Not Just Clicks</h2><p class=\"section-text\">A gallery is an experience layer, so the right questions are richer than “did someone click buy?” Look for evidence that people understood and valued the story: completed chapters, explored material details, saved works, requested a consultation, returned to a collection, or continued into a relevant product journey.</p><p class=\"section-text\">Pair those signals with qualitative sessions. Watch whether people understand how to move, where they hesitate, and whether the digital treatment strengthens their perception of the brand. The purpose is to refine the experience, not turn it into a maze of engagement tricks.</p></section>\n        <section class=\"gallery-framework\" aria-labelledby=\"framework\"><h2 id=\"framework\">A practical gallery design framework</h2><ol><li><strong>Choose one editorial idea.</strong> Define the collection, launch, craft story, or point of view visitors should remember.</li><li><strong>Storyboard the emotional arc.</strong> Plan the entrance, key encounters, depth moments, and next action before selecting technology.</li><li><strong>Prototype the minimum magic.</strong> Test the essential reveal with real people on real devices; remove effects that do not make the story clearer.</li><li><strong>Build the accessible baseline first.</strong> Ensure the content, controls, and path work without advanced rendering or motion.</li><li><strong>Refine like a physical space.</strong> Review rhythm, typography, image treatment, loading states, and every transition at the level of a brand detail.</li></ol></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"final\"><h2 class=\"section-heading\" id=\"final\">The Digital Gallery Is a Brand Space</h2><p class=\"section-text\">For luxury brands, a digital gallery is not a decorative campaign page. It is a place where people learn how the brand sees, makes, and values the world. When it feels calm, precise, and generous with detail, it can create the kind of connection that makes a product feel chosen rather than merely purchased.</p><p class=\"section-text\">Start with the story and the visitor’s curiosity. Then use technology with restraint to make the invisible parts of luxury—craft, care, rarity, and point of view—feel present on screen.</p></section>\n        <section class=\"blog-faq\" aria-labelledby=\"faq\"><h2 id=\"faq\">Frequently asked questions</h2><details><summary>What makes a digital gallery feel luxurious?</summary><p>Luxury comes from restraint, craft-led storytelling, responsive performance, polished detail, and letting visitors control the pace of discovery.</p></details><details><summary>Does an interactive gallery need 3D?</summary><p>No. High-resolution imagery, film, sound, layered editorial content, and subtle motion can be equally immersive. Use 3D only when it helps people understand material, scale, or configuration.</p></details><details><summary>How should luxury brands measure a digital gallery?</summary><p>Focus on meaningful engagement: completed stories, exploration depth, saved pieces, consultation requests, qualified visits, and return sessions—not just raw clicks.</p></details></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-7db235b0",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"designing-interactive-digital-gallery-luxury-brands\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-c8b74d67",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to create a brand experience worth exploring?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\"/></svg></a></div></section>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-638c118e",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\"></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\"></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Brand Identity</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About</a><a href=\"/pages/main/work.html\">Our Work</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/faq.html\">FAQ</a><a href=\"/pages/main/contact-page.html\">Contact</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Legal<button class=\"footer-toggle\" aria-label=\"Toggle Legal menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms &amp; Conditions</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\"></div></footer>"
+        },
+        {
+          "id": "designing-interactive-digital-gallery-luxury-brands-section-7a3fece2",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-09-30T09:30:49.567Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-c0f4ed90926d381a0f1b23c14",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:43:04.998Z",
+        "lastSeenAt": "2026-09-30T10:01:05.937Z",
+        "currentPage": "designing-interactive-digital-gallery-luxury-brands",
+        "path": "/blogs/designing-interactive-digital-gallery-luxury-brands",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 720,
+        "scrollDepth": 84,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8ddb3cc35014a1a0f1af94aa",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:40:11.077Z",
+        "lastSeenAt": "2026-09-30T09:42:57.477Z",
+        "currentPage": "designing-interactive-digital-gallery-luxury-brands",
+        "path": "/blogs/designing-interactive-digital-gallery-luxury-brands",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 150,
+        "scrollDepth": 76,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ceed835ba738b81a0f1af8d64",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:40:09.207Z",
+        "lastSeenAt": "2026-09-30T09:40:09.207Z",
+        "currentPage": "contact",
+        "path": "/contact",
+        "referrer": "http://localhost:3000/blogs/designing-interactive-digital-gallery-luxury-brands",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bba71ade68d6581a0f1ae68ea",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:38:54.345Z",
+        "lastSeenAt": "2026-09-30T09:40:09.140Z",
+        "currentPage": "designing-interactive-digital-gallery-luxury-brands",
+        "path": "/blogs/designing-interactive-digital-gallery-luxury-brands",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 83,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b35372864fcc31a0f1a735b7",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:31:02.543Z",
+        "lastSeenAt": "2026-09-30T09:38:50.666Z",
+        "currentPage": "designing-interactive-digital-gallery-luxury-brands",
+        "path": "/blogs/designing-interactive-digital-gallery-luxury-brands",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 225,
+        "scrollDepth": 85,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d19b9860a680f1a0f1a712b0",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:30:53.521Z",
+        "lastSeenAt": "2026-09-30T09:31:02.301Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-2f7fe4e00371081a0f1a70300",
+        "visitorId": "8dfdc599-4378-4c39-8af8-cc31b842896e",
+        "createdAt": "2026-09-30T09:30:49.546Z",
+        "lastSeenAt": "2026-09-30T09:30:53.425Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-79fb2c347e62a1a0e6651350",
         "visitorId": "123b229e-5307-40f9-bced-efc37e694a50",
@@ -8642,389 +8995,45 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-f1195d942ff9d1a0ccbde0e1",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:29:51.154Z",
-        "lastSeenAt": "2026-09-23T06:29:41.466Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1575,
-        "scrollDepth": 37,
-        "eventCount": 5,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8c6e067b4b8df1a0ccbdd28e",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:29:47.438Z",
-        "lastSeenAt": "2026-09-23T05:29:50.967Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-870a36efb473681a0ccbdc057",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:29:42.827Z",
-        "lastSeenAt": "2026-09-23T05:29:47.357Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-1253610f18f821a0cca6c46e",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:04:36.553Z",
-        "lastSeenAt": "2026-09-23T05:29:37.967Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 840,
-        "scrollDepth": 7,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-8acad423788771a0cca6b678",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:04:32.926Z",
-        "lastSeenAt": "2026-09-23T05:04:36.294Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-73cc5cc68420281a0cca4ee15",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:02:36.147Z",
-        "lastSeenAt": "2026-09-23T05:04:32.830Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 105,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-73915f6da44f681a0cca4ac0e",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T05:02:19.200Z",
-        "lastSeenAt": "2026-09-23T05:02:19.200Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-eccdd4b4dd79f81a0cc9fa229",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:56:48.973Z",
-        "lastSeenAt": "2026-09-23T05:02:04.416Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 315,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-cbfcf5a244c5b1a0cc9f8d5d",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:56:43.655Z",
-        "lastSeenAt": "2026-09-23T04:56:43.655Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-d52042725b9b081a0cc9f8bf9",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:56:43.303Z",
-        "lastSeenAt": "2026-09-23T04:56:43.303Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b77716a24ae2c1a0cc9f8864",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:56:42.430Z",
-        "lastSeenAt": "2026-09-23T04:56:42.430Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-744e6eb0e77a481a0cc9f752c",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:56:37.571Z",
-        "lastSeenAt": "2026-09-23T04:56:37.571Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-cb613c589133281a0cc9b8c8c",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:52:21.354Z",
-        "lastSeenAt": "2026-09-23T04:56:21.328Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/video-intro.html?from=showreel",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 240,
-        "scrollDepth": 6,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-12b34ec74aaad1a0cc9b67c8",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:52:11.891Z",
-        "lastSeenAt": "2026-09-23T04:52:11.891Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-a38d2364ed221a0cc963a91",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:46:32.627Z",
-        "lastSeenAt": "2026-09-23T04:52:10.995Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
-        "viewport": "1156x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 225,
-        "scrollDepth": 3,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-99f36fbf915e181a0cc94d90d",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:45:02.131Z",
-        "lastSeenAt": "2026-09-23T04:46:17.155Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "http://localhost:3000/blogs/how-visual-hierarchy-drives-user-attention",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 75,
-        "scrollDepth": 7,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-67d4da78b98c1a0cc93e183",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:43:58.765Z",
-        "lastSeenAt": "2026-09-23T04:45:01.926Z",
-        "currentPage": "how-visual-hierarchy-drives-user-attention",
-        "path": "/blogs/how-visual-hierarchy-drives-user-attention",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 80,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-71da1d573a14a81a0cc936ff4",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:43:29.687Z",
-        "lastSeenAt": "2026-09-23T04:43:58.579Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 6,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-36d6be84aae2a1a0cc931ff8",
-        "visitorId": "68ede196-2a27-4955-89b6-f4cff3a04475",
-        "createdAt": "2026-09-23T04:43:09.284Z",
-        "lastSeenAt": "2026-09-23T04:43:29.531Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 4,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-2100c63c",
+        "sessionId": "sess-bba71ade68d6581a0f1ae68ea",
+        "page": "designing-interactive-digital-gallery-luxury-brands",
+        "type": "click",
+        "target": "a",
+        "text": "Talk to Webx Design Studio about your project.",
+        "createdAt": "2026-09-30T09:40:09.140Z"
+      },
+      {
+        "id": "evt-ce128d1f",
+        "sessionId": "sess-d19b9860a680f1a0f1a712b0",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-09-30T09:31:02.301Z"
+      },
+      {
+        "id": "evt-86130d40",
+        "sessionId": "sess-2f7fe4e00371081a0f1a70300",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-09-30T09:30:53.425Z"
+      },
+      {
+        "id": "evt-141b66a4",
+        "sessionId": "sess-2f7fe4e00371081a0f1a70300",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-09-30T09:30:52.442Z"
+      },
       {
         "id": "evt-d0d96500",
         "sessionId": "sess-79fb2c347e62a1a0e6651350",
@@ -13488,42 +13497,6 @@
         "target": "input.cta-project-input",
         "text": "[masked]",
         "createdAt": "2026-08-02T11:51:46.660Z"
-      },
-      {
-        "id": "evt-884756a2",
-        "sessionId": "sess-59cf6def4fb5e19fc250b7b5",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:51:46.166Z"
-      },
-      {
-        "id": "evt-bb0d27ed",
-        "sessionId": "sess-59cf6def4fb5e19fc250b7b5",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "[masked]",
-        "createdAt": "2026-08-02T11:51:45.092Z"
-      },
-      {
-        "id": "evt-8af66342",
-        "sessionId": "sess-59cf6def4fb5e19fc250b7b5",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.cta-project-button",
-        "text": "CONTINUE",
-        "createdAt": "2026-08-02T11:51:44.397Z"
-      },
-      {
-        "id": "evt-6768dcb7",
-        "sessionId": "sess-59cf6def4fb5e19fc250b7b5",
-        "page": "work.html",
-        "type": "click",
-        "target": "input.cta-project-input",
-        "text": "",
-        "createdAt": "2026-08-02T11:51:42.992Z"
       }
     ],
     "replays": []
@@ -13689,6 +13662,32 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/blog-what-makes-a-great-website-2026.html",
+      "sections": []
+    },
+    {
+      "id": "blog-designing-an-interactive-digital-gallery-for-luxury-brands-webx-design-studio",
+      "title": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
+      "slug": "designing-interactive-digital-gallery-luxury-brands",
+      "metaTitle": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.",
+      "image": "/assets/images/blogs/luxury-digital-gallery-cover.png",
+      "imageAlt": "A luxury handbag displayed in a dramatic interactive digital gallery",
+      "dateValue": "2026-09-30",
+      "dateLabel": "Date: 30 Sept 26",
+      "excerpt": "Learn how to design interactive digital galleries for luxury brands with a high-touch visitor journey, immersive storytelling, product detail, and thoughtful technology.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "interactive digital gallery",
+        "luxury brand website design",
+        "luxury ecommerce experience",
+        "digital storytelling",
+        "immersive web design",
+        "luxury UX"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html",
       "sections": []
     },
     {
@@ -14001,6 +14000,48 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-0df59beb",
+      "type": "visitor",
+      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
+      "createdAt": "2026-09-30T09:43:05.012Z"
+    },
+    {
+      "id": "act-038a3fbb",
+      "type": "visitor",
+      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
+      "createdAt": "2026-09-30T09:40:11.112Z"
+    },
+    {
+      "id": "act-3c13078c",
+      "type": "visitor",
+      "message": "Visitor opened contact",
+      "createdAt": "2026-09-30T09:40:09.237Z"
+    },
+    {
+      "id": "act-e645d05a",
+      "type": "visitor",
+      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
+      "createdAt": "2026-09-30T09:38:54.375Z"
+    },
+    {
+      "id": "act-1fc788cb",
+      "type": "visitor",
+      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
+      "createdAt": "2026-09-30T09:31:02.569Z"
+    },
+    {
+      "id": "act-aaae80b4",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-09-30T09:30:53.554Z"
+    },
+    {
+      "id": "act-00bcdf67",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-09-30T09:30:49.568Z"
+    },
     {
       "id": "act-f07db14b",
       "type": "visitor",
@@ -14318,48 +14359,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-23T05:29:51.187Z"
-    },
-    {
-      "id": "act-1ec277d6",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-23T05:29:47.471Z"
-    },
-    {
-      "id": "act-8c3db719",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T05:29:42.856Z"
-    },
-    {
-      "id": "act-b6b9820b",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T05:04:36.584Z"
-    },
-    {
-      "id": "act-4eb73a2a",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-23T05:04:32.957Z"
-    },
-    {
-      "id": "act-00967cb8",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T05:02:36.177Z"
-    },
-    {
-      "id": "act-ddfee0a1",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T05:02:19.225Z"
-    },
-    {
-      "id": "act-9f5ff7b6",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-23T04:56:49.000Z"
     }
   ],
   "blogViews": {
@@ -14409,14 +14408,16 @@
     },
     "/pages/blogs/future-of-ux-better-experiences.html": {
       "count": 3,
-      "viewers": {
-        "29053465bfef17f18cb7c5fddc99077e99dbe634375b858c47fed98409818e85": 1790570803357
-      }
+      "viewers": {}
     },
     "/pages/blogs/psychology-of-color-digital-products.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html": {
+      "count": 1,
       "viewers": {
-        "6ab8c2091336b473a327921c6644ff40fb243591c678e9ca9f7e4f2b1ea0d60d": 1790571779107
+        "ad114539d5e476168c90b69839faff9485fd1c1c7913fa3a77c568e3380faade": 1790760662664
       }
     }
   }

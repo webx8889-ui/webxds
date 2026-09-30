@@ -10864,6 +10864,21 @@ body.inner-video-bg main > .work-page-section {
     margin-bottom: clamp(14px, 2vw, 14px)
 }
 
+.section-text .blog-cta-link {
+    color: #fea800;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgba(254, 168, 0, 0.7);
+    text-underline-offset: 4px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease
+}
+
+.section-text .blog-cta-link:hover,
+.section-text .blog-cta-link:focus-visible {
+    color: #ffc14d;
+    text-decoration-color: #ffc14d
+}
+
 .section-list {
     list-style: none;
     padding: 0;
