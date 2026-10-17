@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#060708" />
+  <title>Webx AI | Project discovery</title>
+  <meta name="description" content="Talk to Webx AI about your next digital project." />
+  <link rel="icon" href="/assets/images/icons/favicon.webp" type="image/webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/ai-chatbot.css" />
+</head>
+<body>
+  <main class="ai-chatbot" aria-labelledby="ai-title">
+    <div class="ai-chatbot__background" aria-hidden="true"></div>
+    <header class="ai-chatbot__header">
+      <a class="ai-chatbot__brand" href="/" aria-label="Webx Design Studio home">
+        <img src="/assets/images/icons/webx-icon.svg" width="52" height="52" alt="" />
+        <span>
+          <strong>Webx AI</strong>
+          <small><i></i> Online-Project discovery</small>
+        </span>
+      </a>
+      <button class="ai-chatbot__close" type="button" aria-label="Close Webx AI">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+    </header>
+
+    <section class="ai-chatbot__intro" aria-live="polite">
+      <img class="ai-chatbot__mark" src="/assets/images/icons/webx-icon.svg" width="88" height="86" alt="" />
+      <h1 id="ai-title">Hi! I'm the Webx AI.</h1>
+      <p>Tell us about your project requirements and our team will craft a<br class="ai-chatbot__desktop-break" /> perfect solution tailored to your business needs.</p>
+    </section>
+
+    <section class="ai-chatbot__conversation" aria-label="Project discovery chat">
+      <div class="ai-chatbot__question" id="chatQuestion">What can we help you create? You can choose one or more services.</div>
+      <div class="ai-chatbot__suggestions" aria-label="Suggested answers">
+        <button type="button" data-answer="Start my project">Start my project</button>
+        <button type="button" data-answer="Just exploring">Just exploring</button>
+        <button type="button" data-answer="Thought of your mind →">Thought of your mind →</button>
+      </div>
+      <form class="ai-chatbot__composer" id="chatForm">
+        <div class="ai-chatbot__input-row">
+          <span class="ai-chatbot__add" aria-hidden="true">+</span>
+          <input id="chatInput" name="message" autocomplete="off" placeholder="Type your answer..." aria-label="Type your answer" />
+          <button class="ai-chatbot__send" type="submit" aria-label="Send answer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M14 7l5 5-5 5" /></svg>
+          </button>
+        </div>
+        <p>Powered by <span>WDS</span></p>
+      </form>
+    </section>
+  </main>
+  <script src="/js/ai-chatbot.js"></script>
+</body>
+</html>
