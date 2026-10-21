@@ -492,6 +492,24 @@
               ]
             },
             {
+              "id": "blog-dark-mode-vs-light-mode-the-ui-psychology-behind-better-choices-webx-design-studio",
+              "title": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio",
+              "image": "/assets/images/blogs/dark-light-psychology-cover.svg",
+              "imageAlt": "Dark and light mobile interfaces separated by a glowing eclipse",
+              "dateLabel": "Date: 21 Oct 26",
+              "dateValue": "2026-10-21",
+              "excerpt": "Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.",
+              "url": "/pages/blogs/dark-mode-light-mode-ui-psychology.html",
+              "tags": [
+                "dark mode psychology",
+                "light mode psychology",
+                "UI psychology",
+                "dark mode UX",
+                "light mode UX",
+                "accessible interface design"
+              ]
+            },
+            {
               "id": "blog-designing-an-interactive-digital-gallery-for-luxury-brands-webx-design-studio",
               "title": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
               "image": "/assets/images/blogs/luxury-digital-gallery-ui-cover-v2.png",
@@ -1004,7 +1022,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1204,7 +1222,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1404,7 +1422,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1604,7 +1622,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1804,7 +1822,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2004,7 +2022,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2204,7 +2222,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-17T10:32:04.095Z"
+          "updatedAt": "2026-10-21T04:23:47.405Z"
         }
       ]
     },
@@ -2725,7 +2743,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.098Z"
+      "updatedAt": "2026-10-21T04:23:47.410Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3029,7 +3047,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.099Z"
+      "updatedAt": "2026-10-21T04:23:47.412Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3160,7 +3178,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.102Z"
+      "updatedAt": "2026-10-21T04:23:47.415Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3291,7 +3309,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.102Z"
+      "updatedAt": "2026-10-21T04:23:47.416Z"
     },
     "about": {
       "editorType": "generic",
@@ -3484,7 +3502,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.103Z"
+      "updatedAt": "2026-10-21T04:23:47.417Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3607,7 +3625,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.104Z"
+      "updatedAt": "2026-10-21T04:23:47.417Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3738,7 +3756,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.104Z"
+      "updatedAt": "2026-10-21T04:23:47.418Z"
     },
     "services": {
       "editorType": "generic",
@@ -3935,7 +3953,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.105Z"
+      "updatedAt": "2026-10-21T04:23:47.419Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4080,7 +4098,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.105Z"
+      "updatedAt": "2026-10-21T04:23:47.419Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4225,7 +4243,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.106Z"
+      "updatedAt": "2026-10-21T04:23:47.419Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5090,7 +5108,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.097Z"
+      "updatedAt": "2026-10-21T04:23:47.407Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5285,7 +5303,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.100Z"
+      "updatedAt": "2026-10-21T04:23:47.413Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5480,7 +5498,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-17T10:32:04.102Z"
+      "updatedAt": "2026-10-21T04:23:47.415Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -8275,12 +8293,319 @@
         }
       ],
       "updatedAt": "2026-10-17T10:14:08.049Z"
+    },
+    "dark-mode-light-mode-ui-psychology": {
+      "editorType": "generic",
+      "path": "/pages/blogs/dark-mode-light-mode-ui-psychology.html",
+      "title": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio",
+      "meta": "Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.",
+      "displayName": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"dark mode psychology, light mode psychology, UI psychology, dark mode UX, light mode UX, accessible interface design\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/dark-mode-light-mode-ui-psychology.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Dark Mode vs Light Mode: The UI Psychology Behind Better Choices\" />\n  <meta property=\"og:description\" content=\"A practical, visual guide to choosing a theme that supports attention, readability and user context.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/dark-mode-light-mode-ui-psychology.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/dark-light-psychology-cover.svg\" />\n  <meta property=\"og:image:alt\" content=\"Dark and light mobile interfaces separated by a glowing eclipse\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-10-21\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"UX/UI Design\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"Dark Mode vs Light Mode: The UI Psychology Behind Better Choices\" />\n  <meta name=\"twitter:description\" content=\"A practical, visual guide to theme psychology and user context.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/dark-light-psychology-cover.svg\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/dark-light-psychology-cover.svg\" as=\"image\" type=\"image/svg+xml\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Dark Mode vs Light Mode: The UI Psychology Behind Better Choices\",\"description\":\"Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.\",\"image\":\"https://webxds.com/assets/images/blogs/dark-light-psychology-cover.svg\",\"url\":\"https://webxds.com/pages/blogs/dark-mode-light-mode-ui-psychology.html\",\"datePublished\":\"2026-10-21\",\"dateModified\":\"2026-10-21\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"dark mode psychology\",\"light mode psychology\",\"UI psychology\",\"accessibility\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/dark-mode-light-mode-ui-psychology.html\"}}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Dark Mode vs Light Mode UI Psychology\",\"item\":\"https://webxds.com/pages/blogs/dark-mode-light-mode-ui-psychology.html\"}]}\n  </script>\n  <style>\n    .psychology-article .visual-figure{margin:42px 0 12px}.psychology-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.14);background:#1b1b25}.psychology-article figcaption{color:#aaa;font-size:.84rem;line-height:1.5;margin:12px 6px 0}.psychology-article .insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.psychology-article .insight-card{padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02))}.psychology-article .insight-card strong{display:block;color:#ff8a4c;font-size:1.15rem;margin-bottom:8px}.psychology-article .theme-checklist{margin:30px 0;padding:28px;border-radius:20px;background:#fff0e5;color:#25150f}.psychology-article .theme-checklist h3{margin:0 0 14px;font-size:1.25rem}.psychology-article .theme-checklist ol{padding-left:21px;margin:0}.psychology-article .theme-checklist li{margin:11px 0}.psychology-article .pull-quote{margin:34px 0;padding:24px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.18rem;line-height:1.6;color:#fff}.psychology-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}@media(max-width:700px){.psychology-article .insight-grid{grid-template-columns:1fr}.psychology-article .visual-figure{margin-top:30px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-619f2206"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-907705b6"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-ba181347"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-aabd00e2"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-83a15604"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-a344e34d"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-852d0281"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/index.html\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br />experiences<br />together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "dark-mode-light-mode-ui-psychology-section-eb9b7ee4"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-619f2206",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header>\n    <section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n      <nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav>\n    </section>\n  </header>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-907705b6",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/index.html\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><span class=\"breadcrumb-current\" aria-current=\"page\">Dark Mode vs Light Mode UI Psychology</span></nav></div></section>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-ba181347",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/dark-light-psychology-cover.svg\" alt=\"Dark and light mobile interfaces separated by a glowing eclipse\" class=\"blog-hero-image\" width=\"1600\" height=\"840\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-aabd00e2",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n    <header class=\"blog-header\">\n      <p class=\"eyebrow\">Design psychology / 7 min read</p>\n      <h1 class=\"blog-title\">Dark Mode vs Light Mode: The UI Psychology Behind Better Choices</h1>\n      <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">UI psychology</span><span class=\"blog-tag\">dark mode</span><span class=\"blog-tag\">light mode</span><span class=\"blog-tag\">accessibility</span><span class=\"blog-tag\">product design</span></div><time class=\"blog-date\" datetime=\"2026-10-21\">Date: 21 Oct 26</time></div>\n      <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/dark-mode-light-mode-ui-psychology.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p>\n      <div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Twitter\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"Twitter\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\n    </header>\n    <article class=\"blog-article psychology-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"Dark Mode vs Light Mode: The UI Psychology Behind Better Choices\" /><meta itemprop=\"datePublished\" content=\"2026-10-21\" />\n      <p class=\"blog-intro\">A theme is not a coat of paint. It sets the visual conditions in which people read, decide, notice, and trust. Dark and light interfaces can both feel excellent—but they cue different behaviours and fit different moments.</p>\n      <p class=\"blog-intro\">This guide looks beyond “which looks better?” to the psychology of attention, comfort, cognitive load, and context. The goal is not to crown a winner. It is to help you make a deliberate product decision.</p>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-1\"><h2 class=\"section-heading\" id=\"psych-1\">Your interface changes the room your user is in</h2><p class=\"section-text\">Light surfaces tend to feel open, familiar, and document-like. They make boundaries and dense information easier to scan in bright environments. Dark surfaces recede; bright content and accents become the stage. That can create a calmer, more immersive frame—especially when surrounding light is low.</p><div class=\"insight-grid\"><div class=\"insight-card\"><strong>Light mode signals clarity</strong><span>Useful when people need to compare, read, review, or work through many choices.</span></div><div class=\"insight-card\"><strong>Dark mode signals focus</strong><span>Useful when the product wants to reduce peripheral noise and foreground media or a single task.</span></div><div class=\"insight-card\"><strong>Context decides comfort</strong><span>The same screen can feel effortless at a desk and fatiguing on a train at night.</span></div></div></section>\n      <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/dark-light-attention-map.svg\" alt=\"Comparison of attention hierarchy in dark and light interfaces\" width=\"1200\" height=\"640\" loading=\"lazy\" /><figcaption>Hierarchy is perceived differently across themes: reserve high contrast and saturated colour for the action that deserves attention.</figcaption></figure>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-2\"><h2 class=\"section-heading\" id=\"psych-2\">Attention: dark surfaces amplify what is bright</h2><p class=\"section-text\">On a dark canvas, light text, badges, and colourful charts can feel more prominent because they appear to advance toward the viewer. That gives dark mode real power for media, monitoring, creative tools, and focused flows. It also makes overusing white or neon accents expensive: too many “important” things compete at once.</p><p class=\"section-text\">On a light canvas, contrast is distributed more evenly. People often find it easier to skim a long page, compare rows, or hold their place in a document. But large, unbroken white fields can glare under dim conditions; a warm off-white is often a gentler choice.</p><blockquote class=\"pull-quote\">Theme is a hierarchy multiplier. Use it to make the next useful action obvious—not merely to make the interface look dramatic.</blockquote></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-3\"><h2 class=\"section-heading\" id=\"psych-3\">Readability is a task, not a brand preference</h2><p class=\"section-text\">For extended reading and dense data work, light mode remains a robust default because dark text on a light field is familiar and highly legible for many users. In dark mode, pure white text on pure black can visually “vibrate,” and thin type loses its calm. Soften the extremes: use deep charcoal rather than black, and off-white rather than pure white.</p><ul class=\"section-list\"><li><strong style=\"color:#fff\">Long-form content:</strong> Give readers a comfortable light option, generous line-height, and a restrained text measure.</li><li><strong style=\"color:#fff\">Data-dense tools:</strong> Prioritise table borders, input states, and scan paths before visual mood.</li><li><strong style=\"color:#fff\">Low-light sessions:</strong> Offer dark mode without assuming it is universally more accessible.</li><li><strong style=\"color:#fff\">Small text:</strong> Test it in both themes at real device brightness—not only on a calibrated design screen.</li></ul></section>\n      <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/dark-light-context-cards.svg\" alt=\"Dark mode for evening immersion and light mode for daytime density\" width=\"1200\" height=\"640\" loading=\"lazy\" /><figcaption>Choose from the user’s environment and goal, not from a trend. One product may need both themes for different moments.</figcaption></figure>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-4\"><h2 class=\"section-heading\" id=\"psych-4\">Emotion, trust, and the personality of a theme</h2><p class=\"section-text\">Dark mode can make an experience feel cinematic, private, premium, or technically advanced. That makes it a natural fit for entertainment, portfolios, creative software, and night-first utilities. Light mode tends to feel approachable, transparent, and familiar—qualities that work well for education, finance, healthcare, forms, and collaborative work.</p><p class=\"section-text\">These are cues, not rules. A trustworthy interface comes from understandable language, predictable behaviour, accessible controls, and respectful feedback. A dark palette cannot manufacture confidence; a light palette cannot compensate for confusing flows.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-5\"><h2 class=\"section-heading\" id=\"psych-5\">Accessibility: support choice, then protect it</h2><p class=\"section-text\">Neither theme is automatically accessible. Contrast, focus visibility, non-colour cues, and content hierarchy matter in both. Honour <code>prefers-color-scheme</code> when you can, but never trap people there: an easy in-product override respects personal preference and situational needs.</p><div class=\"theme-checklist\"><h3>Before you ship both themes</h3><ol><li>Check text, icons, and interactive states against WCAG contrast requirements.</li><li>Keep brand colour semantic: success, warning, and error should mean the same thing in each theme.</li><li>Design focus rings and hover/pressed states separately; a light-theme shadow rarely works on a dark surface.</li><li>Test forms, charts, disabled controls, and empty states—not just the glossy homepage.</li><li>Ask participants to complete a real task in daylight and in low light.</li></ol></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-6\"><h2 class=\"section-heading\" id=\"psych-6\">How to choose a sensible default</h2><p class=\"section-text\">Start with the primary job. If your product is largely reading, comparing, entering information, or working through a complex system in daylight, light mode is usually the safer opening move. If it is media-first, used at night, or benefits from an immersive frame, dark mode may serve the core experience better.</p><p class=\"section-text\">Then validate the decision. Track theme selection, completion rates, error rates, and qualitative comments. A switch to dark mode can mean comfort; it can also mean the default was too bright. Metrics need the user’s explanation beside them.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"psych-7\"><h2 class=\"section-heading\" id=\"psych-7\">The takeaway: design for the moment, not the debate</h2><p class=\"section-text\">The most thoughtful products stop asking whether dark or light mode is “better.” They ask: what does our user need to notice, how long will they stay, where are they likely to be, and what would help them feel in control?</p><p class=\"section-text\">Give each theme its own considered system—not an inverted palette. When light and dark both preserve hierarchy, clarity, and character, the user gets the best answer: a product that feels right where they are.</p></section>\n    </article>\n  </div></section>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-83a15604",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"dark-mode-light-mode-ui-psychology\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-a344e34d",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-852d0281",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Logo Design</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "dark-mode-light-mode-ui-psychology-section-eb9b7ee4",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/index.html\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" /><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" /></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-10-21T04:17:49.483Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-3847e0271b6631a15cb28907",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:22:46.917Z",
+        "lastSeenAt": "2026-10-21T04:23:47.420Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/blogs/dark-mode-light-mode-ui-psychology",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 60,
+        "scrollDepth": 77,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-afaa4d9757e0281a15cb1ebe3",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:22:06.655Z",
+        "lastSeenAt": "2026-10-21T04:22:46.675Z",
+        "currentPage": "dark-mode-light-mode-ui-psychology",
+        "path": "/blogs/dark-mode-light-mode-ui-psychology",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 96,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5b5babdd1189581a15cafaa81",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:19:38.820Z",
+        "lastSeenAt": "2026-10-21T04:22:02.265Z",
+        "currentPage": "dark-mode-light-mode-ui-psychology",
+        "path": "/blogs/dark-mode-light-mode-ui-psychology",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 80,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-658fb01c669f881a15cae3bd2",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:18:04.929Z",
+        "lastSeenAt": "2026-10-21T04:19:35.418Z",
+        "currentPage": "dark-mode-light-mode-ui-psychology",
+        "path": "/blogs/dark-mode-light-mode-ui-psychology",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 90,
+        "scrollDepth": 92,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-77a34600081fe81a15cae12bf",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:17:54.469Z",
+        "lastSeenAt": "2026-10-21T04:18:04.695Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-e135e88706a6e1a15cadff3f",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:17:49.461Z",
+        "lastSeenAt": "2026-10-21T04:17:54.298Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-8310af1a80a1a1a149683396",
         "visitorId": "9e5216b3-c74f-4235-9609-8e25f3c69d63",
@@ -8463,6 +8788,42 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-f3f072be",
+        "sessionId": "sess-afaa4d9757e0281a15cb1ebe3",
+        "page": "dark-mode-light-mode-ui-psychology",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Home",
+        "createdAt": "2026-10-21T04:22:46.675Z"
+      },
+      {
+        "id": "evt-b1a83563",
+        "sessionId": "sess-77a34600081fe81a15cae12bf",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-10-21T04:18:04.695Z"
+      },
+      {
+        "id": "evt-c39827d2",
+        "sessionId": "sess-e135e88706a6e1a15cadff3f",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-10-21T04:17:54.298Z"
+      },
+      {
+        "id": "evt-2d434002",
+        "sessionId": "sess-e135e88706a6e1a15cadff3f",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-10-21T04:17:52.236Z"
+      },
       {
         "id": "evt-f8cbb717",
         "sessionId": "sess-4bc3752d371ed81a14968291f",
@@ -12926,42 +13287,6 @@
         "target": "button.blog-arrow.blog-prev",
         "text": "â†",
         "createdAt": "2026-08-06T10:56:23.174Z"
-      },
-      {
-        "id": "evt-088cc7c0",
-        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-06T10:56:21.331Z"
-      },
-      {
-        "id": "evt-4ea2bd2d",
-        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-06T10:56:20.577Z"
-      },
-      {
-        "id": "evt-d1b0f558",
-        "sessionId": "sess-f5d43ac5d2c22819fd6b7485d",
-        "page": "blog-dark-mode-vs-light-mode.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Home",
-        "createdAt": "2026-08-06T10:56:11.062Z"
-      },
-      {
-        "id": "evt-7046c1fd",
-        "sessionId": "sess-b85ab524ebd2c819fd6b3fd03",
-        "page": "blogs.html",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-06T10:56:03.523Z"
       }
     ],
     "replays": []
@@ -13150,6 +13475,32 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/blog-what-makes-a-great-website-2026.html",
+      "sections": []
+    },
+    {
+      "id": "blog-dark-mode-vs-light-mode-the-ui-psychology-behind-better-choices-webx-design-studio",
+      "title": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio",
+      "slug": "dark-mode-light-mode-ui-psychology",
+      "metaTitle": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.",
+      "image": "/assets/images/blogs/dark-light-psychology-cover.svg",
+      "imageAlt": "Dark and light mobile interfaces separated by a glowing eclipse",
+      "dateValue": "2026-10-21",
+      "dateLabel": "Date: 21 Oct 26",
+      "excerpt": "Learn how dark and light UI themes influence attention, readability, trust and comfort—and how to choose a thoughtful default for your product.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "dark mode psychology",
+        "light mode psychology",
+        "UI psychology",
+        "dark mode UX",
+        "light mode UX",
+        "accessible interface design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/dark-mode-light-mode-ui-psychology.html",
       "sections": []
     },
     {
@@ -13515,6 +13866,42 @@
   ],
   "activity": [
     {
+      "id": "act-33a3a8f7",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-10-21T04:22:46.954Z"
+    },
+    {
+      "id": "act-9dd0f523",
+      "type": "visitor",
+      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
+      "createdAt": "2026-10-21T04:22:06.685Z"
+    },
+    {
+      "id": "act-bacaebe2",
+      "type": "visitor",
+      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
+      "createdAt": "2026-10-21T04:19:38.851Z"
+    },
+    {
+      "id": "act-fdbe5a45",
+      "type": "visitor",
+      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
+      "createdAt": "2026-10-21T04:18:04.962Z"
+    },
+    {
+      "id": "act-e83950ec",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-10-21T04:17:54.507Z"
+    },
+    {
+      "id": "act-82d8bff9",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-10-21T04:17:49.484Z"
+    },
+    {
       "id": "act-86f29a33",
       "type": "visitor",
       "message": "Visitor opened home",
@@ -13837,42 +14224,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-09-26T06:37:55.932Z"
-    },
-    {
-      "id": "act-72586f33",
-      "type": "visitor",
-      "message": "Visitor opened future-of-ux-better-experiences",
-      "createdAt": "2026-09-26T06:37:40.295Z"
-    },
-    {
-      "id": "act-8679a94c",
-      "type": "visitor",
-      "message": "Visitor opened future-of-ux-better-experiences",
-      "createdAt": "2026-09-26T06:37:13.155Z"
-    },
-    {
-      "id": "act-d199c99d",
-      "type": "visitor",
-      "message": "Visitor opened mobile-first-design-principles-execution",
-      "createdAt": "2026-09-24T08:51:06.529Z"
-    },
-    {
-      "id": "act-509ff2bc",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-09-24T08:51:03.644Z"
-    },
-    {
-      "id": "act-985fe373",
-      "type": "visitor",
-      "message": "Visitor opened manglam",
-      "createdAt": "2026-09-24T06:21:45.480Z"
-    },
-    {
-      "id": "act-bc5dd75c",
-      "type": "visitor",
-      "message": "Visitor opened gurukrupa",
-      "createdAt": "2026-09-24T06:21:42.968Z"
     }
   ],
   "blogViews": {
@@ -13934,14 +14285,16 @@
     },
     "/pages/blogs/ab-testing-ideas-saas-landing-pages.html": {
       "count": 3,
-      "viewers": {
-        "cdd0d696652d6033299107f463e1ad790b4f5f39f8258345979519d6efefa253": 1792232062301
-      }
+      "viewers": {}
     },
     "/pages/blogs/mobile-app-gesture-navigation-design-patterns.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/dark-mode-light-mode-ui-psychology.html": {
+      "count": 1,
       "viewers": {
-        "ecd79f917848829110018b8f5741219cee4661d89bcc71c9c6b692cbe7308d88": 1792232675307
+        "fffa1ce961c766710e53618935cf2e576027ec320883206010905c8a7fb865b7": 1792556285147
       }
     }
   }
