@@ -705,6 +705,23 @@
               ]
             },
             {
+              "id": "blog-the-checklist-for-launching-a-completely-redesigned-website-safely-webx-design-studio",
+              "title": "The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio",
+              "image": "/assets/images/blogs/safe-redesign-launch-cover.svg",
+              "imageAlt": "Website redesign launch control room and checklist",
+              "dateLabel": "Date: 22 Oct 26",
+              "dateValue": "2026-10-22",
+              "excerpt": "A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.",
+              "url": "/pages/blogs/safe-website-redesign-launch-checklist.html",
+              "tags": [
+                "website redesign launch checklist",
+                "website go live checklist",
+                "website migration SEO checklist",
+                "website redesign QA",
+                "safe website launch"
+              ]
+            },
+            {
               "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
               "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
               "image": "/assets/images/blogs/ui-ux-design-trends-2026-cover.png",
@@ -1022,7 +1039,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1222,7 +1239,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1422,7 +1439,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1622,7 +1639,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1822,7 +1839,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2022,7 +2039,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.548Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2222,7 +2239,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-21T04:23:47.405Z"
+          "updatedAt": "2026-10-22T09:12:05.549Z"
         }
       ]
     },
@@ -2743,7 +2760,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.410Z"
+      "updatedAt": "2026-10-22T09:12:05.551Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3047,7 +3064,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.412Z"
+      "updatedAt": "2026-10-22T09:12:05.552Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3178,7 +3195,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.415Z"
+      "updatedAt": "2026-10-22T09:12:05.555Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3309,7 +3326,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.416Z"
+      "updatedAt": "2026-10-22T09:12:05.556Z"
     },
     "about": {
       "editorType": "generic",
@@ -3502,7 +3519,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.417Z"
+      "updatedAt": "2026-10-22T09:12:05.556Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3625,7 +3642,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.417Z"
+      "updatedAt": "2026-10-22T09:12:05.557Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3756,7 +3773,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.418Z"
+      "updatedAt": "2026-10-22T09:12:05.557Z"
     },
     "services": {
       "editorType": "generic",
@@ -3953,7 +3970,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.419Z"
+      "updatedAt": "2026-10-22T09:12:05.558Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4098,7 +4115,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.419Z"
+      "updatedAt": "2026-10-22T09:12:05.558Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4243,7 +4260,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.419Z"
+      "updatedAt": "2026-10-22T09:12:05.559Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5108,7 +5125,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.407Z"
+      "updatedAt": "2026-10-22T09:12:05.550Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5303,7 +5320,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.413Z"
+      "updatedAt": "2026-10-22T09:12:05.553Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5498,7 +5515,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-21T04:23:47.415Z"
+      "updatedAt": "2026-10-22T09:12:05.555Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -8480,6 +8497,189 @@
         }
       ],
       "updatedAt": "2026-10-21T04:17:49.483Z"
+    },
+    "safe-website-redesign-launch-checklist": {
+      "editorType": "generic",
+      "path": "/pages/blogs/safe-website-redesign-launch-checklist.html",
+      "title": "The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio",
+      "meta": "A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.",
+      "displayName": "The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio</title>\n  <meta name=\"description\" content=\"A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.\" />\n  <meta name=\"robots\" content=\"index, follow\" /><meta name=\"author\" content=\"Webx Design Studio\" /><meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"website redesign launch checklist, website go live checklist, website migration SEO checklist, website redesign QA, safe website launch\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/safe-website-redesign-launch-checklist.html\" />\n  <meta property=\"og:type\" content=\"article\" /><meta property=\"og:title\" content=\"The Checklist for Launching a Completely Redesigned Website Safely\" /><meta property=\"og:description\" content=\"Protect your traffic, rankings and conversions with this practical go-live checklist.\" /><meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/safe-website-redesign-launch-checklist.html\" /><meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/safe-redesign-launch-cover.svg\" /><meta property=\"og:image:alt\" content=\"Website redesign launch control room and checklist\" /><meta property=\"og:site_name\" content=\"Webx Design Studio\" /><meta property=\"og:locale\" content=\"en_IN\" /><meta property=\"article:published_time\" content=\"2026-10-22\" /><meta property=\"article:author\" content=\"Webx Design Studio\" /><meta property=\"article:section\" content=\"Web Design\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" /><meta name=\"twitter:title\" content=\"The Checklist for Launching a Completely Redesigned Website Safely\" /><meta name=\"twitter:description\" content=\"A practical launch playbook for a high-stakes website redesign.\" /><meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/safe-redesign-launch-cover.svg\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" /><link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" /><link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin /><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\" /><link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/safe-redesign-launch-cover.svg\" as=\"image\" type=\"image/svg+xml\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Checklist for Launching a Completely Redesigned Website Safely\",\"description\":\"A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.\",\"image\":\"https://webxds.com/assets/images/blogs/safe-redesign-launch-cover.svg\",\"url\":\"https://webxds.com/pages/blogs/safe-website-redesign-launch-checklist.html\",\"datePublished\":\"2026-10-22\",\"dateModified\":\"2026-10-22\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"website redesign launch checklist\",\"website migration SEO checklist\",\"website go live checklist\"],\"articleSection\":\"Web Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/safe-website-redesign-launch-checklist.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Safe Website Redesign Launch Checklist\",\"item\":\"https://webxds.com/pages/blogs/safe-website-redesign-launch-checklist.html\"}]}</script>\n  <style>\n    .launch-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}.launch-article .visual-figure{margin:42px 0 12px}.launch-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.14);background:#1b1b25}.launch-article figcaption{color:#aaa;font-size:.84rem;line-height:1.5;margin:12px 6px 0}.launch-article .toc{margin:32px 0;padding:28px;border:1px solid rgba(255,255,255,.16);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02))}.launch-article .toc h2{margin:0 0 15px;font-size:1.2rem;color:#fff}.launch-article .toc ol{margin:0;padding-left:22px;columns:2;gap:35px}.launch-article .toc li{padding:5px 0;color:#d6cbd9}.launch-article .toc a{color:#ffad7e;text-decoration:none}.launch-article .stage-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.launch-article .stage-card{padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02))}.launch-article .stage-number{display:block;color:#ff8a4c;font-size:.78rem;font-weight:800;letter-spacing:.12em;margin-bottom:12px}.launch-article .stage-card h3{margin:0 0 9px;color:#fff;font-size:1.15rem}.launch-article .stage-card p{margin:0;color:#c8c0ca;line-height:1.55;font-size:.94rem}.launch-article .checklist{margin:28px 0;padding:27px 30px;border-radius:20px;background:#fff0e5;color:#25150f}.launch-article .checklist h3{margin:0 0 14px;font-size:1.25rem}.launch-article .checklist ul{padding:0;margin:0;list-style:none}.launch-article .checklist li{position:relative;padding:8px 0 8px 30px;line-height:1.5}.launch-article .checklist li:before{content:'✓';position:absolute;left:0;top:8px;width:19px;height:19px;border-radius:50%;background:#372343;color:#fff;text-align:center;font-size:13px;font-weight:800;line-height:19px}.launch-article .risk-note{margin:32px 0;padding:24px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.12rem;line-height:1.65;color:#fff}.launch-article .priority-table{width:100%;border-collapse:collapse;margin:26px 0;font-size:.95rem;overflow:hidden;border-radius:16px}.launch-article .priority-table th,.launch-article .priority-table td{padding:16px;text-align:left;border-bottom:1px solid rgba(255,255,255,.14)}.launch-article .priority-table th{color:#ffad7e;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.launch-article .priority-table td{color:#d9d0da}.launch-article .priority-table tr:last-child td{border:0}.launch-article .blog-cta-link{color:#ff9d69}@media(max-width:700px){.launch-article .stage-grid{grid-template-columns:1fr}.launch-article .toc ol{columns:1}.launch-article .visual-figure{margin-top:30px}.launch-article .priority-table{font-size:.84rem}.launch-article .priority-table th,.launch-article .priority-table td{padding:11px 8px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body></html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-bde29aa5"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-38f0bbeb"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-95432fed"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-adfebb40"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-4ba9c470"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-a205578e"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-25ea31f7"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/index.html\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br />experiences<br />together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "safe-website-redesign-launch-checklist-section-874314fc"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script>if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "safe-website-redesign-launch-checklist-section-bde29aa5",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-38f0bbeb",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/index.html\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">›</span><span class=\"breadcrumb-current\" aria-current=\"page\">Safe Website Redesign Launch Checklist</span></nav></div></section>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-95432fed",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/safe-redesign-launch-cover.svg\" alt=\"Website redesign launch control room and completed checklist\" class=\"blog-hero-image\" width=\"1600\" height=\"840\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-adfebb40",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\"><header class=\"blog-header\"><p class=\"launch-article eyebrow\">Web design / 9 min read</p><h1 class=\"blog-title\">The Checklist for Launching a Completely Redesigned Website Safely</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">website redesign</span><span class=\"blog-tag\">launch checklist</span><span class=\"blog-tag\">technical SEO</span><span class=\"blog-tag\">website QA</span><span class=\"blog-tag\">conversion tracking</span></div><time class=\"blog-date\" datetime=\"2026-10-22\">Date: 22 Oct 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/safe-website-redesign-launch-checklist.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">•</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Twitter\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"Twitter\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n    <article class=\"blog-article launch-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"The Checklist for Launching a Completely Redesigned Website Safely\" /><meta itemprop=\"datePublished\" content=\"2026-10-22\" />\n      <p class=\"blog-intro\">A redesign should make your business feel sharper—not make customers, search engines, or your team wonder where everything went. The launch is the moment the work becomes real: URLs change, forms begin collecting leads, campaigns point to new pages, and every missed detail becomes public.</p>\n      <p class=\"blog-intro\">The good news is that a safe launch is not mysterious. It is a sequence of deliberate checks, with an owner, a fallback and a clear decision to proceed. Use this practical playbook to take a completely redesigned website live without losing the momentum you already earned.</p>\n      <nav class=\"toc\" aria-label=\"Article contents\"><h2>What this launch checklist covers</h2><ol><li><a href=\"#before\">Before launch: protect what already works</a></li><li><a href=\"#seo\">SEO and URL migration</a></li><li><a href=\"#quality\">Experience and conversion QA</a></li><li><a href=\"#launch\">The launch window</a></li><li><a href=\"#after\">The first 72 hours</a></li><li><a href=\"#ownership\">Who owns each check</a></li></ol></nav>\n      <section class=\"blog-page-section\" id=\"before\" aria-labelledby=\"before-heading\"><h2 class=\"section-heading\" id=\"before-heading\">Start with a launch plan, not a launch date</h2><p class=\"section-text\">A date only tells the team when pressure will arrive. A launch plan tells everyone what “ready” means, who decides, and how to recover if something is wrong. Treat your current website as a valuable asset: it contains traffic patterns, rankings, conversion paths, customer knowledge and often years of small optimisations.</p><div class=\"stage-grid\"><div class=\"stage-card\"><span class=\"stage-number\">01 / PROTECT</span><h3>Capture the baseline</h3><p>Save a crawl, export key analytics and record the conversion events that matter before anything changes.</p></div><div class=\"stage-card\"><span class=\"stage-number\">02 / PROVE</span><h3>Test the real experience</h3><p>QA the new site on actual devices, with real forms, emails, payments and edge-case content.</p></div><div class=\"stage-card\"><span class=\"stage-number\">03 / OBSERVE</span><h3>Launch with a pulse</h3><p>Monitor people, search and systems after deployment—and keep rollback possible.</p></div></div></section>\n      <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/safe-redesign-launch-runway.svg\" alt=\"Timeline showing before launch, launch and after launch phases\" width=\"1200\" height=\"640\" loading=\"lazy\" /><figcaption>The launch itself is short. The preparation and observation around it are where risk is managed.</figcaption></figure>\n      <section class=\"blog-page-section\" aria-labelledby=\"baseline-heading\"><h2 class=\"section-heading\" id=\"baseline-heading\">1. Capture what you cannot afford to lose</h2><p class=\"section-text\">Before the old site is changed, create a record that lets you compare, recover and explain. Crawl the live site to produce a URL inventory, including metadata, headings, canonical tags, status codes and internal links. Export analytics for your most important pages, channels and conversion events. If a redesign changes results later, this is how you distinguish a real issue from normal variation.</p><div class=\"checklist\"><h3>Baseline checklist</h3><ul><li>Back up the production database, files, CMS configuration and DNS records.</li><li>Save a full crawl of the current site and flag high-traffic, high-value and backlink-rich URLs.</li><li>Export the last 3–6 months of traffic, rankings, conversions and form submissions.</li><li>Document current consent, cookie, CRM, email and payment integrations.</li><li>Agree a written rollback plan: who can trigger it, how long it takes and what it restores.</li></ul></div><aside class=\"risk-note\">A beautiful replacement is not automatically a successful redesign. Preserve the parts of the old site that people and search engines already trust, then deliberately improve them.</aside></section>\n      <section class=\"blog-page-section\" id=\"seo\" aria-labelledby=\"seo-heading\"><h2 class=\"section-heading\" id=\"seo-heading\">2. Migrate SEO intentionally—page by page</h2><p class=\"section-text\">Most redesign traffic drops are not caused by a new visual style. They happen when useful old pages vanish, redirects point to a generic homepage, metadata disappears, or internal links break. Every meaningful old URL needs a purposeful destination. A one-to-one redirect is ideal; a closely related new page is the next best option. Do not redirect unrelated pages simply to make crawl errors disappear.</p><div class=\"checklist\"><h3>SEO migration checklist</h3><ul><li>Map every old URL to its new equivalent and implement permanent 301 redirects before go-live.</li><li>Keep proven page intent, useful copy and topic relevance when consolidating pages.</li><li>Check titles, descriptions, headings, canonical tags, alt text, robots directives and structured data.</li><li>Generate a fresh XML sitemap, keep staging blocked from indexing, and confirm production is crawlable.</li><li>Test internal links, pagination, search, XML sitemap links and the most valuable external campaign links.</li></ul></div></section>\n      <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/safe-redesign-seo-map.svg\" alt=\"Old website URLs redirecting to relevant new website URLs\" width=\"1200\" height=\"640\" loading=\"lazy\" /><figcaption>Redirects should carry each visitor and search signal to the most relevant new destination—not to a dead end or an unrelated homepage.</figcaption></figure>\n      <section class=\"blog-page-section\" id=\"quality\" aria-labelledby=\"quality-heading\"><h2 class=\"section-heading\" id=\"quality-heading\">3. Test the journeys that make the website worth having</h2><p class=\"section-text\">A generic “looks good” review misses the moments that create revenue and trust. Build a short test script around real visitor jobs: finding a service, understanding an offer, completing a form, booking a call, checking out, downloading a resource or getting support. Run it on the devices and browsers your audience genuinely uses.</p><table class=\"priority-table\"><thead><tr><th>Priority</th><th>What to verify</th><th>Evidence of success</th></tr></thead><tbody><tr><td>Critical</td><td>Forms, checkout, booking and confirmation emails</td><td>Real submissions arrive in the correct inbox or system.</td></tr><tr><td>Critical</td><td>Analytics, pixels and consent handling</td><td>Key events fire only after the correct consent state.</td></tr><tr><td>High</td><td>Mobile layouts, menu and primary CTAs</td><td>A visitor can complete the main task with one thumb.</td></tr><tr><td>High</td><td>Performance, images and embedded tools</td><td>Pages load quickly with no broken or jumping elements.</td></tr><tr><td>High</td><td>Accessibility fundamentals</td><td>Keyboard focus, labels, contrast and error states are clear.</td></tr></tbody></table><p class=\"section-text\">Do this on staging with production-like settings wherever possible. Then repeat a focused version immediately after launch; integrations, cache layers, DNS and third-party tools can behave differently in the live environment.</p></section>\n      <section class=\"blog-page-section\" id=\"launch\" aria-labelledby=\"launch-heading\"><h2 class=\"section-heading\" id=\"launch-heading\">4. Make the launch window calm and observable</h2><p class=\"section-text\">Choose a window when the right people are available and the business can tolerate a small amount of focused attention. Avoid a major campaign, peak sales event or holiday period unless the launch is designed around it. Freeze non-essential changes, assign one person to coordinate decisions, and use a single shared channel for updates.</p><div class=\"checklist\"><h3>Go-live checklist</h3><ul><li>Confirm the production backup and rollback instructions one final time.</li><li>Switch DNS or deployment, then immediately validate the homepage and priority URLs on a mobile network.</li><li>Run a redirect sample, submit every key form and check confirmation messages.</li><li>Confirm SSL, canonical domain, indexability, sitemap, robots.txt and no staging links.</li><li>Watch error reporting, uptime, server logs and the conversion dashboard for the first hour.</li></ul></div></section>\n      <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/safe-redesign-war-room.svg\" alt=\"Website launch monitoring dashboard showing traffic, uptime, conversion events and rollback readiness\" width=\"1200\" height=\"640\" loading=\"lazy\" /><figcaption>One shared launch view keeps the team focused on user experience, business outcomes and recovery—not on cosmetic noise.</figcaption></figure>\n      <section class=\"blog-page-section\" id=\"after\" aria-labelledby=\"after-heading\"><h2 class=\"section-heading\" id=\"after-heading\">5. Treat the first 72 hours as a learning window</h2><p class=\"section-text\">A launch is the beginning of a release, not the end of a project. Check Search Console for indexing or coverage issues, review 404s and redirect chains, compare form volume with your baseline, and watch the highest-value landing pages. Listen to customer support and sales teams: they hear friction that dashboards cannot always describe.</p><ul class=\"section-list\"><li><strong style=\"color:#fff\">First hour:</strong> Validate critical paths and fix clear blockers quickly.</li><li><strong style=\"color:#fff\">First day:</strong> Review real-session errors, redirects, performance and conversion events.</li><li><strong style=\"color:#fff\">First week:</strong> Compare traffic quality, search visibility, form completion and user feedback with the saved baseline.</li><li><strong style=\"color:#fff\">First month:</strong> Turn launch observations into a prioritised optimisation backlog instead of declaring the redesign “finished.”</li></ul></section>\n      <section class=\"blog-page-section\" id=\"ownership\" aria-labelledby=\"ownership-heading\"><h2 class=\"section-heading\" id=\"ownership-heading\">6. Give every checkbox an owner</h2><p class=\"section-text\">Checklists work only when someone is accountable for each line. Your designer can own experience QA, a developer can own deployment and performance, a marketer can own redirects and measurement, and a stakeholder can make the final business call. For a smaller team, one person may wear several hats—but the ownership should still be explicit.</p><p class=\"section-text\">The safest launch question is not “Are we ready?” It is: “Have we checked the things that would hurt our customers or business if they failed, and do we know what to do next?” If the answer is yes, you have earned a confident go-live.</p><p class=\"section-text\">Planning a redesign that needs to perform from day one? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your project</a> and we’ll help you create a launch plan as considered as the new website itself.</p></section>\n    </article></div></section>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-4ba9c470",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"safe-website-redesign-launch-checklist\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-a205578e",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-25ea31f7",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services<button class=\"footer-toggle\" aria-label=\"Toggle Services menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a><a href=\"/pages/main/services.html\">Social Media</a><a href=\"/pages/main/services.html\">Logo Design</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company<button class=\"footer-toggle\" aria-label=\"Toggle Company menu\" aria-expanded=\"false\"><span class=\"accordion-arrow-circle\"><svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span></button></h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "safe-website-redesign-launch-checklist-section-874314fc",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/index.html\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/index.html\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-10-22T09:05:59.278Z"
     }
   },
   "services": [],
@@ -8487,10 +8687,70 @@
   "tracking": {
     "sessions": [
       {
-        "id": "sess-3847e0271b6631a15cb28907",
+        "id": "sess-0a390decf01a981a162dc75e6",
+        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
+        "createdAt": "2026-10-22T09:06:17.747Z",
+        "lastSeenAt": "2026-10-22T09:12:05.559Z",
+        "currentPage": "safe-website-redesign-launch-checklist",
+        "path": "/blogs/safe-website-redesign-launch-checklist",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 300,
+        "scrollDepth": 86,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4b576c703fad21a162dc3cb9",
+        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
+        "createdAt": "2026-10-22T09:06:03.101Z",
+        "lastSeenAt": "2026-10-22T09:06:17.495Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c5f30ca133da21a162dc2d7b",
+        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
+        "createdAt": "2026-10-22T09:05:59.253Z",
+        "lastSeenAt": "2026-10-22T09:06:02.955Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-53a9852b153631a15cba354e",
         "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:22:46.917Z",
-        "lastSeenAt": "2026-10-21T04:23:47.420Z",
+        "createdAt": "2026-10-21T04:31:09.693Z",
+        "lastSeenAt": "2026-10-21T04:31:25.444Z",
         "currentPage": "index.html",
         "path": "/index.html",
         "referrer": "http://localhost:3000/blogs/dark-mode-light-mode-ui-psychology",
@@ -8499,9 +8759,49 @@
         "timezone": "Asia/Calcutta",
         "language": "en-US",
         "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 77,
+        "activeSeconds": 15,
+        "scrollDepth": 0,
         "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-01b7a24459cff81a15cb552d4",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:25:49.557Z",
+        "lastSeenAt": "2026-10-21T04:31:09.509Z",
+        "currentPage": "dark-mode-light-mode-ui-psychology",
+        "path": "/blogs/dark-mode-light-mode-ui-psychology",
+        "referrer": "http://localhost:3000/index.html",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 11,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-3847e0271b6631a15cb28907",
+        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
+        "createdAt": "2026-10-21T04:22:46.917Z",
+        "lastSeenAt": "2026-10-21T04:25:49.437Z",
+        "currentPage": "index.html",
+        "path": "/index.html",
+        "referrer": "http://localhost:3000/blogs/dark-mode-light-mode-ui-psychology",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 180,
+        "scrollDepth": 79,
+        "eventCount": 1,
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
         "ip": "1::*"
@@ -8788,6 +9088,51 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-ff808bbd",
+        "sessionId": "sess-4b576c703fad21a162dc3cb9",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-10-22T09:06:17.495Z"
+      },
+      {
+        "id": "evt-43d4baf4",
+        "sessionId": "sess-c5f30ca133da21a162dc2d7b",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-10-22T09:06:02.955Z"
+      },
+      {
+        "id": "evt-f07f5bec",
+        "sessionId": "sess-c5f30ca133da21a162dc2d7b",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-10-22T09:06:01.520Z"
+      },
+      {
+        "id": "evt-f8259bef",
+        "sessionId": "sess-01b7a24459cff81a15cb552d4",
+        "page": "dark-mode-light-mode-ui-psychology",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-10-21T04:31:09.509Z"
+      },
+      {
+        "id": "evt-350dfa6c",
+        "sessionId": "sess-3847e0271b6631a15cb28907",
+        "page": "index.html",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-10-21T04:25:49.437Z"
+      },
       {
         "id": "evt-f3f072be",
         "sessionId": "sess-afaa4d9757e0281a15cb1ebe3",
@@ -13242,51 +13587,6 @@
         "target": "button.blog-arrow.blog-next",
         "text": "â†’",
         "createdAt": "2026-08-06T11:03:10.538Z"
-      },
-      {
-        "id": "evt-b5cc1d56",
-        "sessionId": "sess-9d6f828f03e34819fd6bcc70d",
-        "page": "blogs.html",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-06T11:02:13.160Z"
-      },
-      {
-        "id": "evt-9a99e33c",
-        "sessionId": "sess-3615ad11efd86819fd6bca658",
-        "page": "index.html",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-06T11:01:59.151Z"
-      },
-      {
-        "id": "evt-ba3f2bd6",
-        "sessionId": "sess-3615ad11efd86819fd6bca658",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-06T11:01:56.819Z"
-      },
-      {
-        "id": "evt-40237140",
-        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-06T10:56:23.646Z"
-      },
-      {
-        "id": "evt-beebd26a",
-        "sessionId": "sess-dd33f9e1aee1f819fd6b76cf0",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-06T10:56:23.174Z"
       }
     ],
     "replays": []
@@ -13787,6 +14087,31 @@
       "sections": []
     },
     {
+      "id": "blog-the-checklist-for-launching-a-completely-redesigned-website-safely-webx-design-studio",
+      "title": "The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio",
+      "slug": "safe-website-redesign-launch-checklist",
+      "metaTitle": "The Checklist for Launching a Completely Redesigned Website Safely | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.",
+      "image": "/assets/images/blogs/safe-redesign-launch-cover.svg",
+      "imageAlt": "Website redesign launch control room and checklist",
+      "dateValue": "2026-10-22",
+      "dateLabel": "Date: 22 Oct 26",
+      "excerpt": "A practical, visual website launch checklist to protect SEO, conversions, analytics and customer trust when a redesigned site goes live.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "website redesign launch checklist",
+        "website go live checklist",
+        "website migration SEO checklist",
+        "website redesign QA",
+        "safe website launch"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/safe-website-redesign-launch-checklist.html",
+      "sections": []
+    },
+    {
       "id": "blog-top-ui-ux-design-trends-for-2026-what-product-teams-need-to-know-webx-design-studio",
       "title": "Top UI/UX Design Trends for 2026: What Product Teams Need to Know | Webx Design Studio",
       "slug": "top-ui-ux-design-trends-2026",
@@ -13865,6 +14190,36 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-b15b57e0",
+      "type": "visitor",
+      "message": "Visitor opened safe-website-redesign-launch-checklist",
+      "createdAt": "2026-10-22T09:06:17.782Z"
+    },
+    {
+      "id": "act-52353f08",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-10-22T09:06:03.137Z"
+    },
+    {
+      "id": "act-1af4a910",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-10-22T09:05:59.279Z"
+    },
+    {
+      "id": "act-9316af07",
+      "type": "visitor",
+      "message": "Visitor opened index.html",
+      "createdAt": "2026-10-21T04:31:09.723Z"
+    },
+    {
+      "id": "act-7bbd6148",
+      "type": "visitor",
+      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
+      "createdAt": "2026-10-21T04:25:49.592Z"
+    },
     {
       "id": "act-33a3a8f7",
       "type": "visitor",
@@ -14194,36 +14549,6 @@
       "type": "visitor",
       "message": "Visitor opened blogs",
       "createdAt": "2026-09-28T04:46:25.249Z"
-    },
-    {
-      "id": "act-b2c8f74d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-28T04:46:19.531Z"
-    },
-    {
-      "id": "act-7b9f8721",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-26T06:43:02.253Z"
-    },
-    {
-      "id": "act-d0d9416d",
-      "type": "visitor",
-      "message": "Visitor opened future-of-ux-better-experiences",
-      "createdAt": "2026-09-26T06:39:16.853Z"
-    },
-    {
-      "id": "act-06003b86",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-26T06:38:55.630Z"
-    },
-    {
-      "id": "act-9082945d",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-09-26T06:37:55.932Z"
     }
   ],
   "blogViews": {
@@ -14293,8 +14618,12 @@
     },
     "/pages/blogs/dark-mode-light-mode-ui-psychology.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/safe-website-redesign-launch-checklist.html": {
+      "count": 1,
       "viewers": {
-        "fffa1ce961c766710e53618935cf2e576027ec320883206010905c8a7fb865b7": 1792556285147
+        "62ab6ab9a97061fbff18dc326aca4890a01c616663c0db9a6a277c08a7ea7cb7": 1792659977964
       }
     }
   }

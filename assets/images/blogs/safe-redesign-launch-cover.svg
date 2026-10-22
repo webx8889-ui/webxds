@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+  <title id="title">Website redesign safe launch checklist</title><desc id="desc">An editorial illustration of a website launch control room with a completed checklist and a protected deployment path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16121f"/><stop offset=".55" stop-color="#302044"/><stop offset="1" stop-color="#fe5d1f"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9f4"/><stop offset="1" stop-color="#ffe1ca"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="25" stdDeviation="26" flood-opacity=".32"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1600" height="840" fill="url(#bg)"/>
+  <circle cx="1360" cy="120" r="230" fill="#ffbd75" opacity=".15" filter="url(#glow)"/><circle cx="150" cy="720" r="270" fill="#b689ff" opacity=".16" filter="url(#glow)"/>
+  <g opacity=".35" stroke="#fff" stroke-width="2"><path d="M0 152H470M1170 650H1600"/><path d="M118 0V155M1455 650V840"/></g>
+  <g filter="url(#shadow)">
+    <rect x="142" y="154" width="720" height="510" rx="28" fill="url(#card)"/>
+    <rect x="142" y="154" width="720" height="78" rx="28" fill="#251934"/><rect x="142" y="205" width="720" height="27" fill="#251934"/>
+    <circle cx="188" cy="193" r="10" fill="#ff6a3d"/><circle cx="220" cy="193" r="10" fill="#ffd86a"/><circle cx="252" cy="193" r="10" fill="#91d48e"/>
+    <text x="304" y="201" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">LAUNCH CONTROL</text>
+    <text x="196" y="295" fill="#2b1c39" font-family="Arial, sans-serif" font-size="47" font-weight="800">SAFE REDESIGN</text>
+    <text x="196" y="340" fill="#735b74" font-family="Arial, sans-serif" font-size="25">Every box checked. Every path protected.</text>
+    <g font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#352440">
+      <rect x="194" y="388" width="550" height="58" rx="14" fill="#fff"/><rect x="211" y="404" width="25" height="25" rx="7" fill="#55ba8b"/><path d="M217 416l7 7 14-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="258" y="426">Backup &amp; rollback ready</text>
+      <rect x="194" y="462" width="550" height="58" rx="14" fill="#fff"/><rect x="211" y="478" width="25" height="25" rx="7" fill="#55ba8b"/><path d="M217 490l7 7 14-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="258" y="500">SEO redirects mapped</text>
+      <rect x="194" y="536" width="550" height="58" rx="14" fill="#fff"/><rect x="211" y="552" width="25" height="25" rx="7" fill="#55ba8b"/><path d="M217 564l7 7 14-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="258" y="574">Measurement &amp; monitoring live</text>
+    </g>
+  </g>
+  <g filter="url(#shadow)"><rect x="1000" y="184" width="370" height="420" rx="42" fill="#241d34" stroke="#ffbe7f" stroke-width="2"/><rect x="1042" y="235" width="286" height="170" rx="20" fill="#ff7843"/><path d="M1076 368c35-44 61-85 93-69 28 13 43 57 68 33 26-26 38-80 61-80" fill="none" stroke="#fff0e7" stroke-width="9" stroke-linecap="round"/><circle cx="1076" cy="368" r="10" fill="#fff"/><circle cx="1298" cy="252" r="10" fill="#fff"/><text x="1042" y="461" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">GO-LIVE PULSE</text><text x="1042" y="505" fill="#8df0be" font-family="Arial, sans-serif" font-size="40" font-weight="800">ALL SYSTEMS GO</text><rect x="1042" y="536" width="182" height="13" rx="6" fill="#7c5cff"/><rect x="1236" y="536" width="92" height="13" rx="6" fill="#5bcf96"/></g>
+  <text x="140" y="758" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">WEBX DESIGN STUDIO • WEBSITE LAUNCH PLAYBOOK</text>
+</svg>
