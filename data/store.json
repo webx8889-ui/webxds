@@ -528,6 +528,23 @@
               ]
             },
             {
+              "id": "blog-designing-premium-pricing-pages-that-sell-webx-design-studio",
+              "title": "Designing Premium Pricing Pages That Sell | Webx Design Studio",
+              "image": "/assets/images/blogs/premium-pricing-pages-that-sell-cover.png",
+              "imageAlt": "Premium SaaS pricing page interface with three plans and a highlighted recommended option",
+              "dateLabel": "Date: 30 Oct 26",
+              "dateValue": "2026-10-30",
+              "excerpt": "A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.",
+              "url": "/pages/blogs/designing-premium-pricing-pages-that-sell.html",
+              "tags": [
+                "premium pricing page design",
+                "SaaS pricing page UX",
+                "pricing page conversion",
+                "pricing page design",
+                "value based pricing UX"
+              ]
+            },
+            {
               "id": "blog-the-future-of-ux-design-is-not-more-screens-it-s-better-experiences-webx-design-studio",
               "title": "The Future of UX Design Is Not More Screens. It's Better Experiences. | Webx Design Studio",
               "image": "/assets/images/blogs/better-experiences-ux-cover.webp",
@@ -1073,7 +1090,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.351Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1273,7 +1290,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.351Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1473,7 +1490,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.351Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1673,7 +1690,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.351Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1873,7 +1890,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.352Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2073,7 +2090,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-27T04:35:30.055Z"
+          "updatedAt": "2026-10-30T11:36:18.352Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2273,7 +2290,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-27T04:35:30.056Z"
+          "updatedAt": "2026-10-30T11:36:18.352Z"
         }
       ]
     },
@@ -2794,7 +2811,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.059Z"
+      "updatedAt": "2026-10-30T11:36:18.356Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3098,7 +3115,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.060Z"
+      "updatedAt": "2026-10-30T11:36:18.358Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3229,7 +3246,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.064Z"
+      "updatedAt": "2026-10-30T11:36:18.364Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3360,7 +3377,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.065Z"
+      "updatedAt": "2026-10-30T11:36:18.365Z"
     },
     "about": {
       "editorType": "generic",
@@ -3553,7 +3570,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.066Z"
+      "updatedAt": "2026-10-30T11:36:18.367Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3676,7 +3693,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.066Z"
+      "updatedAt": "2026-10-30T11:36:18.368Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3807,7 +3824,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.067Z"
+      "updatedAt": "2026-10-30T11:36:18.369Z"
     },
     "services": {
       "editorType": "generic",
@@ -4004,7 +4021,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.069Z"
+      "updatedAt": "2026-10-30T11:36:18.371Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4149,7 +4166,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.069Z"
+      "updatedAt": "2026-10-30T11:36:18.371Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4294,7 +4311,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.070Z"
+      "updatedAt": "2026-10-30T11:36:18.372Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5159,7 +5176,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.057Z"
+      "updatedAt": "2026-10-30T11:36:18.354Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5354,7 +5371,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.062Z"
+      "updatedAt": "2026-10-30T11:36:18.361Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5549,7 +5566,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-27T04:35:30.063Z"
+      "updatedAt": "2026-10-30T11:36:18.363Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -9104,12 +9121,291 @@
         }
       ],
       "updatedAt": "2026-10-27T04:22:18.872Z"
+    },
+    "designing-premium-pricing-pages-that-sell": {
+      "editorType": "generic",
+      "path": "/pages/blogs/designing-premium-pricing-pages-that-sell.html",
+      "title": "Designing Premium Pricing Pages That Sell | Webx Design Studio",
+      "meta": "A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.",
+      "displayName": "Designing Premium Pricing Pages That Sell | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Designing Premium Pricing Pages That Sell | Webx Design Studio</title>\n  <meta name=\"description\" content=\"A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"premium pricing page design, SaaS pricing page UX, pricing page conversion, pricing page design, value based pricing UX\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Designing Premium Pricing Pages That Sell\" />\n  <meta property=\"og:description\" content=\"How to make a premium pricing page feel clear, credible and easy to choose from.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/premium-pricing-pages-that-sell-cover.png\" />\n  <meta property=\"og:image:alt\" content=\"Premium SaaS pricing page interface with three plans and a highlighted recommended option\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-10-30\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"UX &amp; CRO\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"Designing Premium Pricing Pages That Sell\" />\n  <meta name=\"twitter:description\" content=\"A practical visual guide to premium pricing page UX, value framing and confident conversion.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/premium-pricing-pages-that-sell-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/premium-pricing-pages-that-sell-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Designing Premium Pricing Pages That Sell\",\"description\":\"A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.\",\"image\":[\"https://webxds.com/assets/images/blogs/premium-pricing-pages-that-sell-cover.png\",\"https://webxds.com/assets/images/blogs/premium-pricing-value-anchoring.png\",\"https://webxds.com/assets/images/blogs/premium-pricing-responsive-checkout.png\"],\"url\":\"https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html\",\"datePublished\":\"2026-10-30\",\"dateModified\":\"2026-10-30\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"premium pricing page design\",\"SaaS pricing page UX\",\"pricing page conversion\",\"pricing page design\",\"value based pricing UX\"],\"articleSection\":\"UX & CRO\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html\"}}\n  </script>\n  <script type=\"application/ld+json\">\n  {\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Designing Premium Pricing Pages That Sell\",\"item\":\"https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html\"}]}\n  </script>\n  <style>\n    .pricing-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}.pricing-article .visual-figure{margin:42px 0 12px}.pricing-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.14);background:#17171d}.pricing-article figcaption{color:#aaa;font-size:.84rem;line-height:1.5;margin:12px 6px 0}.pricing-article .insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.pricing-article .insight-card{padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02))}.pricing-article .insight-card strong{display:block;color:#ff8a4c;font-size:1.1rem;margin-bottom:8px}.pricing-article .pricing-checklist{margin:30px 0;padding:28px;border-radius:20px;background:#fff0e5;color:#25150f}.pricing-article .pricing-checklist h3{margin:0 0 14px;font-size:1.25rem}.pricing-article .pricing-checklist ol{padding-left:21px;margin:0}.pricing-article .pricing-checklist li{margin:11px 0}.pricing-article .pull-quote{margin:34px 0;padding:24px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.18rem;line-height:1.6;color:#fff}.pricing-article .comparison-table{width:100%;border-collapse:separate;border-spacing:0;margin:28px 0;border:1px solid rgba(255,255,255,.14);border-radius:16px;overflow:hidden}.pricing-article .comparison-table th,.pricing-article .comparison-table td{padding:16px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left}.pricing-article .comparison-table th{color:#ffb381;background:rgba(255,107,0,.08)}.pricing-article .comparison-table tr:last-child td{border-bottom:0}@media(max-width:700px){.pricing-article .insight-grid{grid-template-columns:1fr}.pricing-article .visual-figure{margin-top:30px}.pricing-article .comparison-table{font-size:.86rem}.pricing-article .comparison-table th,.pricing-article .comparison-table td{padding:12px 10px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-72ae15ad"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-74a267c1"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-d990f7ba"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-716c7bea"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-ce328c0b"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-2a7568ff"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-90544bc3"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br>experiences<br>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-premium-pricing-pages-that-sell-section-acdd1833"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/skeleton-loader.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t;if('serviceWorker'in navigator)window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(e){console.warn('Service worker registration failed:',e)})})}();</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-72ae15ad",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<section class=\"blog-hero-section\" aria-label=\"Blog page header\">\n    <nav class=\"home-navbar\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav>\n  </section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-74a267c1",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Designing Premium Pricing Pages That Sell</span></nav></div></section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-d990f7ba",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/premium-pricing-pages-that-sell-cover.png\" alt=\"Premium SaaS pricing page interface with three plans and a highlighted recommended option\" class=\"blog-hero-image\" width=\"1680\" height=\"945\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-716c7bea",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n    <header class=\"blog-header\">\n      <p class=\"eyebrow\">UX &amp; CRO / 10 min read</p>\n      <h1 class=\"blog-title\">Designing Premium Pricing Pages That Sell</h1>\n      <div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">pricing page UX</span><span class=\"blog-tag\">conversion design</span><span class=\"blog-tag\">SaaS pricing</span><span class=\"blog-tag\">value framing</span></div><time class=\"blog-date\" datetime=\"2026-10-30\">Date: 30 Oct 26</time></div>\n      <p class=\"blog-byline\" data-blog-path=\"/pages/blogs/designing-premium-pricing-pages-that-sell.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p>\n      <div class=\"blog-social-share\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div>\n    </header>\n    <article class=\"blog-article pricing-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"Designing Premium Pricing Pages That Sell\" /><meta itemprop=\"datePublished\" content=\"2026-10-30\" />\n      <p class=\"blog-intro\">A pricing page is not a price list. It is the moment a visitor translates your promise into a decision: <em>is this for me, is it worth it, and can I trust the next step?</em></p>\n      <p class=\"blog-intro\">Premium pricing works when that decision feels clearer—not heavier. The strongest pages make the value visible before asking people to evaluate the number, help the right customer recognise their fit, and leave no surprises between a plan and checkout.</p>\n      <section class=\"blog-page-section\" aria-labelledby=\"price-job\"><h2 class=\"section-heading\" id=\"price-job\">First, give the page one job</h2><p class=\"section-text\">A pricing page often fails by trying to be a comparison tool, a feature tour, a sales deck and a checkout flow all at once. Decide what the primary visitor needs to do: self-select a plan, start a trial, request a quote, or compare an upgrade. Everything above the fold should support that decision.</p><div class=\"insight-grid\"><div class=\"insight-card\"><strong>Clarify the promise</strong><span>Open with the outcome a customer is buying, not a generic “plans and pricing” label.</span></div><div class=\"insight-card\"><strong>Reduce evaluation</strong><span>Make differences between plans easy to scan without forcing visitors to decode a feature matrix.</span></div><div class=\"insight-card\"><strong>Make action safe</strong><span>Pair the CTA with the relevant reassurance: no card required, cancel anytime, implementation help, or a transparent sales conversation.</span></div></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"value-before-cost\"><h2 class=\"section-heading\" id=\"value-before-cost\">Show value before cost</h2><p class=\"section-text\">Price is never interpreted in isolation. Visitors compare it with the problem they are trying to solve, the effort they expect to save, the alternatives they know, and the confidence they have in your team. A premium page should therefore establish value in the same visual neighbourhood as its plans.</p><p class=\"section-text\">Use a concise outcome statement, a credible proof point, and language that describes who each plan is for. “For growing teams managing multi-channel projects” is more helpful than an opaque tier name. Good framing does not hide the number—it gives the number a useful context.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/premium-pricing-value-anchoring.png\" alt=\"Three premium plan cards visually showing a recommended central option between a starter and enterprise choice\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Choice architecture is useful when it helps people recognise the level of support and capability they actually need.</figcaption></figure></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"plan-architecture\"><h2 class=\"section-heading\" id=\"plan-architecture\">Build a plan architecture people can understand</h2><p class=\"section-text\">The best plan structures are based on a meaningful difference in customer needs: scale, team collaboration, volume, support, governance, or speed. If every tier is simply “more features,” the page becomes a scavenger hunt and the middle plan looks like a sales trick.</p><table class=\"comparison-table\"><thead><tr><th>Layer</th><th>What the visitor should understand</th><th>Useful design cue</th></tr></thead><tbody><tr><td>Plan name</td><td>Who this is for</td><td>Use an audience or maturity cue, not a vague adjective.</td></tr><tr><td>Price</td><td>What they pay and when</td><td>Keep the billing period, currency and renewal logic close to the price.</td></tr><tr><td>Core value</td><td>What changes at this level</td><td>Lead with 3–5 outcome-led inclusions.</td></tr><tr><td>CTA</td><td>What happens next</td><td>Match the commitment: “Start trial,” “Choose plan,” or “Talk to an expert.”</td></tr></tbody></table><p class=\"section-text\">Fewer plans usually create a better decision. Three is often enough: a clear entry point, a best-fit option for the main audience, and an option for complex needs. Add a fourth only when it represents a genuinely different buying path.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"recommended\"><h2 class=\"section-heading\" id=\"recommended\">Use a recommended plan responsibly</h2><p class=\"section-text\">Highlighting a plan can reduce decision fatigue, but it has to earn its emphasis. The recommendation should reflect a real fit—perhaps it unlocks the collaboration, support or scale that most customers need—not simply the tier with the highest margin.</p><blockquote class=\"pull-quote\">A “most popular” badge is a directional cue, not permission to make every other option feel inferior.</blockquote><p class=\"section-text\">Make the recommended card distinctive with a restrained border, a label and a slightly stronger visual weight. Do not make the other choices difficult to read or compare. Visitors should still feel that every plan is a valid, deliberate option.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"trust\"><h2 class=\"section-heading\" id=\"trust\">Treat clarity as a trust signal</h2><p class=\"section-text\">Premium buyers notice ambiguity. Unexpected per-seat fees, unclear limits, hidden implementation costs and unexplained annual discounts create doubt exactly where confidence matters most. Detail does not make a page less premium; poor hierarchy does.</p><div class=\"pricing-checklist\"><h3>The pricing clarity checklist</h3><ol><li>State the billing cadence beside the price, not in a footnote.</li><li>Explain what happens at a usage limit and how customers can upgrade.</li><li>Make taxes, onboarding, commitments and cancellation terms easy to find.</li><li>Use “contact sales” only when the offer truly needs a tailored scope.</li><li>Put a concise FAQ directly below the plans to resolve the last practical objections.</li></ol></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"responsive\"><h2 class=\"section-heading\" id=\"responsive\">Design the decision for mobile, too</h2><p class=\"section-text\">On a large screen, visitors can compare three plans side by side. On a phone, that same layout can turn into a long, forgettable scroll. Preserve comparison context: use clear plan headings, keep the selected state visible, and avoid hiding vital inclusions behind interactions that are easy to miss.</p><p class=\"section-text\">The final action must feel equally confident at every viewport. A compact plan summary near checkout helps people confirm what they selected without scrolling back to the top of the page.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/premium-pricing-responsive-checkout.png\" alt=\"Laptop and mobile phone showing a matching premium pricing selection and checkout interface\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>A strong pricing experience preserves its hierarchy from desktop comparison through mobile commitment.</figcaption></figure></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"test\"><h2 class=\"section-heading\" id=\"test\">What to test after the page is live</h2><p class=\"section-text\">Do not optimise only for the highlighted-plan click. Review plan distribution, trial-to-paid conversion, sales-qualified leads, refunds, upgrade paths and the questions arriving at support. A pricing page that pushes people into a wrong fit can look successful in the first click and underperform everywhere after it.</p><p class=\"section-text\">Watch session recordings and usability tests for hesitation: people toggling billing repeatedly, opening multiple tabs to compare, or reaching the FAQ before they understand the offer. Those moments show where information and confidence are missing.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"finish\"><h2 class=\"section-heading\" id=\"finish\">The premium principle</h2><p class=\"section-text\">Premium pricing design is not about making a page look expensive. It is about making the decision feel considered, transparent and well supported. Earn attention with a clear value story, respect it with honest comparison, and finish with a next step that matches the buyer’s confidence.</p><p class=\"section-text\">Need help turning a valuable offer into a confident conversion path? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your pricing experience</a>.</p></section>\n    </article>\n  </div></section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-ce328c0b",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"designing-premium-pricing-pages-that-sell\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-2a7568ff",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-90544bc3",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "designing-premium-pricing-pages-that-sell-section-acdd1833",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-10-30T11:35:49.939Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-2501029c708c481a18c98ac79",
+        "visitorId": "5b4f1882-710f-4608-a7ab-f62695a161ea",
+        "createdAt": "2026-10-30T11:36:18.339Z",
+        "lastSeenAt": "2026-10-30T11:36:18.339Z",
+        "currentPage": "work",
+        "path": "/work",
+        "referrer": "http://localhost:3001/blogs/designing-premium-pricing-pages-that-sell",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0a1ee676943d481a18c986c1a",
+        "visitorId": "5b4f1882-710f-4608-a7ab-f62695a161ea",
+        "createdAt": "2026-10-30T11:36:01.921Z",
+        "lastSeenAt": "2026-10-30T11:36:18.239Z",
+        "currentPage": "designing-premium-pricing-pages-that-sell",
+        "path": "/blogs/designing-premium-pricing-pages-that-sell",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 92,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f85281934c81681a18c9848be",
+        "visitorId": "5b4f1882-710f-4608-a7ab-f62695a161ea",
+        "createdAt": "2026-10-30T11:35:52.813Z",
+        "lastSeenAt": "2026-10-30T11:36:01.629Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3001/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-9eaf6bc32070f1a18c983d4b",
+        "visitorId": "5b4f1882-710f-4608-a7ab-f62695a161ea",
+        "createdAt": "2026-10-30T11:35:49.916Z",
+        "lastSeenAt": "2026-10-30T11:35:52.640Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-26a2c4fe4fe121a17ba45661",
         "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
@@ -9409,229 +9705,45 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-0a390decf01a981a162dc75e6",
-        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
-        "createdAt": "2026-10-22T09:06:17.747Z",
-        "lastSeenAt": "2026-10-22T10:42:42.654Z",
-        "currentPage": "safe-website-redesign-launch-checklist",
-        "path": "/blogs/safe-website-redesign-launch-checklist",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 1725,
-        "scrollDepth": 86,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-4b576c703fad21a162dc3cb9",
-        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
-        "createdAt": "2026-10-22T09:06:03.101Z",
-        "lastSeenAt": "2026-10-22T09:06:17.495Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-c5f30ca133da21a162dc2d7b",
-        "visitorId": "ab9b6ce6-f817-4c9a-b15e-607f4c193636",
-        "createdAt": "2026-10-22T09:05:59.253Z",
-        "lastSeenAt": "2026-10-22T09:06:02.955Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-53a9852b153631a15cba354e",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:31:09.693Z",
-        "lastSeenAt": "2026-10-21T04:31:25.444Z",
-        "currentPage": "index.html",
-        "path": "/index.html",
-        "referrer": "http://localhost:3000/blogs/dark-mode-light-mode-ui-psychology",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-01b7a24459cff81a15cb552d4",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:25:49.557Z",
-        "lastSeenAt": "2026-10-21T04:31:09.509Z",
-        "currentPage": "dark-mode-light-mode-ui-psychology",
-        "path": "/blogs/dark-mode-light-mode-ui-psychology",
-        "referrer": "http://localhost:3000/index.html",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 165,
-        "scrollDepth": 11,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3847e0271b6631a15cb28907",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:22:46.917Z",
-        "lastSeenAt": "2026-10-21T04:25:49.437Z",
-        "currentPage": "index.html",
-        "path": "/index.html",
-        "referrer": "http://localhost:3000/blogs/dark-mode-light-mode-ui-psychology",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 180,
-        "scrollDepth": 79,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-afaa4d9757e0281a15cb1ebe3",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:22:06.655Z",
-        "lastSeenAt": "2026-10-21T04:22:46.675Z",
-        "currentPage": "dark-mode-light-mode-ui-psychology",
-        "path": "/blogs/dark-mode-light-mode-ui-psychology",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 96,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-5b5babdd1189581a15cafaa81",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:19:38.820Z",
-        "lastSeenAt": "2026-10-21T04:22:02.265Z",
-        "currentPage": "dark-mode-light-mode-ui-psychology",
-        "path": "/blogs/dark-mode-light-mode-ui-psychology",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 105,
-        "scrollDepth": 80,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-658fb01c669f881a15cae3bd2",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:18:04.929Z",
-        "lastSeenAt": "2026-10-21T04:19:35.418Z",
-        "currentPage": "dark-mode-light-mode-ui-psychology",
-        "path": "/blogs/dark-mode-light-mode-ui-psychology",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 92,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-77a34600081fe81a15cae12bf",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:17:54.469Z",
-        "lastSeenAt": "2026-10-21T04:18:04.695Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-e135e88706a6e1a15cadff3f",
-        "visitorId": "abc7ef84-6324-482c-80d1-4482da5b0cf1",
-        "createdAt": "2026-10-21T04:17:49.461Z",
-        "lastSeenAt": "2026-10-21T04:17:54.298Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-a598242e",
+        "sessionId": "sess-0a1ee676943d481a18c986c1a",
+        "page": "designing-premium-pricing-pages-that-sell",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Work",
+        "createdAt": "2026-10-30T11:36:18.239Z"
+      },
+      {
+        "id": "evt-c8430933",
+        "sessionId": "sess-f85281934c81681a18c9848be",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-10-30T11:36:01.629Z"
+      },
+      {
+        "id": "evt-4f45e214",
+        "sessionId": "sess-9eaf6bc32070f1a18c983d4b",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-10-30T11:35:52.640Z"
+      },
+      {
+        "id": "evt-9cf95155",
+        "sessionId": "sess-9eaf6bc32070f1a18c983d4b",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-10-30T11:35:51.340Z"
+      },
       {
         "id": "evt-f9c850e3",
         "sessionId": "sess-9759d26b6c7f51a17b9bc50b",
@@ -14095,42 +14207,6 @@
         "target": "a.more-link",
         "text": "Blog",
         "createdAt": "2026-08-06T11:09:50.691Z"
-      },
-      {
-        "id": "evt-e7e893a2",
-        "sessionId": "sess-a76a845087f26819fd6c3d95c",
-        "page": "index.html",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-06T11:09:49.776Z"
-      },
-      {
-        "id": "evt-4940cf22",
-        "sessionId": "sess-9d720b3db8aba19fd6c3bc20",
-        "page": "blog-dark-mode-vs-light-mode.html",
-        "type": "click",
-        "target": "a.logo-link",
-        "text": "",
-        "createdAt": "2026-08-06T11:09:47.169Z"
-      },
-      {
-        "id": "evt-d4045b3c",
-        "sessionId": "sess-1ab9aa6a18af519fd6c3b290",
-        "page": "blogs.html",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-06T11:09:39.701Z"
-      },
-      {
-        "id": "evt-25a74c06",
-        "sessionId": "sess-f16876be44c90819fd6c3a194",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-06T11:09:37.258Z"
       }
     ],
     "replays": []
@@ -14371,6 +14447,31 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/designing-interactive-digital-gallery-luxury-brands.html",
+      "sections": []
+    },
+    {
+      "id": "blog-designing-premium-pricing-pages-that-sell-webx-design-studio",
+      "title": "Designing Premium Pricing Pages That Sell | Webx Design Studio",
+      "slug": "designing-premium-pricing-pages-that-sell",
+      "metaTitle": "Designing Premium Pricing Pages That Sell | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.",
+      "image": "/assets/images/blogs/premium-pricing-pages-that-sell-cover.png",
+      "imageAlt": "Premium SaaS pricing page interface with three plans and a highlighted recommended option",
+      "dateValue": "2026-10-30",
+      "dateLabel": "Date: 30 Oct 26",
+      "excerpt": "A practical design guide to premium pricing pages: value framing, plan architecture, trust signals, pricing clarity and responsive checkout experiences that help customers choose.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "premium pricing page design",
+        "SaaS pricing page UX",
+        "pricing page conversion",
+        "pricing page design",
+        "value based pricing UX"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/designing-premium-pricing-pages-that-sell.html",
       "sections": []
     },
     {
@@ -14785,6 +14886,30 @@
   ],
   "activity": [
     {
+      "id": "act-64ac5b1c",
+      "type": "visitor",
+      "message": "Visitor opened work",
+      "createdAt": "2026-10-30T11:36:18.374Z"
+    },
+    {
+      "id": "act-e4360393",
+      "type": "visitor",
+      "message": "Visitor opened designing-premium-pricing-pages-that-sell",
+      "createdAt": "2026-10-30T11:36:01.954Z"
+    },
+    {
+      "id": "act-2a9ec584",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-10-30T11:35:52.853Z"
+    },
+    {
+      "id": "act-8b2787eb",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-10-30T11:35:49.940Z"
+    },
+    {
       "id": "act-69bf42cd",
       "type": "visitor",
       "message": "Visitor opened psychological-triggers-web-design",
@@ -15119,30 +15244,6 @@
       "type": "visitor",
       "message": "Visitor opened home",
       "createdAt": "2026-10-02T06:43:39.926Z"
-    },
-    {
-      "id": "act-0df59beb",
-      "type": "visitor",
-      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
-      "createdAt": "2026-09-30T09:43:05.012Z"
-    },
-    {
-      "id": "act-038a3fbb",
-      "type": "visitor",
-      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
-      "createdAt": "2026-09-30T09:40:11.112Z"
-    },
-    {
-      "id": "act-3c13078c",
-      "type": "visitor",
-      "message": "Visitor opened contact",
-      "createdAt": "2026-09-30T09:40:09.237Z"
-    },
-    {
-      "id": "act-e645d05a",
-      "type": "visitor",
-      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
-      "createdAt": "2026-09-30T09:38:54.375Z"
     }
   ],
   "blogViews": {
@@ -15216,20 +15317,20 @@
     },
     "/pages/blogs/safe-website-redesign-launch-checklist.html": {
       "count": 2,
-      "viewers": {
-        "3cb23e01c71ad0d99e4a550dd190724d32010a20e84f7cc4fb9dff3b916e7e78": 1793074988620
-      }
+      "viewers": {}
     },
     "/pages/blogs/how-branding-builds-long-term-professional-trust.html": {
       "count": 2,
-      "viewers": {
-        "6e68d4171496d94f540ed460d742e3529ffdbf36e27321f2020be67f32013aaf": 1793074963180
-      }
+      "viewers": {}
     },
     "/pages/blogs/psychological-triggers-web-design.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/designing-premium-pricing-pages-that-sell.html": {
+      "count": 1,
       "viewers": {
-        "cd8c2c10eb8458518d909574e7c7251883c75d640506a3f58ad86e2ad1062fae": 1793074946578
+        "0f924826c2671fa7bb68d3d4acb4bb284e0708842c79e2853ce6bcdc47e59c62": 1793360162099
       }
     }
   }

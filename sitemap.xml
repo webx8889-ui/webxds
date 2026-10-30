@@ -16,6 +16,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Blog: Designing Premium Pricing Pages That Sell -->
+  <url>
+    <loc>https://webxds.com/pages/blogs/designing-premium-pricing-pages-that-sell.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- About Page -->
   <url>
     <loc>https://webxds.com/pages/main/about.html</loc>
