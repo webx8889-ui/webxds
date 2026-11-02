@@ -811,6 +811,23 @@
               ]
             },
             {
+              "id": "blog-ux-design-strategies-for-ai-powered-applications-webx-design-studio",
+              "title": "UX Design Strategies for AI-Powered Applications | Webx Design Studio",
+              "image": "/assets/images/blogs/ai-ux-design-strategies-cover.png",
+              "imageAlt": "Premium AI application dashboard with human oversight controls",
+              "dateLabel": "Date: 02 Nov 26",
+              "dateValue": "2026-11-02",
+              "excerpt": "Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.",
+              "url": "/pages/blogs/ux-design-strategies-ai-powered-applications.html",
+              "tags": [
+                "UX design for AI applications",
+                "AI product design",
+                "human centered AI UX",
+                "explainable AI interface",
+                "AI app usability"
+              ]
+            },
+            {
               "id": "blog-10-signs-it-s-time-to-redesign-your-website-in-2026-full-redesign-checklist-webx-design-studio",
               "title": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
               "image": "/assets/images/blogs/blog-img-4.webp",
@@ -1090,7 +1107,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-30T11:36:18.351Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1290,7 +1307,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-10-30T11:36:18.351Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1490,7 +1507,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-30T11:36:18.351Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1690,7 +1707,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-30T11:36:18.351Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1890,7 +1907,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-10-30T11:36:18.352Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2090,7 +2107,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-30T11:36:18.352Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2290,7 +2307,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-10-30T11:36:18.352Z"
+          "updatedAt": "2026-11-02T04:36:44.539Z"
         }
       ]
     },
@@ -2811,7 +2828,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.356Z"
+      "updatedAt": "2026-11-02T04:36:44.543Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3115,7 +3132,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.358Z"
+      "updatedAt": "2026-11-02T04:36:44.545Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3246,7 +3263,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.364Z"
+      "updatedAt": "2026-11-02T04:36:44.550Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3377,7 +3394,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.365Z"
+      "updatedAt": "2026-11-02T04:36:44.550Z"
     },
     "about": {
       "editorType": "generic",
@@ -3570,7 +3587,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.367Z"
+      "updatedAt": "2026-11-02T04:36:44.552Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3693,7 +3710,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.368Z"
+      "updatedAt": "2026-11-02T04:36:44.552Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3824,7 +3841,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.369Z"
+      "updatedAt": "2026-11-02T04:36:44.553Z"
     },
     "services": {
       "editorType": "generic",
@@ -4021,7 +4038,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.371Z"
+      "updatedAt": "2026-11-02T04:36:44.555Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4166,7 +4183,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.371Z"
+      "updatedAt": "2026-11-02T04:36:44.556Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4311,7 +4328,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.372Z"
+      "updatedAt": "2026-11-02T04:36:44.557Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5176,7 +5193,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.354Z"
+      "updatedAt": "2026-11-02T04:36:44.541Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5371,7 +5388,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.361Z"
+      "updatedAt": "2026-11-02T04:36:44.547Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5566,7 +5583,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-10-30T11:36:18.363Z"
+      "updatedAt": "2026-11-02T04:36:44.549Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -9320,12 +9337,307 @@
         }
       ],
       "updatedAt": "2026-10-30T11:35:49.939Z"
+    },
+    "ux-design-strategies-ai-powered-applications": {
+      "editorType": "generic",
+      "path": "/pages/blogs/ux-design-strategies-ai-powered-applications.html",
+      "title": "UX Design Strategies for AI-Powered Applications | Webx Design Studio",
+      "meta": "Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.",
+      "displayName": "UX Design Strategies for AI-Powered Applications | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>UX Design Strategies for AI-Powered Applications | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"UX design for AI applications, AI product design, human centered AI UX, explainable AI interface, AI app usability\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/ux-design-strategies-ai-powered-applications.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"UX Design Strategies for AI-Powered Applications\" />\n  <meta property=\"og:description\" content=\"Design AI products that feel useful, understandable and firmly under the user's control.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/ux-design-strategies-ai-powered-applications.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/ai-ux-design-strategies-cover.png\" />\n  <meta property=\"og:image:width\" content=\"1536\" />\n  <meta property=\"og:image:height\" content=\"1024\" />\n  <meta property=\"og:image:alt\" content=\"Premium AI application dashboard with human oversight controls\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-11-02\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"AI &amp; UX\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"UX Design Strategies for AI-Powered Applications\" />\n  <meta name=\"twitter:description\" content=\"A practical guide to AI interfaces people understand and trust.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/ai-ux-design-strategies-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/ai-ux-design-strategies-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"UX Design Strategies for AI-Powered Applications\",\"description\":\"Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.\",\"image\":[\"https://webxds.com/assets/images/blogs/ai-ux-design-strategies-cover.png\",\"https://webxds.com/assets/images/blogs/ai-ux-human-control-flow.png\",\"https://webxds.com/assets/images/blogs/ai-ux-reversible-journey.png\"],\"url\":\"https://webxds.com/pages/blogs/ux-design-strategies-ai-powered-applications.html\",\"datePublished\":\"2026-11-02\",\"dateModified\":\"2026-11-02\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"UX design for AI applications\",\"AI product design\",\"human centered AI UX\",\"explainable AI interface\",\"AI app usability\"],\"articleSection\":\"AI & UX\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/ux-design-strategies-ai-powered-applications.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"UX Design Strategies for AI-Powered Applications\",\"item\":\"https://webxds.com/pages/blogs/ux-design-strategies-ai-powered-applications.html\"}]}</script>\n  <style>\n    .ai-ux-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}.ai-ux-article .visual-figure{margin:42px 0 12px}.ai-ux-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.14);background:#17171d}.ai-ux-article figcaption{color:#aaa;font-size:.84rem;line-height:1.5;margin:12px 6px 0}.ai-ux-article .principle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.ai-ux-article .principle-card{padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:linear-gradient(145deg,rgba(82,145,255,.12),rgba(255,255,255,.02))}.ai-ux-article .principle-card strong{display:block;color:#ff9c5b;font-size:1.08rem;margin-bottom:8px}.ai-ux-article .ux-checklist{margin:30px 0;padding:28px;border-radius:20px;background:#fff0e5;color:#25150f}.ai-ux-article .ux-checklist h3{margin:0 0 14px;font-size:1.25rem}.ai-ux-article .ux-checklist ol{padding-left:21px;margin:0}.ai-ux-article .ux-checklist li{margin:11px 0}.ai-ux-article .pull-quote{margin:34px 0;padding:24px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.18rem;line-height:1.6;color:#fff}.ai-ux-article .strategy-table{width:100%;border-collapse:separate;border-spacing:0;margin:28px 0;border:1px solid rgba(255,255,255,.14);border-radius:16px;overflow:hidden}.ai-ux-article .strategy-table th,.ai-ux-article .strategy-table td{padding:16px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.ai-ux-article .strategy-table th{color:#ffb381;background:rgba(255,107,0,.08)}.ai-ux-article .strategy-table tr:last-child td{border-bottom:0}@media(max-width:700px){.ai-ux-article .principle-grid{grid-template-columns:1fr}.ai-ux-article .visual-figure{margin-top:30px}.ai-ux-article .strategy-table{font-size:.86rem}.ai-ux-article .strategy-table th,.ai-ux-article .strategy-table td{padding:12px 10px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-f650c6d8"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-7328ea23"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-6b384ff3"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-e7f95400"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-7e0b3539"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-233d54cc"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-e18000ca"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Term &amp; Conditions</span></a><a href=\"/pages/legal/privacy-policy.html\" class=\"more-link\"><span class=\"more-link-label\">Privacy Policy</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br>experiences<br>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "ux-design-strategies-ai-powered-applications-section-0a8c95de"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/skeleton-loader.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t;if('serviceWorker'in navigator)window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(e){console.warn('Service worker registration failed:',e)})}();</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-f650c6d8",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-7328ea23",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">AI-powered application UX</span></nav></div></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-6b384ff3",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/ai-ux-design-strategies-cover.png\" alt=\"Premium AI application dashboard with human oversight controls\" class=\"blog-hero-image\" width=\"1536\" height=\"1024\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-e7f95400",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n    <header class=\"blog-header\"><p class=\"eyebrow\">AI &amp; UX / 11 min read</p><h1 class=\"blog-title\">UX Design Strategies for AI-Powered Applications</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">AI product design</span><span class=\"blog-tag\">human-centered AI</span><span class=\"blog-tag\">explainable UX</span><span class=\"blog-tag\">AI application UX</span></div><time class=\"blog-date\" datetime=\"2026-11-02\">Date: 02 Nov 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/ux-design-strategies-ai-powered-applications.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n    <article class=\"blog-article ai-ux-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"UX Design Strategies for AI-Powered Applications\" /><meta itemprop=\"datePublished\" content=\"2026-11-02\" />\n      <p class=\"blog-intro\">An AI feature is not useful because it is impressive. It is useful when people can recognise what it is doing, decide how much help they want, and stay confident when the system is uncertain.</p>\n      <p class=\"blog-intro\">That changes the designer's job. Instead of only arranging screens, AI UX teams design a relationship: how a product makes a suggestion, asks for context, shows its work, recovers from a mistake and earns another chance.</p>\n      <section class=\"blog-page-section\" aria-labelledby=\"shift\"><h2 class=\"section-heading\" id=\"shift\">Design the interaction, not the magic trick</h2><p class=\"section-text\">The fastest way to make an AI experience feel unreliable is to treat the model as a black box behind a polished button. A better starting point is the user's real job: what are they trying to decide, create, find or finish? The AI should remove friction from that job without taking ownership away from the person.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>Start with intent</strong><span>Ask for only the context that meaningfully improves the result, then explain why it matters.</span></div><div class=\"principle-card\"><strong>Show agency</strong><span>Keep choices, edits and alternatives close to every meaningful AI suggestion.</span></div><div class=\"principle-card\"><strong>Plan for uncertainty</strong><span>When confidence is low, narrow the claim, request confirmation or route the task to a safer next step.</span></div></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"control\"><h2 class=\"section-heading\" id=\"control\">Make human control visible at the moment it matters</h2><p class=\"section-text\">People do not need to manage every model setting. They do need a clear way to inspect, adjust, approve or reject outcomes that affect their work, money, privacy or reputation. Good AI UX gives users control in the flow rather than hiding it behind a settings page.</p><p class=\"section-text\">For a writing assistant, that might mean edit-in-place controls and source references. For a finance assistant, it means a review step before money moves. For an enterprise workflow, it means an obvious owner, status and escalation path.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/ai-ux-human-control-flow.png\" alt=\"AI application decision flow with context, confidence, review and manual alternative controls\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>AI feels more trustworthy when a person can understand the suggestion and choose the next action without leaving the flow.</figcaption></figure></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"explain\"><h2 class=\"section-heading\" id=\"explain\">Explain enough, exactly where it helps</h2><p class=\"section-text\">Explainability is not a long technical explanation appended to every response. It is progressive disclosure: a short answer to “why this?” near the result, followed by detail when a user asks for it. Make the system's inputs, assumptions and limits discoverable in plain language.</p><table class=\"strategy-table\"><thead><tr><th>Moment</th><th>What the interface should reveal</th><th>Useful UX pattern</th></tr></thead><tbody><tr><td>Before an action</td><td>What the assistant will use and what it will change.</td><td>Concise preview with editable scope.</td></tr><tr><td>With a suggestion</td><td>Why this result is relevant and how certain the system is.</td><td>Reason summary, sources or confidence cue.</td></tr><tr><td>After an action</td><td>What happened and how to correct it.</td><td>Activity record, undo and direct edit.</td></tr></tbody></table><blockquote class=\"pull-quote\">A useful explanation does not make users study the model. It helps them make a better decision with the model.</blockquote></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"states\"><h2 class=\"section-heading\" id=\"states\">Design all the states, not only the ideal answer</h2><p class=\"section-text\">AI products spend much of their time between a prompt and a perfect output. Treat loading, partial results, ambiguity, refusal, error and handoff as first-class interface states. They are the moments that decide whether the experience feels calm or chaotic.</p><ul class=\"section-list\"><li><strong>Waiting:</strong> show useful progress and allow people to keep moving when possible.</li><li><strong>Uncertain:</strong> ask a focused follow-up question instead of confidently guessing.</li><li><strong>Incomplete:</strong> return what is ready, label what is missing and offer a next step.</li><li><strong>Wrong:</strong> make correction lightweight; do not require users to restate their entire task.</li><li><strong>High-risk:</strong> slow down, surface impact and require an explicit confirmation.</li></ul></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"reversible\"><h2 class=\"section-heading\" id=\"reversible\">Prefer reversible actions and fast feedback loops</h2><p class=\"section-text\">Early AI interactions should be easy to undo. Reversible actions let users explore without fear and give the product a clear signal about preference. A good feedback loop is specific: “useful,” “not relevant,” “too formal,” or “wrong source” teaches more than a generic thumbs-down.</p><p class=\"section-text\">Make feedback feel like part of the work instead of a survey interrupt. Let users edit an output, choose between variations, restore a previous state or flag an issue in the same area where the AI made its move.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/ai-ux-reversible-journey.png\" alt=\"AI application journey showing a user goal, assistant suggestion, reversible action and feedback loop\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Reversible decisions create a practical learning loop for both the user and the product team.</figcaption></figure></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"trust\"><h2 class=\"section-heading\" id=\"trust\">Build trust with boundaries, not vague promises</h2><p class=\"section-text\">Trust comes from predictable behavior. Tell people what the AI can do, what information it can access, where outputs might be incomplete and when a human review is required. Avoid promises of autonomy that the actual product cannot support.</p><div class=\"ux-checklist\"><h3>AI UX pre-launch checklist</h3><ol><li>Can a first-time user explain the feature's job in one sentence?</li><li>Does every consequential output have a clear review, edit or undo route?</li><li>Are confidence, sources and limitations expressed in product language rather than model jargon?</li><li>Have empty, uncertain, delayed and failed states been intentionally designed?</li><li>Can users control their data scope and understand how their input is used?</li><li>Does feedback produce a visible improvement in the current task or a useful next step?</li></ol></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"measure\"><h2 class=\"section-heading\" id=\"measure\">Measure confidence alongside conversion</h2><p class=\"section-text\">Clicks alone do not show whether an AI experience is working. Pair adoption metrics with task completion, correction rate, time saved, repeat use, user confidence and the frequency of manual fallback. If people accept recommendations but later undo them, the surface metric is hiding a trust problem.</p><p class=\"section-text\">Watch real sessions and interview people after they use the feature. The useful questions are human: Did you understand what it did? Did you know what would happen next? Did you feel able to correct it? Those answers reveal where the interface needs more clarity, restraint or support.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"finish\"><h2 class=\"section-heading\" id=\"finish\">The strategy: make intelligence feel usable</h2><p class=\"section-text\">The most durable AI applications will not be remembered for sounding the most intelligent. They will be remembered for helping people make progress with less effort and more confidence. Start with a real user goal, make the system's contribution legible, keep control nearby and learn from every correction.</p><p class=\"section-text\">Need help shaping an AI feature into an experience people can trust? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your AI product UX</a>.</p></section>\n    </article>\n  </div></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-7e0b3539",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"ux-design-strategies-ai-powered-applications\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-233d54cc",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-e18000ca",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "ux-design-strategies-ai-powered-applications-section-0a8c95de",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a><button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"><svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/></svg><span class=\"nav-label\">More</span></button></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:20:53.350Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-a76cd424a0c3e1a19a870c8e",
+        "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
+        "createdAt": "2026-11-02T04:31:44.306Z",
+        "lastSeenAt": "2026-11-02T04:36:44.558Z",
+        "currentPage": "safe-website-redesign-launch-checklist",
+        "path": "/blogs/safe-website-redesign-launch-checklist",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 240,
+        "scrollDepth": 82,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f92eeeba4dfc881a19a87014e",
+        "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
+        "createdAt": "2026-11-02T04:31:41.429Z",
+        "lastSeenAt": "2026-11-02T04:31:44.045Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/ux-design-strategies-ai-powered-applications",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ac21ca2116dfb1a19a7d5bf7",
+        "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
+        "createdAt": "2026-11-02T04:21:09.284Z",
+        "lastSeenAt": "2026-11-02T04:31:41.323Z",
+        "currentPage": "ux-design-strategies-ai-powered-applications",
+        "path": "/blogs/ux-design-strategies-ai-powered-applications",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 390,
+        "scrollDepth": 82,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-6c808f162496d81a19a7d2c1c",
+        "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
+        "createdAt": "2026-11-02T04:20:57.023Z",
+        "lastSeenAt": "2026-11-02T04:21:09.048Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-48677d2e8af0181a19a7d1d7e",
+        "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
+        "createdAt": "2026-11-02T04:20:53.328Z",
+        "lastSeenAt": "2026-11-02T04:20:56.887Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-2501029c708c481a18c98ac79",
         "visitorId": "5b4f1882-710f-4608-a7ab-f62695a161ea",
@@ -9645,69 +9957,63 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-ff1c845c46cb581a16c276a80",
-        "visitorId": "a49f3380-2f8a-4d27-8998-7fc77369e2dc",
-        "createdAt": "2026-10-24T04:24:45.028Z",
-        "lastSeenAt": "2026-10-24T04:25:44.977Z",
-        "currentPage": "how-branding-builds-long-term-professional-trust",
-        "path": "/blogs/how-branding-builds-long-term-professional-trust",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 60,
-        "scrollDepth": 87,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-622d4fb06afaf1a16c25d333",
-        "visitorId": "a49f3380-2f8a-4d27-8998-7fc77369e2dc",
-        "createdAt": "2026-10-24T04:23:00.720Z",
-        "lastSeenAt": "2026-10-24T04:24:44.839Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 90,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-bab516b4e818581a16c253ef9",
-        "visitorId": "a49f3380-2f8a-4d27-8998-7fc77369e2dc",
-        "createdAt": "2026-10-24T04:22:22.767Z",
-        "lastSeenAt": "2026-10-24T04:23:00.519Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 30,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-dad5c751",
+        "sessionId": "sess-f92eeeba4dfc881a19a87014e",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-02T04:31:44.045Z"
+      },
+      {
+        "id": "evt-ebd222c3",
+        "sessionId": "sess-ac21ca2116dfb1a19a7d5bf7",
+        "page": "ux-design-strategies-ai-powered-applications",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-02T04:31:41.323Z"
+      },
+      {
+        "id": "evt-da61469a",
+        "sessionId": "sess-ac21ca2116dfb1a19a7d5bf7",
+        "page": "ux-design-strategies-ai-powered-applications",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-02T04:31:39.917Z"
+      },
+      {
+        "id": "evt-115e4d64",
+        "sessionId": "sess-6c808f162496d81a19a7d2c1c",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-02T04:21:09.048Z"
+      },
+      {
+        "id": "evt-8b7e5ab5",
+        "sessionId": "sess-48677d2e8af0181a19a7d1d7e",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-02T04:20:56.887Z"
+      },
+      {
+        "id": "evt-cf52a461",
+        "sessionId": "sess-48677d2e8af0181a19a7d1d7e",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-02T04:20:55.782Z"
+      },
       {
         "id": "evt-a598242e",
         "sessionId": "sess-0a1ee676943d481a18c986c1a",
@@ -14153,60 +14459,6 @@
         "target": "a.cta-banner-button",
         "text": "START YOUR PROJECT",
         "createdAt": "2026-08-13T08:51:07.745Z"
-      },
-      {
-        "id": "evt-d2f989f3",
-        "sessionId": "sess-d92ad356e7bab19ffa50c81f",
-        "page": "blogs.html",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-13T08:51:03.075Z"
-      },
-      {
-        "id": "evt-6364390a",
-        "sessionId": "sess-f4af9f38c56aa19ffa509706",
-        "page": "home",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T08:50:25.845Z"
-      },
-      {
-        "id": "evt-4e699420",
-        "sessionId": "sess-f4af9f38c56aa19ffa509706",
-        "page": "home",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T08:50:24.622Z"
-      },
-      {
-        "id": "evt-fa3c597c",
-        "sessionId": "sess-d859a88c0aa41819fda6651cd",
-        "page": "home",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-07T04:06:19.986Z"
-      },
-      {
-        "id": "evt-ab8ba76f",
-        "sessionId": "sess-d859a88c0aa41819fda6651cd",
-        "page": "home",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-07T04:06:18.785Z"
-      },
-      {
-        "id": "evt-bc0b7d30",
-        "sessionId": "sess-a76a845087f26819fd6c3d95c",
-        "page": "index.html",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-06T11:09:50.691Z"
       }
     ],
     "replays": []
@@ -14861,6 +15113,31 @@
       "sections": []
     },
     {
+      "id": "blog-ux-design-strategies-for-ai-powered-applications-webx-design-studio",
+      "title": "UX Design Strategies for AI-Powered Applications | Webx Design Studio",
+      "slug": "ux-design-strategies-ai-powered-applications",
+      "metaTitle": "UX Design Strategies for AI-Powered Applications | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.",
+      "image": "/assets/images/blogs/ai-ux-design-strategies-cover.png",
+      "imageAlt": "Premium AI application dashboard with human oversight controls",
+      "dateValue": "2026-11-02",
+      "dateLabel": "Date: 02 Nov 26",
+      "excerpt": "Practical UX design strategies for AI-powered applications: explainable outputs, human control, safe defaults, feedback loops and AI experiences users can trust.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "UX design for AI applications",
+        "AI product design",
+        "human centered AI UX",
+        "explainable AI interface",
+        "AI app usability"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/ux-design-strategies-ai-powered-applications.html",
+      "sections": []
+    },
+    {
       "id": "blog-10-signs-it-s-time-to-redesign-your-website-in-2026-full-redesign-checklist-webx-design-studio",
       "title": "10 Signs It's Time to Redesign Your Website in 2026 (+ Full Redesign Checklist) | Webx Design Studio",
       "slug": "website-redesign-checklist-2026",
@@ -14885,6 +15162,36 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-5fc27f74",
+      "type": "visitor",
+      "message": "Visitor opened safe-website-redesign-launch-checklist",
+      "createdAt": "2026-11-02T04:31:44.336Z"
+    },
+    {
+      "id": "act-fdf5c78b",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-02T04:31:41.461Z"
+    },
+    {
+      "id": "act-e9a2c505",
+      "type": "visitor",
+      "message": "Visitor opened ux-design-strategies-ai-powered-applications",
+      "createdAt": "2026-11-02T04:21:09.322Z"
+    },
+    {
+      "id": "act-a19a5dbd",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-02T04:20:57.057Z"
+    },
+    {
+      "id": "act-e1f36fa1",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-02T04:20:53.350Z"
+    },
     {
       "id": "act-64ac5b1c",
       "type": "visitor",
@@ -15214,36 +15521,6 @@
       "type": "visitor",
       "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
       "createdAt": "2026-10-02T06:44:17.721Z"
-    },
-    {
-      "id": "act-e8e61460",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-02T06:44:14.284Z"
-    },
-    {
-      "id": "act-169fdebc",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-02T06:44:06.357Z"
-    },
-    {
-      "id": "act-63343899",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-02T06:44:03.001Z"
-    },
-    {
-      "id": "act-8956bb92",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-02T06:43:46.358Z"
-    },
-    {
-      "id": "act-94ed5696",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-02T06:43:39.926Z"
     }
   ],
   "blogViews": {
@@ -15316,8 +15593,10 @@
       "viewers": {}
     },
     "/pages/blogs/safe-website-redesign-launch-checklist.html": {
-      "count": 2,
-      "viewers": {}
+      "count": 3,
+      "viewers": {
+        "c4897dc199468597b9dc8ed0e5092d6abda4b078ac0932376265c599cf55834c": 1793593904522
+      }
     },
     "/pages/blogs/how-branding-builds-long-term-professional-trust.html": {
       "count": 2,
@@ -15329,8 +15608,12 @@
     },
     "/pages/blogs/designing-premium-pricing-pages-that-sell.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/ux-design-strategies-ai-powered-applications.html": {
+      "count": 1,
       "viewers": {
-        "0f924826c2671fa7bb68d3d4acb4bb284e0708842c79e2853ce6bcdc47e59c62": 1793360162099
+        "09d36de3bdd53a59697504649cd502e5d6ba355b8f91eb0c2719e3a43fccfae7": 1793593269519
       }
     }
   }
