@@ -492,6 +492,23 @@
               ]
             },
             {
+              "id": "blog-creating-user-centric-lead-magnets-for-professional-studios-webx-design-studio",
+              "title": "Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio",
+              "image": "/assets/images/blogs/user-centric-lead-magnets-cover.png",
+              "imageAlt": "Professional studio lead magnet shown on a laptop with a helpful resource and client journey",
+              "dateLabel": "Date: 04 Nov 26",
+              "dateValue": "2026-11-04",
+              "excerpt": "Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.",
+              "url": "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html",
+              "tags": [
+                "user-centric lead magnets",
+                "design studio marketing",
+                "lead magnet ideas",
+                "studio growth",
+                "client experience design"
+              ]
+            },
+            {
               "id": "blog-dark-mode-vs-light-mode-the-ui-psychology-behind-better-choices-webx-design-studio",
               "title": "Dark Mode vs Light Mode: The UI Psychology Behind Better Choices | Webx Design Studio",
               "image": "/assets/images/blogs/dark-light-psychology-cover.svg",
@@ -1107,7 +1124,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.572Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1307,7 +1324,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.572Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1507,7 +1524,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.572Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1707,7 +1724,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.573Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1907,7 +1924,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.573Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2107,7 +2124,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.573Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2307,7 +2324,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-02T04:36:44.539Z"
+          "updatedAt": "2026-11-04T05:05:21.573Z"
         }
       ]
     },
@@ -2828,7 +2845,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.543Z"
+      "updatedAt": "2026-11-04T05:05:21.579Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3132,7 +3149,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.545Z"
+      "updatedAt": "2026-11-04T05:05:21.580Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3263,7 +3280,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.550Z"
+      "updatedAt": "2026-11-04T05:05:21.583Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3394,7 +3411,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.550Z"
+      "updatedAt": "2026-11-04T05:05:21.584Z"
     },
     "about": {
       "editorType": "generic",
@@ -3587,7 +3604,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.552Z"
+      "updatedAt": "2026-11-04T05:05:21.585Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3710,7 +3727,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.552Z"
+      "updatedAt": "2026-11-04T05:05:21.585Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3841,7 +3858,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.553Z"
+      "updatedAt": "2026-11-04T05:05:21.586Z"
     },
     "services": {
       "editorType": "generic",
@@ -4038,7 +4055,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.555Z"
+      "updatedAt": "2026-11-04T05:05:21.587Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4183,7 +4200,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.556Z"
+      "updatedAt": "2026-11-04T05:05:21.588Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4328,7 +4345,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.557Z"
+      "updatedAt": "2026-11-04T05:05:21.588Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5193,7 +5210,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.541Z"
+      "updatedAt": "2026-11-04T05:05:21.574Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5388,7 +5405,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.547Z"
+      "updatedAt": "2026-11-04T05:05:21.581Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5583,7 +5600,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-02T04:36:44.549Z"
+      "updatedAt": "2026-11-04T05:05:21.582Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -9532,12 +9549,421 @@
         }
       ],
       "updatedAt": "2026-11-02T04:20:53.350Z"
+    },
+    "creating-user-centric-lead-magnets-professional-studios": {
+      "editorType": "generic",
+      "path": "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html",
+      "title": "Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio",
+      "meta": "Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.",
+      "displayName": "Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"user-centric lead magnets, design studio marketing, lead magnet ideas, studio growth, client experience design\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Creating User-Centric Lead Magnets for Professional Studios\" />\n  <meta property=\"og:description\" content=\"Move beyond the generic PDF: design a useful resource around the question your best future clients are already trying to answer.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/user-centric-lead-magnets-cover.png\" />\n  <meta property=\"og:image:width\" content=\"1536\" />\n  <meta property=\"og:image:height\" content=\"1024\" />\n  <meta property=\"og:image:alt\" content=\"Professional studio lead magnet shown on a laptop with a helpful resource and client journey\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-11-04\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"Studio Growth\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"Creating User-Centric Lead Magnets for Professional Studios\" />\n  <meta name=\"twitter:description\" content=\"Useful resources earn attention. Here is how to make one that turns attention into a better studio conversation.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/user-centric-lead-magnets-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/user-centric-lead-magnets-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Creating User-Centric Lead Magnets for Professional Studios\",\"description\":\"Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.\",\"image\":[\"https://webxds.com/assets/images/blogs/user-centric-lead-magnets-cover.png\",\"https://webxds.com/assets/images/blogs/lead-magnet-value-exchange.png\",\"https://webxds.com/assets/images/blogs/lead-magnet-resource-experience.png\"],\"url\":\"https://webxds.com/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\",\"datePublished\":\"2026-11-04\",\"dateModified\":\"2026-11-04\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"user-centric lead magnets\",\"design studio marketing\",\"lead magnet ideas\",\"studio growth\",\"client experience design\"],\"articleSection\":\"Studio Growth\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Creating User-Centric Lead Magnets for Professional Studios\",\"item\":\"https://webxds.com/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\"}]}</script>\n  <style>\n    .lead-magnet-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}.lead-magnet-article .visual-figure{margin:42px 0 12px}.lead-magnet-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.14);background:#17171d}.lead-magnet-article figcaption{color:#aaa;font-size:.84rem;line-height:1.5;margin:12px 6px 0}.lead-magnet-article .principle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.lead-magnet-article .principle-card{padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:linear-gradient(145deg,rgba(255,107,0,.14),rgba(139,100,194,.1))}.lead-magnet-article .principle-card strong{display:block;color:#ffae78;font-size:1.08rem;margin-bottom:8px}.lead-magnet-article .checklist{margin:30px 0;padding:28px;border-radius:20px;background:#fff0e5;color:#25150f}.lead-magnet-article .checklist h3{margin:0 0 14px;font-size:1.25rem}.lead-magnet-article .checklist ol{padding-left:21px;margin:0}.lead-magnet-article .checklist li{margin:11px 0}.lead-magnet-article .pull-quote{margin:34px 0;padding:24px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.18rem;line-height:1.6;color:#fff}.lead-magnet-article .strategy-table{width:100%;border-collapse:separate;border-spacing:0;margin:28px 0;border:1px solid rgba(255,255,255,.14);border-radius:16px;overflow:hidden}.lead-magnet-article .strategy-table th,.lead-magnet-article .strategy-table td{padding:16px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.lead-magnet-article .strategy-table th{color:#ffb381;background:rgba(255,107,0,.08)}.lead-magnet-article .strategy-table tr:last-child td{border-bottom:0}.lead-magnet-article .faq-item{border-top:1px solid rgba(255,255,255,.14);padding:20px 0}.lead-magnet-article .faq-item:last-child{border-bottom:1px solid rgba(255,255,255,.14)}.lead-magnet-article .faq-item h3{margin:0 0 8px;color:#fff;font-size:1.08rem}@media(max-width:700px){.lead-magnet-article .principle-grid{grid-template-columns:1fr}.lead-magnet-article .visual-figure{margin-top:30px}.lead-magnet-article .strategy-table{font-size:.86rem}.lead-magnet-article .strategy-table th,.lead-magnet-article .strategy-table td{padding:12px 10px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-1e67f33c"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-ff8a144a"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-43f4d6b7"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-7d220fa5"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-fc72a4e2"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-acd5562f"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "creating-user-centric-lead-magnets-professional-studios-section-c54aee39"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<div class=\"more-menu-overlay\" id=\"moreMenu\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Full navigation menu\"><div class=\"more-menu-inner\"><div class=\"more-menu-left\"><div class=\"more-menu-column\"><a href=\"/\" class=\"more-link\"><span class=\"more-link-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"more-link\"><span class=\"more-link-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"more-link\"><span class=\"more-link-label\">Services</span></a><a href=\"/pages/main/faq.html\" class=\"more-link\"><span class=\"more-link-label\">FAQ</span></a></div><div class=\"more-menu-column\"><a href=\"/pages/main/about.html\" class=\"more-link\"><span class=\"more-link-label\">About</span></a><a href=\"/pages/blogs/blogs.html\" class=\"more-link\" aria-current=\"page\"><span class=\"more-link-label\">Blog</span></a><a href=\"/pages/main/contact-page.html\" class=\"more-link\"><span class=\"more-link-label\">Contact</span></a><a href=\"/pages/legal/term-condition.html\" class=\"more-link\"><span class=\"more-link-label\">Terms &amp; Conditions</span></a></div></div><aside class=\"more-menu-right\"><div class=\"more-cta-content\"><h2 class=\"more-cta-title\">Let's create<br>experiences<br>together.</h2><p class=\"more-cta-sub\">We value our connection and want to create lasting memories.</p><a href=\"/pages/main/contact-page.html\" class=\"more-cta-button\"><span>CONTACT US</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></aside></div></div>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260311-2\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err);});});}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-1e67f33c",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-ff8a144a",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">User-centric lead magnets</span></nav></div></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-43f4d6b7",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/user-centric-lead-magnets-cover.png\" alt=\"Professional studio lead magnet shown on a laptop with a helpful resource and client journey\" class=\"blog-hero-image\" width=\"1536\" height=\"1024\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-7d220fa5",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n    <header class=\"blog-header\"><p class=\"eyebrow\">Studio Growth / 9 min read</p><h1 class=\"blog-title\">Creating User-Centric Lead Magnets for Professional Studios</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">lead magnets</span><span class=\"blog-tag\">studio growth</span><span class=\"blog-tag\">client experience</span><span class=\"blog-tag\">conversion design</span></div><time class=\"blog-date\" datetime=\"2026-11-04\">Date: 04 Nov 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n    <article class=\"blog-article lead-magnet-article\" itemscope itemtype=\"https://schema.org/BlogPosting\">\n      <meta itemprop=\"headline\" content=\"Creating User-Centric Lead Magnets for Professional Studios\" /><meta itemprop=\"datePublished\" content=\"2026-11-04\" />\n      <p class=\"blog-intro\">The best lead magnet does not feel like a trade. It feels like the first useful moment in a future client relationship.</p>\n      <p class=\"blog-intro\">For a professional studio, that means moving beyond the generic ebook. Your resource should help a prospective client make sense of a real decision before they are ready to commission a project. When it does, the right people arrive at the next conversation better informed, more confident and more qualified.</p>\n      <section class=\"blog-page-section\" aria-labelledby=\"start\"><h2 class=\"section-heading\" id=\"start\">Start with the decision, not the download</h2><p class=\"section-text\">A high-performing studio lead magnet begins with a specific moment of uncertainty. A founder may be wondering whether a redesign is justified. A marketing lead may need a way to align stakeholders before briefing a studio. An operations team may need to see where a customer journey is losing momentum.</p><p class=\"section-text\">Choose one question your best prospects already ask in their own words. Then make a compact resource that helps them take a meaningful first step. Its job is not to prove everything you know; its job is to create an early win.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>Be specific</strong><span>Focus on one valuable decision instead of trying to explain your whole discipline.</span></div><div class=\"principle-card\"><strong>Be practical</strong><span>Give people a way to assess, prioritise or prepare something today.</span></div><div class=\"principle-card\"><strong>Be generous</strong><span>Offer real clarity before asking for time, budget or a meeting.</span></div></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"exchange\"><h2 class=\"section-heading\" id=\"exchange\">Design the value exchange around trust</h2><p class=\"section-text\">People do not give up an email address because a title sounds clever. They do it when the outcome is clear, the effort is low and the request feels proportionate. Your landing page should make the resource tangible: show what it contains, who it is for, what it helps them do and what happens next.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/lead-magnet-value-exchange.png\" alt=\"Visual journey from a visitor's question to a practical studio resource and productive next step\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>A useful lead magnet creates a considered exchange: a visitor gets clarity, while the studio earns permission to continue the conversation.</figcaption></figure><blockquote class=\"pull-quote\">The conversion is not the form submission. The conversion is the moment someone thinks: “this studio understands the problem I am trying to solve.”</blockquote></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"formats\"><h2 class=\"section-heading\" id=\"formats\">Choose a format that helps people move</h2><p class=\"section-text\">A polished PDF can work, but it is only one container. Match the format to the action your prospective client needs to take. The strongest resources are often short, visual and easy to share with the person who needs to make the decision alongside them.</p><table class=\"strategy-table\"><thead><tr><th>Client moment</th><th>Useful lead magnet</th><th>What it unlocks</th></tr></thead><tbody><tr><td>“Is a redesign worth it?”</td><td>Website opportunity scorecard</td><td>A shared case for investigating the problem.</td></tr><tr><td>“What should we prepare?”</td><td>Project-readiness checklist</td><td>A cleaner brief and a faster discovery call.</td></tr><tr><td>“Where are users getting stuck?”</td><td>Journey-mapping worksheet</td><td>Specific friction points worth discussing.</td></tr><tr><td>“How do we compare options?”</td><td>Vendor evaluation guide</td><td>A clearer view of what a capable partner should provide.</td></tr></tbody></table></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"experience\"><h2 class=\"section-heading\" id=\"experience\">Make the resource experience feel like your studio</h2><p class=\"section-text\">The lead magnet is often your first piece of product experience. Treat it that way. Keep the sign-up flow focused, let the preview do some of the explaining, and make the delivery feel intentional rather than automated. A resource that is difficult to access, hard to scan or full of generic advice quietly contradicts the quality you want prospects to expect from your team.</p><p class=\"section-text\">Use a short form. Ask only for information that changes the follow-up. On mobile, make the promise and the next action obvious. After delivery, offer one relevant next step rather than a crowded menu of links.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/lead-magnet-resource-experience.png\" alt=\"Desktop and mobile mockups of a polished studio resource landing page and thank-you experience\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>The resource, form and thank-you moment are one connected experience—not three disconnected marketing tasks.</figcaption></figure></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"follow-up\"><h2 class=\"section-heading\" id=\"follow-up\">Follow up with relevance, not pressure</h2><p class=\"section-text\">The most useful follow-up acknowledges the promise someone just accepted. Send the resource immediately. Then, when you do reach out, build on the context they chose: the problem the guide helps with, the team they are part of, or the decision they are preparing for.</p><ul class=\"section-list\"><li><strong>Immediately:</strong> deliver the resource and state the outcome it is designed to help them achieve.</li><li><strong>After they have had time to use it:</strong> share one supporting example, observation or implementation tip.</li><li><strong>Only when it fits:</strong> invite them to discuss the findings or get a second perspective from your team.</li><li><strong>Always:</strong> make unsubscribing and declining a conversation simple and respectful.</li></ul></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"checklist\"><h2 class=\"section-heading\" id=\"checklist\">A quality check before you publish</h2><div class=\"checklist\"><h3>User-centric lead magnet checklist</h3><ol><li>It is built around one real question a prospective client has before they hire a studio.</li><li>The value is visible before someone fills in a form.</li><li>The resource helps the reader make a decision, not simply consume information.</li><li>The form asks for the minimum information needed to improve the follow-up.</li><li>The design is easy to use on desktop and mobile.</li><li>The thank-you experience offers one clear, relevant next step.</li><li>Your follow-up adds help and context instead of applying pressure.</li></ol></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"faq\"><h2 class=\"section-heading\" id=\"faq\">Frequently asked questions</h2><div class=\"faq-item\"><h3>How long should a lead magnet be?</h3><p class=\"section-text\">As long as it takes to create a useful outcome. A focused checklist or scorecard is often more valuable than a 30-page guide because it is more likely to be used and shared.</p></div><div class=\"faq-item\"><h3>Should professional studios gate every resource?</h3><p class=\"section-text\">No. Keep broad, discoverable education open. Gate the deeper resource that gives a reader a clear, practical tool or a personalised outcome worth exchanging information for.</p></div><div class=\"faq-item\"><h3>How do we know whether it is working?</h3><p class=\"section-text\">Look beyond download volume. Track resource engagement, qualified conversations, repeat visits, referral sources and whether people can describe the problem they want help solving more clearly after using it.</p></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"finish\"><h2 class=\"section-heading\" id=\"finish\">Make the first interaction genuinely useful</h2><p class=\"section-text\">Professional studios earn trust by showing how they think. A thoughtful lead magnet makes that visible before a project begins: it respects someone’s time, helps them gain clarity and opens a natural path to work together.</p><p class=\"section-text\">Want to turn your studio’s expertise into a better first client experience? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your growth experience</a>.</p></section>\n    </article>\n  </div></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-fc72a4e2",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"creating-user-centric-lead-magnets-professional-studios\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-acd5562f",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "creating-user-centric-lead-magnets-professional-studios-section-c54aee39",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section animate-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top animate-fade-in\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Marketing Emailer</a></div></div><div class=\"footer-section-block animate-slide-up\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a><a href=\"/pages/legal/term-condition.html\">Terms of Service</a></div></div><div class=\"footer-bottom animate-fade-in\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        }
+      ],
+      "updatedAt": "2026-11-04T04:49:48.656Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-1262c866c6c7b1a1a4f161fd",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T05:04:05.163Z",
+        "lastSeenAt": "2026-11-04T05:05:20.857Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 75,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d976b4c72468781a1a4f1491e",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T05:03:58.788Z",
+        "lastSeenAt": "2026-11-04T05:03:58.788Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5776366b5b58b1a1a4f0f77d",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T05:03:37.891Z",
+        "lastSeenAt": "2026-11-04T05:03:52.919Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d9bb7ad52e13d1a1a4f0c005",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T05:03:23.680Z",
+        "lastSeenAt": "2026-11-04T05:03:37.745Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3001/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-182370a8e58b71a1a4ec515d",
+        "visitorId": "37170a2b-0ca5-45b0-8df2-0e06a52b316b",
+        "createdAt": "2026-11-04T04:58:33.219Z",
+        "lastSeenAt": "2026-11-04T04:58:33.219Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "Direct",
+        "viewport": "1416x988",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-b0fe492eb7bdc1a1a4ec14e2",
+        "visitorId": "c9a21bdb-588f-4834-a3cf-fe589b8333c1",
+        "createdAt": "2026-11-04T04:58:17.740Z",
+        "lastSeenAt": "2026-11-04T04:58:17.740Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "Direct",
+        "viewport": "1416x988",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+        "ip": "127.0.0.x"
+      },
+      {
+        "id": "sess-0547d118d005481a1a4e77715",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T04:53:15.210Z",
+        "lastSeenAt": "2026-11-04T05:03:22.250Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3001/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 285,
+        "scrollDepth": 2,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-02697d0d9870981a1a4e5c7f8",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T04:51:24.832Z",
+        "lastSeenAt": "2026-11-04T04:53:15.104Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "http://localhost:3001/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 83,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4e7b29c4cd7d881a1a4e59fa0",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T04:51:14.507Z",
+        "lastSeenAt": "2026-11-04T04:51:24.611Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3001/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-127cb900d877d1a1a4e58f65",
+        "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
+        "createdAt": "2026-11-04T04:51:10.352Z",
+        "lastSeenAt": "2026-11-04T04:51:14.387Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a25d28cb75d311a1a4e54602",
+        "visitorId": "de441635-5acc-4a78-9ce4-d9a7528f1961",
+        "createdAt": "2026-11-04T04:50:51.566Z",
+        "lastSeenAt": "2026-11-04T05:05:21.589Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1260x660",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 870,
+        "scrollDepth": 20,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.144.1 Chrome/150.0.7871.250 Electron/43.8.3 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a8b121f4bd63081a1a4e45021",
+        "visitorId": "973ebc51-16e8-471d-890e-bd3af5258b9d",
+        "createdAt": "2026-11-04T04:49:48.622Z",
+        "lastSeenAt": "2026-11-04T04:49:48.622Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "Direct",
+        "viewport": "1416x1108",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+        "ip": "127.0.0.x"
+      },
       {
         "id": "sess-a76cd424a0c3e1a19a870c8e",
         "visitorId": "23c11b21-54a8-4a2f-a757-f86542273459",
@@ -9717,249 +10143,54 @@
         "pageViews": 1,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
         "ip": "1::*"
-      },
-      {
-        "id": "sess-26a2c4fe4fe121a17ba45661",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:35:30.046Z",
-        "lastSeenAt": "2026-10-27T04:35:30.046Z",
-        "currentPage": "psychological-triggers-web-design",
-        "path": "/blogs/psychological-triggers-web-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-6ebbd7f5ff2121a17ba44fb5",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:35:28.407Z",
-        "lastSeenAt": "2026-10-27T04:35:28.407Z",
-        "currentPage": "psychological-triggers-web-design",
-        "path": "/blogs/psychological-triggers-web-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-061785ce41c9081a17b9bd12d",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:26:11.665Z",
-        "lastSeenAt": "2026-10-27T04:26:26.797Z",
-        "currentPage": "psychological-triggers-web-design",
-        "path": "/blogs/psychological-triggers-web-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 9,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-9759d26b6c7f51a17b9bc50b",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:26:08.598Z",
-        "lastSeenAt": "2026-10-27T04:26:11.528Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/safe-website-redesign-launch-checklist",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-cf40a66c5007d1a17b990553",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:23:08.412Z",
-        "lastSeenAt": "2026-10-27T04:26:08.461Z",
-        "currentPage": "safe-website-redesign-launch-checklist",
-        "path": "/blogs/safe-website-redesign-launch-checklist",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 150,
-        "scrollDepth": 7,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-f233cfda985f71a17b98be14",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:50.173Z",
-        "lastSeenAt": "2026-10-27T04:23:05.208Z",
-        "currentPage": "psychological-triggers-web-design",
-        "path": "/blogs/psychological-triggers-web-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 88,
-        "eventCount": 0,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-fa2ce62603d241a17b98b27a",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:47.201Z",
-        "lastSeenAt": "2026-10-27T04:23:08.307Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/how-branding-builds-long-term-professional-trust",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 15,
-        "scrollDepth": 4,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-51ed6848740cf81a17b98a1eb",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:42.965Z",
-        "lastSeenAt": "2026-10-27T04:22:47.115Z",
-        "currentPage": "how-branding-builds-long-term-professional-trust",
-        "path": "/blogs/how-branding-builds-long-term-professional-trust",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-847e59d5ff2e21a17b989672",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:40.028Z",
-        "lastSeenAt": "2026-10-27T04:22:42.867Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/blogs/psychological-triggers-web-design",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-08998fe0b8fd081a17b98610c",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:26.358Z",
-        "lastSeenAt": "2026-10-27T04:22:39.936Z",
-        "currentPage": "psychological-triggers-web-design",
-        "path": "/blogs/psychological-triggers-web-design",
-        "referrer": "http://localhost:3000/blogs",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-b367123a46ec81a17b985212",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:22.526Z",
-        "lastSeenAt": "2026-10-27T04:22:26.122Z",
-        "currentPage": "blogs",
-        "path": "/blogs",
-        "referrer": "http://localhost:3000/",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 1,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
-      },
-      {
-        "id": "sess-3e981637cfcc981a17b98438c",
-        "visitorId": "daea96a6-ee69-468b-9966-3109b5ee3e9e",
-        "createdAt": "2026-10-27T04:22:18.846Z",
-        "lastSeenAt": "2026-10-27T04:22:22.416Z",
-        "currentPage": "home",
-        "path": "/",
-        "referrer": "Direct",
-        "viewport": "1920x919",
-        "device": "desktop",
-        "timezone": "Asia/Calcutta",
-        "language": "en-US",
-        "locationLabel": "en-US | Asia/Calcutta",
-        "activeSeconds": 0,
-        "scrollDepth": 0,
-        "eventCount": 2,
-        "pageViews": 1,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "ip": "1::*"
       }
     ],
     "events": [
+      {
+        "id": "evt-d336224c",
+        "sessionId": "sess-d9bb7ad52e13d1a1a4f0c005",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-04T05:03:37.745Z"
+      },
+      {
+        "id": "evt-31fd9aa5",
+        "sessionId": "sess-02697d0d9870981a1a4e5c7f8",
+        "page": "creating-user-centric-lead-magnets-professional-studios",
+        "type": "click",
+        "target": "a.breadcrumb-link",
+        "text": "Blog",
+        "createdAt": "2026-11-04T04:53:15.104Z"
+      },
+      {
+        "id": "evt-1eb7be6d",
+        "sessionId": "sess-4e7b29c4cd7d881a1a4e59fa0",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-04T04:51:24.611Z"
+      },
+      {
+        "id": "evt-f6f809c8",
+        "sessionId": "sess-127cb900d877d1a1a4e58f65",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-04T04:51:14.387Z"
+      },
+      {
+        "id": "evt-b3834c10",
+        "sessionId": "sess-127cb900d877d1a1a4e58f65",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-04T04:51:12.996Z"
+      },
       {
         "id": "evt-dad5c751",
         "sessionId": "sess-f92eeeba4dfc881a19a87014e",
@@ -14414,51 +14645,6 @@
         "target": "a.blog-read-more",
         "text": "READ MORE",
         "createdAt": "2026-08-13T08:51:23.049Z"
-      },
-      {
-        "id": "evt-da1f6537",
-        "sessionId": "sess-965b319f1df0419ffa517df7",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T08:51:20.957Z"
-      },
-      {
-        "id": "evt-f4583fe0",
-        "sessionId": "sess-965b319f1df0419ffa517df7",
-        "page": "work.html",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T08:51:19.852Z"
-      },
-      {
-        "id": "evt-8c32b260",
-        "sessionId": "sess-965b319f1df0419ffa517df7",
-        "page": "work.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-13T08:51:17.310Z"
-      },
-      {
-        "id": "evt-11f3ab5f",
-        "sessionId": "sess-5183ae2591fd519ffa5159b5",
-        "page": "blog-what-makes-a-great-website-2026.html",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T08:51:12.434Z"
-      },
-      {
-        "id": "evt-1b09be08",
-        "sessionId": "sess-5183ae2591fd519ffa5159b5",
-        "page": "blog-what-makes-a-great-website-2026.html",
-        "type": "click",
-        "target": "a.cta-banner-button",
-        "text": "START YOUR PROJECT",
-        "createdAt": "2026-08-13T08:51:07.745Z"
       }
     ],
     "replays": []
@@ -14647,6 +14833,31 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/blog-what-makes-a-great-website-2026.html",
+      "sections": []
+    },
+    {
+      "id": "blog-creating-user-centric-lead-magnets-for-professional-studios-webx-design-studio",
+      "title": "Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio",
+      "slug": "creating-user-centric-lead-magnets-professional-studios",
+      "metaTitle": "Creating User-Centric Lead Magnets for Professional Studios | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.",
+      "image": "/assets/images/blogs/user-centric-lead-magnets-cover.png",
+      "imageAlt": "Professional studio lead magnet shown on a laptop with a helpful resource and client journey",
+      "dateValue": "2026-11-04",
+      "dateLabel": "Date: 04 Nov 26",
+      "excerpt": "Learn how professional studios can create useful, user-centric lead magnets that solve a real early-stage problem and start better client conversations.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "user-centric lead magnets",
+        "design studio marketing",
+        "lead magnet ideas",
+        "studio growth",
+        "client experience design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html",
       "sections": []
     },
     {
@@ -15163,6 +15374,78 @@
   ],
   "activity": [
     {
+      "id": "act-a900a82e",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-04T05:04:05.201Z"
+    },
+    {
+      "id": "act-894c9710",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-04T05:03:58.823Z"
+    },
+    {
+      "id": "act-202f8b2b",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-04T05:03:37.929Z"
+    },
+    {
+      "id": "act-f4e97ada",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-04T05:03:23.703Z"
+    },
+    {
+      "id": "act-0f160ea4",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-04T04:58:33.245Z"
+    },
+    {
+      "id": "act-9ba1b107",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-04T04:58:17.771Z"
+    },
+    {
+      "id": "act-7c966296",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-04T04:53:15.251Z"
+    },
+    {
+      "id": "act-28097b9a",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-04T04:51:24.867Z"
+    },
+    {
+      "id": "act-3bfeec1a",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-04T04:51:14.547Z"
+    },
+    {
+      "id": "act-7ca2af98",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-04T04:51:10.380Z"
+    },
+    {
+      "id": "act-ca8ca63e",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-04T04:50:51.609Z"
+    },
+    {
+      "id": "act-59551fc5",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-04T04:49:48.656Z"
+    },
+    {
       "id": "act-5fc27f74",
       "type": "visitor",
       "message": "Visitor opened safe-website-redesign-launch-checklist",
@@ -15449,78 +15732,6 @@
       "type": "visitor",
       "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
       "createdAt": "2026-10-02T09:03:51.053Z"
-    },
-    {
-      "id": "act-e23df1f8",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-02T09:03:47.333Z"
-    },
-    {
-      "id": "act-b323f149",
-      "type": "visitor",
-      "message": "Visitor opened psychology-of-color-digital-products",
-      "createdAt": "2026-10-02T09:03:41.275Z"
-    },
-    {
-      "id": "act-b80f2ea0",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-02T09:03:35.543Z"
-    },
-    {
-      "id": "act-d43deef2",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-02T09:03:06.510Z"
-    },
-    {
-      "id": "act-7576ed19",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-02T06:52:33.499Z"
-    },
-    {
-      "id": "act-7986c4b5",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-02T06:51:55.167Z"
-    },
-    {
-      "id": "act-136b04d7",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-02T06:48:57.340Z"
-    },
-    {
-      "id": "act-4cc08c74",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-02T06:48:54.783Z"
-    },
-    {
-      "id": "act-f230dc34",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-02T06:46:38.940Z"
-    },
-    {
-      "id": "act-8cd6f839",
-      "type": "visitor",
-      "message": "Visitor opened high-converting-landing-page-2026",
-      "createdAt": "2026-10-02T06:44:58.025Z"
-    },
-    {
-      "id": "act-5b925ead",
-      "type": "visitor",
-      "message": "Visitor opened designing-interactive-digital-gallery-luxury-brands",
-      "createdAt": "2026-10-02T06:44:45.897Z"
-    },
-    {
-      "id": "act-136dbdb6",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-02T06:44:17.721Z"
     }
   ],
   "blogViews": {
@@ -15594,9 +15805,7 @@
     },
     "/pages/blogs/safe-website-redesign-launch-checklist.html": {
       "count": 3,
-      "viewers": {
-        "c4897dc199468597b9dc8ed0e5092d6abda4b078ac0932376265c599cf55834c": 1793593904522
-      }
+      "viewers": {}
     },
     "/pages/blogs/how-branding-builds-long-term-professional-trust.html": {
       "count": 2,
@@ -15612,8 +15821,13 @@
     },
     "/pages/blogs/ux-design-strategies-ai-powered-applications.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html": {
+      "count": 2,
       "viewers": {
-        "09d36de3bdd53a59697504649cd502e5d6ba355b8f91eb0c2719e3a43fccfae7": 1793593269519
+        "72e823fd1124cf86ab33d9c98517702c4c1f627a4dda46cb3c0606c407df024d": 1793767788807,
+        "f992eefe7c5d641f6793422146df197a3f501cce8a1b2d89c7df14a20e4cc1f7": 1793767885092
       }
     }
   }
