@@ -16,6 +16,13 @@
     <priority>1.0</priority>
   </url>
 
+  <url>
+    <loc>https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- About Page -->
   <url>
     <loc>https://webxds.com/pages/main/about.html</loc>

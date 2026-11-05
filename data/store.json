@@ -527,6 +527,24 @@
               ]
             },
             {
+              "id": "blog-designing-clear-and-effective-empty-state-screens-webx-design-studio",
+              "title": "Designing Clear and Effective Empty State Screens | Webx Design Studio",
+              "image": "/assets/images/blogs/designing-clear-empty-state-screens-cover.png",
+              "imageAlt": "A polished empty state interface with an orange paper plane illustration and clear action",
+              "dateLabel": "Date: 05 Nov 26",
+              "dateValue": "2026-11-05",
+              "excerpt": "A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.",
+              "url": "/pages/blogs/designing-clear-effective-empty-state-screens.html",
+              "tags": [
+                "empty state design",
+                "UX empty states",
+                "empty screen UX",
+                "onboarding UX",
+                "product design patterns",
+                "actionable empty states"
+              ]
+            },
+            {
               "id": "blog-designing-an-interactive-digital-gallery-for-luxury-brands-webx-design-studio",
               "title": "Designing an Interactive Digital Gallery for Luxury Brands | Webx Design Studio",
               "image": "/assets/images/blogs/luxury-digital-gallery-ui-cover-v2.png",
@@ -1124,7 +1142,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-04T05:05:21.572Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1324,7 +1342,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-04T05:05:21.572Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1524,7 +1542,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-04T05:05:21.572Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1724,7 +1742,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-04T05:05:21.573Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1924,7 +1942,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-04T05:05:21.573Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2124,7 +2142,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-04T05:05:21.573Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2324,7 +2342,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-04T05:05:21.573Z"
+          "updatedAt": "2026-11-05T04:12:39.461Z"
         }
       ]
     },
@@ -2845,7 +2863,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.579Z"
+      "updatedAt": "2026-11-05T04:12:39.465Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3149,7 +3167,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.580Z"
+      "updatedAt": "2026-11-05T04:12:39.467Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3280,7 +3298,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.583Z"
+      "updatedAt": "2026-11-05T04:12:39.472Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3411,7 +3429,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.584Z"
+      "updatedAt": "2026-11-05T04:12:39.473Z"
     },
     "about": {
       "editorType": "generic",
@@ -3604,7 +3622,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.585Z"
+      "updatedAt": "2026-11-05T04:12:39.474Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3727,7 +3745,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.585Z"
+      "updatedAt": "2026-11-05T04:12:39.475Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3858,7 +3876,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.586Z"
+      "updatedAt": "2026-11-05T04:12:39.476Z"
     },
     "services": {
       "editorType": "generic",
@@ -4055,7 +4073,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.587Z"
+      "updatedAt": "2026-11-05T04:12:39.478Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4200,7 +4218,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.588Z"
+      "updatedAt": "2026-11-05T04:12:39.478Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4345,7 +4363,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.588Z"
+      "updatedAt": "2026-11-05T04:12:39.479Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5210,7 +5228,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.574Z"
+      "updatedAt": "2026-11-05T04:12:39.464Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5405,7 +5423,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.581Z"
+      "updatedAt": "2026-11-05T04:12:39.469Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5600,7 +5618,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-04T05:05:21.582Z"
+      "updatedAt": "2026-11-05T04:12:39.471Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -9718,12 +9736,383 @@
         }
       ],
       "updatedAt": "2026-11-04T04:49:48.656Z"
+    },
+    "designing-clear-effective-empty-state-screens": {
+      "editorType": "generic",
+      "path": "/pages/blogs/designing-clear-effective-empty-state-screens.html",
+      "title": "Designing Clear and Effective Empty State Screens | Webx Design Studio",
+      "meta": "A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.",
+      "displayName": "Designing Clear and Effective Empty State Screens | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Designing Clear and Effective Empty State Screens | Webx Design Studio</title>\n  <meta name=\"description\" content=\"A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"empty state design, UX empty states, empty screen UX, onboarding UX, product design patterns, actionable empty states\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"Designing Clear and Effective Empty State Screens\" />\n  <meta property=\"og:description\" content=\"An empty screen is a moment of uncertainty. Turn it into a calm, useful next step with this practical UX guide.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/designing-clear-empty-state-screens-cover.png\" />\n  <meta property=\"og:image:width\" content=\"1536\" /><meta property=\"og:image:height\" content=\"1024\" />\n  <meta property=\"og:image:alt\" content=\"A polished empty state interface with an orange paper plane illustration and clear action\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" /><meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-11-05\" /><meta property=\"article:modified_time\" content=\"2026-11-05\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" /><meta property=\"article:section\" content=\"UX/UI Design\" />\n  <meta property=\"article:tag\" content=\"empty state design\" /><meta property=\"article:tag\" content=\"product UX\" /><meta property=\"article:tag\" content=\"onboarding\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" /><meta name=\"twitter:title\" content=\"Designing Clear and Effective Empty State Screens\" />\n  <meta name=\"twitter:description\" content=\"Turn a blank product moment into a clear, helpful next step.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/designing-clear-empty-state-screens-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" /><link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/designing-clear-empty-state-screens-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Designing Clear and Effective Empty State Screens\",\"description\":\"A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.\",\"image\":[\"https://webxds.com/assets/images/blogs/designing-clear-empty-state-screens-cover.png\",\"https://webxds.com/assets/images/blogs/empty-state-clear-vs-vague.png\",\"https://webxds.com/assets/images/blogs/empty-state-design-framework.png\"],\"url\":\"https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html\",\"datePublished\":\"2026-11-05\",\"dateModified\":\"2026-11-05\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"empty state design\",\"product UX\",\"onboarding UX\",\"actionable empty states\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Designing Clear and Effective Empty State Screens\",\"item\":\"https://webxds.com/pages/blogs/designing-clear-effective-empty-state-screens.html\"}]}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is an empty state in UX design?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"An empty state is the interface shown when a section has no content yet, such as a new dashboard, an empty inbox, a search with no matches or a cleared list.\"}},{\"@type\":\"Question\",\"name\":\"What should an empty state include?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A useful empty state explains the situation in plain language, shows why it matters, and offers the most relevant next action. It may also include a concise illustration or a secondary help link.\"}},{\"@type\":\"Question\",\"name\":\"Should every empty state have a button?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Not always. Give a primary action when the person can change the state. If it is a temporary system condition, explain what will happen next and provide only helpful, relevant support.\"}}]}</script>\n  <style>\n    .empty-state-article .eyebrow{margin:0 0 12px;color:#ff9a63;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.empty-state-article .visual-figure{margin:42px 0 14px}.empty-state-article .visual-figure img{display:block;width:100%;border:1px solid rgba(255,255,255,.14);border-radius:22px;background:#16161c}.empty-state-article figcaption{margin:12px 6px 0;color:#aaa;font-size:.86rem;line-height:1.5}.empty-state-article .principle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}.empty-state-article .principle-card{padding:23px;border:1px solid rgba(255,255,255,.15);border-radius:18px;background:linear-gradient(145deg,rgba(255,107,0,.15),rgba(117,82,175,.1))}.empty-state-article .principle-card strong{display:block;margin-bottom:8px;color:#ffad7a;font-size:1.05rem}.empty-state-article .quote{margin:34px 0;padding:25px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.08);color:#fff;font-size:1.16rem;line-height:1.6}.empty-state-article .recipe{margin:30px 0;padding:26px 28px;border-radius:20px;background:#fff0e5;color:#2a160d}.empty-state-article .recipe h3{margin:0 0 12px;font-size:1.25rem}.empty-state-article .recipe ol{margin:0;padding-left:21px}.empty-state-article .recipe li{margin:11px 0}.empty-state-article .comparison{width:100%;margin:28px 0;border:1px solid rgba(255,255,255,.14);border-collapse:separate;border-spacing:0;border-radius:16px;overflow:hidden}.empty-state-article .comparison th,.empty-state-article .comparison td{padding:15px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.empty-state-article .comparison th{background:rgba(255,107,0,.1);color:#ffb382}.empty-state-article .comparison tr:last-child td{border-bottom:0}.empty-state-article .faq-item{padding:20px 0;border-top:1px solid rgba(255,255,255,.14)}.empty-state-article .faq-item:last-child{border-bottom:1px solid rgba(255,255,255,.14)}.empty-state-article .faq-item h3{margin:0 0 8px;color:#fff;font-size:1.08rem}@media(max-width:700px){.empty-state-article .principle-grid{grid-template-columns:1fr}.empty-state-article .visual-figure{margin-top:30px}.empty-state-article .comparison{font-size:.85rem}.empty-state-article .comparison th,.empty-state-article .comparison td{padding:11px 10px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-6222ecc9"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-ecf3bbe2"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-e15969d8"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-58b04b2b"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-dbf52444"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-b69613c4"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-70223050"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "designing-clear-effective-empty-state-screens-section-b5ad6a42"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>!function(){var u=encodeURIComponent(window.location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t}();if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-6222ecc9",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-ecf3bbe2",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Empty state screens</span></nav></div></section>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-e15969d8",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/designing-clear-empty-state-screens-cover.png\" alt=\"A polished empty state interface with an orange paper plane illustration and clear action\" class=\"blog-hero-image\" width=\"1536\" height=\"1024\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-58b04b2b",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\"><p class=\"eyebrow\">UX/UI Design / 8 min read</p><h1 class=\"blog-title\">Designing Clear and Effective Empty State Screens</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">empty state design</span><span class=\"blog-tag\">product UX</span><span class=\"blog-tag\">onboarding</span><span class=\"blog-tag\">interface design</span></div><time class=\"blog-date\" datetime=\"2026-11-05\">Date: 05 Nov 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/designing-clear-effective-empty-state-screens.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n      <article class=\"blog-article empty-state-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"Designing Clear and Effective Empty State Screens\" /><meta itemprop=\"datePublished\" content=\"2026-11-05\" />\n        <p class=\"blog-intro\">An empty state is never just an empty screen. It is a moment when a person needs orientation: <em>Where am I? What happened? What can I do next?</em></p>\n        <p class=\"blog-intro\">Handled well, this small moment makes a product feel calm, considerate and easy to learn. Handled poorly, it can feel like a dead end. This guide shows how to design empty states that turn absence into a useful next step.</p>\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#why\">Why empty states matter</a></li><li><a href=\"#types\">Know which empty moment you are designing</a></li><li><a href=\"#clarity\">The anatomy of a clear empty state</a></li><li><a href=\"#action\">Choose the right next action</a></li><li><a href=\"#tone\">Use visuals and tone with purpose</a></li><li><a href=\"#edge\">Design for the difficult states too</a></li><li><a href=\"#framework\">A repeatable design framework</a></li><li><a href=\"#checklist\">Pre-launch checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n        <section class=\"blog-page-section\" aria-labelledby=\"why\"><h2 class=\"section-heading\" id=\"why\">Why Empty States Matter More Than They Seem</h2><p class=\"section-text\">First-time users meet empty states before they see the product at its most valuable. Returning users meet them after clearing a filter, completing work, changing permissions or searching for something that does not exist. In each case, the product has a chance to explain itself.</p><p class=\"section-text\">A blank panel leaves people to infer the system model on their own. A purposeful empty state reduces that cognitive load. It tells people what this place is for, why it is empty right now and how to make progress without opening a support ticket.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>Make the moment legible</strong><span>Say what the person is seeing in language they would use, not in internal system terminology.</span></div><div class=\"principle-card\"><strong>Protect momentum</strong><span>Offer a route forward before uncertainty becomes hesitation or abandonment.</span></div><div class=\"principle-card\"><strong>Teach just enough</strong><span>Reveal a helpful capability in context instead of forcing people through an explanation elsewhere.</span></div></div></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"types\"><h2 class=\"section-heading\" id=\"types\">Know Which Empty Moment You Are Designing</h2><p class=\"section-text\">Not all empty states ask for the same response. Start by naming the cause. This helps the team avoid pasting the same friendly illustration and button into every blank area.</p><table class=\"comparison\"><thead><tr><th>Empty moment</th><th>What the person needs</th><th>Useful response</th></tr></thead><tbody><tr><td>First use</td><td>Orientation and confidence</td><td>Explain the value of this area and invite the first meaningful action.</td></tr><tr><td>No results</td><td>Recovery from a failed search or filter</td><td>Repeat the query, suggest changes and offer a clear way to reset.</td></tr><tr><td>Completed</td><td>Closure and continuity</td><td>Acknowledge progress and point to the most relevant next task.</td></tr><tr><td>Temporarily unavailable</td><td>Honesty and reassurance</td><td>State the issue, preserve trust and say when or how to try again.</td></tr><tr><td>Permission or eligibility gap</td><td>Context and agency</td><td>Explain what access is needed and provide a route to request it.</td></tr></tbody></table></section>\n        <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/empty-state-clear-vs-vague.png\" alt=\"Comparison between a dark, vague empty screen and a bright, helpful empty screen with a clear action\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Both panels are empty. Only one gives the person a clear interpretation of the moment and a way forward.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"clarity\"><h2 class=\"section-heading\" id=\"clarity\">The Anatomy of a Clear Empty State</h2><p class=\"section-text\">The strongest states are concise, not sparse. They use a small set of elements in a deliberate order so someone can scan the situation and decide what to do.</p><ol class=\"section-list\"><li><strong>A specific headline:</strong> Name the state plainly, such as “No projects yet” or “No matches for ‘invoice’.” Avoid generic labels like “Nothing here.”</li><li><strong>A helpful explanation:</strong> Give only the missing context: why the area is empty, what normally appears here, or what changed.</li><li><strong>A single primary action:</strong> Make the main next step easy to identify and phrase it as a verb people understand.</li><li><strong>Optional secondary support:</strong> Add a subtle reset, template, import path or help link only when it solves a realistic alternative need.</li></ol><blockquote class=\"quote\">A good empty state does not decorate an absence. It makes the absence understandable and gives the person back a sense of control.</blockquote></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"action\"><h2 class=\"section-heading\" id=\"action\">Choose the Right Next Action</h2><p class=\"section-text\">The primary action should reflect the smallest meaningful step to change the state. “Create project” is useful when a person is starting fresh; “Clear filters” is useful after a narrow search; “Request access” is useful when permission—not content—is the blocker.</p><p class=\"section-text\">Avoid using the empty state to force a product tour, a marketing upgrade or a broad dashboard detour. Those choices may serve the business, but they do not necessarily help the person solve the immediate problem. Relevance earns trust.</p><div class=\"recipe\"><h3>Quick action test</h3><ol><li>Can the person complete the action without leaving the task they came to do?</li><li>Will it create real value or simply add another setup step?</li><li>Is the action still understandable without the surrounding page?</li><li>If the person cannot take it, is there a clear, quieter alternative?</li></ol></div></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"tone\"><h2 class=\"section-heading\" id=\"tone\">Use Visuals and Tone with Purpose</h2><p class=\"section-text\">An illustration can make a blank state feel intentional and warm, but it should support comprehension rather than compete with it. Use visuals to reinforce the action or the product metaphor: a box waiting to be filled, a route ready to begin, a workspace ready for a first project.</p><p class=\"section-text\">Keep the voice human and direct. Humour can be memorable, but it should never dismiss a frustrating situation such as a failed search, lost access or system outage. The more serious the interruption, the more the interface should focus on clarity, status and recovery.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"edge\"><h2 class=\"section-heading\" id=\"edge\">Design for Difficult States Too</h2><p class=\"section-text\">Teams often design the cheerful first-use state and overlook the emptiness created by filters, errors and permissions. These states deserve equal care because they are often where confidence is most fragile.</p><ul class=\"section-list\"><li><strong>No search results:</strong> preserve the query, explain what was searched and offer a reset or broader alternative.</li><li><strong>Filters removed everything:</strong> show the active filters and let people clear or adjust them in place.</li><li><strong>Loading or delay:</strong> distinguish a temporary wait from a genuinely empty collection; never make users guess.</li><li><strong>Access restricted:</strong> explain the rule without exposing sensitive information, then offer the appropriate request path.</li><li><strong>Deleted or completed work:</strong> acknowledge what happened, make recovery possible when it is safe and suggest the next useful destination.</li></ul></section>\n        <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/empty-state-design-framework.png\" alt=\"Four connected cards showing the empty state design framework: inspect context, explain, create visual focus and offer an action\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>A repeatable empty-state pattern keeps the product clear while allowing each moment to remain specific.</figcaption></figure>\n        <section class=\"blog-page-section\" aria-labelledby=\"framework\"><h2 class=\"section-heading\" id=\"framework\">A Repeatable Empty-State Framework</h2><p class=\"section-text\">Use this four-part sequence during design critique and content review. It keeps the conversation focused on the person’s situation, not just on whether the page looks finished.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>1. Diagnose</strong><span>What caused this state, and what does the person believe they were trying to do?</span></div><div class=\"principle-card\"><strong>2. Explain</strong><span>What is the smallest truthful message that makes the system’s status clear?</span></div><div class=\"principle-card\"><strong>3. Invite</strong><span>What is the most relevant, achievable next action from this exact moment?</span></div></div><p class=\"section-text\">Then test the state with real content, small screens, keyboard navigation, long translations and different permission levels. An empty state that works only in a perfect mockup is not ready for the product.</p></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"checklist\"><h2 class=\"section-heading\" id=\"checklist\">Pre-Launch Checklist</h2><div class=\"recipe\"><h3>Effective empty-state checklist</h3><ol><li>The headline says exactly what is empty or unavailable.</li><li>The explanation matches the true cause of the state.</li><li>The primary action is relevant, visible and phrased as a clear verb.</li><li>Secondary routes are present only when they help someone recover.</li><li>Images and icons do not carry meaning that is missing from the text.</li><li>Keyboard and assistive-technology users can understand and complete the next step.</li><li>The state has been checked for first use, no results, loading, permissions and recovery.</li><li>Analytics distinguish between seeing the state, taking action and leaving it.</li></ol></div></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"faq\"><h2 class=\"section-heading\" id=\"faq\">Frequently Asked Questions</h2><div class=\"faq-item\"><h3>What is the difference between an empty state and an error state?</h3><p class=\"section-text\">An empty state means there is currently no content to show; an error state means the product could not complete an expected action. They can look related, but the message and recovery action must reflect the real condition.</p></div><div class=\"faq-item\"><h3>Do empty states need illustrations?</h3><p class=\"section-text\">No. A visual is optional. Use one when it strengthens orientation or tone, and skip it when concise text, status information or a form of recovery deserves the focus.</p></div><div class=\"faq-item\"><h3>How do we measure whether an empty state is working?</h3><p class=\"section-text\">Watch whether people take the intended next action, recover from search or filter states, and complete the associated task. Pair that behaviour with usability testing so you know whether the message itself is clear.</p></div></section>\n        <section class=\"blog-page-section\" aria-labelledby=\"finish\"><h2 class=\"section-heading\" id=\"finish\">Make the Blank Moment Feel Like Progress</h2><p class=\"section-text\">Empty states are small pieces of product writing, interaction design and brand behaviour working together. When they explain the moment honestly and offer the next useful step, a blank area becomes a quiet demonstration of product quality.</p><p class=\"section-text\">Need an interface that guides people with more confidence at every stage? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your product experience</a>.</p></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-dbf52444",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"designing-clear-effective-empty-state-screens\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-b69613c4",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to make every product moment clearer?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\"/></svg></a></div></section>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-70223050",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Graphics Design</a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a></div></div><div class=\"footer-bottom\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "designing-clear-effective-empty-state-screens-section-b5ad6a42",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-11-05T04:06:41.255Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-12008f35400241a1a9e69602",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:10:23.656Z",
+        "lastSeenAt": "2026-11-05T04:12:39.480Z",
+        "currentPage": "designing-clear-effective-empty-state-screens",
+        "path": "/blogs/designing-clear-effective-empty-state-screens",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 87,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d12913cc03f0681a1a9e68c9d",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:10:21.257Z",
+        "lastSeenAt": "2026-11-05T04:10:23.569Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-8d4579eae46031a1a9e63f73",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:10:01.499Z",
+        "lastSeenAt": "2026-11-05T04:10:21.163Z",
+        "currentPage": "creating-user-centric-lead-magnets-professional-studios",
+        "path": "/blogs/creating-user-centric-lead-magnets-professional-studios",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 75,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-21c80d1c380df1a1a9e63501",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:09:58.826Z",
+        "lastSeenAt": "2026-11-05T04:10:01.397Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/contact",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-85cf370290fb881a1a9e629d8",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:09:55.971Z",
+        "lastSeenAt": "2026-11-05T04:09:58.725Z",
+        "currentPage": "contact",
+        "path": "/contact",
+        "referrer": "http://localhost:3000/blogs/designing-clear-effective-empty-state-screens",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d98d2950820631a1a9e5f05a",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:09:41.267Z",
+        "lastSeenAt": "2026-11-05T04:09:55.851Z",
+        "currentPage": "designing-clear-effective-empty-state-screens",
+        "path": "/blogs/designing-clear-effective-empty-state-screens",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-73faa7562a6b681a1a9e35b4a",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:06:52.024Z",
+        "lastSeenAt": "2026-11-05T04:09:37.042Z",
+        "currentPage": "designing-clear-effective-empty-state-screens",
+        "path": "/blogs/designing-clear-effective-empty-state-screens",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 165,
+        "scrollDepth": 86,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-114afb5492b9781a1a9e33e61",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:06:44.743Z",
+        "lastSeenAt": "2026-11-05T04:06:51.889Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-83199234737281a1a9e3311f",
+        "visitorId": "7513d665-e4f2-49a2-82d0-edeb641ff2a2",
+        "createdAt": "2026-11-05T04:06:41.228Z",
+        "lastSeenAt": "2026-11-05T04:06:44.484Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-1262c866c6c7b1a1a4f161fd",
         "visitorId": "2138691e-8348-4f54-9c65-492d5e7487e3",
@@ -10146,6 +10535,96 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-25bdbeae",
+        "sessionId": "sess-12008f35400241a1a9e69602",
+        "page": "designing-clear-effective-empty-state-screens",
+        "type": "click",
+        "target": "a",
+        "text": "Pre-launch checklist",
+        "createdAt": "2026-11-05T04:10:31.710Z"
+      },
+      {
+        "id": "evt-160181c7",
+        "sessionId": "sess-d12913cc03f0681a1a9e68c9d",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-05T04:10:23.569Z"
+      },
+      {
+        "id": "evt-cf098e7e",
+        "sessionId": "sess-8d4579eae46031a1a9e63f73",
+        "page": "creating-user-centric-lead-magnets-professional-studios",
+        "type": "click",
+        "target": "a.breadcrumb-link",
+        "text": "Blog",
+        "createdAt": "2026-11-05T04:10:21.163Z"
+      },
+      {
+        "id": "evt-0b45179f",
+        "sessionId": "sess-21c80d1c380df1a1a9e63501",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-05T04:10:01.397Z"
+      },
+      {
+        "id": "evt-480b12cc",
+        "sessionId": "sess-85cf370290fb881a1a9e629d8",
+        "page": "contact",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-05T04:09:58.725Z"
+      },
+      {
+        "id": "evt-1c351479",
+        "sessionId": "sess-85cf370290fb881a1a9e629d8",
+        "page": "contact",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-05T04:09:57.679Z"
+      },
+      {
+        "id": "evt-fb5cac65",
+        "sessionId": "sess-d98d2950820631a1a9e5f05a",
+        "page": "designing-clear-effective-empty-state-screens",
+        "type": "click",
+        "target": "a.nav-item",
+        "text": "Contact",
+        "createdAt": "2026-11-05T04:09:55.851Z"
+      },
+      {
+        "id": "evt-b455cf53",
+        "sessionId": "sess-114afb5492b9781a1a9e33e61",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-05T04:06:51.889Z"
+      },
+      {
+        "id": "evt-1d3fb207",
+        "sessionId": "sess-83199234737281a1a9e3311f",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-05T04:06:44.484Z"
+      },
+      {
+        "id": "evt-ad1d9344",
+        "sessionId": "sess-83199234737281a1a9e3311f",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-05T04:06:43.326Z"
+      },
       {
         "id": "evt-d336224c",
         "sessionId": "sess-d9bb7ad52e13d1a1a4f0c005",
@@ -14555,96 +15034,6 @@
         "target": "button.nav-item.more-toggle",
         "text": "More",
         "createdAt": "2026-08-13T09:47:55.693Z"
-      },
-      {
-        "id": "evt-65c5be11",
-        "sessionId": "sess-f7657d24c291e19ffa85520b",
-        "page": "blogs",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T09:47:53.203Z"
-      },
-      {
-        "id": "evt-59e60ec1",
-        "sessionId": "sess-f7657d24c291e19ffa85520b",
-        "page": "blogs",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T09:47:52.059Z"
-      },
-      {
-        "id": "evt-b86a64d8",
-        "sessionId": "sess-cc024ba2191ce19ffa804214",
-        "page": "work",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Services",
-        "createdAt": "2026-08-13T09:42:19.083Z"
-      },
-      {
-        "id": "evt-9d2d4628",
-        "sessionId": "sess-89c3dd2f2b23c819ffa8031e2",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T09:42:14.897Z"
-      },
-      {
-        "id": "evt-65f7e462",
-        "sessionId": "sess-390f26da2eb05819ffa7c0864",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T09:37:41.831Z"
-      },
-      {
-        "id": "evt-2fe3d7af",
-        "sessionId": "sess-fa93f305b541a19ffa7b4fa6",
-        "page": "home",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T09:37:09.350Z"
-      },
-      {
-        "id": "evt-a80bad9b",
-        "sessionId": "sess-fa93f305b541a19ffa7b4fa6",
-        "page": "home",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T09:37:08.023Z"
-      },
-      {
-        "id": "evt-36e8e175",
-        "sessionId": "sess-fa93f305b541a19ffa7b4fa6",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Services",
-        "createdAt": "2026-08-13T09:37:04.098Z"
-      },
-      {
-        "id": "evt-9b449419",
-        "sessionId": "sess-fa93f305b541a19ffa7b4fa6",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T09:36:54.963Z"
-      },
-      {
-        "id": "evt-f2248361",
-        "sessionId": "sess-293d66646f8b2819ffa519f26",
-        "page": "blogs.html",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-13T08:51:23.049Z"
       }
     ],
     "replays": []
@@ -14884,6 +15273,32 @@
       "keywords": [],
       "status": "published",
       "url": "/pages/blogs/dark-mode-light-mode-ui-psychology.html",
+      "sections": []
+    },
+    {
+      "id": "blog-designing-clear-and-effective-empty-state-screens-webx-design-studio",
+      "title": "Designing Clear and Effective Empty State Screens | Webx Design Studio",
+      "slug": "designing-clear-effective-empty-state-screens",
+      "metaTitle": "Designing Clear and Effective Empty State Screens | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.",
+      "image": "/assets/images/blogs/designing-clear-empty-state-screens-cover.png",
+      "imageAlt": "A polished empty state interface with an orange paper plane illustration and clear action",
+      "dateValue": "2026-11-05",
+      "dateLabel": "Date: 05 Nov 26",
+      "excerpt": "A practical UX guide to designing clear, useful empty state screens that explain the moment, reduce uncertainty and give people a confident next step.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "empty state design",
+        "UX empty states",
+        "empty screen UX",
+        "onboarding UX",
+        "product design patterns",
+        "actionable empty states"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/designing-clear-effective-empty-state-screens.html",
       "sections": []
     },
     {
@@ -15374,6 +15789,60 @@
   ],
   "activity": [
     {
+      "id": "act-d4050df1",
+      "type": "visitor",
+      "message": "Visitor opened designing-clear-effective-empty-state-screens",
+      "createdAt": "2026-11-05T04:10:23.693Z"
+    },
+    {
+      "id": "act-dd73f9be",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-05T04:10:21.289Z"
+    },
+    {
+      "id": "act-127dcf5e",
+      "type": "visitor",
+      "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
+      "createdAt": "2026-11-05T04:10:01.536Z"
+    },
+    {
+      "id": "act-a72c144b",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-05T04:09:58.861Z"
+    },
+    {
+      "id": "act-971742f3",
+      "type": "visitor",
+      "message": "Visitor opened contact",
+      "createdAt": "2026-11-05T04:09:56.052Z"
+    },
+    {
+      "id": "act-a9d58b0a",
+      "type": "visitor",
+      "message": "Visitor opened designing-clear-effective-empty-state-screens",
+      "createdAt": "2026-11-05T04:09:41.286Z"
+    },
+    {
+      "id": "act-6fda725a",
+      "type": "visitor",
+      "message": "Visitor opened designing-clear-effective-empty-state-screens",
+      "createdAt": "2026-11-05T04:06:52.058Z"
+    },
+    {
+      "id": "act-228094fe",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-05T04:06:44.783Z"
+    },
+    {
+      "id": "act-70b3cb0e",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-05T04:06:41.255Z"
+    },
+    {
       "id": "act-a900a82e",
       "type": "visitor",
       "message": "Visitor opened creating-user-centric-lead-magnets-professional-studios",
@@ -15678,60 +16147,6 @@
       "type": "visitor",
       "message": "Visitor opened blogs",
       "createdAt": "2026-10-17T10:24:20.377Z"
-    },
-    {
-      "id": "act-453a0a1c",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-17T10:19:08.042Z"
-    },
-    {
-      "id": "act-81916e76",
-      "type": "visitor",
-      "message": "Visitor opened services",
-      "createdAt": "2026-10-17T10:19:06.187Z"
-    },
-    {
-      "id": "act-e5ce7888",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-17T10:14:22.121Z"
-    },
-    {
-      "id": "act-29d32d99",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-17T10:14:12.201Z"
-    },
-    {
-      "id": "act-cfc9bed3",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-17T10:14:08.049Z"
-    },
-    {
-      "id": "act-f34cfae7",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-03T08:57:46.289Z"
-    },
-    {
-      "id": "act-beebc3da",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-03T08:55:53.809Z"
-    },
-    {
-      "id": "act-e2cefa53",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-03T03:36:00.186Z"
-    },
-    {
-      "id": "act-9c0e1006",
-      "type": "visitor",
-      "message": "Visitor opened ab-testing-ideas-saas-landing-pages",
-      "createdAt": "2026-10-02T09:03:51.053Z"
     }
   ],
   "blogViews": {
@@ -15824,10 +16239,17 @@
       "viewers": {}
     },
     "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html": {
-      "count": 2,
+      "count": 3,
       "viewers": {
         "72e823fd1124cf86ab33d9c98517702c4c1f627a4dda46cb3c0606c407df024d": 1793767788807,
-        "f992eefe7c5d641f6793422146df197a3f501cce8a1b2d89c7df14a20e4cc1f7": 1793767885092
+        "f992eefe7c5d641f6793422146df197a3f501cce8a1b2d89c7df14a20e4cc1f7": 1793767885092,
+        "c4038fc6b4880f3a10a7d5360d7b6be7f4cfcae204b5e42d2d48a60b47c332d4": 1793851801718
+      }
+    },
+    "/pages/blogs/designing-clear-effective-empty-state-screens.html": {
+      "count": 1,
+      "viewers": {
+        "b5a633f287abd966bae97cb9a676b497e77394e8ff788ab0b370d64c0ce975f9": 1793851612342
       }
     }
   }
