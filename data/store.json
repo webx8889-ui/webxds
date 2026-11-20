@@ -685,6 +685,24 @@
               ]
             },
             {
+              "id": "blog-how-to-upgrade-or-modernize-an-outdated-design-system-webx-design-studio",
+              "title": "How to Upgrade or Modernize an Outdated Design System | Webx Design Studio",
+              "image": "/assets/images/blogs/modernize-design-system-cover.png",
+              "imageAlt": "Legacy interface elements transformed into a cohesive modern design system",
+              "dateLabel": "Date: 20 Nov 26",
+              "dateValue": "2026-11-20",
+              "excerpt": "A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.",
+              "url": "/pages/blogs/how-to-modernize-outdated-design-system.html",
+              "tags": [
+                "modernize design system",
+                "upgrade design system",
+                "legacy UI redesign",
+                "design tokens",
+                "component library",
+                "design system governance"
+              ]
+            },
+            {
               "id": "blog-how-visual-hierarchy-drives-user-attention-webx-design-studio",
               "title": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
               "image": "/assets/images/blogs/visual-hierarchy-user-attention-cover.webp",
@@ -1160,7 +1178,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1360,7 +1378,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1560,7 +1578,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1760,7 +1778,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1960,7 +1978,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2160,7 +2178,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2360,7 +2378,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-18T04:57:21.099Z"
+          "updatedAt": "2026-11-20T04:08:03.741Z"
         }
       ]
     },
@@ -2881,7 +2899,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.102Z"
+      "updatedAt": "2026-11-20T04:08:03.746Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3185,7 +3203,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.103Z"
+      "updatedAt": "2026-11-20T04:08:03.748Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3316,7 +3334,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.106Z"
+      "updatedAt": "2026-11-20T04:08:03.753Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3447,7 +3465,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.107Z"
+      "updatedAt": "2026-11-20T04:08:03.753Z"
     },
     "about": {
       "editorType": "generic",
@@ -3640,7 +3658,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.107Z"
+      "updatedAt": "2026-11-20T04:08:03.754Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3763,7 +3781,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.108Z"
+      "updatedAt": "2026-11-20T04:08:03.755Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3894,7 +3912,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.109Z"
+      "updatedAt": "2026-11-20T04:08:03.756Z"
     },
     "services": {
       "editorType": "generic",
@@ -4091,7 +4109,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.110Z"
+      "updatedAt": "2026-11-20T04:08:03.758Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4236,7 +4254,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.110Z"
+      "updatedAt": "2026-11-20T04:08:03.758Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4381,7 +4399,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.111Z"
+      "updatedAt": "2026-11-20T04:08:03.759Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5246,7 +5264,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.101Z"
+      "updatedAt": "2026-11-20T04:08:03.744Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5441,7 +5459,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.104Z"
+      "updatedAt": "2026-11-20T04:08:03.750Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5636,7 +5654,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-18T04:57:21.106Z"
+      "updatedAt": "2026-11-20T04:08:03.752Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -10132,12 +10150,267 @@
         }
       ],
       "updatedAt": "2026-11-17T06:07:31.231Z"
+    },
+    "how-to-modernize-outdated-design-system": {
+      "editorType": "generic",
+      "path": "/pages/blogs/how-to-modernize-outdated-design-system.html",
+      "title": "How to Upgrade or Modernize an Outdated Design System | Webx Design Studio",
+      "meta": "A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.",
+      "displayName": "How to Upgrade or Modernize an Outdated Design System | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>How to Upgrade or Modernize an Outdated Design System | Webx Design Studio</title>\n  <meta name=\"description\" content=\"A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.\" />\n  <meta name=\"keywords\" content=\"modernize design system, upgrade design system, legacy UI redesign, design tokens, component library, design system governance\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n  <meta name=\"author\" content=\"Webx Design Studio\" />\n  <meta name=\"theme-color\" content=\"#ff6b00\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html\" />\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:title\" content=\"How to Upgrade or Modernize an Outdated Design System\" />\n  <meta property=\"og:description\" content=\"Move from scattered legacy UI to a durable, adopted design system without freezing product delivery.\" />\n  <meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html\" />\n  <meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/modernize-design-system-cover.png\" />\n  <meta property=\"og:image:width\" content=\"1536\" />\n  <meta property=\"og:image:height\" content=\"1024\" />\n  <meta property=\"og:image:alt\" content=\"Legacy interface elements transformed into a cohesive modern design system\" />\n  <meta property=\"og:site_name\" content=\"Webx Design Studio\" />\n  <meta property=\"og:locale\" content=\"en_IN\" />\n  <meta property=\"article:published_time\" content=\"2026-11-20\" />\n  <meta property=\"article:modified_time\" content=\"2026-11-20\" />\n  <meta property=\"article:author\" content=\"Webx Design Studio\" />\n  <meta property=\"article:section\" content=\"UX/UI Design\" />\n  <meta property=\"article:tag\" content=\"design system modernization\" />\n  <meta property=\"article:tag\" content=\"design tokens\" />\n  <meta property=\"article:tag\" content=\"component library\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:title\" content=\"How to Upgrade or Modernize an Outdated Design System\" />\n  <meta name=\"twitter:description\" content=\"A practical plan for modernizing legacy UI without creating a parallel system no one adopts.\" />\n  <meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/modernize-design-system-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" />\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" />\n  <link rel=\"preload\" href=\"/assets/images/blogs/modernize-design-system-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"How to Upgrade or Modernize an Outdated Design System\",\"description\":\"A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.\",\"image\":[\"https://webxds.com/assets/images/blogs/modernize-design-system-cover.png\",\"https://webxds.com/assets/images/blogs/design-system-audit-modernization.png\",\"https://webxds.com/assets/images/blogs/design-system-governance-adoption.png\"],\"url\":\"https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html\",\"datePublished\":\"2026-11-20\",\"dateModified\":\"2026-11-20\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"modernize design system\",\"legacy UI redesign\",\"design tokens\",\"component library\"],\"articleSection\":\"UX/UI Design\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"How to Upgrade or Modernize an Outdated Design System\",\"item\":\"https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html\"}]}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Should we rebuild the entire design system at once?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Usually no. Start with the foundations and components used most often, then migrate product surfaces in planned increments. This makes value visible while keeping delivery moving.\"}},{\"@type\":\"Question\",\"name\":\"What should be included in a modern design system?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A useful system includes shared foundations, design tokens, reusable components, clear usage guidance, accessibility rules, coded counterparts and a process for ownership and contribution.\"}},{\"@type\":\"Question\",\"name\":\"How do you prevent a new design system becoming outdated?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Treat it as a product: give it owners, a release process, quality checks, contribution rules and regular feedback from the teams who use it.\"}}]}</script>\n  <style>\n    .design-system-article .visual-figure{margin:42px 0 14px}.design-system-article .visual-figure img{display:block;width:100%;border:1px solid rgba(255,255,255,.14);border-radius:22px;background:#16161c}.design-system-article figcaption{margin:12px 6px 0;color:#aaa;font-size:.86rem;line-height:1.5}.design-system-article .principle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}.design-system-article .principle-card{padding:23px;border:1px solid rgba(255,255,255,.15);border-radius:18px;background:linear-gradient(145deg,rgba(255,107,0,.15),rgba(60,108,190,.12))}.design-system-article .principle-card strong{display:block;margin-bottom:8px;color:#ffad7a;font-size:1.05rem}.design-system-article .quote{margin:34px 0;padding:25px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.08);color:#fff;font-size:1.16rem;line-height:1.6}.design-system-article .recipe{margin:30px 0;padding:26px 28px;border-radius:20px;background:#fff0e5;color:#2a160d}.design-system-article .recipe h3{margin:0 0 12px;font-size:1.25rem}.design-system-article .recipe ol{margin:0;padding-left:21px}.design-system-article .recipe li{margin:11px 0}.design-system-article .comparison{width:100%;margin:28px 0;border:1px solid rgba(255,255,255,.14);border-collapse:separate;border-spacing:0;border-radius:16px;overflow:hidden}.design-system-article .comparison th,.design-system-article .comparison td{padding:15px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.design-system-article .comparison th{background:rgba(255,107,0,.1);color:#ffb382}.design-system-article .comparison tr:last-child td{border-bottom:0}.design-system-article .faq-item{padding:20px 0;border-top:1px solid rgba(255,255,255,.14)}.design-system-article .faq-item:last-child{border-bottom:1px solid rgba(255,255,255,.14)}.design-system-article .faq-item h3{margin:0 0 8px;color:#fff;font-size:1.08rem}@media(max-width:700px){.design-system-article .principle-grid{grid-template-columns:1fr}.design-system-article .visual-figure{margin-top:30px}.design-system-article .comparison{font-size:.85rem}.design-system-article .comparison th,.design-system-article .comparison td{padding:11px 10px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<noscript><div style=\"padding:20px;background:#111;color:#fff;text-align:center;font-family:sans-serif\">This website requires JavaScript to function correctly. Please enable JavaScript in your browser settings.</div></noscript>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-ff86855c"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-6af5f321"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-2802b484"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-6eb61b95"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-51bb7028"
+        },
+        {
+          "type": "static",
+          "html": "\n    "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-f2f1e834"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-67cb0acd"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "how-to-modernize-outdated-design-system-section-f878fabe"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/skeleton-loader.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "static",
+          "html": "<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(err){console.warn('Service worker registration failed:',err)})})}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "how-to-modernize-outdated-design-system-section-ff86855c",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<header><section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section></header>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-6af5f321",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\" aria-label=\"Breadcrumb\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">Design system modernization</span></nav></div></section>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-2802b484",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/modernize-design-system-cover.png\" alt=\"Legacy interface elements transformed into a cohesive modern design system\" class=\"blog-hero-image\" width=\"1536\" height=\"1024\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-6eb61b95",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\">\n      <header class=\"blog-header\"><p class=\"eyebrow\">UX/UI DESIGN / 10 min read</p><h1 class=\"blog-title\">How to Upgrade or Modernize an Outdated Design System</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">design system modernization</span><span class=\"blog-tag\">design tokens</span><span class=\"blog-tag\">component library</span><span class=\"blog-tag\">design governance</span></div><time class=\"blog-date\" datetime=\"2026-11-20\">Date: 20 Nov 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/how-to-modernize-outdated-design-system.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n      <article class=\"blog-article design-system-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"How to Upgrade or Modernize an Outdated Design System\" /><meta itemprop=\"datePublished\" content=\"2026-11-20\" />\n        <p class=\"blog-intro\">An outdated design system does more than make a product look behind the times. It slows decisions, leaves teams rebuilding the same patterns, creates inconsistencies that users notice, and turns every release into a debate about basics.</p>\n        <p class=\"blog-intro\">Modernization is not a cosmetic reskin or a huge “big bang” replacement. It is a deliberate way to make the system useful again: understand the real gaps, establish a dependable foundation, migrate the work that matters most and create habits that keep it healthy.</p>\n        <nav class=\"blog-toc\" aria-label=\"Table of contents\"><h2>In this guide</h2><ol><li><a href=\"#signal\">Know when the system needs an upgrade</a></li><li><a href=\"#audit\">Audit what exists before redesigning</a></li><li><a href=\"#foundations\">Reset the foundations</a></li><li><a href=\"#components\">Rebuild components as products</a></li><li><a href=\"#migration\">Plan a safe migration</a></li><li><a href=\"#accessibility\">Use accessibility as a quality bar</a></li><li><a href=\"#governance\">Build governance and adoption</a></li><li><a href=\"#measure\">Measure progress that matters</a></li><li><a href=\"#checklist\">Modernization checklist</a></li><li><a href=\"#faq\">Frequently asked questions</a></li></ol></nav>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"signal\"><h2 class=\"section-heading\" id=\"signal\">Know When the System Needs an Upgrade</h2><p class=\"section-text\">A design system rarely becomes outdated overnight. It becomes expensive in small, repeatable moments: a button behaves differently on two screens, a new team creates another version of a familiar pattern, or a designer cannot tell which component is approved. Those are operating problems, not merely visual ones.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>Teams work around it</strong><span>People copy, detach or recreate components because the library feels slower than making something new.</span></div><div class=\"principle-card\"><strong>The product feels uneven</strong><span>Spacing, interaction states, type and terminology shift from one journey to the next.</span></div><div class=\"principle-card\"><strong>Change carries risk</strong><span>A simple brand, accessibility or responsive update requires a long list of manual fixes.</span></div></div><p class=\"section-text\">Treat these signals as an invitation to improve the system's operating model—not as a reason to discard every useful decision it already contains.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"audit\"><h2 class=\"section-heading\" id=\"audit\">Audit What Exists Before Redesigning</h2><p class=\"section-text\">Start with evidence. Inventory the screens, components, tokens and coded patterns people actually use. Include the awkward edges: empty states, errors, data-dense tables, mobile breakpoints, loading behaviour and the one-off flows that quietly became permanent.</p><p class=\"section-text\">Then group what you find by purpose rather than by file. A “primary action” might be represented by six different buttons; that is a useful finding. The goal is not to document every inconsistency forever. It is to see which decisions should become one shared rule.</p><table class=\"comparison\"><thead><tr><th>Audit lens</th><th>Look for</th><th>Modernization outcome</th></tr></thead><tbody><tr><td>Foundations</td><td>Duplicate colors, spacing values, type styles and shadows</td><td>A small, named token layer that can change safely</td></tr><tr><td>Components</td><td>Near-identical controls with unclear ownership or behaviour</td><td>One purposeful component with documented variants and states</td></tr><tr><td>Journeys</td><td>Inconsistent patterns across key tasks and devices</td><td>Prioritized migration by user and business impact</td></tr><tr><td>Delivery</td><td>Design and code that drift after every release</td><td>A shared release, review and contribution workflow</td></tr></tbody></table></section>\n        <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/design-system-audit-modernization.png\" alt=\"Scattered legacy interface elements organized into a cohesive component and token system\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>An audit turns vague frustration into a clear modernization backlog: consolidate what repeats, preserve what works and prioritize what users rely on.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"foundations\"><h2 class=\"section-heading\" id=\"foundations\">Reset the Foundations First</h2><p class=\"section-text\">Foundations are the decisions that make a system coherent: color, typography, spacing, elevation, radii, motion, grids and breakpoints. If they are hardcoded in dozens of places, every future update costs too much. Move them into semantic tokens that describe their role—not only their appearance.</p><p class=\"section-text\">For example, a token named <em>surface-primary</em> can support a light or dark theme without asking every product team to decide which hex value to use. The same principle applies to text, borders, focus states and spacing. Good foundations give components a stable language while keeping room for product-specific needs.</p><blockquote class=\"quote\">The point of design tokens is not to make every decision abstract. It is to make the decisions that repeat easy to understand, change and trust.</blockquote></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"components\"><h2 class=\"section-heading\" id=\"components\">Rebuild Components as Products, Not Just Assets</h2><p class=\"section-text\">A modern component is more than a pretty default state in a design file. It should explain what problem it solves, when to use it, how it behaves, which variants are supported and what happens when content, data or connection conditions are imperfect.</p><ul class=\"section-list\"><li><strong>Start with high-traffic patterns:</strong> inputs, buttons, navigation, cards, feedback and data display usually create the fastest return.</li><li><strong>Design the full state model:</strong> include hover, focus, disabled, loading, error, empty and responsive states where relevant.</li><li><strong>Keep variants intentional:</strong> each variant needs a real use case; avoid adding a choice for every past exception.</li><li><strong>Pair design with code:</strong> a component is only shared when the implementation can be found, understood and used with confidence.</li><li><strong>Document decisions in context:</strong> show guidance and examples next to the component, not in a forgotten deck.</li></ul></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"migration\"><h2 class=\"section-heading\" id=\"migration\">Plan a Safe Migration Instead of a Big-Bang Release</h2><p class=\"section-text\">The most resilient modernization plans are incremental. Choose one meaningful product area, define the new foundations and components it needs, and release them in a live context. This gives the team a feedback loop before the system spreads across every surface.</p><div class=\"recipe\"><h3>A practical modernization sequence</h3><ol><li>Set a clear outcome: faster delivery, fewer UI defects, improved accessibility, a brand refresh—or a combination.</li><li>Audit key journeys and identify the foundations and components they share.</li><li>Build the smallest viable foundation layer and component set.</li><li>Pilot it in a high-value, manageable product area.</li><li>Capture adoption feedback, improve guidance and resolve implementation gaps.</li><li>Migrate adjacent journeys in planned releases; retire legacy patterns deliberately.</li></ol></div><p class=\"section-text\">Keep an explicit bridge between old and new. Teams need to know which legacy components are still supported, what replaces them and when that support ends. Without that clarity, the organization ends up maintaining two systems indefinitely.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"accessibility\"><h2 class=\"section-heading\" id=\"accessibility\">Use Accessibility as a Quality Bar</h2><p class=\"section-text\">Modernization is a rare chance to correct patterns that excluded or slowed people. Build accessible defaults into components: visible keyboard focus, meaningful labels, sufficient contrast, touch-friendly targets, reduced-motion alternatives and states that do not depend on color alone.</p><p class=\"section-text\">Accessibility should not be a final review item. When it is part of a component’s definition of done, every product team receives a stronger starting point and accessibility becomes less expensive to maintain over time.</p></section>\n        <figure class=\"visual-figure\"><img src=\"/assets/images/blogs/design-system-governance-adoption.png\" alt=\"Connected system of modular interface components supporting responsive product experiences\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>A design system becomes valuable when its foundations, components and delivery practices connect teams to better experiences across every screen.</figcaption></figure>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"governance\"><h2 class=\"section-heading\" id=\"governance\">Build Governance and Adoption Into the System</h2><p class=\"section-text\">A system without ownership becomes a snapshot. Give it a small cross-functional core team, a visible roadmap and a lightweight contribution path. The core team should protect quality and coherence, but contributors should be able to bring real product needs into the system before they become one-off solutions.</p><div class=\"principle-grid\"><div class=\"principle-card\"><strong>Make ownership visible</strong><span>Name maintainers and decision-makers so teams know where to bring feedback, bugs and requests.</span></div><div class=\"principle-card\"><strong>Create a release rhythm</strong><span>Publish changes, migration notes and deprecations on a predictable cadence.</span></div><div class=\"principle-card\"><strong>Reward adoption</strong><span>Make the compliant route faster with usable documentation, ready code and examples.</span></div></div></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"measure\"><h2 class=\"section-heading\" id=\"measure\">Measure Progress That Matters</h2><p class=\"section-text\">Success is not the number of components in a library. Look for better outcomes in the product and the process: fewer duplicate patterns, faster delivery of common UI, reduced visual defects, stronger accessibility coverage, lower maintenance effort and improved consistency across key journeys.</p><p class=\"section-text\">Pair quantitative signals with team feedback. If people still work around the system, find out why. An adopted system is one that is easier to use than to ignore.</p></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"checklist\"><h2 class=\"section-heading\" id=\"checklist\">Design-System Modernization Checklist</h2><div class=\"recipe\"><h3>Before you call the upgrade complete</h3><ol><li>The purpose and measurable outcomes of modernization are agreed.</li><li>Key journeys, legacy patterns and coded counterparts have been audited.</li><li>Foundations use understandable, semantic tokens rather than scattered values.</li><li>Priority components cover real states, responsive behaviour and accessibility needs.</li><li>Design and code implementations are linked and documented.</li><li>A migration path identifies what is new, what is legacy and what is being retired.</li><li>Ownership, contribution and release practices are clear.</li><li>Teams receive guidance, examples and support during adoption.</li><li>Product and operational metrics are reviewed after each release.</li></ol></div></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"faq\"><h2 class=\"section-heading\" id=\"faq\">Frequently Asked Questions</h2><div class=\"faq-item\"><h3>Should we rebuild the entire design system at once?</h3><p class=\"section-text\">Usually no. Start with the foundations and components used most often, then migrate product surfaces in planned increments. This creates value early while keeping delivery moving.</p></div><div class=\"faq-item\"><h3>What should be included in a modern design system?</h3><p class=\"section-text\">Include shared foundations, tokens, reusable components, usage guidance, accessibility rules, coded counterparts and a clear process for ownership and contribution.</p></div><div class=\"faq-item\"><h3>How do you stop a new design system becoming outdated?</h3><p class=\"section-text\">Treat it as a product. Give it maintainers, a release process, quality checks, contribution rules and regular feedback from the people who use it.</p></div></section>\n\n        <section class=\"blog-page-section\" aria-labelledby=\"finish\"><h2 class=\"section-heading\" id=\"finish\">Make the System a Better Way to Build</h2><p class=\"section-text\">The best modernization work does not make every product screen identical. It creates enough shared language and quality to let teams spend their energy on the differences that genuinely matter to their users.</p><p class=\"section-text\">Planning a design-system refresh or a more consistent digital product? <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about your product foundation</a>.</p></section>\n      </article>\n    </div></section>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-51bb7028",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"how-to-modernize-outdated-design-system\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-f2f1e834",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to make your product feel more cohesive?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-67cb0acd",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Graphics Design</a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a></div></div><div class=\"footer-bottom\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "how-to-modernize-outdated-design-system-section-f878fabe",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" /><span class=\"nav-label\">Contact</span></a></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-11-20T03:51:36.225Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-2c4b7ce765a141a1f714f32a",
+        "visitorId": "eae142b3-f710-4c19-856f-0b2b77ec0517",
+        "createdAt": "2026-11-20T03:51:47.799Z",
+        "lastSeenAt": "2026-11-20T04:08:03.760Z",
+        "currentPage": "how-to-modernize-outdated-design-system",
+        "path": "/blogs/how-to-modernize-outdated-design-system",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 480,
+        "scrollDepth": 89,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-ffce46b01b2eb81a1f714dac2",
+        "visitorId": "eae142b3-f710-4c19-856f-0b2b77ec0517",
+        "createdAt": "2026-11-20T03:51:41.555Z",
+        "lastSeenAt": "2026-11-20T03:51:47.572Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-75a6f6fa78d9c81a1f714c5ae",
+        "visitorId": "eae142b3-f710-4c19-856f-0b2b77ec0517",
+        "createdAt": "2026-11-20T03:51:36.198Z",
+        "lastSeenAt": "2026-11-20T03:51:41.404Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-bd279c52293161a1ece560b7",
         "visitorId": "19d8dad6-ff3b-47f0-8963-eb5e4c2f56b6",
@@ -10260,6 +10533,33 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-c607fb2c",
+        "sessionId": "sess-ffce46b01b2eb81a1f714dac2",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-20T03:51:47.572Z"
+      },
+      {
+        "id": "evt-52f59522",
+        "sessionId": "sess-75a6f6fa78d9c81a1f714c5ae",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-20T03:51:41.404Z"
+      },
+      {
+        "id": "evt-586f4d70",
+        "sessionId": "sess-75a6f6fa78d9c81a1f714c5ae",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-20T03:51:40.129Z"
+      },
       {
         "id": "evt-af12cf0a",
         "sessionId": "sess-c7c706245cdfc81a1ece53b91",
@@ -14732,33 +15032,6 @@
         "target": "a.more-link",
         "text": "Blog",
         "createdAt": "2026-08-13T09:55:50.951Z"
-      },
-      {
-        "id": "evt-6488478c",
-        "sessionId": "sess-e7be38b5a425c819ffa8ca1ec",
-        "page": "work",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T09:55:49.684Z"
-      },
-      {
-        "id": "evt-fdf774fb",
-        "sessionId": "sess-bfbb63c8ad19d19ffa8c8dbf",
-        "page": "blog-4",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T09:55:48.266Z"
-      },
-      {
-        "id": "evt-81f94494",
-        "sessionId": "sess-cbef19e4472ef819ffa861ce9",
-        "page": "blogs",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-13T09:48:42.425Z"
       }
     ],
     "replays": []
@@ -15231,6 +15504,32 @@
       "sections": []
     },
     {
+      "id": "blog-how-to-upgrade-or-modernize-an-outdated-design-system-webx-design-studio",
+      "title": "How to Upgrade or Modernize an Outdated Design System | Webx Design Studio",
+      "slug": "how-to-modernize-outdated-design-system",
+      "metaTitle": "How to Upgrade or Modernize an Outdated Design System | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.",
+      "image": "/assets/images/blogs/modernize-design-system-cover.png",
+      "imageAlt": "Legacy interface elements transformed into a cohesive modern design system",
+      "dateValue": "2026-11-20",
+      "dateLabel": "Date: 20 Nov 26",
+      "excerpt": "A practical design-system modernization guide: audit the legacy UI, reset foundations, migrate components safely and establish lasting product governance.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "modernize design system",
+        "upgrade design system",
+        "legacy UI redesign",
+        "design tokens",
+        "component library",
+        "design system governance"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/how-to-modernize-outdated-design-system.html",
+      "sections": []
+    },
+    {
       "id": "blog-how-visual-hierarchy-drives-user-attention-webx-design-studio",
       "title": "How Visual Hierarchy Drives User Attention | Webx Design Studio",
       "slug": "how-visual-hierarchy-drives-user-attention",
@@ -15539,6 +15838,24 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-55a3c073",
+      "type": "visitor",
+      "message": "Visitor opened how-to-modernize-outdated-design-system",
+      "createdAt": "2026-11-20T03:51:47.832Z"
+    },
+    {
+      "id": "act-7ac216ae",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-20T03:51:41.590Z"
+    },
+    {
+      "id": "act-342ee1b6",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-20T03:51:36.225Z"
+    },
     {
       "id": "act-3bd02454",
       "type": "visitor",
@@ -15880,24 +16197,6 @@
       "type": "visitor",
       "message": "Visitor opened index.html",
       "createdAt": "2026-10-21T04:22:46.954Z"
-    },
-    {
-      "id": "act-9dd0f523",
-      "type": "visitor",
-      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
-      "createdAt": "2026-10-21T04:22:06.685Z"
-    },
-    {
-      "id": "act-bacaebe2",
-      "type": "visitor",
-      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
-      "createdAt": "2026-10-21T04:19:38.851Z"
-    },
-    {
-      "id": "act-fdbe5a45",
-      "type": "visitor",
-      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
-      "createdAt": "2026-10-21T04:18:04.962Z"
     }
   ],
   "blogViews": {
@@ -15999,9 +16298,12 @@
     },
     "/pages/blogs/optimizing-lead-generation-forms-mobile-users.html": {
       "count": 2,
+      "viewers": {}
+    },
+    "/pages/blogs/how-to-modernize-outdated-design-system.html": {
+      "count": 1,
       "viewers": {
-        "041db524b941a8c86b70741e209bc7c07e4778b77a5530567f8adace94e30053": 1794895661038,
-        "358b58284387c616c5a4c37fb46f64d32ed3c1e2703d22094f565cc62abf121c": 1794975818214
+        "a36cfc439b49ff85a6c07d3922f34f8529c861ab1c38d1a959b057e5c9eaa33b": 1795146708099
       }
     }
   }

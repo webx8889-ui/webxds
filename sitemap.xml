@@ -18,6 +18,13 @@
 
   <!-- Blog: UX Design Strategies for AI-Powered Applications -->
   <url>
+    <loc>https://webxds.com/pages/blogs/how-to-modernize-outdated-design-system.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://webxds.com/pages/blogs/optimizing-lead-generation-forms-mobile-users.html</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -191,7 +198,7 @@
 
   <url>
     <loc>https://webxds.com/pages/blogs/blogs.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
