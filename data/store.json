@@ -721,6 +721,23 @@
               ]
             },
             {
+              "id": "blog-the-impact-of-ai-on-the-modern-ui-ux-design-workflow-webx-design-studio",
+              "title": "The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio",
+              "image": "/assets/images/blogs/ai-ui-ux-workflow-cover.png",
+              "imageAlt": "Designer collaborating with an AI assistant across a modern UI UX workflow",
+              "dateLabel": "Date: 21 Nov 26",
+              "dateValue": "2026-11-21",
+              "excerpt": "Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.",
+              "url": "/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html",
+              "tags": [
+                "AI UI UX design workflow",
+                "AI in UX design",
+                "AI product design workflow",
+                "AI prototyping",
+                "human centered AI design"
+              ]
+            },
+            {
               "id": "blog-mobile-app-gesture-navigation-design-patterns-that-feel-natural-webx-design-studio",
               "title": "Mobile App Gesture Navigation: Design Patterns That Feel Natural | Webx Design Studio",
               "image": "/assets/images/blogs/mobile-gesture-navigation-cover.png",
@@ -1178,7 +1195,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.142Z"
         },
         {
           "id": "work-project-65da9f5d",
@@ -1378,7 +1395,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.826Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.142Z"
         },
         {
           "id": "work-project-f90fe35b",
@@ -1578,7 +1595,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.142Z"
         },
         {
           "id": "work-project-6b65f637",
@@ -1778,7 +1795,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.142Z"
         },
         {
           "id": "work-project-065459d6",
@@ -1978,7 +1995,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.827Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.143Z"
         },
         {
           "id": "work-project-3e820984",
@@ -2178,7 +2195,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.143Z"
         },
         {
           "id": "work-project-1c7c5246",
@@ -2378,7 +2395,7 @@
             }
           ],
           "createdAt": "2026-07-07T06:22:08.828Z",
-          "updatedAt": "2026-11-20T04:08:03.741Z"
+          "updatedAt": "2026-11-21T04:14:15.143Z"
         }
       ]
     },
@@ -2899,7 +2916,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.746Z"
+      "updatedAt": "2026-11-21T04:14:15.147Z"
     },
     "blog": {
       "editorType": "generic",
@@ -3203,7 +3220,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.748Z"
+      "updatedAt": "2026-11-21T04:14:15.149Z"
     },
     "privacy-policy": {
       "editorType": "generic",
@@ -3334,7 +3351,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.753Z"
+      "updatedAt": "2026-11-21T04:14:15.154Z"
     },
     "term-condition": {
       "editorType": "generic",
@@ -3465,7 +3482,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.753Z"
+      "updatedAt": "2026-11-21T04:14:15.154Z"
     },
     "about": {
       "editorType": "generic",
@@ -3658,7 +3675,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span> </a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.754Z"
+      "updatedAt": "2026-11-21T04:14:15.156Z"
     },
     "contact": {
       "editorType": "generic",
@@ -3781,7 +3798,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/> <img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/> </a> </div>\n<div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Home</span> </a> <a href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Services</span> </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item active\" aria-current=\"page\"> <img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/> <span class=\"nav-label\">Contact</span>\n</a> <button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg> <span class=\"nav-label\">More</span> </button> </div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.755Z"
+      "updatedAt": "2026-11-21T04:14:15.156Z"
     },
     "faq": {
       "editorType": "generic",
@@ -3912,7 +3929,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.756Z"
+      "updatedAt": "2026-11-21T04:14:15.158Z"
     },
     "services": {
       "editorType": "generic",
@@ -4109,7 +4126,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\r\n        <div class=\"bottom-nav-logo\"> <a href=\"/\" class=\"logo-link\"\r\n                aria-label=\"Webx Design Studio - Go to homepage\"> <img src=\"/assets/images/logos/webx-logo.svg\"\r\n                    alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /> <img\r\n                    src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\"\r\n                    loading=\"lazy\" /> </a> </div>\r\n        <div class=\"bottom-nav-container\"> <a href=\"/\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Home</span> </a> <a\r\n                href=\"/pages/main/work.html\" class=\"nav-item\"> <img src=\"/assets/images/others/work.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">Work</span> </a> <a href=\"/pages/main/services.html\" class=\"nav-item active\"\r\n                aria-current=\"page\"> <img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\"\r\n                    aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Services</span>\r\n            </a> <a href=\"/pages/main/about.html\" class=\"nav-item\"> <img src=\"/assets/images/others/about.webp\" alt=\"\"\r\n                    class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /> <span\r\n                    class=\"nav-label\">About</span> </a> <a href=\"/pages/main/contact-page.html\" class=\"nav-item\"> <img\r\n                    src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\"\r\n                    height=\"24\" loading=\"lazy\" /> <span class=\"nav-label\">Contact</span> </a> <button\r\n                class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\"\r\n                aria-controls=\"moreMenu\"> <svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                    <line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\" />\r\n                    <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" />\r\n                    <line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\" />\r\n                </svg> <span class=\"nav-label\">More</span> </button> </div>\r\n    </nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.758Z"
+      "updatedAt": "2026-11-21T04:14:15.159Z"
     },
     "service-form": {
       "editorType": "generic",
@@ -4254,7 +4271,7 @@
           "html": "<footer class=\"footer-section-form\">\n<div class=\"footer-container-form\">\n<div class=\"footer-bottom-form\">\n<p class=\"footer-copyright\">&copy;2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.758Z"
+      "updatedAt": "2026-11-21T04:14:15.160Z"
     },
     "thank-you-page": {
       "editorType": "generic",
@@ -4399,7 +4416,7 @@
           "html": "<footer class=\"footer-section animate-section\">\n<div class=\"footer-container\">\n<div class=\"footer-top animate-fade-in\">\n<div class=\"footer-logo\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\">\n</div>\n<div class=\"footer-social\">\n<a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" class=\"social-icon\" aria-label=\"LinkedIn\">\n<img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\">\n</a>\n<a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Dribbble\">\n<img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\">\n</a>\n<a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" class=\"social-icon\" aria-label=\"Behance\">\n<img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\">\n</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nServices\n<button class=\"footer-toggle\" aria-label=\"Toggle Services\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/services.html\">UI/UX Design</a>\n<a href=\"/pages/main/services.html\">Web Design</a>\n<a href=\"/pages/main/services.html\">App Design</a>\n<a href=\"/pages/main/services.html\">Marketing Emailer</a>\n<a href=\"/pages/main/services.html\">Social Media</a>\n<a href=\"/pages/main/services.html\">Logo Design</a>\n<a href=\"/pages/main/services.html\">Graphics Design</a>\n<a href=\"/pages/main/services.html\">Tool Design</a>\n<a href=\"/pages/main/services.html\">Document Design</a>\n<a href=\"/pages/main/services.html\">ETC Design</a>\n</div>\n</div>\n<div class=\"footer-section-block animate-slide-up\">\n<h3 class=\"footer-heading\">\nCompany\n<button class=\"footer-toggle\" aria-label=\"Toggle Company\">\n<span class=\"accordion-arrow-circle\">\n<svg class=\"arrow-svg\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:/www.w3.org/2000/svg\">\n<path d=\"M5 12H19M19 12L12 5M19 12L12 19\" stroke=\"black\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n</span>\n</button>\n</h3>\n<div class=\"footer-links\">\n<a href=\"/pages/main/about.html\">About Us</a>\n<a href=\"/pages/blogs/blogs.html\">Blog</a>\n<a href=\"/pages/main/contact-page.html\">Contact</a>\n<a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a>\n<a href=\"/pages/legal/term-condition.html\">Terms of Service</a>\n</div>\n</div>\n<div class=\"footer-bottom animate-fade-in\">\n<p class=\"footer-copyright\">&copy; 2025 Webx Design Studio. All rights reserved</p>\n</div>\n</div>\n<div class=\"footer-bg-text\">\n<img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"Webx\" class=\"footer-bg-image\">\n</div>\n</footer>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.759Z"
+      "updatedAt": "2026-11-21T04:14:15.161Z"
     },
     "claude-fable-5-for-product-designers": {
       "editorType": "generic",
@@ -5264,7 +5281,7 @@
           "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio - Go to homepage\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\"/>\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\"/>\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\"/>\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"Open full navigation menu\" aria-expanded=\"false\" aria-controls=\"moreMenu\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.744Z"
+      "updatedAt": "2026-11-21T04:14:15.145Z"
     },
     "high-converting-landing-page-2026": {
       "editorType": "generic",
@@ -5459,7 +5476,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.750Z"
+      "updatedAt": "2026-11-21T04:14:15.151Z"
     },
     "website-redesign-checklist-2026": {
       "editorType": "generic",
@@ -5654,7 +5671,7 @@
           "html": "<nav class=\"bottom-navbar\">\n<div class=\"bottom-nav-logo\">\n<a href=\"/\" class=\"logo-link\">\n<img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Logo\" class=\"logo-full\">\n<img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\">\n</a>\n</div>\n<div class=\"bottom-nav-container\">\n<a href=\"/\" class=\"nav-item\">\n<img src=\"/assets/images/others/home.webp\" alt=\"Home\" class=\"nav-icon\">\n<span class=\"nav-label\">Home</span>\n</a>\n<a href=\"/pages/main/work.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/work.webp\" alt=\"Work\" class=\"nav-icon\">\n<span class=\"nav-label\">Work</span>\n</a>\n<a href=\"/pages/main/services.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/services.webp\" alt=\"Services\" class=\"nav-icon\">\n<span class=\"nav-label\">Services</span>\n</a>\n<a href=\"/pages/main/about.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/about.webp\" alt=\"About\" class=\"nav-icon\">\n<span class=\"nav-label\">About</span>\n</a>\n<a href=\"/pages/main/contact-page.html\" class=\"nav-item\">\n<img src=\"/assets/images/others/contact.webp\" alt=\"Contact\" class=\"nav-icon\">\n<span class=\"nav-label\">Contact</span>\n</a>\n<button class=\"nav-item more-toggle\" type=\"button\" aria-label=\"More\">\n<svg class=\"more-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n<line x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/>\n<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>\n<line x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>\n</svg>\n<span class=\"nav-label\">More</span>\n</button>\n</div>\n</nav>"
         }
       ],
-      "updatedAt": "2026-11-20T04:08:03.752Z"
+      "updatedAt": "2026-11-21T04:14:15.153Z"
     },
     "ai-voice-assistant-form-fields": {
       "editorType": "generic",
@@ -10345,12 +10362,495 @@
         }
       ],
       "updatedAt": "2026-11-20T03:51:36.225Z"
+    },
+    "impact-ai-modern-ui-ux-design-workflow": {
+      "editorType": "generic",
+      "path": "/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html",
+      "title": "The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio",
+      "meta": "Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.",
+      "displayName": "The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio",
+      "summary": "blog post • published",
+      "templateStart": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio</title>\n  <meta name=\"description\" content=\"Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.\" />\n  <meta name=\"robots\" content=\"index, follow\" /><meta name=\"author\" content=\"Webx Design Studio\" /><meta name=\"theme-color\" content=\"#ff6b00\" />\n  <meta name=\"keywords\" content=\"AI UI UX design workflow, AI in UX design, AI product design workflow, AI prototyping, human centered AI design\" />\n  <link rel=\"canonical\" href=\"https://webxds.com/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\" />\n  <meta property=\"og:type\" content=\"article\" /><meta property=\"og:title\" content=\"The Impact of AI on the Modern UI/UX Design Workflow\" /><meta property=\"og:description\" content=\"AI can accelerate design work. The best workflow uses that speed without losing research, craft or human accountability.\" /><meta property=\"og:url\" content=\"https://webxds.com/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\" /><meta property=\"og:image\" content=\"https://webxds.com/assets/images/blogs/ai-ui-ux-workflow-cover.png\" /><meta property=\"og:image:width\" content=\"1792\" /><meta property=\"og:image:height\" content=\"1024\" /><meta property=\"og:image:alt\" content=\"Designer collaborating with an AI assistant across a modern UI UX workflow\" /><meta property=\"og:site_name\" content=\"Webx Design Studio\" /><meta property=\"og:locale\" content=\"en_IN\" /><meta property=\"article:published_time\" content=\"2026-11-21\" /><meta property=\"article:author\" content=\"Webx Design Studio\" /><meta property=\"article:section\" content=\"AI &amp; UX\" />\n  <meta name=\"twitter:card\" content=\"summary_large_image\" /><meta name=\"twitter:title\" content=\"The Impact of AI on the Modern UI/UX Design Workflow\" /><meta name=\"twitter:description\" content=\"How to use AI for faster, more considered product design.\" /><meta name=\"twitter:image\" content=\"https://webxds.com/assets/images/blogs/ai-ui-ux-workflow-cover.png\" />\n  <link rel=\"icon\" href=\"/assets/images/icons/favicon.webp\" type=\"image/webp\" sizes=\"32x32\" /><link rel=\"apple-touch-icon\" href=\"/assets/images/icons/favicon-180.webp\" sizes=\"180x180\" /><link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin /><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\" rel=\"stylesheet\" /><link rel=\"stylesheet\" href=\"/css/style.css?v=20260731-1\" /><link rel=\"preload\" href=\"/assets/images/blogs/ai-ui-ux-workflow-cover.png\" as=\"image\" type=\"image/png\" />\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TEN6P4R986\"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TEN6P4R986');</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Impact of AI on the Modern UI/UX Design Workflow\",\"description\":\"Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.\",\"image\":[\"https://webxds.com/assets/images/blogs/ai-ui-ux-workflow-cover.png\",\"https://webxds.com/assets/images/blogs/ai-ui-ux-workflow-map.png\",\"https://webxds.com/assets/images/blogs/ai-ui-ux-validation.png\"],\"url\":\"https://webxds.com/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\",\"datePublished\":\"2026-11-21\",\"dateModified\":\"2026-11-21\",\"author\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Webx Design Studio\",\"url\":\"https://webxds.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://webxds.com/assets/images/logos/webx-logo.svg\"}},\"keywords\":[\"AI UI UX design workflow\",\"AI in UX design\",\"AI product design workflow\",\"AI prototyping\"],\"articleSection\":\"AI & UX\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://webxds.com/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\"}}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://webxds.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://webxds.com/pages/blogs/blogs.html\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"The Impact of AI on the Modern UI/UX Design Workflow\",\"item\":\"https://webxds.com/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\"}]}</script>\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Will AI replace UI UX designers?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"AI can accelerate repetitive production and synthesis, but it does not replace the judgement needed to frame the right problem, interpret research, make trade-offs, and protect a product's users and brand.\"}},{\"@type\":\"Question\",\"name\":\"Where does AI help most in a UX workflow?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"AI is strongest when it helps teams explore, organise and test faster: summarising research, creating early directions, generating realistic content, checking patterns and documenting decisions. Human review remains essential for consequential decisions.\"}},{\"@type\":\"Question\",\"name\":\"How should a design team introduce AI safely?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Start with a bounded, low-risk workflow, protect confidential material, define review gates, measure quality as well as speed, and document which outputs can be used without further validation.\"}}]}</script>\n  <style>\n    .ai-workflow-article .eyebrow{color:#ff8a4c;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;margin:0 0 12px}.ai-workflow-article .visual-figure{margin:40px 0 14px}.ai-workflow-article .visual-figure img{display:block;width:100%;border-radius:22px;border:1px solid rgba(255,255,255,.15);background:#12131c}.ai-workflow-article figcaption{color:#aaa;font-size:.85rem;line-height:1.55;margin:12px 7px 0}.ai-workflow-article .impact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}.ai-workflow-article .impact-card{padding:23px;border:1px solid rgba(255,255,255,.15);border-radius:18px;background:linear-gradient(145deg,rgba(115,86,255,.16),rgba(255,107,0,.06))}.ai-workflow-article .impact-card strong{display:block;color:#ffad78;font-size:1.06rem;margin-bottom:8px}.ai-workflow-article .workflow-table{width:100%;border-collapse:separate;border-spacing:0;margin:28px 0;border:1px solid rgba(255,255,255,.15);border-radius:16px;overflow:hidden}.ai-workflow-article .workflow-table th,.ai-workflow-article .workflow-table td{padding:16px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(255,255,255,.1)}.ai-workflow-article .workflow-table th{color:#ffbf98;background:rgba(255,107,0,.09)}.ai-workflow-article .workflow-table tr:last-child td{border-bottom:0}.ai-workflow-article .signal-note{margin:32px 0;padding:25px 28px;border-left:4px solid #ff6b00;background:rgba(255,107,0,.09);font-size:1.13rem;line-height:1.65;color:#fff}.ai-workflow-article .launch-check{margin:30px 0;padding:28px;border-radius:20px;background:#fff0e5;color:#25150f}.ai-workflow-article .launch-check h3{margin:0 0 13px;font-size:1.25rem}.ai-workflow-article .launch-check ol{margin:0;padding-left:21px}.ai-workflow-article .launch-check li{margin:10px 0}@media(max-width:700px){.ai-workflow-article .impact-grid{grid-template-columns:1fr}.ai-workflow-article .workflow-table{font-size:.85rem}.ai-workflow-article .workflow-table th,.ai-workflow-article .workflow-table td{padding:11px 10px}.ai-workflow-article .visual-figure{margin-top:30px}}\n  </style>\n</head>\n<body>",
+      "templateEnd": "</body>\n</html>\n",
+      "bodyLayout": [
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<main>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-8e19d0f9"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-f553376f"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-6db8b69c"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-b2e9cd3b"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-e5d26b20"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/related-blogs.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "\n  "
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-87f8339c"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "</main>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-c0a20da4"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<button class=\"scroll-to-top\" id=\"scrollToTop\" aria-label=\"Scroll to top of page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 15V5M10 5L5 10M10 5L15 10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></button>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "section",
+          "sectionId": "impact-ai-modern-ui-ux-design-workflow-section-f58b5d62"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/skeleton-loader.js\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/script.js?v=20260731-1\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/blog-meta.js?v=20260824-3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script src=\"/js/cta-phone-override.js?v=3\"></script>"
+        },
+        {
+          "type": "static",
+          "html": "<script>const u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);document.getElementById('share-linkedin').href='https://www.linkedin.com/sharing/share-offsite/?url='+u;document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+u;document.getElementById('share-twitter').href='https://twitter.com/intent/tweet?url='+u+'&text='+t;if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>"
+        },
+        {
+          "type": "static",
+          "html": "\n"
+        }
+      ],
+      "sections": [
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-8e19d0f9",
+          "label": "Blog page header",
+          "enabled": true,
+          "html": "<section class=\"blog-hero-section\" aria-label=\"Blog page header\"><nav class=\"home-navbar\" aria-label=\"Main navigation\"><div class=\"home-nav-container\"><div class=\"home-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" width=\"140\" height=\"40\" loading=\"eager\" /></a></div><a href=\"/pages/main/contact-page.html\" class=\"home-contact-btn\"><span>CONTACT US</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13L13 3M13 3H5M13 3V11\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a></div></nav></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-f553376f",
+          "label": "Breadcrumb",
+          "enabled": true,
+          "html": "<section class=\"breadcrumb-section\" aria-label=\"Breadcrumb\"><div class=\"breadcrumb-container\"><nav class=\"breadcrumb-nav\"><a href=\"/\" class=\"breadcrumb-link\">Home</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><a href=\"/pages/blogs/blogs.html\" class=\"breadcrumb-link\">Blog</a><span class=\"breadcrumb-separator\" aria-hidden=\"true\">&rsaquo;</span><span class=\"breadcrumb-current\" aria-current=\"page\">AI and the design workflow</span></nav></div></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-6db8b69c",
+          "label": "Blog article featured image",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-hero\" aria-label=\"Blog article featured image\"><div class=\"blog-hero-image-container\"><img src=\"/assets/images/blogs/ai-ui-ux-workflow-cover.png\" alt=\"Designer collaborating with an AI assistant across a modern UI UX workflow\" class=\"blog-hero-image\" width=\"1792\" height=\"1024\" loading=\"eager\" /><div class=\"squiggle squiggle-1\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-2\" aria-hidden=\"true\"></div><div class=\"squiggle squiggle-3\" aria-hidden=\"true\"></div></div></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-b2e9cd3b",
+          "label": "Blog article content",
+          "enabled": true,
+          "html": "<section class=\"blog-detail-content\" aria-label=\"Blog article content\"><div class=\"blog-content-container\"><header class=\"blog-header\"><p class=\"eyebrow\">AI &amp; UX / 12 min read</p><h1 class=\"blog-title\">The Impact of AI on the Modern UI/UX Design Workflow</h1><div class=\"blog-tags-date-row\"><div class=\"blog-tags\" aria-label=\"Article tags\"><span class=\"blog-tag\">AI design workflow</span><span class=\"blog-tag\">UI UX design</span><span class=\"blog-tag\">product design</span><span class=\"blog-tag\">human-centered AI</span></div><time class=\"blog-date\" datetime=\"2026-11-21\">Date: 21 Nov 26</time></div><p class=\"blog-byline\" data-blog-path=\"/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html\"><span class=\"blog-author\">By Webx Design Studio</span><span class=\"blog-meta-separator\" aria-hidden=\"true\">&bull;</span><span class=\"blog-view-count\" aria-live=\"polite\">0 views</span></p><div class=\"blog-social-share\" aria-label=\"Share this article\"><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on LinkedIn\" id=\"share-linkedin\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/linkedin-icon.svg\" alt=\"LinkedIn\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on Facebook\" id=\"share-facebook\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/facebook-icon.svg\" alt=\"Facebook\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"#\" class=\"blog-social-icon\" aria-label=\"Share on X\" id=\"share-twitter\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/assets/images/icons/twitter-icon.svg\" alt=\"X\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></header>\n    <article class=\"blog-article ai-workflow-article\" itemscope itemtype=\"https://schema.org/BlogPosting\"><meta itemprop=\"headline\" content=\"The Impact of AI on the Modern UI/UX Design Workflow\" /><meta itemprop=\"datePublished\" content=\"2026-11-21\" />\n      <p class=\"blog-intro\">AI has moved from a novelty in a designer's toolkit to a working layer across the product-design process. It can turn a pile of notes into themes, create early interface directions, populate a prototype and surface inconsistencies in minutes. That is a genuine shift—but it is not a shortcut around good UX.</p>\n      <p class=\"blog-intro\">The strongest teams use AI to widen exploration and remove repetitive work, then bring human judgement back in wherever meaning, risk and trust are involved. Here is what that modern workflow looks like in practice.</p>\n      <section class=\"blog-page-section\" aria-labelledby=\"change\"><h2 class=\"section-heading\" id=\"change\">AI changes the pace of design—not the purpose of design</h2><p class=\"section-text\">The purpose of UI/UX work is still to help a person complete a meaningful task with clarity and confidence. AI does not change that job. What it changes is the time between a question and a useful design artefact.</p><div class=\"impact-grid\"><div class=\"impact-card\"><strong>More directions, earlier</strong><span>Teams can explore several structures, tones and visual systems before committing engineering time to a single route.</span></div><div class=\"impact-card\"><strong>Less blank-page work</strong><span>Research summaries, draft flows, placeholder content and component variations can help a team start from a considered first pass.</span></div><div class=\"impact-card\"><strong>Faster learning loops</strong><span>When prototypes and test materials are quicker to create, the conversation can move from opinion to evidence sooner.</span></div></div><p class=\"section-text\">The risk is mistaking speed for understanding. A beautifully generated screen can make a weak assumption look finished. Keep the user problem, success measure and constraints visible before asking AI to produce anything.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"research\"><h2 class=\"section-heading\" id=\"research\">1. Begin with research, framing and trustworthy inputs</h2><p class=\"section-text\">AI is especially helpful when the team has more information than it can comfortably hold: interview transcripts, support tickets, search queries, session notes and survey responses. It can cluster themes, identify repeated language and propose questions worth investigating. That makes synthesis faster, not automatic.</p><p class=\"section-text\">A researcher or designer still needs to check the source material, notice outliers, and distinguish a recurring complaint from the most emotionally vivid one. Inputs also deserve care: never add sensitive customer data, unreleased strategy or personal information to an unapproved tool.</p><ul class=\"section-list\"><li>Ask AI to create a traceable summary with links back to the original evidence.</li><li>Use it to generate competing hypotheses, not declare the single truth.</li><li>Record what was excluded, anonymised or uncertain before insights become product decisions.</li></ul></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"workflow\"><h2 class=\"section-heading\" id=\"workflow\">2. Turn a linear hand-off into a connected design loop</h2><p class=\"section-text\">The conventional design process is often described as research, wireframes, UI, prototype and test. AI makes those stages less separate. A newly observed user need can become a revised flow, a draft interface and a testable prototype while the insight is still fresh. The workflow should become more connected—not more careless.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/ai-ui-ux-workflow-map.png\" alt=\"Connected AI-assisted workflow from research insights through wireframes, design systems, prototypes and human review\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Use AI to make the loop shorter, while keeping a visible human review point before an idea becomes a product decision.</figcaption></figure><table class=\"workflow-table\"><thead><tr><th>Workflow moment</th><th>Where AI can help</th><th>What the team still owns</th></tr></thead><tbody><tr><td>Discover</td><td>Summarise patterns and create discussion prompts.</td><td>Research quality, interpretation and problem framing.</td></tr><tr><td>Explore</td><td>Generate alternate flows, content and visual starting points.</td><td>Information architecture, brand fit and deliberate trade-offs.</td></tr><tr><td>Build</td><td>Draft components, states and realistic prototype content.</td><td>System quality, accessibility and implementation feasibility.</td></tr><tr><td>Validate</td><td>Prepare test variations and analyse recurring feedback themes.</td><td>Real-user testing, prioritisation and final accountability.</td></tr></tbody></table></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"craft\"><h2 class=\"section-heading\" id=\"craft\">3. Use AI to expand exploration, not to approve the answer</h2><p class=\"section-text\">Generative tools are useful creative partners because they lower the cost of a variation. Ask for three hierarchy directions, an alternative onboarding path, or a content model for an edge case. Compare them against the actual user job and design-system rules. A wider option set is valuable only when the team knows how to evaluate it.</p><blockquote class=\"signal-note\">The useful question is not “Can AI make this screen?” It is “What decision does this help us test, and what evidence would prove it is a better choice?”</blockquote><p class=\"section-text\">That mindset preserves craft. Designers are not simply arranging generated objects; they are setting intent, editing for hierarchy, giving each interaction an appropriate state and making sure the whole experience speaks in one coherent voice.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"systems\"><h2 class=\"section-heading\" id=\"systems\">4. Make the design system the guardrail</h2><p class=\"section-text\">AI works best inside constraints. A maintained design system gives it a vocabulary: approved components, spacing, type scale, semantic colours, content patterns and accessibility requirements. Without those guardrails, fast generation becomes fast inconsistency.</p><p class=\"section-text\">Create a small approved context pack for any AI-assisted production task: the product's key users, relevant user journey, component rules, brand voice, content principles and non-negotiable accessibility needs. Review outputs as proposals, then bring accepted work back into the source of truth rather than leaving it as a one-off artefact.</p><ul class=\"section-list\"><li>Check generated contrast, focus treatment, error states and touch targets—not only the happy path.</li><li>Use real component names and interaction rules whenever tooling supports them.</li><li>Test whether generated copy is specific, inclusive and appropriate for the moment.</li></ul></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"validate\"><h2 class=\"section-heading\" id=\"validate\">5. Keep real people in the validation loop</h2><p class=\"section-text\">AI can make a prototype look convincingly complete before anybody has tried to use it. That is exactly why validation matters more, not less. Put the work in front of representative users, observe where they hesitate, and compare what they do with the confidence the interface appears to promise.</p><figure class=\"visual-figure\"><img src=\"/assets/images/blogs/ai-ui-ux-validation.png\" alt=\"Product team reviewing AI-generated interface directions alongside real user feedback and accessibility checks\" width=\"1536\" height=\"1024\" loading=\"lazy\" /><figcaption>Fast generation should create more opportunities to learn with users—not fewer opportunities for them to shape the product.</figcaption></figure><p class=\"section-text\">For consequential journeys—health, finance, employment, safety, access to services—human review needs to be explicit. Treat outputs as drafts until they have passed the appropriate product, legal, accessibility and domain checks.</p></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"govern\"><h2 class=\"section-heading\" id=\"govern\">6. Design the operating model, not only the interface</h2><p class=\"section-text\">The quality of AI-assisted design depends on the team around it. Agree which tools are approved, what data may be used, where AI-assisted work must be labelled, and who makes the final call. Create a lightweight record of prompts, source material, review decisions and validated learnings for high-impact work.</p><p class=\"section-text\">Then measure the complete outcome. Time saved is useful, but it is not the whole story. Pair it with task success, usability issues found, rework, accessibility defects, adoption and the confidence of both users and delivery teams.</p><div class=\"launch-check\"><h3>A practical AI workflow starter checklist</h3><ol><li>Choose one bounded, low-risk design task with a clear outcome.</li><li>Provide approved research, system rules and privacy boundaries before generation begins.</li><li>Ask for multiple directions and document the decision criteria.</li><li>Review interaction states, content, accessibility and feasibility with the right people.</li><li>Test the result with representative users and compare it with the previous baseline.</li><li>Keep what improved the workflow; revise or remove what only made it look faster.</li></ol></div></section>\n      <section class=\"blog-page-section\" aria-labelledby=\"future\"><h2 class=\"section-heading\" id=\"future\">The future workflow is faster—and more intentional</h2><p class=\"section-text\">AI is not removing the need for UI/UX design. It is raising the value of the parts that require judgement: seeing the real problem, asking better questions, recognising harmful assumptions, shaping a coherent system and standing behind the decision.</p><p class=\"section-text\">Use AI as a capable collaborator for exploration and production. Keep people accountable for meaning and impact. That balance is where the modern UI/UX workflow becomes both faster and genuinely better. <a href=\"/pages/main/contact-page.html\" class=\"blog-cta-link\">Talk to Webx Design Studio about designing an AI-enabled product experience</a>.</p></section>\n    </article></div></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-e5d26b20",
+          "label": "Related blogs",
+          "enabled": true,
+          "html": "<section class=\"related-blogs-section\" data-current=\"impact-ai-modern-ui-ux-design-workflow\" aria-label=\"Related blogs\"></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-87f8339c",
+          "label": "Call to action - start your project",
+          "enabled": true,
+          "html": "<section class=\"cta-banner-section\" aria-label=\"Call to action - start your project\"><div class=\"cta-banner-content\"><h2 class=\"cta-banner-title\">Ready to build something meaningful?</h2><a href=\"/pages/main/contact-page.html\" class=\"cta-banner-button\"><span>START YOUR PROJECT</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17L17 7M17 7H7M17 7V17\" /></svg></a></div></section>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-c0a20da4",
+          "label": "Site footer",
+          "enabled": true,
+          "html": "<footer class=\"footer-section\" aria-label=\"Site footer\"><div class=\"footer-container\"><div class=\"footer-top\"><div class=\"footer-logo\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"footer-logo-img\" width=\"140\" height=\"40\" loading=\"lazy\" /></div><div class=\"footer-social\"><a href=\"https://www.linkedin.com/in/piyushgohil8889/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on LinkedIn\"><img src=\"/assets/images/icons/linkedin-icon.webp\" alt=\"LinkedIn\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://dribbble.com/desinger8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Dribbble\"><img src=\"/assets/images/icons/dribbble-icon.webp\" alt=\"Dribbble\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a><a href=\"https://www.behance.net/Piyushgohil8889\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"social-icon\" aria-label=\"Webx Design Studio on Behance\"><img src=\"/assets/images/icons/behance-icon.webp\" alt=\"Behance\" class=\"social-icon-img\" width=\"24\" height=\"24\" loading=\"lazy\" /></a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Services</h3><div class=\"footer-links\"><a href=\"/pages/main/services.html\">UI/UX Design</a><a href=\"/pages/main/services.html\">Web Design</a><a href=\"/pages/main/services.html\">App Design</a><a href=\"/pages/main/services.html\">Branding</a></div></div><div class=\"footer-section-block\"><h3 class=\"footer-heading\">Company</h3><div class=\"footer-links\"><a href=\"/pages/main/about.html\">About Us</a><a href=\"/pages/blogs/blogs.html\">Blog</a><a href=\"/pages/main/contact-page.html\">Contact</a><a href=\"/pages/legal/privacy-policy.html\">Privacy Policy</a></div></div><div class=\"footer-bottom\"><p class=\"footer-copyright\">&copy; 2026 Webx Design Studio. All rights reserved</p></div></div><div class=\"footer-bg-text\" aria-hidden=\"true\"><img src=\"/assets/images/logos/webx-footer-logo-large.svg\" alt=\"\" class=\"footer-bg-image\" loading=\"lazy\" /></div></footer>"
+        },
+        {
+          "id": "impact-ai-modern-ui-ux-design-workflow-section-f58b5d62",
+          "label": "Bottom navigation",
+          "enabled": true,
+          "html": "<nav class=\"bottom-navbar\" aria-label=\"Bottom navigation\"><div class=\"bottom-nav-logo\"><a href=\"/\" class=\"logo-link\" aria-label=\"Webx Design Studio home\"><img src=\"/assets/images/logos/webx-logo.svg\" alt=\"Webx Design Studio\" class=\"logo-full\" width=\"100\" height=\"30\" loading=\"lazy\" /><img src=\"/assets/images/icons/webx-icon.svg\" alt=\"Webx\" class=\"logo-icon\" width=\"32\" height=\"32\" loading=\"lazy\" /></a></div><div class=\"bottom-nav-container\"><a href=\"/\" class=\"nav-item\"><img src=\"/assets/images/others/home.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Home</span></a><a href=\"/pages/main/work.html\" class=\"nav-item\"><img src=\"/assets/images/others/work.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Work</span></a><a href=\"/pages/main/services.html\" class=\"nav-item\"><img src=\"/assets/images/others/services.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Services</span></a><a href=\"/pages/main/about.html\" class=\"nav-item\"><img src=\"/assets/images/others/about.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">About</span></a><a href=\"/pages/main/contact-page.html\" class=\"nav-item\"><img src=\"/assets/images/others/contact.webp\" alt=\"\" class=\"nav-icon\" aria-hidden=\"true\" width=\"24\" height=\"24\" loading=\"lazy\" /><span class=\"nav-label\">Contact</span></a></div></nav>"
+        }
+      ],
+      "updatedAt": "2026-11-21T04:02:29.409Z"
     }
   },
   "services": [],
   "leads": [],
   "tracking": {
     "sessions": [
+      {
+        "id": "sess-7a66fbfe9dcb1a1fc4b0db8",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:59.670Z",
+        "lastSeenAt": "2026-11-21T04:14:15.162Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/work/morphico",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 315,
+        "scrollDepth": 51,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c87405db6734781a1fc4abca2",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:38.855Z",
+        "lastSeenAt": "2026-11-21T04:08:59.440Z",
+        "currentPage": "morphico",
+        "path": "/work/morphico",
+        "referrer": "http://localhost:3000/work",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 99,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-d6e2ee94b52df1a1fc4aaa5e",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:34.183Z",
+        "lastSeenAt": "2026-11-21T04:08:38.730Z",
+        "currentPage": "work",
+        "path": "/work",
+        "referrer": "http://localhost:3000/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b70888e0dc641a1fc4a8679",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:24.980Z",
+        "lastSeenAt": "2026-11-21T04:08:34.092Z",
+        "currentPage": "impact-ai-modern-ui-ux-design-workflow",
+        "path": "/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 6,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-719016f9487c1a1fc4a57e3",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:13.070Z",
+        "lastSeenAt": "2026-11-21T04:08:24.882Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 1,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-60b6ec94d650d1a1fc4a2cce",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:08:02.099Z",
+        "lastSeenAt": "2026-11-21T04:08:12.964Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-a63567e738e381a1fc49c460",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:07:35.368Z",
+        "lastSeenAt": "2026-11-21T04:08:01.808Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "http://localhost:3000/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 81,
+        "eventCount": 6,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-0bfacb73242e581a1fc478212",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:05:07.261Z",
+        "lastSeenAt": "2026-11-21T04:07:35.046Z",
+        "currentPage": "impact-ai-modern-ui-ux-design-workflow",
+        "path": "/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 135,
+        "scrollDepth": 100,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c744a394a808f1a1fc4767a7",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:05:00.527Z",
+        "lastSeenAt": "2026-11-21T04:05:00.527Z",
+        "currentPage": "designing-premium-pricing-pages-that-sell",
+        "path": "/blogs/designing-premium-pricing-pages-that-sell",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-5edb2bf4b258481a1fc47523f",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:04:55.017Z",
+        "lastSeenAt": "2026-11-21T04:04:55.017Z",
+        "currentPage": "ux-design-strategies-ai-powered-applications",
+        "path": "/blogs/ux-design-strategies-ai-powered-applications",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-4b5b6ed575ee881a1fc47447c",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:04:51.493Z",
+        "lastSeenAt": "2026-11-21T04:05:07.165Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 15,
+        "scrollDepth": 22,
+        "eventCount": 3,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-f1dac32629b7981a1fc473640",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:04:47.851Z",
+        "lastSeenAt": "2026-11-21T04:04:47.851Z",
+        "currentPage": "impact-ai-modern-ui-ux-design-workflow",
+        "path": "/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-bb1628e6f11c41a1fc457053",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:02:51.697Z",
+        "lastSeenAt": "2026-11-21T04:04:36.681Z",
+        "currentPage": "impact-ai-modern-ui-ux-design-workflow",
+        "path": "/blogs/impact-ai-modern-ui-ux-design-workflow",
+        "referrer": "http://localhost:3000/blogs",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 105,
+        "scrollDepth": 84,
+        "eventCount": 0,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-b46d083e30efb1a1fc452ddf",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:02:34.626Z",
+        "lastSeenAt": "2026-11-21T04:04:47.730Z",
+        "currentPage": "blogs",
+        "path": "/blogs",
+        "referrer": "http://localhost:3000/",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 30,
+        "scrollDepth": 6,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
+      {
+        "id": "sess-c0752c379ebce1a1fc45194e",
+        "visitorId": "ea879dde-72ca-48f7-9a32-2a7eb756ae5a",
+        "createdAt": "2026-11-21T04:02:29.380Z",
+        "lastSeenAt": "2026-11-21T04:02:34.503Z",
+        "currentPage": "home",
+        "path": "/",
+        "referrer": "Direct",
+        "viewport": "1920x919",
+        "device": "desktop",
+        "timezone": "Asia/Calcutta",
+        "language": "en-US",
+        "locationLabel": "en-US | Asia/Calcutta",
+        "activeSeconds": 0,
+        "scrollDepth": 0,
+        "eventCount": 2,
+        "pageViews": 1,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "ip": "1::*"
+      },
       {
         "id": "sess-2c4b7ce765a141a1f714f32a",
         "visitorId": "eae142b3-f710-4c19-856f-0b2b77ec0517",
@@ -10533,6 +11033,249 @@
       }
     ],
     "events": [
+      {
+        "id": "evt-1c61fdc2",
+        "sessionId": "sess-c87405db6734781a1fc4abca2",
+        "page": "morphico",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-11-21T04:08:59.440Z"
+      },
+      {
+        "id": "evt-80bb4087",
+        "sessionId": "sess-d6e2ee94b52df1a1fc4aaa5e",
+        "page": "work",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "VISIT",
+        "createdAt": "2026-11-21T04:08:38.730Z"
+      },
+      {
+        "id": "evt-bbe10184",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Work",
+        "createdAt": "2026-11-21T04:08:34.092Z"
+      },
+      {
+        "id": "evt-6ace1011",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:30.702Z"
+      },
+      {
+        "id": "evt-b49ae1c6",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:30.257Z"
+      },
+      {
+        "id": "evt-6f3a1da1",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:29.312Z"
+      },
+      {
+        "id": "evt-e5a027af",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:28.423Z"
+      },
+      {
+        "id": "evt-62578224",
+        "sessionId": "sess-b70888e0dc641a1fc4a8679",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:27.111Z"
+      },
+      {
+        "id": "evt-7d9b96ab",
+        "sessionId": "sess-719016f9487c1a1fc4a57e3",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:08:24.882Z"
+      },
+      {
+        "id": "evt-486351de",
+        "sessionId": "sess-60b6ec94d650d1a1fc4a2cce",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-21T04:08:12.964Z"
+      },
+      {
+        "id": "evt-f08260c1",
+        "sessionId": "sess-60b6ec94d650d1a1fc4a2cce",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:08:11.756Z"
+      },
+      {
+        "id": "evt-91fb4247",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-11-21T04:08:01.808Z"
+      },
+      {
+        "id": "evt-373733cc",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What tools and methods do you use?",
+        "createdAt": "2026-11-21T04:07:52.557Z"
+      },
+      {
+        "id": "evt-53038f85",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Can you help with custom tools like SaaS dashboards?",
+        "createdAt": "2026-11-21T04:07:51.921Z"
+      },
+      {
+        "id": "evt-0fbb2bc2",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "What industries do you specialize in?",
+        "createdAt": "2026-11-21T04:07:50.998Z"
+      },
+      {
+        "id": "evt-1fedea85",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "Do you work with early-stage startups?",
+        "createdAt": "2026-11-21T04:07:50.022Z"
+      },
+      {
+        "id": "evt-3e3ae71e",
+        "sessionId": "sess-a63567e738e381a1fc49c460",
+        "page": "home",
+        "type": "click",
+        "target": "button.faq-question",
+        "text": "How does better UI/UX design help my business?",
+        "createdAt": "2026-11-21T04:07:48.974Z"
+      },
+      {
+        "id": "evt-7a833c21",
+        "sessionId": "sess-0bfacb73242e581a1fc478212",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "a.logo-link",
+        "text": "",
+        "createdAt": "2026-11-21T04:07:35.046Z"
+      },
+      {
+        "id": "evt-c7469c6a",
+        "sessionId": "sess-0bfacb73242e581a1fc478212",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "button.cta-project-close",
+        "text": "×",
+        "createdAt": "2026-11-21T04:06:08.665Z"
+      },
+      {
+        "id": "evt-3ba6125c",
+        "sessionId": "sess-0bfacb73242e581a1fc478212",
+        "page": "impact-ai-modern-ui-ux-design-workflow",
+        "type": "click",
+        "target": "a.cta-banner-button",
+        "text": "START YOUR PROJECT",
+        "createdAt": "2026-11-21T04:06:07.154Z"
+      },
+      {
+        "id": "evt-c8e4f466",
+        "sessionId": "sess-4b5b6ed575ee881a1fc47447c",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:05:07.165Z"
+      },
+      {
+        "id": "evt-d96c91f2",
+        "sessionId": "sess-4b5b6ed575ee881a1fc47447c",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:05:00.291Z"
+      },
+      {
+        "id": "evt-624316d0",
+        "sessionId": "sess-4b5b6ed575ee881a1fc47447c",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:04:54.891Z"
+      },
+      {
+        "id": "evt-9c638e25",
+        "sessionId": "sess-b46d083e30efb1a1fc452ddf",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:04:47.730Z"
+      },
+      {
+        "id": "evt-2c81456d",
+        "sessionId": "sess-b46d083e30efb1a1fc452ddf",
+        "page": "blogs",
+        "type": "click",
+        "target": "a.blog-read-more",
+        "text": "READ MORE",
+        "createdAt": "2026-11-21T04:02:51.510Z"
+      },
+      {
+        "id": "evt-3fda99a4",
+        "sessionId": "sess-c0752c379ebce1a1fc45194e",
+        "page": "home",
+        "type": "click",
+        "target": "a.more-link",
+        "text": "Blog",
+        "createdAt": "2026-11-21T04:02:34.503Z"
+      },
+      {
+        "id": "evt-1847a169",
+        "sessionId": "sess-c0752c379ebce1a1fc45194e",
+        "page": "home",
+        "type": "click",
+        "target": "button.nav-item.more-toggle",
+        "text": "More",
+        "createdAt": "2026-11-21T04:02:33.156Z"
+      },
       {
         "id": "evt-c607fb2c",
         "sessionId": "sess-ffce46b01b2eb81a1f714dac2",
@@ -14789,249 +15532,6 @@
         "target": "a.nav-item",
         "text": "Services",
         "createdAt": "2026-08-13T09:57:40.096Z"
-      },
-      {
-        "id": "evt-1a79278f",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Work",
-        "createdAt": "2026-08-13T09:57:37.928Z"
-      },
-      {
-        "id": "evt-9d1e98e6",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:57:01.793Z"
-      },
-      {
-        "id": "evt-80c65ead",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:57:01.557Z"
-      },
-      {
-        "id": "evt-d2a3ff92",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:57:01.302Z"
-      },
-      {
-        "id": "evt-086aa2ab",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:57:01.087Z"
-      },
-      {
-        "id": "evt-3074618f",
-        "sessionId": "sess-7f76792996c1919ffa8d6b06",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:57:00.676Z"
-      },
-      {
-        "id": "evt-597cc086",
-        "sessionId": "sess-d9d0e14e26871819ffa8d3c14",
-        "page": "blogs",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Home",
-        "createdAt": "2026-08-13T09:56:39.717Z"
-      },
-      {
-        "id": "evt-291741a4",
-        "sessionId": "sess-d9d0e14e26871819ffa8d3c14",
-        "page": "blogs",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T09:56:38.369Z"
-      },
-      {
-        "id": "evt-81337821",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T09:56:27.757Z"
-      },
-      {
-        "id": "evt-74bacf8e",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.nav-item.more-toggle",
-        "text": "More",
-        "createdAt": "2026-08-13T09:56:26.319Z"
-      },
-      {
-        "id": "evt-409681cc",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:19.842Z"
-      },
-      {
-        "id": "evt-374be7df",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:19.612Z"
-      },
-      {
-        "id": "evt-8bd0c5a4",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:19.416Z"
-      },
-      {
-        "id": "evt-e6362b68",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:19.214Z"
-      },
-      {
-        "id": "evt-bf78230f",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-13T09:56:14.713Z"
-      },
-      {
-        "id": "evt-e38d62f3",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-13T09:56:14.485Z"
-      },
-      {
-        "id": "evt-01495ea6",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-13T09:56:14.262Z"
-      },
-      {
-        "id": "evt-ce4f5ccf",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-13T09:56:13.993Z"
-      },
-      {
-        "id": "evt-6ed551ba",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-prev",
-        "text": "â†",
-        "createdAt": "2026-08-13T09:56:12.968Z"
-      },
-      {
-        "id": "evt-9d45375a",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:10.873Z"
-      },
-      {
-        "id": "evt-0537c76f",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:10.307Z"
-      },
-      {
-        "id": "evt-7cd16b20",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:08.581Z"
-      },
-      {
-        "id": "evt-baf9d628",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:08.289Z"
-      },
-      {
-        "id": "evt-80866efd",
-        "sessionId": "sess-c6b95f180b3d219ffa8ccc97",
-        "page": "home",
-        "type": "click",
-        "target": "button.blog-arrow.blog-next",
-        "text": "â†’",
-        "createdAt": "2026-08-13T09:56:07.890Z"
-      },
-      {
-        "id": "evt-22ebc1d7",
-        "sessionId": "sess-e7be38b5a425c819ffa8ca1ec",
-        "page": "work",
-        "type": "click",
-        "target": "a.nav-item",
-        "text": "Home",
-        "createdAt": "2026-08-13T09:55:59.138Z"
-      },
-      {
-        "id": "evt-3f16eac0",
-        "sessionId": "sess-012fa147da7ec19ffa8cac4f",
-        "page": "blogs",
-        "type": "click",
-        "target": "a.blog-read-more",
-        "text": "READ MORE",
-        "createdAt": "2026-08-13T09:55:54.702Z"
-      },
-      {
-        "id": "evt-b7ccb8a9",
-        "sessionId": "sess-e7be38b5a425c819ffa8ca1ec",
-        "page": "work",
-        "type": "click",
-        "target": "a.more-link",
-        "text": "Blog",
-        "createdAt": "2026-08-13T09:55:50.951Z"
       }
     ],
     "replays": []
@@ -15556,6 +16056,31 @@
       "sections": []
     },
     {
+      "id": "blog-the-impact-of-ai-on-the-modern-ui-ux-design-workflow-webx-design-studio",
+      "title": "The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio",
+      "slug": "impact-ai-modern-ui-ux-design-workflow",
+      "metaTitle": "The Impact of AI on the Modern UI/UX Design Workflow | Webx Design Studio | Webx Design Studio",
+      "metaDescription": "Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.",
+      "image": "/assets/images/blogs/ai-ui-ux-workflow-cover.png",
+      "imageAlt": "Designer collaborating with an AI assistant across a modern UI UX workflow",
+      "dateValue": "2026-11-21",
+      "dateLabel": "Date: 21 Nov 26",
+      "excerpt": "Discover how AI is changing the UI/UX design workflow—from research and ideation to prototyping, testing and governance—while keeping human judgement at the centre.",
+      "intro": "",
+      "author": "Webx Design Studio",
+      "tags": [
+        "AI UI UX design workflow",
+        "AI in UX design",
+        "AI product design workflow",
+        "AI prototyping",
+        "human centered AI design"
+      ],
+      "keywords": [],
+      "status": "published",
+      "url": "/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html",
+      "sections": []
+    },
+    {
       "id": "blog-mobile-app-gesture-navigation-design-patterns-that-feel-natural-webx-design-studio",
       "title": "Mobile App Gesture Navigation: Design Patterns That Feel Natural | Webx Design Studio",
       "slug": "mobile-app-gesture-navigation-design-patterns",
@@ -15839,6 +16364,96 @@
   ],
   "activity": [
     {
+      "id": "act-55a5d627",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-21T04:08:59.703Z"
+    },
+    {
+      "id": "act-088180a6",
+      "type": "visitor",
+      "message": "Visitor opened morphico",
+      "createdAt": "2026-11-21T04:08:38.888Z"
+    },
+    {
+      "id": "act-7775e1e3",
+      "type": "visitor",
+      "message": "Visitor opened work",
+      "createdAt": "2026-11-21T04:08:34.221Z"
+    },
+    {
+      "id": "act-35591faa",
+      "type": "visitor",
+      "message": "Visitor opened impact-ai-modern-ui-ux-design-workflow",
+      "createdAt": "2026-11-21T04:08:25.003Z"
+    },
+    {
+      "id": "act-74ee7072",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-21T04:08:13.107Z"
+    },
+    {
+      "id": "act-94b20e62",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-21T04:08:02.133Z"
+    },
+    {
+      "id": "act-22367c7a",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-21T04:07:35.402Z"
+    },
+    {
+      "id": "act-003c2a05",
+      "type": "visitor",
+      "message": "Visitor opened impact-ai-modern-ui-ux-design-workflow",
+      "createdAt": "2026-11-21T04:05:07.294Z"
+    },
+    {
+      "id": "act-14cb2e56",
+      "type": "visitor",
+      "message": "Visitor opened designing-premium-pricing-pages-that-sell",
+      "createdAt": "2026-11-21T04:05:00.567Z"
+    },
+    {
+      "id": "act-8eb60181",
+      "type": "visitor",
+      "message": "Visitor opened ux-design-strategies-ai-powered-applications",
+      "createdAt": "2026-11-21T04:04:55.050Z"
+    },
+    {
+      "id": "act-f902057a",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-21T04:04:51.528Z"
+    },
+    {
+      "id": "act-b3c93ca7",
+      "type": "visitor",
+      "message": "Visitor opened impact-ai-modern-ui-ux-design-workflow",
+      "createdAt": "2026-11-21T04:04:47.884Z"
+    },
+    {
+      "id": "act-f3dd3016",
+      "type": "visitor",
+      "message": "Visitor opened impact-ai-modern-ui-ux-design-workflow",
+      "createdAt": "2026-11-21T04:02:51.735Z"
+    },
+    {
+      "id": "act-f71a9321",
+      "type": "visitor",
+      "message": "Visitor opened blogs",
+      "createdAt": "2026-11-21T04:02:34.660Z"
+    },
+    {
+      "id": "act-c21d7566",
+      "type": "visitor",
+      "message": "Visitor opened home",
+      "createdAt": "2026-11-21T04:02:29.410Z"
+    },
+    {
       "id": "act-55a3c073",
       "type": "visitor",
       "message": "Visitor opened how-to-modernize-outdated-design-system",
@@ -16107,96 +16722,6 @@
       "type": "visitor",
       "message": "Visitor opened psychological-triggers-web-design",
       "createdAt": "2026-10-27T04:22:50.202Z"
-    },
-    {
-      "id": "act-400cf00b",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-27T04:22:47.234Z"
-    },
-    {
-      "id": "act-c075de02",
-      "type": "visitor",
-      "message": "Visitor opened how-branding-builds-long-term-professional-trust",
-      "createdAt": "2026-10-27T04:22:42.999Z"
-    },
-    {
-      "id": "act-8ed59542",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-27T04:22:40.062Z"
-    },
-    {
-      "id": "act-9c97adeb",
-      "type": "visitor",
-      "message": "Visitor opened psychological-triggers-web-design",
-      "createdAt": "2026-10-27T04:22:26.393Z"
-    },
-    {
-      "id": "act-e559eeee",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-27T04:22:22.560Z"
-    },
-    {
-      "id": "act-5fb1d21f",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-27T04:22:18.873Z"
-    },
-    {
-      "id": "act-b8031b33",
-      "type": "visitor",
-      "message": "Visitor opened how-branding-builds-long-term-professional-trust",
-      "createdAt": "2026-10-24T04:24:45.058Z"
-    },
-    {
-      "id": "act-a9c3c007",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-24T04:23:00.755Z"
-    },
-    {
-      "id": "act-248c00a9",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-24T04:22:22.804Z"
-    },
-    {
-      "id": "act-b15b57e0",
-      "type": "visitor",
-      "message": "Visitor opened safe-website-redesign-launch-checklist",
-      "createdAt": "2026-10-22T09:06:17.782Z"
-    },
-    {
-      "id": "act-52353f08",
-      "type": "visitor",
-      "message": "Visitor opened blogs",
-      "createdAt": "2026-10-22T09:06:03.137Z"
-    },
-    {
-      "id": "act-1af4a910",
-      "type": "visitor",
-      "message": "Visitor opened home",
-      "createdAt": "2026-10-22T09:05:59.279Z"
-    },
-    {
-      "id": "act-9316af07",
-      "type": "visitor",
-      "message": "Visitor opened index.html",
-      "createdAt": "2026-10-21T04:31:09.723Z"
-    },
-    {
-      "id": "act-7bbd6148",
-      "type": "visitor",
-      "message": "Visitor opened dark-mode-light-mode-ui-psychology",
-      "createdAt": "2026-10-21T04:25:49.592Z"
-    },
-    {
-      "id": "act-33a3a8f7",
-      "type": "visitor",
-      "message": "Visitor opened index.html",
-      "createdAt": "2026-10-21T04:22:46.954Z"
     }
   ],
   "blogViews": {
@@ -16281,12 +16806,16 @@
       "viewers": {}
     },
     "/pages/blogs/designing-premium-pricing-pages-that-sell.html": {
-      "count": 1,
-      "viewers": {}
+      "count": 2,
+      "viewers": {
+        "377793b6f7863635e25adcbe74342c437d314ffabb1056ec40d5737dda56fdb7": 1795233900768
+      }
     },
     "/pages/blogs/ux-design-strategies-ai-powered-applications.html": {
-      "count": 1,
-      "viewers": {}
+      "count": 2,
+      "viewers": {
+        "8fc26ae50f5e347899682b77174ba26c089d4e747a6c1c60f25c33533d57d1da": 1795233895251
+      }
     },
     "/pages/blogs/creating-user-centric-lead-magnets-professional-studios.html": {
       "count": 3,
@@ -16302,8 +16831,12 @@
     },
     "/pages/blogs/how-to-modernize-outdated-design-system.html": {
       "count": 1,
+      "viewers": {}
+    },
+    "/pages/blogs/impact-ai-modern-ui-ux-design-workflow.html": {
+      "count": 1,
       "viewers": {
-        "a36cfc439b49ff85a6c07d3922f34f8529c861ab1c38d1a959b057e5c9eaa33b": 1795146708099
+        "5222db62b781d62b09dcd6fe64d5f8764dd4f9de10f3a921691f29ffcbcca916": 1795233771958
       }
     }
   }
